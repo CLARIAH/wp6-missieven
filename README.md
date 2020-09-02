@@ -10,7 +10,7 @@ General Missives
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/Nino-cunei/oldassyrian/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/Dans-labs/clariah-gm)
 
-<!--[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3909515.svg)](https://doi.org/10.5281/zenodo.3909515)-->
+[![DOI](https://zenodo.org/badge/292204502.svg)](https://zenodo.org/badge/latestdoi/292204502)
 
 
 Status
