@@ -126,19 +126,18 @@ and that we record `pb` elements in order to keep the sequence of pages intact.
 
 attribute | example | node type | feature | remarks
 --- | --- | --- | --- | ---
-`id` | `INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1` | skipped | TF has its own local identifiers: nodes
-`type` | `text`, `body`, `div`, | `text`, `body`, `div` | none | no additional information
-`type` | `lb` | `line` | `otype` | the type of all nodes ends up in the standard `otype` feature
-`type` | `pb` | `page` | `otype` | the type of all nodes ends up in the standard `otype` feature
-`type` | `note` | `note` | `otype`, `text` | plain, unmarked up text of the note
-`xpath` | `/TEI/text[1]` | skipped | TF has its own local identifiers: nodes
-`offset` | `0` | none | `oslots` | the extent of all nodes ends up in the standard `oslots` feature 
-`length` | `1091` | none | `oslots` | the extent of all nodes ends up in the standard `oslots` feature 
+`id` | `INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1` | skipped | none | TF has its own local identifiers: nodes
+`type` | `text`, `body`, `div`, | `text`, `body`, `div` | `otype` | the type of all nodes ends up in the standard `otype` feature
+`type` | `lb`, `pb` | `line`, `page` | `otype` | the type of all nodes ends up in the standard `otype` feature
+`type` | `note` | `note` | `otype`, `text` | plain text of the note
+`xpath` | `/TEI/text[1]` | skipped | none | TF has its own local identifiers: nodes
+`offset`, `length` | `0`, `1091` | none | `oslots` | the text location of all nodes ends up in the standard `oslots` feature 
 
-The `id` and `xpath` attributes contain the information to locate the element in the hierarchy
-of XML elements in the text. We could use this to represent that hierarchy by means
-of edge features.
-However, we have not done that, because in the Text-Fabric the embeddedness of the nodes
-is completely clear, and while that is not exactly the same as the tree-relation,
-it is sufficient, because the TEI elements encode merely a rather shallow sectional hierarchy
-and not a deep linguistic hierarchy.
+!!! note "Hierarchy"
+    The `id` and `xpath` attributes contain the information to locate the element in the hierarchy
+    of XML elements in the text. We could use this to represent that hierarchy by means
+    of edge features.
+    However, we have not done that, because in the Text-Fabric the embeddedness of the nodes
+    is completely clear, and while that is not exactly the same as the tree-relation,
+    it is sufficient, because the TEI elements encode merely a rather shallow sectional hierarchy
+    and not a deep linguistic hierarchy.
