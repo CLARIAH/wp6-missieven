@@ -133,11 +133,12 @@ attribute | example | node type | feature | remarks
 `xpath` | `/TEI/text[1]` | skipped | none | TF has its own local identifiers: nodes
 `offset`, `length` | `0`, `1091` | none | `oslots` | the text location of all nodes ends up in the standard `oslots` feature 
 
-!!! note "Hierarchy"
-    The `id` and `xpath` attributes contain the information to locate the element in the hierarchy
-    of XML elements in the text. We could use this to represent that hierarchy by means
-    of edge features.
-    However, we have not done that, because in the Text-Fabric the embeddedness of the nodes
-    is completely clear, and while that is not exactly the same as the tree-relation,
-    it is sufficient, because the TEI elements encode merely a rather shallow sectional hierarchy
-    and not a deep linguistic hierarchy.
+### Hierarchy
+
+The `id` and `xpath` attributes contain the information to locate the element in the hierarchy
+of XML elements in the text. We could use this to represent that hierarchy by means
+of edge features.
+However, we have not done that, because in the Text-Fabric the embeddedness of the nodes
+is completely clear, and while that is not exactly the same as the tree-relation,
+it is sufficient, because the TEI elements encode merely a rather shallow sectional hierarchy
+and not a deep linguistic hierarchy.
