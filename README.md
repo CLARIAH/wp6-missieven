@@ -95,5 +95,10 @@ This repo is by
 
 with the help of the CLARIAH WP6 people mentioned above.
 
-**N.B.:** Releases of this repo have been archived at [Zenodo](https://zenodo.org).
-Click the DOI badge to be taken to the archive. There you find ways to cite this work.
+**N.B.:** Releases of this repo have been archived:
+
+* at [Zenodo](https://zenodo.org)
+* at [Software Heritage](https://archive.softwareheritage.org)
+
+Click the respective badges above to be taken to the archives.
+There you find ways to cite this work.
