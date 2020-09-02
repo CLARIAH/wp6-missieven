@@ -56,7 +56,7 @@ of the text and markup of the corpus in
 [NAF](http://wordpress.let.vupr.nl/naf/) format.
 
 From there I made a conversion
-[tfFromNaf.py](https://github.com/Dans-labs/clariah-gm/programs/blob/master/tfFromNaf.py)
+[tfFromNav.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromNaf.py)
 to turn it in a Text-Fabric dataset.
 
 The reason for this exercise is that Text-Fabric takes the concept of stand-off annotation
@@ -71,6 +71,9 @@ for more experiences with Text-Fabric as a corpus pre-processing tool.
 Text-Fabric operates in the ecosystem of Python and its libraries
 and is particularly suited to Jupyter notebooks.
 
+For details about the conversion from NAF to TF, see 
+[transcription](docs/transcription.md)
+
 Getting started
 ===============
 
@@ -82,7 +85,7 @@ Authors
 
 This repo is by
 
-*   [Dirk Roorda](https://www.linkedin.com/in/dirkroorda/) at
+*   [Dirk Roorda](https://pure.knaw.nl/portal/en/persons/dirk-roorda) at
     [DANS](https://www.dans.knaw.nl)
 
 with the help of the CLARIAH WP6 people mentioned above.
