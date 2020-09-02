@@ -125,7 +125,7 @@ and that we record `pb` elements in order to keep the sequence of pages intact.
 
 
 attribute | example | node type | feature | remarks
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 `id` | `INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1` | skipped | TF has its own local identifiers: nodes
 `type` | `text`, `body`, `div`, | `text`, `body`, `div` | none | no additional information
 `type` | `lb` | `line` | `otype` | the type of all nodes ends up in the standard `otype` feature
