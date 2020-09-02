@@ -23,7 +23,7 @@ This is **work in progress!**
 Corpus
 ------
 
-This repo contains a version of the data of the *General Missives*.
+This repo contains a Text-Fabric (TF) version of the data of the *General Missives*.
 
 The *Generale Missiven* is a collection of letters from governors of the
 VOC (Dutch East Indian Company) to
@@ -34,21 +34,24 @@ government of the Low Countries at the time of the 17th and 18th century.
 The letters comprise 13 volumes and date from 1610 to 1761.
 
 The Huygens-ING institute publishes this material:
-[General Missives Website](http://resources.huygens.knaw.nl/retroboeken/generalemissiven/#page=0&accessor=toc&view=homePane).
+[General Missives Website](http://resources.huygens.knaw.nl/retroboeken/generalemissiven/#page=0&accessor=toc&view=homePane),
+see also
+[General Missives Project](http://resources.huygens.knaw.nl/vocgeneralemissiven);
+both websites are in Dutch.
 
-See also
-[General Missives Project (in Dutch)](http://resources.huygens.knaw.nl/vocgeneralemissiven).
-
-The CLARIAH project uses this material in its Work Package 6 which deals with
+The CLARIAH project uses a TEI version of this corpus in its Work Package 6 which deals with
 new infrastructure for academic text processing:
 [WP6-Text](https://www.clariah.nl/en/work-packages/focus-areas/text?layout=blog).
-This work is conducted and carried out by
+That work is conducted and carried out by
 
 * [Lodewijk Petram](https://www.lodewijkpetram.nl)
 * [Jesse de Does](https://www.researchgate.net/profile/Jesse_De_Does)
 * [Sophie Arnoult](http://www.illc.uva.nl/People/person/3601/Ir-Sophie-Arnoult)
 
-This representation of the corpus data
+This repo does not publish the source/intermediate data as developed in CLARIAH-WP6;
+they will publish their materials in due course.
+
+Text-Fabric
 --------------------------------------
 
 The CLARIAH WP6 people kindly provided me with an intermediate version
@@ -71,6 +74,8 @@ for more experiences with Text-Fabric as a corpus pre-processing tool.
 Text-Fabric operates in the ecosystem of Python and its libraries
 and is particularly suited to Jupyter notebooks.
 
+TF from NAF
+-----------
 For details about the conversion from NAF to TF, see 
 [transcription](docs/transcription.md)
 
