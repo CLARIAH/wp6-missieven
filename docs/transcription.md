@@ -75,9 +75,9 @@ fol. 13-19 | `folio` (converted to `13-19`)
 
 Then the plain text follows until `- ( De rest van deze brief ...)`.
 
-The text, without punctuation is stored word by word on slots, in the feature `orig`.
+The text, without punctuation is stored word by word on slots, in the feature `trans`.
 All punctuation, including spaces, is stored on the slot of the preceding word,
-in the feature `trailer`.
+in the feature `punc`.
 
 Whitespace will be normalized to single spaces or newlines.
 
@@ -112,7 +112,7 @@ Here is what we do with the information in these elements.
 In general, the TEI elements correspond to nodes in TF of a node type that carries the
 same name as the TEI element.
 
-However, we will not convert the empty break elements (`lb` line, `pb` page) element
+However, we will not convert the empty break elements (`lb` line, `pb` page)
 in this way.
 Instead, we introduce the node types `line` and `page` in TF,
 and use the break elements to determine the extent of the lines and pages.
