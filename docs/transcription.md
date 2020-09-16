@@ -10,25 +10,8 @@ The `teiHeader` header gives a the metadata.
 We distil key value pairs and each key corresponds to a TF feature of the same name
 with values for letter nodes.
 
-We peel most keys and values from the `interpGrp` elements.
-
-Here is a list of resulting TF features and where they come from:
-
-TF feature | TEI element | type | remarks
---- | --- | --- | ---
-pid | interpGrp | `pid` |
-page | interpGrp | `page` |
-seq | interpGrp | `n` |
-title | interpGrp | `titleLevel1` |
-rawdate | interpGrp | `dateLevel1` |
-place | interpGrp | `localization_placeLevel1` |
-yearFrom | interpGrp | `witnessYearLevel1_from` |
-yearTo | interpGrp | `witnessYearLevel1_to` |
-monthFrom | interpGrp | `witnessMonthLevel1_from` |
-monthTo | interpGrp | `witnessMonthLevel1_to` |
-dayFrom | interpGrp | `witnessDayLevel1_from` |
-dayTo | interpGrp | `witnessDayLevel1_to` |
-authors | interpGrp | `authorLevel1` | comma separated contents of child elements
+We peel most keys and values from the `interpGrp` elements and they
+end up as features of letter nodes, see below.
 
 The version number of the TEI set is used in the
 [tfFromTrim](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromTrim.py)
@@ -107,7 +90,7 @@ Each of the letters corresponds with a letter node.
 This is a *structure* of level 2.
 
 feature | type | source | description | remarks
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 authors | string | `authorLevel1` | e.g. `De Carpentier, De Houtman, Dedel, Sonck, Specx, Van Gorcom` | comma separated contents of child elements
 dayFrom | integer | `witnessDayLevel1_from` | e.g. `25` |
 dayTo | integer | `witnessDayLevel1_to` | e.g. `25` |
@@ -202,10 +185,10 @@ No features.
 
 ### Hierarchy
 
-The `id` and `xpath` attributes contain the information to locate the element in the hierarchy
-of XML elements in the text. We could use this to represent that hierarchy by means
-of edge features.
-However, we have not done that, because in the Text-Fabric the embeddedness of the nodes
+In the Text-Fabric the embeddedness of the nodes
 is completely clear, and while that is not exactly the same as the tree-relation,
 it is sufficient, because the TEI elements encode merely a rather shallow sectional hierarchy
 and not a deep linguistic hierarchy.
+
+Should there arise the need for encoding hierarchy precisely, we can introduce edge features
+to encode the parent-child relation of the trees in question.
