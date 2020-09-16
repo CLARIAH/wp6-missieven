@@ -1,0 +1,145 @@
+dirk:~/github/Dans-labs/clariah-gm/programs > python3 tfFromTrim.py
+trimmed TEI to TF converter for clariah-gm
+TEI source version = 2020-09-10
+TF  target version = 0.1
+This is Text-Fabric 8.4.1
+Api reference : https://annotation.github.io/text-fabric/cheatsheet.html
+
+30 features found and 0 ignored
+  0.00s Importing data from walking through the source ...
+   |     0.00s Preparing metadata... 
+   |   SECTION   TYPES:    volume, page, line
+   |   SECTION   FEATURES: n, n, n
+   |   STRUCTURE TYPES:    volume, letter, para
+   |   STRUCTURE FEATURES: n, title, n
+   |   TEXT      FEATURES:
+   |      |   text-orig-full       punc, trans
+   |     0.00s OK
+   |     0.00s Following director... 
+volume  1                                                                      
+volume  2                                                                      
+volume  3                                                                      
+volume  4                                                                      
+volume  5                                                                      
+volume  6                                                                      
+volume  7                                                                      
+volume  8                                                                      
+volume  9                                                                      
+volume 10                                                                      
+volume 11                                                                      
+volume 12                                                                      
+volume 13                                                                      
+done                                                                      
+WARNING: feature location does not occur
+WARNING: feature data does not occur
+WARNING: feature lid does not occur
+   |       32s "edge" actions: 0
+   |       32s "feature" actions: 4353540
+   |       32s "node" actions: 437961
+   |       32s "resume" actions: 0
+   |       32s "slot" actions: 3874603
+   |       32s "terminate" actions: 439668
+   |      21622 x "cell" node 
+   |        823 x "head" node 
+   |        569 x "letter" node 
+   |     344181 x "line" node 
+   |      10985 x "page" node 
+   |      54736 x "para" node 
+   |       4695 x "row" node 
+   |        337 x "table" node 
+   |         13 x "volume" node 
+   |    3874603 x "word" node  = slot type
+   |    4312564 nodes of all types
+   |       33s OK
+   |     0.14s Removing unlinked nodes ... 
+   |      |     0.00s      7 unlinked "letter" nodes: [149, 174, 175, 208, 310] ...
+   |      |     0.00s    153 unlinked "page" nodes: [36, 38, 58, 238, 322] ...
+   |      |     0.00s  11029 unlinked "line" nodes: [48, 92, 131, 154, 203] ...
+   |      |     0.05s     85 unlinked "para" nodes: [57, 64, 80, 87, 170] ...
+   |      |     0.05s      2 unlinked "table" nodes: [212, 324]
+   |      |     0.05s    279 unlinked "row" nodes: [145, 150, 186, 338, 339] ...
+   |      |     0.05s   5775 unlinked "cell" nodes: [12, 15, 20, 21, 24] ...
+   |      |     0.07s  17330 unlinked nodes
+   |      |     0.07s Leaving 4295234 nodes
+   |     0.00s checking for nodes and edges ... 
+   |     0.00s OK
+   |     0.00s checking features ... 
+   |     0.15s OK
+   |     0.00s reordering nodes ...
+   |     1.48s Sorting 15847 nodes of type "cell"
+   |     1.51s Sorting 823 nodes of type "head"
+   |     1.51s Sorting 562 nodes of type "letter"
+   |     1.80s Sorting 333152 nodes of type "line"
+   |     2.57s Sorting 10832 nodes of type "page"
+   |     2.89s Sorting 54651 nodes of type "para"
+   |     3.23s Sorting 4416 nodes of type "row"
+   |     3.24s Sorting 335 nodes of type "table"
+   |     3.25s Sorting 13 nodes of type "volume"
+   |     3.66s Max node = 4295234
+   |     3.66s OK
+   |     0.00s reassigning feature values ...
+   |      |     4.46s node feature "authors" with 484 nodes
+   |      |     4.46s node feature "col" with 15847 nodes
+   |      |     4.46s node feature "dayFrom" with 480 nodes
+   |      |     4.46s node feature "dayTo" with 480 nodes
+   |      |     4.46s node feature "emph" with 12277 nodes
+   |      |     4.47s node feature "facs" with 10832 nodes
+   |      |     4.48s node feature "folio" with 2169 nodes
+   |      |     4.48s node feature "monthFrom" with 479 nodes
+   |      |     4.48s node feature "monthTo" with 479 nodes
+   |      |     4.48s node feature "n" with 398983 nodes
+   |      |     4.69s node feature "page" with 562 nodes
+   |      |     4.69s node feature "pid" with 562 nodes
+   |      |     4.69s node feature "place" with 28 nodes
+   |      |     4.69s node feature "punc" with 3874603 nodes
+   |      |     6.02s node feature "rawdate" with 484 nodes
+   |      |     6.02s node feature "remark" with 22667 nodes
+   |      |     6.03s node feature "row" with 20263 nodes
+   |      |     6.04s node feature "seq" with 562 nodes
+   |      |     6.04s node feature "special" with 652 nodes
+   |      |     6.04s node feature "super" with 607 nodes
+   |      |     6.04s node feature "title" with 562 nodes
+   |      |     6.04s node feature "tpl" with 10832 nodes
+   |      |     6.05s node feature "trans" with 3874603 nodes
+   |      |     7.39s node feature "und" with 982 nodes
+   |      |     7.39s node feature "vol" with 10832 nodes
+   |      |     7.39s node feature "yearFrom" with 480 nodes
+   |      |     7.39s node feature "yearTo" with 480 nodes
+   |     3.53s OK
+  0.00s Exporting 28 node and 1 edge and 1 config features to ~/github/Dans-labs/clariah-gm/tf/0.1:
+  0.00s VALIDATING oslots feature
+  0.44s VALIDATING oslots feature
+  0.44s maxSlot=    3874603
+  0.44s maxNode=    4295234
+  0.50s OK: oslots is valid
+   |     0.00s T authors              to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.02s T col                  to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T dayFrom              to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T dayTo                to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.01s T emph                 to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.01s T facs                 to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T folio                to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T monthFrom            to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T monthTo              to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.40s T n                    to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     1.08s T otype                to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T page                 to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T pid                  to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T place                to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     4.00s T punc                 to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T rawdate              to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.08s T remark               to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.02s T row                  to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T seq                  to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T special              to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T super                to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T title                to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.01s T tpl                  to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     4.32s T trans                to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T und                  to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.01s T vol                  to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T yearFrom             to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s T yearTo               to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     2.52s T oslots               to ~/github/Dans-labs/clariah-gm/tf/0.1
+   |     0.00s M otext                to ~/github/Dans-labs/clariah-gm/tf/0.1
+    13s Exported 28 node features and 1 edge features and 1 config features to ~/github/Dans-labs/clariah-gm/tf/0.1

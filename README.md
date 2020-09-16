@@ -18,6 +18,11 @@ Status
 
 This is **work in progress!**
 
+*   2020-09-16 First TF dataset created, but incomplete (notes are left out, checks needed)
+    See 
+    [last trimTei run](log-trimTei.txt)
+    and
+    [last tfFromTrim run](log-tfFromTrim.txt)
 *   2020-09-02 Repository created, no content yet, start of conversion coding.
 
 Corpus
@@ -54,13 +59,21 @@ they will publish their materials in due course.
 Text-Fabric
 --------------------------------------
 
-The CLARIAH WP6 people kindly provided me with an intermediate version
-of the text and markup of the corpus in 
-[NAF](http://wordpress.let.vupr.nl/naf/) format.
+The CLARIAH WP6 people kindly provided me with the TEI version of the corpus.
 
 From there I made a conversion
-[tfFromNav.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromNaf.py)
-to turn it in a Text-Fabric dataset.
+[trimTei.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei.py)
+to simplified pseudo TEI, leaving out all bits that do not end up in the final dataset,
+and reorganizing some material to facilitate the conversion to TF.
+
+Then I used the
+[walker module from TF](https://annotation.github.io/text-fabric/convert/walker.html#gsc.tab=0)
+to turn the simple XML into TF.
+See
+[tfFromTrim.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromTrim.py).
+
+Rationale
+-----------------
 
 The reason for this exercise is that Text-Fabric takes the concept of stand-off annotation
 to an extreme,
@@ -74,16 +87,19 @@ for more experiences with Text-Fabric as a corpus pre-processing tool.
 Text-Fabric operates in the ecosystem of Python and its libraries
 and is particularly suited to Jupyter notebooks.
 
-TF from NAF
+TF from TEI
 -----------
-For details about the conversion from NAF to TF, see 
+For details about the conversion from TEI to TF, see 
 [transcription](docs/transcription.md)
 
 Getting started
 ===============
 
+**to come:**
+
 Start with the
 [tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/generalmissives/start.ipynb).
+
 
 Authors
 =======
