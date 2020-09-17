@@ -1,6 +1,7 @@
 import sys
 import os
 import collections
+import re
 
 import xml.etree.ElementTree as ET
 
@@ -257,6 +258,17 @@ def director(cv):
     volumes = getVolumes(TRIM_DIR)
 
     cur = {}
+    notes = dict(
+        marks={},
+        bodies={},
+        totalMarks=0,
+        totalBodies=0,
+        ambiguousMarks={},
+        ambiguousBodies={},
+        unresolvedMarks={},
+        unresolvedBodies={},
+        unmarkedBodies={},
+    )
 
     for vol in volumes:
         if givenVol is not None and givenVol != vol:
@@ -264,6 +276,8 @@ def director(cv):
         print(f"\rvolume {vol:>2}" + " " * 70)
 
         cur["volume"] = cv.node("volume")
+        cur["vol"] = vol
+
         cv.feature(cur["volume"], n=vol)
 
         thisTrimDir = f"{TRIM_DIR}/{vol}"
@@ -277,11 +291,14 @@ def director(cv):
             with open(f"{thisTrimDir}/{name}") as fh:
                 text = fh.read()
                 root = ET.fromstring(text)
-            walkLetter(cv, root, cur)
+            walkLetter(cv, root, cur, notes)
 
         cv.terminate(cur["volume"])
 
     print("\rdone" + " " * 70)
+
+    reportNotes(notes)
+    sys.exit()
 
     # delete meta data of unused features
 
@@ -299,29 +316,23 @@ def director(cv):
 # WALKERS
 
 
-def walkLetter(cv, root, cur):
+def walkLetter(cv, root, cur, notes):
     cur["letter"] = cv.node("letter")
     cur["ln"] = 0
     cur["p"] = 0
+    cur["fn"] = None
 
     for child in root:
         if child.tag == "header":
             collectMeta(cv, child, cur)
         if child.tag == "body":
-            walkNode(cv, child, cur)
+            walkNode(cv, child, cur, notes)
 
     cv.terminate(cur.get("line", None))
+    doNotes(cv, cur, notes)
     cv.terminate(cur.get("page", None))
-    cv.terminate(cur.get("para", None))
     cv.terminate(cur["letter"])
 
-
-PB_ATTS = """
-    n
-    vol
-    facs
-    tpl
-""".strip().split()
 
 TEXT_ATTRIBUTES = """
     emph
@@ -330,74 +341,155 @@ TEXT_ATTRIBUTES = """
     und
 """.strip().split()
 
-NODE_ELEMENTS = set("""
+NODE_ELEMENTS = set(
+    """
+    para
     head
     table
     row
     cell
-""".strip().split())
+""".strip().split()
+)
 
+BREAKS = set(
+    """
+    pb
+    lb
+""".strip().split()
+)
 
-COMMENT_ELEMENTS = set("""
+COMMENT_ELEMENTS = set(
+    """
     folio
     remark
-""".strip().split())
+""".strip().split()
+)
+
+DO_TEXT_ELEMENTS = set(
+    """
+    head
+    para
+    cell
+    emph
+    super
+    und
+    special
+""".strip().split()
+)
+
+DO_TAIL_ELEMENTS = set(
+    """
+    pb
+    lb
+    table
+    emph
+    super
+    und
+    special
+    folio
+    remark
+    fref
+""".strip().split()
+)
+
+DOWN_REF_RE = re.compile(r"""\[=([^\]]*)\]""")
 
 
-def walkNode(cv, node, cur):
+def walkNode(cv, node, cur, notes):
+    """Handle all elements in the XML file.
+
+    List of all elements and attributes.
+    All attributes will translate to features.
+    Some node types get extra features.
+    Feature n is a sequence number relative to a bigger unit
+
+    elem | kind | converts to
+    --- | --- | ---
+    teiTrim | top-level element of a letter | --
+    header | holds metadata elements of a letter | --
+    meta.key,value | holds a piece of metadata | feature key with value on letter node
+    body | holds all text of a letter | --
+    head | heading in the text | node type head, no features
+    para | paragraph | node type para, n within letter
+    pb.facs,n,tpl,vol |page break (empty element) | node type page, n within letter
+    lb | line break (empty element) | node type line, n within page
+    table.n | holds a table with rows and cells | node type table, n within corpus
+    row.n,row | holds a table row with cells | node type row
+    cell.n,row,col | holds material in a table cell node type cell
+    emph | inline formatting (italic-bold-large mixture) | binary feature emph
+    super | inline formatting (superscript) | binary feature supe
+    und | inline formatting (underline) | binary feature und
+    special | inline formatting | binary feature special
+    folio | reference to a folio page | feature folio
+    remark | editorial text in the text flow | feature remark
+    fnote.fref | footnote text at the end of a page | feature footnote at place of fref
+    fref | footnote reference within the text flow | used to bind fnote to this spot
+    """
+
     tag = node.tag
     atts = node.attrib
 
-    if tag == "pb":
+    if tag in BREAKS:
         cv.terminate(cur.get("line", None))
-        cv.terminate(cur.get("page", None))
-        cur["page"] = cv.node("page")
+        if tag == "pb":
+            doNotes(cv, cur, notes)
+            cv.terminate(cur.get("page", None))
+            cur["page"] = cv.node("page")
+            cv.feature(cur["page"], **featsFromAtts(atts))
+            cur["pg"] = f"{cur['vol']:>02}:p{atts['n']:>04}"
+            cur["ln"] = 1
+        elif tag == "lb":
+            cur["ln"] += 1
         cur["line"] = cv.node("line")
-        cur["ln"] = 1
-        cv.feature(cur["page"], **featsFromAtts(node, PB_ATTS))
         cv.feature(cur["line"], n=cur["ln"])
-        addText(cv, node.text, cur)
-    elif tag == "lb":
-        cv.terminate(cur.get("line", None))
-        cur["line"] = cv.node("line")
-        cur["ln"] += 1
-        cv.feature(cur["line"], n=cur["ln"])
-        addText(cv, node.text, cur)
-    elif tag == "p":
-        cur["p"] += 1
-        cur["para"] = cv.node("para")
-        cv.feature(cur["para"], n=cur["p"])
-        addText(cv, node.text, cur)
-    elif tag == "head":
-        cur["head"] = cv.node("head")
-        addText(cv, node.text, cur)
-    elif tag == "table":
-        cur["table"] = cv.node("table")
-        cv.feature(cur["table"], n=atts.get("n", None))
-    elif tag == "row":
-        cur["row"] = cv.node("row")
-        cv.feature(cur["row"], row=atts.get("row", None))
-    elif tag == "cell":
-        cur["cell"] = cv.node("cell")
-        cv.feature(cur["cell"], row=atts.get("row", None), col=atts.get("col", None))
-        addText(cv, node.text, cur)
+
+    elif tag in NODE_ELEMENTS:
+        curNode = cv.node(tag)
+        cur[tag] = curNode
+        if atts:
+            cv.feature(curNode, **featsFromAtts(atts))
+        if tag == "para":
+            cur["p"] += 1
+            cv.feature(cur["para"], n=cur["p"])
+
     elif tag in COMMENT_ELEMENTS:
-        cv.feature(cur["word"], **{tag: node.text})
+        curWord = cur["word"]
+        text = node.text
+        cv.feature(curWord, **{tag: text})
+        for ref in DOWN_REF_RE.findall(text):
+            notes["marks"].setdefault(ref, []).append((curWord, cur["ln"]))
+
     elif tag in TEXT_ATTRIBUTES:
         cur[tag] = 1
+
+    elif tag == "fref":
+        notes["marks"].setdefault(node.text, []).append((cur["word"], cur["ln"]))
+        notes["totalMarks"] += 1
+
+    elif tag == "fnote":
+        bodies = notes["bodies"]
+        notes["totalBodies"] += 1
+        fref = atts.get("fref", None)
+        bodies.setdefault(fref, []).append(node.text)
+        cur["fn"] = bodies[fref]
+
+    if tag in DO_TEXT_ELEMENTS:
         addText(cv, node.text, cur)
 
     for child in node:
-        walkNode(cv, child, cur)
+        walkNode(cv, child, cur, notes)
 
-    if tag == "p":
-        cv.terminate(cur["para"])
-    elif tag in NODE_ELEMENTS:
+    if tag in NODE_ELEMENTS:
         cv.terminate(cur[tag])
+
     elif tag in TEXT_ATTRIBUTES:
         cur[tag] = None
 
-    addText(cv, node.tail, cur)
+    elif tag == "fnote":
+        cur["fn"] = None
+
+    if tag in DO_TAIL_ELEMENTS:
+        addText(cv, node.tail, cur)
 
 
 # AUXILIARY
@@ -410,23 +502,117 @@ def collectMeta(cv, node, cur):
     cv.feature(cur["letter"], **info)
 
 
-def featsFromAtts(node, feats):
+def featsFromAtts(atts):
     return {
-        feat: int(atts[feat].lstrip("0")) if feat in intFeatures else atts[feat]
-        for feat in feats
-        if feat in (atts := node.attrib)
+        feat: int(value.lstrip("0")) if feat in intFeatures else value
+        for (feat, value) in atts.items()
+        if value is not None
     }
 
 
 def addText(cv, text, cur):
     if text:
-        for word in text.split():
-            curWord = cv.slot()
-            cur["word"] = curWord
-            cv.feature(curWord, trans=word, punc=" ")
-            for tag in TEXT_ATTRIBUTES:
-                if cur.get(tag, None):
-                    cv.feature(curWord, **{tag: 1})
+        dest = cur["fn"]
+        if dest:
+            dest[-1] += text
+        else:
+            for word in text.split():
+                curWord = cv.slot()
+                cur["word"] = curWord
+                cv.feature(curWord, trans=word, punc=" ")
+                for tag in TEXT_ATTRIBUTES:
+                    if cur.get(tag, None):
+                        cv.feature(curWord, **{tag: 1})
+
+
+def doNotes(cv, cur, notes):
+    markInfo = notes["marks"]
+    bodyInfo = notes["bodies"]
+
+    curPg = cur.get("pg", None)
+
+    for (mark, occs) in markInfo.items():
+        if len(occs) > 1:
+            notes["ambiguousMarks"].setdefault(mark, {})[curPg] = occs
+        if mark not in bodyInfo:
+            notes["unresolvedMarks"].setdefault(mark, {})[curPg] = occs
+
+    for (mark, bodies) in bodyInfo.items():
+        if mark is None:
+            notes["unmarkedBodies"][curPg] = len(bodies)
+        else:
+            if len(bodies) > 1:
+                notes["ambiguousBodies"].setdefault(mark, {})[curPg] = len(bodies)
+            if mark not in markInfo:
+                notes["unresolvedBodies"].setdefault(mark, {})[curPg] = len(bodies)
+
+    markInfo.clear()
+    bodyInfo.clear()
+
+
+def reportNotes(notes):
+    markAmb = notes["ambiguousMarks"]
+    nMarkAmb = 0
+    if markAmb:
+        nMarkAmb = sum(
+            sum(len(occs) for occs in pages.values()) for pages in markAmb.values()
+        )
+        print(f"{nMarkAmb:>5} AMBIGUOUS REFERENCES TO FOOTNOTES:")
+        for (mark, pages) in sorted(markAmb.items()):
+            print(f"\t{mark})")
+            for (page, occs) in sorted(pages.items()):
+                occsRep = ", ".join(str(occ[1]) for occ in occs)
+                print(f"\t\t{page}: {occsRep}")
+
+    bodyUnmarked = notes["unmarkedBodies"]
+    nBodyUnmarked = 0
+    if bodyUnmarked:
+        nBodyUnmarked = sum(bodyUnmarked.values())
+        print(f"{nBodyUnmarked:>5} FOOTNOTE BODIES WITHOUT REFERENCE:")
+        for (page, n) in sorted(bodyUnmarked.items()):
+            print(f"\t{page}: {n:>3} x")
+
+    bodyAmb = notes["ambiguousBodies"]
+    nBodyAmb = 0
+    if bodyAmb:
+        nBodyAmb = sum(sum(pages.values()) for pages in bodyAmb.values())
+        print(f"{nBodyAmb:>5} AMBIGUOUS REFERENCES IN FOOTNOTE BODIES:")
+        for (mark, pages) in sorted(bodyAmb.items()):
+            print(f"\t{mark})")
+            for (page, n) in sorted(pages.items()):
+                print(f"\t\t{page}: {n:>3} x")
+
+    markUnres = notes["unresolvedMarks"]
+    nMarkUnres = 0
+    if markUnres:
+        nMarkUnres = sum(
+            sum(len(occs) for occs in pages.values()) for pages in markUnres.values()
+        )
+        print(f"{nMarkUnres:>5} UNRESOLVED REFERENCES TO FOOTNOTES:")
+        for (mark, pages) in sorted(markUnres.items()):
+            print(f"\t{mark})")
+            for (page, occs) in sorted(pages.items()):
+                occsRep = ", ".join(str(occ[1]) for occ in occs)
+                print(f"\t\t{page}: {occsRep}")
+
+    bodyUnres = notes["unresolvedBodies"]
+    nBodyUnres = 0
+    if bodyUnres:
+        nBodyUnres = sum(sum(pages.values()) for pages in bodyUnres.values())
+        print(f"{nBodyUnres:>5} UNRESOLVED REFERENCES IN FOOTNOTE BODIES:")
+        for (mark, pages) in sorted(bodyUnres.items()):
+            print(f"\t{mark})")
+            for (page, n) in sorted(pages.items()):
+                print(f"\t\t{page}: {n:>3} x")
+
+    print("NOTES SUMMARY")
+    print(f"{notes['totalMarks']:>5} FOOTNOTE REFERENCES")
+    print(f"{notes['totalBodies']:>5} FOOTNOTE BODIES")
+    print(f"{nMarkAmb:>5} AMBIGUOUS REFERENCES TO FOOTNOTES")
+    print(f"{nBodyUnmarked:>5} FOOTNOTE BODIES WITHOUT REFERENCE")
+    print(f"{nBodyAmb:>5} AMBIGUOUS REFERENCES IN FOOTNOTE BODIES")
+    print(f"{nMarkUnres:>5} UNRESOLVED REFERENCES TO FOOTNOTES")
+    print(f"{nBodyUnres:>5} UNRESOLVED REFERENCES IN FOOTNOTE BODIES")
 
 
 # TF LOADING (to test the generated TF)

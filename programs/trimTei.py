@@ -353,6 +353,7 @@ ALIGN_H_RE = re.compile(r"""text-align:\s*([^;"']+)[^;'"]*;?""", re.S)
 ALIGN_V_RE = re.compile(r"""vertical-align:\s*([^;"']+)[^;'"]*;?""", re.S)
 CHECK_RE = re.compile(r"""<hi rend="(?:small-caps|sub|large)">(.*?)</hi>""", re.S)
 CLEAR_FW_RE = re.compile(r"""<fw\b[^>]*>.*?</fw>""", re.S)
+COMMENT_RE = re.compile(r"""<(fnote|remark)\b([^>]*)>(.*?)</\1>""", re.S)
 DECORATION_RE = re.compile(r"""text-decoration:\s*([^;"']+)[^;'"]*;?""", re.S)
 DEG_RE = re.compile(r"""(°)(</hi>)""", re.S)
 DELETE_REND = re.compile(r"""(<(?:note|head|fw|p)\b[^>]*?) rend=['"][^'"]*['"]""", re.S)
@@ -427,20 +428,24 @@ HI_UND_RE = re.compile(
 )
 INDENT_RE = re.compile(r"""text-indent:\s*[^-][^;"']*;?""", re.S)
 MARGIN_RE = re.compile(r"""margin-(?:[^:'"]*):[^;"']*;?""", re.S)
-MARK_DWN_RE = re.compile(r"""<mark>(.*?)</mark>""", re.S)
+MARK_DWN_RE = re.compile(r"""<fref>(.*?)</fref>""", re.S)
 OUTDENT_RE = re.compile(r"""text-indent:\s*-[^;"']*;?""", re.S)
+P_RE = re.compile(r"""(<\/?)p\b""", re.S)
 REF_RE = re.compile(r"""<hi>(.*?)</hi>""", re.S)
-REMARK_RE = re.compile(r"""<remark>(.*?)</remark>""", re.S)
 REMARK_NOTE_RE = re.compile(r"""<note\b[^>]*?\bresp="editor"[^>]*>(.*?)</note>""", re.S)
 
 
 def cleanOther(match):
-    text = match.group(1)
-    text = text.replace("<lb/>", "")
+    tag = match.group(1)
+    atts = match.group(2)
+    text = match.group(3)
+    text = text.replace("<lb/>", " ")
     text = text.replace("<emph>", "*")
     text = text.replace("</emph>", "*")
-    text = text.replace("<super>", "")
-    text = text.replace("</super>", "")
+    text = text.replace("<und>", "_")
+    text = text.replace("</und>", "_")
+    text = text.replace("<super>", "^")
+    text = text.replace("</super>", "^")
     text = text.replace("<special>", "`")
     text = text.replace("</special>", "`")
     text = MARK_DWN_RE.sub(r"[=\1]", text)
@@ -450,9 +455,9 @@ def cleanOther(match):
 
     text = WHITE_RE.sub(" ", text)
     if "<" in text:
-        print("\nunclean remark")
+        print(f"\nunclean {tag}")
         print(f"\t==={text}===")
-    return f"<remark>{text}</remark>"
+    return f"<{tag}{atts}>{text}</{tag}>"
 
 
 SIZE_RE = re.compile(r"""font-size:\s*(?:9\.5|10\.5|10)\s*[^;"']*;?""", re.S)
@@ -474,16 +479,17 @@ def stripRendAtt(match):
     return f''' rend="{material}"'''
 
 
-SUPER_RE = re.compile(r"""<hi rend="super[^"]*">(.*?)</hi>""", re.S)
+SUPER_RE = re.compile(r"""<hi rend="super[^"]*">(.*?)</hi>(\s*\)?\s*)""", re.S)
 MARK_NUM_RE = re.compile(r"""\s*([x0-9]{1,2})\s*\)?\s*(.*)""", re.S)
 
 
 def parseSuper(match):
     material = match.group(1)
+    after = match.group(2)
     return (
-        MARK_NUM_RE.sub(r"""<mark>\1</mark>\2""", material)
+        MARK_NUM_RE.sub(r"""<fref>\1</fref>\2 """, material)
         if MARK_NUM_RE.search(material)
-        else f"""<super>{material}</super>"""
+        else f"""<super>{material}</super>{after}"""
     )
 
 
@@ -558,16 +564,18 @@ def trimPage(text, counts):
     text = text.replace("</p>", "</p>\n")
 
     text = REF_RE.sub(r"""[\1]""", text)
-    text = REMARK_RE.sub(cleanOther, text)
+    text = COMMENT_RE.sub(cleanOther, text)
+    text = P_RE.sub(r"""\1para""", text)
 
     return text
 
 
 MARKED_NOTE_DBL_RE = re.compile(r"""(<lb/></note>)(<note>)""", re.S)
-MARKED_NOTE_RE = re.compile(r"""(<note>)\s*([0-9]{1,2}|[a-z])\s*\)\s*""", re.S)
+MARKED_NOTE_RE = re.compile(r"""<note>\s*([0-9]{1,2}|[a-z])\s*\)\s*""", re.S)
 MARKED_UN_NOTE_RE = re.compile(
     r"""(<(?:(?:lb/)|(?:/note))>)\s*([0-9]{1,2}|[a-z])\s*\)\s*(.*?)(?=<lb/>)""", re.S
 )
+NOTE_RENAME_RE = re.compile(r"""<note\b([^>]*)>(.*?)</note>""", re.S)
 SPURIOUS_P_RE = re.compile(r"""(<lb/>)\s*</p><p>\s*([0-9]{1,2}|[a-z])\s*\)\s*""", re.S)
 SWITCH_NOTE_RE = re.compile(r"""(</note>)\s*(<lb/>)""", re.S)
 
@@ -577,7 +585,8 @@ def formatNotes(text):
     text = MARKED_NOTE_DBL_RE.sub(r"""\1\n\2""", text)
     text = MARKED_UN_NOTE_RE.sub(r"""\1<note>\2) \3</note>""", text)
     text = SWITCH_NOTE_RE.sub(r"""\2\1""", text)
-    text = MARKED_NOTE_RE.sub(r"""\1<mark>\2</mark>""", text)
+    text = MARKED_NOTE_RE.sub(r"""<note fref="\1">""", text)
+    text = NOTE_RENAME_RE.sub(r"""<fnote\1>\2</fnote>""", text)
     return text
 
 

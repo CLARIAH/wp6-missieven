@@ -12,33 +12,6 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-09-16T16:45:19Z
+@dateWritten=2020-09-17T15:12:11Z
 
-3891275	Kasteel Nassau op Banda
-Vere, voor Maleyo
-Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-3891280	Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-Bantam
-Bantam
-Bantam
-Bantam
-Bantam
-Bantam
-Bantam
-Bantam
-Bijlage van de voorgaande brief
-Ternate
-Ternate
-Banda
-Amboina
-Bantam
-Bantam
-Bantam
-Jakatra
-Kasteel Nassau op Banda
-Wapen van Amsterdam, voor Banda-Neira
-Kasteel Mauritius nabij Ngofakiaha op Makéan
-Kasteel Jakatra
-ter rede van Banda-Neira
-Kasteel Jakatra
+1271	Kasteel Nassau op Banda

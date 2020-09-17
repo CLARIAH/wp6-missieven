@@ -11,15 +11,12 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-09-16T16:45:18Z
+@dateWritten=2020-09-17T15:12:11Z
 
-1-3874603	word
-3874604-3890450	cell
-3890451-3891273	head
-3891274-3891835	letter
-3891836-4224987	line
-4224988-4235819	page
-4235820-4290470	para
-4290471-4294886	row
-4294887-4295221	table
-4295222-4295234	volume
+1-1269	word
+1270	head
+1271	letter
+1272-1369	line
+1370-1372	page
+1373-1380	para
+1381	volume
