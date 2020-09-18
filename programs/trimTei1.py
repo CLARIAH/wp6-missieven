@@ -5,14 +5,14 @@ import collections
 
 import xml.etree.ElementTree as ET
 
-from lib import IN_DIR, TRIM_DIR, REPO, VERSION_SRC, clearTree, getVolumes
+from lib import IN_DIR, TRIM1_DIR, REPO, VERSION_SRC, clearTree, getVolumes
 
 
 HELP = """
 
-Convert TEI source to simplified pseudo TEI
+Convert TEI source to simplified pseudo TEI, stage1
 
-python3 trimTei.py [volume] [page] [--help]
+python3 trimTei1.py [volume] [page] [--help]
 
 --help: print this text amd exit
 
@@ -34,14 +34,6 @@ def getPage(text):
 
 
 # ANALYSIS
-
-
-def analyseLayout(v, analysis):
-    for css in v.split(";"):
-        trait = css.strip().split(":", 1)
-        (prop, val) = (trait[0], "") if len(trait) == 1 else trait
-
-        analysis[f"layout.{prop.strip()}={val.strip()}"] += 1
 
 
 NUM_RE = re.compile(r"""[0-9]""", re.S)
@@ -88,9 +80,9 @@ def trim(givenVol, givenLid):
     # check whether there are collisions
     # remove abundant namespaces and xml:ids
 
-    if os.path.exists(TRIM_DIR):
-        clearTree(TRIM_DIR)
-    os.makedirs(TRIM_DIR, exist_ok=True)
+    if os.path.exists(TRIM1_DIR):
+        clearTree(TRIM1_DIR)
+    os.makedirs(TRIM1_DIR, exist_ok=True)
 
     volumes = getVolumes(IN_DIR)
 
@@ -103,7 +95,7 @@ def trim(givenVol, givenLid):
             continue
 
         thisInDir = f"{IN_DIR}/{vol}"
-        thisTrimDir = f"{TRIM_DIR}/{vol}"
+        thisTrimDir = f"{TRIM1_DIR}/{vol}"
         os.makedirs(thisTrimDir, exist_ok=True)
 
         idMap = {}
@@ -123,7 +115,7 @@ def trim(givenVol, givenLid):
                         for (path, count) in thisAnalysis.items():
                             analysis[path] += count
                         text = trimDocument(text)
-                        with open(f"{TRIM_DIR}/{vol}/p{lid:>04}.xml", "w") as fh:
+                        with open(f"{thisTrimDir}/p{lid:>04}.xml", "w") as fh:
                             fh.write(text)
                         if lid in idMap:
                             collisions += 1
@@ -135,16 +127,16 @@ def trim(givenVol, givenLid):
 
     print("\rdone" + " " * 70)
     if collisions:
-        print(f"MAPPING to short letter ids: {collisions} collisions")
+        print(f"MAPPING from letter ids to first pages: {collisions} collisions")
         return False
     else:
-        print("No collisions while constructing short letter ids")
+        print("No collisions while mapping letter ids to first pages")
 
-    with open(f"{TRIM_DIR}/analysis.tsv", "w") as fh:
+    with open(f"{TRIM1_DIR}/elementsIn.tsv", "w") as fh:
         for (path, amount) in sorted(analysis.items()):
             fh.write(f"{path}\t{amount}\n")
 
-    with open(f"{TRIM_DIR}/layout.tsv", "w") as fh:
+    with open(f"{TRIM1_DIR}/elementsOut.tsv", "w") as fh:
         for (path, amount) in sorted(analysisAfter.items()):
             fh.write(f"{path}\t{amount}\n")
     return True
@@ -169,20 +161,9 @@ def trimDocument(text):
     match = BODY_RE.search(text)
     body = trimBody(match)
 
-    if "<div" in body:
-        print("\ndiv in body\n")
     return f"""<teiTrim>\n{meta}\n<body>\n{body}\n</body>\n</teiTrim>"""
 
 
-CLEAR_DATE_RE = re.compile(r"""<date>.*?</date>""", re.S)
-CLEAR_TITLE_RE = re.compile(r"""<title>.*?</title>""", re.S)
-DELETE_ELEM_RE = re.compile(
-    r"""</?(?:TEI|text|bibl|"""
-    r"""fileDesc|listBibl|notesStmt|publicationStmt|sourceDesc|titleStmt)\b[^>]*>"""
-)
-DELETE_EMPTY_RE = re.compile(r"""<note[^>]*/>""", re.S)
-DELETE_P_RE = re.compile(r"""</?p>""", re.S)
-IDNO_RE = re.compile(r"""<idno (.*?)</idno>""", re.S)
 META_AUTHOR_RE = re.compile(
     r"""<interpGrp type="authorLevel1">\s*((?:<interp>.*?</interp>\s*)*)</interpGrp>""",
     re.S,
@@ -199,6 +180,15 @@ def getAuthors(match):
     return f"""<meta key="authors" value="{material}"/>"""
 
 
+CLEAR_DATE_RE = re.compile(r"""<date>.*?</date>""", re.S)
+CLEAR_TITLE_RE = re.compile(r"""<title>.*?</title>""", re.S)
+DELETE_ELEM_RE = re.compile(
+    r"""</?(?:TEI|text|bibl|"""
+    r"""fileDesc|listBibl|notesStmt|publicationStmt|sourceDesc|titleStmt)\b[^>]*>"""
+)
+DELETE_EMPTY_RE = re.compile(r"""<note[^>]*/>""", re.S)
+DELETE_P_RE = re.compile(r"""</?p>""", re.S)
+IDNO_RE = re.compile(r"""<idno (.*?)</idno>""", re.S)
 META_DELETE_RE = re.compile(
     r"""<interpGrp type="(?:tocLevel|volume)">\s*<interp>.*?</interp></interpGrp>""",
     re.S,
@@ -248,42 +238,6 @@ def trimHeader(match):
     return f"<header>\n{text}\n</header>\n"
 
 
-OUTER_DIV_B_RE = re.compile(r"""^\s*<div[^>]*>""", re.S)
-OUTER_DIV_E_RE = re.compile(r"""</div>\s*$""", re.S)
-P_LB_RE = re.compile(r"""<lb/>\s*(</p>)""", re.S)
-P_INTERRUPT_RE = re.compile(
-    r"""
-        </p>
-        (
-            (?:
-                (?:
-                    <note
-                        (?:
-                            .
-                            (?<!
-                                <note
-                            )
-                        )+?
-                    </note>
-                )
-                |
-                (?:
-                    <fw[ ][^>]*>[^>]*?</fw>
-                )
-                |
-                (?:
-                    <pb[ ][^>]*/>
-                )
-            )*
-        )
-        <p[ ]resp="int_paragraph_joining"[^>]*>
-    """,
-    re.S | re.X,
-)
-P_JOIN_RE = re.compile(r"""(<p) resp="int_paragraph_joining"([^>]*>)""", re.S)
-PB_RE = re.compile(r"""<pb\b[^>]*/>""", re.S)
-
-
 PB_CHECK_PAT = "|".join(
     """
     fw
@@ -295,7 +249,6 @@ PB_CHECK_PAT = "|".join(
     note
 """.strip().split()
 )
-
 CHECK_PB_RE = re.compile(rf"""<({PB_CHECK_PAT})\b[^>]*>(.*?)</\1>""", re.S)
 
 
@@ -310,10 +263,45 @@ def checkPb(text):
     return breaks
 
 
-def trimBody(match):
-    counts = dict(table=0)
+DIV_CLEAN_RE = re.compile(r"""<\/?div\b[^>]*>""", re.S)
+P_INTERRUPT_RE = re.compile(
+    r"""
+        </p>
+        (
+            (?:
+                (?:
+                    <note\b
+                        (?:
+                            .
+                            (?<!
+                                <note
+                            )
+                        )+?
+                    </note>
+                )
+                |
+                (?:
+                    <fw\b[^>]*>[^<]*?</fw>
+                )
+                |
+                (?:
+                    <pb\b[^>]*/>
+                )
+            )*
+        )
+        <p[ ]resp="int_paragraph_joining"[^>]*>
+    """,
+    re.S | re.X,
+)
+PB_RE = re.compile(r"""<pb\b[^>]*/>""", re.S)
+P_JOIN_RE = re.compile(r"""(<p) resp="int_paragraph_joining"([^>]*>)""", re.S)
+WHITE_NLNL_RE = re.compile(r"""\n{3,}""", re.S)
 
+
+def trimBody(match):
     text = match.group(1)
+
+    text = DIV_CLEAN_RE.sub(r"", text)
 
     breaks = checkPb(text)
     if breaks:
@@ -327,43 +315,55 @@ def trimBody(match):
 
     result = []
     for match in PB_RE.finditer(text):
-        e = match.end()
-        thisPage = text[prevMatch:e]
-        result.append(trimPage(thisPage, counts))
-        prevMatch = e
+        b = match.start()
+        thisPage = text[prevMatch:b].strip()
+        result.append(trimPage(thisPage))
+        result.append("\n")
+        prevMatch = b
 
     if prevMatch < len(text):
-        lastPage = text[prevMatch:]
-        result.append(trimPage(lastPage, counts))
+        thisPage = text[prevMatch:].strip()
+        result.append(trimPage(thisPage))
 
     body = "".join(result)
-
-    for trimRe in (OUTER_DIV_B_RE, OUTER_DIV_E_RE):
-        body = trimRe.sub(r"", body)
 
     match = PB_RE.search(body)
     prePage = body[0 : match.start()].strip()
     if prePage:
         print(f"\nMaterial in before first page\n\t=={prePage}==")
+
+    body = WHITE_NLNL_RE.sub("\n\n", body.strip())
     return body
+
+
+WHITE_RE = re.compile(r"""\s\s+""", re.S)
+
+
+def stripRendAtt(match):
+    material = match.group(1).replace(";", " ")
+    if material == "" or material == " ":
+        return ""
+    material = WHITE_RE.sub(" ", material)
+    material = material.strip()
+    return f''' rend="{material}"'''
+
+
+CLEAR_FW_RE = re.compile(r"""<fw\b[^>]*>(.*?)</fw>""", re.S)
+
+
+def checkFw(match):
+    text = match.group(1)
+    if len(text) > 100:
+        return f"<p>{text}</p>"
+    else:
+        return ""
 
 
 ALIGN_RE = re.compile(r"""text-align:\s*justify[^;"']*;?""", re.S)
 ALIGN_H_RE = re.compile(r"""text-align:\s*([^;"']+)[^;'"]*;?""", re.S)
 ALIGN_V_RE = re.compile(r"""vertical-align:\s*([^;"']+)[^;'"]*;?""", re.S)
-CHECK_RE = re.compile(r"""<hi rend="(?:small-caps|sub|large)">(.*?)</hi>""", re.S)
-CLEAR_FW_RE = re.compile(r"""<fw\b[^>]*>.*?</fw>""", re.S)
-COMMENT_RE = re.compile(r"""<(fnote|remark)\b([^>]*)>(.*?)</\1>""", re.S)
 DECORATION_RE = re.compile(r"""text-decoration:\s*([^;"']+)[^;'"]*;?""", re.S)
 DEG_RE = re.compile(r"""(°)(</hi>)""", re.S)
-DELETE_REND = re.compile(r"""(<(?:note|head|fw|p)\b[^>]*?) rend=['"][^'"]*['"]""", re.S)
-DIV_VAL_1_RE = re.compile(
-    r"""(<div>)<div type="subdivision_for_sake_of_validation">""", re.S
-)
-DIV_VAL_2_RE = re.compile(
-    r"""</div><div type="subdivision_for_sake_of_validation">""", re.S
-)
-EMPH_RE = re.compile(r"""<hi rend="emphasis">(.*?)</hi>""", re.S)
 F_RE = re.compile(r"""<hi\b[^>]*>f</hi>""", re.S)
 FACS_REF1_RE = re.compile(
     r"""facs=['"]http://resources.huygens.knaw.nl/"""
@@ -379,38 +379,6 @@ FACS_REF2_RE = re.compile(
 )
 FAMILY_RE = re.compile(r"""font-family:[^;"']*;?""", re.S)
 
-FOLIO_RE = re.compile(
-    r"""
-        (?:<hi\b[^>]*>)?
-            [Ff]ol\.?(?:io)?(?:.s)?\s*
-        (?:</hi>)?
-        (
-            (?:<hi\b[^>]*>)?
-                \s*[0-9rv][0-9rv. -]*
-            (?:</hi>)?
-            \s*
-        )+
-    """,
-    re.S | re.X,
-)
-
-
-FOLIO_C_RE = re.compile(
-    r"""
-        ([0-9][0-9, ]*)
-        <folio>(.*?)</folio>
-    """,
-    re.S | re.X,
-)
-
-
-def mergeFolio(match):
-    text = match.group(0)
-    text = HI_CLEAN_RE.sub(r"""\1""", text)
-    return f"<folio>{text}</folio>"
-
-
-FOLIO_DWN_RE = re.compile(r"""<folio>\s*(.*?)\s*</folio>""", re.S)
 FONT_STYLE_RE = re.compile(
     r"""font-(?:style|weight|variant):\s*([^;"' ]+)[^;"']*;?""", re.S
 )
@@ -428,72 +396,20 @@ HI_UND_RE = re.compile(
 )
 INDENT_RE = re.compile(r"""text-indent:\s*[^-][^;"']*;?""", re.S)
 MARGIN_RE = re.compile(r"""margin-(?:[^:'"]*):[^;"']*;?""", re.S)
-MARK_DWN_RE = re.compile(r"""<fref>(.*?)</fref>""", re.S)
 OUTDENT_RE = re.compile(r"""text-indent:\s*-[^;"']*;?""", re.S)
-P_RE = re.compile(r"""(<\/?)p\b""", re.S)
-REF_RE = re.compile(r"""<hi>(.*?)</hi>""", re.S)
-REMARK_NOTE_RE = re.compile(r"""<note\b[^>]*?\bresp="editor"[^>]*>(.*?)</note>""", re.S)
-
-
-def cleanOther(match):
-    tag = match.group(1)
-    atts = match.group(2)
-    text = match.group(3)
-    text = text.replace("<lb/>", " ")
-    text = text.replace("<emph>", "*")
-    text = text.replace("</emph>", "*")
-    text = text.replace("<und>", "_")
-    text = text.replace("</und>", "_")
-    text = text.replace("<super>", "^")
-    text = text.replace("</super>", "^")
-    text = text.replace("<special>", "`")
-    text = text.replace("</special>", "`")
-    text = MARK_DWN_RE.sub(r"[=\1]", text)
-    text = FOLIO_DWN_RE.sub(r" {\1} ", text)
-    text = text.replace("\n", " ")
-    text = text.strip()
-
-    text = WHITE_RE.sub(" ", text)
-    if "<" in text:
-        print(f"\nunclean {tag}")
-        print(f"\t==={text}===")
-    return f"<{tag}{atts}>{text}</{tag}>"
-
-
 SIZE_RE = re.compile(r"""font-size:\s*(?:9\.5|10\.5|10)\s*[^;"']*;?""", re.S)
 SIZE_BIG_RE = re.compile(r"""font-size:\s*(?:20|(?:1[1-9]))\.?5?[^;"']*;?""", re.S)
 SIZE_SMALL_RE = re.compile(r"""font-size:\s*(?:9|(?:[6-8]))\.?5?[^;"']*;?""", re.S)
 SIZE_XSMALL_RE = re.compile(r"""font-size:\s*(?:[1-5])\.?5?[^;"']*;?""", re.S)
-SMALL_RE = re.compile(r"""<hi rend="small[^"]*">(.*?)</hi>""", re.S)
-SMALLX_RE = re.compile(r"""<hi rend="xsmall[^"]*">(.*?)</hi>""", re.S)
+SPACE_RE = re.compile(r"""  +""", re.S)
 SPACING_RE = re.compile(r"""letter-spacing:[^;"']*;?""", re.S)
 STRIP_RE = re.compile(r""" rend=['"]([^'"]*)['"]""", re.S)
+P_LB_RE = re.compile(r"""<lb/>\s*(</p>)""", re.S)
 
 
-def stripRendAtt(match):
-    material = match.group(1).replace(";", " ")
-    if material == "" or material == " ":
-        return ""
-    material = WHITE_RE.sub(" ", material)
-    material = material.strip()
-    return f''' rend="{material}"'''
+def trimPage(text):
+    text = CLEAR_FW_RE.sub(checkFw, text)
 
-
-SUPER_RE = re.compile(r"""<hi rend="super[^"]*">(.*?)</hi>(\s*\)?\s*)""", re.S)
-MARK_NUM_RE = re.compile(r"""\s*([x0-9]{1,2})\s*\)?\s*(.*)""", re.S)
-
-
-def parseSuper(match):
-    material = match.group(1)
-    after = match.group(2)
-    return (
-        MARK_NUM_RE.sub(r"""<fref>\1</fref>\2 """, material)
-        if MARK_NUM_RE.search(material)
-        else f"""<super>{material}</super>{after}"""
-    )
-
-
-def trimPage(text, counts):
     for trimRe in (
         FAMILY_RE,
         SPACING_RE,
@@ -501,13 +417,10 @@ def trimPage(text, counts):
         MARGIN_RE,
         ALIGN_RE,
         SIZE_RE,
-        CLEAR_FW_RE,
     ):
         text = trimRe.sub("", text)
 
     text = DEG_RE.sub(r"\2\1", text)
-    for trimRe in (DELETE_REND,):
-        text = trimRe.sub(r"\1", text)
 
     for (trimRe, val) in ((F_RE, "ƒ"),):
         text = trimRe.sub(val, text)
@@ -534,28 +447,11 @@ def trimPage(text, counts):
 
     text = HI_CLEAN_RE.sub(r"""\1""", text)
     text = text.replace("<hi/>", "")
-    text = EMPH_RE.sub(r"<emph>\1</emph>", text)
-    text = CHECK_RE.sub(r"<special>\1</special>", text)
-    text = SUPER_RE.sub(parseSuper, text)
-    text = SMALL_RE.sub(r"\1", text)
-    text = SMALLX_RE.sub(r"<special>\1</special>", text)
-    text = FOLIO_RE.sub(mergeFolio, text)
-    text = FOLIO_C_RE.sub(r"""<folio>\1\2</folio>""", text)
 
     text = FACS_REF1_RE.sub(r'''tpl="1" vol="\1" facs="\2"''', text)
     text = FACS_REF2_RE.sub(r'''tpl="2" vol="\1" facs="\2"''', text)
 
-    text = DIV_VAL_1_RE.sub(r"""\1""", text)
-    text = DIV_VAL_2_RE.sub("", text)
-    text = text.replace("</div></div>", "</div>")
-
     text = HALF_RE.sub(r"½\1", text)
-
-    text = WHITE_NL_RE.sub("\n", text)
-
-    text = REMARK_NOTE_RE.sub(r"""\n<remark>\1</remark>\n""", text)
-    text = formatNotes(text)
-    text = TABLE_RE.sub(formatTablePre(counts), text)
 
     text = text.replace("<lb/>", "<lb/>\n")
     text = PB_RE.sub(r"""\n\n\g<0>\n\n""", text)
@@ -563,73 +459,10 @@ def trimPage(text, counts):
     text = text.replace("<p>", "\n<p>")
     text = text.replace("</p>", "</p>\n")
 
-    text = REF_RE.sub(r"""[\1]""", text)
-    text = COMMENT_RE.sub(cleanOther, text)
-    text = P_RE.sub(r"""\1para""", text)
+    text = WHITE_NL_RE.sub("\n", text.strip())
+    text = SPACE_RE.sub(" ", text)
 
     return text
-
-
-MARKED_NOTE_DBL_RE = re.compile(r"""(<lb/></note>)(<note>)""", re.S)
-MARKED_NOTE_RE = re.compile(r"""<note>\s*([0-9]{1,2}|[a-z])\s*\)\s*""", re.S)
-MARKED_UN_NOTE_RE = re.compile(
-    r"""(<(?:(?:lb/)|(?:/note))>)\s*([0-9]{1,2}|[a-z])\s*\)\s*(.*?)(?=<lb/>)""", re.S
-)
-NOTE_RENAME_RE = re.compile(r"""<note\b([^>]*)>(.*?)</note>""", re.S)
-SPURIOUS_P_RE = re.compile(r"""(<lb/>)\s*</p><p>\s*([0-9]{1,2}|[a-z])\s*\)\s*""", re.S)
-SWITCH_NOTE_RE = re.compile(r"""(</note>)\s*(<lb/>)""", re.S)
-
-
-def formatNotes(text):
-    text = SPURIOUS_P_RE.sub(r"""\1\2) """, text)
-    text = MARKED_NOTE_DBL_RE.sub(r"""\1\n\2""", text)
-    text = MARKED_UN_NOTE_RE.sub(r"""\1<note>\2) \3</note>""", text)
-    text = SWITCH_NOTE_RE.sub(r"""\2\1""", text)
-    text = MARKED_NOTE_RE.sub(r"""<note fref="\1">""", text)
-    text = NOTE_RENAME_RE.sub(r"""<fnote\1>\2</fnote>""", text)
-    return text
-
-
-def formatTablePre(counts):
-    return lambda match: formatTable(match, counts)
-
-
-CELL_RE = re.compile(r"""<cell>(.*?)</cell>""", re.S)
-DEL_TBL_ELEM = re.compile(r"""</?(?:lb|p)/?>""", re.S)
-ROW_RE = re.compile(r"""<row>(.*?)</row>""", re.S)
-TABLE_RE = re.compile(r"""<table>(.*?)</table>""", re.S)
-WHITE_B_RE = re.compile(r"""(>)\s+""", re.S)
-WHITE_E_RE = re.compile(r"""\s+(<)""", re.S)
-WHITE_RE = re.compile(r"""\s\s+""", re.S)
-
-
-def formatTable(match, counts):
-    counts["table"] += 1
-    n = counts["table"]
-
-    table = match.group(1)
-    table = DEL_TBL_ELEM.sub(r" ", table)
-    for trimRe in (WHITE_B_RE, WHITE_E_RE):
-        table = trimRe.sub(r"""\1""", table)
-    table = WHITE_RE.sub(r" ", table)
-
-    result = []
-    result.append(f"""\n<table n="{n}">""")
-    rows = ROW_RE.findall(table)
-
-    for (r, row) in enumerate(rows):
-        result.append(f"""<row n="{n}" row="{r + 1}">""")
-        cells = CELL_RE.findall(row)
-
-        for (c, cell) in enumerate(cells):
-            result.append(
-                f"""<cell n="{n}" row="{r + 1}" col="{c + 1}">{cell}</cell>"""
-            )
-        result.append("</row>")
-
-    result.append("</table>\n")
-
-    return "\n".join(result)
 
 
 # MAIN

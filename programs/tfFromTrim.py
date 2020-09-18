@@ -9,7 +9,7 @@ from tf.fabric import Fabric
 from tf.convert.walker import CV
 
 from lib import (
-    TRIM_DIR,
+    TRIM2_DIR,
     OUT_DIR,
     REPO,
     VERSION_SRC,
@@ -163,6 +163,22 @@ featureMeta = {
             "string of the form `Fol. {n} {rv}` where rv is a recto/verso indication"
         ),
     },
+    "fref": {
+        "description": "foot note mark as it occurs in the text",
+        "format": "string",
+    },
+    "flabel": {
+        "description": "foot note mark as it occurs in the footnote",
+        "format": "string",
+    },
+    "fnum": {
+        "description": "foot note number (interpreted and corrected)",
+        "format": "integer",
+    },
+    "fnote": {
+        "description": "foot note text",
+        "format": "string with mark down formatting",
+    },
     "trans": {"description": "transcription of a word"},
     "punc": {
         "description": "whitespace and/or punctuation following a word"
@@ -255,12 +271,15 @@ def director(cv):
     warnings = collections.defaultdict(lambda: collections.defaultdict(set))
     errors = collections.defaultdict(lambda: collections.defaultdict(set))
 
-    volumes = getVolumes(TRIM_DIR)
+    volumes = getVolumes(TRIM2_DIR)
 
     cur = {}
     notes = dict(
         marks={},
+        markOrder=[],
         bodies={},
+        bodyOrder=[],
+        lastMark=None,
         totalMarks=0,
         totalBodies=0,
         ambiguousMarks={},
@@ -280,7 +299,7 @@ def director(cv):
 
         cv.feature(cur["volume"], n=vol)
 
-        thisTrimDir = f"{TRIM_DIR}/{vol}"
+        thisTrimDir = f"{TRIM2_DIR}/{vol}"
         letters = getLetters(thisTrimDir)
 
         for name in letters:
@@ -422,8 +441,8 @@ def walkNode(cv, node, cur, notes):
     special | inline formatting | binary feature special
     folio | reference to a folio page | feature folio
     remark | editorial text in the text flow | feature remark
-    fnote.fref | footnote text at the end of a page | feature footnote at place of fref
-    fref | footnote reference within the text flow | used to bind fnote to this spot
+    fnote.ref | footnote text at the end of a page | feature footnote at place of fref
+    fref.ref | footnote reference within the text flow | used to bind fnote to this spot
     """
 
     tag = node.tag
@@ -463,15 +482,21 @@ def walkNode(cv, node, cur, notes):
         cur[tag] = 1
 
     elif tag == "fref":
-        notes["marks"].setdefault(node.text, []).append((cur["word"], cur["ln"]))
+        notes["marks"].setdefault(atts.get("ref", None), []).append((cur["word"], cur["ln"]))
         notes["totalMarks"] += 1
 
     elif tag == "fnote":
         bodies = notes["bodies"]
-        notes["totalBodies"] += 1
-        fref = atts.get("fref", None)
-        bodies.setdefault(fref, []).append(node.text)
-        cur["fn"] = bodies[fref]
+        fref = atts.get("ref", None)
+        if fref is None and notes["lastMark"] is not None:
+            lastBody = notes["lastBody"]
+            lastBody[-1] += node.text
+            cur["fn"] = bodies[notes["lastMark"]]
+        else:
+            notes["totalBodies"] += 1
+            bodies.setdefault(fref, []).append(node.text)
+            notes["lastMark"] = fref
+            cur["fn"] = bodies[fref]
 
     if tag in DO_TEXT_ELEMENTS:
         addText(cv, node.text, cur)
@@ -527,7 +552,10 @@ def addText(cv, text, cur):
 
 def doNotes(cv, cur, notes):
     markInfo = notes["marks"]
+    markOrder = notes["markOrder"]
     bodyInfo = notes["bodies"]
+    bodyOrder = notes["bodyOrder"]
+    lastMark = notes["lastMark"]
 
     curPg = cur.get("pg", None)
 
@@ -547,7 +575,16 @@ def doNotes(cv, cur, notes):
                 notes["unresolvedBodies"].setdefault(mark, {})[curPg] = len(bodies)
 
     markInfo.clear()
+    markOrder.clear()
+
+    if not bodyInfo:
+        notes["lastMark"] = None
+        notes["lastBody"] = None
+    else:
+        notes["lastBody"] = bodyInfo[lastMark]
+
     bodyInfo.clear()
+    bodyOrder.clear()
 
 
 def reportNotes(notes):
