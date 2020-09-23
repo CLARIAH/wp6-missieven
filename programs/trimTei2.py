@@ -3,7 +3,8 @@ import re
 from lib import WHITE_RE
 
 
-def notesPage(page, lastNote, result, counts):
+"""
+def processPage(page, lastNote, result, info, *args, **kwargs):
     if not page:
         if len(lastNote):
             result.append(lastNote[0])
@@ -11,7 +12,7 @@ def notesPage(page, lastNote, result, counts):
         result.append("\n\n")
         return
 
-    (text, notes) = trimPage(page, counts)
+    (text, notes) = trimPage(page, info, *args, **kwargs)
 
     if notes:
         if len(lastNote):
@@ -40,6 +41,9 @@ def notesPage(page, lastNote, result, counts):
     if notes:
         result.append("\n".join(note for note in notes[0:-1]))
     result.append("\n")
+"""
+
+processPage = None
 
 
 HI_CLEAN_RE = re.compile(r"""<hi\b[^>]*>([^a-zA-Z0-9]*?)</hi>""", re.S)
@@ -58,7 +62,7 @@ def filterNotes(match):
     notes = match.group(1)
     word = match.group(2)
     if word:
-        notes = NOTE_RENAME_P_RE.sub(r"""<p>\1</p>""", notes)
+        notes = NOTE_RENAME_P_RE.sub(r"""<para>\1</para>""", notes)
     return f"""{notes}{word}"""
 
 
@@ -153,7 +157,7 @@ NOTES_FILTER_RE = re.compile(r"""((?:<fnote[^>]*>.*?</fnote>\s*)+)(\S*)""", re.S
 NOTES_ALL_RE = re.compile(r"""^(.*?)((?:<fnote.*?</fnote>\s*)+)(.*?)$""", re.S)
 NOTE_RE = re.compile(r"""<fnote.*?</fnote>""", re.S)
 OUTDENT_RE = re.compile(r"""text-indent:\s*-[^;"']*;?""", re.S)
-P_RE = re.compile(r"""(<\/?)p\b""", re.S)
+P_RE = re.compile(r"""(</?)p\b""", re.S)
 REF_RE = re.compile(r"""<hi>(.*?)</hi>""", re.S)
 REMARK_NOTE_RE = re.compile(r"""<note\b[^>]*?\bresp="editor"[^>]*>(.*?)</note>""", re.S)
 SMALL_RE = re.compile(r"""<hi rend="small[^"]*">(.*?)</hi>""", re.S)
@@ -162,7 +166,7 @@ SUPER_RE = re.compile(r"""<hi rend="super[^"]*">(.*?)</hi>(\s*\)?\s*)""", re.S)
 TABLE_RE = re.compile(r"""<table>(.*?)</table>""", re.S)
 
 
-def trimPage(text, counts):
+def trimPage(text, info, *args, **kwargs):
     text = DELETE_REND_RE.sub(r"\1", text)
 
     text = EMPH_RE.sub(r"<emph>\1</emph>", text)
@@ -175,7 +179,7 @@ def trimPage(text, counts):
 
     text = REMARK_NOTE_RE.sub(r"""\n<remark>\1</remark>\n""", text)
     text = formatNotes(text)
-    text = TABLE_RE.sub(formatTablePre(counts), text)
+    text = TABLE_RE.sub(formatTablePre(info), text)
     text = NOTES_FILTER_RE.sub(filterNotes, text)
 
     text = REF_RE.sub(r"""[\1]""", text)
@@ -184,6 +188,7 @@ def trimPage(text, counts):
 
     match = NOTES_ALL_RE.match(text)
     if not match:
+        return text
         return (text, [])
 
     body = match.group(1)
@@ -194,6 +199,7 @@ def trimPage(text, counts):
         print("\nMaterial after footnotes:")
         print(f"\t==={post}")
 
+    return body + "\n".join(NOTE_RE.findall(notes)) + "\n" + post
     return (body, NOTE_RE.findall(notes))
 
 
@@ -234,8 +240,8 @@ def formatNotes(text):
     return text
 
 
-def formatTablePre(counts):
-    return lambda match: formatTable(match, counts)
+def formatTablePre(info):
+    return lambda match: formatTable(match, info)
 
 
 CELL_RE = re.compile(r"""<cell>(.*?)</cell>""", re.S)
@@ -246,9 +252,9 @@ WHITE_B_RE = re.compile(r"""(>)\s+""", re.S)
 WHITE_E_RE = re.compile(r"""\s+(<)""", re.S)
 
 
-def formatTable(match, counts):
-    counts["table"] += 1
-    n = counts["table"]
+def formatTable(match, info):
+    info["table"] += 1
+    n = info["table"]
 
     table = match.group(1)
     table = DEL_TBL_ELEM.sub(r" ", table)

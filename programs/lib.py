@@ -160,7 +160,7 @@ def analyse(text, after=False):
 # TOP-LEVEL TRIM
 
 
-def trim(stage, givenVol, givenLid, trimPage, method=None):
+def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     if stage == 0:
         SRC = IN_DIR
     else:
@@ -176,7 +176,12 @@ def trim(stage, givenVol, givenLid, trimPage, method=None):
     analysis = collections.Counter()
     analysisAfter = collections.Counter()
 
-    counts = dict(table=0)
+    info = dict(
+        table=0,
+        captionInfo=collections.defaultdict(list),
+        captionNorm=collections.defaultdict(list),
+        captionVariant=collections.defaultdict(list),
+    )
 
     for vol in volumes:
         if givenVol is not None and givenVol != vol:
@@ -195,13 +200,16 @@ def trim(stage, givenVol, givenLid, trimPage, method=None):
             if givenLid is not None and givenLid != lid:
                 continue
             sys.stderr.write(f"\r\tp{lid:>04}      ")
+            info["doc"] = f"{vol:>02}:p{lid:>04}"
             with open(f"{thisSrcDir}/{name}") as fh:
                 text = fh.read()
 
             thisAnalysis = analyse(text)
             for (path, count) in thisAnalysis.items():
                 analysis[path] += count
-            text = trimDocument(stage, text, trimPage, counts, method=method)
+            text = trimDocument(
+                stage, text, trimPage, info, processPage, *args, **kwargs
+            )
 
             dstName = f"p{lid:>04}.xml"
             with open(f"{thisDstDir}/{dstName}", "w") as fh:
@@ -220,22 +228,37 @@ def trim(stage, givenVol, givenLid, trimPage, method=None):
     with open(f"{DST}/elementsOut.tsv", "w") as fh:
         for (path, amount) in sorted(analysisAfter.items()):
             fh.write(f"{path}\t{amount}\n")
+
+    captionInfo = info["captionInfo"]
+    captionNorm = info["captionNorm"]
+    captionVariant = info["captionVariant"]
+    if captionNorm or captionVariant or captionInfo:
+        print("NAMES:")
+        print(f"\t{len(captionNorm):>3} verified names")
+        print(f"\t{len(captionVariant):>3} unresolved variants")
+        fh = open(f"{TRIM_DIR}{stage}/fwh-yes.tsv", "w")
+        for (captionSrc, tag) in ((captionNorm, "OK"), (captionVariant, "XX"), (captionInfo, "II")):
+            for caption in sorted(captionSrc):
+                docs = captionSrc[caption]
+                firstDoc = docs[0]
+                nDocs = len(docs)
+                fh.write(f"{firstDoc} {nDocs:>3}x {tag} {caption}\n")
     return True
 
 
-def trimDocument(stage, text, trimPage, counts, method=None):
+def trimDocument(stage, text, trimPage, info, processPage, *args, **kwargs):
     headElem = "teiHeader" if stage == 0 else "header"
     headerRe = re.compile(rf"""<{headElem}[^>]*>(.*?)</{headElem}>""", re.S)
     match = headerRe.search(text)
     header = (
-        trimHeader(match)
+        trimHeader(match, *args, **kwargs)
         if stage == 0
         else f"""<header>\n{match.group(1)}\n</header>"""
     )
 
     bodyRe = re.compile(r"""<body[^>]*>(.*?)</body>""", re.S)
     match = bodyRe.search(text)
-    body = trimBody(stage, match.group(1), trimPage, counts, method=method)
+    body = trimBody(stage, match.group(1), trimPage, info, processPage, *args, **kwargs)
 
     return f"""<teiTrim>\n{header}\n<body>\n{body}\n</body>\n</teiTrim>"""
 
@@ -298,7 +321,7 @@ WHITE_RE = re.compile(r"""\s\s+""", re.S)
 PB_RE = re.compile(r"""<pb\b[^>]*/>""", re.S)
 
 
-def trimHeader(match):
+def trimHeader(match, *args, **kwargs):
     text = match.group(1)
     for trimRe in (
         CLEAR_TITLE_RE,
@@ -359,10 +382,12 @@ FACS_REF2_RE = re.compile(
     r"""images/generale_missiven_gs(.+?).tif['"]""",
     re.S,
 )
-NL_B_RE = re.compile(r"""\n*<(p|note|fw|table|row)\b([^>]*)>""", re.S)
-NL_E_RE = re.compile(r"""</(p|note|fw|table|row)>\n*""", re.S)
+PAGE_NUM_RE = re.compile(r"""<pb[^>]*?\bn=['"]([0-9]+)['"]""", re.S)
+
+NL_B_RE = re.compile(r"""\n*<(p|para|note|fw|table|row)\b([^>]*)>""", re.S)
+NL_E_RE = re.compile(r"""</(p|para|note|fw|table|row)\b>\n*""", re.S)
 LB_RE = re.compile(r"""<lb/>\n*""", re.S)
-DIV_CLEAN_RE = re.compile(r"""<\/?div\b[^>]*>""", re.S)
+DIV_CLEAN_RE = re.compile(r"""</?div\b[^>]*>""", re.S)
 P_INTERRUPT_RE = re.compile(
     r"""
         </p>
@@ -388,14 +413,14 @@ P_INTERRUPT_RE = re.compile(
                 )
             )*
         )
-        <p[ ]resp="int_paragraph_joining"[^>]*>
+        <p\b[^>]*\bresp="int_paragraph_joining"[^>]*>
     """,
     re.S | re.X,
 )
-P_JOIN_RE = re.compile(r"""(<p) resp="int_paragraph_joining"([^>]*>)""", re.S)
+P_JOIN_RE = re.compile(r"""(<p\b[^>]*)\bresp="int_paragraph_joining"([^>]*>)""", re.S)
 
 
-def trimBody(stage, text, trimPage, counts, method=None):
+def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
 
     if stage == 0:
         breaks = checkPb(text)
@@ -412,15 +437,18 @@ def trimBody(stage, text, trimPage, counts, method=None):
     lastNote = []
     result = []
 
-    def processPage(page):
+    def doPage(page, *args, **kwargs):
+        match = PAGE_NUM_RE.search(page)
+        pageNum = f"-{match.group(1):>04}" if match else ""
+        info["page"] = f"{info['doc']}{pageNum}"
         if stage == 0:
             page = X_RE.sub("", page)
             page = FACS_REF1_RE.sub(r'''tpl="1" vol="\1" facs="\2"''', page)
             page = FACS_REF2_RE.sub(r'''tpl="2" vol="\1" facs="\2"''', page)
-        if method:
-            method(page, lastNote, result, counts)
+        if processPage is None:
+            page = trimPage(page, info, *args, **kwargs)
         else:
-            page = trimPage(page, counts)
+            processPage(page, lastNote, result, info, *args, **kwargs)
 
         page = LB_RE.sub(r"""<lb/>\n""", page)
         page = PB_RE.sub(r"""\n\n\g<0>\n\n""", page)
@@ -435,13 +463,13 @@ def trimBody(stage, text, trimPage, counts, method=None):
     for match in PB_RE.finditer(text):
         b = match.start()
         thisPage = text[prevMatch:b].strip()
-        processPage(thisPage)
+        doPage(thisPage, *args, **kwargs)
         result.append("\n")
         prevMatch = b
 
     if prevMatch < len(text):
         thisPage = text[prevMatch:].strip()
-        processPage(thisPage)
+        doPage(thisPage, *args, **kwargs)
 
     body = "".join(result)
 

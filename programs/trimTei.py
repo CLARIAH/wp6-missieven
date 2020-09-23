@@ -2,11 +2,12 @@ import sys
 
 from lib import REPO, VERSION_SRC, trim
 
-from trimTei0 import trimPage as t0
-from trimTei1 import trimPage as t1
-from trimTei2 import trimPage as t2
+from trimTei0 import trimPage as t0, processPage as p0
+from trimTei1 import trimPage as t1, processPage as p1
+from trimTei2 import trimPage as t2, processPage as p2
 
 trimPage = [t0, t1, t2]
+processPage = [p0, p1, p2]
 
 
 HELP = f"""
@@ -50,12 +51,24 @@ def main():
     vol = None
     lid = None
 
+    kwargs = {}
+    pargs = []
+
     for arg in args:
         if arg.isdigit():
             if vol is None:
                 vol = arg
             elif lid is None:
                 lid = arg
+        else:
+            kv = arg.split("=", 1)
+            if len(kv) == 1:
+                pargs.append[arg]
+            else:
+                (k, v) = kv
+                if k == "orig":
+                    v = set(v.split(","))
+                kwargs[k] = v
 
     if vol is not None:
         vol = int(vol)
@@ -65,7 +78,7 @@ def main():
     print(f"TEI trimmer stage {stage} for {REPO}")
     print(f"TEI source version = {VERSION_SRC}")
 
-    return trim(stage, vol, lid, trimPage[stage])
+    return trim(stage, vol, lid, trimPage[stage], processPage[stage], *pargs, **kwargs)
 
 
 sys.exit(0 if main() else 1)
