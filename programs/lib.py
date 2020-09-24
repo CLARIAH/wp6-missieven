@@ -181,6 +181,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         captionInfo=collections.defaultdict(list),
         captionNorm=collections.defaultdict(list),
         captionVariant=collections.defaultdict(list),
+        captionRoman=collections.defaultdict(list),
     )
 
     for vol in volumes:
@@ -232,12 +233,19 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     captionInfo = info["captionInfo"]
     captionNorm = info["captionNorm"]
     captionVariant = info["captionVariant"]
-    if captionNorm or captionVariant or captionInfo:
-        print("NAMES:")
+    captionRoman = info["captionRoman"]
+    if captionNorm or captionVariant or captionInfo or captionRoman:
+        print("CAPTIONS:")
         print(f"\t{len(captionNorm):>3} verified names")
         print(f"\t{len(captionVariant):>3} unresolved variants")
+        print(f"\t{len(captionRoman):>3} malformed roman numerals")
         fh = open(f"{TRIM_DIR}{stage}/fwh-yes.tsv", "w")
-        for (captionSrc, tag) in ((captionNorm, "OK"), (captionVariant, "XX"), (captionInfo, "II")):
+        for (captionSrc, tag) in (
+            (captionNorm, "OK"),
+            (captionVariant, "XX"),
+            (captionInfo, "II"),
+            (captionRoman, "RR"),
+        ):
             for caption in sorted(captionSrc):
                 docs = captionSrc[caption]
                 firstDoc = docs[0]

@@ -74,6 +74,7 @@ IS_TEXT_1_RE = re.compile(
         |aanreekening
         |bedragen
         |Bestaande
+        |Bontolangkas
         |brief
         |canneel
         |corpo
@@ -109,11 +110,11 @@ IGNORE_RE = re.compile(
     r"""
             ^
             (?:
-                Index
+                index
                 |
                 (?:IN[DIO][A-Z\ -]*X)
                 |
-                TOELICH|Toelich
+                toelich
                 |
                 persoonsnamen
                 |
@@ -123,11 +124,11 @@ IGNORE_RE = re.compile(
                 )
             )
         """,
-    re.S | re.X,
+    re.S | re.I | re.X,
 )
 
 COMMA = r"""[.,’'`]"""
-DIGIT_OCR = r"""=\]'coöjsgbil"""
+DIGIT_OCR = r"""=\]'coöjsgbiïl"""
 DIGIT_PLUS = fr"""[0-9{DIGIT_OCR}]"""
 DIGIT_OCR_X = fr"""[{DIGIT_OCR}]"""
 NONWORD = fr"""[^a-z0-9{DIGIT_OCR}]"""
@@ -165,25 +166,94 @@ NUM_PAT = fr"""
 
 SPACE_REPL = r" "
 
+ROMAN_EXCLUDE = set(
+    """
+    3
+    caen
+    d
+    de
+    dec
+    deciel
+    dedel
+    dee
+    den
+    diemen
+    diemeu
+    dutecum
+    duteeum
+    duteuum
+    e
+    haan
+    heuvel
+    jan
+    juli
+    juni
+    lijn
+    mei
+    maan
+    van
+    vlaclc
+    xy
+    y
+""".strip().split()
+)
+
+
+ROMANS = set()
+GOOD_ROMAN = re.compile(r"^[ivxlcdm]+a?$", re.S)
+
+
+def romanRepl(match):
+    word = match.group(0).strip()
+
+    if not word or word in ROMAN_EXCLUDE:
+        return f"{word} "
+
+    goodR = (
+        word.replace("t", "i")
+        .replace("h", "ii")
+        .replace("y", "v")
+        .replace("j", "i")
+        .replace("3", "i")
+        .replace("u", "ii")
+        .replace("1", "i")
+        .replace("ï", "i")
+    )
+    if 'e' in goodR and 'x' in goodR:
+        goodR = goodR.replace('e', 'i')
+
+    if not GOOD_ROMAN.match(goodR):
+        ROMANS.add(word)
+    return SPACE_REPL
+
 
 GOOD_STRIPE = (
     (
+        "stmartin",
+        re.compile(r"""d[oe] saint[* -]*mart\s*in""", re.S),
+        r"de_saint_martin ",
+    ),
+    (
+        "strange",
         re.compile(
             fr"""[^a-z0-9{DIGIT_OCR}.,’`:;"{{}}\[!@$%^&*()_+=|\\~<>?/ \t\n-]""", re.S
         ),
-        r"x",
+        r"?",
     ),
-    (re.compile(fr"""{NONWORD}.[un][zar]\b{COMMA}*\s*""", re.S), SPACE_REPL),
-    (re.compile(rf"""{NUM_PAT}\s*""", re.S | re.X), SPACE_REPL),
-    (re.compile(fr"""{COMMA}\s*""", re.S), SPACE_REPL),
-    (re.compile(r"""&[a-z]+;\s*""", re.S), SPACE_REPL),
-    (re.compile(r"""\b[oe][ni]i?\b\s*""", re.S), SPACE_REPL),
-    (re.compile(r"""\bhe\b\s*"""), SPACE_REPL),
+    ("d.v.", re.compile(fr"""\b[dvy]{COMMA}\s*"""), SPACE_REPL),
+    ("enz", re.compile(fr"""{NONWORD}.[un][zar]\b{COMMA}*\s*""", re.S), SPACE_REPL),
+    ("arabic", re.compile(rf"""{NUM_PAT}\s*""", re.S | re.X), SPACE_REPL),
+    ("comma", re.compile(fr"""{COMMA}\s*""", re.S), SPACE_REPL),
+    ("entity", re.compile(r"""&[a-z]+;\s*""", re.S), SPACE_REPL),
+    ("en", re.compile(r"""\b[oe][ni]i?\b\s*""", re.S), SPACE_REPL),
+    ("he", re.compile(r"""\bhe\b\s*"""), SPACE_REPL),
     (
-        re.compile(r"""\b[iïjvyxlcdmnthuüe3][iïjvyxlcdmnthuüae13]*\b\s*""", re.S),
-        SPACE_REPL,
+        "roman",
+        re.compile(r"""\b[iïjvyxlcdmnthuüe3][iïjvyxlcdmnthuüe13']*a?\b""", re.S),
+        romanRepl,
     ),
     (
+        "month",
         re.compile(
             r"""
         \b
@@ -207,7 +277,7 @@ GOOD_STRIPE = (
         ),
         SPACE_REPL,
     ),
-    (re.compile(r"""[^a-zöï ]+"""), r""),
+    ("cleanup", re.compile(r"""[^a-zöï_ ]+"""), r""),
 )
 
 
@@ -224,6 +294,7 @@ d n=den .
 do =de .
 don =den .
 è=e.
+e)e=de .
 gij seis=gijsels .
 harte inck=hartsinck .
 ho orn=hoorn .
@@ -233,21 +304,24 @@ mae o suy ker=maetsuycker .
 maets yker=maetsuycker .
 o suy ker=maetsuycker .
 yker,maetsu=maetsuycker .
+j^tsuyker=maetsuycker .
 oud.tsh.oorn=oudtshoorn .
 o utho om=oudtshoorn .
 st/eur=steur .
 v an=van .
 v au=van .
+v2n=van .
 vau=van .
+vaii=van .
 yan=van .
 a&n=van .
 w'elsmg=welsing .
+y'i=vii.
 """.strip().split(
         "\n"
     )
 )
-
-TEST_TEXTS = ("ö81",)
+TEST_TEXTS = ("De Wïth on Steur II",)
 TEST_TEXTS = ()
 
 
@@ -260,9 +334,9 @@ def test():
             fw = fw.replace(variant, intention)
         print(f"TEST  0: {fw}")
 
-        for (i, (trimRe, trimRepl)) in enumerate(GOOD_STRIPE):
+        for (i, (label, trimRe, trimRepl)) in enumerate(GOOD_STRIPE):
             fw = trimRe.sub(trimRepl, fw)
-            print(f"TEST  {i + 1}: {fw}")
+            print(f"{label:<10}: {fw}")
 
         print()
         sys.exit()
@@ -302,6 +376,14 @@ blom
 bogaerde
     bogaorde
 
+bornezee
+    bomezee
+    bomezeo
+    bomezoe
+    bomezoo
+    bornezeo
+    bornezoe
+
 bort
     borfc
     burt
@@ -339,6 +421,14 @@ camphuys
     camphuy
     camphuyb
     caraphuys
+    cainphuys
+    campings
+    campkuys
+    carnphuys
+    catnphuys
+    comphuys
+    jamphuys
+    oainphuys
 
 caron
 
@@ -347,7 +437,23 @@ carpentier
     carpentior
     carperntier
 
+chastelein
+    chasfcelein
+    chastelem
+    chasteloin
+    chastolein
+    cliastelein
+    casielijn
+    casteleijn
+    castelijn
+    casteljjn
+
+cops
+    copa
+
 croocq
+
+crudop
 
 cunaeus
     chinaeus
@@ -365,6 +471,12 @@ cunaeus
     cunaons
     cunaoua
     cunoeus
+
+de_saint_martin
+    sainfcmartin
+    saintfartin
+    saintmarfcin
+    saintmartin
 
 dedel
     dedl
@@ -394,10 +506,21 @@ diemen
     diernen
     diomen
 
+douglas
+    dougla
+    douglaa
+    dougls
+    dougias
+    douglass
+
+durven
+
 dutecum
     dutecom
     duteeum
     duteuum
+
+faes
 
 gardenijs
 
@@ -420,6 +543,12 @@ groens
 gorcom
 
 gouverneur
+
+haas
+
+haan
+
+haeze
 
 hartsinck
     harcsinck
@@ -447,10 +576,13 @@ hartzinck
     ixarfczinck
     ixartzinck
 
+hasselaar
+
 heuvel
 
 hoorn
     iioora
+    iioorn
 
 houtman
 
@@ -466,6 +598,8 @@ hurdt
     iiurdt
     ilurdt
     rurdt
+
+huysman
 
 joan
     joon
@@ -548,6 +682,12 @@ oudtshoorn
     outhoom
     outhoora
     outhoorn
+    oufchoom
+    oufchoorn
+    outkoorn
+    outlioom
+    outlioorn
+    oxthoom
 
 overtwater
     vertwater
@@ -564,6 +704,11 @@ philips
 
 pit
     pits
+    pifc
+    pita
+
+pijl
+    pij
 
 putmans
 
@@ -596,11 +741,25 @@ reniers
     rreniers
     remers
     xteniers
+    ïteniers
 
 reyersz
     ileyersz
 
 reynst
+
+riebeeck
+    riebecck
+    rieboeck
+    riobeeck
+    rioboeck
+    riebeeclc
+    riebeeek
+    riebeeok
+    riebeock
+    rieboock
+
+rijn
 
 schaghen
     schaghon
@@ -631,15 +790,33 @@ sweers
     sweera
     sweors
 
+swoll
+    swoii
+    swol
+    swoli
+    swoil
+
 thijsz
     tbijsz
     tliijsz
     thxjsz
 
+timmerman
+    timmermans
+    timmermna
+
+tolling
+
 twist
 
 uffelen
     uffeleii
+
+valckenier
+    valckenior
+    valckonier
+    valckonior
+    valclcenier
 
 verburch
     verbureh
@@ -667,12 +844,18 @@ vlack
     yiack
     ylack
     ylaek
+    vlaclc
+
+vos
+    voa
 
 welsing
     weising
     welging
     welgingen
     welsingen
+
+wilde
 
 willem
 
@@ -683,9 +866,13 @@ with
 
 witsen
     witaen
+    wtsen
     wxtsen
 
 ysbrantsz
+
+zwaardecroon
+    zwaarecroon
 
 """.strip().split(
     "\n\n"
@@ -710,6 +897,8 @@ def trimPage(text, info, *args, **kwargs):
     captionVariant = info["captionVariant"]
     page = info["page"]
     showOrig = f"{page[0:4]}{page[9:]}" in kwargs.get("orig", set())
+
+    ROMANS.clear()
 
     for fw in CLEAR_FW_RE.findall(text):
         if showOrig:
@@ -740,7 +929,7 @@ def trimPage(text, info, *args, **kwargs):
 
             fw = WHITE_RE.sub(r" ", fw.strip())
 
-            for (i, (trimRe, trimRepl)) in enumerate(GOOD_STRIPE):
+            for (i, (label, trimRe, trimRepl)) in enumerate(GOOD_STRIPE):
                 fw = trimRe.sub(trimRepl, fw)
 
             fw = fw.replace("ö", "o").replace("ï", "i")
@@ -803,5 +992,8 @@ def trimPage(text, info, *args, **kwargs):
     text = text.replace("<hi/>", "")
 
     text = HALF_RE.sub(r"½\1", text)
+
+    for rom in ROMANS:
+        info["captionRoman"][rom].append(page)
 
     return text
