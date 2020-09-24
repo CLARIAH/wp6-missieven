@@ -21,14 +21,6 @@ CLEAR_FW_RE = re.compile(r"""<fw\b[^>]*>(.*?)</fw>""", re.S)
 FWH = None
 
 
-def checkFw(match):
-    text = match.group(1)
-    if len(text) > 100:
-        return f"<p>{text}</p>"
-    else:
-        return ""
-
-
 ALIGN_RE = re.compile(r"""text-align:\s*justify[^;"']*;?""", re.S)
 ALIGN_H_RE = re.compile(r"""text-align:\s*([^;"']+)[^;'"]*;?""", re.S)
 ALIGN_V_RE = re.compile(r"""vertical-align:\s*([^;"']+)[^;'"]*;?""", re.S)
@@ -112,7 +104,7 @@ IGNORE_RE = re.compile(
             (?:
                 index
                 |
-                (?:IN[DIO][A-Z\ -]*X)
+                (?:in[dio][a-z\ -]*x)
                 |
                 toelich
                 |
@@ -185,6 +177,7 @@ ROMAN_EXCLUDE = set(
     e
     haan
     heuvel
+    indie
     jan
     juli
     juni
@@ -219,8 +212,15 @@ def romanRepl(match):
         .replace("1", "i")
         .replace("ï", "i")
     )
-    if 'e' in goodR and 'x' in goodR:
-        goodR = goodR.replace('e', 'i')
+    goodR = (
+        goodR.replace("e", "i")
+        if "e" in goodR and "x" in goodR
+        else "viii"
+        if goodR in {"viel", "vin"}
+        else "ii"
+        if goodR == "el"
+        else goodR
+    )
 
     if not GOOD_ROMAN.match(goodR):
         ROMANS.add(word)
@@ -241,7 +241,7 @@ GOOD_STRIPE = (
         r"?",
     ),
     ("d.v.", re.compile(fr"""\b[dvy]{COMMA}\s*"""), SPACE_REPL),
-    ("enz", re.compile(fr"""{NONWORD}.[un][zar]\b{COMMA}*\s*""", re.S), SPACE_REPL),
+    ("enz", re.compile(fr"""{NONWORD}.[un][vzar]\b{COMMA}*\s*""", re.S), SPACE_REPL),
     ("arabic", re.compile(rf"""{NUM_PAT}\s*""", re.S | re.X), SPACE_REPL),
     ("comma", re.compile(fr"""{COMMA}\s*""", re.S), SPACE_REPL),
     ("entity", re.compile(r"""&[a-z]+;\s*""", re.S), SPACE_REPL),
@@ -313,6 +313,10 @@ v au=van .
 v2n=van .
 vau=van .
 vaii=van .
+va leken ier=valckenier .
+vanbnhoff=van imhoff .
+vanlmhoff=van imhoff .
+van lm ho ff=van imhoff .
 yan=van .
 a&n=van .
 w'elsmg=welsing .
@@ -362,6 +366,10 @@ SHOW_ORIG = set(
 )
 
 NAME_REPLACEMENTS_DEF = """
+abraham
+
+adriaan
+
 alphen
     aiphen
     alplien
@@ -448,6 +456,9 @@ chastelein
     castelijn
     casteljjn
 
+cloon
+    cioon
+
 cops
     copa
 
@@ -500,11 +511,17 @@ demmer
     dommer
     lemmer
 
+diderik
+    didcrik
+    piderik
+
 diemen
     diemeu
     dieraen
     diernen
     diomen
+
+dirk
 
 douglas
     dougla
@@ -521,6 +538,8 @@ dutecum
     duteuum
 
 faes
+
+gabry
 
 gardenijs
 
@@ -601,8 +620,19 @@ hurdt
 
 huysman
 
+imhoff
+    imhofj
+    imhojf
+    lmhoff
+
+jacob
+
 joan
     joon
+
+johannes
+
+indie
 
 lijn
 
@@ -649,6 +679,8 @@ maetsuycker
     axaetsuyker
     maetsuvker
 
+mossel
+
 nobel
 
 nuyts
@@ -688,6 +720,7 @@ oudtshoorn
     outlioom
     outlioorn
     oxthoom
+    othoom
 
 overtwater
     vertwater
@@ -697,6 +730,8 @@ overtwater
     ovortwater
     xvertwater
     overfcwater
+
+patras
 
 paviljoen
 
@@ -796,6 +831,8 @@ swoll
     swoli
     swoil
 
+thedens
+
 thijsz
     tbijsz
     tliijsz
@@ -849,6 +886,8 @@ vlack
 vos
     voa
 
+vuyst
+
 welsing
     weising
     welging
@@ -888,6 +927,49 @@ for nameInfo in NAME_REPLACEMENTS_DEF:
         NAME_VARIANTS[variant] = intention
 
 
+def checkFw(match):
+    fw = match.group(1).strip()
+    fw = WHITE_RE.sub(" ", fw)
+    if not fw or fw == "d":
+        return ""
+    orig = fw
+    fw = (
+        fw.replace("&amp;", "&")
+        .replace("&quot;", '"')
+        .replace("&apos;", "'")
+        .replace("&lt;", "<")
+        .replace("&gt;", ">")
+        .replace("ë", "e")
+        .replace("é", "e")
+        .replace("ó", "o")
+    )
+    return (
+        ""
+        if IGNORE_RE.search(fw)
+        or (
+            not IS_TEXT_1_RE.search(fw)
+            and (len(fw) <= 100 or not IS_TEXT_2_RE.search(fw))
+        )
+        else f"<p>{orig}</p>"
+    )
+
+
+FOLIO_RE = re.compile(
+    r"""
+        (^|<[^/][^>]*>)
+        \s*
+        ([^<]*)
+        (
+            fol
+            \.?
+            (?:io)?
+            [^< ]*
+        )
+        ([^<]*)
+        (<\/?[^>]*>)
+    """, re.S | re.I | re.X)
+
+
 def trimPage(text, info, *args, **kwargs):
     if "fwh" not in info:
         info["fwh"] = open(f"{TRIM_DIR}1/fwh-no.tsv", "w")
@@ -905,12 +987,15 @@ def trimPage(text, info, *args, **kwargs):
             orig = fw.strip()
 
         fw = WHITE_RE.sub(" ", fw.strip())
+        if not fw or fw == "d":
+            continue
         fw = (
             fw.replace("&amp;", "&")
             .replace("&quot;", '"')
             .replace("&apos;", "'")
             .replace("&lt;", "<")
             .replace("&gt;", ">")
+            .replace("ë", "e")
             .replace("é", "e")
             .replace("ó", "o")
         )
@@ -951,7 +1036,11 @@ def trimPage(text, info, *args, **kwargs):
                 else:
                     captionVariant[name].append(page)
 
-    # text = CLEAR_FW_RE.sub(checkFw, text)
+    text = CLEAR_FW_RE.sub(checkFw, text)
+
+    folio = info['folio']
+    for (btag, pre, fol, post, etag) in FOLIO_RE.findall(text):
+        folio[fol].append(page)
 
     for trimRe in (
         FAMILY_RE,

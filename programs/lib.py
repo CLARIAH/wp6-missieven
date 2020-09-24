@@ -182,6 +182,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         captionNorm=collections.defaultdict(list),
         captionVariant=collections.defaultdict(list),
         captionRoman=collections.defaultdict(list),
+        folio=collections.defaultdict(list),
     )
 
     for vol in volumes:
@@ -239,18 +240,29 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         print(f"\t{len(captionNorm):>3} verified names")
         print(f"\t{len(captionVariant):>3} unresolved variants")
         print(f"\t{len(captionRoman):>3} malformed roman numerals")
-        fh = open(f"{TRIM_DIR}{stage}/fwh-yes.tsv", "w")
-        for (captionSrc, tag) in (
-            (captionNorm, "OK"),
-            (captionVariant, "XX"),
-            (captionInfo, "II"),
-            (captionRoman, "RR"),
-        ):
-            for caption in sorted(captionSrc):
-                docs = captionSrc[caption]
+        with open(f"{TRIM_DIR}{stage}/fwh-yes.tsv", "w") as fh:
+            for (captionSrc, tag) in (
+                (captionNorm, "OK"),
+                (captionVariant, "XX"),
+                (captionInfo, "II"),
+                (captionRoman, "RR"),
+            ):
+                for caption in sorted(captionSrc):
+                    docs = captionSrc[caption]
+                    firstDoc = docs[0]
+                    nDocs = len(docs)
+                    fh.write(f"{firstDoc} {nDocs:>3}x {tag} {caption}\n")
+
+    folio = info["folio"]
+    if folio:
+        print("FOLIOS:")
+        print(f"\t{len(folio):>3} folio triggers")
+        with open(f"{TRIM_DIR}{stage}/folio.tsv", "w") as fh:
+            for fol in sorted(folio):
+                docs = folio[fol]
                 firstDoc = docs[0]
                 nDocs = len(docs)
-                fh.write(f"{firstDoc} {nDocs:>3}x {tag} {caption}\n")
+                fh.write(f"{firstDoc} {nDocs:>3}x FL {fol}\n")
     return True
 
 
