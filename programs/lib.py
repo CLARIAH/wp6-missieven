@@ -178,11 +178,17 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
 
     info = dict(
         table=0,
+        docs=[],
         captionInfo=collections.defaultdict(list),
         captionNorm=collections.defaultdict(list),
         captionVariant=collections.defaultdict(list),
         captionRoman=collections.defaultdict(list),
-        folio=collections.defaultdict(list),
+        folioResult=collections.defaultdict(list),
+        folioTrue=collections.defaultdict(list),
+        folioFalse=collections.defaultdict(list),
+        folioUndecided=collections.defaultdict(lambda: collections.defaultdict(list)),
+        headInfo=collections.defaultdict(list),
+        bigTitle={},
     )
 
     for vol in volumes:
@@ -192,8 +198,9 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
 
         thisSrcDir = f"{SRC}/{vol}"
         thisDstDir = f"{DST}/{vol}"
-        os.makedirs(thisDstDir, exist_ok=True)
+        os.makedirs(f"{thisDstDir}/rest", exist_ok=True)
 
+        info["vol"] = vol
         idMap = {} if stage == 0 else None
         letters = getLetters(thisSrcDir, idMap)
 
@@ -202,9 +209,12 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
             if givenLid is not None and givenLid != lid:
                 continue
             sys.stderr.write(f"\r\tp{lid:>04}      ")
-            info["doc"] = f"{vol:>02}:p{lid:>04}"
+            doc = f"{vol:>02}:p{lid:>04}"
+            info["doc"] = doc
+            info["docs"].append(doc)
             with open(f"{thisSrcDir}/{name}") as fh:
                 text = fh.read()
+                origText = text
 
             thisAnalysis = analyse(text)
             for (path, count) in thisAnalysis.items():
@@ -212,6 +222,11 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
             text = trimDocument(
                 stage, text, trimPage, info, processPage, *args, **kwargs
             )
+            if text is None:
+                dstName = f"p{lid:>04}.xml"
+                with open(f"{thisDstDir}/rest/{dstName}", "w") as fh:
+                    fh.write(origText)
+                continue
 
             dstName = f"p{lid:>04}.xml"
             with open(f"{thisDstDir}/{dstName}", "w") as fh:
@@ -251,19 +266,172 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                     docs = captionSrc[caption]
                     firstDoc = docs[0]
                     nDocs = len(docs)
-                    fh.write(f"{firstDoc} {nDocs:>3}x {tag} {caption}\n")
+                    fh.write(f"{firstDoc} {nDocs:>4}x {tag} {caption}\n")
 
-    folio = info["folio"]
-    if folio:
-        print("FOLIOS:")
-        print(f"\t{len(folio):>3} folio triggers")
-        with open(f"{TRIM_DIR}{stage}/folio.tsv", "w") as fh:
-            for fol in sorted(folio):
-                docs = folio[fol]
-                firstDoc = docs[0]
-                nDocs = len(docs)
-                fh.write(f"{firstDoc} {nDocs:>3}x FL {fol}\n")
+    folioUndecided = info["folioUndecided"]
+    folioTrue = info["folioTrue"]
+    folioFalse = info["folioFalse"]
+    folioResult = info["folioResult"]
+    if folioUndecided or folioTrue or folioFalse:
+        with open(f"{TRIM_DIR}{stage}/folio.txt", "w") as fh:
+            for (folioSrc, tag) in (
+                (folioFalse, "NO "),
+                (folioTrue, "YES"),
+                (folioResult, "FF"),
+            ):
+                triggers = 0
+                occs = 0
+                for folio in sorted(folioSrc):
+                    docs = folioSrc[folio]
+                    firstDoc = docs[0]
+                    nDocs = len(docs)
+                    triggers += 1
+                    occs += nDocs
+                    fh.write(f"{firstDoc} {nDocs:>4}x {tag} {folio}\n")
+                print(f"FOLIO {tag}:")
+                print(f"\t{tag}: {triggers:>2} with {occs:>4} occurrences")
+            if folioUndecided:
+                totalContexts = sum(len(x) for x in folioUndecided.values())
+                totalOccs = sum(
+                    sum(len(x) for x in folioInfo.values())
+                    for folioInfo in folioUndecided.values()
+                )
+                print(
+                    f"FOLIOS (undecided): {len(folioUndecided)} triggers,"
+                    f" {totalContexts} contexts,"
+                    f" {totalOccs} occurrences"
+                )
+                for (fol, folInfo) in sorted(
+                    folioUndecided.items(), key=lambda x: (len(x[1]), x[0])
+                ):
+                    nContexts = len(folInfo)
+                    nOccs = sum(len(x) for x in folInfo.values())
+                    msg = f"{fol:<20} {nContexts:>3} contexts, {nOccs:>4} occurrences"
+                    print(f"\t{msg}")
+                    fh.write(f"{msg}\n")
+                    for (context, pages) in sorted(
+                        folInfo.items(), key=lambda x: (len(x[1]), x[0])
+                    ):
+                        fh.write(f"\t{pages[0]} {len(pages):>4}x: {context}\n")
+
+    docs = info["docs"]
+    totalDocs = len(docs)
+    headInfo = info["headInfo"]
+    bigTitle = info["bigTitle"]
+
+    for doc in docs:
+        if doc not in headInfo:
+            headInfo[doc] = []
+
+    noHeads = []
+    multipleHeads = []
+    singleHeads = []
+
+    for doc in sorted(docs):
+        if doc in bigTitle:
+            continue
+        heads = headInfo[doc]
+        nHeads = len(heads)
+        if nHeads == 0:
+            noHeads.append(doc)
+        elif nHeads > 1:
+            multipleHeads.append((doc, heads))
+        else:
+            singleHeads.append((doc, heads[0]))
+
+    print(f"HEADS: {totalDocs} letters")
+    print(f"\t: {len(noHeads):>3} without heading")
+    print(f"\t: {len(multipleHeads):>3} with multiple headings")
+    print(f"\t: {len(singleHeads):>3} with single heading")
+
+    with open(f"{TRIM_DIR}{stage}/heads.tsv", "w") as fh:
+        for doc in noHeads:
+            fh.write(f"{doc} NO\n")
+        for (doc, heads) in multipleHeads:
+            fh.write(f"{doc} MULTIPLE:\n")
+            for head in heads:
+                fh.write(f"\t{head}\n")
+        for (doc, head) in singleHeads:
+            fh.write(f"{doc} => {head}\n")
+
+    print(f"REST DOCUMENTS: {len(bigTitle)} rest documents")
+
+    with open(f"{TRIM_DIR}{stage}/rest.tsv", "w") as fh:
+        for (doc, head) in sorted(bigTitle.items()):
+            msg = f"{doc} => {head}"
+            print(f"\t{msg}")
+            fh.write(f"{msg}\n")
     return True
+
+
+HEADER_TITLE_RE = re.compile(
+    r"""
+        <meta\s+
+        key="title"\s+
+        value="([^"]*)"
+    """,
+    re.S | re.X,
+)
+
+
+REST_RE = re.compile(
+    r"""
+    ^
+    (?:
+        index
+        |
+        indices
+    )
+    """,
+    re.S | re.I | re.X,
+)
+
+
+BIG_TITLE_PART_RE = re.compile(
+    r"""
+    (
+        \s*
+        <pb\b[^>]*?\bn="([^"]*)"[^>]*>
+        \s*
+        (?:
+            <pb\b[^>]*?\bn="[^"]*"[^>]*>
+            \s*
+        )*
+        <bigTitle>(.*?)</bigTitle>
+        \s*
+        (?:
+            (?:
+                (?:
+                    <p\b[^>]*>.*?</p>
+                )
+                |
+                (?:
+                    <pb\b[^>]*>
+                )
+            )
+            \s*
+        )*
+        \s*
+    )
+    """,
+    re.S | re.X,
+)
+
+
+BIG_TITLE_RE = re.compile(r"""<bigTitle>(.*?)</bigTitle>""", re.S)
+PB_P_PERM_RE = re.compile(
+    r"""
+    (
+        (?:
+            <pb\b[^>]*>\s*
+        )+
+    )
+    (
+        </p>
+    )
+    """,
+    re.S | re.X,
+)
 
 
 def trimDocument(stage, text, trimPage, info, processPage, *args, **kwargs):
@@ -275,10 +443,48 @@ def trimDocument(stage, text, trimPage, info, processPage, *args, **kwargs):
         if stage == 0
         else f"""<header>\n{match.group(1)}\n</header>"""
     )
+    if stage == 1:
+        doc = info["doc"]
+        bigTitle = info["bigTitle"]
+        match = HEADER_TITLE_RE.search(header)
+        if match:
+            title = match.group(1)
+            if REST_RE.match(title):
+                bigTitle[doc] = title.replace('<lb/>', ' ').replace('\n', "")
+                return None
 
     bodyRe = re.compile(r"""<body[^>]*>(.*?)</body>""", re.S)
     match = bodyRe.search(text)
-    body = trimBody(stage, match.group(1), trimPage, info, processPage, *args, **kwargs)
+    text = match.group(1)
+
+    body = trimBody(stage, text, trimPage, info, processPage, *args, **kwargs)
+
+    if stage == 1:
+        body = PB_P_PERM_RE.sub(r"""\2\n\1""", body)
+        match = BIG_TITLE_PART_RE.search(body)
+
+        if match:
+            vol = info["vol"]
+            doc = info["doc"]
+
+            text = match.group(0)
+
+            if text == body:
+                head = match.group(1)
+                bigTitle[doc] = head.replace('<lb/>', ' ').replace('\n', "")
+                return None
+
+            bigTitles = BIG_TITLE_PART_RE.findall(body)
+            for (page, pnum, head) in bigTitles:
+                pnum = f"p{int(pnum):>04}"
+                doc = f"{vol:>02}:{pnum}"
+                bigTitle[doc] = head.replace('<lb/>', ' ').replace('\n', "")
+                fileName = f"{pnum}.xml"
+                path = f"{TRIM_DIR}{stage}/{vol}/rest/{fileName}"
+                with open(path, "w") as fh:
+                    fh.write(page)
+
+            body = BIG_TITLE_PART_RE.sub("", body)
 
     return f"""<teiTrim>\n{header}\n<body>\n{body}\n</body>\n</teiTrim>"""
 
