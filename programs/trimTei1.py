@@ -1,7 +1,7 @@
 import sys
 import re
 
-from lib import WHITE_RE, TRIM_DIR
+from lib import WHITE_RE, TRIM_DIR, HI_CLEAN_STRONG_RE
 
 
 processPage = None
@@ -54,7 +54,7 @@ SIZE_XLARGE_RE = re.compile(
         (?:
             (?:[2-9][0-9])
             |
-            (?:1[7-9])
+            (?:1[5-9])
         )
         \.?5?
         [^;"']*
@@ -67,7 +67,7 @@ SIZE_LARGE_RE = re.compile(
         font-size:
         \s*
         (?:
-            (?:1[1-6])
+            (?:1[1-4])
         )
         \.?5?
         [^;"']*
@@ -1241,41 +1241,27 @@ FOLIO_MERGE_RE = re.compile(
 
 FOLIO_RESULT_RE = re.compile(r"""<folio>(.*?)</folio>""", re.S)
 
-FOLIO_ISOLATE = (
-    re.compile(
-        r"""
-            <hi[^>]*>
-            \s*
-            (<folio>[^<]*</folio>)
-            \s*
-            (?:<lb/>\s*)*
-            </hi>
-            \s*
-            (?:<lb/>\s*)*
-        """,
-        re.S | re.X,
-    ),
-    re.compile(
-        r"""
-            <p\b[^>]*>
-            \s*
-            (<folio>[^<]*</folio>)
-            \s*
-            (?:<lb/>\s*)*
-            </p>
-            \s*
-            (?:<lb/>\s*)*
-        """,
-        re.S | re.X,
-    ),
-    re.compile(
-        r"""
+FOLIO_ISOLATE_RE = re.compile(
+    r"""
+        <([a-zA-Z]+)\b[^>]*>
+        \s*
+        (<folio>[^<]*</folio>)
+        \s*
+        (?:<lb/>\s*)*
+        </\1>
+        \s*
+        (?:<lb/>\s*)*
+    """,
+    re.S | re.X,
+)
+
+FOLIO_LB_RE = re.compile(
+    r"""
         (<folio>[^<]*</folio>)
         \s*
         (?:<lb/>\s*)+
-        """,
-        re.S | re.X,
-    ),
+    """,
+    re.S | re.X,
 )
 
 FOLIO_MOVE = (
@@ -1297,7 +1283,7 @@ FOLIO_MOVE = (
 HEAD_RE = re.compile(r"""<head\b[^>]*>(.*?)</head>""", re.S)
 
 HEAD_CORRECT = r"""
-        [IVXLC]+[IVXLC\ ]*(?:\s*a)?\.\s*
+        [IVXLC]+[IVXLCl\ ]*(?:\s*a)?\.?\s*
         [A-Z\ ,.]{10,}
         [^<]*
         (?:<lb/>[^<]*)*
@@ -1305,15 +1291,25 @@ HEAD_CORRECT = r"""
 
 HEAD_CORRECT_RE = re.compile(
     fr"""
-    <p\b[^>]*>
+    (<p\b[^>]*>)
     (?:<hi[^>]*>\s*)?
     ({HEAD_CORRECT})
     (?:</hi>\s*)?
     (?:<lb/>\s*)?
-    </p>\s*
+    (</p>\s*)
     """,
     re.S | re.X,
 )
+
+
+def headCorrectRepl(match):
+    text = match.group(2)
+    return (
+        f"{match.group(1)}{text}{match.group(3)}"
+        if "FEBRUARI" in text
+        else f"""\n<head>{text}</head>\n"""
+    )
+
 
 HEAD_CORRECT_N_RE = re.compile(
     fr"""
@@ -1327,7 +1323,45 @@ HEAD_CORRECT_N_RE = re.compile(
 HEAD_CORRECT_NUM_RE = re.compile(
     r"""
     <head\b[^>]*>
-    ([0-9\ .,„/J]*)
+    (
+        (?:
+            [0-9.,„«/()^ABCDfHIJKMNOQUrVw°—-]
+            |
+            (?:
+                <hi\b[^>]*>[^<]*</hi>
+            )
+            |
+            (?:
+                &[a-z]+;
+            )
+            |
+            (?:
+                <lb/>
+            )
+            |
+            (?:
+                \s+
+            )
+        )*
+    )
+    (?:<lb/>\s*)?
+    </head>\s*
+    """,
+    re.S | re.X,
+)
+
+
+ALPHA = r"""[A-ZËÖ]+"""
+
+HEAD_CORRECT_NAME_RE = re.compile(
+    fr"""
+    <head\b[^>]*>
+    \s*
+    (
+        (?:
+            {ALPHA}\s*
+        ){{1,3}}
+    )
     (?:<lb/>\s*)?
     </head>\s*
     """,
@@ -1354,10 +1388,6 @@ def getFolioPost(post):
     if FOLIO_POST_RETAIN_RE.search(post):
         return plain
     match = FOLIO_POST_REMOVE_RE.match(post)
-    if match:
-        # origPost = post
-        (post, after) = match.groups([1, 2])
-        # print(f"\n\t\tFOLIO `{origPost}` => `{post}` + `{after}`")
     return match.groups([1, 2]) if match else plain
 
 
@@ -1394,7 +1424,7 @@ def checkFw(match):
     return f"<p>{orig}</p>" if wrong else ""
 
 
-HEAD_TITLE_RE = re.compile(r"""<head rend="xlarge">(.*?)</head>""", re.S)
+HEAD_TITLE_RE = re.compile(r"""<head rend="[^"]*?\bxlarge\b[^>]*>(.*?)</head>""", re.S)
 
 
 def trimPage(text, info, *args, **kwargs):
@@ -1593,8 +1623,8 @@ def trimPage(text, info, *args, **kwargs):
             print(f"\nFOLIO has subelements: `{fol}`")
         folioResult[fol].append(page)
 
-    for trimRe in FOLIO_ISOLATE:
-        text = trimRe.sub(r"""\1""", text)
+    text = FOLIO_ISOLATE_RE.sub(r"""\2""", text)
+    text = FOLIO_LB_RE.sub(r"""\1""", text)
 
     for trimRe in FOLIO_MOVE:
         text = trimRe.sub(r"""\2\1""", text)
@@ -1602,7 +1632,8 @@ def trimPage(text, info, *args, **kwargs):
     headInfo = info["headInfo"]
 
     text = HEAD_TITLE_RE.sub(r"""\n<bigTitle>\1</bigTitle>\n""", text)
-    text = HEAD_CORRECT_RE.sub(r"""\n<head>\1</head>\n""", text)
+    text = HEAD_CORRECT_NAME_RE.sub(r"""\n<subHead>\1</subHead>\n""", text)
+    text = HEAD_CORRECT_RE.sub(headCorrectRepl, text)
     text = HEAD_CORRECT_N_RE.sub(r"""\n<head>\2</head>\n\1\3""", text)
     text = HEAD_CORRECT_NUM_RE.sub(r"""\n<p>\1</p>\n""", text)
     text = HEAD_NOTE_RE.sub(
@@ -1611,8 +1642,10 @@ def trimPage(text, info, *args, **kwargs):
 
     for match in HEAD_RE.finditer(text):
         head = match.group(1)
-        head = head.replace("\n", " ")
-        headInfo[doc].append(f"{page} {head}")
+        head = HI_CLEAN_STRONG_RE.sub(
+            r"""\1""", head.replace("<lb/>", " ").replace("\n", " ")
+        )
+        headInfo[doc].append((page, head))
 
     for rom in ROMANS:
         info["captionRoman"][rom].append(page)

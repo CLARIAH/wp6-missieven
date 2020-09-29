@@ -71,9 +71,9 @@ def main():
                 kwargs[k] = v
 
     if vol is not None:
-        vol = int(vol)
+        vol = f"{int(vol):>02}"
     if lid is not None:
-        lid = int(lid)
+        lid = f"p{int(lid):>04}"
 
     print(f"TEI trimmer stage {stage} for {REPO}")
     print(f"TEI source version = {VERSION_SRC}")

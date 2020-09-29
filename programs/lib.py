@@ -2,6 +2,8 @@ import sys
 import os
 import collections
 import re
+from itertools import chain
+
 import yaml
 import xml.etree.ElementTree as ET
 
@@ -38,10 +40,17 @@ VERSION_TF = META_DECL["versionTf"]
 
 IN_DIR = f"{SOURCE_DIR}/{VERSION_SRC}/tei"
 TRIM_DIR = f"{SOURCE_DIR}/{VERSION_SRC}/trim"
+REPORT_DIR = f"{REPO_DIR}/trimreport"
 
 TF_DIR = f"{REPO_DIR}/tf"
 OUT_DIR = f"{TF_DIR}/{VERSION_TF}"
 
+MERGE_DOCS = {
+    "06:p0406": ("06:p0407",),
+}
+SKIP_DOCS = {x for x in chain.from_iterable(MERGE_DOCS.values())}
+
+HI_CLEAN_STRONG_RE = re.compile(r"""<hi\b[^>]*>([^<]*)</hi>""", re.S)
 
 # FILESYSTEM OPERATIONS
 
@@ -81,7 +90,7 @@ def getPage(path):
     with open(path) as fh:
         text = fh.read()
     match = PAGENUM_RE.search(text)
-    return int(match.group(1)) if match else 0
+    return f"p{int(match.group(1)):>04}" if match else None
 
 
 def getVolumes(srcDir):
@@ -92,7 +101,7 @@ def getVolumes(srcDir):
                 vol = entry.name
                 if not vol.isdigit():
                     continue
-                volumes.append(int(vol))
+                volumes.append(f"{int(vol):>02}")
     return sorted(volumes)
 
 
@@ -106,13 +115,14 @@ def getLetters(srcDir, idMap=None):
             if entry.is_file():
                 name = entry.name
                 if name.endswith(".xml"):
+                    pureName = name[0:-4]
                     if idMap is not None:
                         lid = getPage(f"{srcDir}/{name}")
                         if lid in lidSet:
                             collisions += 1
                         lidSet.add(lid)
-                        idMap[name] = lid
-                    letters.append(name)
+                        idMap[pureName] = lid
+                    letters.append(pureName)
     if collisions:
         print(f"MAPPING from letter ids to first pages: {collisions} collisions")
         return ()
@@ -157,6 +167,19 @@ def analyse(text, after=False):
     return analysis
 
 
+BODY_RE = re.compile(r"""<body[^>]*>(.*?)</body>""", re.S)
+
+
+def combineTexts(first, following):
+    bodies = []
+
+    for text in following:
+        match = BODY_RE.search(text)
+        bodies.append(match.group(1))
+
+    return first.replace("</body", ("\n".join(bodies)) + "</body>")
+
+
 # TOP-LEVEL TRIM
 
 
@@ -166,10 +189,12 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     else:
         SRC = f"{TRIM_DIR}{stage - 1}"
     DST = f"{TRIM_DIR}{stage}"
+    REP = f"{REPORT_DIR}{stage}"
 
     if os.path.exists(DST):
         clearTree(DST)
     os.makedirs(DST, exist_ok=True)
+    os.makedirs(REP, exist_ok=True)
 
     volumes = getVolumes(SRC)
 
@@ -189,14 +214,19 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         folioUndecided=collections.defaultdict(lambda: collections.defaultdict(list)),
         headInfo=collections.defaultdict(list),
         bigTitle={},
+        splits=[],
+        splitsX=[],
     )
+
+    mergeText = {}
 
     for vol in volumes:
         if givenVol is not None and givenVol != vol:
             continue
-        print(f"\rvolume {vol:>2}" + " " * 70)
+        print(f"\rvolume {vol}" + " " * 70)
 
-        thisSrcDir = f"{SRC}/{vol}"
+        volDir = vol.lstrip("0") if stage == 0 else vol
+        thisSrcDir = f"{SRC}/{volDir}"
         thisDstDir = f"{DST}/{vol}"
         os.makedirs(f"{thisDstDir}/rest", exist_ok=True)
 
@@ -204,17 +234,41 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         idMap = {} if stage == 0 else None
         letters = getLetters(thisSrcDir, idMap)
 
+        if stage == 1:
+            for name in letters:
+                lid = name if idMap is None else idMap[name]
+                if givenLid is not None and givenLid != lid:
+                    continue
+                doc = f"{vol}:{lid}"
+                if doc in SKIP_DOCS:
+                    continue
+                if doc in MERGE_DOCS:
+                    with open(f"{thisSrcDir}/{name}.xml") as fh:
+                        text = fh.read()
+                    followTexts = []
+                    for followDoc in MERGE_DOCS[doc]:
+                        followName = followDoc.split(":", 1)[1] + ".xml"
+                        with open(f"{thisSrcDir}/{followName}") as fh:
+                            followTexts.append(fh.read())
+                    mergeText[doc] = combineTexts(text, followTexts)
+
         for name in letters:
-            lid = idMap[name] if idMap is not None else int(name[1:5].lstrip("0"))
+            lid = name if idMap is None else idMap[name]
             if givenLid is not None and givenLid != lid:
                 continue
-            sys.stderr.write(f"\r\tp{lid:>04}      ")
-            doc = f"{vol:>02}:p{lid:>04}"
+            doc = f"{vol}:{lid}"
+            if stage == 1 and doc in SKIP_DOCS:
+                continue
+            sys.stderr.write(f"\r\t{lid}      ")
             info["doc"] = doc
             info["docs"].append(doc)
-            with open(f"{thisSrcDir}/{name}") as fh:
-                text = fh.read()
-                origText = text
+
+            if stage == 1 and doc in mergeText:
+                text = mergeText[doc]
+            else:
+                with open(f"{thisSrcDir}/{name}.xml") as fh:
+                    text = fh.read()
+            origText = text
 
             thisAnalysis = analyse(text)
             for (path, count) in thisAnalysis.items():
@@ -223,12 +277,12 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                 stage, text, trimPage, info, processPage, *args, **kwargs
             )
             if text is None:
-                dstName = f"p{lid:>04}.xml"
+                dstName = f"{lid}.xml"
                 with open(f"{thisDstDir}/rest/{dstName}", "w") as fh:
                     fh.write(origText)
                 continue
 
-            dstName = f"p{lid:>04}.xml"
+            dstName = f"{lid}.xml"
             with open(f"{thisDstDir}/{dstName}", "w") as fh:
                 fh.write(text)
 
@@ -238,11 +292,11 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
 
     print("\rdone" + " " * 70)
 
-    with open(f"{DST}/elementsIn.tsv", "w") as fh:
+    with open(f"{REP}/elementsIn.tsv", "w") as fh:
         for (path, amount) in sorted(analysis.items()):
             fh.write(f"{path}\t{amount}\n")
 
-    with open(f"{DST}/elementsOut.tsv", "w") as fh:
+    with open(f"{REP}/elementsOut.tsv", "w") as fh:
         for (path, amount) in sorted(analysisAfter.items()):
             fh.write(f"{path}\t{amount}\n")
 
@@ -255,7 +309,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         print(f"\t{len(captionNorm):>3} verified names")
         print(f"\t{len(captionVariant):>3} unresolved variants")
         print(f"\t{len(captionRoman):>3} malformed roman numerals")
-        with open(f"{TRIM_DIR}{stage}/fwh-yes.tsv", "w") as fh:
+        with open(f"{REP}/fwh-yes.tsv", "w") as fh:
             for (captionSrc, tag) in (
                 (captionNorm, "OK"),
                 (captionVariant, "XX"),
@@ -273,7 +327,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     folioFalse = info["folioFalse"]
     folioResult = info["folioResult"]
     if folioUndecided or folioTrue or folioFalse:
-        with open(f"{TRIM_DIR}{stage}/folio.txt", "w") as fh:
+        with open(f"{REP}/folio.txt", "w") as fh:
             for (folioSrc, tag) in (
                 (folioFalse, "NO "),
                 (folioTrue, "YES"),
@@ -316,52 +370,150 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
 
     docs = info["docs"]
     totalDocs = len(docs)
-    headInfo = info["headInfo"]
-    bigTitle = info["bigTitle"]
+    print(f"{totalDocs} documents")
 
-    for doc in docs:
-        if doc not in headInfo:
-            headInfo[doc] = []
+    if stage == 1:
+        splits = info["splits"]
+        splitsX = info["splitsX"]
+        headInfo = info["headInfo"]
+        bigTitle = info["bigTitle"]
 
-    noHeads = []
-    multipleHeads = []
-    singleHeads = []
+        for doc in docs:
+            if doc not in headInfo:
+                headInfo[doc] = []
 
-    for doc in sorted(docs):
-        if doc in bigTitle:
-            continue
-        heads = headInfo[doc]
-        nHeads = len(heads)
-        if nHeads == 0:
-            noHeads.append(doc)
-        elif nHeads > 1:
-            multipleHeads.append((doc, heads))
-        else:
-            singleHeads.append((doc, heads[0]))
+        noHeads = []
+        singleHeads = []
+        shortHeads = []
 
-    print(f"HEADS: {totalDocs} letters")
-    print(f"\t: {len(noHeads):>3} without heading")
-    print(f"\t: {len(multipleHeads):>3} with multiple headings")
-    print(f"\t: {len(singleHeads):>3} with single heading")
+        for doc in sorted(docs):
+            if doc in bigTitle:
+                continue
+            heads = headInfo[doc]
+            nHeads = len(heads)
+            if nHeads == 0:
+                noHeads.append(doc)
+            else:
+                for (fullDoc, head) in heads:
+                    if len(head) < 40 and "BIJLAGE" not in head:
+                        shortHeads.append((fullDoc, head))
+                if nHeads > 1:
+                    theseSplits = splitDoc(doc)
+                    for ((startDoc, newDoc, sHead), (fullDoc, mHead)) in zip(
+                        theseSplits, heads
+                    ):
+                        newPage = newDoc[4:]
+                        expPage = fullDoc[9:]
+                        if newPage == expPage and sHead == mHead:
+                            singleHeads.append((newDoc, sHead))
+                            splits.append((startDoc, newDoc, sHead))
+                        else:
+                            splitsX.append((startDoc, newPage, expPage, sHead, mHead))
+                else:
+                    singleHeads.append((doc, heads[0][1]))
 
-    with open(f"{TRIM_DIR}{stage}/heads.tsv", "w") as fh:
-        for doc in noHeads:
-            fh.write(f"{doc} NO\n")
-        for (doc, heads) in multipleHeads:
-            fh.write(f"{doc} MULTIPLE:\n")
-            for head in heads:
-                fh.write(f"\t{head}\n")
-        for (doc, head) in singleHeads:
-            fh.write(f"{doc} => {head}\n")
+        print(f"\t: {len(shortHeads):>3} short headings")
+        print(f"\t: {len(noHeads):>3} without heading")
+        print(f"\t: {len(singleHeads):>3} with single heading")
+        print(f"\t: {len(noHeads) + len(singleHeads):>3} letters")
+        print(f"\t: {len(splits):>3} split-off letters")
+        print(f"\t: {len(splitsX):>3} split-off errors")
+        print(f"\t: {len(bigTitle):>3} rest documents")
 
-    print(f"REST DOCUMENTS: {len(bigTitle)} rest documents")
+        with open(f"{REP}/heads.tsv", "w") as fh:
+            for doc in noHeads:
+                fh.write(f"{doc} NO\n")
+            for (mainDoc, (doc, head)) in shortHeads:
+                fh.write(f"{doc} =SHORT=> {head}\n")
+            for (doc, head) in singleHeads:
+                etc = " ... " if len(head) > 70 else ""
+                fh.write(f"{doc} => {head[0:70]}{etc}\n")
 
-    with open(f"{TRIM_DIR}{stage}/rest.tsv", "w") as fh:
-        for (doc, head) in sorted(bigTitle.items()):
-            msg = f"{doc} => {head}"
-            print(f"\t{msg}")
-            fh.write(f"{msg}\n")
+        with open(f"{REP}/rest.tsv", "w") as fh:
+            for (doc, head) in sorted(bigTitle.items()):
+                msg = f"{doc} => {head}"
+                fh.write(f"{msg}\n")
+
+        with open(f"{REP}/splits.tsv", "w") as fh:
+            for (startDoc, newDoc, sHead) in splits:
+                etc = " ... " if len(sHead) > 50 else ""
+                fh.write(f"{startDoc} =OK=> {newDoc} {sHead[0:50]}\n")
+            for (startDoc, newPage, expPage, sHead, mHead) in splitsX:
+                label = "===" if newPage == expPage else "=/="
+                fh.write(f"{startDoc} =XX=> {newPage} {label} {expPage}\n")
+                if sHead != mHead:
+                    fh.write(f"\t{sHead}\n\t===versus===\n\t{mHead}\n")
+
     return True
+
+
+SPLIT_DOC_RE = re.compile(
+    r"""
+        <pb\b[^>]*?\bn="([0-9]+)"[^>]*>\s*
+        (?:
+            <pb\b[^>]*>\s*
+        )*
+        (?:
+            <p\b[^>]*>.*?</p>\s*
+        )?
+        <head\b[^>]*>(.*?)</head>
+    """,
+    re.S | re.X,
+)
+HEADER_RE = re.compile(r"""^.*?</header>\s*""", re.S)
+
+
+def splitDoc(doc):
+    stage = 1
+    (vol, startPage) = doc.split(":")
+    path = f"{TRIM_DIR}{stage}/{doc.replace(':', '/')}.xml"
+    with open(path) as fh:
+        text = fh.read()
+
+    match = HEADER_RE.match(text)
+    header = match.group(0)
+
+    match = BODY_RE.search(text)
+    body = match.group(1)
+
+    lastPage = None
+    lastHead = None
+    lastIndex = 0
+    splits = []
+
+    for (i, match) in enumerate(SPLIT_DOC_RE.finditer(body)):
+        pageNum = f"{int(match.group(1)):>04}"
+        page = f"p{pageNum}"
+        head = HI_CLEAN_STRONG_RE.sub(
+            r"""\1""", match.group(2).replace("<lb/>", " ").replace("\n", " ")
+        )
+
+        if i == 0:
+            lastPage = page
+            lastHead = head
+            continue
+
+        (b, e) = match.span()
+        lastText = body[lastIndex:b]
+
+        writeDoc(vol, lastPage, header, lastText)
+        splits.append((doc, f"{vol}:{lastPage}", lastHead))
+        lastPage = page
+        lastHead = head
+        lastIndex = b
+
+    if i > 0:
+        lastText = body[lastIndex:]
+        writeDoc(vol, lastPage, header, lastText)
+        splits.append((doc, f"{vol}:{lastPage}", lastHead))
+
+    return splits
+
+
+def writeDoc(vol, page, header, text):
+    stage = 1
+    with open(f"{TRIM_DIR}{stage}/{vol}/{page}.xml", "w") as fh:
+        fh.write(f"{header}{text}</body>\n</teiTrim>")
 
 
 HEADER_TITLE_RE = re.compile(
@@ -381,6 +533,8 @@ REST_RE = re.compile(
         index
         |
         indices
+        |
+        toelichting
     )
     """,
     re.S | re.I | re.X,
@@ -450,11 +604,12 @@ def trimDocument(stage, text, trimPage, info, processPage, *args, **kwargs):
         if match:
             title = match.group(1)
             if REST_RE.match(title):
-                bigTitle[doc] = title.replace('<lb/>', ' ').replace('\n', "")
+                bigTitle[doc] = HI_CLEAN_STRONG_RE.sub(
+                    r"""\1""", title.replace("<lb/>", " ").replace("\n", " ")
+                )
                 return None
 
-    bodyRe = re.compile(r"""<body[^>]*>(.*?)</body>""", re.S)
-    match = bodyRe.search(text)
+    match = BODY_RE.search(text)
     text = match.group(1)
 
     body = trimBody(stage, text, trimPage, info, processPage, *args, **kwargs)
@@ -467,18 +622,22 @@ def trimDocument(stage, text, trimPage, info, processPage, *args, **kwargs):
             vol = info["vol"]
             doc = info["doc"]
 
-            text = match.group(0)
+            text = match.group(1)
 
             if text == body:
-                head = match.group(1)
-                bigTitle[doc] = head.replace('<lb/>', ' ').replace('\n', "")
+                head = match.group(3)
+                bigTitle[doc] = HI_CLEAN_STRONG_RE.sub(
+                    r"""\1""", head.replace("<lb/>", " ").replace("\n", " ")
+                )
                 return None
 
             bigTitles = BIG_TITLE_PART_RE.findall(body)
             for (page, pnum, head) in bigTitles:
                 pnum = f"p{int(pnum):>04}"
-                doc = f"{vol:>02}:{pnum}"
-                bigTitle[doc] = head.replace('<lb/>', ' ').replace('\n', "")
+                doc = f"{vol}:{pnum}"
+                bigTitle[doc] = HI_CLEAN_STRONG_RE.sub(
+                    r"""\1""", head.replace("<lb/>", " ").replace("\n", " ")
+                )
                 fileName = f"{pnum}.xml"
                 path = f"{TRIM_DIR}{stage}/{vol}/rest/{fileName}"
                 with open(path, "w") as fh:
