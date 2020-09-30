@@ -1,0 +1,88 @@
+ head.rend=outdent	1
+ head.rend=right	1
+ hi.rend=emphasis	712
+ hi.rend=small	5
+ hi.rend=small-caps	1
+ hi.rend=sub	3
+ hi.rend=super	1681
+ note.rend=bold	1
+ note.rend=bold small	5
+ note.rend=indent	44
+ note.rend=indent small	17
+ note.rend=italic	12
+ note.rend=italic center	2
+ note.rend=italic center xsmall	2
+ note.rend=italic indent	498
+ note.rend=italic indent bold	3
+ note.rend=italic indent bold small	3
+ note.rend=italic indent small	112
+ note.rend=italic right	14
+ note.rend=italic right small	1
+ note.rend=italic small	1
+ note.rend=italic xsmall	8
+ note.rend=outdent	4
+ note.rend=outdent small	1
+ note.rend=right	13
+ note.rend=small	931
+ note.rend=small bold indent	1
+ note.rend=small center	4
+ note.rend=small indent	889
+ note.rend=small italic	4
+ note.rend=small italic indent	1
+ note.rend=small italic right	2
+ note.rend=small right	7
+ note.rend=xsmall italic	2
+ p.rend=bold indent	2
+ p.rend=center	68
+ p.rend=center xsmall	3
+ p.rend=indent	1866
+ p.rend=indent bold	11
+ p.rend=indent small	4
+ p.rend=italic indent	12
+ p.rend=outdent	20
+ p.rend=right	211
+ p.rend=small	31
+ p.rend=small bold	3
+ p.rend=small center	1
+ p.rend=small indent	38
+ p.rend=small right	3
+ p.rend=xsmall	17
+ p.rend=xsmall center	5
+ p.rend=xsmall right	9
+ p.rend=xsmall small-caps	1
+body..	68
+cell..	959
+folio..	114
+head..	66
+header..	68
+hi..	447
+lb..	32111
+meta.key=author	68
+meta.key=dayFrom	68
+meta.key=dayTo	68
+meta.key=monthFrom	68
+meta.key=monthTo	68
+meta.key=page	68
+meta.key=pid	68
+meta.key=place	68
+meta.key=rawdate	68
+meta.key=seq	68
+meta.key=title	68
+meta.key=yearFrom	68
+meta.key=yearTo	68
+meta.value=x	884
+note..	26
+note.place=inline	724
+note.resp=editor	724
+note.type=editorial-summary	724
+p..	654
+pb.facs=n_nnn_nnnn	718
+pb.n=n	6
+pb.n=nn	78
+pb.n=nnn	634
+pb.tpl=n	718
+pb.vol=nn	718
+row..	186
+table..	23
+teiTrim..	68
+und..	1

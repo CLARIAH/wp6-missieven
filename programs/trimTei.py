@@ -54,12 +54,24 @@ def main():
     kwargs = {}
     pargs = []
 
+    good = True
+
     for arg in args:
-        if arg.isdigit():
+        if arg.isdigit() or '-' in arg:
+            if '-' in arg:
+                (b, e) = arg.split('-', 1)
+                if b.isdigit() and e.isdigit():
+                    values = set(range(int(b), int(e) + 1))
+                else:
+                    print(f"Unrecognized argument `{arg}`")
+                    good = False
+                    continue
+            else:
+                values = {int(arg)}
             if vol is None:
-                vol = arg
+                vol = values
             elif lid is None:
-                lid = arg
+                lid = values
         else:
             kv = arg.split("=", 1)
             if len(kv) == 1:
@@ -70,10 +82,13 @@ def main():
                     v = set(v.split(","))
                 kwargs[k] = v
 
+    if not good:
+        return False
+
     if vol is not None:
-        vol = f"{int(vol):>02}"
+        vol = {f"{i:>02}" for i in vol}
     if lid is not None:
-        lid = f"p{int(lid):>04}"
+        lid = {f"p{i:>04}" for i in lid}
 
     print(f"TEI trimmer stage {stage} for {REPO}")
     print(f"TEI source version = {VERSION_SRC}")

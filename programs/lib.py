@@ -76,6 +76,8 @@ def clearTree(path):
 
     for subdir in subdirs:
         clearTree(f"{path}/{subdir}")
+        if subdir == "rest":
+            os.rmdir(f"{path}/{subdir}")
 
 
 # SOURCE READING
@@ -204,6 +206,13 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     info = dict(
         table=0,
         docs=[],
+        metasGood=[],
+        metasUnknown=[],
+        metasDistilled=collections.defaultdict(dict),
+        metasInconsistent=collections.defaultdict(list),
+        metasSupplied=collections.defaultdict(list),
+        metasUnsupported=collections.defaultdict(list),
+        metasAbsent=collections.defaultdict(list),
         captionInfo=collections.defaultdict(list),
         captionNorm=collections.defaultdict(list),
         captionVariant=collections.defaultdict(list),
@@ -213,22 +222,25 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         folioFalse=collections.defaultdict(list),
         folioUndecided=collections.defaultdict(lambda: collections.defaultdict(list)),
         headInfo=collections.defaultdict(list),
+        heads={},
         bigTitle={},
         splits=[],
         splitsX=[],
     )
 
     mergeText = {}
+    previousDoc = None
 
     for vol in volumes:
-        if givenVol is not None and givenVol != vol:
+        if givenVol is not None and vol not in givenVol:
             continue
         print(f"\rvolume {vol}" + " " * 70)
 
         volDir = vol.lstrip("0") if stage == 0 else vol
         thisSrcDir = f"{SRC}/{volDir}"
         thisDstDir = f"{DST}/{vol}"
-        os.makedirs(f"{thisDstDir}/rest", exist_ok=True)
+        rest = "/rest" if stage == 1 else ""
+        os.makedirs(f"{thisDstDir}{rest}", exist_ok=True)
 
         info["vol"] = vol
         idMap = {} if stage == 0 else None
@@ -237,7 +249,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         if stage == 1:
             for name in letters:
                 lid = name if idMap is None else idMap[name]
-                if givenLid is not None and givenLid != lid:
+                if givenLid is not None and lid not in givenLid:
                     continue
                 doc = f"{vol}:{lid}"
                 if doc in SKIP_DOCS:
@@ -254,7 +266,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
 
         for name in letters:
             lid = name if idMap is None else idMap[name]
-            if givenLid is not None and givenLid != lid:
+            if givenLid is not None and lid not in givenLid:
                 continue
             doc = f"{vol}:{lid}"
             if stage == 1 and doc in SKIP_DOCS:
@@ -274,7 +286,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
             for (path, count) in thisAnalysis.items():
                 analysis[path] += count
             text = trimDocument(
-                stage, text, trimPage, info, processPage, *args, **kwargs
+                stage, text, trimPage, info, processPage, previousDoc, *args, **kwargs
             )
             if text is None:
                 dstName = f"{lid}.xml"
@@ -290,7 +302,13 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
             for (path, count) in thisAnalysisAfter.items():
                 analysisAfter[path] += count
 
+            previousDoc = doc
+
     print("\rdone" + " " * 70)
+
+    docs = info["docs"]
+    totalDocs = len(docs)
+    print(f"{totalDocs} documents")
 
     with open(f"{REP}/elementsIn.tsv", "w") as fh:
         for (path, amount) in sorted(analysis.items()):
@@ -300,79 +318,77 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         for (path, amount) in sorted(analysisAfter.items()):
             fh.write(f"{path}\t{amount}\n")
 
-    captionInfo = info["captionInfo"]
-    captionNorm = info["captionNorm"]
-    captionVariant = info["captionVariant"]
-    captionRoman = info["captionRoman"]
-    if captionNorm or captionVariant or captionInfo or captionRoman:
-        print("CAPTIONS:")
-        print(f"\t{len(captionNorm):>3} verified names")
-        print(f"\t{len(captionVariant):>3} unresolved variants")
-        print(f"\t{len(captionRoman):>3} malformed roman numerals")
-        with open(f"{REP}/fwh-yes.tsv", "w") as fh:
-            for (captionSrc, tag) in (
-                (captionNorm, "OK"),
-                (captionVariant, "XX"),
-                (captionInfo, "II"),
-                (captionRoman, "RR"),
-            ):
-                for caption in sorted(captionSrc):
-                    docs = captionSrc[caption]
-                    firstDoc = docs[0]
-                    nDocs = len(docs)
-                    fh.write(f"{firstDoc} {nDocs:>4}x {tag} {caption}\n")
-
-    folioUndecided = info["folioUndecided"]
-    folioTrue = info["folioTrue"]
-    folioFalse = info["folioFalse"]
-    folioResult = info["folioResult"]
-    if folioUndecided or folioTrue or folioFalse:
-        with open(f"{REP}/folio.txt", "w") as fh:
-            for (folioSrc, tag) in (
-                (folioFalse, "NO "),
-                (folioTrue, "YES"),
-                (folioResult, "FF"),
-            ):
-                triggers = 0
-                occs = 0
-                for folio in sorted(folioSrc):
-                    docs = folioSrc[folio]
-                    firstDoc = docs[0]
-                    nDocs = len(docs)
-                    triggers += 1
-                    occs += nDocs
-                    fh.write(f"{firstDoc} {nDocs:>4}x {tag} {folio}\n")
-                print(f"FOLIO {tag}:")
-                print(f"\t{tag}: {triggers:>2} with {occs:>4} occurrences")
-            if folioUndecided:
-                totalContexts = sum(len(x) for x in folioUndecided.values())
-                totalOccs = sum(
-                    sum(len(x) for x in folioInfo.values())
-                    for folioInfo in folioUndecided.values()
-                )
-                print(
-                    f"FOLIOS (undecided): {len(folioUndecided)} triggers,"
-                    f" {totalContexts} contexts,"
-                    f" {totalOccs} occurrences"
-                )
-                for (fol, folInfo) in sorted(
-                    folioUndecided.items(), key=lambda x: (len(x[1]), x[0])
-                ):
-                    nContexts = len(folInfo)
-                    nOccs = sum(len(x) for x in folInfo.values())
-                    msg = f"{fol:<20} {nContexts:>3} contexts, {nOccs:>4} occurrences"
-                    print(f"\t{msg}")
-                    fh.write(f"{msg}\n")
-                    for (context, pages) in sorted(
-                        folInfo.items(), key=lambda x: (len(x[1]), x[0])
-                    ):
-                        fh.write(f"\t{pages[0]} {len(pages):>4}x: {context}\n")
-
-    docs = info["docs"]
-    totalDocs = len(docs)
-    print(f"{totalDocs} documents")
-
     if stage == 1:
+        captionInfo = info["captionInfo"]
+        captionNorm = info["captionNorm"]
+        captionVariant = info["captionVariant"]
+        captionRoman = info["captionRoman"]
+        if captionNorm or captionVariant or captionInfo or captionRoman:
+            print("CAPTIONS:")
+            print(f"\t{len(captionNorm):>3} verified names")
+            print(f"\t{len(captionVariant):>3} unresolved variants")
+            print(f"\t{len(captionRoman):>3} malformed roman numerals")
+            with open(f"{REP}/fwh-yes.tsv", "w") as fh:
+                for (captionSrc, tag) in (
+                    (captionNorm, "OK"),
+                    (captionVariant, "XX"),
+                    (captionInfo, "II"),
+                    (captionRoman, "RR"),
+                ):
+                    for caption in sorted(captionSrc):
+                        theseDocs = captionSrc[caption]
+                        firstDoc = theseDocs[0]
+                        nDocs = len(theseDocs)
+                        fh.write(f"{firstDoc} {nDocs:>4}x {tag} {caption}\n")
+
+        folioUndecided = info["folioUndecided"]
+        folioTrue = info["folioTrue"]
+        folioFalse = info["folioFalse"]
+        folioResult = info["folioResult"]
+        if folioUndecided or folioTrue or folioFalse:
+            with open(f"{REP}/folio.txt", "w") as fh:
+                for (folioSrc, tag) in (
+                    (folioFalse, "NO "),
+                    (folioTrue, "YES"),
+                    (folioResult, "FF"),
+                ):
+                    triggers = 0
+                    occs = 0
+                    for folio in sorted(folioSrc):
+                        theseDocs = folioSrc[folio]
+                        firstDoc = theseDocs[0]
+                        nDocs = len(theseDocs)
+                        triggers += 1
+                        occs += nDocs
+                        fh.write(f"{firstDoc} {nDocs:>4}x {tag} {folio}\n")
+                    print(f"FOLIO {tag}:")
+                    print(f"\t{tag}: {triggers:>2} with {occs:>4} occurrences")
+                if folioUndecided:
+                    totalContexts = sum(len(x) for x in folioUndecided.values())
+                    totalOccs = sum(
+                        sum(len(x) for x in folioInfo.values())
+                        for folioInfo in folioUndecided.values()
+                    )
+                    print(
+                        f"FOLIOS (undecided): {len(folioUndecided)} triggers,"
+                        f" {totalContexts} contexts,"
+                        f" {totalOccs} occurrences"
+                    )
+                    for (fol, folInfo) in sorted(
+                        folioUndecided.items(), key=lambda x: (len(x[1]), x[0])
+                    ):
+                        nContexts = len(folInfo)
+                        nOccs = sum(len(x) for x in folInfo.values())
+                        msg = (
+                            f"{fol:<20} {nContexts:>3} contexts, {nOccs:>4} occurrences"
+                        )
+                        print(f"\t{msg}")
+                        fh.write(f"{msg}\n")
+                        for (context, pages) in sorted(
+                            folInfo.items(), key=lambda x: (len(x[1]), x[0])
+                        ):
+                            fh.write(f"\t{pages[0]} {len(pages):>4}x: {context}\n")
+
         splits = info["splits"]
         splitsX = info["splitsX"]
         headInfo = info["headInfo"]
@@ -443,6 +459,83 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                 fh.write(f"{startDoc} =XX=> {newPage} {label} {expPage}\n")
                 if sHead != mHead:
                     fh.write(f"\t{sHead}\n\t===versus===\n\t{mHead}\n")
+
+    elif stage == 2:
+        metasGood = info["metasGood"]
+        metasUnknown = info["metasUnknown"]
+        metasDistilled = info["metasDistilled"]
+        metasInconsistent = collections.Counter()
+        metasSupplied = collections.Counter()
+        metasUnsupported = collections.Counter()
+        metasAbsent = collections.Counter()
+        metasCorrect = collections.Counter()
+
+        heads = info["heads"]
+        print("METADATA:")
+        print(f"\t{len(metasGood):>3} docs with complete metadata")
+        print(f"\t{len(metasUnknown):>3} docs with unrecognized metadata")
+        if metasUnknown:
+            with open(f"{REP}/metaUnrecognized.txt", "w") as fh:
+                for (doc, meta) in sorted(metasUnknown):
+                    fh.write(f"{doc}\n")
+                    for (k, v) in meta.items():
+                        fh.write(f"\t{k:<10} = {v}\n")
+                    fh.write("\n")
+
+        with open(f"{REP}/meta.txt", "w") as fh:
+            for (doc, meta) in sorted(metasGood):
+                fh.write(f"{doc}\n")
+                fh.write(f"{heads[doc]}\n")
+                for (k, v) in meta.items():
+                    if k == "pid":
+                        fh.write(f"\tOK {k:<10} = {v}\n")
+                    else:
+                        distilled = metasDistilled[doc].get(k, "")
+                        if distilled != normVal(k, v) or (not distilled and not v):
+                            if doc in FROM_PREVIOUS and k in COLOFON_KEYS:
+                                fh.write(f"\tOK {k:<10} {v:<10} =PDx {distilled}\n")
+                                metasCorrect[k] += 1
+                            elif doc in CORRECTION_ALLOWED and k in CORRECTION_ALLOWED[doc]:
+                                fh.write(f"\tOK {k:<10} {v:<10} xVD= {distilled}\n")
+                                metasCorrect[k] += 1
+                            elif doc in CORRECTION_FORBIDDEN and k in CORRECTION_FORBIDDEN[doc]:
+                                fh.write(f"\tOK {k:<10} {v:<10} =VDx {distilled}\n")
+                                metasCorrect[k] += 1
+                            elif doc in ABSENT_ALLOWED and k in ABSENT_ALLOWED[doc]:
+                                fh.write(f"\tOK {k:<10} {v:<10} -VD- {distilled}\n")
+                                metasCorrect[k] += 1
+                            else:
+                                if distilled and v:
+                                    fh.write(f"\txx {k:<10} {v:<10} ?VD? {distilled}\n")
+                                    metasInconsistent[k] += 1
+                                elif distilled and not v:
+                                    fh.write(f"\t-+ {k:<10} {'':<10} <VD= {distilled}\n")
+                                    metasSupplied[k] += 1
+                                elif not distilled and v:
+                                    fh.write(f"\t+- {k:<10} {v:<10} =VD> {''}\n")
+                                    metasUnsupported[k] += 1
+                                else:
+                                    fh.write(f"\t-- {k:<10} {'':<10} ???? {''}\n")
+                                    metasAbsent[k] += 1
+                        else:
+                            fh.write(f"\tOK {k:<10} = {v:<10} =VD= {distilled}\n")
+                            metasCorrect[k] += 1
+                fh.write("\n")
+
+        for (src, label) in (
+            (metasInconsistent, "xx inconsistencies"),
+            (metasSupplied, "-+ supplied by distillation"),
+            (metasUnsupported, "+- not based on distillation"),
+            (metasAbsent, "-- missing"),
+            (metasCorrect, "++ correct"),
+        ):
+            if src:
+                for (k, n) in sorted(src.items()):
+                    print(f"\t\t{k:<10}: {n:>3} x {label}")
+
+        with open(f"{REP}/heads.tsv", "w") as fh:
+            for (doc, head) in heads.items():
+                fh.write(f"{doc} {head}\n")
 
     return True
 
@@ -588,14 +681,20 @@ PB_P_PERM_RE = re.compile(
 )
 
 
-def trimDocument(stage, text, trimPage, info, processPage, *args, **kwargs):
+def trimDocument(stage, text, trimPage, info, processPage, previousDoc, *args, **kwargs):
     headElem = "teiHeader" if stage == 0 else "header"
     headerRe = re.compile(rf"""<{headElem}[^>]*>(.*?)</{headElem}>""", re.S)
     match = headerRe.search(text)
+    metaText = match.group(1)
+    match = BODY_RE.search(text)
+    bodyText = match.group(1)
+
     header = (
-        trimHeader(match, *args, **kwargs)
+        trimHeader(metaText)
         if stage == 0
-        else f"""<header>\n{match.group(1)}\n</header>"""
+        else checkMeta(metaText, bodyText, info)
+        if stage == 2
+        else f"""<header>\n{metaText}\n</header>"""
     )
     if stage == 1:
         doc = info["doc"]
@@ -609,10 +708,13 @@ def trimDocument(stage, text, trimPage, info, processPage, *args, **kwargs):
                 )
                 return None
 
-    match = BODY_RE.search(text)
-    text = match.group(1)
+        if doc in CORRECTION_HEAD:
+            (corrRe, corrText) = CORRECTION_HEAD[doc]
+            (bodyText, n) = corrRe.subn(f"<head>{corrText}</head>\n", bodyText, count=1)
+            if not n:
+                print(f"\nWarning: head correction failed on `{doc}`")
 
-    body = trimBody(stage, text, trimPage, info, processPage, *args, **kwargs)
+    body = trimBody(stage, bodyText, trimPage, info, processPage, *args, **kwargs)
 
     if stage == 1:
         body = PB_P_PERM_RE.sub(r"""\2\n\1""", body)
@@ -651,82 +753,340 @@ def trimDocument(stage, text, trimPage, info, processPage, *args, **kwargs):
 # TRIM HEADER
 
 
-META_AUTHOR_RE = re.compile(
-    r"""<interpGrp type="authorLevel1">\s*((?:<interp>.*?</interp>\s*)*)</interpGrp>""",
-    re.S,
-)
-
-
-def getAuthors(match):
-    material = match.group(1)
-    material = material.replace("<interp>", "")
-    material = material.replace("</interp>", ", ")
-    material = material.strip()
-    material = material.strip(",")
-    material = material.strip()
-    return f"""<meta key="authors" value="{material}"/>"""
-
-
-CLEAR_DATE_RE = re.compile(r"""<date>.*?</date>""", re.S)
-CLEAR_TITLE_RE = re.compile(r"""<title>.*?</title>""", re.S)
-DELETE_ELEM_RE = re.compile(
-    r"""</?(?:TEI|text|bibl|"""
-    r"""fileDesc|listBibl|notesStmt|publicationStmt|sourceDesc|titleStmt)\b[^>]*>"""
-)
-DELETE_EMPTY_RE = re.compile(r"""<note[^>]*/>""", re.S)
-DELETE_P_RE = re.compile(r"""</?p>""", re.S)
-IDNO_RE = re.compile(r"""<idno (.*?)</idno>""", re.S)
-META_DELETE_RE = re.compile(
-    r"""<interpGrp type="(?:tocLevel|volume)">\s*<interp>.*?</interp></interpGrp>""",
-    re.S,
-)
-META_RES = {
-    newKey: re.compile(
-        rf"""<interpGrp type="{oldKey}">\s*<interp>(.*?)</interp></interpGrp>""", re.S
+META_KEY_TRANS_DEF = tuple(
+    x.strip().split()
+    for x in """
+    pid pid
+    page page
+    seq n
+    title titleLevel1
+    author authorLevel1
+    rawdate dateLevel1
+    place localization_placeLevel1
+    yearFrom witnessYearLevel1_from
+    yearTo witnessYearLevel1_to
+    monthFrom witnessMonthLevel1_from
+    monthTo witnessMonthLevel1_to
+    dayFrom witnessDayLevel1_from
+    dayTo witnessDayLevel1_to
+""".strip().split(
+        "\n"
     )
-    for (newKey, oldKey) in (
-        ("pid", "pid"),
-        ("page", "page"),
-        ("seq", "n"),
-        ("title", "titleLevel1"),
-        ("rawdate", "dateLevel1"),
-        ("place", "localization_placeLevel1"),
-        ("yearFrom", "witnessYearLevel1_from"),
-        ("yearTo", "witnessYearLevel1_to"),
-        ("monthFrom", "witnessMonthLevel1_from"),
-        ("monthTo", "witnessMonthLevel1_to"),
-        ("dayFrom", "witnessDayLevel1_from"),
-        ("dayTo", "witnessDayLevel1_to"),
-    )
-}
+)
+
+META_KEY_TRANS = {old: new for (new, old) in META_KEY_TRANS_DEF}
+META_KEY_ORDER = tuple(x[0] for x in META_KEY_TRANS_DEF)
+COLOFON_KEYS = META_KEY_ORDER[4:]
+META_KEYS = {x[1] for x in META_KEY_TRANS_DEF}
+
+META_KV_RE = re.compile(
+    r"""
+        <interpGrp
+            \b[^>]*?\b
+            type="([^"]*)"
+            [^>]*
+        >
+            (.*?)
+        </interpGrp>
+    """,
+    re.S | re.X,
+)
+
+META_KV_2_RE = re.compile(r"""<meta key="([^"]*)" value="([^"]*)"/>""", re.S)
+
+META_VAL_RE = re.compile(
+    r"""
+        (?:
+            <interp>
+                (.*?)
+            </interp>
+        )*
+    """,
+    re.S | re.X,
+)
+
+
+def transVal(value):
+    values = META_VAL_RE.findall(value)
+    return ",".join(v for v in values if v)
+
+
 WHITE_NLNL_RE = re.compile(r"""\n{3,}""", re.S)
 WHITE_NL_RE = re.compile(r"""(?:[ \t]*\n[ \t\n]*)""", re.S)
 SPACE_RE = re.compile(r"""  +""", re.S)
 WHITE_RE = re.compile(r"""\s\s+""", re.S)
 PB_RE = re.compile(r"""<pb\b[^>]*/>""", re.S)
+HEAD_RE = re.compile(r"""<head\b[^>]*>(.*?)</head>""", re.S)
 
 
-def trimHeader(match, *args, **kwargs):
-    text = match.group(1)
-    for trimRe in (
-        CLEAR_TITLE_RE,
-        CLEAR_DATE_RE,
-        DELETE_ELEM_RE,
-        DELETE_EMPTY_RE,
+def trimHeader(text):
+    metadata = {
+        META_KEY_TRANS.get(k, k): transVal(v) for (k, v) in META_KV_RE.findall(text)
+    }
+
+    newText = "\n".join(
+        f"""<meta key="{k}" value="{v}"/>""" for (k, v) in metadata.items()
+    )
+
+    return f"<header>\n{newText}\n</header>\n"
+
+
+FIRST_PAGE_RE = re.compile(r"""<pb\b[^>]*?\bn="([^"]*)"[^>]*>""", re.S)
+
+
+def checkMeta(metaText, bodyText, info):
+    doc = info["doc"]
+    metasGood = info["metasGood"]
+    metasUnknown = info["metasUnknown"]
+    metasDistilled = info["metasDistilled"]
+
+    metadata = {k: v for (k, v) in META_KV_2_RE.findall(metaText)}
+    metaGood = {k: metadata.get(k, "") for k in META_KEY_ORDER}
+    if doc in FROM_PREVIOUS:
+        for k in COLOFON_KEYS:
+            metaPrevious = metasGood[-1][1]
+            metaGood[k] = metaPrevious[k]
+    metaUnknown = {k: metadata[k] for k in sorted(metadata) if k not in META_KEYS}
+    metasGood.append((doc, metaGood))
+    if metasUnknown:
+        metasUnknown.append((doc, metaUnknown))
+
+    match = HEAD_RE.search(bodyText)
+    head = HI_CLEAN_STRONG_RE.sub(
+        r"""\1""", match.group(1).replace("<lb/>", " ").replace("\n", " ")
+    )
+    doc = info["doc"]
+    info["heads"][doc] = head
+    match = FIRST_PAGE_RE.search(bodyText)
+    firstPage = match.group(1) if match else ""
+
+    distilled = distill(head, firstPage)
+    metasDistilled[doc] = distilled
+
+    metaResult = {k: normVal(k, v) for (k, v) in metaGood.items()}
+
+    if doc in CORRECTION_ALLOWED:
+        for k in CORRECTION_ALLOWED[doc]:
+            metaResult[k] = distilled[k]
+    else:
+        metaResult = metaGood
+
+    newMeta = "\n".join(
+        f"""<meta key="{k}" value="{v}"/>""" for (k, v) in metaResult.items()
+    )
+
+    return f"<header>\n{newMeta}\n</header>\n"
+
+
+SEQ_RE = re.compile(
+    r"""
+        ^
+        (
+            [IVXLCDM1]+
+            (?:
+                \s*
+                a
+            )?
+        )
+        \.?
+    """,
+    re.S | re.X,
+)
+DATE_RE = re.compile(
+    r"""
+        \(?
+        \s*
+        (
+            [0-9]{1,2}
+            \s+
+            (?:
+                januari
+                |februari
+                |maart
+                |april
+                |mei
+                |juni
+                |juli
+                |augustus
+                |september
+                |oktober
+                |november
+                |december
+            )
+            \s+
+            1[6-8]
+            [0-9 ]*
+            \s*
+            \??
+        )
+        \s*
+        \)?
+        \s*
+        \.?
+        \s*
+    """,
+    re.S | re.X,
+)
+
+MONTH_DEF = """
+januari
+
+februari
+
+maart
+
+april
+
+mei
+
+juni
+
+juli
+
+augustus
+
+september
+
+oktober
+
+november
+
+december
+
+""".strip().split(
+    "\n\n"
+)
+
+MONTH_VARIANTS = {}
+MONTHS = set()
+MONTH_NUM = {}
+
+for (i, nameInfo) in enumerate(MONTH_DEF):
+    (intention, *variants) = nameInfo.strip().split()
+    MONTH_NUM[intention] = i + 1
+    MONTHS.add(intention)
+    for variant in variants + (
+        [intention[0:3], f"{intention[0:3]}.", f"{intention[0:4]}."]
     ):
-        text = trimRe.sub("", text)
+        MONTH_VARIANTS[variant] = intention
 
-    text = IDNO_RE.sub(r"", text)
 
-    for (val, trimRe) in META_RES.items():
-        text = trimRe.sub(rf"""<meta key="{val}" value="\1"/>""", text)
+NUM_SANITIZE_RE = re.compile(r"""[0-9][0-9 ]*[0-9]""", re.S)
 
-    text = META_AUTHOR_RE.sub(getAuthors, text)
 
-    for trimRe in (META_DELETE_RE, DELETE_P_RE):
-        text = trimRe.sub("", text)
-    text = WHITE_NL_RE.sub("\n", text)
-    return f"<header>\n{text}\n</header>\n"
+def numSanitize(match):
+    return match.group(0).replace(" ", "")
+
+
+def normVal(k, val):
+    val = val.strip()
+
+    if k == "seq":
+        return val.replace("VIL", "VII")
+
+    if k == "rawdate":
+        val = NUM_SANITIZE_RE.sub(numSanitize, val)
+        newVal = " ".join(MONTH_VARIANTS.get(w, w) for w in val.split())
+        if "?" in newVal and "(?)" not in newVal:
+            newVal = newVal.replace("?", " (?)")
+
+        return newVal
+
+    return val
+
+
+CORRECTION_ALLOWED = {
+    "01:p0152": {"rawdate", "dayFrom", "dayTo"},
+}
+CORRECTION_FORBIDDEN = {}
+ABSENT_ALLOWED = {
+    "01:p0018": {"rawdate", "dayFrom", "dayTo", "monthFrom", "monthTo", "yearFrom", "yearTo", "place"},
+}
+FROM_PREVIOUS = {'01:p0056'}
+
+CORRECTION_HEAD = {
+    "01:p0734": (
+        re.compile(r"""<head .*?</p>""", re.S),
+        (
+            "VI. "
+            "ANTONIO VAN DIEMEN, PHILIPS LUCASZ, CAREL RENIERS "
+            "(EN DE GEASSUMEERDE RADEN) "
+            "ABRAHAM WELSING EN CORNELIS VAN DER LIJN, "
+            "BATAVIA. "
+            "30 december 1638."
+        ),
+    ),
+}
+
+
+TAIL_RE = re.compile(
+    r"""
+        \s*
+        (?:
+            (?:
+                &[^;]*;
+            )
+            |
+            .
+        )
+        \)
+        \s*
+        \.?
+        \s*
+        $
+    """,
+    re.S | re.X,
+)
+
+
+def distill(head, firstPage):
+    metadata = dict(page=firstPage)
+
+    source = head
+
+    match = TAIL_RE.search(head)
+    if match:
+        b = match.start()
+        source = head[0:b]
+
+    source = source.rstrip(".").rstrip()
+
+    k = "seq"
+    detectRe = SEQ_RE
+
+    match = detectRe.search(source)
+    if match:
+        v = match.group(1).replace(" ", "").replace("1", "I")
+        source = detectRe.sub("", source, count=1)
+    else:
+        v = ""
+    metadata[k] = normVal(k, v)
+
+    k = "rawdate"
+    detectRe = DATE_RE
+
+    match = detectRe.search(source)
+    if match:
+        v = match.group(1)
+        source = detectRe.sub("", source, count=1)
+    else:
+        v = ""
+    datePure = normVal(k, v.replace("?", ""))
+    dateFrom = normVal(k, v)
+    metadata[k] = dateFrom
+
+    dateTo = datePure
+    for (date, label) in ((datePure, "From"), (dateTo, "To")):
+        parts = date.split()
+        if len(parts) != 3:
+            continue
+        (day, month, year) = parts
+        month = MONTH_NUM[month]
+        metadata[f"day{label}"] = day
+        metadata[f"month{label}"] = str(month)
+        metadata[f"year{label}"] = year
+
+    return metadata
 
 
 PB_CHECK_PAT = "|".join(

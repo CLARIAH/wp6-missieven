@@ -5867,7 +5867,7 @@ fw.type=head	10842
 fw.type=page-number	4512
 header..	569
 lb..	537253
-meta.key=authors	491
+meta.key=author	491
 meta.key=dayFrom	487
 meta.key=dayTo	487
 meta.key=monthFrom	486
@@ -5878,9 +5878,11 @@ meta.key=place	28
 meta.key=rawdate	491
 meta.key=seq	569
 meta.key=title	569
+meta.key=tocLevel	569
+meta.key=volume	569
 meta.key=yearFrom	487
 meta.key=yearTo	487
-meta.value=x	6206
+meta.value=x	7344
 note.place=inline	25111
 note.resp=editor	25111
 note.type=editorial-summary	25111
