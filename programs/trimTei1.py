@@ -1451,6 +1451,16 @@ def checkFw(match):
 
 HEAD_TITLE_RE = re.compile(r"""<head rend="[^"]*?\bxlarge\b[^>]*>(.*?)</head>""", re.S)
 
+CELL_RE = re.compile(r"""<cell>(.*?)</cell>""", re.S)
+P_REMOVE = re.compile(r"""<p\b[^>]*>""", re.S)
+
+
+def removePs(match):
+    text = match.group(1)
+    text = text.replace("</p>", "<lb/>")
+    text = P_REMOVE.sub("", text)
+    return f"""<cell>{text}</cell>"""
+
 
 def trimPage(text, info, *args, **kwargs):
     if "fwh" not in info:
@@ -1674,5 +1684,7 @@ def trimPage(text, info, *args, **kwargs):
 
     for rom in ROMANS:
         info["captionRoman"][rom].append(page)
+
+    text = CELL_RE.sub(removePs, text)
 
     return text

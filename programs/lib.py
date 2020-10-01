@@ -184,6 +184,57 @@ def combineTexts(first, following):
 
 # TOP-LEVEL TRIM
 
+HARD_CORRECTIONS = {
+    "10:p0749": (
+        (
+            re.compile(
+                r"""(<pb n="799"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*<note\b[^>]*>.*?</note>\s*)""",
+                re.S,
+            ),
+            r"""</p>\n\1<p>""",
+        ),
+        (
+            re.compile(
+                r"""(<pb n="997"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""",
+                re.S,
+            ),
+            r"""\2\1""",
+        ),
+        (
+            re.compile(
+                r"""(<pb n="1016"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*<note\b[^>]*>.*?</note>\s*)""",
+                re.S,
+            ),
+            r"""</p>\n\1<p>""",
+        ),
+    ),
+    "12:p0281": (
+        (
+            re.compile(
+                r"""(<pb n="403"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*<note\b[^>]*>.*?</note>\s*)""",
+                re.S,
+            ),
+            r"""</p>\n\1<p>""",
+        ),
+        (
+            re.compile(
+                r"""(<pb n="509"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*<note\b[^>]*>.*?</note>\s*)""",
+                re.S,
+            ),
+            r"""</p>\n\1<p>""",
+        ),
+    ),
+}
+
+
+"""
+<pb n="997" tpl="2" vol="10" facs="250_0997"/>
+<fw place="top" type="head" facs="#zone.4470651">VI. JOHANNES THEDENS, DANIËL NOLTHENIUS, PIETER ROCHUS PAS-QUES DE CHAVONNES, JACOB LAKEMAN, ELIAS GUILLOT, THOMASVAN SPREEKENS, NICOLAAS VAN BERENDREGT, JOHANNES MAT-THEUS CLUYSENAAR, MAURITS VAN AERDEN en NICOLAAS CRUL,BATAVIA 17 december 1742.Kol. Arch. 2444, VOC 2552, fol. 1274-1290.
+</fw>
+</p>
+
+"""
+
 
 def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     if stage == 0:
@@ -209,10 +260,6 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         metasGood=[],
         metasUnknown=[],
         metasDistilled=collections.defaultdict(dict),
-        metasInconsistent=collections.defaultdict(list),
-        metasSupplied=collections.defaultdict(list),
-        metasUnsupported=collections.defaultdict(list),
-        metasAbsent=collections.defaultdict(list),
         captionInfo=collections.defaultdict(list),
         captionNorm=collections.defaultdict(list),
         captionVariant=collections.defaultdict(list),
@@ -280,6 +327,15 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
             else:
                 with open(f"{thisSrcDir}/{name}.xml") as fh:
                     text = fh.read()
+
+            if stage == 1:
+                if doc in HARD_CORRECTIONS:
+                    for (pattern, replacement) in HARD_CORRECTIONS[doc]:
+                        (text, n) = pattern.subn(replacement, text)
+                        if not n:
+                            print(f"\nHARD REPLACEMENT FAILED on {doc}:")
+                            print(f"\t{pattern} => {replacement}")
+
             origText = text
 
             thisAnalysis = analyse(text)
@@ -464,11 +520,16 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         metasGood = info["metasGood"]
         metasUnknown = info["metasUnknown"]
         metasDistilled = info["metasDistilled"]
-        metasInconsistent = collections.Counter()
-        metasSupplied = collections.Counter()
-        metasUnsupported = collections.Counter()
-        metasAbsent = collections.Counter()
-        metasCorrect = collections.Counter()
+        metasStats = collections.defaultdict(collections.Counter)
+
+        metasMap = {
+            "xx": "inconsistencies",
+            "+-": "not based on distillation",
+            "-+": "supplied by distillation",
+            "--": "missing",
+            "OK": "correct",
+        }
+        metasOrder = {label: i for (i, label) in enumerate(metasMap)}
 
         heads = info["heads"]
         print("METADATA:")
@@ -494,44 +555,49 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                         if distilled != normVal(k, v) or (not distilled and not v):
                             if doc in FROM_PREVIOUS and k in COLOFON_KEYS:
                                 fh.write(f"\tOK {k:<10} {v:<10} =PDx {distilled}\n")
-                                metasCorrect[k] += 1
-                            elif doc in CORRECTION_ALLOWED and k in CORRECTION_ALLOWED[doc]:
+                                metasStats[k]["OK"] += 1
+                            elif (
+                                doc in CORRECTION_ALLOWED
+                                and k in CORRECTION_ALLOWED[doc]
+                            ):
                                 fh.write(f"\tOK {k:<10} {v:<10} xVD= {distilled}\n")
-                                metasCorrect[k] += 1
-                            elif doc in CORRECTION_FORBIDDEN and k in CORRECTION_FORBIDDEN[doc]:
+                                metasStats[k]["OK"] += 1
+                            elif (
+                                doc in CORRECTION_FORBIDDEN
+                                and k in CORRECTION_FORBIDDEN[doc]
+                            ):
                                 fh.write(f"\tOK {k:<10} {v:<10} =VDx {distilled}\n")
-                                metasCorrect[k] += 1
+                                metasStats[k]["OK"] += 1
                             elif doc in ABSENT_ALLOWED and k in ABSENT_ALLOWED[doc]:
                                 fh.write(f"\tOK {k:<10} {v:<10} -VD- {distilled}\n")
-                                metasCorrect[k] += 1
+                                metasStats[k]["OK"] += 1
                             else:
                                 if distilled and v:
                                     fh.write(f"\txx {k:<10} {v:<10} ?VD? {distilled}\n")
-                                    metasInconsistent[k] += 1
+                                    metasStats[k]["xx"] += 1
                                 elif distilled and not v:
-                                    fh.write(f"\t-+ {k:<10} {'':<10} <VD= {distilled}\n")
-                                    metasSupplied[k] += 1
+                                    fh.write(
+                                        f"\t-+ {k:<10} {'':<10} <VD= {distilled}\n"
+                                    )
+                                    metasStats[k]["-+"] += 1
                                 elif not distilled and v:
                                     fh.write(f"\t+- {k:<10} {v:<10} =VD> {''}\n")
-                                    metasUnsupported[k] += 1
+                                    metasStats[k]["+-"] += 1
                                 else:
                                     fh.write(f"\t-- {k:<10} {'':<10} ???? {''}\n")
-                                    metasAbsent[k] += 1
+                                    metasStats[k]["--"] += 1
                         else:
                             fh.write(f"\tOK {k:<10} = {v:<10} =VD= {distilled}\n")
-                            metasCorrect[k] += 1
+                            metasStats[k]["OK"] += 1
                 fh.write("\n")
 
-        for (src, label) in (
-            (metasInconsistent, "xx inconsistencies"),
-            (metasSupplied, "-+ supplied by distillation"),
-            (metasUnsupported, "+- not based on distillation"),
-            (metasAbsent, "-- missing"),
-            (metasCorrect, "++ correct"),
-        ):
-            if src:
-                for (k, n) in sorted(src.items()):
-                    print(f"\t\t{k:<10}: {n:>3} x {label}")
+        for k in META_KEY_ORDER:
+            if k not in metasStats:
+                continue
+            print(f"\t\t{k}")
+            labelInfo = metasStats[k]
+            for label in sorted(labelInfo, key=lambda x: metasOrder[x]):
+                print(f"\t\t\t{label}: {labelInfo[label]:>3} x {metasMap[label]}")
 
         with open(f"{REP}/heads.tsv", "w") as fh:
             for (doc, head) in heads.items():
@@ -554,6 +620,8 @@ SPLIT_DOC_RE = re.compile(
     re.S | re.X,
 )
 HEADER_RE = re.compile(r"""^.*?</header>\s*""", re.S)
+HEADER_PAGE_RE = re.compile(r"""<meta key="page" value="[^"]*"/>""", re.S)
+HEADER_SEQ_RE = re.compile(r"""<meta key="seq" value="[^"]*"/>""", re.S)
 
 
 def splitDoc(doc):
@@ -564,49 +632,71 @@ def splitDoc(doc):
         text = fh.read()
 
     match = HEADER_RE.match(text)
-    header = match.group(0)
+    origHeader = match.group(0)
 
     match = BODY_RE.search(text)
     body = match.group(1)
 
-    lastPage = None
+    lastPageNum = None
     lastHead = None
+    lastSeq = None
     lastIndex = 0
     splits = []
 
     for (i, match) in enumerate(SPLIT_DOC_RE.finditer(body)):
-        pageNum = f"{int(match.group(1)):>04}"
-        page = f"p{pageNum}"
+        pageNum = int(match.group(1))
         head = HI_CLEAN_STRONG_RE.sub(
             r"""\1""", match.group(2).replace("<lb/>", " ").replace("\n", " ")
         )
+        sMatch = SEQ_RE.match(head)
+        if sMatch:
+            seq = sMatch.group(0)
+        else:
+            print(f"\nnNO SEQ: {head}")
+            seq = ""
 
         if i == 0:
-            lastPage = page
+            lastPageNum = pageNum
             lastHead = head
+            lastSeq = seq
             continue
 
         (b, e) = match.span()
         lastText = body[lastIndex:b]
+        lastText = P_INTERRUPT_RE.sub(r"""\1""", lastText)
+        lastText = P_JOIN_RE.sub(r"""\1\2""", lastText)
 
-        writeDoc(vol, lastPage, header, lastText)
-        splits.append((doc, f"{vol}:{lastPage}", lastHead))
-        lastPage = page
+        header = HEADER_PAGE_RE.sub(
+            f"""<meta key="page" value="{lastPageNum}"/>""", origHeader, count=1
+        )
+        header = HEADER_SEQ_RE.sub(
+            f"""<meta key="seq" value="{lastSeq}"/>""", origHeader, count=1
+        )
+        writeDoc(vol, lastPageNum, header, lastText)
+        splits.append((doc, f"{vol}:p{lastPageNum:>04}", lastHead))
+        lastPageNum = pageNum
         lastHead = head
+        lastSeq = seq
         lastIndex = b
 
     if i > 0:
+        header = HEADER_PAGE_RE.sub(
+            f"""<meta key="page" value="{lastPageNum}"/>""", origHeader, count=1
+        )
+        header = HEADER_SEQ_RE.sub(
+            f"""<meta key="seq" value="{lastSeq}"/>""", origHeader, count=1
+        )
         lastText = body[lastIndex:]
-        writeDoc(vol, lastPage, header, lastText)
-        splits.append((doc, f"{vol}:{lastPage}", lastHead))
+        writeDoc(vol, lastPageNum, header, lastText)
+        splits.append((doc, f"{vol}:p{lastPageNum}", lastHead))
 
     return splits
 
 
-def writeDoc(vol, page, header, text):
+def writeDoc(vol, pageNum, header, text):
     stage = 1
-    with open(f"{TRIM_DIR}{stage}/{vol}/{page}.xml", "w") as fh:
-        fh.write(f"{header}{text}</body>\n</teiTrim>")
+    with open(f"{TRIM_DIR}{stage}/{vol}/p{pageNum:>04}.xml", "w") as fh:
+        fh.write(f"{header}<body>\n{text}</body>\n</teiTrim>")
 
 
 HEADER_TITLE_RE = re.compile(
@@ -681,7 +771,9 @@ PB_P_PERM_RE = re.compile(
 )
 
 
-def trimDocument(stage, text, trimPage, info, processPage, previousDoc, *args, **kwargs):
+def trimDocument(
+    stage, text, trimPage, info, processPage, previousDoc, *args, **kwargs
+):
     headElem = "teiHeader" if stage == 0 else "header"
     headerRe = re.compile(rf"""<{headElem}[^>]*>(.*?)</{headElem}>""", re.S)
     match = headerRe.search(text)
@@ -746,6 +838,12 @@ def trimDocument(stage, text, trimPage, info, processPage, previousDoc, *args, *
                     fh.write(page)
 
             body = BIG_TITLE_PART_RE.sub("", body)
+
+        headInfo = info["headInfo"]
+        heads = headInfo[doc]
+        if len(heads) <= 1:
+            body = P_INTERRUPT_RE.sub(r"""\1""", body)
+            body = P_JOIN_RE.sub(r"""\1\2""", body)
 
     return f"""<teiTrim>\n{header}\n<body>\n{body}\n</body>\n</teiTrim>"""
 
@@ -1000,9 +1098,18 @@ CORRECTION_ALLOWED = {
 }
 CORRECTION_FORBIDDEN = {}
 ABSENT_ALLOWED = {
-    "01:p0018": {"rawdate", "dayFrom", "dayTo", "monthFrom", "monthTo", "yearFrom", "yearTo", "place"},
+    "01:p0018": {
+        "rawdate",
+        "dayFrom",
+        "dayTo",
+        "monthFrom",
+        "monthTo",
+        "yearFrom",
+        "yearTo",
+        "place",
+    },
 }
-FROM_PREVIOUS = {'01:p0056'}
+FROM_PREVIOUS = {"01:p0056"}
 
 CORRECTION_HEAD = {
     "01:p0734": (
@@ -1162,11 +1269,20 @@ P_INTERRUPT_RE = re.compile(
     """,
     re.S | re.X,
 )
-P_JOIN_RE = re.compile(r"""(<p\b[^>]*)\bresp="int_paragraph_joining"([^>]*>)""", re.S)
+P_JOIN_RE = re.compile(
+    r"""
+        (
+            <p\b[^>]*
+        )
+        \b
+        resp="int_paragraph_joining"
+        ([^>]*>)
+    """,
+    re.S | re.X,
+)
 
 
 def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
-
     if stage == 0:
         breaks = checkPb(text)
         if breaks:
@@ -1175,8 +1291,6 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
                 print(f"\t{n:>3} x {elem}")
 
         text = DIV_CLEAN_RE.sub(r"", text)
-        text = P_INTERRUPT_RE.sub(r"""\1""", text)
-        text = P_JOIN_RE.sub(r"""\1\2""", text)
 
     prevMatch = 0
     lastNote = []
