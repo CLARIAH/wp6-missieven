@@ -8,6 +8,277 @@ import yaml
 import xml.etree.ElementTree as ET
 
 
+# SOURCE CORRECTIONS
+
+HARD_CORRECTIONS = {
+    "04:p0496": (
+        (
+            re.compile(
+                r"""I en 9 maart 1683""",
+                re.S,
+            ),
+            r"""1 en 9 maart 1683""",
+        ),
+    ),
+    "07:p0003": (
+        (
+            re.compile(
+                r"""(<head\b[^>]*>)(CHRIS)""",
+                re.S,
+            ),
+            r"""\1I. \2""",
+        ),
+    ),
+    "07:p0660": (
+        (
+            re.compile(
+                r"""(<head\b[^>]*>XX)L""",
+                re.S,
+            ),
+            r"""\1II""",
+        ),
+    ),
+    "10:p0857": (
+        (
+            re.compile(
+                r"""decem¬ber""",
+                re.S,
+            ),
+            r"""december""",
+        ),
+    ),
+    "10:p0749": (
+        (
+            re.compile(
+                r"""(<pb n="799"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""",
+                re.S,
+            ),
+            r"""\2\1""",
+        ),
+        (
+            re.compile(
+                r"""(<pb n="997"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""",
+                re.S,
+            ),
+            r"""\2\1""",
+        ),
+    ),
+}
+
+
+CORRECTION_ALLOWED = {
+    "01:p0007": {"place"},
+    "01:p0105": {"place"},
+    "01:p0302": {"place"},
+    "01:p0433": {"place"},
+    "01:p0482": {"place"},
+    "01:p0152": {"rawdate", "day", "month", "year"},
+    "03:p0192": {"rawdate", "day"},
+    "04:p0241": {"rawdate", "day"},
+    "04:p0496": {"month"},
+    "07:p0003": {"seq"},
+    "07:p0660": {"seq"},
+    "07:p0746": {"rawdate", "day"},
+    "08:p0234": {"rawdate", "day"},
+    "08:p0235": {"seq"},
+    "09:p0070": {"rawdate", "day", "month", "year"},
+    "09:p0344": {"seq", "rawdate", "day", "month", "year"},
+    "09:p0628": {"seq", "rawdate", "day", "month", "year"},
+    "10:p0297": {"rawdate", "day", "month", "year"},
+    "10:p0399": {"rawdate", "day", "month", "year"},
+    "11:p0224": {"seq"},
+}
+CORRECTION_FORBIDDEN = {
+    "01:p0008": {"place"},
+    "01:p0087": {"place"},
+}
+ABSENT_ALLOWED = {
+    "01:p0018": {"rawdate", "day", "month", "year", "place"},
+}
+FROM_PREVIOUS = {"01:p0056"}
+
+CORRECTION_HEAD = {
+    "01:p0734": (
+        re.compile(r"""<head .*?</p>""", re.S),
+        (
+            "VI. "
+            "ANTONIO VAN DIEMEN, PHILIPS LUCASZ, CAREL RENIERS "
+            "(EN DE GEASSUMEERDE RADEN) "
+            "ABRAHAM WELSING EN CORNELIS VAN DER LIJN, "
+            "BATAVIA. "
+            "30 december 1638."
+        ),
+    ),
+}
+
+DISTIL_SPECIALS = {
+    "01:p0007": dict(
+        place=("AAN BOORD VAN DE VERE, VOOR MALEYO", "Schip Vere voor Maleyo")
+    ),
+    "01:p0247": dict(place=("Batavia", "Batavia")),
+    "01:p0082": dict(rawdate=("7 mei 161 8", "7 mei 1618")),
+    "08:p0171": dict(place=("Batavia", "Batavia")),
+    "08:p0224": dict(place=("Batavia", "Batavia")),
+    "09:p0070": dict(
+        rawdate=("zonder datum 1729 (vermoedelijk 30 november)", "30 november 1729?")
+    ),
+    "10:p0633": dict(rawdate=("6 november1741", "6 november 1741")),
+    "11:p0115": dict(rawdate=("8 oktober 1 744", "8 oktober 1744")),
+}
+
+
+MONTH_DEF = """
+januari
+
+februari
+
+maart
+
+april
+
+mei
+
+juni
+
+juli
+
+augustus
+
+september
+
+oktober
+    october
+
+november
+
+december
+
+""".strip().split(
+    "\n\n"
+)
+
+MONTH_VARIANTS = {}
+MONTHS = set()
+MONTH_NUM = {}
+
+for (i, nameInfo) in enumerate(MONTH_DEF):
+    (intention, *variants) = nameInfo.strip().split()
+    MONTH_NUM[intention] = i + 1
+    MONTHS.add(intention)
+    for abb in (intention, intention[0:3], f"{intention[0:3]}.", f"{intention[0:4]}."):
+        MONTH_VARIANTS[abb] = intention
+    for variant in variants:
+        for abb in (variant, variant[0:3], f"{variant[0:3]}.", f"{variant[0:4]}."):
+            MONTH_VARIANTS[abb] = intention
+
+MONTH_DETECT_PAT = "|".join(
+    set(re.escape(mv) for mv in chain(MONTH_NUM, MONTH_VARIANTS))
+)
+
+PLACE_DEF = """
+Banda-Neira
+    bandaneira
+    banda-neira
+    banda
+
+Batavia
+    batavia
+    ratavia
+    ba¬tavia
+""".strip().split(
+    "\n\n"
+)
+
+PLACE_VARIANTS = {}
+PLACES = set()
+
+for (i, nameInfo) in enumerate(PLACE_DEF):
+    (intention, *variants) = nameInfo.strip().split()
+    PLACES.add(intention)
+    PLACE_VARIANTS[intention] = intention
+    for variant in variants:
+        PLACE_VARIANTS[variant] = intention
+
+
+DETECT = dict(
+    seq=re.compile(
+        r"""
+            ^
+            (
+                [IVXLCDM1]+
+                \s*
+                [IVXLCDMm1liTUH]*
+                (?:
+                    \s*
+                    [aA]
+                )?
+                \b
+            )
+            \.?
+        """,
+        re.S | re.X,
+    ),
+    rawdate=re.compile(
+        fr"""
+            \(?
+            \s*
+            (
+                (?:
+                    [0-9I]{{1,2}}
+                    |
+                    (?:[0-9I]\ [0-9I])
+                )
+                (?:
+                    \s+en\s+
+                    (?:
+                        [0-9I]{{1,2}}
+                        |
+                        (?:[0-9I]\ [0-9I])
+                    )
+                )?
+                \s+
+                (?: {MONTH_DETECT_PAT} )
+                \s+
+                1[6-8]
+                [0-9]{{2}}
+                \s*
+                \??
+            )
+            \s*
+            \)?
+            \s*
+            \.?
+            \s*
+        """,
+        re.S | re.X,
+    ),
+    place=re.compile(
+        r"""[,.]([^.,]*?)\s*$""",
+        re.S,
+    ),
+)
+
+LOWERS = set(
+    """
+    aan
+    boord
+    de
+    eiland
+    het
+    in
+    nabij
+    op
+    rede
+    schip
+    ter
+    van
+    voor
+    zuidpunt
+    """.strip().split()
+)
+
+NUM_SANITIZE_RE = re.compile(r"""[0-9][0-9 ]*[0-9]""", re.S)
+
 # CONFIG READING
 
 
@@ -184,57 +455,6 @@ def combineTexts(first, following):
 
 # TOP-LEVEL TRIM
 
-HARD_CORRECTIONS = {
-    "10:p0749": (
-        (
-            re.compile(
-                r"""(<pb n="799"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*<note\b[^>]*>.*?</note>\s*)""",
-                re.S,
-            ),
-            r"""</p>\n\1<p>""",
-        ),
-        (
-            re.compile(
-                r"""(<pb n="997"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""",
-                re.S,
-            ),
-            r"""\2\1""",
-        ),
-        (
-            re.compile(
-                r"""(<pb n="1016"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*<note\b[^>]*>.*?</note>\s*)""",
-                re.S,
-            ),
-            r"""</p>\n\1<p>""",
-        ),
-    ),
-    "12:p0281": (
-        (
-            re.compile(
-                r"""(<pb n="403"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*<note\b[^>]*>.*?</note>\s*)""",
-                re.S,
-            ),
-            r"""</p>\n\1<p>""",
-        ),
-        (
-            re.compile(
-                r"""(<pb n="509"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*<note\b[^>]*>.*?</note>\s*)""",
-                re.S,
-            ),
-            r"""</p>\n\1<p>""",
-        ),
-    ),
-}
-
-
-"""
-<pb n="997" tpl="2" vol="10" facs="250_0997"/>
-<fw place="top" type="head" facs="#zone.4470651">VI. JOHANNES THEDENS, DANIËL NOLTHENIUS, PIETER ROCHUS PAS-QUES DE CHAVONNES, JACOB LAKEMAN, ELIAS GUILLOT, THOMASVAN SPREEKENS, NICOLAAS VAN BERENDREGT, JOHANNES MAT-THEUS CLUYSENAAR, MAURITS VAN AERDEN en NICOLAAS CRUL,BATAVIA 17 december 1742.Kol. Arch. 2444, VOC 2552, fol. 1274-1290.
-</fw>
-</p>
-
-"""
-
 
 def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     if stage == 0:
@@ -374,7 +594,16 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         for (path, amount) in sorted(analysisAfter.items()):
             fh.write(f"{path}\t{amount}\n")
 
-    if stage == 1:
+    if stage == 0:
+        metasUnknown = info["metasUnknown"]
+        print(f"\t{len(metasUnknown):>3} docs with unrecognized metadata")
+        with open(f"{REP}/metaUnrecognized.txt", "w") as fh:
+            for (doc, meta) in sorted(metasUnknown):
+                fh.write(f"{doc}\n")
+                for (k, v) in meta.items():
+                    fh.write(f"\t{k:<10} = {v}\n")
+                fh.write("\n")
+    elif stage == 1:
         captionInfo = info["captionInfo"]
         captionNorm = info["captionNorm"]
         captionVariant = info["captionVariant"]
@@ -518,7 +747,6 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
 
     elif stage == 2:
         metasGood = info["metasGood"]
-        metasUnknown = info["metasUnknown"]
         metasDistilled = info["metasDistilled"]
         metasStats = collections.defaultdict(collections.Counter)
 
@@ -534,14 +762,6 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         heads = info["heads"]
         print("METADATA:")
         print(f"\t{len(metasGood):>3} docs with complete metadata")
-        print(f"\t{len(metasUnknown):>3} docs with unrecognized metadata")
-        if metasUnknown:
-            with open(f"{REP}/metaUnrecognized.txt", "w") as fh:
-                for (doc, meta) in sorted(metasUnknown):
-                    fh.write(f"{doc}\n")
-                    for (k, v) in meta.items():
-                        fh.write(f"\t{k:<10} = {v}\n")
-                    fh.write("\n")
 
         with open(f"{REP}/meta.txt", "w") as fh:
             for (doc, meta) in sorted(metasGood):
@@ -576,15 +796,21 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                                     fh.write(f"\txx {k:<10} {v:<10} ?VD? {distilled}\n")
                                     metasStats[k]["xx"] += 1
                                 elif distilled and not v:
-                                    fh.write(
-                                        f"\t-+ {k:<10} {'':<10} <VD= {distilled}\n"
-                                    )
-                                    metasStats[k]["-+"] += 1
+                                    if k == "place" and distilled in PLACES:
+                                        fh.write(
+                                            f"\tOK {k:<10} {'':<10} <VD= {distilled}\n"
+                                        )
+                                        metasStats[k]["OK"] += 1
+                                    else:
+                                        fh.write(
+                                            f"\t-+ {k:<10} {'':<10} <VD= {distilled}\n"
+                                        )
+                                        metasStats[k]["-+"] += 1
                                 elif not distilled and v:
                                     fh.write(f"\t+- {k:<10} {v:<10} =VD> {''}\n")
                                     metasStats[k]["+-"] += 1
                                 else:
-                                    fh.write(f"\t-- {k:<10} {'':<10} ???? {''}\n")
+                                    fh.write(f"\t-- {k:<10}\n")
                                     metasStats[k]["--"] += 1
                         else:
                             fh.write(f"\tOK {k:<10} = {v:<10} =VD= {distilled}\n")
@@ -620,8 +846,19 @@ SPLIT_DOC_RE = re.compile(
     re.S | re.X,
 )
 HEADER_RE = re.compile(r"""^.*?</header>\s*""", re.S)
-HEADER_PAGE_RE = re.compile(r"""<meta key="page" value="[^"]*"/>""", re.S)
-HEADER_SEQ_RE = re.compile(r"""<meta key="seq" value="[^"]*"/>""", re.S)
+
+
+def doSplitPage(
+    vol, doc, lastPageNum, i, body, lastIndex, b, lastHead, metadata, splits
+):
+    metadata = metadata if i == 1 else distill(doc, lastHead, lastPageNum, force=True)
+    lastText = body[lastIndex:b]
+    lastText = P_INTERRUPT_RE.sub(r"""\1""", lastText)
+    lastText = P_JOIN_RE.sub(r"""\1\2""", lastText)
+
+    page = f"p{lastPageNum:>04}"
+    writeDoc(vol, page, metadata, lastText)
+    splits.append((doc, f"{vol}:{page}", lastHead))
 
 
 def splitDoc(doc):
@@ -632,71 +869,75 @@ def splitDoc(doc):
         text = fh.read()
 
     match = HEADER_RE.match(text)
-    origHeader = match.group(0)
+    header = match.group(0)
+    metadata = {k: v for (k, v) in META_KV_2_RE.findall(header)}
 
     match = BODY_RE.search(text)
     body = match.group(1)
 
     lastPageNum = None
     lastHead = None
-    lastSeq = None
     lastIndex = 0
     splits = []
+
+    i = -1
 
     for (i, match) in enumerate(SPLIT_DOC_RE.finditer(body)):
         pageNum = int(match.group(1))
         head = HI_CLEAN_STRONG_RE.sub(
             r"""\1""", match.group(2).replace("<lb/>", " ").replace("\n", " ")
         )
-        sMatch = SEQ_RE.match(head)
-        if sMatch:
-            seq = sMatch.group(0)
-        else:
-            print(f"\nnNO SEQ: {head}")
-            seq = ""
-
         if i == 0:
             lastPageNum = pageNum
             lastHead = head
-            lastSeq = seq
             continue
 
         (b, e) = match.span()
-        lastText = body[lastIndex:b]
-        lastText = P_INTERRUPT_RE.sub(r"""\1""", lastText)
-        lastText = P_JOIN_RE.sub(r"""\1\2""", lastText)
-
-        header = HEADER_PAGE_RE.sub(
-            f"""<meta key="page" value="{lastPageNum}"/>""", origHeader, count=1
+        doSplitPage(
+            vol,
+            doc,
+            lastPageNum,
+            i,
+            body,
+            lastIndex,
+            b,
+            lastHead,
+            metadata,
+            splits,
         )
-        header = HEADER_SEQ_RE.sub(
-            f"""<meta key="seq" value="{lastSeq}"/>""", origHeader, count=1
-        )
-        writeDoc(vol, lastPageNum, header, lastText)
-        splits.append((doc, f"{vol}:p{lastPageNum:>04}", lastHead))
         lastPageNum = pageNum
         lastHead = head
-        lastSeq = seq
         lastIndex = b
 
+    i += 1
     if i > 0:
-        header = HEADER_PAGE_RE.sub(
-            f"""<meta key="page" value="{lastPageNum}"/>""", origHeader, count=1
+        b = None
+        doSplitPage(
+            vol,
+            doc,
+            lastPageNum,
+            i,
+            body,
+            lastIndex,
+            b,
+            lastHead,
+            metadata,
+            splits,
         )
-        header = HEADER_SEQ_RE.sub(
-            f"""<meta key="seq" value="{lastSeq}"/>""", origHeader, count=1
-        )
-        lastText = body[lastIndex:]
-        writeDoc(vol, lastPageNum, header, lastText)
-        splits.append((doc, f"{vol}:p{lastPageNum}", lastHead))
 
     return splits
 
 
-def writeDoc(vol, pageNum, header, text):
+def writeDoc(vol, pageNum, metadata, text):
     stage = 1
-    with open(f"{TRIM_DIR}{stage}/{vol}/p{pageNum:>04}.xml", "w") as fh:
-        fh.write(f"{header}<body>\n{text}</body>\n</teiTrim>")
+    header = "\n".join(
+        f"""<meta key="{k}" value="{v}"/>""" for (k, v) in sorted(metadata.items())
+    )
+    header = f"<header>\n{header}\n</header>\n"
+    body = f"<body>\n{text}\n</body>\n"
+
+    with open(f"{TRIM_DIR}{stage}/{vol}/{pageNum:>04}.xml", "w") as fh:
+        fh.write(f"<teiTrim>\n{header}{body}</teiTrim>")
 
 
 HEADER_TITLE_RE = re.compile(
@@ -782,7 +1023,7 @@ def trimDocument(
     bodyText = match.group(1)
 
     header = (
-        trimHeader(metaText)
+        trimHeader(metaText, info)
         if stage == 0
         else checkMeta(metaText, bodyText, info)
         if stage == 2
@@ -861,15 +1102,21 @@ META_KEY_TRANS_DEF = tuple(
     author authorLevel1
     rawdate dateLevel1
     place localization_placeLevel1
-    yearFrom witnessYearLevel1_from
-    yearTo witnessYearLevel1_to
-    monthFrom witnessMonthLevel1_from
-    monthTo witnessMonthLevel1_to
-    dayFrom witnessDayLevel1_from
-    dayTo witnessDayLevel1_to
+    year witnessYearLevel1_from
+    month witnessMonthLevel1_from
+    day witnessDayLevel1_from
 """.strip().split(
         "\n"
     )
+)
+META_KEY_IGNORE = set(
+    """
+        tocLevel
+        volume
+        witnessDayLevel1_to
+        witnessMonthLevel1_to
+        witnessYearLevel1_to
+    """.strip().split()
 )
 
 META_KEY_TRANS = {old: new for (new, old) in META_KEY_TRANS_DEF}
@@ -894,11 +1141,9 @@ META_KV_2_RE = re.compile(r"""<meta key="([^"]*)" value="([^"]*)"/>""", re.S)
 
 META_VAL_RE = re.compile(
     r"""
-        (?:
-            <interp>
-                (.*?)
-            </interp>
-        )*
+        <interp>
+            (.*?)
+        </interp>
     """,
     re.S | re.X,
 )
@@ -917,10 +1162,23 @@ PB_RE = re.compile(r"""<pb\b[^>]*/>""", re.S)
 HEAD_RE = re.compile(r"""<head\b[^>]*>(.*?)</head>""", re.S)
 
 
-def trimHeader(text):
+def trimHeader(text, info):
+    origMetadata = {k: v for (k, v) in META_KV_RE.findall(text)}
     metadata = {
-        META_KEY_TRANS.get(k, k): transVal(v) for (k, v) in META_KV_RE.findall(text)
+        META_KEY_TRANS[k]: transVal(v)
+        for (k, v) in origMetadata.items()
+        if k in META_KEY_TRANS
     }
+    unknownMetadata = {
+        k: v
+        for (k, v) in origMetadata.items()
+        if k not in META_KEYS and k not in META_KEY_IGNORE
+    }
+
+    doc = info["doc"]
+    metasUnknown = info["metasUnknown"]
+    if unknownMetadata:
+        metasUnknown.append((doc, unknownMetadata))
 
     newText = "\n".join(
         f"""<meta key="{k}" value="{v}"/>""" for (k, v) in metadata.items()
@@ -935,7 +1193,6 @@ FIRST_PAGE_RE = re.compile(r"""<pb\b[^>]*?\bn="([^"]*)"[^>]*>""", re.S)
 def checkMeta(metaText, bodyText, info):
     doc = info["doc"]
     metasGood = info["metasGood"]
-    metasUnknown = info["metasUnknown"]
     metasDistilled = info["metasDistilled"]
 
     metadata = {k: v for (k, v) in META_KV_2_RE.findall(metaText)}
@@ -944,10 +1201,7 @@ def checkMeta(metaText, bodyText, info):
         for k in COLOFON_KEYS:
             metaPrevious = metasGood[-1][1]
             metaGood[k] = metaPrevious[k]
-    metaUnknown = {k: metadata[k] for k in sorted(metadata) if k not in META_KEYS}
     metasGood.append((doc, metaGood))
-    if metasUnknown:
-        metasUnknown.append((doc, metaUnknown))
 
     match = HEAD_RE.search(bodyText)
     head = HI_CLEAN_STRONG_RE.sub(
@@ -958,10 +1212,17 @@ def checkMeta(metaText, bodyText, info):
     match = FIRST_PAGE_RE.search(bodyText)
     firstPage = match.group(1) if match else ""
 
-    distilled = distill(head, firstPage)
+    distilled = distill(doc, head, firstPage)
     metasDistilled[doc] = distilled
 
-    metaResult = {k: normVal(k, v) for (k, v) in metaGood.items()}
+    metaResult = {}
+    for (k, v) in metaGood.items():
+        if v.startswith("!"):
+            CORRECTION_FORBIDDEN.setdefault(doc, set()).add(k)
+            v = v[1:]
+        else:
+            v = normVal(k, v)
+        metaResult[k] = v
 
     if doc in CORRECTION_ALLOWED:
         for k in CORRECTION_ALLOWED[doc]:
@@ -976,102 +1237,6 @@ def checkMeta(metaText, bodyText, info):
     return f"<header>\n{newMeta}\n</header>\n"
 
 
-SEQ_RE = re.compile(
-    r"""
-        ^
-        (
-            [IVXLCDM1]+
-            (?:
-                \s*
-                a
-            )?
-        )
-        \.?
-    """,
-    re.S | re.X,
-)
-DATE_RE = re.compile(
-    r"""
-        \(?
-        \s*
-        (
-            [0-9]{1,2}
-            \s+
-            (?:
-                januari
-                |februari
-                |maart
-                |april
-                |mei
-                |juni
-                |juli
-                |augustus
-                |september
-                |oktober
-                |november
-                |december
-            )
-            \s+
-            1[6-8]
-            [0-9 ]*
-            \s*
-            \??
-        )
-        \s*
-        \)?
-        \s*
-        \.?
-        \s*
-    """,
-    re.S | re.X,
-)
-
-MONTH_DEF = """
-januari
-
-februari
-
-maart
-
-april
-
-mei
-
-juni
-
-juli
-
-augustus
-
-september
-
-oktober
-
-november
-
-december
-
-""".strip().split(
-    "\n\n"
-)
-
-MONTH_VARIANTS = {}
-MONTHS = set()
-MONTH_NUM = {}
-
-for (i, nameInfo) in enumerate(MONTH_DEF):
-    (intention, *variants) = nameInfo.strip().split()
-    MONTH_NUM[intention] = i + 1
-    MONTHS.add(intention)
-    for variant in variants + (
-        [intention[0:3], f"{intention[0:3]}.", f"{intention[0:4]}."]
-    ):
-        MONTH_VARIANTS[variant] = intention
-
-
-NUM_SANITIZE_RE = re.compile(r"""[0-9][0-9 ]*[0-9]""", re.S)
-
-
 def numSanitize(match):
     return match.group(0).replace(" ", "")
 
@@ -1080,9 +1245,23 @@ def normVal(k, val):
     val = val.strip()
 
     if k == "seq":
-        return val.replace("VIL", "VII")
+        return (
+            val.replace("T", "I")
+            .replace("m", "III")
+            .replace("U", "II")
+            .replace("H", "II")
+            .replace("l", "I")
+            .replace("i", "I")
+            .replace("VIL", "VII")
+            .replace("LIL", "LII")
+            .replace("IH", "III")
+            .replace(".", "")
+            .replace(" ", "")
+            .replace("A", "a")
+        )
 
     if k == "rawdate":
+        val = val.rstrip(".")
         val = NUM_SANITIZE_RE.sub(numSanitize, val)
         newVal = " ".join(MONTH_VARIANTS.get(w, w) for w in val.split())
         if "?" in newVal and "(?)" not in newVal:
@@ -1090,43 +1269,24 @@ def normVal(k, val):
 
         return newVal
 
+    if k == "place":
+        val = val.rstrip(".")
+        val = val.replace(",", "")
+        words = (w.lower() for w in val.split())
+        casedWords = (
+            PLACE_VARIANTS[word]
+            if word in PLACE_VARIANTS
+            else word
+            if word in LOWERS
+            else f"{word[0].upper()}{word[1:].lower()}"
+            for word in words
+        )
+        return " ".join(casedWords)
+
     return val
 
 
-CORRECTION_ALLOWED = {
-    "01:p0152": {"rawdate", "dayFrom", "dayTo"},
-}
-CORRECTION_FORBIDDEN = {}
-ABSENT_ALLOWED = {
-    "01:p0018": {
-        "rawdate",
-        "dayFrom",
-        "dayTo",
-        "monthFrom",
-        "monthTo",
-        "yearFrom",
-        "yearTo",
-        "place",
-    },
-}
-FROM_PREVIOUS = {"01:p0056"}
-
-CORRECTION_HEAD = {
-    "01:p0734": (
-        re.compile(r"""<head .*?</p>""", re.S),
-        (
-            "VI. "
-            "ANTONIO VAN DIEMEN, PHILIPS LUCASZ, CAREL RENIERS "
-            "(EN DE GEASSUMEERDE RADEN) "
-            "ABRAHAM WELSING EN CORNELIS VAN DER LIJN, "
-            "BATAVIA. "
-            "30 december 1638."
-        ),
-    ),
-}
-
-
-TAIL_RE = re.compile(
+NOTEMARK_RE = re.compile(
     r"""
         \s*
         (?:
@@ -1134,66 +1294,71 @@ TAIL_RE = re.compile(
                 &[^;]*;
             )
             |
-            .
+            [iJlx0-9*']
         )
         \)
-        \s*
-        \.?
-        \s*
-        $
     """,
     re.S | re.X,
 )
 
+TRAIL_RE = re.compile(r"""[ \n.,]+$""", re.S)
+HEAD_REMOVE_RE = re.compile(
+    r"""
+        [ck]opie\.
+        |geheim\.
+        |secreet\.
+    """,
+    re.S | re.I | re.X,
+)
 
-def distill(head, firstPage):
+
+def distill(doc, head, firstPage, force=False):
     metadata = dict(page=firstPage)
 
     source = head
+    source = HEAD_REMOVE_RE.sub("", source)
 
-    match = TAIL_RE.search(head)
-    if match:
-        b = match.start()
-        source = head[0:b]
+    source = NOTEMARK_RE.sub("", source)
 
-    source = source.rstrip(".").rstrip()
+    specials = DISTIL_SPECIALS.get(doc, None)
 
-    k = "seq"
-    detectRe = SEQ_RE
+    for k in ("seq", "rawdate", "place"):
+        source = TRAIL_RE.sub("", source)
 
-    match = detectRe.search(source)
-    if match:
-        v = match.group(1).replace(" ", "").replace("1", "I")
-        source = detectRe.sub("", source, count=1)
-    else:
-        v = ""
-    metadata[k] = normVal(k, v)
+        if specials and k in specials:
+            (orig, special) = specials[k]
+            source = source.replace(orig, "")
+            thisVal = special
+        else:
+            detectRe = DETECT[k]
+            match = detectRe.search(source)
+            if match:
+                v = match.group(1)
+                if k == "seq":
+                    v = v.replace(" ", "").replace("1", "I")
+                source = detectRe.sub("", source, count=1)
+            else:
+                v = ""
+            thisVal = normVal(k, v)
+        metadata[k] = thisVal
 
-    k = "rawdate"
-    detectRe = DATE_RE
+        if k == "rawdate":
+            datePure = thisVal.replace(" en ", "_en_").replace(" (?)", "")
+            datePure = normVal(k, datePure)
 
-    match = detectRe.search(source)
-    if match:
-        v = match.group(1)
-        source = detectRe.sub("", source, count=1)
-    else:
-        v = ""
-    datePure = normVal(k, v.replace("?", ""))
-    dateFrom = normVal(k, v)
-    metadata[k] = dateFrom
+            parts = datePure.split()
+            if len(parts) == 3:
+                (day, month, year) = parts
+                month = MONTH_NUM[month]
+                metadata["day"] = day.split("_")[0]
+                metadata["month"] = str(month)
+                metadata["year"] = year
+            else:
+                metadata["day"] = ""
+                metadata["month"] = ""
+                metadata["year"] = ""
 
-    dateTo = datePure
-    for (date, label) in ((datePure, "From"), (dateTo, "To")):
-        parts = date.split()
-        if len(parts) != 3:
-            continue
-        (day, month, year) = parts
-        month = MONTH_NUM[month]
-        metadata[f"day{label}"] = day
-        metadata[f"month{label}"] = str(month)
-        metadata[f"year{label}"] = year
-
-    return metadata
+    return {k: f"!{v}" for (k, v) in metadata.items()} if force else metadata
 
 
 PB_CHECK_PAT = "|".join(
@@ -1274,8 +1439,7 @@ P_JOIN_RE = re.compile(
         (
             <p\b[^>]*
         )
-        \b
-        resp="int_paragraph_joining"
+        \ resp="int_paragraph_joining"
         ([^>]*>)
     """,
     re.S | re.X,

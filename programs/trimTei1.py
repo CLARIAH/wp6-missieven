@@ -33,6 +33,25 @@ FONT_STYLE_RE = re.compile(
 )
 HALF_RE = re.compile(r"""1\s*/?\s*<hi rend="sub">\s*2([^<]*)</hi>""", re.S)
 HEIGHT_RE = re.compile(r"""line-height:[^;"']*;?""", re.S)
+HI_SPECIAL_RE = re.compile(
+    r"""
+        <hi\b[^>]*>
+            (kol[. ]*)
+        </hi>
+        ([^<]*)
+        <hi\b[^>]*>
+            (fol[. ]*)
+        </hi>
+        ([^<]*)
+    """,
+    re.S | re.I | re.X,
+)
+
+"""
+<hi rend="font-size:11; font-family:Liberation Serif">Kol.</hi> Arch. 2284, VOC 2392,
+<hi rend="font-size:11; font-family:Liberation Serif">fol.</hi> 76-445.<lb/>
+"""
+
 HI_CLEAN_RE = re.compile(r"""<hi\b[^>]*>([^a-zA-Z0-9]*?)</hi>""", re.S)
 HI_EMPH_RE = re.compile(
     r"""(<hi\b[^>]*?rend=['"])[^'"]*?(?:bold|italic)[^'"]*(['"])[^>]*>""", re.S
@@ -1278,6 +1297,10 @@ FOLIO_MOVE = (
         re.S,
     ),
     re.compile(
+        r"""(<folio>[^<]*</folio>)\s*(</head>)""",
+        re.S,
+    ),
+    re.compile(
         r"""(<p\b[^>]*>[^>]+(?:<lb/>\s*)*)\s*(<folio>[^<]*</folio>)""",
         re.S,
     ),
@@ -1568,6 +1591,7 @@ def trimPage(text, info, *args, **kwargs):
     text = text.replace(''' rend=" "''', "")
 
     text = HI_CLEAN_RE.sub(r"""\1""", text)
+    text = HI_SPECIAL_RE.sub(r"""\1\2\3\4""", text)
     text = text.replace("<hi/>", "")
 
     text = HALF_RE.sub(r"½\1", text)
