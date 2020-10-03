@@ -8,6 +8,10 @@ import yaml
 import xml.etree.ElementTree as ET
 
 
+def ucfirst(x, lower=True):
+    return (x[0].upper() + (x[1:].lower() if lower else x[1:])) if x else x
+
+
 # SOURCE CORRECTIONS
 
 HARD_CORRECTIONS = {
@@ -256,6 +260,16 @@ DETECT = dict(
         r"""[,.]([^.,]*?)\s*$""",
         re.S,
     ),
+    author=re.compile(
+        r"""
+            ^
+            \s*
+            (.*)?
+            \s*
+            $
+        """,
+        re.S | re.X,
+    ),
 )
 
 LOWERS = set(
@@ -480,6 +494,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         metasGood=[],
         metasUnknown=[],
         metasDistilled=collections.defaultdict(dict),
+        authorInfo=collections.defaultdict(lambda: collections.defaultdict(list)),
         captionInfo=collections.defaultdict(list),
         captionNorm=collections.defaultdict(list),
         captionVariant=collections.defaultdict(list),
@@ -699,7 +714,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                     if len(head) < 40 and "BIJLAGE" not in head:
                         shortHeads.append((fullDoc, head))
                 if nHeads > 1:
-                    theseSplits = splitDoc(doc)
+                    theseSplits = splitDoc(doc, info)
                     for ((startDoc, newDoc, sHead), (fullDoc, mHead)) in zip(
                         theseSplits, heads
                     ):
@@ -746,6 +761,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                     fh.write(f"\t{sHead}\n\t===versus===\n\t{mHead}\n")
 
     elif stage == 2:
+        authorInfo = info["authorInfo"]
         metasGood = info["metasGood"]
         metasDistilled = info["metasDistilled"]
         metasStats = collections.defaultdict(collections.Counter)
@@ -772,7 +788,9 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                         fh.write(f"\tOK {k:<10} = {v}\n")
                     else:
                         distilled = metasDistilled[doc].get(k, "")
-                        if distilled != normVal(k, v) or (not distilled and not v):
+                        if distilled != normVal(k, v, doc, info) or (
+                            not distilled and not v
+                        ):
                             if doc in FROM_PREVIOUS and k in COLOFON_KEYS:
                                 fh.write(f"\tOK {k:<10} {v:<10} =PDx {distilled}\n")
                                 metasStats[k]["OK"] += 1
@@ -825,6 +843,18 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
             for label in sorted(labelInfo, key=lambda x: metasOrder[x]):
                 print(f"\t\t\t{label}: {labelInfo[label]:>3} x {metasMap[label]}")
 
+        with open(f"{REP}/authors.tsv", "w") as fh:
+            print("\tAUTHORS:")
+            for category in sorted(authorInfo):
+                fh.write(f"\n{category}:\n\n")
+                categoryInfo = authorInfo[category]
+                amount = len(categoryInfo)
+                occs = sum(len(x) for x in categoryInfo.values())
+                print(f"\t\t{category:>10}: {amount:>3}x in {occs:>3} documents")
+                for author in sorted(categoryInfo):
+                    docs = categoryInfo[author]
+                    docsRep = " ".join(docs[0:2])
+                    fh.write(f"{author:<30}: {amount:>3}x : {docsRep}\n")
         with open(f"{REP}/heads.tsv", "w") as fh:
             for (doc, head) in heads.items():
                 fh.write(f"{doc} {head}\n")
@@ -849,9 +879,11 @@ HEADER_RE = re.compile(r"""^.*?</header>\s*""", re.S)
 
 
 def doSplitPage(
-    vol, doc, lastPageNum, i, body, lastIndex, b, lastHead, metadata, splits
+    vol, doc, info, lastPageNum, i, body, lastIndex, b, lastHead, metadata, splits
 ):
-    metadata = metadata if i == 1 else distill(doc, lastHead, lastPageNum, force=True)
+    metadata = (
+        metadata if i == 1 else distill(doc, info, lastHead, lastPageNum, force=True)
+    )
     lastText = body[lastIndex:b]
     lastText = P_INTERRUPT_RE.sub(r"""\1""", lastText)
     lastText = P_JOIN_RE.sub(r"""\1\2""", lastText)
@@ -861,7 +893,7 @@ def doSplitPage(
     splits.append((doc, f"{vol}:{page}", lastHead))
 
 
-def splitDoc(doc):
+def splitDoc(doc, info):
     stage = 1
     (vol, startPage) = doc.split(":")
     path = f"{TRIM_DIR}{stage}/{doc.replace(':', '/')}.xml"
@@ -896,6 +928,7 @@ def splitDoc(doc):
         doSplitPage(
             vol,
             doc,
+            info,
             lastPageNum,
             i,
             body,
@@ -915,6 +948,7 @@ def splitDoc(doc):
         doSplitPage(
             vol,
             doc,
+            info,
             lastPageNum,
             i,
             body,
@@ -1212,7 +1246,7 @@ def checkMeta(metaText, bodyText, info):
     match = FIRST_PAGE_RE.search(bodyText)
     firstPage = match.group(1) if match else ""
 
-    distilled = distill(doc, head, firstPage)
+    distilled = distill(doc, info, head, firstPage)
     metasDistilled[doc] = distilled
 
     metaResult = {}
@@ -1221,7 +1255,7 @@ def checkMeta(metaText, bodyText, info):
             CORRECTION_FORBIDDEN.setdefault(doc, set()).add(k)
             v = v[1:]
         else:
-            v = normVal(k, v)
+            v = normVal(k, v, doc, info)
         metaResult[k] = v
 
     if doc in CORRECTION_ALLOWED:
@@ -1241,7 +1275,119 @@ def numSanitize(match):
     return match.group(0).replace(" ", "")
 
 
-def normVal(k, val):
+AUTHOR_DEF = """
+antonio     f
+
+abraham     f
+
+adriaan     f
+
+arent       f
+
+both        s
+
+brouwer     s
+
+burch       s
+
+carpentier  s
+
+chavonnes   s2
+
+coen        s2
+
+cornelis    f
+
+crijn       f
+
+de          p
+
+dedel       s
+
+den         p
+
+der         p
+
+diemen      s
+
+frederick   f
+
+gardenijs   s
+
+gorcom      s
+
+henrick     f
+
+houtman     s
+
+jacob       f
+
+jacques     f
+
+jan         f
+
+laurens     f
+
+lucasz      s
+
+maerten     f
+
+martinus    f
+
+nuyts       s
+
+pasques     s1
+
+philips     f
+
+pieter      f
+
+pietersz    f
+
+raemburch   s
+
+reael       s
+
+reyersz     s
+
+schram      s
+
+sonck       s
+
+specx       s
+
+thedens     s
+    the-dens
+
+uffelen     s
+
+valckenier  s
+
+van         p
+
+vlack       s
+
+wijbrant    f
+
+ysbrantsz   s
+""".strip().split(
+    "\n\n"
+)
+
+
+AUTHOR_VARIANTS = {}
+
+for (i, nameInfo) in enumerate(AUTHOR_DEF):
+    (main, *variants) = nameInfo.strip().split("\n")
+    (intention, category) = main.split()
+    if category != "i":
+        replacement = ucfirst(intention)
+    AUTHOR_VARIANTS[intention] = (replacement, category)
+    for variant in variants:
+        AUTHOR_VARIANTS[variant] = (replacement, category)
+
+
+def normVal(k, val, doc, info):
     val = val.strip()
 
     if k == "seq":
@@ -1278,12 +1424,100 @@ def normVal(k, val):
             if word in PLACE_VARIANTS
             else word
             if word in LOWERS
-            else f"{word[0].upper()}{word[1:].lower()}"
+            else ucfirst(word, lower=True)
             for word in words
         )
         return " ".join(casedWords)
 
+    if k == "author":
+        val = val.rstrip(".")
+        val = val.replace(",", " ")
+        words = (w.lower() for w in val.split())
+        names = (
+            AUTHOR_VARIANTS[word] if word in AUTHOR_VARIANTS else (word, "unknown")
+            for word in words
+        )
+
+        authorInfo = info["authorInfo"]
+        interpretedNames = []
+        curName = []
+        lastCat = None
+        seenS1 = False
+        seenS2 = False
+        seenS = False
+
+        for (name, cat) in names:
+            if (
+                cat == "unknown"
+                or cat == "f"
+                and lastCat != "f"
+                or cat == "p"
+                and lastCat not in {"f", "p", "s1"}
+                or cat == "s"
+                and lastCat not in {"f", "p"}
+                or cat == "s1"
+                and lastCat not in {"f", "p"}
+                or cat == "s2"
+                and lastCat not in {"p", "s1"}
+            ):
+                if curName:
+                    theName = makeName(curName)
+                    label = (
+                        "no-surname"
+                        if not seenS and not seenS1 and not seenS2
+                        else "missing-s1"
+                        if not seenS1 and seenS2
+                        else "missing-s2"
+                        if seenS1 and not seenS2
+                        else "ok"
+                    )
+                    authorInfo[label][theName].append(doc)
+                    interpretedNames.append(theName)
+                    curName = []
+                if cat == "unknown":
+                    theName = ucfirst(name)
+                    authorInfo["unkown"][theName].append(doc)
+                    interpretedNames.append(theName)
+                    seenS = False
+                    seenS1 = False
+                    seenS2 = False
+                else:
+                    curName.append(name)
+                    seenS = cat == "s"
+                    seenS1 = cat == "s1"
+                    seenS2 = cat == "s2"
+            else:
+                curName.append(name)
+                if cat == "s":
+                    seenS = True
+                elif cat == "s1":
+                    seenS1 = True
+                elif cat == "s2":
+                    seenS2 = True
+
+            lastCat = None if cat == "unknown" else cat
+
+        if curName:
+            theName = makeName(curName)
+            label = (
+                "no-surname"
+                if not seenS and not seenS1 and not seenS2
+                else "missing-s1"
+                if not seenS1 and seenS2
+                else "missing-s2"
+                if seenS1 and not seenS2
+                else "ok"
+            )
+            authorInfo[label][theName].append(doc)
+            interpretedNames.append(theName)
+
+        return ",".join(interpretedNames)
+
     return val
+
+
+def makeName(parts):
+    return " ".join(ucfirst(part) if i == 0 else part for (i, part) in enumerate(parts))
 
 
 NOTEMARK_RE = re.compile(
@@ -1312,7 +1546,7 @@ HEAD_REMOVE_RE = re.compile(
 )
 
 
-def distill(doc, head, firstPage, force=False):
+def distill(doc, info, head, firstPage, force=False):
     metadata = dict(page=firstPage)
 
     source = head
@@ -1322,7 +1556,7 @@ def distill(doc, head, firstPage, force=False):
 
     specials = DISTIL_SPECIALS.get(doc, None)
 
-    for k in ("seq", "rawdate", "place"):
+    for k in ("seq", "rawdate", "place", "author"):
         source = TRAIL_RE.sub("", source)
 
         if specials and k in specials:
@@ -1339,12 +1573,12 @@ def distill(doc, head, firstPage, force=False):
                 source = detectRe.sub("", source, count=1)
             else:
                 v = ""
-            thisVal = normVal(k, v)
+            thisVal = normVal(k, v, doc, info)
         metadata[k] = thisVal
 
         if k == "rawdate":
             datePure = thisVal.replace(" en ", "_en_").replace(" (?)", "")
-            datePure = normVal(k, datePure)
+            datePure = normVal(k, datePure, doc, info)
 
             parts = datePure.split()
             if len(parts) == 3:

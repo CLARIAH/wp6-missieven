@@ -1,0 +1,109 @@
+
+missing-s1:
+
+Coen                          :   1x : 01:p0105 01:p0105
+
+no-surname:
+
+Abraham                       :  13x : 01:p0663 01:p0734
+Antonio                       :  13x : 01:p0596 01:p0658
+Antonio Van Den               :  13x : 01:p0393
+Cornelis                      :  13x : 01:p0106
+Cornelis Van Der              :  13x : 01:p0663 01:p0734
+De                            :  13x : 01:p0302 01:p0482
+Jan                           :  13x : 01:p0105
+Jan Van                       :  13x : 01:p0453
+Maerten                       :  13x : 01:p0366 01:p0369
+Philips                       :  13x : 01:p0373 01:p0373
+Van                           :  13x : 01:p0056 01:p0247
+Van Den                       :  13x : 01:p0393 01:p0393
+Van Der                       :  13x : 01:p0663 01:p0734
+
+ok:
+
+Abraham Van Uffelen           :  33x : 01:p0106
+Antonio Van Diemen            :  33x : 01:p0152 01:p0174
+Arent Gardenijs               :  33x : 01:p0303
+Brouwer                       :  33x : 01:p0331 01:p0366
+Crijn Van Raemburch           :  33x : 01:p0247
+De Carpentier                 :  33x : 01:p0099 01:p0099
+De Houtman                    :  33x : 01:p0129 01:p0129
+Dedel                         :  33x : 01:p0099 01:p0106
+Frederick De Houtman          :  33x : 01:p0131
+Gardenijs                     :  33x : 01:p0303 01:p0303
+Henrick Brouwer               :  33x : 01:p0331 01:p0366
+Jacob Dedel                   :  33x : 01:p0099 01:p0106
+Jacques Specx                 :  33x : 01:p0121 01:p0129
+Jan Van Der Burch             :  33x : 01:p0279 01:p0303
+Jan Van Gorcom                :  33x : 01:p0131 01:p0148
+Laurens Reael                 :  33x : 01:p0063 01:p0068
+Maerten Ysbrantsz             :  33x : 01:p0366
+Martinus Sonck                :  33x : 01:p0105 01:p0129
+Nuyts                         :  33x : 01:p0247 01:p0247
+Philips Lucasz                :  33x : 01:p0734
+Pieter Both                   :  33x : 01:p0004 01:p0007
+Pieter De Carpentier          :  33x : 01:p0106 01:p0121
+Pieter Nuyts                  :  33x : 01:p0247
+Pieter Vlack                  :  33x : 01:p0152 01:p0174
+Schram                        :  33x : 01:p0234 01:p0235
+Sonck                         :  33x : 01:p0105 01:p0131
+Specx                         :  33x : 01:p0121 01:p0129
+Van Der Burch                 :  33x : 01:p0279 01:p0303
+Van Diemen                    :  33x : 01:p0152 01:p0174
+Van Gorcom                    :  33x : 01:p0131 01:p0148
+Van Uffelen                   :  33x : 01:p0106 01:p0106
+Vlack                         :  33x : 01:p0152 01:p0174
+Wijbrant Schram               :  33x : 01:p0234 01:p0235
+
+unkown:
+
+(en                           :  50x : 01:p0663 01:p0734
+Afrika                        :  50x : 01:p0302 01:p0302
+Antoniocaenenjoan             :  50x : 01:p0554
+Artus                         :  50x : 01:p0507 01:p0553
+Bijlage                       :  50x : 01:p0056
+Broeckum                      :  50x : 01:p0453 01:p0453
+Caen                          :  50x : 01:p0554 01:p0596
+Carel                         :  50x : 01:p0663 01:p0734
+Cornelisz.                    :  50x : 01:p0106 01:p0106
+Deventer                      :  50x : 01:p0302 01:p0302
+Dr.                           :  50x : 01:p0105 01:p0129
+En                            :  50x : 01:p0099 01:p0105
+Erederick                     :  50x : 01:p0129
+Fieter                        :  50x : 01:p0099
+Geassumeerde                  :  50x : 01:p0663 01:p0734
+Gerard                        :  50x : 01:p0043 01:p0046
+Gijsels                       :  50x : 01:p0507 01:p0507
+Hans                          :  50x : 01:p0554
+Heuvel                        :  50x : 01:p0393 01:p0393
+Hoek                          :  50x : 01:p0482 01:p0482
+Ii                            :  50x : 01:p0056
+Ijsbrantsz.                   :  50x : 01:p0507
+In                            :  50x : 01:p0433 01:p0433
+Jansz                         :  50x : 01:p0121
+Jansz.                        :  50x : 01:p0121 01:p0121
+Kasteel                       :  50x : 01:p0087
+Lijn                          :  50x : 01:p0663 01:p0663
+Lucasz.                       :  50x : 01:p0373 01:p0373
+Mauritius                     :  50x : 01:p0087
+Mr.                           :  50x : 01:p0393
+Nabij                         :  50x : 01:p0302 01:p0482
+Nieuw-hollandia               :  50x : 01:p0105 01:p0105
+Ottens                        :  50x : 01:p0554 01:p0554
+Pietersz.                     :  50x : 01:p0105
+Putmans                       :  50x : 01:p0554 01:p0554
+Raden                         :  50x : 01:p0126 01:p0126
+Raden)                        :  50x : 01:p0663 01:p0734
+Raemsburch                    :  50x : 01:p0247 01:p0247
+Reniers                       :  50x : 01:p0663 01:p0663
+Reyersz.                      :  50x : 01:p0106 01:p0106
+Reynst                        :  50x : 01:p0043 01:p0046
+Straat                        :  50x : 01:p0433 01:p0433
+Sunda                         :  50x : 01:p0433 01:p0433
+Utrecht                       :  50x : 01:p0482 01:p0482
+Vlakke                        :  50x : 01:p0482 01:p0482
+Welsing                       :  50x : 01:p0663 01:p0663
+Wesel                         :  50x : 01:p0433 01:p0433
+Willem                        :  50x : 01:p0121 01:p0121
+Ysbrantsz.                    :  50x : 01:p0366 01:p0369
+Zuidpunt                      :  50x : 01:p0302 01:p0302
