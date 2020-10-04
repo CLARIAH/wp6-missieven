@@ -1,884 +1,707 @@
-01:p0004
-IV. PIETER BOTH, KASTEEL NASSAU OP BANDA 18 juli 1611.  
-	OK pid        = INT_85d873f4-8e9e-31b2-af43-a85316f054a0
-	OK page       = 4          =VD= 4
-	OK seq        = IV         =VD= IV
-	+- title      Kasteel Nassau op Banda, 18 juli 1611 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 18 juli 1611 =VD= 18 juli 1611
-	OK place      = Kasteel Nassau op Banda =VD= Kasteel Nassau op Banda-Neira
-	OK year       = 1611       =VD= 1611
-	OK month      = 7          =VD= 7
-	OK day        = 18         =VD= 18
-
-01:p0007
-V. PIETER BOTH, AAN BOORD VAN DE VERE, VOOR MALEYO1)  31 maart 1612.  
-	OK pid        = INT_12458e73-7f4a-3bc7-9fa2-1b0f0d1adf23
-	OK page       = 7          =VD= 7
-	OK seq        = V          =VD= V
-	+- title      Vere, voor Maleyo, 31 maart 1612 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 31 maart 1612 =VD= 31 maart 1612
-	OK place      Vere, voor Maleyo xVD= Schip Vere voor Maleyo
-	OK year       = 1612       =VD= 1612
-	OK month      = 3          =VD= 3
-	OK day        = 31         =VD= 31
-
-01:p0008
-VI. PIETER BOTH, EORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612 x).  
-	OK pid        = INT_c3fead13-7631-31e7-93a3-91bddc3fa1fc
-	OK page       = 8          =VD= 8
-	OK seq        = VI         =VD= VI
-	+- title      Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 26 juli 1612 =VD= 26 juli 1612
-	OK place      Fort Mauritius nabij Ngofakiaha op het eiland Makéan =VDx Eort Mauritius nabij Ngofakiaha op het eiland Makéan
-	OK year       = 1612       =VD= 1612
-	OK month      = 7          =VD= 7
-	OK day        = 26         =VD= 26
-
-01:p0017
-IX. PIETER BOTH, FORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612.  
-	OK pid        = INT_987aa238-bef4-3045-86cf-e45d06495600
-	OK page       = 17         =VD= 17
-	OK seq        = IX         =VD= IX
-	+- title      Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 26 juli 1612 =VD= 26 juli 1612
-	OK place      = Fort Mauritius nabij Ngofakiaha op het eiland Makéan =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-	OK year       = 1612       =VD= 1612
-	OK month      = 7          =VD= 7
-	OK day        = 26         =VD= 26
-
-01:p0018
-X. PIETER BOTH, ZONDER PLAATS EN DATUM.  
-	OK pid        = INT_cf76ae08-e798-39e2-8745-891dc6f7cd6a
-	OK page       = 18         =VD= 18
-	OK seq        = X          =VD= X
-	+- title      Ongedateerd en zonder plaats =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    Ongedateerd en zonder plaats -VD- 
-	OK place                 -VD- Zonder Plaats En Datum
-	OK year                  -VD- 
-	OK month                 -VD- 
-	OK day                   -VD- 
-
-01:p0019
-XI. PIETER BOTH, FORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612.  
-	OK pid        = INT_7d9098c8-25bb-399b-9061-c9faecabe204
-	OK page       = 19         =VD= 19
-	OK seq        = XI         =VD= XI
-	+- title      Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 26 juli 1612 =VD= 26 juli 1612
-	OK place      = Fort Mauritius nabij Ngofakiaha op het eiland Makéan =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-	OK year       = 1612       =VD= 1612
-	OK month      = 7          =VD= 7
-	OK day        = 26         =VD= 26
-
-01:p0021
-XV. PIETER BOTH, BANTAM 1 januari 1614 *).  
-	OK pid        = INT_953a59a1-9078-31f7-82c5-4b453f73ac5a
-	OK page       = 21         =VD= 21
-	OK seq        = XV         =VD= XV
-	+- title      Bantam, 1 januari 1614 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 1 januari 1614 =VD= 1 januari 1614
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1614       =VD= 1614
-	OK month      = 1          =VD= 1
-	OK day        = 1          =VD= 1
-
-01:p0028
-XVIII. PIETER BOTH. BANTAM 10 november 1614.  
-	OK pid        = INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83
-	OK page       = 28         =VD= 28
-	OK seq        = XVIII      =VD= XVIII
-	+- title      Bantam, 10 nov. 1614 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 10 nov. 1614 =VD= 10 november 1614
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1614       =VD= 1614
-	OK month      = 11         =VD= 11
-	OK day        = 10         =VD= 10
-
-01:p0029
-XIX. PIETER BOTH, BANTAM 10 november 1614 *).  
-	OK pid        = INT_f770652a-cece-382e-b688-76766d1a47f7
-	OK page       = 29         =VD= 29
-	OK seq        = XIX        =VD= XIX
-	+- title      Bantam, 10 nov. 1614 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 10 nov. 1614 =VD= 10 november 1614
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1614       =VD= 1614
-	OK month      = 11         =VD= 11
-	OK day        = 10         =VD= 10
-
-01:p0033
-XX. PIETER BOTH, BANTAM 10 november 1614.  
-	OK pid        = INT_503c8d67-1c03-3478-b595-5f692d928f3c
-	OK page       = 33         =VD= 33
-	OK seq        = XX         =VD= XX
-	+- title      Bantam, 10 nov. 1614 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 10 nov. 1614 =VD= 10 november 1614
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1614       =VD= 1614
-	OK month      = 11         =VD= 11
-	OK day        = 10         =VD= 10
-
-01:p0037
-XXI. PIETER BOTH, BANTAM 10 november 1614.  
-	OK pid        = INT_f0a3b09b-8561-3afc-9d68-5a616b87aa0a
-	OK page       = 37         =VD= 37
-	OK seq        = XXI        =VD= XXI
-	+- title      Bantam, 10 nov. 1614 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 10 nov. 1614 =VD= 10 november 1614
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1614       =VD= 1614
-	OK month      = 11         =VD= 11
-	OK day        = 10         =VD= 10
-
-01:p0039
-XXII. PIETER BOTH, BANTAM 10 november 1614.  
-	OK pid        = INT_85d1d9f0-e0f9-3e47-ad8f-1f2432c8287b
-	OK page       = 39         =VD= 39
-	OK seq        = XXII       =VD= XXII
-	+- title      Bantam, 10 nov. 1614 =VD> 
-	-+ author                <VD= Pieter Both
-	OK rawdate    = 10 nov. 1614 =VD= 10 november 1614
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1614       =VD= 1614
-	OK month      = 11         =VD= 11
-	OK day        = 10         =VD= 10
-
-01:p0043
-I. GERARD REYNST, BANTAM 11 november 1614.  
-	OK pid        = INT_daa0011c-c34f-3ae9-9e2a-d23611ee19d6
-	OK page       = 43         =VD= 43
-	OK seq        = I          =VD= I
-	+- title      Bantam, 11 nov. 1614 =VD> 
-	-+ author                <VD= Gerard,Reynst
-	OK rawdate    = 11 nov. 1614 =VD= 11 november 1614
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1614       =VD= 1614
-	OK month      = 11         =VD= 11
-	OK day        = 11         =VD= 11
-
-01:p0046
-II. GERARD REYNST, BANTAM 26 oktober 1615.  
-	OK pid        = INT_77dcbd53-54a1-334d-9144-5c03b6f98398
-	OK page       = 46         =VD= 46
-	OK seq        = II         =VD= II
-	+- title      Bantam, 26 okt. 1615 =VD> 
-	-+ author                <VD= Gerard,Reynst
-	OK rawdate    = 26 okt. 1615 =VD= 26 oktober 1615
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1615       =VD= 1615
-	OK month      = 10         =VD= 10
-	OK day        = 26         =VD= 26
-
-01:p0056
-11 a. BIJLAGE VAN II.  
-	OK pid        = INT_6d783fc0-1eed-384f-a0f2-f18fb5627c81
-	OK page       = 56         =VD= 56
-	OK seq        = IIa        =VD= IIa
-	+- title      Bijlage van de voorgaande brief =VD> 
-	OK author                =PDx Bijlage,Van,Ii
-	OK rawdate    26 okt. 1615 =PDx 
-	OK place      Bantam     =PDx 
-	OK year       1615       =PDx 
-	OK month      10         =PDx 
-	OK day        26         =PDx 
-
-01:p0063
-I. LAURENS REAEL, TERNATE 18 juli 1616.  
-	OK pid        = INT_54c654a4-7414-3058-af08-03eca2d92c1f
-	OK page       = 63         =VD= 63
-	OK seq        = I          =VD= I
-	+- title      Ternate, 18 juli 1616 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 18 juli 1616 =VD= 18 juli 1616
-	OK place      = Ternate    =VD= Ternate
-	OK year       = 1616       =VD= 1616
-	OK month      = 7          =VD= 7
-	OK day        = 18         =VD= 18
-
-01:p0068
-II. LAURENS REAEL, TERNATE 22 september 1616.  
-	OK pid        = INT_475bd48f-9b8e-3925-a7cc-6043fb201b30
-	OK page       = 68         =VD= 68
-	OK seq        = II         =VD= II
-	+- title      Ternate, 22 sept. 1616 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 22 sept. 1616 =VD= 22 september 1616
-	OK place      = Ternate    =VD= Ternate
-	OK year       = 1616       =VD= 1616
-	OK month      = 9          =VD= 9
-	OK day        = 22         =VD= 22
-
-01:p0070
-III. LAURENS REAEL, BANDA 10 mei 1617.  
-	OK pid        = INT_c4012a16-0423-32c3-9b5b-21cceb8c86b5
-	OK page       = 70         =VD= 70
-	OK seq        = III        =VD= III
-	+- title      Banda, 10 mei 1617 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 10 mei 1617 =VD= 10 mei 1617
-	OK place      = Banda      =VD= Banda-Neira
-	OK year       = 1617       =VD= 1617
-	OK month      = 5          =VD= 5
-	OK day        = 10         =VD= 10
-
-01:p0074
-IV. LAURENS REAEL, AMBOINA 2 juli 1617.  
-	OK pid        = INT_be4bc3a1-087b-32ea-894e-19d2e235f732
-	OK page       = 74         =VD= 74
-	OK seq        = IV         =VD= IV
-	+- title      Amboina, 2 juli 1617 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 2 juli 1617 =VD= 2 juli 1617
-	OK place      = Amboina    =VD= Amboina
-	OK year       = 1617       =VD= 1617
-	OK month      = 7          =VD= 7
-	OK day        = 2          =VD= 2
-
-01:p0076
-V. LAURENS REAEL, BANTAM 10 november 1617.  
-	OK pid        = INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b
-	OK page       = 76         =VD= 76
-	OK seq        = V          =VD= V
-	+- title      Bantam, 10 nov. 1617 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 10 nov. 1617 =VD= 10 november 1617
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1617       =VD= 1617
-	OK month      = 11         =VD= 11
-	OK day        = 10         =VD= 10
-
-01:p0077
-VI. LAURENS REAEL, BANTAM (17 december 1617?) *).  
-	OK pid        = INT_1a7063ce-c506-332a-9007-732e13cf8277
-	OK page       = 77         =VD= 77
-	OK seq        = VI         =VD= VI
-	+- title      Bantam, 17 dec. 1617 (?) =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 17 dec. 1617 (?) =VD= 17 december 1617 (?)
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1617       =VD= 1617
-	OK month      = 12         =VD= 12
-	OK day        = 17         =VD= 17
-
-01:p0080
-VII. LAURENS REAEL, BANTAM 17 december 1617.  
-	OK pid        = INT_11a312fb-5d53-388b-bf93-d1ddab97fd81
-	OK page       = 80         =VD= 80
-	OK seq        = VII        =VD= VII
-	+- title      Bantam, 17 dec. 1617 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 17 dec. 1617 =VD= 17 december 1617
-	OK place      = Bantam     =VD= Bantam
-	OK year       = 1617       =VD= 1617
-	OK month      = 12         =VD= 12
-	OK day        = 17         =VD= 17
-
-01:p0081
-VIII. LAURENS REAEL, JAKATRA 6 januari 1618.  
-	OK pid        = INT_48f9183f-02e1-38ed-b56c-b967ced764ea
-	OK page       = 81         =VD= 81
-	OK seq        = VIII       =VD= VIII
-	+- title      Jakatra, 6 jan. 1618 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 6 jan. 1618 =VD= 6 januari 1618
-	OK place      = Jakatra    =VD= Jakatra
-	OK year       = 1618       =VD= 1618
-	OK month      = 1          =VD= 1
-	OK day        = 6          =VD= 6
-
-01:p0082
-IX. LAURENS REAEL, KASTEEL NASSAU OP BANDA-NEIRA 7 mei 161 8.  
-	OK pid        = INT_2ca9ae62-9540-375a-84e0-9cc1bd114b5a
-	OK page       = 82         =VD= 82
-	OK seq        = IX         =VD= IX
-	+- title      Kasteel Nassau op Banda, 7 mei 1618 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 7 mei 1618 =VD= 7 mei 1618
-	OK place      = Kasteel Nassau op Banda =VD= Kasteel Nassau op Banda-Neira
-	OK year       = 1618       =VD= 1618
-	OK month      = 5          =VD= 5
-	OK day        = 7          =VD= 7
-
-01:p0085
-X. LAURENS REAEL, WAPEN VAN AMSTERDAM VOOR BANDANEIRA1)  11 juli 1618.  
-	OK pid        = INT_bddfa102-e1e7-3f78-ba24-5978bda8391f
-	OK page       = 85         =VD= 85
-	OK seq        = X          =VD= X
-	+- title      Wapen van Amsterdam, voor Banda-Neira, 11 juli 1618 =VD> 
-	-+ author                <VD= Laurens Reael
-	OK rawdate    = 11 juli 1618 =VD= 11 juli 1618
-	OK place      = Wapen van Amsterdam, voor Banda-Neira =VD= Wapen van Amsterdam voor Banda-Neira
-	OK year       = 1618       =VD= 1618
-	OK month      = 7          =VD= 7
-	OK day        = 11         =VD= 11
-
-01:p0087
-XI. LAURENS REAEL, KASTEEL MAURITIUS, NABIJ NGOFAKIAHA  OP MAKÉAN 20 augustus 1618 !).  
-	OK pid        = INT_cca9c9df-4b07-3cd3-aa20-1fea27cf63c1
-	OK page       = 87         =VD= 87
-	OK seq        = XI         =VD= XI
-	+- title      Kasteel Mauritius nabij Ngofakiaha op Makéan, 20 aug. 1618 =VD> 
-	-+ author                <VD= Laurens Reael,Kasteel,Mauritius
-	OK rawdate    = 20 aug. 1618 =VD= 20 augustus 1618
-	OK place      Kasteel Mauritius nabij Ngofakiaha op Makéan =VDx nabij Ngofakiaha op Makéan!)
-	OK year       = 1618       =VD= 1618
-	OK month      = 8          =VD= 8
-	OK day        = 20         =VD= 20
-
-01:p0099
-XI. FIETER DE CARPENTIER EN JACOB DEDEL, KASTEEL JAKATRA  8 maart 1621 1).  
-	OK pid        = INT_d88954f6-c387-3a43-a187-1a5661e4d7e7
-	OK page       = 99         =VD= 99
-	OK seq        = XI         =VD= XI
-	+- title      De Carpentier en Dedel, Kasteel Jakatra, 8 maart 1621 =VD> 
-	xx author     De Carpentier,Dedel ?VD? Fieter,De Carpentier,En,Jacob Dedel
-	OK rawdate    = 8 maart 1621 =VD= 8 maart 1621
-	OK place      = Kasteel Jakatra =VD= Kasteel Jakatra
-	OK year       = 1621       =VD= 1621
-	OK month      = 3          =VD= 3
-	OK day        = 8          =VD= 8
-
-01:p0105
-XII. JAN PIETERSZ. COEN EN DR. MARTINUS SONCK, SCHIP NIEUW  HOLLANDIA TER REDE VAN BANDA NEIRA 6 mei 1621.  
-	OK pid        = INT_3ba75a58-a94f-322e-af9d-e5d983406313
-	OK page       = 105        =VD= 105
-	OK seq        = XII        =VD= XII
-	+- title      Coen en Sonck, Nieuw-Hollandia, ter rede van Banda-Neira, 6 mei 1621 =VD> 
-	xx author     Coen,Sonck,Nieuw-Hollandia ?VD? Jan,Pietersz.,Coen,En,Dr.,Martinus Sonck
-	OK rawdate    = 6 mei 1621 =VD= 6 mei 1621
-	OK place      ter rede van Banda-Neira xVD= schip Nieuw Hollandia ter rede van Banda-Neira Neira
-	OK year       = 1621       =VD= 1621
-	OK month      = 5          =VD= 5
-	OK day        = 6          =VD= 6
-
-01:p0106
-XIII. PIETER DE CARPENTIER, JACOB DEDEL, CORNELIS REYERSZ.  EN ABRAHAM VAN UFFELEN, KASTEEL JAKATRA 9 juli 1621.  
-	OK pid        = INT_08c82040-752f-3fc2-ad50-0d3e7b37a945
-	OK page       = 106        =VD= 106
-	OK seq        = XIII       =VD= XIII
-	+- title      De Carpentier, Dedel, Cornelisz. Reyersz. en Van Uffelen, Kasteel Jakatra, 9 juli 1621 =VD> 
-	xx author     De Carpentier,Dedel,Cornelisz. Reyersz.,Van Uffelen ?VD? Pieter De Carpentier,Jacob Dedel,Cornelis,Reyersz.,En,Abraham Van Uffelen
-	OK rawdate    = 9 juli 1621 =VD= 9 juli 1621
-	OK place      = Kasteel Jakatra =VD= Kasteel Jakatra
-	OK year       = 1621       =VD= 1621
-	OK month      = 7          =VD= 7
-	OK day        = 9          =VD= 9
-
-01:p0121
-I. PIETER DE CARPENTIER, WILLEM JANSZ en JACQUES SPECX,  BATAVIA, 1 februari 1623.  
-	OK pid        = INT_5b065f97-afd0-345b-b6e3-2788855e0065
-	OK page       = 121        =VD= 121
-	OK seq        = I          =VD= I
-	+- title      De Carpentier, Willem Jansz. en Specx, 1 febr. 1623 =VD> 
-	xx author     De Carpentier,Willem Jansz.,Specx ?VD? Pieter De Carpentier,Willem,Jansz,En,Jacques Specx
-	OK rawdate    = 1 febr. 1623 =VD= 1 februari 1623
-	OK place                 <VD= Batavia
-	OK year       = 1623       =VD= 1623
-	OK month      = 2          =VD= 2
-	OK day        = 1          =VD= 1
-
-01:p0126
-II. PIETER DE CARPENTIER EN RADEN, BATAVIA 24 februari 1623.  
-	OK pid        = INT_9313bd80-4c06-3c26-bce5-cb6797dd3ab4
-	OK page       = 126        =VD= 126
-	OK seq        = II         =VD= II
-	+- title      De Carpentier en Raden, 24 febr. 1623 =VD> 
-	xx author     De Carpentier,Raden ?VD? Pieter De Carpentier,En,Raden
-	OK rawdate    = 24 febr. 1623 =VD= 24 februari 1623
-	OK place                 <VD= Batavia
-	OK year       = 1623       =VD= 1623
-	OK month      = 2          =VD= 2
-	OK day        = 24         =VD= 24
-
-01:p0129
-III. PIETER DE CARPENTIER, EREDERICK DE HOUTMAN, JACOB  DEDEL, DR. MARTINUS SONCK EN JACQUES SPECX, BATAVIA 25 december  1623.  
-	OK pid        = INT_bb1087e9-36f9-3895-9ba3-690f82482566
-	OK page       = 129        =VD= 129
-	OK seq        = III        =VD= III
-	+- title      De Carpentier, De Houtman, Dedel en Specx, 25 dec. 1623 =VD> 
-	xx author     De Carpentier,De Houtman,Dedel,Specx ?VD? Pieter De Carpentier,Erederick,De Houtman,Jacob Dedel,Dr.,Martinus Sonck,En,Jacques Specx
-	OK rawdate    = 25 dec. 1623 =VD= 25 december 1623
-	OK place                 <VD= Batavia
-	OK year       = 1623       =VD= 1623
-	OK month      = 12         =VD= 12
-	OK day        = 25         =VD= 25
-
-01:p0131
-IV PIETER DE CARPENTIER, FREDERICK DE HOUTMAN, JACOB  DEDEL, DR. MARTINUS SONCK, JACQUES SPECX EN JAN VAN  GORCOM, BATAVIA 3 januari 1624.  
-	OK pid        = INT_a6de2f19-c35d-37f5-8e2c-91caa95900d0
-	OK page       = 131        =VD= 131
-	OK seq        = IV         =VD= IV
-	+- title      De Carpentier, De Houtman, Dedel, Sonck, Specx en Van Gorcom, 3 jan. 1624 =VD> 
-	xx author     De Carpentier,De Houtman,Dedel,Sonck,Specx,Van Gorcom ?VD? Pieter De Carpentier,Frederick De Houtman,Jacob Dedel,Dr.,Martinus Sonck,Jacques Specx,En,Jan Van Gorcom
-	OK rawdate    = 3 jan. 1624 =VD= 3 januari 1624
-	OK place                 <VD= Batavia
-	OK year       = 1624       =VD= 1624
-	OK month      = 1          =VD= 1
-	OK day        = 3          =VD= 3
-
-01:p0148
-V. PIETER DE CARPENTIER, JACOB DEDEL, Dr. MARTINUS SONCK,  JACQUES SPECX EN JAN VAN GORCOM, BATAVIA 4 maart 1624.  
-	OK pid        = INT_108234c9-a9ce-3ca3-932d-5d144894806d
-	OK page       = 148        =VD= 148
-	OK seq        = V          =VD= V
-	+- title      De Carpentier, Dedel, Sonck, Specx en Van Gorcom, 4 maart 1624 =VD> 
-	xx author     De Carpentier,Dedel,Sonck,Specx,Van Gorcom ?VD? Pieter De Carpentier,Jacob Dedel,Dr.,Martinus Sonck,Jacques Specx,En,Jan Van Gorcom
-	OK rawdate    = 4 maart 1624 =VD= 4 maart 1624
-	OK place                 <VD= Batavia
-	OK year       = 1624       =VD= 1624
-	OK month      = 3          =VD= 3
-	OK day        = 4          =VD= 4
-
-01:p0152
-VI. PIETER DE CARPENTIER, JACQUES SPECX, Dr. PIETER VLACK  EN ANTONIO VAN DIEMEN, BATAVIA 27 januari 1625.  
-	OK pid        = INT_5252b097-3b59-325c-ae42-f83a6ddc32ce
-	OK page       = 152        =VD= 152
-	OK seq        = VI         =VD= VI
-	+- title      De Carpentier, Specx, Vlack en Van Diemen, 17 jan. 1625 =VD> 
-	xx author     De Carpentier,Specx,Vlack,Van Diemen ?VD? Pieter De Carpentier,Jacques Specx,Dr.,Pieter Vlack,En,Antonio Van Diemen
-	OK rawdate    17 jan. 1625 xVD= 27 januari 1625
-	OK place                 <VD= Batavia
-	OK year       = 1625       =VD= 1625
-	OK month      = 1          =VD= 1
-	OK day        17         xVD= 27
-
-01:p0172
-VII. PIETER DE CARPENTIER EN RADEN, BATAVIA 13 augustus 1625.  
-	OK pid        = INT_932cb918-3eff-3047-8d7a-bdbd9d6dcef0
-	OK page       = 172        =VD= 172
-	OK seq        = VII        =VD= VII
-	+- title      De Carpentier en Raden, 13 aug. 1625 =VD> 
-	xx author     De Carpentier,Raden ?VD? Pieter De Carpentier,En,Raden
-	OK rawdate    = 13 aug. 1625 =VD= 13 augustus 1625
-	OK place                 <VD= Batavia
-	OK year       = 1625       =VD= 1625
-	OK month      = 8          =VD= 8
-	OK day        = 13         =VD= 13
-
-01:p0173
-VII a. PIETER DE CARPENTIER EN RADEN, BATAVIA 13 september  1625.  
-	OK pid        = INT_78db4841-441f-33ce-9c23-77fdd2a09bce
-	OK page       = 173        =VD= 173
-	OK seq        = VIIa       =VD= VIIa
-	+- title      De Carpentier en Raden, 13 sept. 1625 =VD> 
-	xx author     De Carpentier,Raden ?VD? Pieter De Carpentier,En,Raden
-	OK rawdate    = 13 sept. 1625 =VD= 13 september 1625
-	OK place                 <VD= Batavia
-	OK year       = 1625       =VD= 1625
-	OK month      = 9          =VD= 9
-	OK day        = 13         =VD= 13
-
-01:p0174
-VIII. PIETER DE CARPENTIER, JACQUES SPECX, DR. PIETER  VLACK EN ANTONIO VAN DIEMEN, BATAVIA 27 oktober 1625.  
-	OK pid        = INT_328a325d-a0e6-316a-97dd-cd925f0fceea
-	OK page       = 174        =VD= 174
-	OK seq        = VIII       =VD= VIII
-	+- title      De Carpentier, Specx, Vlack en Van Diemen, 27 okt. 1625 =VD> 
-	xx author     De Carpentier,Specx,Vlack,Van Diemen ?VD? Pieter De Carpentier,Jacques Specx,Dr.,Pieter Vlack,En,Antonio Van Diemen
-	OK rawdate    = 27 okt. 1625 =VD= 27 oktober 1625
-	OK place                 <VD= Batavia
-	OK year       = 1625       =VD= 1625
-	OK month      = 10         =VD= 10
-	OK day        = 27         =VD= 27
-
-01:p0184
-IX. PIETER DE CARPENTIER, JACQUES SPECX, DR. PIETER VLACK  EN ANTONIO VAN DIEMEN, BATAVIA 3 februari 1626.  
-	OK pid        = INT_1aac7c92-5e1a-393c-b8bb-c6e97993bc1f
-	OK page       = 184        =VD= 184
-	OK seq        = IX         =VD= IX
-	+- title      De Carpentier, Specx, Vlack en Van Diemen, 3 febr. 1626 =VD> 
-	xx author     De Carpentier,Specx,Vlack,Van Diemen ?VD? Pieter De Carpentier,Jacques Specx,Dr.,Pieter Vlack,En,Antonio Van Diemen
-	OK rawdate    = 3 febr. 1626 =VD= 3 februari 1626
-	OK place                 <VD= Batavia
-	OK year       = 1626       =VD= 1626
-	OK month      = 2          =VD= 2
-	OK day        = 3          =VD= 3
-
-01:p0203
-X. PIETER DE CARPENTIER EN RADEN, BATAVIA 15 februari 1626.
-	OK pid        = INT_66116310-5197-3290-ad43-fe64bb687892
-	OK page       = 203        =VD= 203
-	OK seq        = X          =VD= X
-	+- title      De Carpentier en Raden, 15 febr. 1626 =VD> 
-	xx author     De Carpentier,Raden ?VD? Pieter De Carpentier,En,Raden
-	OK rawdate    = 15 febr. 1626 =VD= 15 februari 1626
-	OK place                 <VD= Batavia
-	OK year       = 1626       =VD= 1626
-	OK month      = 2          =VD= 2
-	OK day        = 15         =VD= 15
-
-01:p0204
-XI. PIETER DE CARPENTIER, JACQUES SPECX, DR. PIETER VLACK  EN ANTONIO VAN DIEMEN, BATAVIA 13 december 1626.  
-	OK pid        = INT_ac56017f-6ace-3b71-9cee-5aad79958ea3
-	OK page       = 204        =VD= 204
-	OK seq        = XI         =VD= XI
-	+- title      De Carpentier, Specx, Vlack en Van Diemen, 13 dec. 1626 =VD> 
-	xx author     De Carpentier,Specx,Vlack,Van Diemen ?VD? Pieter De Carpentier,Jacques Specx,Dr.,Pieter Vlack,En,Antonio Van Diemen
-	OK rawdate    = 13 dec. 1626 =VD= 13 december 1626
-	OK place                 <VD= Batavia
-	OK year       = 1626       =VD= 1626
-	OK month      = 12         =VD= 12
-	OK day        = 13         =VD= 13
-
-01:p0234
-XII. PIETER DE CARPENTIER, JACQUES SPECX, DR. PIETER VLACK,  ANTONIO VAN DIEMEN EN WIJBRANT SCHRAM, Batavia 15 december  1626.  
-	OK pid        = INT_e6de02cd-6e67-33be-a143-f739d6ec006d
-	OK page       = 234        =VD= 234
-	OK seq        = XII        =VD= XII
-	+- title      De Carpentier, Specx, Vlack, Van Diemen en Schram, 15 dec. 1626 =VD> 
-	xx author     De Carpentier,Specx,Vlack,Van Diemen,Schram ?VD? Pieter De Carpentier,Jacques Specx,Dr.,Pieter Vlack,Antonio Van Diemen,En,Wijbrant Schram
-	OK rawdate    = 15 dec. 1626 =VD= 15 december 1626
-	OK place                 <VD= Batavia
-	OK year       = 1626       =VD= 1626
-	OK month      = 12         =VD= 12
-	OK day        = 15         =VD= 15
-
-01:p0235
-XIII. PIETER DE CARPENTIER, WIJBRANT SCHRAM, JACQUES  SPECX, DR. PIETER VLACK EN ANTONIO VAN DIEMEN, Batavia  26 december 1626.  
-	OK pid        = INT_a1f5b67a-4824-33fb-bdae-b6aa67035e93
-	OK page       = 235        =VD= 235
-	OK seq        = XIII       =VD= XIII
-	+- title      De Carpentier, Schram, Specx, Vlack en Van Diemen, 26 dec. 1626 =VD> 
-	xx author     De Carpentier,Schram,Specx,Vlack,Van Diemen ?VD? Pieter De Carpentier,Wijbrant Schram,Jacques Specx,Dr.,Pieter Vlack,En,Antonio Van Diemen
-	OK rawdate    = 26 dec. 1626 =VD= 26 december 1626
-	OK place                 <VD= Batavia
-	OK year       = 1626       =VD= 1626
-	OK month      = 12         =VD= 12
-	OK day        = 26         =VD= 26
-
-01:p0239
-XIV. PIETER DE CARPENTIER EN RADEN, Batavia 2 februari 1627 *).  
-	OK pid        = INT_3381f25d-edbf-3264-9354-3ff47b7276d3
-	OK page       = 239        =VD= 239
-	OK seq        = XIV        =VD= XIV
-	+- title      De Carpentier en Raden, 2 febr. 1627 =VD> 
-	xx author     De Carpentier,Raden ?VD? Pieter De Carpentier,En,Raden
-	OK rawdate    = 2 febr. 1627 =VD= 2 februari 1627
-	OK place                 <VD= Batavia
-	OK year       = 1627       =VD= 1627
-	OK month      = 2          =VD= 2
-	OK day        = 2          =VD= 2
-
-01:p0240
-XV. PIETER DE CARPENTIER, Batavia 29 juli 1627 ').  
-	OK pid        = INT_c4486246-2f28-33d8-b534-af5493a427f1
-	OK page       = 240        =VD= 240
-	OK seq        = XV         =VD= XV
-	+- title      De Carpentier, 29 juli 1627 =VD> 
-	xx author     De Carpentier ?VD? Pieter De Carpentier
-	OK rawdate    = 29 juli 1627 =VD= 29 juli 1627
-	OK place                 <VD= Batavia
-	OK year       = 1627       =VD= 1627
-	OK month      = 7          =VD= 7
-	OK day        = 29         =VD= 29
-
-01:p0247
-I. JACQUES SPECX, Dr. PIETER VLACK, ANTONIO VAN DIEMEN,  PIETER NUYTS en CRIJN VAN RAEMBURCH Batavia 15 december 1629.  
-	OK pid        = INT_28bc92e8-4475-3caa-add1-d15d94347d67
-	OK page       = 247        =VD= 247
-	OK seq        = I          =VD= I
-	+- title      Specx, Vlack, Van Diemen, Nuyts en Van Raemsburch, 15 dec. 1629 =VD> 
-	xx author     Specx,Vlack,Van Diemen,Nuyts,Van Raemsburch ?VD? Jacques Specx,Dr.,Pieter Vlack,Antonio Van Diemen,Pieter Nuyts,En,Crijn Van Raemburch
-	OK rawdate    = 15 dec. 1629 =VD= 15 december 1629
-	OK place                 <VD= Batavia
-	OK year       = 1629       =VD= 1629
-	OK month      = 12         =VD= 12
-	OK day        = 15         =VD= 15
-
-01:p0279
-II. JACQUES SPECX, DR. PIETER VLACK, ANTONIO VAN DIEMEN  EN JAN VAN DER BURCH, Batavia 7 maart 1631.  
-	OK pid        = INT_c0003fe5-19ad-3193-b31a-24671ddb49fb
-	OK page       = 279        =VD= 279
-	OK seq        = II         =VD= II
-	+- title      Specx, Vlack, Van Diemen en Van der Burch, 7 maart 1631 =VD> 
-	xx author     Specx,Vlack,Van Diemen,Van der Burch ?VD? Jacques Specx,Dr.,Pieter Vlack,Antonio Van Diemen,En,Jan Van Der Burch
-	OK rawdate    = 7 maart 1631 =VD= 7 maart 1631
-	OK place                 <VD= Batavia
-	OK year       = 1631       =VD= 1631
-	OK month      = 3          =VD= 3
-	OK day        = 7          =VD= 7
-
-01:p0302
-III. ANTONIO VAN DIEMEN, IN HET SCHIP DEVENTER NABIJ DE  ZUIDPUNT VAN AFRIKA 5 juni 1631 *).  
-	OK pid        = INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf
-	OK page       = 302        =VD= 302
-	OK seq        = III        =VD= III
-	+- title      Van Diemen, Deventer, nabij de Zuidpunt van Afrika, 5 juni 1631 =VD> 
-	xx author     Van Diemen,Deventer,nabij de Zuidpunt van Afrika ?VD? Antonio Van Diemen
-	OK rawdate    = 5 juni 1631 =VD= 5 juni 1631
-	OK place                 xVD= in het schip Deventer nabij de zuidpunt van Afrika
-	OK year       = 1631       =VD= 1631
-	OK month      = 6          =VD= 6
-	OK day        = 5          =VD= 5
-
-01:p0303
-IV. JACQUES SPECX, DR. PIETER VLACK, JAN VAN DER BURCH EN  ARENT GARDENIJS, Batavia 6 januari 1632.  
-	OK pid        = INT_aa213d70-0261-3d2f-84c6-ed7f60a9c441
-	OK page       = 303        =VD= 303
-	OK seq        = IV         =VD= IV
-	+- title      Specx, Vlack, Van der Burch en Gardenijs, 6 jan. 1632 =VD> 
-	xx author     Specx,Vlack,Van der Burch,Gardenijs ?VD? Jacques Specx,Dr.,Pieter Vlack,Jan Van Der Burch,En,Arent Gardenijs
-	OK rawdate    = 6 jan. 1632 =VD= 6 januari 1632
-	OK place                 <VD= Batavia
-	OK year       = 1632       =VD= 1632
-	OK month      = 1          =VD= 1
-	OK day        = 6          =VD= 6
-
-01:p0331
-I. HENRICK BROUWER, DR. PIETER VLACK EN JAN VAN DER  BURCH, Batavia 1 december 1632.  
-	OK pid        = INT_d4ff8ede-7bb7-3f3e-b8d8-a12131158cab
-	OK page       = 331        =VD= 331
-	OK seq        = I          =VD= I
-	+- title      Brouwer, Vlack en Van der Burch, 1 dec. 1632 =VD> 
-	xx author     Brouwer,Vlack,Van der Burch ?VD? Henrick Brouwer,Dr.,Pieter Vlack,En,Jan Van Der Burch
-	OK rawdate    = 1 dec. 1632 =VD= 1 december 1632
-	OK place                 <VD= Batavia
-	OK year       = 1632       =VD= 1632
-	OK month      = 12         =VD= 12
-	OK day        = 1          =VD= 1
-
-01:p0366
-II. HENRICK BROUWER, DR. PIETER VLACK, MAERTEN YSBRANTSZ  EN JAN VAN DER BURCH, BATAVIA, 7 februari 1633.  
-	OK pid        = INT_3171a2c7-0813-3530-978e-bb7f6d83bee3
-	OK page       = 366        =VD= 366
-	OK seq        = II         =VD= II
-	+- title      Brouwer, Vlack, Maerten Ysbrantsz. en Van der Burch, 7 febr. 1633 =VD> 
-	xx author     Brouwer,Vlack,Maerten Ysbrantsz.,Van der Burch ?VD? Henrick Brouwer,Dr.,Pieter Vlack,Maerten Ysbrantsz,En,Jan Van Der Burch
-	OK rawdate    = 7 febr. 1633 =VD= 7 februari 1633
-	OK place                 <VD= Batavia
-	OK year       = 1633       =VD= 1633
-	OK month      = 2          =VD= 2
-	OK day        = 7          =VD= 7
-
-01:p0369
-III. HENRICK BROUWER, DR. PIETER VLACK, MAERTEN YSBRANTSZ.  EN JAN VAN DER BURCH, BATAVIA, 8 februari 1633.  
-	OK pid        = INT_1e7d8433-67cf-31fd-a3e5-75023c63b195
-	OK page       = 369        =VD= 369
-	OK seq        = III        =VD= III
-	+- title      Brouwer, Vlack, Maerten Ysbrantsz. en Van der Burch, 8 febr. 1633 =VD> 
-	xx author     Brouwer,Vlack,Maerten Ysbrantsz.,Van der Burch ?VD? Henrick Brouwer,Dr.,Pieter Vlack,Maerten,Ysbrantsz.,En,Jan Van Der Burch
-	OK rawdate    = 8 febr. 1633 =VD= 8 februari 1633
-	OK place                 <VD= Batavia
-	OK year       = 1633       =VD= 1633
-	OK month      = 2          =VD= 2
-	OK day        = 8          =VD= 8
-
-01:p0373
-IV. HENRICK BROUWER, ANTONIO VAN DIEMEN, DR. PIETER  VLACK, PHILIPS LUCASZ. EN JAN VAN DER BURCH, BATAVIA 15 augustus  1633.  
-	OK pid        = INT_fd80b3c3-f4ed-3cca-915f-89603727b863
-	OK page       = 373        =VD= 373
-	OK seq        = IV         =VD= IV
-	+- title      Brouwer, Van Diemen, Vlack, Philips Lucasz. en Van der Burch, 15 aug. 1633 =VD> 
-	xx author     Brouwer,Van Diemen,Vlack,Philips Lucasz.,Van der Burch ?VD? Henrick Brouwer,Antonio Van Diemen,Dr.,Pieter Vlack,Philips,Lucasz.,En,Jan Van Der Burch
-	OK rawdate    = 15 aug. 1633 =VD= 15 augustus 1633
-	OK place                 <VD= Batavia
-	OK year       = 1633       =VD= 1633
-	OK month      = 8          =VD= 8
-	OK day        = 15         =VD= 15
-
-01:p0393
-V. HENRICK BROUWER, ANTONIO VAN DIEMEN, DR. PIETER VLACK,  JAN VAN DER BURCH EN MR. ANTONIO VAN DEN HEUVEL, BATAVIA  15 december 1633.  
-	OK pid        = INT_1ec1d896-39ff-3aa9-8980-faca406805eb
-	OK page       = 393        =VD= 393
-	OK seq        = V          =VD= V
-	+- title      Brouwer, Van Diemen, Vlack, Van der Burch, en Van den Heuvel, 15 dec. 1633 =VD> 
-	xx author     Brouwer,Van Diemen,Vlack,Van der Burch,en Van den Heuvel ?VD? Henrick Brouwer,Antonio Van Diemen,Dr.,Pieter Vlack,Jan Van Der Burch,En,Mr.,Antonio Van Den,Heuvel
-	OK rawdate    = 15 dec. 1633 =VD= 15 december 1633
-	OK place                 <VD= Batavia
-	OK year       = 1633       =VD= 1633
-	OK month      = 12         =VD= 12
-	OK day        = 15         =VD= 15
-
-01:p0433
-VI. HENRICK BROUWER, AAN BOORD VAN DE WESEL IN STRAAT  SUNDA 25 december 1633 *).  
-	OK pid        = INT_d51a854b-5ba3-3bc3-9964-83e3e6ce696c
-	OK page       = 433        =VD= 433
-	OK seq        = VI         =VD= VI
-	+- title      Brouwer, Wesel, in straat Sunda, 25 dec. 1633 =VD> 
-	xx author     Brouwer,Wesel,in straat Sunda ?VD? Henrick Brouwer
-	OK rawdate    = 25 dec. 1633 =VD= 25 december 1633
-	OK place                 xVD= aan boord van de Wesel in Straat Sunda
-	OK year       = 1633       =VD= 1633
-	OK month      = 12         =VD= 12
-	OK day        = 25         =VD= 25
-
-01:p0435
-VIL HENRICK BROUWER, ANTONIO VAN DIEMEN, Dr. PIETER  VLACK EN JAN VAN DER BURCH, BATAVIA 20 februari 1634.  
-	OK pid        = INT_1b6d9852-3654-3197-b777-f095346d2a0a
-	OK page       = 435        =VD= 435
-	OK seq        = VII        =VD= VII
-	+- title      Brouwer, Van Diemen, Vlack en Van der Burch, 20 febr. 1634 =VD> 
-	xx author     Brouwer,Van Diemen,Vlack,Van der Burch ?VD? Henrick Brouwer,Antonio Van Diemen,Dr.,Pieter Vlack,En,Jan Van Der Burch
-	OK rawdate    = 20 febr. 1634 =VD= 20 februari 1634
-	OK place                 <VD= Batavia
-	OK year       = 1634       =VD= 1634
-	OK month      = 2          =VD= 2
-	OK day        = 20         =VD= 20
-
-01:p0437
-VIII. HENRICK BROUWER, ANTONIO VAN DIEMEN, DR. PIETER  VLACK EN JAN VAN DER BURCH, BATAVIA 5 maart 1634.  
-	OK pid        = INT_0ab44c8f-6774-3eec-82d4-ba20221ef473
-	OK page       = 437        =VD= 437
-	OK seq        = VIII       =VD= VIII
-	+- title      Brouwer, Van Diemen, Vlack en Van der Burch, 5 maart 1634 =VD> 
-	xx author     Brouwer,Van Diemen,Vlack,Van der Burch ?VD? Henrick Brouwer,Antonio Van Diemen,Dr.,Pieter Vlack,En,Jan Van Der Burch
-	OK rawdate    = 5 maart 1634 =VD= 5 maart 1634
-	OK place                 <VD= Batavia
-	OK year       = 1634       =VD= 1634
-	OK month      = 3          =VD= 3
-	OK day        = 5          =VD= 5
-
-01:p0438
-IX. HENRICK BROUWER, ANTONIO VAN DIEMEN, DR. PIETER  VLACK EN JAN VAN DER BURCH, BATAVIA 15 augustus 1634.  
-	OK pid        = INT_b2f823df-0438-3389-ae13-4fe05278e5f8
-	OK page       = 438        =VD= 438
-	OK seq        = IX         =VD= IX
-	+- title      Brouwer, Van Diemen, Vlack en Van der Burch, 15 aug. 1634 =VD> 
-	xx author     Brouwer,Van Diemen,Vlack,Van der Burch ?VD? Henrick Brouwer,Antonio Van Diemen,Dr.,Pieter Vlack,En,Jan Van Der Burch
-	OK rawdate    = 15 aug. 1634 =VD= 15 augustus 1634
-	OK place                 <VD= Batavia
-	OK year       = 1634       =VD= 1634
-	OK month      = 8          =VD= 8
-	OK day        = 15         =VD= 15
-
-01:p0453
-X. HENRICK BROUWER, ANTONIO VAN DIEMEN, JAN VAN DER  BURCH EN JAN VAN BROECKUM, BATAVIA 27 december 1634.  
-	OK pid        = INT_e602afc7-cf5c-38ed-a110-c0db89abdd52
-	OK page       = 453        =VD= 453
-	OK seq        = X          =VD= X
-	+- title      Brouwer, Van Diemen, Van der Burch en Van Broeckum, 27 dec. 1634 =VD> 
-	xx author     Brouwer,Van Diemen,Van der Burch,Van Broeckum ?VD? Henrick Brouwer,Antonio Van Diemen,Jan Van Der Burch,En,Jan Van,Broeckum
-	OK rawdate    = 27 dec. 1634 =VD= 27 december 1634
-	OK place                 <VD= Batavia
-	OK year       = 1634       =VD= 1634
-	OK month      = 12         =VD= 12
-	OK day        = 27         =VD= 27
-
-01:p0482
-XI. HENRICK BROUWER, AAN BOORD VAN DE UTRECHT NABIJ DE  VLAKKE HOEK 8 januari 1635 *).  
-	OK pid        = INT_7461df75-56c1-37d5-958e-304b2a4eb726
-	OK page       = 482        =VD= 482
-	OK seq        = XI         =VD= XI
-	+- title      Brouwer, Utrecht, nabij de Vlakke Hoek, 8 jan. 1635 =VD> 
-	xx author     Brouwer,Utrecht,nabij de Vlakke Hoek ?VD? Henrick Brouwer
-	OK rawdate    = 8 jan. 1635 =VD= 8 januari 1635
-	OK place                 xVD= aan boord van de Utrecht nabij de Vlakke Hoek
-	OK year       = 1635       =VD= 1635
-	OK month      = 1          =VD= 1
-	OK day        = 8          =VD= 8
-
-01:p0491
-XII. HENRICK BROUWER, ANTONIO VAN DIEMEN EN JAN VAN DER  BURCH, BATAVIA 31 december 1635 *).  
-	OK pid        = INT_68f393cd-21f9-33f9-9259-9f6d33ac920b
-	OK page       = 491        =VD= 491
-	OK seq        = XII        =VD= XII
-	+- title      Brouwer, Van Diemen en Van der Burch, 31 dec. 1635 =VD> 
-	xx author     Brouwer,Van Diemen,Van der Burch ?VD? Henrick Brouwer,Antonio Van Diemen,En,Jan Van Der Burch
-	OK rawdate    = 31 dec. 1635 =VD= 31 december 1635
-	OK place                 <VD= Batavia
-	OK year       = 1635       =VD= 1635
-	OK month      = 12         =VD= 12
-	OK day        = 31         =VD= 31
-
-01:p0507
-XIII. HENRICK BROUWER, ANTONIO VAN DIEMEN, PHILIPS LUCASZ.,  MAERTEN IJSBRANTSZ., ARTUS GIJSELS EN JAN VAN DER BURCH,  BATAVIA, 4 januari 1636.  
-	OK pid        = INT_e9dd0a06-f579-3dea-bb5a-c80c600b5f0b
-	OK page       = 507        =VD= 507
-	OK seq        = XIII       =VD= XIII
-	+- title      Brouwer, Van Diemen, Philips Lucasz., Maerten Ysbrantsz., Gijsels en Van der Burch, 4 jan. 1636 =VD> 
-	xx author     Brouwer,Van Diemen,Philips Lucasz.,Maerten Ysbrantsz.,Gijsels,Van der Burch ?VD? Henrick Brouwer,Antonio Van Diemen,Philips,Lucasz.,Maerten,Ijsbrantsz.,Artus,Gijsels,En,Jan Van Der Burch
-	OK rawdate    = 4 jan. 1636 =VD= 4 januari 1636
-	OK place                 <VD= Batavia
-	OK year       = 1636       =VD= 1636
-	OK month      = 1          =VD= 1
-	OK day        = 4          =VD= 4
-
-01:p0553
-I. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., ARTUS GIJSELS EN  JAN VAN DER BURCH, BATAVIA 2 februari 1636.  
-	OK pid        = INT_87f3172c-8b71-3871-8aee-3b11dbc536ee
-	OK page       = 553        =VD= 553
-	OK seq        = I          =VD= I
-	+- title      Van Diemen, Philips Lucasz., Gijsels en Van der Burch, 2 febr. 1636 =VD> 
-	xx author     Van Diemen,Philips Lucasz.,Gijsels,Van der Burch ?VD? Antonio Van Diemen,Philips,Lucasz.,Artus,Gijsels,En,Jan Van Der Burch
-	OK rawdate    = 2 febr. 1636 =VD= 2 februari 1636
-	OK place                 <VD= Batavia
-	OK year       = 1636       =VD= 1636
-	OK month      = 2          =VD= 2
-	OK day        = 2          =VD= 2
-
-01:p0554
-II. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., ARTUS GIJSELS, HANS  PUTMANS, ANTONIOCAENENJOAN OTTENS, BATAVIA 28 december 16361).  
-	OK pid        = INT_2ae2d0ff-69eb-3220-8bdf-1d9e859c3c6d
-	OK page       = 554        =VD= 554
-	OK seq        = II         =VD= II
-	+- title      Van Diemen, Philips Lucasz., Gijsels, Putmans, Caen en Ottens, 28 dec. 1636 =VD> 
-	xx author     Van Diemen,Philips Lucasz.,Gijsels,Putmans,Caen,Ottens ?VD? Antonio Van Diemen,Philips,Lucasz.,Artus,Gijsels,Hans,Putmans,Antoniocaenenjoan,Ottens
-	OK rawdate    = 28 dec. 1636 =VD= 28 december 1636
-	OK place                 <VD= Batavia
-	OK year       = 1636       =VD= 1636
-	OK month      = 12         =VD= 12
-	OK day        = 28         =VD= 28
-
-01:p0596
-III. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., ARTUS GIJSELS EN  ANTONIO CAEN, BATAVIA 9 december 1637.  
-	OK pid        = INT_8ebb3e47-7b72-3f36-87f9-251154d6cfb6
-	OK page       = 596        =VD= 596
-	OK seq        = III        =VD= III
-	+- title      Van Diemen, Philips Lucasz., Gijsels en Caen, 9 dec. 1637 =VD> 
-	xx author     Van Diemen,Philips Lucasz.,Gijsels,Caen ?VD? Antonio Van Diemen,Philips,Lucasz.,Artus,Gijsels,En,Antonio,Caen
-	OK rawdate    = 9 dec. 1637 =VD= 9 december 1637
-	OK place                 <VD= Batavia
-	OK year       = 1637       =VD= 1637
-	OK month      = 12         =VD= 12
-	OK day        = 9          =VD= 9
-
-01:p0658
-IV. ANTONIO VAN DIEMEN, PHILIPS LUCASZ. EN ANTONIO CAEN,  BATAVIA 26 december 1637.  
-	OK pid        = INT_3a2689fc-87e3-32fb-b1a8-99b4f7006f77
-	OK page       = 658        =VD= 658
-	OK seq        = IV         =VD= IV
-	+- title      Van Diemen, Philips Lucasz. en Caen, 26 dec. 1637  =VD> 
-	xx author     Van Diemen,Philips Lucasz.,Caen ?VD? Antonio Van Diemen,Philips,Lucasz.,En,Antonio,Caen
-	OK rawdate    = 26 dec. 1637 =VD= 26 december 1637
-	OK place                 <VD= Batavia
-	OK year       = 1637       =VD= 1637
-	OK month      = 12         =VD= 12
-	OK day        = 26         =VD= 26
-
-01:p0663
-V. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., CAREL RENIERS (EN  DE GEASSUMEERDE RADEN) ABRAHAM WELSING EN CORNELIS  VAN DER LIJN, BATAVIA 22 december 1638.  
-	OK pid        = INT_7b6b97b0-c636-3d82-b4d4-9dc41d95dd5b
-	OK page       = 663        =VD= 663
-	OK seq        = V          =VD= V
-	+- title      Van Diemen, Philips Lucasz., Reniers, Welsing en Van der Lijn, 22 dec. 1638 =VD> 
-	xx author     Van Diemen,Philips Lucasz.,Reniers,Welsing,Van der Lijn ?VD? Antonio Van Diemen,Philips,Lucasz.,Carel,Reniers,(en,De,Geassumeerde,Raden),Abraham,Welsing,En,Cornelis Van Der,Lijn
-	OK rawdate    = 22 dec. 1638 =VD= 22 december 1638
-	OK place                 <VD= Batavia
-	OK year       = 1638       =VD= 1638
-	OK month      = 12         =VD= 12
-	OK day        = 22         =VD= 22
-
-01:p0734
-VI. ANTONIO VAN DIEMEN, PHILIPS LUCASZ, CAREL RENIERS (EN DE GEASSUMEERDE RADEN) ABRAHAM WELSING EN CORNELIS VAN DER LIJN, BATAVIA. 30 december 1638.
-	OK pid        = INT_2bba0f00-e9d9-3eb0-a670-22b5d1861ee8
-	OK page       = 734        =VD= 734
-	OK seq        = VI         =VD= VI
-	+- title      Van Diemen, Philips Lucasz., Reniers, Welsing en Van der Lijn, 30 dec. 1638 =VD> 
-	xx author     Van Diemen,Philips Lucasz.,Reniers,Welsing,Van der Lijn ?VD? Antonio Van Diemen,Philips Lucasz,Carel,Reniers,(en,De,Geassumeerde,Raden),Abraham,Welsing,En,Cornelis Van Der,Lijn
-	OK rawdate    = 30 dec. 1638 =VD= 30 december 1638
-	OK place                 <VD= Batavia
-	OK year       = 1638       =VD= 1638
-	OK month      = 12         =VD= 12
-	OK day        = 30         =VD= 30
+07:p0003
+I. CHRISTOFFEL VAN SWOLL, ABRAHAM DOUGLAS, CORNELIS CHASTELEIN,  MATTHEUS DE HAAN, FRANS CASTELIJN, LAURENS TOLLING, HENDRIK  ZWAARDECROON, PIETER ROOSELAAR,THEODORUS DE HAEZE, SAMUEL  TIMMERMAN, JACOB FAES EN JOAN CORNELIS D’ABLEING, BATAVIA 20 november  1713.  
+	OK pid        = INT_1f78ad82-6603-3767-b69c-b77a8a5a23f5
+	OK page       =V=D 3
+	OK seq        =V=D I
+	+- title      ?V-D Van Swoll, Douglas, Chastelein, De Haan, Castelijn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes en d'Ableing, 20 nov. 1713
+	OK author     =V=D Van Swoll,Douglas,Chastelein,De Haan,Castelijn,Tolling,Zwaardecroon,Rooselaar,De Haeze,Timmerman,Faes,d'Ableing
+	OK authorFull -V=D Christoffel van Swoll,Abraham Douglas,Cornelis Chasteleyn,Mattheus de Haan,Frans Castelyn,Laurens Tolling,Hendrik Zwaardecroon,Pieter Rooselaar,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing
+	OK rawdate    =V=D 20 nov. 1713
+	OK place      -V=D Batavia
+	OK year       =V=D 1713
+	OK month      =V=D 11
+	OK day        =V=D 20
+
+07:p0045
+II. CHRISTOFFEL VAN SWOLL, ABRAHAM DOUGLAS, CORNELIS CHASTELEIN,  MATTHEUS DE HAAN, FRANS CASTELIJN, LAURENS TOLLING, HENDRIK  ZWAARDECROON, PIETER ROOSELAAR, THEODORUS DE HAEZE, SAMUEL  TIMMERMAN, JACOB FAES EN JOAN CORNELIS D'ABLEING, BATAVIA  1 1 januari 1714.  
+	OK pid        = INT_1c6f599d-59f5-3bfa-a60f-b1bc9064aa8b
+	OK page       =V=D 45
+	OK seq        =V=D II
+	+- title      ?V-D Van Swoll, Douglas, Chastelein, De Haan, Castelijn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes en d'Ableing, 11 jan. 1714
+	OK author     =V=D Van Swoll,Douglas,Chastelein,De Haan,Castelijn,Tolling,Zwaardecroon,Rooselaar,De Haeze,Timmerman,Faes,d'Ableing
+	OK authorFull -V=D Christoffel van Swoll,Abraham Douglas,Cornelis Chasteleyn,Mattheus de Haan,Frans Castelyn,Laurens Tolling,Hendrik Zwaardecroon,Pieter Rooselaar,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing
+	OK rawdate    =V=D 11 jan. 1714
+	OK place      -V=D Batavia
+	OK year       =V=D 1714
+	OK month      =V=D 1
+	OK day        =V=D 11
+
+07:p0065
+III. CHRISTOFFEL VAN SWOLL, ABRAHAM DOUGLAS, CORNELIS CHASTELEIN,  MATTHEUS DE HAAN, FRANS CASTELIJN, LAURENS TOLLING, HENDRIK  ZWAARDECROON, PIETER ROOSELAAR, THEODORUS DE HAEZE, SAMUEL  TIMMERMAN, JACOB FAES EN JOAN CORNELIS D’ ABLEING, BATAVIA  26 febr. 1714.  
+	OK pid        = INT_419e4ebd-9767-38df-8850-19f17ab27ad4
+	OK page       =V=D 65
+	OK seq        =V=D III
+	+- title      ?V-D Van Swoll, Douglas, Chastelein, De Haan, Castelijn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes en d'Ableing, 26 febr. 1714
+	OK author     =V=D Van Swoll,Douglas,Chastelein,De Haan,Castelijn,Tolling,Zwaardecroon,Rooselaar,De Haeze,Timmerman,Faes,d'Ableing
+	OK authorFull -V=D Christoffel van Swoll,Abraham Douglas,Cornelis Chasteleyn,Mattheus de Haan,Frans Castelyn,Laurens Tolling,Hendrik Zwaardecroon,Pieter Rooselaar,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing
+	OK rawdate    =V=D 26 febr. 1714
+	OK place      -V=D Batavia
+	OK year       =V=D 1714
+	OK month      =V=D 2
+	OK day        =V=D 26
+
+07:p0078
+IV. CHRISTOFFEL VAN SWOLL, ABRAHAM DOUGLAS, MATTHEUS DE  HAAN, FRANS CASTELIJN, LAURENS TOLLING, HENDRIK ZWAARDECROON,  PIETER ROOSELAAR, THEODORUS DE HAEZE, SAMUEL TIMMERMAN, J ACOB  FAES EN JOAN CORNELIS D’ABLEING, BATAVIA 26 nov. 1714.  
+	OK pid        = INT_b2289f84-d141-30ec-acbf-ae137616a7fc
+	OK page       =V=D 78
+	OK seq        =V=D IV
+	+- title      ?V-D Van Swoll, Douglas, De Haan, Castelijn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes en d'Ableing, 26 nov. 1714
+	OK author     =V=D Van Swoll,Douglas,De Haan,Castelijn,Tolling,Zwaardecroon,Rooselaar,De Haeze,Timmerman,Faes,d'Ableing
+	OK authorFull -V=D Christoffel van Swoll,Abraham Douglas,Mattheus de Haan,Frans Castelyn,Laurens Tolling,Hendrik Zwaardecroon,Pieter Rooselaar,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing
+	OK rawdate    =V=D 26 nov. 1714
+	OK place      -V=D Batavia
+	OK year       =V=D 1714
+	OK month      =V=D 11
+	OK day        =V=D 26
+
+07:p0136
+V. CHRISTOFFEL VAN SWOLL, ABRAHAM DOUGLAS, MATTHEUS DE HAAN,  FRANS C ASTELIJN, LAURENS TOLLING, HENDRIK ZWAARDECROON, PIETER  ROOSELAAR, THEODORUS DE HAEZE, SAMUEL TIMMERMAN, JACOB FAES  EN JOAN CORNELIS D'ABLEING, BATAVIA, 14 januari 1715.  
+	OK pid        = INT_7b736fd7-63ff-36cf-bcf7-bc39ffae826a
+	OK page       =V=D 136
+	OK seq        =V=D V
+	+- title      ?V-D Van Swoll, Douglas, De Haan, Castelijn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes en d'Ableing, 14 jan. 1715
+	OK author     =V=D Van Swoll,Douglas,De Haan,Castelijn,Tolling,Zwaardecroon,Rooselaar,De Haeze,Timmerman,Faes,d'Ableing
+	OK authorFull -V=D Christoffel van Swoll,Abraham Douglas,Mattheus de Haan,Frans Castelyn,Laurens Tolling,Hendrik Zwaardecroon,Pieter Rooselaar,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing
+	OK rawdate    =V=D 14 jan. 1715
+	OK place      -V=D Batavia
+	OK year       =V=D 1715
+	OK month      =V=D 1
+	OK day        =V=D 14
+
+07:p0153
+VI. CHRISTOFFEL VAN SWOLL, ABRAHAM DOUGLAS, MATTHEUS DE  HAAN, FRANS CASTELIJN, LAURENS TOLLING, HENDRIK ZWAARDECROON,  PIETER ROOSELAAR, THEODORUS DE HAEZE, SAMUEL TIMMERMAN, J ACOB  FAES EN JOAN CORNELIS D’ABLEING, BATAVIA 18 februari 1715.  
+	OK pid        = INT_3245f771-0bdd-3643-997c-8ecc05c7c5b8
+	OK page       =V=D 153
+	OK seq        =V=D VI
+	+- title      ?V-D Van Swoll, Douglas, De Haan, Castelijn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes en d'Ableing, 18 febr. 1715
+	OK author     =V=D Van Swoll,Douglas,De Haan,Castelijn,Tolling,Zwaardecroon,Rooselaar,De Haeze,Timmerman,Faes,d'Ableing
+	OK authorFull -V=D Christoffel van Swoll,Abraham Douglas,Mattheus de Haan,Frans Castelyn,Laurens Tolling,Hendrik Zwaardecroon,Pieter Rooselaar,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing
+	OK rawdate    =V=D 18 febr. 1715
+	OK place      -V=D Batavia
+	OK year       =V=D 1715
+	OK month      =V=D 2
+	OK day        =V=D 18
+
+07:p0162
+VII CHRISTOFFEL VAN SWOLL, ABRAHAM DOUGLAS, MATTHEUS DEHAAN, FRANS CASTELIJN, HENDRIK ZWAARDECROON, THEODORUS DEHAEZE, LAURENS TOLLING, PIETER ROOSELAAR, SAMUEL TIMMERMAN,JACOB FAES, JOAN CORNELIS D'ABLEING EN FERDINAND DE GROOT, BA¬TAVIA 13 sept. 1715.
+	OK pid        = INT_c16f0190-409f-37b4-b31a-b2416d1a6229
+	OK page       =V=D 162
+	OK seq        =V=D VII
+	+- title      ?V-D Van Swoll, Douglas, De Haan, Castelijn, Zwaardecroon, De Haeze, Tolling, Rooselaar, Timmerman, Faes, d'Ableing en De Groot, 13 sept. 1715
+	OK author     =V=D Van Swoll,Douglas,De Haan,Castelijn,Zwaardecroon,De Haeze,Tolling,Rooselaar,Timmerman,Faes,d'Ableing,De Groot
+	OK authorFull -V=D Christoffel van Swoll,Abraham Douglas,Mattheus de Haan,Frans Castelyn,Hendrik Zwaardecroon,Theodorus de Haeze,Laurens Tolling,Pieter Rooselaar,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Ferdinand de Groot
+	OK rawdate    =V=D 13 sept. 1715
+	OK place      -V=D Batavia
+	OK year       =V=D 1715
+	OK month      =V=D 9
+	OK day        =V=D 13
+
+07:p0166
+VIII. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, LAURENS TOLLING,  PIETER ROOSELAAR, SAMUEL TIMMERMAN, JACOB FAES, JOAN CORNELIS  D'ABLEING EN FERDINAND DE GROOT, BATAVIA 28 nov. 1715.  
+	OK pid        = INT_05907f3e-75e7-371f-911e-4efac686cbf0
+	OK page       =V=D 166
+	OK seq        =V=D VIII
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Tolling, Rooselaar, Timmerman, Faes, d'Ableing en De Groot, 28 nov. 1715
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Tolling,Rooselaar,Timmerman,Faes,d'Ableing,De Groot
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Laurens Tolling,Pieter Rooselaar,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Ferdinand de Groot
+	OK rawdate    =V=D 28 nov. 1715
+	OK place      -V=D Batavia
+	OK year       =V=D 1715
+	OK month      =V=D 11
+	OK day        =V=D 28
+
+07:p0202
+IX. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, LAURENS TOLLING,  PIETER ROOSELAAR, SAMUEL TIMMERMAN, JACOB FAES, JOAN CORNELIS  D’ABLEING EN FERDINAND DE GROOT, BATAVIA 15 januari 1716.  
+	OK pid        = INT_ee79e1dd-9aa7-375f-b2d9-10c3da8773c0
+	OK page       =V=D 202
+	OK seq        =V=D IX
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Tolling, Rooselaar, Timmerman, Faes, d'Ableing en De Groot, 15 jan. 1716
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Tolling,Rooselaar,Timmerman,Faes,d'Ableing,De Groot
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Laurens Tolling,Pieter Rooselaar,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Ferdinand de Groot
+	OK rawdate    =V=D 15 jan. 1716
+	OK place      -V=D Batavia
+	OK year       =V=D 1716
+	OK month      =V=D 1
+	OK day        =V=D 15
+
+07:p0216
+X. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, LAURENS TOLLING,  SAMUEL TIMMERMAN, JACOB FAES, JOAN CORNELIS D’ ABLEING EN FERDINAND  DE GROOT, BATAVIA 19 februari 1716.  
+	OK pid        = INT_8b3da300-f1f7-30fa-b970-c9f48f758a2f
+	OK page       =V=D 216
+	OK seq        =V=D X
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Tolling, Timmerman, Faes, d'Ableing en De Groot, 19 febr. 1716
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Tolling,Timmerman,Faes,d'Ableing,De Groot
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Laurens Tolling,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Ferdinand de Groot
+	OK rawdate    =V=D 19 febr. 1716
+	OK place      -V=D Batavia
+	OK year       =V=D 1716
+	OK month      =V=D 2
+	OK day        =V=D 19
+
+07:p0224
+XI. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, SAMUEL TIMMERMAN,  JACOB FAES, LAURENS TOLLING, JOAN CORNELIS D’ABLEING, FERDINAND  DE GROOT EN WILLEM SIX, BATAVIA 18 sept. 1716.  
+	OK pid        = INT_7eee9bef-a397-35f5-8e21-044217aa2d69
+	OK page       =V=D 224
+	OK seq        =V=D XI
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot en Six, 18 sept. 1716
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Timmerman,Faes,Tolling,d'Ableing,De Groot,Six
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Six
+	OK rawdate    =V=D 18 sept. 1716
+	OK place      -V=D Batavia
+	OK year       =V=D 1716
+	OK month      =V=D 9
+	OK day        =V=D 18
+
+07:p0226
+XII. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, SAMUEL TIMMERMAN,  JACOB FAES, LAURENS TOLLING, JOAN CORNELIS D’ABLEING, FERDINAND  DE GROOT EN WILLEM SIX, BATAVIA 30 nov. 1716.  
+	OK pid        = INT_bb1292f9-5274-3959-b236-a91fd4b5afa6
+	OK page       =V=D 226
+	OK seq        =V=D XII
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot en Six, 30 nov. 1716
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Timmerman,Faes,Tolling,d'Ableing,De Groot,Six
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Six
+	OK rawdate    =V=D 30 nov. 1716
+	OK place      -V=D Batavia
+	OK year       =V=D 1716
+	OK month      =V=D 11
+	OK day        =V=D 30
+
+07:p0265
+XIII. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, SAMUEL TIMMERMAN,  JACOB FAES, LAURENS TOLLING, JOAN CORNELIS D’ABLEING, FERDINAND  DE GROOT EN WILLEM SIX, BATAVIA 15 jan. 1717.  
+	OK pid        = INT_adbea947-9fce-39e5-994b-3985daf999c9
+	OK page       =V=D 265
+	OK seq        =V=D XIII
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot en Six, 15 jan. 1717
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Timmerman,Faes,Tolling,d'Ableing,De Groot,Six
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Six
+	OK rawdate    =V=D 15 jan. 1717
+	OK place      -V=D Batavia
+	OK year       =V=D 1717
+	OK month      =V=D 1
+	OK day        =V=D 15
+
+07:p0278
+XIV. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, SAMUEL TIMMERMAN,  JACOB FAES, LAURENS TOLLING, JOAN CORNELIS D’ ABLEING, FERDINAND  DE GROOT EN WILLEM SIX, BATAVIA 23 maart 1717.  
+	OK pid        = INT_1e9a6fcc-1562-356e-b23e-64507d1ae15b
+	OK page       =V=D 278
+	OK seq        =V=D XIV
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot en Six, 23 maart 1717
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Timmerman,Faes,Tolling,d'Ableing,De Groot,Six
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Six
+	OK rawdate    =V=D 23 maart 1717
+	OK place      -V=D Batavia
+	OK year       =V=D 1717
+	OK month      =V=D 3
+	OK day        =V=D 23
+
+07:p0290
+XV. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, SAMUEL TIMMERMAN, THEODORUS DE HAEZE,  JACOB FAES, LAURENS TOLLING, JOAN CORNELIS D’ABLEING, FERDINAND  DE GROOT, WILLEM SIX EN CORNELIS HASSELAAR. BATAVIA 30 november  1717.  
+	OK pid        = INT_3c966151-5435-39e2-8581-277d7008789b
+	OK page       =V=D 290
+	OK seq        =V=D XV
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot en Six, 30 nov. 1717
+	OK author     xV=D Van Swoll,Castelyn,De Haan,Zwaardecroon,Timmerman,De Haeze,Faes,Tolling,d'Ableing,De Groot,Six,Hasselaar
+	                 V Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Timmerman,Faes,Tolling,d'Ableing,De Groot,Six
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Samuel Timmerman,Theodorus de Haeze,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Six,Cornelis Hasselaar
+	OK rawdate    =V=D 30 nov. 1717
+	OK place      -V=D Batavia
+	OK year       =V=D 1717
+	OK month      =V=D 11
+	OK day        =V=D 30
+
+07:p0325
+XVI. CHRISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, SAMUEL TIMMERMAN,  JACOB FAES, LAURENS TOLLING, JOAN CORNELIS D’ABLEING, FERDIN  AND DE GROOT, WILLEM SIX EN CORNELIS HASSELAAR, BATAVIA 1 5 januari  1718.  
+	OK pid        = INT_24dfabd2-c8ef-3b80-a556-ba80a86bfa16
+	OK page       =V=D 325
+	OK seq        =V=D XVI
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot, Six en Hasselaar, 15 jan. 1718
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Timmerman,Faes,Tolling,d'Ableing,De Groot,Six,Hasselaar
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Six,Cornelis Hasselaar
+	OK rawdate    =V=D 15 jan. 1718
+	OK place      -V=D Batavia
+	OK year       =V=D 1718
+	OK month      =V=D 1
+	OK day        =V=D 15
+
+07:p0336
+XVII. CHISTOFFEL VAN SWOLL, FRANS CASTELIJN, MATTHEUS DE HAAN,  HENDRIK ZWAARDECROON, THEODORUS DE HAEZE, SAMUEL TIMMERMAN,  JACOB FAES, LAURENS TOLLING, JOAN CORNELIS D’ABLEING, FERDINAND  DE GROOT, WILLEM SIX EN CORNELIS HASSELAAR, BATAVIA 20 maart  1718.  
+	OK pid        = INT_2d7f6678-0f44-3a83-8ad8-e2ac4cfb3ae0
+	OK page       =V=D 336
+	OK seq        =V=D XVII
+	+- title      ?V-D Van Swoll, Castelijn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot, Six en Hasselaar, 20 maart 1718
+	OK author     =V=D Van Swoll,Castelijn,De Haan,Zwaardecroon,De Haeze,Timmerman,Faes,Tolling,d'Ableing,De Groot,Six,Hasselaar
+	OK authorFull -V=D Christoffel van Swoll,Frans Castelyn,Mattheus de Haan,Hendrik Zwaardecroon,Theodorus de Haeze,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Six,Cornelis Hasselaar
+	OK rawdate    =V=D 20 maart 1718
+	OK place      -V=D Batavia
+	OK year       =V=D 1718
+	OK month      =V=D 3
+	OK day        =V=D 20
+
+07:p0353
+I. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, JACOB FAES, LAURENS TOLLING, JOAN CORNELIS  D’ABLEING, FERDINAND DE GRCX)T, WILLEM BACKER JACOBSZ., CORNELIS  HASSELAAR EN ANTHONY HUYSMAN, BATAVIA 6 december 1718.  
+	OK pid        = INT_c52c7f2f-53c0-3f88-8395-d7cb46ce79da
+	OK page       =V=D 353
+	OK seq        =V=D I
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, Tolling, d'Ableing, De Groot, Backer, Hasselaar en Huysman, 6 dec. 1718
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,Tolling,d'Ableing,De Groot,Backer,Hasselaar,Anthony,Huysman
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,Tolling,d'Ableing,De Groot,Backer,Hasselaar,Huysman
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Backer Jacobsz,Cornelis Hasselaar,Anthony,Huysman
+	OK rawdate    =V=D 6 dec. 1718
+	OK place      -V=D Batavia
+	OK year       =V=D 1718
+	OK month      =V=D 12
+	OK day        =V=D 6
+
+07:p0381
+II. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, JACOB FAES, LAURENS TOLLING, JOAN CORNELIS  D’ABLEING, FERDINAND DE GROOT, WILLEM BACKER JACOBSZ., CORNELIS  HASSELAAR EN ANTHONY HUYSMAN, BATAVIA 15 jan. 1719.  
+	OK pid        = INT_389ed7c1-2550-3e18-98f0-40c404a7a98e
+	OK page       =V=D 381
+	OK seq        =V=D II
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, Tolling, d'Ableing, De Groot, Backer, Hasselaar en Huysman, 15 jan. 1719
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,Tolling,d'Ableing,De Groot,Backer,Hasselaar,Anthony,Huysman
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,Tolling,d'Ableing,De Groot,Backer,Hasselaar,Huysman
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Backer Jacobsz,Cornelis Hasselaar,Anthony,Huysman
+	OK rawdate    =V=D 15 jan. 1719
+	OK place      -V=D Batavia
+	OK year       =V=D 1719
+	OK month      =V=D 1
+	OK day        =V=D 15
+
+07:p0396
+III. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, JACOB FAES, LAURENS TOLLING, JOAN CORNELIS  D’ABLEING, FERDINAND DE GROOT, WILLEM BACKER JACOBSZ., CORNELIS  HASSELAAR EN ANTONY HUYSMAN, BATAVIA 28 maart 1719.  
+	OK pid        = INT_455e0ce8-9066-3945-924b-9d7ca1ff0037
+	OK page       =V=D 396
+	OK seq        =V=D III
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, Tolling, d'Ableing, De Groot, Backer, Hasselaar en Huysman, 28 maart 1719
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,Tolling,d'Ableing,De Groot,Backer,Hasselaar,Anthony,Huysman
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,Tolling,d'Ableing,De Groot,Backer,Hasselaar,Huysman
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Ferdinand de Groot,Willem Backer Jacobsz,Cornelis Hasselaar,Anthony,Huysman
+	OK rawdate    =V=D 28 maart 1719
+	OK place      -V=D Batavia
+	OK year       =V=D 1719
+	OK month      =V=D 3
+	OK day        =V=D 28
+
+07:p0413
+IV. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, JACOB FAES, LAURENS TOLLING, JOAN CORNELIS  D’ABLEING, WILLEM BACKER JACOBSZ., CORNELIS HASSELAAR EN ANTHONY  HUYSMAN, BATAVIA 30 nov. 1719.  
+	OK pid        = INT_a8b9b091-38ca-3ce0-84db-25610c2ca672
+	OK page       =V=D 413
+	OK seq        =V=D IV
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, Tolling, d'Ableing, Backer, Hasselaar en Huysman, 30 nov. 1719
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,Tolling,d'Ableing,Backer,Hasselaar,Anthony,Huysman
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,Tolling,d'Ableing,Backer,Hasselaar,Huysman
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Willem Backer Jacobsz,Cornelis Hasselaar,Anthony,Huysman
+	OK rawdate    =V=D 30 nov. 1719
+	OK place      -V=D Batavia
+	OK year       =V=D 1719
+	OK month      =V=D 11
+	OK day        =V=D 30
+
+07:p0456
+V. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, JACOB FAES, LAURENS TOLLING, JOAN CORNELIS  D’ABLEING, CORNELIS HASSELAAR EN ANTHONY HUYSMAN, BATAVIA 15 januari  1720.  
+	OK pid        = INT_552ef660-5887-30a5-bd17-9ccc6a58bf1b
+	OK page       =V=D 456
+	OK seq        =V=D V
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, Tolling, d'Ableing, Hasselaar en Huysman, 15 jan. 1720
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,Tolling,d'Ableing,Hasselaar,Anthony,Huysman
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,Tolling,d'Ableing,Hasselaar,Huysman
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Cornelis Hasselaar,Anthony,Huysman
+	OK rawdate    =V=D 15 jan. 1720
+	OK place      -V=D Batavia
+	OK year       =V=D 1720
+	OK month      =V=D 1
+	OK day        =V=D 15
+
+07:p0467
+VI. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,SAMUEL TIMMERMAN, JACOB FAES, LAURENS TOLLING, JOAN CORNELISD'ABLEING EN ANTHONY HUYSMAN, BATAVIA 26 maart 1720.
+	OK pid        = INT_a1dc21a0-6f78-3398-97bb-038a2db1b0b6
+	OK page       =V=D 467
+	OK seq        =V=D VI
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, Tolling, d'Ableing en Huysman, 26 maart 1720
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,Tolling,d'Ableing,Anthony,Huysman
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,Tolling,d'Ableing,Huysman
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Laurens Tolling,Joan Cornelis d'Ableing,Anthony,Huysman
+	OK rawdate    =V=D 26 maart 1720
+	OK place      -V=D Batavia
+	OK year       =V=D 1720
+	OK month      =V=D 3
+	OK day        =V=D 26
+
+07:p0479
+VII. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, J ACOB FAES, JÜAN CORNELIS D’ ABLEING, ANTHONY  HUYSMAN, LAURENS TOLLING, JOAN ADRIAAN CRUDOP EN DIDERIK DURVEN,  BATAVIA 29 october 1720.  
+	OK pid        = INT_568a9791-e402-3ee4-8b49-26b831bc335a
+	OK page       =V=D 479
+	OK seq        =V=D VII
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Crudop en Durven, 29 oct. 1720
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,d'Ableing,Anthony,Huysman,Tolling,Crudop,Durven
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,d'Ableing,Huysman,Tolling,Crudop,Durven
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Anthony,Huysman,Laurens Tolling,Joan Adriaan Crudop,Diderik Durven
+	OK rawdate    =V=D 29 oct. 1720
+	OK place      -V=D Batavia
+	OK year       =V=D 1720
+	OK month      =V=D 10
+	OK day        =V=D 29
+
+07:p0485
+VIII. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE  HAAN, SAMUEL TIMMERMAN, JACOB FAES, JOAN CORNELIS D’ABLEING,  ANTHONY HUYSMAN, LAURENS TOLLING, CORNELIS HASSELAAR, JOAN  ADRIAAN CRUDOP EN DIDERIK DURVEN, BATAVIA 30 november 1720 ').  
+	OK pid        = INT_33321739-69e5-3a5e-9ddc-87909fecc2c4
+	OK page       =V=D 485
+	OK seq        =V=D VIII
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop en Durven, 30 nov. 1720
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,d'Ableing,Anthony,Huysman,Tolling,Hasselaar,Crudop,Durven
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,d'Ableing,Huysman,Tolling,Hasselaar,Crudop,Durven
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Anthony,Huysman,Laurens Tolling,Cornelis Hasselaar,Joan Adriaan Crudop,Diderik Durven
+	OK rawdate    =V=D 30 nov. 1720
+	OK place      -V=D Batavia
+	OK year       =V=D 1720
+	OK month      =V=D 11
+	OK day        =V=D 30
+
+07:p0517
+IX. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, J ACOB FAES, JOAN CORNELIS D’ ABLEING, ANTHONY  HUYSMAN, LAURENS TOLLING, CORNELIS HASSELAAR, JOAN ADRIAAN  CRUDOP EN DIDERIK DURVEN, BATAVIA 15 januari 1721.  
+	OK pid        = INT_0369b9e4-fc4e-3ede-b6d9-bbc8b19c17cc
+	OK page       =V=D 517
+	OK seq        =V=D IX
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop en Durven, 15 jan. 1721
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,d'Ableing,Anthony,Huysman,Tolling,Hasselaar,Crudop,Durven
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,d'Ableing,Huysman,Tolling,Hasselaar,Crudop,Durven
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Anthony,Huysman,Laurens Tolling,Cornelis Hasselaar,Joan Adriaan Crudop,Diderik Durven
+	OK rawdate    =V=D 15 jan. 1721
+	OK place      -V=D Batavia
+	OK year       =V=D 1721
+	OK month      =V=D 1
+	OK day        =V=D 15
+
+07:p0534
+X. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, JACOB FAES, JOAN CORNELIS D’ ABLEING, ANTHONY  HUYSMAN, LAURENS TOLLING, CORNELIS HASSELAAR, JOAN ADRIAAN  CRUDOP, DIDERIK DURVEN EN WIJBRANT BLOM, BATAVIA 4 februari 1721.  
+	OK pid        = INT_e159d64e-f32d-3f19-a6f3-303c3e299b22
+	OK page       =V=D 534
+	OK seq        =V=D X
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop, Durven en Blom, 4 febr. 1721
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,d'Ableing,Anthony,Huysman,Tolling,Hasselaar,Crudop,Durven,Blom
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,d'Ableing,Huysman,Tolling,Hasselaar,Crudop,Durven,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Anthony,Huysman,Laurens Tolling,Cornelis Hasselaar,Joan Adriaan Crudop,Diderik Durven,Wijbrant Blom
+	OK rawdate    =V=D 4 febr. 1721
+	OK place      -V=D Batavia
+	OK year       =V=D 1721
+	OK month      =V=D 2
+	OK day        =V=D 4
+
+07:p0537
+XI. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE HAAN,  SAMUEL TIMMERMAN, J ACOB FAES, JOAN CORNELIS D’ ABLEING, ANTHONY  HUYSMAN, LAURENS TOLLING, CORNELIS HASSELAAR, JOAN ADRIAAN  CRUDOP, DIDERIK DURVEN EN WIJBRANT BLOM, BATAVIA 31 maart 1721.  
+	OK pid        = INT_7651ce00-32dc-3ca0-9ce8-c8fbe82bd541
+	OK page       =V=D 537
+	OK seq        =V=D XI
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop, Durven en Blom, 31 maart 1721
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Timmerman,Faes,d'Ableing,Anthony,Huysman,Tolling,Hasselaar,Crudop,Durven,Blom
+	                 V Zwaardecroon,Castelijn,De Haan,Timmerman,Faes,d'Ableing,Huysman,Tolling,Hasselaar,Crudop,Durven,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Samuel Timmerman,Jacob Faes,Joan Cornelis d'Ableing,Anthony,Huysman,Laurens Tolling,Cornelis Hasselaar,Joan Adriaan Crudop,Diderik Durven,Wijbrant Blom
+	OK rawdate    =V=D 31 maart 1721
+	OK place      -V=D Batavia
+	OK year       =V=D 1721
+	OK month      =V=D 3
+	OK day        =V=D 31
+
+07:p0547
+XII. HENDRIK ZWAARDECROON, FRANS CASTELIJN, M ATTHEUS DE HAAN,  JACOB FAES, ANTHONY HUYSMAN, CORNELIS HASSELAAR, JOAN ADRIAAN  CRUDOP, LAURENS TOLLING, DIDERIK DURVEN, WIJBRANT BLOM EN  PETRUS VUYST, BATAVIA 19 september 1721.  
+	OK pid        = INT_826c53b6-2acd-342e-b21a-c92baf3ec409
+	OK page       =V=D 547
+	OK seq        =V=D XII
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Durven, Blom en Vuyst, 19 sept. 1721
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Faes,Anthony,Huysman,Hasselaar,Crudop,Tolling,Durven,Blom,Vuyst
+	                 V Zwaardecroon,Castelijn,De Haan,Faes,Huysman,Hasselaar,Crudop,Tolling,Durven,Blom,Vuyst
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Jacob Faes,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Diderik Durven,Wijbrant Blom,Petrus Vuyst
+	OK rawdate    =V=D 19 sept. 1721
+	OK place      -V=D Batavia
+	OK year       =V=D 1721
+	OK month      =V=D 9
+	OK day        =V=D 19
+
+07:p0552
+XIII. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE  HAAN, JACOB FAES, ANTHONY HUYSMAN, CORNELIS HASSELAAR, JOAN  ADRIAAN CRUDOP, LAURENS TOLLING, DIDERIK DURVEN, WIJBRANT  BLOM EN PETRUS VUYST, BATAVIA 30 november 1721.  
+	OK pid        = INT_d3fb395b-a64e-3334-8c51-5992af2a6a53
+	OK page       =V=D 552
+	OK seq        =V=D XIII
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Durven, Blom en Vuyst, 30 nov. 1721
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Faes,Anthony,Huysman,Hasselaar,Crudop,Tolling,Durven,Blom,Vuyst
+	                 V Zwaardecroon,Castelijn,De Haan,Faes,Huysman,Hasselaar,Crudop,Tolling,Durven,Blom,Vuyst
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Jacob Faes,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Diderik Durven,Wijbrant Blom,Petrus Vuyst
+	OK rawdate    =V=D 30 nov. 1721
+	OK place      -V=D Batavia
+	OK year       =V=D 1721
+	OK month      =V=D 11
+	OK day        =V=D 30
+
+07:p0583
+XIV. HENDRIK ZWAARDECROON, FRANS CASTELIJN, MATTHEUS DE  HAAN, JACOB FAES, ANTHONY HUYSMAN, CORNELIS HASSELAAR, JOAN  ADRIAAN CRUDOP, LAURENS TOLLING, HANS FREDERIK BERGMAN, DIDERIK  DURVEN, WIJBRANT BLOM EN PETRUS VUYST, BATAVIA 20 januari 1722.  
+	OK pid        = INT_9e23cbf4-a1cb-3863-af30-043e028724da
+	OK page       =V=D 583
+	OK seq        =V=D XIV
+	+- title      ?V-D Zwaardecroon, Castelijn, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Blom en Vuyst, 20 jan. 1722
+	OK author     xV=D Zwaardecroon,Castelyn,De Haan,Faes,Anthony,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Blom,Vuyst
+	                 V Zwaardecroon,Castelijn,De Haan,Faes,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Blom,Vuyst
+	OK authorFull -V=D Hendrik Zwaardecroon,Frans Castelyn,Mattheus de Haan,Jacob Faes,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Hans Frederik Bergman,Diderik Durven,Wijbrant Blom,Petrus Vuyst
+	OK rawdate    =V=D 20 jan. 1722
+	OK place      -V=D Batavia
+	OK year       =V=D 1722
+	OK month      =V=D 1
+	OK day        =V=D 20
+
+07:p0596
+XV. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, JACOB FAES, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS  TOLLING, HANS FREDERIK BERGMAN, DIDERIK DURVEN, WIJBRANT  BLOM EN PETRUS VUYST, BATAVIA 31 maart 1722.  
+	OK pid        = INT_7d0e9627-114b-3c45-b981-1099db75ee18
+	OK page       =V=D 596
+	OK seq        =V=D XV
+	+- title      ?V-D Zwaardecroon, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Blom en Vuyst, 31 maart 1722
+	OK author     xV=D Zwaardecroon,De Haan,Faes,Anthony,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Blom,Vuyst
+	                 V Zwaardecroon,De Haan,Faes,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Blom,Vuyst
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Jacob Faes,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Hans Frederik Bergman,Diderik Durven,Wijbrant Blom,Petrus Vuyst
+	OK rawdate    =V=D 31 maart 1722
+	OK place      -V=D Batavia
+	OK year       =V=D 1722
+	OK month      =V=D 3
+	OK day        =V=D 31
+
+07:p0607
+XVI. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, JACOB FAES,  ANTHONY HUYSMAN, CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP,  LAURENS TOLLING, HANS FREDERIK BERGMAN, DIDERIK DURVEN EN  WIJBRANT BLOM, BATAVIA 25 sept. 1722.  
+	OK pid        = INT_af7f3fc5-5f15-305c-806b-c930d37ae70d
+	OK page       =V=D 607
+	OK seq        =V=D XVI
+	+- title      ?V-D Zwaardecroon, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven en Blom, 25 sept. 1722
+	OK author     xV=D Zwaardecroon,De Haan,Faes,Anthony,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Blom
+	                 V Zwaardecroon,De Haan,Faes,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Jacob Faes,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Hans Frederik Bergman,Diderik Durven,Wijbrant Blom
+	OK rawdate    =V=D 25 sept. 1722
+	OK place      -V=D Batavia
+	OK year       =V=D 1722
+	OK month      =V=D 9
+	OK day        =V=D 25
+
+07:p0610
+XVII. HENDRIK ZW AARDECROON, M ATTHEUS DE HAAN, ANTHONY HUYSMAN,  CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS TOLLING,  HANS FREDERIK BERGMAN, DIDERIK DURVEN EN WIJBRANT BLOM, BATAVIA  30 november 1722.  
+	OK pid        = INT_0bd58b2b-2d1f-3c9c-a758-3f8b04d16db3
+	OK page       =V=D 610
+	OK seq        =V=D XVII
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven en Blom, 30 nov. 1722
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Hans Frederik Bergman,Diderik Durven,Wijbrant Blom
+	OK rawdate    =V=D 30 nov. 1722
+	OK place      -V=D Batavia
+	OK year       =V=D 1722
+	OK month      =V=D 11
+	OK day        =V=D 30
+
+07:p0640
+XVIII. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS  TOLLING, HANS FREDERIK BERGMAN, DIDERIK DURVEN, EWOUT VAN DISHOECK  EN WIJBRANT BLOM, BATAVIA 19 januari 1723.  
+	OK pid        = INT_c1b56fee-7c2b-3d6e-8087-38e62a3957ea
+	OK page       =V=D 640
+	OK seq        =V=D XVIII
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck en Blom, 19 jan. 1723
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Van Dishoeck,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Van Dishoeck,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Hans Frederik Bergman,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom
+	OK rawdate    =V=D 19 jan. 1723
+	OK place      -V=D Batavia
+	OK year       =V=D 1723
+	OK month      =V=D 1
+	OK day        =V=D 19
+
+07:p0651
+XIX. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY HUYSMAN,  CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS TOLLING,  HANS FREDERIK BERGMAN, DIDERIK DURVEN, EWOUT VAN DISHOECK EN  WYBRANT BLOM, BATAVIA 19 maart 1723.  
+	OK pid        = INT_10c343ba-a68e-31f9-9d9e-722131e32c10
+	OK page       =V=D 651
+	OK seq        =V=D XIX
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck en Blom, 19 maart 1723
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Van Dishoeck,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Van Dishoeck,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Hans Frederik Bergman,Diderik Durven,Ewout van Dishoeck,Wybrand Blom
+	OK rawdate    =V=D 19 maart 1723
+	OK place      -V=D Batavia
+	OK year       =V=D 1723
+	OK month      =V=D 3
+	OK day        =V=D 19
+
+07:p0657
+XX. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY HUYSMAN,  CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS TOLLING,  HANS FREDERIK BERGMAN, DIDERIK DURVEN, EWOUT VAN DISHOECK EN  WIJBRANT BLOM, BATAVIA 21 september 1723.  
+	OK pid        = INT_72e0ec7d-048c-3f6c-87a3-9a0ce6eab2ef
+	OK page       =V=D 657
+	OK seq        =V=D XX
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck en Blom, 21 sept. 1723
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Van Dishoeck,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Van Dishoeck,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Hans Frederik Bergman,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom
+	OK rawdate    =V=D 21 sept. 1723
+	OK place      -V=D Batavia
+	OK year       =V=D 1723
+	OK month      =V=D 9
+	OK day        =V=D 21
+
+07:p0660
+XXII HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY HUYSMAN,  CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS TOLLING,  HANS FREDERIK BERGMAN, DIDERIK DURVEN, EWOUT VAN DISHOECK EN  WIJBRANT BLOM, BATAVIA 15 october 1723.  
+	OK pid        = INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3
+	OK page       =V=D 660
+	OK seq        xV=D XXII
+	                 V XXI
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck en Blom, 15 okt. 1723
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Van Dishoeck,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Crudop,Tolling,Bergman,Durven,Van Dishoeck,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Hans Frederik Bergman,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom
+	OK rawdate    =V=D 15 okt. 1723
+	OK place      -V=D Batavia
+	OK year       =V=D 1723
+	OK month      =V=D 10
+	OK day        =V=D 15
+
+07:p0661
+XXII. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY HUYSM  AN, CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS TOLLING,  DIDERIK DURVEN, EWOUT VAN DISHOECK EN WIJBRANT BLOM, BATAVIA  3 december 1723.  
+	OK pid        = INT_fc2486d8-ceec-3149-8117-249bd28aeecb
+	OK page       =V=D 661
+	OK seq        =V=D XXII
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Durven, Van Dishoeck en Blom, 3 dec. 1723
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Crudop,Tolling,Durven,Van Dishoeck,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Crudop,Tolling,Durven,Van Dishoeck,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom
+	OK rawdate    =V=D 3 dec. 1723
+	OK place      -V=D Batavia
+	OK year       =V=D 1723
+	OK month      =V=D 12
+	OK day        =V=D 3
+
+07:p0684
+XXIII. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS  TOLLING, DIDERIK DURVEN, EWOUT VAN DISHOECK EN WIJBRANT BLOM,  BATAVIA 19 januari 1724.  
+	OK pid        = INT_ea0c9a7b-b24b-3ffd-b8b4-5a5a8b830ed9
+	OK page       =V=D 684
+	OK seq        =V=D XXIII
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Durven, Van Dishoeck en Blom, 19 jan. 1724
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Crudop,Tolling,Durven,Van Dishoeck,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Crudop,Tolling,Durven,Van Dishoeck,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom
+	OK rawdate    =V=D 19 jan. 1724
+	OK place      -V=D Batavia
+	OK year       =V=D 1724
+	OK month      =V=D 1
+	OK day        =V=D 19
+
+07:p0693
+XXIV. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS  TOLLING, DIDERIK DURVEN, EWOUT VAN DISHOECK EN WIJBRANT BLOM,  BATAVIA 28 maart 1724.  
+	OK pid        = INT_3a4b12ae-851b-3b33-8c0d-58b17563a30e
+	OK page       =V=D 693
+	OK seq        =V=D XXIV
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Durven, Van Dishoeck en Blom, 28 maart 1724
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Crudop,Tolling,Durven,Van Dishoeck,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Crudop,Tolling,Durven,Van Dishoeck,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Joan Adriaan Crudop,Laurens Tolling,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom
+	OK rawdate    =V=D 28 maart 1724
+	OK place      -V=D Batavia
+	OK year       =V=D 1724
+	OK month      =V=D 3
+	OK day        =V=D 28
+
+07:p0706
+XXV. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, LAURENS TOLLING, DIDERIK DURVEN,  EWOUT VAN DISHOECK EN WIJBRANT BLOM, BATAVIA 2 april 1724.  
+	OK pid        = INT_dffe1be3-5f0e-30b7-ba21-c8446d1704f9
+	OK page       =V=D 706
+	OK seq        =V=D XXV
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Van Dishoeck en Blom, 2 april 1724
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Tolling,Durven,Van Dishoeck,Blom
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Tolling,Durven,Van Dishoeck,Blom
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Laurens Tolling,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom
+	OK rawdate    =V=D 2 april 1724
+	OK place      -V=D Batavia
+	OK year       =V=D 1724
+	OK month      =V=D 4
+	OK day        =V=D 2
+
+07:p0707
+XXVI. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, LAURENS TOLLING, DIDERIK DURVEN,  EWOUT VAN DISHOECK, WIJBRANT BLOM EN JOH ANNES PHILIPPUS SIPMAN,  BATAVIA 26 september 1724.  
+	OK pid        = INT_0598428b-65da-387b-b06d-c70e1beb3d70
+	OK page       =V=D 707
+	OK seq        =V=D XXVI
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Van Dishoeck, Blom en Sipman, 26 sept. 1724
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Tolling,Durven,Van Dishoeck,Blom,Sipman
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Tolling,Durven,Van Dishoeck,Blom,Sipman
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Laurens Tolling,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom,Joannes Philippus Sipman
+	OK rawdate    =V=D 26 sept. 1724
+	OK place      -V=D Batavia
+	OK year       =V=D 1724
+	OK month      =V=D 9
+	OK day        =V=D 26
+
+07:p0710
+XXVII. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, LAURENS TOLLING, DIDERIK DURVEN,  EWOUT VAN DISHOECK, WIJBRANT BLOM EN JOHANNES PHILIPPUS SIPMAN,  BATAVIA 30 november 1724.  
+	OK pid        = INT_674d5972-2be3-379e-9a4d-28d9a6c04635
+	OK page       =V=D 710
+	OK seq        =V=D XXVII
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Van Dishoeck, Blom en Sipman, 30 nov. 1724
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Tolling,Durven,Van Dishoeck,Blom,Sipman
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Tolling,Durven,Van Dishoeck,Blom,Sipman
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Laurens Tolling,Diderik Durven,Ewout van Dishoeck,Wijbrant Blom,Joannes Philippus Sipman
+	OK rawdate    =V=D 30 nov. 1724
+	OK place      -V=D Batavia
+	OK year       =V=D 1724
+	OK month      =V=D 11
+	OK day        =V=D 30
+
+07:p0744
+XXVIII. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNÈLIS HASSELAAR, LAURENS TOLLING, DIDERIK DURVEN,  WIJBRANT BLOM EN JOHANNES PHILIPPUS SIPMAN, BATAVIA 4 december 1724.  
+	OK pid        = INT_c79ef897-8d89-3ad9-81b8-e2f69e308d86
+	OK page       =V=D 744
+	OK seq        =V=D XXVIII
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Blom en Sipman, 4 dec. 1724
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Tolling,Durven,Blom,Sipman
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Tolling,Durven,Blom,Sipman
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Laurens Tolling,Diderik Durven,Wijbrant Blom,Joannes Philippus Sipman
+	OK rawdate    =V=D 4 dec. 1724
+	OK place      -V=D Batavia
+	OK year       =V=D 1724
+	OK month      =V=D 12
+	OK day        =V=D 4
+
+07:p0745
+XXIX. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, LAURENS TOLLING, DIDERIK DURVEN,  WIJBRANT BLOM EN JOHANNES PHILIPPUS SIPMAN, BATAVIA 14 december  1724.  
+	OK pid        = INT_dc9a737e-3f69-36f7-b9f5-b727a4c15ea6
+	OK page       =V=D 745
+	OK seq        =V=D XXIX
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Blom en Sipman, 14 dec. 1724
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Tolling,Durven,Blom,Sipman
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Tolling,Durven,Blom,Sipman
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Laurens Tolling,Diderik Durven,Wijbrant Blom,Joannes Philippus Sipman
+	OK rawdate    =V=D 14 dec. 1724
+	OK place      -V=D Batavia
+	OK year       =V=D 1724
+	OK month      =V=D 12
+	OK day        =V=D 14
+
+07:p0746
+XXX. HENDRIK Z W A ARDECRÖON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, LAURENS TOLLING, DIDERIK DURVEN,  WIJBRANT BLOM, PETRUS VUYST EN JOHANNES PHILIPPUS SIPMAN, BATAVIA  30 januari 1725.  
+	OK pid        = INT_808f8bc5-bfa8-3dec-b5fc-af63c107b3a5
+	OK page       =V=D 746
+	OK seq        =V=D XXX
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Blom, Vuyst en Sipman, 20 jan. 1725
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Tolling,Durven,Blom,Vuyst,Sipman
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Tolling,Durven,Blom,Vuyst,Sipman
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Laurens Tolling,Diderik Durven,Wijbrant Blom,Petrus Vuyst,Joannes Philippus Sipman
+	OK rawdate    xV=D 30 januari 1725
+	                 V 20 jan. 1725
+	OK place      -V=D Batavia
+	OK year       =V=D 1725
+	OK month      =V=D 1
+	OK day        xV=D 30
+	                 V 20
+
+07:p0754
+XXXI. HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY  HUYSMAN, CORNELIS HASSELAAR, DIDERIK DURVEN, WYBRANT BLOM EN  PETRUS VUYST, BATAVIA 26 maart 1725.  
+	OK pid        = INT_65c732bc-4969-3338-a70d-4d3b8131526f
+	OK page       =V=D 754
+	OK seq        =V=D XXXI
+	+- title      ?V-D Zwaardecroon, De Haan, Huysman, Hasselaar, Durven, Blom en Vuyst, 26 maart 1725
+	OK author     xV=D Zwaardecroon,De Haan,Anthony,Huysman,Hasselaar,Durven,Blom,Vuyst
+	                 V Zwaardecroon,De Haan,Huysman,Hasselaar,Durven,Blom,Vuyst
+	OK authorFull -V=D Hendrik Zwaardecroon,Mattheus de Haan,Anthony,Huysman,Cornelis Hasselaar,Diderik Durven,Wybrand Blom,Petrus Vuyst
+	OK rawdate    =V=D 26 maart 1725
+	OK place      -V=D Batavia
+	OK year       =V=D 1725
+	OK month      =V=D 3
+	OK day        =V=D 26
 
