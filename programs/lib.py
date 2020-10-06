@@ -12,71 +12,45 @@ def ucfirst(x, lower=True):
     return (x[0].upper() + (x[1:].lower() if lower else x[1:])) if x else x
 
 
+def longestFirst(x):
+    return -len(x)
+
+
 # SOURCE CORRECTIONS
 
 HARD_CORRECTIONS = {
-    "04:p0496": (
-        (
-            re.compile(
-                r"""I en 9 maart 1683""",
-                re.S,
-            ),
-            r"""1 en 9 maart 1683""",
-        ),
-    ),
-    "07:p0003": (
-        (
-            re.compile(
-                r"""(<head\b[^>]*>)(CHRIS)""",
-                re.S,
-            ),
-            r"""\1I. \2""",
-        ),
-    ),
-    "07:p0660": (
-        (
-            re.compile(
-                r"""(<head\b[^>]*>XX)L""",
-                re.S,
-            ),
-            r"""\1II""",
-        ),
-    ),
-    "10:p0857": (
-        (
-            re.compile(
-                r"""decem¬ber""",
-                re.S,
-            ),
-            r"""december""",
-        ),
-    ),
+    "04:p0496": ((re.compile(r"""I( en 9 maart 1683)""", re.S), r"""1\1"""),),
+    "07:p0003": ((re.compile(r"""(<head\b[^>]*>)(CHRIS)""", re.S), r"""\1I. \2"""),),
+    "07:p0660": ((re.compile(r"""(<head\b[^>]*>XX)L""", re.S), r"""\1II"""),),
+    "10:p0857": ((re.compile(r"""decem¬ber""", re.S), r"""december"""),),
     "10:p0749": (
         (
             re.compile(
-                r"""(<pb n="799"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""",
-                re.S,
+                r"""(<pb n="799"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""", re.S
             ),
             r"""\2\1""",
         ),
         (
             re.compile(
-                r"""(<pb n="997"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""",
-                re.S,
+                r"""(<pb n="997"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""", re.S
             ),
             r"""\2\1""",
         ),
+    ),
+    "11:p0226": (
+        (re.compile(r"""\((niet getekend wegens ziekte)\]""", re.S), r"""(\1)"""),
     ),
 }
 
 
-ADD_META_KEYS = {"authorFull"}
-
 CORRECTION_ALLOWED = {
-    "01:p0007": {"place"},
-    "01:p0105": {"place", "author"},
-    "01:p0106": {"author"},
-    "01:p0121": {"author"},
+    "01:p0004": {"author"},
+    "01:p0007": {"place", "title"},
+    "01:p0018": {"place", "title"},
+    "01:p0056": {"title"},
+    "01:p0105": {"place", "author", "title"},
+    "01:p0106": {"author", "title"},
+    "01:p0121": {"author", "title"},
     "01:p0129": {"author"},
     "01:p0247": {"author"},
     "01:p0302": {"place", "author"},
@@ -127,14 +101,24 @@ CORRECTION_ALLOWED = {
     "07:p0745": {"author"},
     "07:p0746": {"rawdate", "day", "author"},
     "07:p0754": {"author"},
+    "08:p0128": {"author"},
+    "08:p0224": {"author"},
     "08:p0234": {"rawdate", "day"},
     "08:p0235": {"seq"},
     "09:p0070": {"rawdate", "day", "month", "year"},
-    "09:p0344": {"seq", "rawdate", "day", "month", "year"},
-    "09:p0628": {"seq", "rawdate", "day", "month", "year"},
+    "09:p0344": {"seq", "rawdate", "day", "month", "year", "author"},
+    "09:p0628": {"seq", "rawdate", "day", "month", "year", "author"},
+    "10:p0087": {"author"},
     "10:p0297": {"rawdate", "day", "month", "year"},
     "10:p0399": {"rawdate", "day", "month", "year"},
     "11:p0224": {"seq"},
+    "11:p0226": {"author"},
+    "12:p0001": {"author"},
+    "12:p0003": {"author"},
+    "12:p0083": {"author"},
+    "12:p0183": {"author"},
+    "13:p0340": {"author"},
+    "13:p0362": {"author"},
 }
 CORRECTION_FORBIDDEN = {
     "01:p0008": {"place"},
@@ -160,9 +144,7 @@ CORRECTION_HEAD = {
 }
 
 DISTIL_SPECIALS = {
-    "01:p0007": dict(
-        place=("AAN BOORD VAN DE VERE, VOOR MALEYO", "Schip Vere voor Maleyo")
-    ),
+    "01:p0018": dict(place=("ZONDER PLAATS", ""), rawdate=("EN DATUM", "")),
     "01:p0247": dict(place=("Batavia", "Batavia")),
     "01:p0082": dict(rawdate=("7 mei 161 8", "7 mei 1618")),
     "08:p0171": dict(place=("Batavia", "Batavia")),
@@ -170,8 +152,12 @@ DISTIL_SPECIALS = {
     "09:p0070": dict(
         rawdate=("zonder datum 1729 (vermoedelijk 30 november)", "30 november 1729?")
     ),
+    "09:p0427": dict(
+        author=[("het cachet van", ""), ("die door ziekte niet zelf kon tekenen", "")]
+    ),
     "10:p0633": dict(rawdate=("6 november1741", "6 november 1741")),
     "11:p0115": dict(rawdate=("8 oktober 1 744", "8 oktober 1744")),
+    "13:p0626": dict(author=(None, "")),
 }
 
 
@@ -200,6 +186,7 @@ oktober
 november
 
 december
+    decem¬ber
 
 """.strip().split(
     "\n\n"
@@ -225,57 +212,181 @@ for (i, nameInfo) in enumerate(MONTH_DEF):
             MONTH_VARIANTS[abb] = intention
 
 MONTH_DETECT_PAT = "|".join(
-    set(re.escape(mv) for mv in chain(MONTH_NUM, MONTH_VARIANTS))
+    sorted(
+        set(re.escape(mv) for mv in chain(MONTH_NUM, MONTH_VARIANTS)), key=longestFirst
+    )
 )
 
 PLACE_DEF = """
+Afrika
+
+Amboina
+
+Amsterdam
+
 Banda-Neira
     bandaneira
     banda-neira
     banda
 
+Bantam
+
 Batavia
-    batavia
     ratavia
     ba¬tavia
+
+Deventer
 
 Fort
     eort
 
+Hoek
+
+Jakatra
+
 Kasteel
-    kasteel
+
+Makéan
+
+Maleyo
 
 Mauritius
-    mauritius
+
+Nassau
+
+Ngofakiaha
+
+Nieuw-Hollandia
 
 Rede
-    rede
 
 Schip
-    schip
+
+Straat
+
+Sunda
+
+Ternate
+
+Utrecht
+
+Vere
+
+Vlakke
+
+Wapen
+
+Wesel
 
 """.strip().split(
     "\n\n"
 )
 
+PLACE_LOWERS = set(
+    """
+    aan
+    boord
+    de
+    eiland
+    het
+    in
+    nabij
+    op
+    rede
+    schip
+    ter
+    van
+    voor
+    zuidpunt
+""".strip().split()
+)
+
 PLACE_VARIANTS = {}
-PLACES = set()
+PLACES_LOWER = set()
 
 for (i, nameInfo) in enumerate(PLACE_DEF):
     (intention, *variants) = nameInfo.strip().split()
-    PLACES.add(intention)
+    PLACES_LOWER.add(intention.lower())
     PLACE_VARIANTS[intention] = intention
+    PLACE_VARIANTS[intention.lower()] = intention
     for variant in variants:
         PLACE_VARIANTS[variant] = intention
 
 
-DETECT_AUTHOR = re.compile(
+PLACE_DETECT_PAT = "|".join(
+    sorted(set(re.escape(mv) for mv in chain(PLACE_VARIANTS)), key=longestFirst)
+)
+
+LOWERS_PAT = "|".join(
+    sorted(set(re.escape(mv) for mv in PLACE_LOWERS), key=longestFirst)
+)
+
+
+DETECT_AUTHOR_RE = re.compile(
     r"""
         ^
         \s*
         (.*)?
         \s*
         $
+    """,
+    re.S | re.X,
+)
+DETECT_SEQ_RE = re.compile(
+    r"""
+        ^
+        (
+            [IVXLCDM1]+
+            \s*
+            [IVXLCDMm1liTUH]*
+            (?:
+                \s*
+                [aA]
+            )?
+            \b
+        )
+        \.?
+    """,
+    re.S | re.X,
+)
+DETECT_DATE_RE = re.compile(
+    fr"""
+        \(?
+        \s*
+        (
+            (?:
+                [0-9I]{{1,2}}
+                |
+                (?:[0-9I]\ [0-9I])
+            )
+            (?:
+                \s+en\s+
+                (?:
+                    [0-9I]{{1,2}}
+                    |
+                    (?:[0-9I]\ [0-9I])
+                )
+            )?
+            \s+
+            (?: {MONTH_DETECT_PAT} )
+            \s+
+            1[6-8]
+            \s*
+            [0-9]
+            \s*
+            [0-9]
+            \s*
+            (?:
+                \?
+                |
+                \s*\(\?\)
+            )?
+        )
+        \s*
+        \)?
+        \s*
+        \.?
+        \s*
     """,
     re.S | re.X,
 )
@@ -321,7 +432,11 @@ DETECT = dict(
                 1[6-8]
                 [0-9]{{2}}
                 \s*
-                \??
+                (?:
+                    \?
+                    |
+                    \s*\(\?\)
+                )?
             )
             \s*
             \)?
@@ -332,48 +447,32 @@ DETECT = dict(
         re.S | re.X,
     ),
     place=re.compile(
-        r"""
-        [,.]
-        \s*
+        fr"""
         (
             (?:
-                (?:
-                    aan\ boord
-                    |deventer
-                    |in\ het\ schip
-                    |kasteel
-                )
-                .*?
+                \b
+                (?: {PLACE_DETECT_PAT} | {LOWERS_PAT})
+                \b
+                [ .,]*
+            )*
+            (?:
+                \b
+                (?: {PLACE_DETECT_PAT} )
+                \b
+                [ .,]*
             )
-            |
-            [^.,]*?
+            (?:
+                \b
+                (?: {PLACE_DETECT_PAT} | {LOWERS_PAT})
+                \b
+                [ .,]*
+            )*
         )
-        \s*
-        $
         """,
         re.S | re.I | re.X,
     ),
-    author=DETECT_AUTHOR,
-    authorFull=DETECT_AUTHOR,
-)
-
-LOWERS = set(
-    """
-    aan
-    boord
-    de
-    eiland
-    het
-    in
-    nabij
-    op
-    rede
-    schip
-    ter
-    van
-    voor
-    zuidpunt
-    """.strip().split()
+    author=DETECT_AUTHOR_RE,
+    authorFull=DETECT_AUTHOR_RE,
 )
 
 NUM_SANITIZE_RE = re.compile(r"""[0-9][0-9 ]*[0-9]""", re.S)
@@ -425,6 +524,16 @@ HI_CLEAN_STRONG_RE = re.compile(r"""<hi\b[^>]*>([^<]*)</hi>""", re.S)
 # FILESYSTEM OPERATIONS
 
 
+def docSummary(docs):
+    nDocs = len(docs)
+    rep = "  0x" if not nDocs else f"  1x {docs[0]}" if nDocs == 1 else ""
+    if not rep:
+        examples = " ".join(docs[0:2])
+        rest = " ..." if nDocs > 2 else ""
+        rep = f"{nDocs:>3}x {examples}{rest}"
+    return f"{rep:<30}"
+
+
 def clearTree(path):
     """Remove all files from a directory, recursively, but leave subdirs.
 
@@ -448,6 +557,13 @@ def clearTree(path):
         clearTree(f"{path}/{subdir}")
         if subdir == "rest":
             os.rmdir(f"{path}/{subdir}")
+
+
+def initTree(path, fresh=False):
+    if fresh:
+        if os.path.exists(path):
+            clearTree(path)
+    os.makedirs(path, exist_ok=True)
 
 
 # SOURCE READING
@@ -563,11 +679,6 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     DST = f"{TRIM_DIR}{stage}"
     REP = f"{REPORT_DIR}{stage}"
 
-    if os.path.exists(DST):
-        clearTree(DST)
-    os.makedirs(DST, exist_ok=True)
-    os.makedirs(REP, exist_ok=True)
-
     volumes = getVolumes(SRC)
 
     analysis = collections.Counter()
@@ -576,11 +687,13 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     info = dict(
         table=0,
         docs=[],
-        metasGood=[],
+        metas=0,
         metasUnknown=[],
         metasDistilled=collections.defaultdict(dict),
-        authorInfo=collections.defaultdict(lambda: collections.defaultdict(list)),
-        placeInfo=collections.defaultdict(lambda: collections.defaultdict(list)),
+        metaValues=collections.defaultdict(
+            lambda: collections.defaultdict(lambda: collections.defaultdict(list))
+        ),
+        metaDiag=collections.defaultdict(dict),
         captionInfo=collections.defaultdict(list),
         captionNorm=collections.defaultdict(list),
         captionVariant=collections.defaultdict(list),
@@ -608,7 +721,8 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         thisSrcDir = f"{SRC}/{volDir}"
         thisDstDir = f"{DST}/{vol}"
         rest = "/rest" if stage == 1 else ""
-        os.makedirs(f"{thisDstDir}{rest}", exist_ok=True)
+        initTree(thisDstDir, fresh=True)
+        initTree(f"{thisDstDir}{rest}", fresh=True)
 
         info["vol"] = vol
         idMap = {} if stage == 0 else None
@@ -847,153 +961,68 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                     fh.write(f"\t{sHead}\n\t===versus===\n\t{mHead}\n")
 
     elif stage == 2:
-        authorInfo = info["authorInfo"]
-        placeInfo = info["placeInfo"]
-        metasGood = info["metasGood"]
-        metasDistilled = info["metasDistilled"]
-        metasStats = collections.defaultdict(collections.Counter)
-
-        metasMap = {
-            "xx": "inconsistencies",
-            "+-": "not based on distillation",
-            "-+": "supplied by distillation",
-            "--": "missing",
-            "OK": "correct",
-        }
-        metasOrder = {label: i for (i, label) in enumerate(metasMap)}
+        metaValues = info["metaValues"]
+        metaDiag = info["metaDiag"]
+        metaStats = collections.defaultdict(collections.Counter)
 
         heads = info["heads"]
+        metas = info["metas"]
         print("METADATA:")
-        print(f"\t{len(metasGood):>3} docs with complete metadata")
+        print(f"\t{metas:>3} docs with metadata")
 
-        with open(f"{REP}/meta.txt", "w") as fh:
-            for (doc, meta) in sorted(metasGood):
+        fh = {}
+        for kind in sorted(metaValues):
+            keyInfo = metaValues[kind]
+            for (k, valInfo) in keyInfo.items():
+                if kind in fh:
+                    thisFh = fh[k]
+                else:
+                    thisFh = fh.get(k, open(f"{REP}/meta-{k}-values.txt", "w"))
+                    fh[k] = thisFh
+                thisFh.write(f"{kind}\n---------------\n")
+                for val in sorted(valInfo):
+                    docs = valInfo[val]
+                    docRep = docSummary(docs)
+                    thisFh.write(f"{docRep} {val}\n")
+
+        for thisFh in fh.values():
+            thisFh.close()
+
+        with open(f"{REP}/metaDiagnostics.txt", "w") as fh:
+            for doc in sorted(metaDiag):
                 fh.write(f"{doc}\n")
                 fh.write(f"{heads[doc]}\n")
-                for (k, v) in meta.items():
-                    if k == "pid":
-                        fh.write(f"\tOK {k:<10} = {v}\n")
+
+                keyInfo = metaDiag[doc]
+                for k in META_KEY_ORDER:
+                    if k not in keyInfo:
+                        continue
+                    (lb, v, d) = keyInfo[k]
+                    metaStats[k][lb] += 1
+                    if v == d:
+                        first = f"VD= {v}"
+                        second = None
+                    elif v and not d:
+                        first = f"V = {v}"
+                        second = None
+                    elif not v and d:
+                        first = f" D= {d}"
+                        second = None
                     else:
-                        lb = "OK"
-                        distilled = metasDistilled[doc].get(k, "")
-                        if distilled != normVal(k, v, doc, info, None) or (
-                            not distilled and not v
-                        ):
-                            if doc in FROM_PREVIOUS and k in COLOFON_KEYS:
-                                fh.write(
-                                    f"\t{lb} {k:<10} =PxD {v}\n"
-                                    f"\t     {'':<8}    D {distilled}\n"
-                                )
-                                metasStats[k][lb] += 1
-                            elif k in ADD_META_KEYS or (
-                                doc in CORRECTION_ALLOWED
-                                and k in CORRECTION_ALLOWED[doc]
-                            ):
-                                if distilled and v:
-                                    fh.write(
-                                        f"\t{lb} {k:<10} xV=D {distilled}\n"
-                                        f"\t     {'':<8}    V {v}\n"
-                                    )
-                                elif distilled and not v:
-                                    fh.write(f"\t{lb} {k:<10} -V=D {distilled}\n")
-                                elif not distilled and v:
-                                    fh.write(
-                                        f"\t{lb} {k:<10} xV-D\n"
-                                        f"\t     {'':<8}    V {v}\n"
-                                    )
-                                metasStats[k][lb] += 1
-                            elif (
-                                doc in CORRECTION_FORBIDDEN
-                                and k in CORRECTION_FORBIDDEN[doc]
-                            ):
-                                if distilled and v:
-                                    fh.write(
-                                        f"\t{lb} {k:<10} =VxD {v}\n"
-                                        f"\t     {'':<8}    D {distilled}\n"
-                                    )
-                                elif distilled and not v:
-                                    fh.write(
-                                        f"\t{lb} {k:<10} -VxD\n"
-                                        f"\t     {'':<8}    D {distilled}\n"
-                                    )
-                                elif not distilled and v:
-                                    fh.write(f"\t{lb} {k:<10} =V-D {distilled}\n")
-                                metasStats[k][lb] += 1
-                            elif doc in ABSENT_ALLOWED and k in ABSENT_ALLOWED[doc]:
-                                if not distilled and not v:
-                                    fh.write(f"\t{lb} {k:<10} -V-D\n")
-                                elif distilled and not v:
-                                    fh.write(
-                                        f"\t{lb} {k:<10} -VxD\n"
-                                        f"\t     {'':<8}    D {distilled}\n"
-                                    )
-                                elif not distilled and v:
-                                    fh.write(
-                                        f"\t{lb} {k:<10} xV-D\n"
-                                        f"\t     {'':<8}    V {distilled}\n"
-                                    )
-                                metasStats[k][lb] += 1
-                            else:
-                                if distilled and v:
-                                    lb = "xx"
-                                    fh.write(
-                                        f"\t{lb} {k:<10} ?V?D {v}\n"
-                                        f"\t     {'':>8}    D {distilled}\n"
-                                    )
-                                    metasStats[k][lb] += 1
-                                elif distilled and not v:
-                                    if (
-                                        k == "place"
-                                        and distilled in PLACES
-                                        or k == "author"
-                                        and distilled in AUTHORS
-                                    ):
-                                        fh.write(f"\t{lb} {k:<10} -V=D {distilled}\n")
-                                        metasStats[k][lb] += 1
-                                    else:
-                                        lb = "-+"
-                                        fh.write(f"\t{lb} {k:<10} -V?D {distilled}\n")
-                                        metasStats[k][lb] += 1
-                                elif not distilled and v:
-                                    lb = "+-"
-                                    fh.write(f"\t{lb} {k:<10} ?V-D {v}\n")
-                                    metasStats[k][lb] += 1
-                                else:
-                                    lb = "--"
-                                    fh.write(f"\t{lb} {k:<10} -V-D\n")
-                                    metasStats[k][lb] += 1
-                        else:
-                            fh.write(f"\t{lb} {k:<10} =V=D {v}\n")
-                            metasStats[k][lb] += 1
+                        first = f"V = {v}"
+                        second = f" D= {d}"
+                    fh.write(f"{k:<10} {lb:<4} ={first}\n")
+                    if second is not None:
+                        fh.write(f"{'':<10} {lb:<4} ={second}\n")
                 fh.write("\n")
 
         for k in META_KEY_ORDER:
-            if k not in metasStats:
+            if k == "pid" or k in ADD_META_KEYS or k in DERIVED_META_KEYS or k not in metaStats:
                 continue
             print(f"\t\t{k}")
-            labelInfo = metasStats[k]
-            for label in sorted(labelInfo, key=lambda x: metasOrder[x]):
-                print(f"\t\t\t{label}: {labelInfo[label]:>3} x {metasMap[label]}")
-
-        for (label, infoSrc, fileName) in (
-            ("PLACES", placeInfo, "places"),
-            ("AUTHORS", authorInfo, "authors"),
-        ):
-            with open(f"{REP}/{fileName}.tsv", "w") as fh:
-                print(f"\t{label}:")
-                for category in sorted(infoSrc):
-                    fh.write(f"\n{category}:\n\n")
-                    categoryInfo = infoSrc[category]
-                    amount = len(categoryInfo)
-                    docs = set(chain.from_iterable(categoryInfo.values()))
-                    print(
-                        f"\t\t{category:<15}: {amount:>3} values"
-                        f" in {len(docs):>3} documents"
-                    )
-                    for value in sorted(categoryInfo):
-                        docs = categoryInfo[value]
-                        docsRep = " ".join(docs[0:2])
-                        fh.write(f"{value:<30}: {len(docs):>3}x : {docsRep}\n")
+            labelInfo = metaStats[k]
+            for label in sorted(labelInfo):
+                print(f"\t\t\t\t{label:<4}: {labelInfo[label]:>3}x")
 
         with open(f"{REP}/heads.tsv", "w") as fh:
             for (doc, head) in heads.items():
@@ -1021,9 +1050,9 @@ HEADER_RE = re.compile(r"""^.*?</header>\s*""", re.S)
 def doSplitPage(
     vol, doc, info, lastPageNum, i, body, lastIndex, b, lastHead, metadata, splits
 ):
-    metadata = (
-        metadata if i == 1 else distill(doc, info, lastHead, lastPageNum, force=True)
-    )
+    if i > 1:
+        metadata = distillFromHead(doc, info, lastHead, force=True)
+        metadata["page"] = lastPageNum
     lastText = body[lastIndex:b]
     lastText = P_INTERRUPT_RE.sub(r"""\1""", lastText)
     lastText = P_JOIN_RE.sub(r"""\1\2""", lastText)
@@ -1299,6 +1328,15 @@ META_KEY_ORDER = tuple(x[0] for x in META_KEY_TRANS_DEF)
 COLOFON_KEYS = META_KEY_ORDER[4:]
 META_KEYS = {x[1] for x in META_KEY_TRANS_DEF}
 
+ADD_META_KEYS = {"authorFull"}
+DERIVED_META_KEYS = set(
+    """
+    day
+    month
+    year
+""".strip().split()
+)
+
 META_KV_RE = re.compile(
     r"""
         <interpGrp
@@ -1365,70 +1403,14 @@ def trimHeader(text, info):
 FIRST_PAGE_RE = re.compile(r"""<pb\b[^>]*?\bn="([^"]*)"[^>]*>""", re.S)
 
 
-previousMeta = {}
+def roughlyEqual(v, d):
+    vWords = set(SEP_RE.sub(" ", v.lower()).split())
+    dWords = set(SEP_RE.sub(" ", d.lower()).split())
 
+    vRest = vWords - PLACES_LOWER - AUTHORS_LOWER
+    dRest = dWords - PLACES_LOWER - AUTHORS_LOWER
 
-def checkMeta(metaText, bodyText, info):
-    doc = info["doc"]
-    metasGood = info["metasGood"]
-    metasDistilled = info["metasDistilled"]
-
-    metadata = {k: v for (k, v) in META_KV_2_RE.findall(metaText)}
-    metaGood = {k: metadata.get(k, "") for k in META_KEY_ORDER}
-    if doc in FROM_PREVIOUS:
-        for k in COLOFON_KEYS:
-            metaGood[k] = previousMeta[k]
-    metasGood.append((doc, metaGood))
-
-    match = HEAD_RE.search(bodyText)
-    head = HI_CLEAN_STRONG_RE.sub(
-        r"""\1""", match.group(1).replace("<lb/>", " ").replace("\n", " ")
-    )
-    doc = info["doc"]
-    info["heads"][doc] = head
-    match = FIRST_PAGE_RE.search(bodyText)
-    firstPage = match.group(1) if match else ""
-
-    distilled = distill(doc, info, head, firstPage)
-    metasDistilled[doc] = distilled
-
-    metaResult = {}
-    for (k, v) in metaGood.items():
-        if v.startswith("!"):
-            CORRECTION_FORBIDDEN.setdefault(doc, set()).add(k)
-            v = v[1:]
-        else:
-            v = normVal(k, v, doc, info, "meta")
-        metaResult[k] = v
-
-        if doc not in FROM_PREVIOUS and (
-            (
-                k in ADD_META_KEYS
-                or (doc in CORRECTION_ALLOWED and k in CORRECTION_ALLOWED[doc])
-            )
-            or (
-                k in distilled
-                and distilled[k]
-                and not v
-                and (
-                    k == "place"
-                    and distilled[k] in PLACES
-                    or k == "author"
-                    and distilled[k] in AUTHORS
-                )
-            )
-        ):
-            metaResult[k] = distilled[k]
-
-    previousMeta.clear()
-    for (k, v) in metaResult.items():
-        previousMeta[k] = v
-
-    newMeta = "\n".join(
-        f"""<meta key="{k}" value="{v}"/>""" for (k, v) in metaResult.items()
-    )
-
-    return f"<header>\n{newMeta}\n</header>\n"
+    return vRest == dRest
 
 
 def numSanitize(match):
@@ -1438,37 +1420,79 @@ def numSanitize(match):
 AUTHOR_SANITY = tuple(
     entry[0:-1].split("=")
     for entry in """
+adri aan=adriaan .
+adriaan denijs=adriaan de nijs .
+albertusvan=albertus van .
+andreasvan=andreas van .
 antoniocaenenjoan=antonio caen en joan .
+ba yen=bayen .
+baer-  le=baerle .
 bijlage van ii=.
 c astelijn=castelijn .
+christi aan=christiaan .
 christoffelvan=christoffel van .
+cluysenaaren=cluysenaar en .
 constant! jn=constantijn .
 cornelisd'ableing=cornelis d'ableing .
 cornelisspeelman=cornelis speelman .
 d’ ableing=d'ableing .
+daniëlnolthenius=daniël nolthenius .
 dehaan=de haan .
 dehaeze=de haeze .
+derparra=der parra .
+derwaeyen=der waeyen .
 devlaming=de vlaming .
 dirckjansz=dirck jansz .
+dithardvan=dithard van .
+eli as=elias .
+enelias=en elias .
+enjan=en jan .
+enjeremias=en jeremias .
+enmaurits=en maurits .
 ferdin  and=ferdinand .
+gideonloten=gideon loten .
 grcx)t=groot .
+gusta af=gustaaf .
+huijbertwillem=huijbert willem .
 huysm  an=huysman .
+isa ac=isaac .
 j acob=jacob .
+janelias=jan elias .
+jo an=joan .
 joanmaetsuycker=joan maetsuycker .
 joh annes=johannes .
+johannesthedens=johannes thedens .
+juliuscoyett=julius coyett .
+juliusvalentijn=julius valentijn .
+librechthooreman=librecht hooreman .
 m attheus=mattheus .
+mac are=macaré
 maetsuy cker=maetsuycker .
 maetsu yker=maetsuycker .
 manuelbornezee=manuel bornezee .
+mattheuscluysenaar=mattheus cluysenaar .
 mattheusde=mattheus de .
+noltheniusen=nolthenius en .
 out  hoorn=outhoorn .
 pi eter=pieter .
 pietervan=pieter van .
+rochuspasques=rochus pasques .
 ryckloffvan=ryckloff van .
 raden van indië=raden_van_^indië .
 saint martin=saint-martin .
 salomonsweers=salomon sweers .
 sibrantabbema=sibrant abbema .
+steijnvan=steijn van .
+steunvan=steun van .
+thomasvan=thomas van .
+vanbazel=van bazel .
+vanbroyel=van broyel .
+vander=van der .
+vanhohendorf=van hohendorf .
+vanrheede=van rheede .
+vanriemsdijk=van riemsdijk .
+vanspreekens=van spreekens .
+willemvan=willem van .
 zw aardecroon=zwaardecroon .
 z w a ardecröon=zwaardecroon .
 z w a ardecröon=zwaardecroon .
@@ -1487,10 +1511,18 @@ adriaan     f
 
 adriaen     f
 
+aerden      s
+
 aernout     f
     arnoud
 
+albert      f
+
+albertus    f
+
 alphen      s
+
+andreas     f
 
 antonio     f
 
@@ -1499,20 +1531,30 @@ anthonio    f
 
 anthonisz   f
 
-anthony     s
+anthony     f
     antony
 
 arent       f
 
+arend       f
+
 arnold      f
+
+arrewijne   s
 
 artus       f
 
 backer      s
 
+baerle      s
+
 balthasar   f
 
 barendsz    s
+
+bayen       s
+
+bazel       s
 
 becker      s
 
@@ -1521,9 +1563,12 @@ beecken     s
 
 bent        s
 
+berendregt  s
+    beren-dregt
+
 bergman     s
 
-bernard     f
+bernard     fs
 
 beveren     s
 
@@ -1535,6 +1580,8 @@ bornezee    s
 
 bort        s
 
+bosch       s
+
 both        s
 
 broeckum    s
@@ -1542,6 +1589,8 @@ broeckum    s
 brouck      s
 
 brouwer     s
+
+broyel      s
 
 burch       s
 
@@ -1567,9 +1616,16 @@ chasteleyn  s
     chastelein
 
 chavonnes   s2
+    cha-vonnes
+
+christiaan  f
 
 christoffel f
     chistoffel
+
+cloon       s
+
+cluysenaar  s
 
 coen        s
 
@@ -1584,12 +1640,17 @@ cops        s
 
 cornelis    f
     cornèlis
+    cornel1s
+
+coyett      s
 
 crijn       f
 
 croocq      s
 
 crudop      s
+
+crul       s
 
 cunaeus     s
 
@@ -1598,6 +1659,8 @@ dam         s
 &d'^ableing   s
     d'ableing
     d’ableing
+
+daniël      f
 
 de          i
     ue
@@ -1612,6 +1675,8 @@ den         i
 der         i
 
 diderik     f
+    d1derik
+    dider1k
 
 diemen      s
 
@@ -1623,13 +1688,24 @@ dircq       f
 
 dishoeck    s
 
+dithard     f
+
 douglas     s
 
 dr          x
 
+dubbeldekop s
+    dubbeldecop
+
+duquesne    s
+
 durven      s
 
 dutecum     s
+
+elias       fs
+
+everard     f
 
 ewout       f
 
@@ -1642,6 +1718,9 @@ françois    f
     eranqois
     frangois
     franqois
+    fran^ois
+    francois
+    fran£ois
 
 frans       f
 
@@ -1649,6 +1728,10 @@ frederick   f
     erederick
 
 frederik    f
+
+gabry       s
+
+galenus     f
 
 gardenijs   s
 
@@ -1660,15 +1743,29 @@ gerard      f
     gekard
     gerarjd
 
+gideon      f
+
+gijsbertus  f
+
 gijsels     s
 
 goens       s
+
+gollenesse  s
+    gol-lenesse
+    golle-nesse
 
 gorcom      s
 
 gouverneur-generaal s
 
 groot       s
+
+guillot     s
+
+gualterus   f
+
+gustaaf     f
 
 haan        s
 
@@ -1687,6 +1784,9 @@ hasselaar   s
 hendrick    f
 
 hendrik     f
+    hendri
+
+hendrix     s
 
 henrick     f
 
@@ -1698,9 +1798,20 @@ heussen     s
 
 heuvel      s
 
+heyningen   s
+
+hohendorf   s
+
+hooreman    s
+
 hoorn       s
 
 houtman     s
+
+hugo        f
+
+huijbert    f
+    huij-bert
 
 hulft       s
     hulet
@@ -1709,7 +1820,11 @@ hurdt       s
 
 hustaert    s
 
+huyghens    s
+
 huysman     s
+
+imhoff      s
 
 isaac       f
 
@@ -1723,6 +1838,8 @@ jan         f
 
 jansz       fs
     janz
+
+jeremias    f
 
 joachim     f
 
@@ -1739,18 +1856,40 @@ johan       f
 
 jongh       s2
 
+josua       f
+
+julius      f
+
+jurgen      f
+    jur-gen
+
 justus      f
+
+klerk       s
+
+lakeman     s
+    lake-man
 
 laurens     f
 
 leene       s
 
+librecht    f
+
 lijn        s
     letn
+
+loten       s
 
 lucasz      s
 
 lycochthon  s
+
+maas        s
+
+macaré      s
+    macare
+    macar
 
 maerten     f
 
@@ -1766,20 +1905,38 @@ marten      f
 martinus    f
 
 mattheus    f
+    mat-theus
+
+maurits     f
+
+mersen      s
 
 meyde       s
+
+michiel     f
+
+mijlendonk  s
+
+mossel      s
 
 mr          x
 
 nicolaas    f
+    nico-laas
 
 nicolaes    f
 
 nieustadt   s
 
+nijs        s
+
 nobel       s
 
+nolthenius  s
+
 nuyts       s
+
+oostwalt    s
 
 ottens      s
 
@@ -1787,14 +1944,25 @@ outhoorn    s
 
 oudtshoorn  s2
 
+overbeek    s
+    over-beek
+
 overtwater  s
 
 padtbrugge  s
 
+parra       s
+
 pasques     s1
+    pas-ques
+    pasoues
+
+patras      s
 
 paviljoen   s
     pavilioen
+
+paul        f
 
 paulus      f
 
@@ -1806,9 +1974,12 @@ philippus   f
 
 phoonsen    s
 
+pielat      s
+
 pieter      f
     fieter
     p1eter
+    pie-ter
 
 pietersz    f
 
@@ -1838,20 +2009,31 @@ reniers     s
 
 reyersz     s
 
+reynier     f
+
 reynst      s
 
 rhee        s
 
+rheede      s
+
 riebeeck    s
+
+riemsdijk   s
+    riems¬dijk
 
 rijn        s
 
 robert      f
 
+rochus      f
+
 roelofsz    f
     roeloesz
     roeloeesz
     roeloffsz
+
+rogier      f
 
 roo         s
 
@@ -1869,14 +2051,28 @@ samuel      f
 
 sarcerius   s
 
+sautijn     s
+
 schaghen    s
+
+schinne     s
+
+schooten    s
 
 schouten    s
 
 schram      s
 
+schreuder   s
+
+schuer      s
+
+schuylenburg s
+
 sibrant     f
     sibrand
+
+sichterman  s
 
 simon       f
 
@@ -1888,17 +2084,29 @@ slicher     s
 
 sonck       s
 
+spar        s
+
+specx       s
+
 speelman    s
+
+spreekens   s
 
 steelant    s
 
+steijn      f
+    steun
+
 stel        s
+
+stephanus   f
 
 sterthemius s
 
 steur       s
 
-specx       s
+suchtelen   s
+    suchte-len
 
 sweers      s
 
@@ -1908,6 +2116,8 @@ teylingen   s
 
 thedens     s
     the-dens
+
+theling     s
 
 theodorus   f
 
@@ -1926,12 +2136,20 @@ uffelen     s
 
 valckenier  s
 
+valentijn   f
+
 van         i
     vax
     vak
 
+velde       s
+
 verburch    s
     verburech
+
+verijssel   s
+
+versluys    s
 
 versteghen  s
 
@@ -1947,7 +2165,11 @@ vos         s
 
 vuyst       s
 
+waeyen      s
+
 welsing     s
+
+westpalm    s
 
 wijbrant    f
 
@@ -1959,6 +2181,7 @@ wilde       s
 
 willem      f
     wilhem
+    wil¬lem
 
 winkelman   s
 
@@ -1966,14 +2189,19 @@ with        s
 
 witsen      s
 
+witte       s
+
 wollebrant  f
 
 wouter      f
+
+wouters     s
 
 wybrand     f
     wijbrand
     wtjbrand
     wybrant
+    w1jbrant
 
 ysbrantsz   s
     ijsbrantsz
@@ -1988,207 +2216,29 @@ BRACKET_RE = re.compile(r"""\s*\([^)]*\)\s*""", re.S)
 
 AUTHOR_VARIANTS = {}
 AUTHOR_IGNORE = set()
-AUTHORS = set()
+AUTHORS_LOWER = set()
 
 for (i, nameInfo) in enumerate(AUTHOR_DEF):
     (main, *variants) = nameInfo.strip().split("\n")
     (intention, category) = main.split()
     replacement = intention if category == "i" else ucfirst(intention)
+
     if category == "x":
         AUTHOR_IGNORE.add(intention)
-    else:
-        AUTHOR_VARIANTS[intention] = (replacement, category)
-        if category == "s":
-            AUTHORS.add(replacement)
+
+    AUTHOR_VARIANTS[intention] = (replacement, category)
+
+    if category in {"s", "fs"}:
+        AUTHORS_LOWER.add(replacement.lower())
+
     for variant in variants:
         variant = variant.strip()
         if category == "x":
             AUTHOR_IGNORE.add(variant)
-        else:
-            AUTHOR_VARIANTS[variant] = (replacement, category)
+        AUTHOR_VARIANTS[variant] = (replacement, category)
 
 
-EN_RE = re.compile(r""",?\s*\ben\b\s*""", re.S)
-
-
-def normVal(k, val, doc, info, countLabel):
-    val = val.strip()
-
-    if k == "seq":
-        return (
-            val.replace("T", "I")
-            .replace("m", "III")
-            .replace("U", "II")
-            .replace("H", "II")
-            .replace("l", "I")
-            .replace("i", "I")
-            .replace("VIL", "VII")
-            .replace("LIL", "LII")
-            .replace("IH", "III")
-            .replace(".", "")
-            .replace(" ", "")
-            .replace("A", "a")
-        )
-
-    if k == "rawdate":
-        val = val.rstrip(".")
-        val = NUM_SANITIZE_RE.sub(numSanitize, val)
-        newVal = " ".join(MONTH_VARIANTS.get(w, w) for w in val.split())
-        if "?" in newVal and "(?)" not in newVal:
-            newVal = newVal.replace("?", " (?)")
-
-        return newVal
-
-    if k == "place":
-        val = val.rstrip(".")
-        val = val.replace(",", "")
-        words = (w.lower() for w in val.split())
-        casedWords = (
-            PLACE_VARIANTS[word]
-            if word in PLACE_VARIANTS
-            else word
-            if word in LOWERS
-            else ucfirst(word, lower=True)
-            for word in words
-        )
-        place = " ".join(casedWords)
-        placeInfo = info["placeInfo"]
-        if countLabel is not None:
-            placeInfo[f"{countLabel}:{'found' if place else 'not-found'}"][
-                place
-            ].append(doc)
-        return place
-
-    if k in {"author", "authorFull"}:
-        stripFirst = k == "author"
-
-        val = val.rstrip(".")
-        val = val.lower()
-        val = BRACKET_RE.sub(" ", val)
-
-        for (variant, intention) in AUTHOR_SANITY:
-            val = val.replace(variant, intention)
-
-        val = val.replace("[", "")
-        val = val.replace("]", "")
-        val = EN_RE.sub(" ", val)
-        val = val.replace(",", " ")
-        val = val.replace(".", " ")
-
-        words = (w for w in val.split() if w not in AUTHOR_IGNORE)
-        names = (
-            AUTHOR_VARIANTS[word] if word in AUTHOR_VARIANTS else (word, "unknown")
-            for word in words
-        )
-
-        authorInfo = info["authorInfo"]
-        interpretedNames = []
-        curName = []
-        lastCat = None
-        seenS1 = False
-        seenS2 = False
-        seenS = False
-        seenFS = False
-        seenSF = False
-
-        for (name, cat) in names:
-            if (
-                cat == "unknown"
-                or cat == "f"
-                and lastCat != "f"
-                or cat == "fs"
-                and lastCat not in {"f", "i"}
-                or cat == "i"
-                and lastCat not in {"f", "fs", "i", "s1"}
-                or cat == "s"
-                and lastCat not in {"f", "fs", "i"}
-                or cat == "s1"
-                and lastCat not in {"f", "fs", "i"}
-                or cat == "s2"
-                and lastCat not in {"i", "s1"}
-                or cat == "sf"
-                and lastCat not in {"s", "s2"}
-            ):
-                if curName:
-                    label = (
-                        "no-surname"
-                        if not seenS and not seenFS and not seenS1 and not seenS2
-                        else "missing-s1"
-                        if not seenS1 and seenS2
-                        else "missing-s2"
-                        if seenS1 and not seenS2
-                        else "ok"
-                    )
-                    if seenS:
-                        if stripFirst:
-                            if seenFS:
-                                curName.pop(0)
-                            if seenSF:
-                                curName.pop()
-                    theName = makeName(curName)
-                    if countLabel is not None:
-                        authorInfo[f"{countLabel}:{label}"][theName].append(doc)
-                    interpretedNames.append(theName)
-                    curName = []
-                if cat == "unknown":
-                    theName = ucfirst(name)
-                    if countLabel is not None:
-                        authorInfo[f"{countLabel}:unkown"][theName].append(doc)
-                    interpretedNames.append(theName)
-                    seenS = False
-                    seenS1 = False
-                    seenS2 = False
-                    seenFS = False
-                    seenSF = False
-                else:
-                    if not stripFirst or cat != "f":
-                        curName.append(name)
-                    seenS = cat == "s"
-                    seenS1 = cat == "s1"
-                    seenS2 = cat == "s2"
-                    seenFS = cat == "fs"
-                    seenSF = cat == "sf"
-            else:
-                if not stripFirst or cat != "f":
-                    curName.append(name)
-                if cat == "s":
-                    seenS = True
-                elif cat == "s1":
-                    seenS1 = True
-                elif cat == "s2":
-                    seenS2 = True
-                elif cat == "fs":
-                    seenFS = True
-                elif cat == "sf":
-                    seenSF = True
-
-            lastCat = None if cat == "unknown" else cat
-
-        if curName:
-            label = (
-                "no-surname"
-                if not seenS and not seenS1 and not seenS2
-                else "missing-s1"
-                if not seenS1 and seenS2
-                else "missing-s2"
-                if seenS1 and not seenS2
-                else "ok"
-            )
-            if seenS:
-                if stripFirst:
-                    if seenFS:
-                        curName.pop(0)
-                    if seenSF:
-                        curName.pop()
-            theName = makeName(curName)
-            if countLabel is not None:
-                authorInfo[f"{countLabel}:{label}"][theName].append(doc)
-            interpretedNames.append(theName)
-
-        return ",".join(interpretedNames)
-
-    return val
-
+EN_RE = re.compile(r""",?\s*\ben\b\s*""", re.S | re.I)
 
 UPPER_RE = re.compile(r"""\^(.)""", re.S)
 LOWER_RE = re.compile(r"""&(.)""", re.S)
@@ -2203,10 +2253,7 @@ def lowerRepl(match):
 
 
 def makeName(parts):
-    name = " ".join(
-        ucfirst(part) if i == 0 else part
-        for (i, part) in enumerate(parts)
-    )
+    name = " ".join(ucfirst(part) if i == 0 else part for (i, part) in enumerate(parts))
     name = name.replace("_", " ")
     name = UPPER_RE.sub(upperRepl, name)
     name = LOWER_RE.sub(lowerRepl, name)
@@ -2221,14 +2268,16 @@ NOTEMARK_RE = re.compile(
                 &[^;]*;
             )
             |
-            [iJlx0-9*']
+            [iJlx0-9*'!]
         )
         \)
     """,
     re.S | re.X,
 )
 
-TRAIL_RE = re.compile(r"""[ \n.,]+$""", re.S)
+SEP_RE = re.compile(r"""[ \n.,;]+""", re.S)
+
+
 HEAD_REMOVE_RE = re.compile(
     r"""
         [ck]opie\.
@@ -2239,59 +2288,367 @@ HEAD_REMOVE_RE = re.compile(
 )
 
 
-def distill(doc, info, head, firstPage, force=False):
-    metadata = dict(page=firstPage)
+def distillSeq(source):
+    match = DETECT_SEQ_RE.search(source)
+    if match:
+        v = match.group(1)
+        v = v.replace(" ", "").replace("1", "I")
+        rest = DETECT_SEQ_RE.sub("", source, count=1)
+    else:
+        v = ""
+        rest = source
 
-    source = head
-    source = HEAD_REMOVE_RE.sub("", source)
+    v = (
+        v.replace("T", "I")
+        .replace("m", "III")
+        .replace("U", "II")
+        .replace("H", "II")
+        .replace("l", "I")
+        .replace("i", "I")
+        .replace("VIL", "VII")
+        .replace("LIL", "LII")
+        .replace("IH", "III")
+        .replace(".", "")
+        .replace(" ", "")
+        .replace("A", "a")
+    )
+    return (v, rest)
 
-    source = NOTEMARK_RE.sub("", source)
 
-    specials = DISTIL_SPECIALS.get(doc, None)
+def distillDate(source):
+    match = DETECT_DATE_RE.search(source)
+    if match:
+        v = match.group(1)
+        source = DETECT_DATE_RE.sub("", source, count=1)
+        v = v.rstrip(".")
+        v = NUM_SANITIZE_RE.sub(numSanitize, v)
+        v = " ".join(MONTH_VARIANTS.get(w, w) for w in v.split())
+        if "(?)" in v:
+            v = v.replace("(?)", "?")
+    else:
+        v = ""
 
-    for k in ("seq", "rawdate", "place", "author"):
-        source = TRAIL_RE.sub("", source)
+    return (v, source)
 
-        if specials and k in specials:
-            (orig, special) = specials[k]
-            source = source.replace(orig, "")
-            thisVal = special
-            if k == "author":
-                kp = "authorFull"
-                metadata[kp] = special
+
+def distillPlace(source):
+    inWords = source.split()
+    valWords = []
+    outWords = []
+    placeCandidate = []
+    isPlace = False
+
+    for word in inWords:
+        wordL = word.lower()
+        if placeCandidate is None:
+            outWords.append(word)
+        elif wordL in PLACE_VARIANTS:
+            placeCandidate.append(PLACE_VARIANTS[wordL])
+            isPlace = True
+        elif wordL in PLACE_LOWERS:
+            placeCandidate.append(wordL)
         else:
-            detectRe = DETECT[k]
-            match = detectRe.search(source)
-            if match:
-                v = match.group(1)
-                if k == "seq":
-                    v = v.replace(" ", "").replace("1", "I")
-                source = detectRe.sub("", source, count=1)
-            else:
-                v = ""
-            thisVal = normVal(k, v, doc, info, "dstl")
+            if placeCandidate:
+                if isPlace:
+                    valWords.extend(placeCandidate)
+                    placeCandidate = None
+                else:
+                    outWords.extend(placeCandidate)
+                    placeCandidate = []
+            outWords.append(word)
+
+    if placeCandidate:
+        if isPlace:
+            valWords.extend(placeCandidate)
+        else:
+            outWords.extend(placeCandidate)
+
+    return (" ".join(valWords), " ".join(outWords))
+
+
+def distillAuthor(source, short=False):
+    inWords = source.split()
+    valWords = []
+    outWords = []
+
+    for word in inWords:
+        wordL = word.lower()
+        if wordL in AUTHOR_VARIANTS:
+            valWords.append(AUTHOR_VARIANTS[wordL])
+        else:
+            outWords.append(word)
+
+    interpretedNames = []
+
+    curName = []
+    lastCat = None
+    seenS1 = False
+    seenS2 = False
+    seenS = False
+    seenFS = False
+    seenSF = False
+
+    def addName():
+        if curName:
+            label = (
+                "no-surname"
+                if not seenS and not seenFS and not seenS1 and not seenS2
+                else "missing-s1"
+                if not seenS1 and seenS2
+                else "missing-s2"
+                if seenS1 and not seenS2
+                else "ok"
+            )
+            if seenS:
+                if short:
+                    if seenFS:
+                        curName.pop(0)
+                    if seenSF:
+                        curName.pop()
+            theName = makeName(curName)
+            interpretedNames.append((theName, label))
+            curName.clear()
+
+    for (name, cat) in valWords:
+        if (
+            cat == "f"
+            and lastCat not in {"f"}
+            or cat == "fs"
+            and lastCat not in {"f", "fs", "i"}
+            or cat == "i"
+            and lastCat not in {"f", "fs", "i", "s1"}
+            or cat == "s"
+            and lastCat not in {"f", "fs", "i"}
+            or cat == "s1"
+            and lastCat not in {"f", "fs", "i"}
+            or cat == "s2"
+            and lastCat not in {"i", "s1"}
+            or cat == "sf"
+            and lastCat not in {"s", "s2"}
+        ):
+            addName()
+            if not short or cat != "f":
+                curName.append(name)
+            seenS = cat == "s"
+            seenS1 = cat == "s1"
+            seenS2 = cat == "s2"
+            seenFS = cat == "fs"
+            seenSF = cat == "sf"
+        else:
+            if not short or cat != "f":
+                curName.append(name)
+            if cat == "s":
+                seenS = True
+            elif cat == "s1":
+                seenS1 = True
+            elif cat == "s2":
+                seenS2 = True
+            elif cat == "fs":
+                seenFS = True
+            elif cat == "sf":
+                seenSF = True
+
+        lastCat = None if cat == "unknown" else cat
+
+    addName()
+
+    return (interpretedNames, " ".join(outWords))
+
+
+def distillTitle(source):
+    m = {}
+
+    source = SEP_RE.sub(" ", source)
+    rest = BRACKET_RE.findall(source)
+    source = BRACKET_RE.sub(" ", source)
+    rest += HEAD_REMOVE_RE.findall(source)
+    source = HEAD_REMOVE_RE.sub("", source)
+    source = source.replace("[", "")
+    source = source.replace("]", "")
+    source = EN_RE.sub(" ", source)
+
+    for k in ("rawdate", "place"):
+        (val, source) = DISTILL[k](source)
+        m[k] = val
+
+    (names, source) = distillAuthor(source, short=True)
+    val = ", ".join(n[0] for n in names)
+    m["author"] = val
+
+    rest = " ".join(rest)
+    sep = " " if rest and source else ""
+    rest = f"{source}{sep}{rest}"
+    sep = " " if rest else ""
+    return (f"{m['author']}; {m['place']}, {m['rawdate']}.{sep}{rest}", "")
+
+
+DISTILL = dict(
+    seq=distillSeq,
+    rawdate=distillDate,
+    place=distillPlace,
+    author=distillAuthor,
+    title=distillTitle,
+)
+
+
+def distillFromHead(doc, info, source, force=False):
+    m = {}
+
+    source = SEP_RE.sub(" ", source)
+    source = NOTEMARK_RE.sub("", source)
+    rest = BRACKET_RE.findall(source)
+    source = BRACKET_RE.sub(" ", source)
+    rest += HEAD_REMOVE_RE.findall(source)
+    source = HEAD_REMOVE_RE.sub("", source)
+    source = source.replace("[", "")
+    source = source.replace("]", "")
+    source = EN_RE.sub(" ", source)
+
+    for (variant, intention) in AUTHOR_SANITY:
+        source = source.replace(variant, intention)
+
+    metaValues = info["metaValues"]["head"]
+
+    for k in ("seq", "rawdate", "place"):
+        (val, source) = DISTILL[k](source)
+        metaValues[k][val].append(doc)
+        m[k] = val
+
+    for (k, short) in (("author", True), ("authorFull", False)):
+        (names, data) = distillAuthor(source, short=short)
+        val = ", ".join(n[0] for n in names)
+        for (name, label) in names:
+            metaValues[k][name].append(doc)
+        m[k] = val
+
+    source = data
+
+    datePure = m["rawdate"].replace(" en ", "_en_").replace("?", "")
+
+    parts = datePure.split()
+    if len(parts) == 3:
+        (day, month, year) = parts
+        month = MONTH_NUM[month]
+        m["day"] = day.split("_")[0]
+        m["month"] = str(month)
+        m["year"] = year
+    else:
+        m["day"] = ""
+        m["month"] = ""
+        m["year"] = ""
+
+    rest = " ".join(rest)
+    sep = " " if rest and source else ""
+    rest = f"{source}{sep}{rest}"
+    sep = " " if rest else ""
+
+    title = f"{m['author']}; {m['place']}, {m['rawdate']}.{sep}{rest}"
+    m["title"] = title
+    metaValues["title"][title].append(doc)
+
+    return {k: f"!{v}" for (k, v) in m.items()} if force else m
+
+
+previousMeta = {}
+
+
+def checkMeta(metaText, bodyText, info):
+    doc = info["doc"]
+    metaValues = info["metaValues"]["meta"]
+    metaDiag = info["metaDiag"]
+
+    metadata = {k: source for (k, source) in META_KV_2_RE.findall(metaText)}
+
+    for k in META_KEY_ORDER:
+        source = metadata.get(k, "")
+        source = SEP_RE.sub(" ", source)
+        if k in DISTILL:
+            args = (True,) if k == "author" else ()
+            (v, source) = DISTILL[k](source, *args)
             if k == "author":
-                kp = "authorFull"
-                metadata[kp] = normVal(kp, v, doc, info, "dstl")
-        metadata[k] = thisVal
+                rep = ", ".join(n[0] for n in v)
+                for (name, label) in v:
+                    metaValues[k][name].append(doc)
+                v = rep
+            metaValues[k][v].append(doc)
+            if source:
+                metaDiag[doc][k] = ("dirty", v, source)
+            metadata[k] = v
 
-        if k == "rawdate":
-            datePure = thisVal.replace(" en ", "_en_").replace(" (?)", "")
-            datePure = normVal(k, datePure, doc, info, None)
+    if doc in FROM_PREVIOUS:
+        for k in COLOFON_KEYS:
+            metadata[k] = previousMeta[k]
 
-            parts = datePure.split()
-            if len(parts) == 3:
-                (day, month, year) = parts
-                month = MONTH_NUM[month]
-                metadata["day"] = day.split("_")[0]
-                metadata["month"] = str(month)
-                metadata["year"] = year
-            else:
-                metadata["day"] = ""
-                metadata["month"] = ""
-                metadata["year"] = ""
+    match = HEAD_RE.search(bodyText)
+    head = HI_CLEAN_STRONG_RE.sub(
+        r"""\1""", match.group(1).replace("<lb/>", " ").replace("\n", " ")
+    )
+    doc = info["doc"]
+    info["heads"][doc] = head
+    match = FIRST_PAGE_RE.search(bodyText)
+    firstPage = match.group(1) if match else ""
 
-    return {k: f"!{v}" for (k, v) in metadata.items()} if force else metadata
+    distilled = distillFromHead(doc, info, head)
+    distilled["page"] = firstPage
+
+    for k in META_KEY_ORDER:
+        v = metadata.get(k, "")
+
+        if v.startswith("!"):
+            CORRECTION_FORBIDDEN.setdefault(doc, set()).add(k)
+            v = v[1:]
+            metadata[k] = v
+
+        if doc in FROM_PREVIOUS:
+            v = previousMeta.get(k, "")
+            metadata[k] = v
+            metaDiag[doc][k] = ("ok", "", v)
+            continue
+
+        dv = distilled.get(k, "")
+
+        if doc in CORRECTION_FORBIDDEN and k in CORRECTION_FORBIDDEN[doc]:
+            metadata[k] = v
+            label = (
+                "ok"
+                if v == dv
+                else "-+.f"
+                if not v and dv
+                else "+-.f"
+                if v and not dv
+                else "xx.f"
+            )
+            metaDiag[doc][k] = (label, v, dv)
+            continue
+
+        metadata[k] = dv
+
+        label = (
+            "ok"
+            if v == dv or k == "pid"
+            else "ok"
+            if k in ADD_META_KEYS
+            else "ok" if not v and dv
+            else "ok"
+            if doc in CORRECTION_ALLOWED and k in CORRECTION_ALLOWED[doc]
+            else "ok" if k == "title" and roughlyEqual(v, dv)
+            else "??"
+            if v and not dv
+            else "xx"
+        )
+
+        metaDiag[doc][k] = (label, v, dv)
+
+    previousMeta.clear()
+    for (k, v) in metadata.items():
+        previousMeta[k] = v
+
+    newMeta = "\n".join(
+        f"""<meta key="{k}" value="{v}"/>""" for (k, v) in metadata.items()
+    )
+
+    info["metas"] += 1
+    return f"<header>\n{newMeta}\n</header>\n"
 
 
 PB_CHECK_PAT = "|".join(

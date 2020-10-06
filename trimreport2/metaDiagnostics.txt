@@ -1,0 +1,1047 @@
+01:p0004
+IV. PIETER BOTH, KASTEEL NASSAU OP BANDA 18 juli 1611.  
+pid        ok   =V = INT_85d873f4-8e9e-31b2-af43-a85316f054a0
+page       ok   =VD= 4
+seq        ok   =VD= IV
+title      ok   =V = ; Kasteel Nassau op Banda-Neira, 18 juli 1611.
+           ok   = D= Both; Kasteel Nassau op Banda-Neira, 18 juli 1611.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 18 juli 1611
+place      ok   =VD= Kasteel Nassau op Banda-Neira
+year       ok   =VD= 1611
+month      ok   =VD= 7
+day        ok   =VD= 18
+
+01:p0007
+V. PIETER BOTH, AAN BOORD VAN DE VERE, VOOR MALEYO1)  31 maart 1612.  
+pid        ok   =V = INT_12458e73-7f4a-3bc7-9fa2-1b0f0d1adf23
+page       ok   =VD= 7
+seq        ok   =VD= V
+title      ok   =V = ; Vere voor Maleyo, 31 maart 1612.
+           ok   = D= Both; aan boord van de Vere voor Maleyo, 31 maart 1612.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 31 maart 1612
+place      ok   =V = Vere voor Maleyo
+           ok   = D= aan boord van de Vere voor Maleyo
+year       ok   =VD= 1612
+month      ok   =VD= 3
+day        ok   =VD= 31
+
+01:p0008
+VI. PIETER BOTH, EORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612 x).  
+pid        ok   =V = INT_c3fead13-7631-31e7-93a3-91bddc3fa1fc
+page       ok   =VD= 8
+seq        ok   =VD= VI
+title      ok   =V = ; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612.
+           ok   = D= Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 26 juli 1612
+place      ok   =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+year       ok   =VD= 1612
+month      ok   =VD= 7
+day        ok   =VD= 26
+
+01:p0017
+IX. PIETER BOTH, FORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612.  
+pid        ok   =V = INT_987aa238-bef4-3045-86cf-e45d06495600
+page       ok   =VD= 17
+seq        ok   =VD= IX
+title      ok   =V = ; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612.
+           ok   = D= Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 26 juli 1612
+place      ok   =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+year       ok   =VD= 1612
+month      ok   =VD= 7
+day        ok   =VD= 26
+
+01:p0018
+X. PIETER BOTH, ZONDER PLAATS EN DATUM.  
+pid        ok   =V = INT_cf76ae08-e798-39e2-8745-891dc6f7cd6a
+page       ok   =VD= 18
+seq        ok   =VD= X
+title      ok   =V = ; , . Ongedateerd zonder plaats
+           ok   = D= Both; , . ZONDER PLAATS DATUM
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 
+place      ok   =VD= 
+year       ok   =VD= 
+month      ok   =VD= 
+day        ok   =VD= 
+
+01:p0019
+XI. PIETER BOTH, FORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612.  
+pid        ok   =V = INT_7d9098c8-25bb-399b-9061-c9faecabe204
+page       ok   =VD= 19
+seq        ok   =VD= XI
+title      ok   =V = ; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612.
+           ok   = D= Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 26 juli 1612
+place      ok   =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+year       ok   =VD= 1612
+month      ok   =VD= 7
+day        ok   =VD= 26
+
+01:p0021
+XV. PIETER BOTH, BANTAM 1 januari 1614 *).  
+pid        ok   =V = INT_953a59a1-9078-31f7-82c5-4b453f73ac5a
+page       ok   =VD= 21
+seq        ok   =VD= XV
+title      ok   =V = ; Bantam, 1 januari 1614.
+           ok   = D= Both; Bantam, 1 januari 1614.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 1 januari 1614
+place      ok   =VD= Bantam
+year       ok   =VD= 1614
+month      ok   =VD= 1
+day        ok   =VD= 1
+
+01:p0028
+XVIII. PIETER BOTH. BANTAM 10 november 1614.  
+pid        ok   =V = INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83
+page       ok   =VD= 28
+seq        ok   =VD= XVIII
+title      ok   =V = ; Bantam, 10 november 1614.
+           ok   = D= Both; Bantam, 10 november 1614.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 10 november 1614
+place      ok   =VD= Bantam
+year       ok   =VD= 1614
+month      ok   =VD= 11
+day        ok   =VD= 10
+
+01:p0029
+XIX. PIETER BOTH, BANTAM 10 november 1614 *).  
+pid        ok   =V = INT_f770652a-cece-382e-b688-76766d1a47f7
+page       ok   =VD= 29
+seq        ok   =VD= XIX
+title      ok   =V = ; Bantam, 10 november 1614.
+           ok   = D= Both; Bantam, 10 november 1614.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 10 november 1614
+place      ok   =VD= Bantam
+year       ok   =VD= 1614
+month      ok   =VD= 11
+day        ok   =VD= 10
+
+01:p0033
+XX. PIETER BOTH, BANTAM 10 november 1614.  
+pid        ok   =V = INT_503c8d67-1c03-3478-b595-5f692d928f3c
+page       ok   =VD= 33
+seq        ok   =VD= XX
+title      ok   =V = ; Bantam, 10 november 1614.
+           ok   = D= Both; Bantam, 10 november 1614.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 10 november 1614
+place      ok   =VD= Bantam
+year       ok   =VD= 1614
+month      ok   =VD= 11
+day        ok   =VD= 10
+
+01:p0037
+XXI. PIETER BOTH, BANTAM 10 november 1614.  
+pid        ok   =V = INT_f0a3b09b-8561-3afc-9d68-5a616b87aa0a
+page       ok   =VD= 37
+seq        ok   =VD= XXI
+title      ok   =V = ; Bantam, 10 november 1614.
+           ok   = D= Both; Bantam, 10 november 1614.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 10 november 1614
+place      ok   =VD= Bantam
+year       ok   =VD= 1614
+month      ok   =VD= 11
+day        ok   =VD= 10
+
+01:p0039
+XXII. PIETER BOTH, BANTAM 10 november 1614.  
+pid        ok   =V = INT_85d1d9f0-e0f9-3e47-ad8f-1f2432c8287b
+page       ok   =VD= 39
+seq        ok   =VD= XXII
+title      ok   =V = ; Bantam, 10 november 1614.
+           ok   = D= Both; Bantam, 10 november 1614.
+author     ok   = D= Both
+authorFull ok   = D= Pieter Both
+rawdate    ok   =VD= 10 november 1614
+place      ok   =VD= Bantam
+year       ok   =VD= 1614
+month      ok   =VD= 11
+day        ok   =VD= 10
+
+01:p0043
+I. GERARD REYNST, BANTAM 11 november 1614.  
+pid        ok   =V = INT_daa0011c-c34f-3ae9-9e2a-d23611ee19d6
+page       ok   =VD= 43
+seq        ok   =VD= I
+title      ok   =V = ; Bantam, 11 november 1614.
+           ok   = D= Reynst; Bantam, 11 november 1614.
+author     ok   = D= Reynst
+authorFull ok   = D= Gerard Reynst
+rawdate    ok   =VD= 11 november 1614
+place      ok   =VD= Bantam
+year       ok   =VD= 1614
+month      ok   =VD= 11
+day        ok   =VD= 11
+
+01:p0046
+II. GERARD REYNST, BANTAM 26 oktober 1615.  
+pid        ok   =V = INT_77dcbd53-54a1-334d-9144-5c03b6f98398
+page       ok   =VD= 46
+seq        ok   =VD= II
+title      ok   =V = ; Bantam, 26 oktober 1615.
+           ok   = D= Reynst; Bantam, 26 oktober 1615.
+author     ok   = D= Reynst
+authorFull ok   = D= Gerard Reynst
+rawdate    ok   =VD= 26 oktober 1615
+place      ok   =VD= Bantam
+year       ok   =VD= 1615
+month      ok   =VD= 10
+day        ok   =VD= 26
+
+01:p0056
+11 a. BIJLAGE VAN II.  
+pid        ok   =VD= 
+page       ok   = D= 46
+seq        ok   = D= II
+title      ok   = D= Reynst; Bantam, 26 oktober 1615.
+author     ok   = D= Reynst
+authorFull ok   = D= Gerard Reynst
+rawdate    ok   = D= 26 oktober 1615
+place      ok   = D= Bantam
+year       ok   = D= 1615
+month      ok   = D= 10
+day        ok   = D= 26
+
+01:p0063
+I. LAURENS REAEL, TERNATE 18 juli 1616.  
+pid        ok   =V = INT_54c654a4-7414-3058-af08-03eca2d92c1f
+page       ok   =VD= 63
+seq        ok   =VD= I
+title      ok   =V = ; Ternate, 18 juli 1616.
+           ok   = D= Reael; Ternate, 18 juli 1616.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 18 juli 1616
+place      ok   =VD= Ternate
+year       ok   =VD= 1616
+month      ok   =VD= 7
+day        ok   =VD= 18
+
+01:p0068
+II. LAURENS REAEL, TERNATE 22 september 1616.  
+pid        ok   =V = INT_475bd48f-9b8e-3925-a7cc-6043fb201b30
+page       ok   =VD= 68
+seq        ok   =VD= II
+title      xx   =V = ; Ternate, . 22 sept 1616
+           xx   = D= Reael; Ternate, 22 september 1616.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   = D= 22 september 1616
+place      ok   =VD= Ternate
+year       ok   =VD= 1616
+month      ok   =VD= 9
+day        ok   =VD= 22
+
+01:p0070
+III. LAURENS REAEL, BANDA 10 mei 1617.  
+pid        ok   =V = INT_c4012a16-0423-32c3-9b5b-21cceb8c86b5
+page       ok   =VD= 70
+seq        ok   =VD= III
+title      ok   =V = ; Banda-Neira, 10 mei 1617.
+           ok   = D= Reael; Banda-Neira, 10 mei 1617.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 10 mei 1617
+place      ok   =VD= Banda-Neira
+year       ok   =VD= 1617
+month      ok   =VD= 5
+day        ok   =VD= 10
+
+01:p0074
+IV. LAURENS REAEL, AMBOINA 2 juli 1617.  
+pid        ok   =V = INT_be4bc3a1-087b-32ea-894e-19d2e235f732
+page       ok   =VD= 74
+seq        ok   =VD= IV
+title      ok   =V = ; Amboina, 2 juli 1617.
+           ok   = D= Reael; Amboina, 2 juli 1617.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 2 juli 1617
+place      ok   =VD= Amboina
+year       ok   =VD= 1617
+month      ok   =VD= 7
+day        ok   =VD= 2
+
+01:p0076
+V. LAURENS REAEL, BANTAM 10 november 1617.  
+pid        ok   =V = INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b
+page       ok   =VD= 76
+seq        ok   =VD= V
+title      ok   =V = ; Bantam, 10 november 1617.
+           ok   = D= Reael; Bantam, 10 november 1617.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 10 november 1617
+place      ok   =VD= Bantam
+year       ok   =VD= 1617
+month      ok   =VD= 11
+day        ok   =VD= 10
+
+01:p0077
+VI. LAURENS REAEL, BANTAM (17 december 1617?) *).  
+pid        ok   =V = INT_1a7063ce-c506-332a-9007-732e13cf8277
+page       ok   =VD= 77
+seq        ok   =VD= VI
+title      xx   =V = ; Bantam, 17 december 1617.  (?)
+           xx   = D= Reael; Bantam, .  (17 december 1617?) 
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ??   =V = 17 december 1617 ?
+place      ok   =VD= Bantam
+year       ??   =V = 1617
+month      ??   =V = 12
+day        ??   =V = 17
+
+01:p0080
+VII. LAURENS REAEL, BANTAM 17 december 1617.  
+pid        ok   =V = INT_11a312fb-5d53-388b-bf93-d1ddab97fd81
+page       ok   =VD= 80
+seq        ok   =VD= VII
+title      ok   =V = ; Bantam, 17 december 1617.
+           ok   = D= Reael; Bantam, 17 december 1617.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 17 december 1617
+place      ok   =VD= Bantam
+year       ok   =VD= 1617
+month      ok   =VD= 12
+day        ok   =VD= 17
+
+01:p0081
+VIII. LAURENS REAEL, JAKATRA 6 januari 1618.  
+pid        ok   =V = INT_48f9183f-02e1-38ed-b56c-b967ced764ea
+page       ok   =VD= 81
+seq        ok   =VD= VIII
+title      ok   =V = ; Jakatra, 6 januari 1618.
+           ok   = D= Reael; Jakatra, 6 januari 1618.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 6 januari 1618
+place      ok   =VD= Jakatra
+year       ok   =VD= 1618
+month      ok   =VD= 1
+day        ok   =VD= 6
+
+01:p0082
+IX. LAURENS REAEL, KASTEEL NASSAU OP BANDA-NEIRA 7 mei 161 8.  
+pid        ok   =V = INT_2ca9ae62-9540-375a-84e0-9cc1bd114b5a
+page       ok   =VD= 82
+seq        ok   =VD= IX
+title      ok   =V = ; Kasteel Nassau op Banda-Neira, 7 mei 1618.
+           ok   = D= Reael; Kasteel Nassau op Banda-Neira, 7 mei 1618.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 7 mei 1618
+place      ok   =VD= Kasteel Nassau op Banda-Neira
+year       ok   =VD= 1618
+month      ok   =VD= 5
+day        ok   =VD= 7
+
+01:p0085
+X. LAURENS REAEL, WAPEN VAN AMSTERDAM VOOR BANDANEIRA1)  11 juli 1618.  
+pid        ok   =V = INT_bddfa102-e1e7-3f78-ba24-5978bda8391f
+page       ok   =VD= 85
+seq        ok   =VD= X
+title      ok   =V = ; Wapen van Amsterdam voor Banda-Neira, 11 juli 1618.
+           ok   = D= Reael; Wapen van Amsterdam voor Banda-Neira, 11 juli 1618.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 11 juli 1618
+place      ok   =VD= Wapen van Amsterdam voor Banda-Neira
+year       ok   =VD= 1618
+month      ok   =VD= 7
+day        ok   =VD= 11
+
+01:p0087
+XI. LAURENS REAEL, KASTEEL MAURITIUS, NABIJ NGOFAKIAHA  OP MAKÉAN 20 augustus 1618 !).  
+pid        ok   =V = INT_cca9c9df-4b07-3cd3-aa20-1fea27cf63c1
+page       ok   =VD= 87
+seq        ok   =VD= XI
+title      ok   =V = ; Kasteel Mauritius nabij Ngofakiaha op Makéan, 20 augustus 1618.
+           ok   = D= Reael; Kasteel Mauritius nabij Ngofakiaha op Makéan, 20 augustus 1618.
+author     ok   = D= Reael
+authorFull ok   = D= Laurens Reael
+rawdate    ok   =VD= 20 augustus 1618
+place      ok   =VD= Kasteel Mauritius nabij Ngofakiaha op Makéan
+year       ok   =VD= 1618
+month      ok   =VD= 8
+day        ok   =VD= 20
+
+01:p0099
+XI. FIETER DE CARPENTIER EN JACOB DEDEL, KASTEEL JAKATRA  8 maart 1621 1).  
+pid        ok   =V = INT_d88954f6-c387-3a43-a187-1a5661e4d7e7
+page       ok   =VD= 99
+seq        ok   =VD= XI
+title      ok   =VD= De Carpentier, Dedel; Kasteel Jakatra, 8 maart 1621.
+author     ok   =VD= De Carpentier, Dedel
+authorFull ok   = D= Pieter de Carpentier, Jacob Dedel
+rawdate    ok   =VD= 8 maart 1621
+place      ok   =VD= Kasteel Jakatra
+year       ok   =VD= 1621
+month      ok   =VD= 3
+day        ok   =VD= 8
+
+01:p0105
+XII. JAN PIETERSZ. COEN EN DR. MARTINUS SONCK, SCHIP NIEUW  HOLLANDIA TER REDE VAN BANDA NEIRA 6 mei 1621.  
+pid        ok   =V = INT_3ba75a58-a94f-322e-af9d-e5d983406313
+page       ok   =VD= 105
+seq        ok   =VD= XII
+title      ok   =V = Coen, Sonck; Nieuw-Hollandia ter Rede van Banda-Neira, 6 mei 1621.
+           ok   = D= Coen Dr, Sonck, Van; Schip, 6 mei 1621. NIEUW HOLLANDIA TER REDE BANDA NEIRA
+author     ok   =V = Coen, Sonck
+           ok   = D= Coen Dr, Sonck, Van
+authorFull ok   = D= Jan Pietersz Coen Dr, Martinus Sonck, Van
+rawdate    ok   =VD= 6 mei 1621
+place      ok   =V = ter Rede van Banda-Neira
+           ok   = D= Schip
+year       ok   =VD= 1621
+month      ok   =VD= 5
+day        ok   =VD= 6
+
+01:p0106
+XIII. PIETER DE CARPENTIER, JACOB DEDEL, CORNELIS REYERSZ.  EN ABRAHAM VAN UFFELEN, KASTEEL JAKATRA 9 juli 1621.  
+pid        ok   =V = INT_08c82040-752f-3fc2-ad50-0d3e7b37a945
+page       ok   =VD= 106
+seq        ok   =VD= XIII
+title      ok   =V = De Carpentier, Dedel, Reyersz, Van Uffelen; Kasteel Jakatra, 9 juli 1621. Cornelisz
+           ok   = D= De Carpentier, Dedel, Reyersz, Van Uffelen; Kasteel Jakatra, 9 juli 1621.
+author     ok   =VD= De Carpentier, Dedel, Reyersz, Van Uffelen
+authorFull ok   = D= Pieter de Carpentier, Jacob Dedel, Cornelis Reyersz, Abraham van Uffelen
+rawdate    ok   =VD= 9 juli 1621
+place      ok   =VD= Kasteel Jakatra
+year       ok   =VD= 1621
+month      ok   =VD= 7
+day        ok   =VD= 9
+
+01:p0121
+I. PIETER DE CARPENTIER, WILLEM JANSZ en JACQUES SPECX,  BATAVIA, 1 februari 1623.  
+pid        ok   =V = INT_5b065f97-afd0-345b-b6e3-2788855e0065
+page       ok   =VD= 121
+seq        ok   =VD= I
+title      ok   =V = De Carpentier, Specx; , . 1 febr 1623
+           ok   = D= De Carpentier, Jansz, Specx; Batavia, 1 februari 1623.
+author     ok   =V = De Carpentier, Specx
+           ok   = D= De Carpentier, Jansz, Specx
+authorFull ok   = D= Pieter de Carpentier, Willem Jansz, Jacques Specx
+rawdate    ok   = D= 1 februari 1623
+place      ok   = D= Batavia
+year       ok   =VD= 1623
+month      ok   =VD= 2
+day        ok   =VD= 1
+
+01:p0126
+II. PIETER DE CARPENTIER EN RADEN, BATAVIA 24 februari 1623.  
+pid        ok   =V = INT_9313bd80-4c06-3c26-bce5-cb6797dd3ab4
+page       ok   =VD= 126
+seq        ok   =VD= II
+title      xx   =V = De Carpentier, Raden; , . 24 febr 1623
+           xx   = D= De Carpentier, Raden; Batavia, 24 februari 1623.
+author     ok   =VD= De Carpentier, Raden
+authorFull ok   = D= Pieter de Carpentier, Raden
+rawdate    ok   = D= 24 februari 1623
+place      ok   = D= Batavia
+year       ok   =VD= 1623
+month      ok   =VD= 2
+day        ok   =VD= 24
+
+01:p0129
+III. PIETER DE CARPENTIER, EREDERICK DE HOUTMAN, JACOB  DEDEL, DR. MARTINUS SONCK EN JACQUES SPECX, BATAVIA 25 december  1623.  
+pid        ok   =V = INT_bb1087e9-36f9-3895-9ba3-690f82482566
+page       ok   =VD= 129
+seq        ok   =VD= III
+title      xx   =V = De Carpentier, De Houtman, Dedel, Specx; , 25 december 1623.
+           xx   = D= De Carpentier, De Houtman, Dedel Dr, Sonck, Specx; Batavia, 25 december 1623.
+author     ok   =V = De Carpentier, De Houtman, Dedel, Specx
+           ok   = D= De Carpentier, De Houtman, Dedel Dr, Sonck, Specx
+authorFull ok   = D= Pieter de Carpentier, Frederick de Houtman, Jacob Dedel Dr, Martinus Sonck, Jacques Specx
+rawdate    ok   =VD= 25 december 1623
+place      ok   = D= Batavia
+year       ok   =VD= 1623
+month      ok   =VD= 12
+day        ok   =VD= 25
+
+01:p0131
+IV PIETER DE CARPENTIER, FREDERICK DE HOUTMAN, JACOB  DEDEL, DR. MARTINUS SONCK, JACQUES SPECX EN JAN VAN  GORCOM, BATAVIA 3 januari 1624.  
+pid        ok   =V = INT_a6de2f19-c35d-37f5-8e2c-91caa95900d0
+page       ok   =VD= 131
+seq        ok   =VD= IV
+title      xx   =V = De Carpentier, De Houtman, Dedel, Sonck, Specx, Van Gorcom; , 3 januari 1624.
+           xx   = D= De Carpentier, De Houtman, Dedel Dr, Sonck, Specx, Van Gorcom; Batavia, 3 januari 1624.
+author     xx   =V = De Carpentier, De Houtman, Dedel, Sonck, Specx, Van Gorcom
+           xx   = D= De Carpentier, De Houtman, Dedel Dr, Sonck, Specx, Van Gorcom
+authorFull ok   = D= Pieter de Carpentier, Frederick de Houtman, Jacob Dedel Dr, Martinus Sonck, Jacques Specx, Jan van Gorcom
+rawdate    ok   =VD= 3 januari 1624
+place      ok   = D= Batavia
+year       ok   =VD= 1624
+month      ok   =VD= 1
+day        ok   =VD= 3
+
+01:p0148
+V. PIETER DE CARPENTIER, JACOB DEDEL, Dr. MARTINUS SONCK,  JACQUES SPECX EN JAN VAN GORCOM, BATAVIA 4 maart 1624.  
+pid        ok   =V = INT_108234c9-a9ce-3ca3-932d-5d144894806d
+page       ok   =VD= 148
+seq        ok   =VD= V
+title      xx   =V = De Carpentier, Dedel, Sonck, Specx, Van Gorcom; , 4 maart 1624.
+           xx   = D= De Carpentier, Dedel Dr, Sonck, Specx, Van Gorcom; Batavia, 4 maart 1624.
+author     xx   =V = De Carpentier, Dedel, Sonck, Specx, Van Gorcom
+           xx   = D= De Carpentier, Dedel Dr, Sonck, Specx, Van Gorcom
+authorFull ok   = D= Pieter de Carpentier, Jacob Dedel Dr, Martinus Sonck, Jacques Specx, Jan van Gorcom
+rawdate    ok   =VD= 4 maart 1624
+place      ok   = D= Batavia
+year       ok   =VD= 1624
+month      ok   =VD= 3
+day        ok   =VD= 4
+
+01:p0152
+VI. PIETER DE CARPENTIER, JACQUES SPECX, Dr. PIETER VLACK  EN ANTONIO VAN DIEMEN, BATAVIA 27 januari 1625.  
+pid        ok   =V = INT_5252b097-3b59-325c-ae42-f83a6ddc32ce
+page       ok   =VD= 152
+seq        ok   =VD= VI
+title      xx   =V = De Carpentier, Specx, Vlack, Van Diemen; , 17 januari 1625.
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen; Batavia, 27 januari 1625.
+author     xx   =V = De Carpentier, Specx, Vlack, Van Diemen
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen
+authorFull ok   = D= Pieter de Carpentier, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen
+rawdate    ok   =V = 17 januari 1625
+           ok   = D= 27 januari 1625
+place      ok   = D= Batavia
+year       ok   =VD= 1625
+month      ok   =VD= 1
+day        ok   =V = 17
+           ok   = D= 27
+
+01:p0172
+VII. PIETER DE CARPENTIER EN RADEN, BATAVIA 13 augustus 1625.  
+pid        ok   =V = INT_932cb918-3eff-3047-8d7a-bdbd9d6dcef0
+page       ok   =VD= 172
+seq        ok   =VD= VII
+title      ok   =V = De Carpentier, Raden; , 13 augustus 1625.
+           ok   = D= De Carpentier, Raden; Batavia, 13 augustus 1625.
+author     ok   =VD= De Carpentier, Raden
+authorFull ok   = D= Pieter de Carpentier, Raden
+rawdate    ok   =VD= 13 augustus 1625
+place      ok   = D= Batavia
+year       ok   =VD= 1625
+month      ok   =VD= 8
+day        ok   =VD= 13
+
+01:p0173
+VII a. PIETER DE CARPENTIER EN RADEN, BATAVIA 13 september  1625.  
+pid        ok   =V = INT_78db4841-441f-33ce-9c23-77fdd2a09bce
+page       ok   =VD= 173
+seq        ok   =VD= VIIa
+title      xx   =V = De Carpentier, Raden; , . 13 sept 1625
+           xx   = D= De Carpentier, Raden; Batavia, 13 september 1625.
+author     ok   =VD= De Carpentier, Raden
+authorFull ok   = D= Pieter de Carpentier, Raden
+rawdate    ok   = D= 13 september 1625
+place      ok   = D= Batavia
+year       ok   =VD= 1625
+month      ok   =VD= 9
+day        ok   =VD= 13
+
+01:p0174
+VIII. PIETER DE CARPENTIER, JACQUES SPECX, DR. PIETER  VLACK EN ANTONIO VAN DIEMEN, BATAVIA 27 oktober 1625.  
+pid        ok   =V = INT_328a325d-a0e6-316a-97dd-cd925f0fceea
+page       ok   =VD= 174
+seq        ok   =VD= VIII
+title      xx   =V = De Carpentier, Specx, Vlack, Van Diemen; , 27 oktober 1625.
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen; Batavia, 27 oktober 1625.
+author     xx   =V = De Carpentier, Specx, Vlack, Van Diemen
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen
+authorFull ok   = D= Pieter de Carpentier, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen
+rawdate    ok   =VD= 27 oktober 1625
+place      ok   = D= Batavia
+year       ok   =VD= 1625
+month      ok   =VD= 10
+day        ok   =VD= 27
+
+01:p0184
+IX. PIETER DE CARPENTIER, JACQUES SPECX, DR. PIETER VLACK  EN ANTONIO VAN DIEMEN, BATAVIA 3 februari 1626.  
+pid        ok   =V = INT_1aac7c92-5e1a-393c-b8bb-c6e97993bc1f
+page       ok   =VD= 184
+seq        ok   =VD= IX
+title      xx   =V = De Carpentier, Specx, Vlack, Van Diemen; , . 3 febr 1626
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen; Batavia, 3 februari 1626.
+author     xx   =V = De Carpentier, Specx, Vlack, Van Diemen
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen
+authorFull ok   = D= Pieter de Carpentier, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen
+rawdate    ok   = D= 3 februari 1626
+place      ok   = D= Batavia
+year       ok   =VD= 1626
+month      ok   =VD= 2
+day        ok   =VD= 3
+
+01:p0203
+X. PIETER DE CARPENTIER EN RADEN, BATAVIA 15 februari 1626.
+pid        ok   =V = INT_66116310-5197-3290-ad43-fe64bb687892
+page       ok   =VD= 203
+seq        ok   =VD= X
+title      xx   =V = De Carpentier, Raden; , . 15 febr 1626
+           xx   = D= De Carpentier, Raden; Batavia, 15 februari 1626.
+author     ok   =VD= De Carpentier, Raden
+authorFull ok   = D= Pieter de Carpentier, Raden
+rawdate    ok   = D= 15 februari 1626
+place      ok   = D= Batavia
+year       ok   =VD= 1626
+month      ok   =VD= 2
+day        ok   =VD= 15
+
+01:p0204
+XI. PIETER DE CARPENTIER, JACQUES SPECX, DR. PIETER VLACK  EN ANTONIO VAN DIEMEN, BATAVIA 13 december 1626.  
+pid        ok   =V = INT_ac56017f-6ace-3b71-9cee-5aad79958ea3
+page       ok   =VD= 204
+seq        ok   =VD= XI
+title      xx   =V = De Carpentier, Specx, Vlack, Van Diemen; , 13 december 1626.
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen; Batavia, 13 december 1626.
+author     xx   =V = De Carpentier, Specx, Vlack, Van Diemen
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen
+authorFull ok   = D= Pieter de Carpentier, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen
+rawdate    ok   =VD= 13 december 1626
+place      ok   = D= Batavia
+year       ok   =VD= 1626
+month      ok   =VD= 12
+day        ok   =VD= 13
+
+01:p0234
+XII. PIETER DE CARPENTIER, JACQUES SPECX, DR. PIETER VLACK,  ANTONIO VAN DIEMEN EN WIJBRANT SCHRAM, Batavia 15 december  1626.  
+pid        ok   =V = INT_e6de02cd-6e67-33be-a143-f739d6ec006d
+page       ok   =VD= 234
+seq        ok   =VD= XII
+title      xx   =V = De Carpentier, Specx, Vlack, Van Diemen, Schram; , 15 december 1626.
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen, Schram; Batavia, 15 december 1626.
+author     xx   =V = De Carpentier, Specx, Vlack, Van Diemen, Schram
+           xx   = D= De Carpentier, Specx Dr, Vlack, Van Diemen, Schram
+authorFull ok   = D= Pieter de Carpentier, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Wijbrant Schram
+rawdate    ok   =VD= 15 december 1626
+place      ok   = D= Batavia
+year       ok   =VD= 1626
+month      ok   =VD= 12
+day        ok   =VD= 15
+
+01:p0235
+XIII. PIETER DE CARPENTIER, WIJBRANT SCHRAM, JACQUES  SPECX, DR. PIETER VLACK EN ANTONIO VAN DIEMEN, Batavia  26 december 1626.  
+pid        ok   =V = INT_a1f5b67a-4824-33fb-bdae-b6aa67035e93
+page       ok   =VD= 235
+seq        ok   =VD= XIII
+title      xx   =V = De Carpentier, Schram, Specx, Vlack, Van Diemen; , 26 december 1626.
+           xx   = D= De Carpentier, Schram, Specx Dr, Vlack, Van Diemen; Batavia, 26 december 1626.
+author     xx   =V = De Carpentier, Schram, Specx, Vlack, Van Diemen
+           xx   = D= De Carpentier, Schram, Specx Dr, Vlack, Van Diemen
+authorFull ok   = D= Pieter de Carpentier, Wijbrant Schram, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen
+rawdate    ok   =VD= 26 december 1626
+place      ok   = D= Batavia
+year       ok   =VD= 1626
+month      ok   =VD= 12
+day        ok   =VD= 26
+
+01:p0239
+XIV. PIETER DE CARPENTIER EN RADEN, Batavia 2 februari 1627 *).  
+pid        ok   =V = INT_3381f25d-edbf-3264-9354-3ff47b7276d3
+page       ok   =VD= 239
+seq        ok   =VD= XIV
+title      xx   =V = De Carpentier, Raden; , . 2 febr 1627
+           xx   = D= De Carpentier, Raden; Batavia, 2 februari 1627.
+author     ok   =VD= De Carpentier, Raden
+authorFull ok   = D= Pieter de Carpentier, Raden
+rawdate    ok   = D= 2 februari 1627
+place      ok   = D= Batavia
+year       ok   =VD= 1627
+month      ok   =VD= 2
+day        ok   =VD= 2
+
+01:p0240
+XV. PIETER DE CARPENTIER, Batavia 29 juli 1627 ').  
+pid        ok   =V = INT_c4486246-2f28-33d8-b534-af5493a427f1
+page       ok   =VD= 240
+seq        ok   =VD= XV
+title      ok   =V = De Carpentier; , 29 juli 1627.
+           ok   = D= De Carpentier; Batavia, 29 juli 1627.
+author     ok   =VD= De Carpentier
+authorFull ok   = D= Pieter de Carpentier
+rawdate    ok   =VD= 29 juli 1627
+place      ok   = D= Batavia
+year       ok   =VD= 1627
+month      ok   =VD= 7
+day        ok   =VD= 29
+
+01:p0247
+I. JACQUES SPECX, Dr. PIETER VLACK, ANTONIO VAN DIEMEN,  PIETER NUYTS en CRIJN VAN RAEMBURCH Batavia 15 december 1629.  
+pid        ok   =V = INT_28bc92e8-4475-3caa-add1-d15d94347d67
+page       ok   =VD= 247
+seq        ok   =VD= I
+title      xx   =V = Specx, Vlack, Van Diemen, Nuyts, Van; , 15 december 1629. Raemsburch
+           xx   = D= Specx Dr, Vlack, Van Diemen, Nuyts, Van Raemburch; Batavia, 15 december 1629.
+author     ok   =V = Specx, Vlack, Van Diemen, Nuyts, Van
+           ok   = D= Specx Dr, Vlack, Van Diemen, Nuyts, Van Raemburch
+authorFull ok   = D= Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Pieter Nuyts, Crijn van Raemburch
+rawdate    ok   =VD= 15 december 1629
+place      ok   = D= Batavia
+year       ok   =VD= 1629
+month      ok   =VD= 12
+day        ok   =VD= 15
+
+01:p0279
+II. JACQUES SPECX, DR. PIETER VLACK, ANTONIO VAN DIEMEN  EN JAN VAN DER BURCH, Batavia 7 maart 1631.  
+pid        ok   =V = INT_c0003fe5-19ad-3193-b31a-24671ddb49fb
+page       ok   =VD= 279
+seq        ok   =VD= II
+title      xx   =V = Specx, Vlack, Van Diemen, Van der Burch; , 7 maart 1631.
+           xx   = D= Specx Dr, Vlack, Van Diemen, Van der Burch; Batavia, 7 maart 1631.
+author     xx   =V = Specx, Vlack, Van Diemen, Van der Burch
+           xx   = D= Specx Dr, Vlack, Van Diemen, Van der Burch
+authorFull ok   = D= Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Jan van der Burch
+rawdate    ok   =VD= 7 maart 1631
+place      ok   = D= Batavia
+year       ok   =VD= 1631
+month      ok   =VD= 3
+day        ok   =VD= 7
+
+01:p0302
+III. ANTONIO VAN DIEMEN, IN HET SCHIP DEVENTER NABIJ DE  ZUIDPUNT VAN AFRIKA 5 juni 1631 *).  
+pid        ok   =V = INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf
+page       ok   =VD= 302
+seq        ok   =VD= III
+title      xx   =V = Van Diemen; Deventer nabij de zuidpunt van Afrika, 5 juni 1631.
+           xx   = D= Van Diemen; in het Schip Deventer nabij de zuidpunt van Afrika, 5 juni 1631.
+author     ok   =V = Van Diemen, De van
+           ok   = D= Van Diemen
+authorFull ok   = D= Antonio van Diemen
+rawdate    ok   =VD= 5 juni 1631
+place      ok   = D= in het Schip Deventer nabij de zuidpunt van Afrika
+year       ok   =VD= 1631
+month      ok   =VD= 6
+day        ok   =VD= 5
+
+01:p0303
+IV. JACQUES SPECX, DR. PIETER VLACK, JAN VAN DER BURCH EN  ARENT GARDENIJS, Batavia 6 januari 1632.  
+pid        ok   =V = INT_aa213d70-0261-3d2f-84c6-ed7f60a9c441
+page       ok   =VD= 303
+seq        ok   =VD= IV
+title      xx   =V = Specx, Vlack, Van der Burch, Gardenijs; , 6 januari 1632.
+           xx   = D= Specx Dr, Vlack, Van der Burch, Gardenijs; Batavia, 6 januari 1632.
+author     xx   =V = Specx, Vlack, Van der Burch, Gardenijs
+           xx   = D= Specx Dr, Vlack, Van der Burch, Gardenijs
+authorFull ok   = D= Jacques Specx Dr, Pieter Vlack, Jan van der Burch, Arent Gardenijs
+rawdate    ok   =VD= 6 januari 1632
+place      ok   = D= Batavia
+year       ok   =VD= 1632
+month      ok   =VD= 1
+day        ok   =VD= 6
+
+01:p0331
+I. HENRICK BROUWER, DR. PIETER VLACK EN JAN VAN DER  BURCH, Batavia 1 december 1632.  
+pid        ok   =V = INT_d4ff8ede-7bb7-3f3e-b8d8-a12131158cab
+page       ok   =VD= 331
+seq        ok   =VD= I
+title      xx   =V = Brouwer, Vlack, Van der Burch; , 1 december 1632.
+           xx   = D= Brouwer Dr, Vlack, Van der Burch; Batavia, 1 december 1632.
+author     xx   =V = Brouwer, Vlack, Van der Burch
+           xx   = D= Brouwer Dr, Vlack, Van der Burch
+authorFull ok   = D= Henrick Brouwer Dr, Pieter Vlack, Jan van der Burch
+rawdate    ok   =VD= 1 december 1632
+place      ok   = D= Batavia
+year       ok   =VD= 1632
+month      ok   =VD= 12
+day        ok   =VD= 1
+
+01:p0366
+II. HENRICK BROUWER, DR. PIETER VLACK, MAERTEN YSBRANTSZ  EN JAN VAN DER BURCH, BATAVIA, 7 februari 1633.  
+pid        ok   =V = INT_3171a2c7-0813-3530-978e-bb7f6d83bee3
+page       ok   =VD= 366
+seq        ok   =VD= II
+title      xx   =V = Brouwer, Vlack, Ysbrantsz, Van der Burch; , . 7 febr 1633
+           xx   = D= Brouwer Dr, Vlack, Ysbrantsz, Van der Burch; Batavia, 7 februari 1633.
+author     xx   =V = Brouwer, Vlack, Ysbrantsz, Van der Burch
+           xx   = D= Brouwer Dr, Vlack, Ysbrantsz, Van der Burch
+authorFull ok   = D= Henrick Brouwer Dr, Pieter Vlack, Maerten Ysbrantsz, Jan van der Burch
+rawdate    ok   = D= 7 februari 1633
+place      ok   = D= Batavia
+year       ok   =VD= 1633
+month      ok   =VD= 2
+day        ok   =VD= 7
+
+01:p0369
+III. HENRICK BROUWER, DR. PIETER VLACK, MAERTEN YSBRANTSZ.  EN JAN VAN DER BURCH, BATAVIA, 8 februari 1633.  
+pid        ok   =V = INT_1e7d8433-67cf-31fd-a3e5-75023c63b195
+page       ok   =VD= 369
+seq        ok   =VD= III
+title      xx   =V = Brouwer, Vlack, Ysbrantsz, Van der Burch; , . 8 febr 1633
+           xx   = D= Brouwer Dr, Vlack, Ysbrantsz, Van der Burch; Batavia, 8 februari 1633.
+author     xx   =V = Brouwer, Vlack, Ysbrantsz, Van der Burch
+           xx   = D= Brouwer Dr, Vlack, Ysbrantsz, Van der Burch
+authorFull ok   = D= Henrick Brouwer Dr, Pieter Vlack, Maerten Ysbrantsz, Jan van der Burch
+rawdate    ok   = D= 8 februari 1633
+place      ok   = D= Batavia
+year       ok   =VD= 1633
+month      ok   =VD= 2
+day        ok   =VD= 8
+
+01:p0373
+IV. HENRICK BROUWER, ANTONIO VAN DIEMEN, DR. PIETER  VLACK, PHILIPS LUCASZ. EN JAN VAN DER BURCH, BATAVIA 15 augustus  1633.  
+pid        ok   =V = INT_fd80b3c3-f4ed-3cca-915f-89603727b863
+page       ok   =VD= 373
+seq        ok   =VD= IV
+title      xx   =V = Brouwer, Van Diemen, Vlack, Lucasz, Van der Burch; , 15 augustus 1633.
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Lucasz, Van der Burch; Batavia, 15 augustus 1633.
+author     xx   =V = Brouwer, Van Diemen, Vlack, Lucasz, Van der Burch
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Lucasz, Van der Burch
+authorFull ok   = D= Henrick Brouwer, Antonio van Diemen Dr, Pieter Vlack, Philips Lucasz, Jan van der Burch
+rawdate    ok   =VD= 15 augustus 1633
+place      ok   = D= Batavia
+year       ok   =VD= 1633
+month      ok   =VD= 8
+day        ok   =VD= 15
+
+01:p0393
+V. HENRICK BROUWER, ANTONIO VAN DIEMEN, DR. PIETER VLACK,  JAN VAN DER BURCH EN MR. ANTONIO VAN DEN HEUVEL, BATAVIA  15 december 1633.  
+pid        ok   =V = INT_1ec1d896-39ff-3aa9-8980-faca406805eb
+page       ok   =VD= 393
+seq        ok   =VD= V
+title      xx   =V = Brouwer, Van Diemen, Vlack, Van der Burch, Van den Heuvel; , 15 december 1633.
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Van der Burch Mr, Van den Heuvel; Batavia, 15 december 1633.
+author     xx   =V = Brouwer, Van Diemen, Vlack, Van der Burch, Van den Heuvel
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Van der Burch Mr, Van den Heuvel
+authorFull ok   = D= Henrick Brouwer, Antonio van Diemen Dr, Pieter Vlack, Jan van der Burch Mr, Antonio van den Heuvel
+rawdate    ok   =VD= 15 december 1633
+place      ok   = D= Batavia
+year       ok   =VD= 1633
+month      ok   =VD= 12
+day        ok   =VD= 15
+
+01:p0433
+VI. HENRICK BROUWER, AAN BOORD VAN DE WESEL IN STRAAT  SUNDA 25 december 1633 *).  
+pid        ok   =V = INT_d51a854b-5ba3-3bc3-9964-83e3e6ce696c
+page       ok   =VD= 433
+seq        ok   =VD= VI
+title      xx   =V = Brouwer; Wesel in Straat Sunda, 25 december 1633.
+           xx   = D= Brouwer; aan boord van de Wesel in Straat Sunda, 25 december 1633.
+author     ok   =VD= Brouwer
+authorFull ok   = D= Henrick Brouwer
+rawdate    ok   =VD= 25 december 1633
+place      ok   = D= aan boord van de Wesel in Straat Sunda
+year       ok   =VD= 1633
+month      ok   =VD= 12
+day        ok   =VD= 25
+
+01:p0435
+VIL HENRICK BROUWER, ANTONIO VAN DIEMEN, Dr. PIETER  VLACK EN JAN VAN DER BURCH, BATAVIA 20 februari 1634.  
+pid        ok   =V = INT_1b6d9852-3654-3197-b777-f095346d2a0a
+page       ok   =VD= 435
+seq        ok   =VD= VII
+title      xx   =V = Brouwer, Van Diemen, Vlack, Van der Burch; , . 20 febr 1634
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Van der Burch; Batavia, 20 februari 1634.
+author     xx   =V = Brouwer, Van Diemen, Vlack, Van der Burch
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Van der Burch
+authorFull ok   = D= Henrick Brouwer, Antonio van Diemen Dr, Pieter Vlack, Jan van der Burch
+rawdate    ok   = D= 20 februari 1634
+place      ok   = D= Batavia
+year       ok   =VD= 1634
+month      ok   =VD= 2
+day        ok   =VD= 20
+
+01:p0437
+VIII. HENRICK BROUWER, ANTONIO VAN DIEMEN, DR. PIETER  VLACK EN JAN VAN DER BURCH, BATAVIA 5 maart 1634.  
+pid        ok   =V = INT_0ab44c8f-6774-3eec-82d4-ba20221ef473
+page       ok   =VD= 437
+seq        ok   =VD= VIII
+title      xx   =V = Brouwer, Van Diemen, Vlack, Van der Burch; , 5 maart 1634.
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Van der Burch; Batavia, 5 maart 1634.
+author     xx   =V = Brouwer, Van Diemen, Vlack, Van der Burch
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Van der Burch
+authorFull ok   = D= Henrick Brouwer, Antonio van Diemen Dr, Pieter Vlack, Jan van der Burch
+rawdate    ok   =VD= 5 maart 1634
+place      ok   = D= Batavia
+year       ok   =VD= 1634
+month      ok   =VD= 3
+day        ok   =VD= 5
+
+01:p0438
+IX. HENRICK BROUWER, ANTONIO VAN DIEMEN, DR. PIETER  VLACK EN JAN VAN DER BURCH, BATAVIA 15 augustus 1634.  
+pid        ok   =V = INT_b2f823df-0438-3389-ae13-4fe05278e5f8
+page       ok   =VD= 438
+seq        ok   =VD= IX
+title      xx   =V = Brouwer, Van Diemen, Vlack, Van der Burch; , 15 augustus 1634.
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Van der Burch; Batavia, 15 augustus 1634.
+author     xx   =V = Brouwer, Van Diemen, Vlack, Van der Burch
+           xx   = D= Brouwer, Van Diemen Dr, Vlack, Van der Burch
+authorFull ok   = D= Henrick Brouwer, Antonio van Diemen Dr, Pieter Vlack, Jan van der Burch
+rawdate    ok   =VD= 15 augustus 1634
+place      ok   = D= Batavia
+year       ok   =VD= 1634
+month      ok   =VD= 8
+day        ok   =VD= 15
+
+01:p0453
+X. HENRICK BROUWER, ANTONIO VAN DIEMEN, JAN VAN DER  BURCH EN JAN VAN BROECKUM, BATAVIA 27 december 1634.  
+pid        ok   =V = INT_e602afc7-cf5c-38ed-a110-c0db89abdd52
+page       ok   =VD= 453
+seq        ok   =VD= X
+title      ok   =V = Brouwer, Van Diemen, Van der Burch, Van Broeckum; , 27 december 1634.
+           ok   = D= Brouwer, Van Diemen, Van der Burch, Van Broeckum; Batavia, 27 december 1634.
+author     ok   =VD= Brouwer, Van Diemen, Van der Burch, Van Broeckum
+authorFull ok   = D= Henrick Brouwer, Antonio van Diemen, Jan van der Burch, Jan van Broeckum
+rawdate    ok   =VD= 27 december 1634
+place      ok   = D= Batavia
+year       ok   =VD= 1634
+month      ok   =VD= 12
+day        ok   =VD= 27
+
+01:p0482
+XI. HENRICK BROUWER, AAN BOORD VAN DE UTRECHT NABIJ DE  VLAKKE HOEK 8 januari 1635 *).  
+pid        ok   =V = INT_7461df75-56c1-37d5-958e-304b2a4eb726
+page       ok   =VD= 482
+seq        ok   =VD= XI
+title      xx   =V = Brouwer; Utrecht nabij de Vlakke Hoek, 8 januari 1635.
+           xx   = D= Brouwer; aan boord van de Utrecht nabij de Vlakke Hoek, 8 januari 1635.
+author     ok   =V = Brouwer, De
+           ok   = D= Brouwer
+authorFull ok   = D= Henrick Brouwer
+rawdate    ok   =VD= 8 januari 1635
+place      ok   = D= aan boord van de Utrecht nabij de Vlakke Hoek
+year       ok   =VD= 1635
+month      ok   =VD= 1
+day        ok   =VD= 8
+
+01:p0491
+XII. HENRICK BROUWER, ANTONIO VAN DIEMEN EN JAN VAN DER  BURCH, BATAVIA 31 december 1635 *).  
+pid        ok   =V = INT_68f393cd-21f9-33f9-9259-9f6d33ac920b
+page       ok   =VD= 491
+seq        ok   =VD= XII
+title      ok   =V = Brouwer, Van Diemen, Van der Burch; , 31 december 1635.
+           ok   = D= Brouwer, Van Diemen, Van der Burch; Batavia, 31 december 1635.
+author     ok   =VD= Brouwer, Van Diemen, Van der Burch
+authorFull ok   = D= Henrick Brouwer, Antonio van Diemen, Jan van der Burch
+rawdate    ok   =VD= 31 december 1635
+place      ok   = D= Batavia
+year       ok   =VD= 1635
+month      ok   =VD= 12
+day        ok   =VD= 31
+
+01:p0507
+XIII. HENRICK BROUWER, ANTONIO VAN DIEMEN, PHILIPS LUCASZ.,  MAERTEN IJSBRANTSZ., ARTUS GIJSELS EN JAN VAN DER BURCH,  BATAVIA, 4 januari 1636.  
+pid        ok   =V = INT_e9dd0a06-f579-3dea-bb5a-c80c600b5f0b
+page       ok   =VD= 507
+seq        ok   =VD= XIII
+title      ok   =V = Brouwer, Van Diemen, Lucasz, Ysbrantsz, Gijsels, Van der Burch; , 4 januari 1636.
+           ok   = D= Brouwer, Van Diemen, Lucasz, Ysbrantsz, Gijsels, Van der Burch; Batavia, 4 januari 1636.
+author     ok   =VD= Brouwer, Van Diemen, Lucasz, Ysbrantsz, Gijsels, Van der Burch
+authorFull ok   = D= Henrick Brouwer, Antonio van Diemen, Philips Lucasz, Maerten Ysbrantsz, Artus Gijsels, Jan van der Burch
+rawdate    ok   =VD= 4 januari 1636
+place      ok   = D= Batavia
+year       ok   =VD= 1636
+month      ok   =VD= 1
+day        ok   =VD= 4
+
+01:p0553
+I. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., ARTUS GIJSELS EN  JAN VAN DER BURCH, BATAVIA 2 februari 1636.  
+pid        ok   =V = INT_87f3172c-8b71-3871-8aee-3b11dbc536ee
+page       ok   =VD= 553
+seq        ok   =VD= I
+title      xx   =V = Van Diemen, Lucasz, Gijsels, Van der Burch; , . 2 febr 1636
+           xx   = D= Van Diemen, Lucasz, Gijsels, Van der Burch; Batavia, 2 februari 1636.
+author     ok   =VD= Van Diemen, Lucasz, Gijsels, Van der Burch
+authorFull ok   = D= Antonio van Diemen, Philips Lucasz, Artus Gijsels, Jan van der Burch
+rawdate    ok   = D= 2 februari 1636
+place      ok   = D= Batavia
+year       ok   =VD= 1636
+month      ok   =VD= 2
+day        ok   =VD= 2
+
+01:p0554
+II. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., ARTUS GIJSELS, HANS  PUTMANS, ANTONIOCAENENJOAN OTTENS, BATAVIA 28 december 16361).  
+pid        ok   =V = INT_2ae2d0ff-69eb-3220-8bdf-1d9e859c3c6d
+page       ok   =VD= 554
+seq        ok   =VD= II
+title      xx   =V = Van Diemen, Lucasz, Gijsels, Putmans, Caen, Ottens; , 28 december 1636.
+           xx   = D= Van Diemen, Lucasz, Gijsels, Putmans, Ottens; Batavia, 28 december 1636. ANTONIOCAENENJOAN
+author     xx   =V = Van Diemen, Lucasz, Gijsels, Putmans, Caen, Ottens
+           xx   = D= Van Diemen, Lucasz, Gijsels, Putmans, Ottens
+authorFull ok   = D= Antonio van Diemen, Philips Lucasz, Artus Gijsels, Hans Putmans, Ottens
+rawdate    ok   =VD= 28 december 1636
+place      ok   = D= Batavia
+year       ok   =VD= 1636
+month      ok   =VD= 12
+day        ok   =VD= 28
+
+01:p0596
+III. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., ARTUS GIJSELS EN  ANTONIO CAEN, BATAVIA 9 december 1637.  
+pid        ok   =V = INT_8ebb3e47-7b72-3f36-87f9-251154d6cfb6
+page       ok   =VD= 596
+seq        ok   =VD= III
+title      ok   =V = Van Diemen, Lucasz, Gijsels, Caen; , 9 december 1637.
+           ok   = D= Van Diemen, Lucasz, Gijsels, Caen; Batavia, 9 december 1637.
+author     ok   =VD= Van Diemen, Lucasz, Gijsels, Caen
+authorFull ok   = D= Antonio van Diemen, Philips Lucasz, Artus Gijsels, Antonio Caen
+rawdate    ok   =VD= 9 december 1637
+place      ok   = D= Batavia
+year       ok   =VD= 1637
+month      ok   =VD= 12
+day        ok   =VD= 9
+
+01:p0658
+IV. ANTONIO VAN DIEMEN, PHILIPS LUCASZ. EN ANTONIO CAEN,  BATAVIA 26 december 1637.  
+pid        ok   =V = INT_3a2689fc-87e3-32fb-b1a8-99b4f7006f77
+page       ok   =VD= 658
+seq        ok   =VD= IV
+title      ok   =V = Van Diemen, Lucasz, Caen; , 26 december 1637.
+           ok   = D= Van Diemen, Lucasz, Caen; Batavia, 26 december 1637.
+author     ok   =VD= Van Diemen, Lucasz, Caen
+authorFull ok   = D= Antonio van Diemen, Philips Lucasz, Antonio Caen
+rawdate    ok   =VD= 26 december 1637
+place      ok   = D= Batavia
+year       ok   =VD= 1637
+month      ok   =VD= 12
+day        ok   =VD= 26
+
+01:p0663
+V. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., CAREL RENIERS (EN  DE GEASSUMEERDE RADEN) ABRAHAM WELSING EN CORNELIS  VAN DER LIJN, BATAVIA 22 december 1638.  
+pid        ok   =V = INT_7b6b97b0-c636-3d82-b4d4-9dc41d95dd5b
+page       ok   =VD= 663
+seq        ok   =VD= V
+title      xx   =V = Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn; , 22 december 1638.
+           xx   = D= Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn; Batavia, 22 december 1638.  (EN DE GEASSUMEERDE RADEN) 
+author     ok   =VD= Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn
+authorFull ok   = D= Antonio van Diemen, Philips Lucasz, Carel Reniers, Abraham Welsing, Cornelis van der Lijn
+rawdate    ok   =VD= 22 december 1638
+place      ok   = D= Batavia
+year       ok   =VD= 1638
+month      ok   =VD= 12
+day        ok   =VD= 22
+
+01:p0734
+VI. ANTONIO VAN DIEMEN, PHILIPS LUCASZ, CAREL RENIERS (EN DE GEASSUMEERDE RADEN) ABRAHAM WELSING EN CORNELIS VAN DER LIJN, BATAVIA. 30 december 1638.
+pid        ok   =V = INT_2bba0f00-e9d9-3eb0-a670-22b5d1861ee8
+page       ok   =VD= 734
+seq        ok   =VD= VI
+title      xx   =V = Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn; , 30 december 1638.
+           xx   = D= Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn; Batavia, 30 december 1638.  (EN DE GEASSUMEERDE RADEN) 
+author     ok   =VD= Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn
+authorFull ok   = D= Antonio van Diemen, Philips Lucasz, Carel Reniers, Abraham Welsing, Cornelis van der Lijn
+rawdate    ok   =VD= 30 december 1638
+place      ok   = D= Batavia
+year       ok   =VD= 1638
+month      ok   =VD= 12
+day        ok   =VD= 30
+

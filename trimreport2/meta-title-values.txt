@@ -1,0 +1,128 @@
+head
+---------------
+  1x 01:p0018                  Both; , . ZONDER PLAATS DATUM
+  1x 01:p0021                  Both; Bantam, 1 januari 1614.
+  5x 01:p0028 01:p0029 ...     Both; Bantam, 10 november 1614.
+  3x 01:p0008 01:p0017 ...     Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612.
+  1x 01:p0004                  Both; Kasteel Nassau op Banda-Neira, 18 juli 1611.
+  1x 01:p0007                  Both; aan boord van de Vere voor Maleyo, 31 maart 1612.
+  1x 01:p0331                  Brouwer Dr, Vlack, Van der Burch; Batavia, 1 december 1632.
+  1x 01:p0366                  Brouwer Dr, Vlack, Ysbrantsz, Van der Burch; Batavia, 7 februari 1633.
+  1x 01:p0369                  Brouwer Dr, Vlack, Ysbrantsz, Van der Burch; Batavia, 8 februari 1633.
+  1x 01:p0373                  Brouwer, Van Diemen Dr, Vlack, Lucasz, Van der Burch; Batavia, 15 augustus 1633.
+  1x 01:p0393                  Brouwer, Van Diemen Dr, Vlack, Van der Burch Mr, Van den Heuvel; Batavia, 15 december 1633.
+  1x 01:p0438                  Brouwer, Van Diemen Dr, Vlack, Van der Burch; Batavia, 15 augustus 1634.
+  1x 01:p0435                  Brouwer, Van Diemen Dr, Vlack, Van der Burch; Batavia, 20 februari 1634.
+  1x 01:p0437                  Brouwer, Van Diemen Dr, Vlack, Van der Burch; Batavia, 5 maart 1634.
+  1x 01:p0507                  Brouwer, Van Diemen, Lucasz, Ysbrantsz, Gijsels, Van der Burch; Batavia, 4 januari 1636.
+  1x 01:p0453                  Brouwer, Van Diemen, Van der Burch, Van Broeckum; Batavia, 27 december 1634.
+  1x 01:p0491                  Brouwer, Van Diemen, Van der Burch; Batavia, 31 december 1635.
+  1x 01:p0482                  Brouwer; aan boord van de Utrecht nabij de Vlakke Hoek, 8 januari 1635.
+  1x 01:p0433                  Brouwer; aan boord van de Wesel in Straat Sunda, 25 december 1633.
+  1x 01:p0105                  Coen Dr, Sonck, Van; Schip, 6 mei 1621. NIEUW HOLLANDIA TER REDE BANDA NEIRA
+  1x 01:p0131                  De Carpentier, De Houtman, Dedel Dr, Sonck, Specx, Van Gorcom; Batavia, 3 januari 1624.
+  1x 01:p0129                  De Carpentier, De Houtman, Dedel Dr, Sonck, Specx; Batavia, 25 december 1623.
+  1x 01:p0148                  De Carpentier, Dedel Dr, Sonck, Specx, Van Gorcom; Batavia, 4 maart 1624.
+  1x 01:p0106                  De Carpentier, Dedel, Reyersz, Van Uffelen; Kasteel Jakatra, 9 juli 1621.
+  1x 01:p0099                  De Carpentier, Dedel; Kasteel Jakatra, 8 maart 1621.
+  1x 01:p0121                  De Carpentier, Jansz, Specx; Batavia, 1 februari 1623.
+  1x 01:p0172                  De Carpentier, Raden; Batavia, 13 augustus 1625.
+  1x 01:p0173                  De Carpentier, Raden; Batavia, 13 september 1625.
+  1x 01:p0203                  De Carpentier, Raden; Batavia, 15 februari 1626.
+  1x 01:p0239                  De Carpentier, Raden; Batavia, 2 februari 1627.
+  1x 01:p0126                  De Carpentier, Raden; Batavia, 24 februari 1623.
+  1x 01:p0235                  De Carpentier, Schram, Specx Dr, Vlack, Van Diemen; Batavia, 26 december 1626.
+  1x 01:p0234                  De Carpentier, Specx Dr, Vlack, Van Diemen, Schram; Batavia, 15 december 1626.
+  1x 01:p0204                  De Carpentier, Specx Dr, Vlack, Van Diemen; Batavia, 13 december 1626.
+  1x 01:p0152                  De Carpentier, Specx Dr, Vlack, Van Diemen; Batavia, 27 januari 1625.
+  1x 01:p0174                  De Carpentier, Specx Dr, Vlack, Van Diemen; Batavia, 27 oktober 1625.
+  1x 01:p0184                  De Carpentier, Specx Dr, Vlack, Van Diemen; Batavia, 3 februari 1626.
+  1x 01:p0240                  De Carpentier; Batavia, 29 juli 1627.
+  1x 01:p0074                  Reael; Amboina, 2 juli 1617.
+  1x 01:p0070                  Reael; Banda-Neira, 10 mei 1617.
+  1x 01:p0077                  Reael; Bantam, .  (17 december 1617?) 
+  1x 01:p0076                  Reael; Bantam, 10 november 1617.
+  1x 01:p0080                  Reael; Bantam, 17 december 1617.
+  1x 01:p0081                  Reael; Jakatra, 6 januari 1618.
+  1x 01:p0087                  Reael; Kasteel Mauritius nabij Ngofakiaha op Makéan, 20 augustus 1618.
+  1x 01:p0082                  Reael; Kasteel Nassau op Banda-Neira, 7 mei 1618.
+  1x 01:p0063                  Reael; Ternate, 18 juli 1616.
+  1x 01:p0068                  Reael; Ternate, 22 september 1616.
+  1x 01:p0085                  Reael; Wapen van Amsterdam voor Banda-Neira, 11 juli 1618.
+  1x 01:p0043                  Reynst; Bantam, 11 november 1614.
+  1x 01:p0046                  Reynst; Bantam, 26 oktober 1615.
+  1x 01:p0247                  Specx Dr, Vlack, Van Diemen, Nuyts, Van Raemburch; Batavia, 15 december 1629.
+  1x 01:p0279                  Specx Dr, Vlack, Van Diemen, Van der Burch; Batavia, 7 maart 1631.
+  1x 01:p0303                  Specx Dr, Vlack, Van der Burch, Gardenijs; Batavia, 6 januari 1632.
+  1x 01:p0658                  Van Diemen, Lucasz, Caen; Batavia, 26 december 1637.
+  1x 01:p0596                  Van Diemen, Lucasz, Gijsels, Caen; Batavia, 9 december 1637.
+  1x 01:p0554                  Van Diemen, Lucasz, Gijsels, Putmans, Ottens; Batavia, 28 december 1636. ANTONIOCAENENJOAN
+  1x 01:p0553                  Van Diemen, Lucasz, Gijsels, Van der Burch; Batavia, 2 februari 1636.
+  1x 01:p0663                  Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn; Batavia, 22 december 1638.  (EN DE GEASSUMEERDE RADEN) 
+  1x 01:p0734                  Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn; Batavia, 30 december 1638.  (EN DE GEASSUMEERDE RADEN) 
+  1x 01:p0302                  Van Diemen; in het Schip Deventer nabij de zuidpunt van Afrika, 5 juni 1631.
+  1x 01:p0056                  Van; , . BIJLAGE II
+meta
+---------------
+  1x 01:p0018                  ; , . Ongedateerd zonder plaats
+  1x 01:p0074                  ; Amboina, 2 juli 1617.
+  1x 01:p0070                  ; Banda-Neira, 10 mei 1617.
+  1x 01:p0021                  ; Bantam, 1 januari 1614.
+  5x 01:p0028 01:p0029 ...     ; Bantam, 10 november 1614.
+  1x 01:p0076                  ; Bantam, 10 november 1617.
+  1x 01:p0043                  ; Bantam, 11 november 1614.
+  1x 01:p0080                  ; Bantam, 17 december 1617.
+  1x 01:p0077                  ; Bantam, 17 december 1617.  (?)
+  1x 01:p0046                  ; Bantam, 26 oktober 1615.
+  3x 01:p0008 01:p0017 ...     ; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612.
+  1x 01:p0081                  ; Jakatra, 6 januari 1618.
+  1x 01:p0087                  ; Kasteel Mauritius nabij Ngofakiaha op Makéan, 20 augustus 1618.
+  1x 01:p0004                  ; Kasteel Nassau op Banda-Neira, 18 juli 1611.
+  1x 01:p0082                  ; Kasteel Nassau op Banda-Neira, 7 mei 1618.
+  1x 01:p0068                  ; Ternate, . 22 sept 1616
+  1x 01:p0063                  ; Ternate, 18 juli 1616.
+  1x 01:p0007                  ; Vere voor Maleyo, 31 maart 1612.
+  1x 01:p0085                  ; Wapen van Amsterdam voor Banda-Neira, 11 juli 1618.
+  1x 01:p0507                  Brouwer, Van Diemen, Lucasz, Ysbrantsz, Gijsels, Van der Burch; , 4 januari 1636.
+  1x 01:p0453                  Brouwer, Van Diemen, Van der Burch, Van Broeckum; , 27 december 1634.
+  1x 01:p0491                  Brouwer, Van Diemen, Van der Burch; , 31 december 1635.
+  1x 01:p0373                  Brouwer, Van Diemen, Vlack, Lucasz, Van der Burch; , 15 augustus 1633.
+  1x 01:p0393                  Brouwer, Van Diemen, Vlack, Van der Burch, Van den Heuvel; , 15 december 1633.
+  1x 01:p0435                  Brouwer, Van Diemen, Vlack, Van der Burch; , . 20 febr 1634
+  1x 01:p0438                  Brouwer, Van Diemen, Vlack, Van der Burch; , 15 augustus 1634.
+  1x 01:p0437                  Brouwer, Van Diemen, Vlack, Van der Burch; , 5 maart 1634.
+  1x 01:p0331                  Brouwer, Vlack, Van der Burch; , 1 december 1632.
+  1x 01:p0366                  Brouwer, Vlack, Ysbrantsz, Van der Burch; , . 7 febr 1633
+  1x 01:p0369                  Brouwer, Vlack, Ysbrantsz, Van der Burch; , . 8 febr 1633
+  1x 01:p0482                  Brouwer; Utrecht nabij de Vlakke Hoek, 8 januari 1635.
+  1x 01:p0433                  Brouwer; Wesel in Straat Sunda, 25 december 1633.
+  1x 01:p0105                  Coen, Sonck; Nieuw-Hollandia ter Rede van Banda-Neira, 6 mei 1621.
+  1x 01:p0131                  De Carpentier, De Houtman, Dedel, Sonck, Specx, Van Gorcom; , 3 januari 1624.
+  1x 01:p0129                  De Carpentier, De Houtman, Dedel, Specx; , 25 december 1623.
+  1x 01:p0106                  De Carpentier, Dedel, Reyersz, Van Uffelen; Kasteel Jakatra, 9 juli 1621. Cornelisz
+  1x 01:p0148                  De Carpentier, Dedel, Sonck, Specx, Van Gorcom; , 4 maart 1624.
+  1x 01:p0099                  De Carpentier, Dedel; Kasteel Jakatra, 8 maart 1621.
+  1x 01:p0173                  De Carpentier, Raden; , . 13 sept 1625
+  1x 01:p0203                  De Carpentier, Raden; , . 15 febr 1626
+  1x 01:p0239                  De Carpentier, Raden; , . 2 febr 1627
+  1x 01:p0126                  De Carpentier, Raden; , . 24 febr 1623
+  1x 01:p0172                  De Carpentier, Raden; , 13 augustus 1625.
+  1x 01:p0235                  De Carpentier, Schram, Specx, Vlack, Van Diemen; , 26 december 1626.
+  1x 01:p0234                  De Carpentier, Specx, Vlack, Van Diemen, Schram; , 15 december 1626.
+  1x 01:p0184                  De Carpentier, Specx, Vlack, Van Diemen; , . 3 febr 1626
+  1x 01:p0204                  De Carpentier, Specx, Vlack, Van Diemen; , 13 december 1626.
+  1x 01:p0152                  De Carpentier, Specx, Vlack, Van Diemen; , 17 januari 1625.
+  1x 01:p0174                  De Carpentier, Specx, Vlack, Van Diemen; , 27 oktober 1625.
+  1x 01:p0121                  De Carpentier, Specx; , . 1 febr 1623
+  1x 01:p0240                  De Carpentier; , 29 juli 1627.
+  1x 01:p0247                  Specx, Vlack, Van Diemen, Nuyts, Van; , 15 december 1629. Raemsburch
+  1x 01:p0279                  Specx, Vlack, Van Diemen, Van der Burch; , 7 maart 1631.
+  1x 01:p0303                  Specx, Vlack, Van der Burch, Gardenijs; , 6 januari 1632.
+  1x 01:p0658                  Van Diemen, Lucasz, Caen; , 26 december 1637.
+  1x 01:p0596                  Van Diemen, Lucasz, Gijsels, Caen; , 9 december 1637.
+  1x 01:p0554                  Van Diemen, Lucasz, Gijsels, Putmans, Caen, Ottens; , 28 december 1636.
+  1x 01:p0553                  Van Diemen, Lucasz, Gijsels, Van der Burch; , . 2 febr 1636
+  1x 01:p0663                  Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn; , 22 december 1638.
+  1x 01:p0734                  Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn; , 30 december 1638.
+  1x 01:p0302                  Van Diemen; Deventer nabij de zuidpunt van Afrika, 5 juni 1631.
+  1x 01:p0056                  Van de; , . Bijlage voorgaande brief

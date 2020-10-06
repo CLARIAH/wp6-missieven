@@ -1,8 +1,42 @@
 
 dstl:found:
 
-Batavia                       :  48x : 07:p0003 07:p0045
+Amboina                       :   1x : 01:p0074
+Banda-Neira                   :   1x : 01:p0070
+Bantam                        :  11x : 01:p0021 01:p0028
+Batavia                       : 520x : 01:p0121 01:p0126
+Fort Mauritius nabij Ngofakiaha op het eiland Makéan:   3x : 01:p0008 01:p0017
+Jakatra                       :   1x : 01:p0081
+Kasteel Jakatra               :   2x : 01:p0099 01:p0106
+Kasteel Mauritius nabij Ngofakiaha op Makéan:   1x : 01:p0087
+Kasteel Nassau op Banda-Neira :   2x : 01:p0004 01:p0082
+Schip                         :   1x : 01:p0105
+Ternate                       :   2x : 01:p0063 01:p0068
+Wapen van Amsterdam voor Banda-Neira:   1x : 01:p0085
+aan boord van de Utrecht nabij de Vlakke Hoek:   1x : 01:p0482
+aan boord van de Vere voor Maleyo:   1x : 01:p0007
+aan boord van de Wesel in Straat Sunda:   1x : 01:p0433
+in het Schip Deventer nabij de zuidpunt van Afrika:   1x : 01:p0302
+
+dstl:not-found:
+
+                              :   1x : 01:p0056
+
+meta:found:
+
+Amboina                       :   1x : 01:p0074
+Banda-Neira                   :   1x : 01:p0070
+Bantam                        :  12x : 01:p0021 01:p0028
+Fort Mauritius nabij Ngofakiaha op het eiland Makéan:   3x : 01:p0008 01:p0017
+Jakatra                       :   1x : 01:p0081
+Kasteel Jakatra               :   2x : 01:p0099 01:p0106
+Kasteel Mauritius nabij Ngofakiaha op Makéan:   1x : 01:p0087
+Kasteel Nassau op Banda-Neira :   2x : 01:p0004 01:p0082
+Ternate                       :   2x : 01:p0063 01:p0068
+Vere voor Maleyo              :   1x : 01:p0007
+Wapen van Amsterdam voor Banda-Neira:   1x : 01:p0085
+ter Rede van Banda-Neira      :   1x : 01:p0105
 
 meta:not-found:
 
-                              :  48x : 07:p0003 07:p0045
+                              : 461x : 01:p0018 01:p0121

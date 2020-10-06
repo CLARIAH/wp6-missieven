@@ -1,0 +1,114 @@
+head
+---------------
+  3x 01:p0018 01:p0056 ...     
+  1x 01:p0331                  1 december 1632
+  1x 01:p0121                  1 februari 1623
+  1x 01:p0021                  1 januari 1614
+  1x 01:p0070                  10 mei 1617
+  5x 01:p0028 01:p0029 ...     10 november 1614
+  1x 01:p0076                  10 november 1617
+  1x 01:p0085                  11 juli 1618
+  1x 01:p0043                  11 november 1614
+  1x 01:p0172                  13 augustus 1625
+  1x 01:p0204                  13 december 1626
+  1x 01:p0173                  13 september 1625
+  1x 01:p0373                  15 augustus 1633
+  1x 01:p0438                  15 augustus 1634
+  1x 01:p0234                  15 december 1626
+  1x 01:p0247                  15 december 1629
+  1x 01:p0393                  15 december 1633
+  1x 01:p0203                  15 februari 1626
+  1x 01:p0080                  17 december 1617
+  1x 01:p0004                  18 juli 1611
+  1x 01:p0063                  18 juli 1616
+  1x 01:p0239                  2 februari 1627
+  1x 01:p0553                  2 februari 1636
+  1x 01:p0074                  2 juli 1617
+  1x 01:p0087                  20 augustus 1618
+  1x 01:p0435                  20 februari 1634
+  1x 01:p0663                  22 december 1638
+  1x 01:p0068                  22 september 1616
+  1x 01:p0126                  24 februari 1623
+  1x 01:p0129                  25 december 1623
+  1x 01:p0433                  25 december 1633
+  1x 01:p0235                  26 december 1626
+  1x 01:p0658                  26 december 1637
+  3x 01:p0008 01:p0017 ...     26 juli 1612
+  1x 01:p0046                  26 oktober 1615
+  1x 01:p0453                  27 december 1634
+  1x 01:p0152                  27 januari 1625
+  1x 01:p0174                  27 oktober 1625
+  1x 01:p0554                  28 december 1636
+  1x 01:p0240                  29 juli 1627
+  1x 01:p0184                  3 februari 1626
+  1x 01:p0131                  3 januari 1624
+  1x 01:p0734                  30 december 1638
+  1x 01:p0491                  31 december 1635
+  1x 01:p0007                  31 maart 1612
+  1x 01:p0507                  4 januari 1636
+  1x 01:p0148                  4 maart 1624
+  1x 01:p0302                  5 juni 1631
+  1x 01:p0437                  5 maart 1634
+  1x 01:p0081                  6 januari 1618
+  1x 01:p0303                  6 januari 1632
+  1x 01:p0105                  6 mei 1621
+  1x 01:p0366                  7 februari 1633
+  1x 01:p0279                  7 maart 1631
+  1x 01:p0082                  7 mei 1618
+  1x 01:p0369                  8 februari 1633
+  1x 01:p0482                  8 januari 1635
+  1x 01:p0099                  8 maart 1621
+  1x 01:p0596                  9 december 1637
+  1x 01:p0106                  9 juli 1621
+meta
+---------------
+ 13x 01:p0018 01:p0056 ...     
+  1x 01:p0331                  1 december 1632
+  1x 01:p0021                  1 januari 1614
+  1x 01:p0070                  10 mei 1617
+  5x 01:p0028 01:p0029 ...     10 november 1614
+  1x 01:p0076                  10 november 1617
+  1x 01:p0085                  11 juli 1618
+  1x 01:p0043                  11 november 1614
+  1x 01:p0172                  13 augustus 1625
+  1x 01:p0204                  13 december 1626
+  1x 01:p0373                  15 augustus 1633
+  1x 01:p0438                  15 augustus 1634
+  1x 01:p0234                  15 december 1626
+  1x 01:p0247                  15 december 1629
+  1x 01:p0393                  15 december 1633
+  1x 01:p0080                  17 december 1617
+  1x 01:p0077                  17 december 1617 ?
+  1x 01:p0152                  17 januari 1625
+  1x 01:p0004                  18 juli 1611
+  1x 01:p0063                  18 juli 1616
+  1x 01:p0074                  2 juli 1617
+  1x 01:p0087                  20 augustus 1618
+  1x 01:p0663                  22 december 1638
+  1x 01:p0129                  25 december 1623
+  1x 01:p0433                  25 december 1633
+  1x 01:p0235                  26 december 1626
+  1x 01:p0658                  26 december 1637
+  3x 01:p0008 01:p0017 ...     26 juli 1612
+  1x 01:p0046                  26 oktober 1615
+  1x 01:p0453                  27 december 1634
+  1x 01:p0174                  27 oktober 1625
+  1x 01:p0554                  28 december 1636
+  1x 01:p0240                  29 juli 1627
+  1x 01:p0131                  3 januari 1624
+  1x 01:p0734                  30 december 1638
+  1x 01:p0491                  31 december 1635
+  1x 01:p0007                  31 maart 1612
+  1x 01:p0507                  4 januari 1636
+  1x 01:p0148                  4 maart 1624
+  1x 01:p0302                  5 juni 1631
+  1x 01:p0437                  5 maart 1634
+  1x 01:p0081                  6 januari 1618
+  1x 01:p0303                  6 januari 1632
+  1x 01:p0105                  6 mei 1621
+  1x 01:p0279                  7 maart 1631
+  1x 01:p0082                  7 mei 1618
+  1x 01:p0482                  8 januari 1635
+  1x 01:p0099                  8 maart 1621
+  1x 01:p0596                  9 december 1637
+  1x 01:p0106                  9 juli 1621

@@ -1,0 +1,104 @@
+head
+---------------
+ 12x 01:p0004 01:p0007 ...     Both
+ 10x 01:p0373 01:p0393 ...     Brouwer
+  3x 01:p0331 01:p0366 ...     Brouwer Dr
+  2x 01:p0596 01:p0658         Caen
+  1x 01:p0105                  Coen Dr
+ 18x 01:p0099 01:p0106 ...     De Carpentier
+  2x 01:p0129 01:p0131         De Houtman
+  2x 01:p0099 01:p0106         Dedel
+  3x 01:p0129 01:p0131 ...     Dedel Dr
+  1x 01:p0303                  Gardenijs
+  4x 01:p0507 01:p0553 ...     Gijsels
+  1x 01:p0121                  Jansz
+  8x 01:p0373 01:p0507 ...     Lucasz
+  1x 01:p0247                  Nuyts
+  1x 01:p0554                  Ottens
+  1x 01:p0554                  Putmans
+  5x 01:p0126 01:p0172 ...     Raden
+ 11x 01:p0063 01:p0068 ...     Reael
+  2x 01:p0663 01:p0734         Reniers
+  1x 01:p0106                  Reyersz
+  2x 01:p0043 01:p0046         Reynst
+  2x 01:p0234 01:p0235         Schram
+  4x 01:p0105 01:p0129 ...     Sonck
+  4x 01:p0121 01:p0129 ...     Specx
+  9x 01:p0152 01:p0174 ...     Specx Dr
+  2x 01:p0056 01:p0105         Van
+  1x 01:p0453                  Van Broeckum
+ 18x 01:p0152 01:p0174 ...     Van Diemen
+  5x 01:p0373 01:p0393 ...     Van Diemen Dr
+  2x 01:p0131 01:p0148         Van Gorcom
+  1x 01:p0247                  Van Raemburch
+  1x 01:p0106                  Van Uffelen
+  1x 01:p0393                  Van den Heuvel
+ 13x 01:p0279 01:p0303 ...     Van der Burch
+  1x 01:p0393                  Van der Burch Mr
+  2x 01:p0663 01:p0734         Van der Lijn
+ 17x 01:p0152 01:p0174 ...     Vlack
+  2x 01:p0663 01:p0734         Welsing
+  3x 01:p0366 01:p0369 ...     Ysbrantsz
+meta
+---------------
+ 26x 01:p0004 01:p0007 ...     
+ 14x 01:p0331 01:p0366 ...     Brouwer
+  1x 01:p0482                  Brouwer, De
+  1x 01:p0507                  Brouwer, Van Diemen, Lucasz, Ysbrantsz, Gijsels, Van der Burch
+  1x 01:p0491                  Brouwer, Van Diemen, Van der Burch
+  1x 01:p0453                  Brouwer, Van Diemen, Van der Burch, Van Broeckum
+  1x 01:p0373                  Brouwer, Van Diemen, Vlack, Lucasz, Van der Burch
+  3x 01:p0435 01:p0437 ...     Brouwer, Van Diemen, Vlack, Van der Burch
+  1x 01:p0393                  Brouwer, Van Diemen, Vlack, Van der Burch, Van den Heuvel
+  1x 01:p0331                  Brouwer, Vlack, Van der Burch
+  2x 01:p0366 01:p0369         Brouwer, Vlack, Ysbrantsz, Van der Burch
+  3x 01:p0554 01:p0596 ...     Caen
+  1x 01:p0105                  Coen
+  1x 01:p0105                  Coen, Sonck
+  1x 01:p0482                  De
+ 19x 01:p0099 01:p0106 ...     De Carpentier
+  1x 01:p0131                  De Carpentier, De Houtman, Dedel, Sonck, Specx, Van Gorcom
+  1x 01:p0129                  De Carpentier, De Houtman, Dedel, Specx
+  1x 01:p0099                  De Carpentier, Dedel
+  1x 01:p0106                  De Carpentier, Dedel, Reyersz, Van Uffelen
+  1x 01:p0148                  De Carpentier, Dedel, Sonck, Specx, Van Gorcom
+  5x 01:p0126 01:p0172 ...     De Carpentier, Raden
+  1x 01:p0235                  De Carpentier, Schram, Specx, Vlack, Van Diemen
+  1x 01:p0121                  De Carpentier, Specx
+  4x 01:p0152 01:p0174 ...     De Carpentier, Specx, Vlack, Van Diemen
+  1x 01:p0234                  De Carpentier, Specx, Vlack, Van Diemen, Schram
+  2x 01:p0129 01:p0131         De Houtman
+  1x 01:p0302                  De van
+  5x 01:p0099 01:p0106 ...     Dedel
+  1x 01:p0303                  Gardenijs
+  4x 01:p0507 01:p0553 ...     Gijsels
+  8x 01:p0373 01:p0507 ...     Lucasz
+  1x 01:p0247                  Nuyts
+  1x 01:p0554                  Ottens
+  1x 01:p0554                  Putmans
+  5x 01:p0126 01:p0172 ...     Raden
+  2x 01:p0663 01:p0734         Reniers
+  1x 01:p0106                  Reyersz
+  2x 01:p0234 01:p0235         Schram
+  3x 01:p0105 01:p0131 ...     Sonck
+ 13x 01:p0121 01:p0129 ...     Specx
+  1x 01:p0247                  Specx, Vlack, Van Diemen, Nuyts, Van
+  1x 01:p0279                  Specx, Vlack, Van Diemen, Van der Burch
+  1x 01:p0303                  Specx, Vlack, Van der Burch, Gardenijs
+  1x 01:p0247                  Van
+  1x 01:p0453                  Van Broeckum
+ 23x 01:p0152 01:p0174 ...     Van Diemen
+  1x 01:p0302                  Van Diemen, De van
+  1x 01:p0658                  Van Diemen, Lucasz, Caen
+  1x 01:p0596                  Van Diemen, Lucasz, Gijsels, Caen
+  1x 01:p0554                  Van Diemen, Lucasz, Gijsels, Putmans, Caen, Ottens
+  1x 01:p0553                  Van Diemen, Lucasz, Gijsels, Van der Burch
+  2x 01:p0663 01:p0734         Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn
+  2x 01:p0131 01:p0148         Van Gorcom
+  1x 01:p0106                  Van Uffelen
+  1x 01:p0393                  Van den Heuvel
+ 14x 01:p0279 01:p0303 ...     Van der Burch
+  2x 01:p0663 01:p0734         Van der Lijn
+ 17x 01:p0152 01:p0174 ...     Vlack
+  2x 01:p0663 01:p0734         Welsing
+  3x 01:p0366 01:p0369 ...     Ysbrantsz

@@ -1,0 +1,41 @@
+head
+---------------
+  2x 01:p0663 01:p0734         Abraham Welsing
+  1x 01:p0106                  Abraham van Uffelen
+  2x 01:p0596 01:p0658         Antonio Caen
+ 18x 01:p0152 01:p0174 ...     Antonio van Diemen
+  5x 01:p0373 01:p0393 ...     Antonio van Diemen Dr
+  1x 01:p0393                  Antonio van den Heuvel
+  1x 01:p0303                  Arent Gardenijs
+  4x 01:p0507 01:p0553 ...     Artus Gijsels
+  2x 01:p0663 01:p0734         Carel Reniers
+  1x 01:p0106                  Cornelis Reyersz
+  2x 01:p0663 01:p0734         Cornelis van der Lijn
+  1x 01:p0247                  Crijn van Raemburch
+  2x 01:p0129 01:p0131         Frederick de Houtman
+  2x 01:p0043 01:p0046         Gerard Reynst
+  1x 01:p0554                  Hans Putmans
+ 10x 01:p0373 01:p0393 ...     Henrick Brouwer
+  3x 01:p0331 01:p0366 ...     Henrick Brouwer Dr
+  2x 01:p0099 01:p0106         Jacob Dedel
+  3x 01:p0129 01:p0131 ...     Jacob Dedel Dr
+  4x 01:p0121 01:p0129 ...     Jacques Specx
+  9x 01:p0152 01:p0174 ...     Jacques Specx Dr
+  1x 01:p0105                  Jan Pietersz Coen Dr
+  1x 01:p0453                  Jan van Broeckum
+  2x 01:p0131 01:p0148         Jan van Gorcom
+ 13x 01:p0279 01:p0303 ...     Jan van der Burch
+  1x 01:p0393                  Jan van der Burch Mr
+ 11x 01:p0063 01:p0068 ...     Laurens Reael
+  3x 01:p0366 01:p0369 ...     Maerten Ysbrantsz
+  4x 01:p0105 01:p0129 ...     Martinus Sonck
+  1x 01:p0554                  Ottens
+  8x 01:p0373 01:p0507 ...     Philips Lucasz
+ 12x 01:p0004 01:p0007 ...     Pieter Both
+  1x 01:p0247                  Pieter Nuyts
+ 17x 01:p0152 01:p0174 ...     Pieter Vlack
+ 18x 01:p0099 01:p0106 ...     Pieter de Carpentier
+  5x 01:p0126 01:p0172 ...     Raden
+  2x 01:p0056 01:p0105         Van
+  2x 01:p0234 01:p0235         Wijbrant Schram
+  1x 01:p0121                  Willem Jansz
