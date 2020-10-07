@@ -1,7 +1,7 @@
 # Source format
 
 The source data for the TF conversion is in 
-[TEI format NAF](https://tei-c.org).
+[TEI format](https://tei-c.org).
 
 ## Header
 

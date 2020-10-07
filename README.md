@@ -18,6 +18,10 @@ Status
 
 This is **work in progress!**
 
+*   2020-10-07 Many checks have been performed, many structural corrections w.r.t the TEI source have been performed,
+    the metadata of all metadata has been thoroughly checked and corrected.
+    See the reports in
+    [trimreport2](trimreport2).
 *   2020-09-16 First TF dataset created, but incomplete (notes are left out, checks needed)
     See 
     [last trimTei run](log-trimTei.txt)
@@ -59,12 +63,21 @@ they will publish their materials in due course.
 Text-Fabric
 --------------------------------------
 
-The CLARIAH WP6 people kindly provided me with the TEI version of the corpus.
+The CLARIAH WP6 people kindly provided me with a TEI version of the corpus.
 
 From there I made a conversion
 [trimTei.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei.py)
 to simplified pseudo TEI, leaving out all bits that do not end up in the final dataset,
 and reorganizing some material to facilitate the conversion to TF.
+
+However, this TEI version contains many inaccuracies.
+There are many instances of miscategorized material: page headers and footers end up in body text and vice versa;
+editorial notes and footnotes are not always properly detected; dozens of letters have not been separated;
+metadata is often incoorect.
+
+In order to produce a quality dataset, I needed to do something about it: checks and corrections.
+In particular, all metadata has been freshly distilled from the letter headings, an in case of doubt the
+online images of the missives have been inspected.
 
 Then I used the
 [walker module from TF](https://annotation.github.io/text-fabric/convert/walker.html#gsc.tab=0)

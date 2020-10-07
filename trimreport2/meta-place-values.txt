@@ -4,13 +4,13 @@ head
   1x 01:p0074                  Amboina
   1x 01:p0070                  Banda-Neira
  11x 01:p0021 01:p0028 ...     Bantam
- 36x 01:p0121 01:p0126 ...     Batavia
+522x 01:p0121 01:p0126 ...     Batavia
   3x 01:p0008 01:p0017 ...     Fort Mauritius nabij Ngofakiaha op het eiland Makéan
   1x 01:p0081                  Jakatra
   2x 01:p0099 01:p0106         Kasteel Jakatra
   1x 01:p0087                  Kasteel Mauritius nabij Ngofakiaha op Makéan
   2x 01:p0004 01:p0082         Kasteel Nassau op Banda-Neira
-  1x 01:p0105                  Schip
+  1x 01:p0105                  Schip Nieuw Hollandia ter Rede van Banda-Neira 
   2x 01:p0063 01:p0068         Ternate
   1x 01:p0085                  Wapen van Amsterdam voor Banda-Neira
   1x 01:p0482                  aan boord van de Utrecht nabij de Vlakke Hoek
@@ -19,10 +19,11 @@ head
   1x 01:p0302                  in het Schip Deventer nabij de zuidpunt van Afrika
 meta
 ---------------
- 41x 01:p0018 01:p0056 ...     
+462x 01:p0018 01:p0056 ...     
   1x 01:p0074                  Amboina
   1x 01:p0070                  Banda-Neira
  11x 01:p0021 01:p0028 ...     Bantam
+ 66x 06:p0402 09:p0325 ...     Batavia
   3x 01:p0008 01:p0017 ...     Fort Mauritius nabij Ngofakiaha op het eiland Makéan
   1x 01:p0081                  Jakatra
   2x 01:p0099 01:p0106         Kasteel Jakatra
