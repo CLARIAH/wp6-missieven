@@ -599,10 +599,13 @@ def clearTree(path):
 
 
 def initTree(path, fresh=False):
+    exists = os.path.exists(path)
     if fresh:
-        if os.path.exists(path):
+        if exists:
             clearTree(path)
-    os.makedirs(path, exist_ok=True)
+
+    if not exists:
+        os.makedirs(path, exist_ok=True)
 
 
 # SOURCE READING
@@ -717,6 +720,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         SRC = f"{TRIM_DIR}{stage - 1}"
     DST = f"{TRIM_DIR}{stage}"
     REP = f"{REPORT_DIR}{stage}"
+    initTree(REP)
 
     volumes = getVolumes(SRC)
 
@@ -745,6 +749,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         folioFalse=collections.defaultdict(list),
         folioUndecided=collections.defaultdict(lambda: collections.defaultdict(list)),
         headInfo=collections.defaultdict(list),
+        remarkInfo=collections.defaultdict(lambda: collections.defaultdict(list)),
         heads={},
         bigTitle={},
         splits=[],
@@ -981,7 +986,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         with open(f"{REP}/heads.tsv", "w") as fh:
             for doc in noHeads:
                 fh.write(f"{doc} NO\n")
-            for (mainDoc, (doc, head)) in shortHeads:
+            for (doc, head) in shortHeads:
                 fh.write(f"{doc} =SHORT=> {head}\n")
             for (doc, head) in singleHeads:
                 etc = " ... " if len(head) > 70 else ""
@@ -1090,6 +1095,25 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         with open(f"{REP}/heads.tsv", "w") as fh:
             for (doc, head) in heads.items():
                 fh.write(f"{doc} {head}\n")
+
+    elif stage == 3:
+        print("REMARKS:\n")
+        remarkInfo = info["remarkInfo"]
+        with open(f"{REP}/remarks.tsv", "w") as fh:
+            for label in ("xx", "ok"):
+                thisRemarkInfo = remarkInfo[label]
+
+                nPatterns = len(thisRemarkInfo)
+                nRemarks = sum(len(x) for x in thisRemarkInfo.values())
+                msg = (
+                    f"{label}: {nPatterns:>4} remarks patterns"
+                    f" in {nRemarks} occurrences"
+                )
+                print(f"\t{msg}")
+                fh.write(f"{msg}\n\n")
+
+                for summary in sorted(thisRemarkInfo):
+                    fh.write(f"{summary} {docSummary(thisRemarkInfo[summary])}\n")
 
     return True
 
@@ -1379,6 +1403,9 @@ META_KEY_TRANS_DEF = tuple(
         "\n"
     )
 )
+
+META_KEY_NO_TRANS = {"authorFull", "status"}
+
 META_KEY_IGNORE = set(
     """
         tocLevel
@@ -1389,7 +1416,9 @@ META_KEY_IGNORE = set(
     """.strip().split()
 )
 
-META_KEY_TRANS = {old: new for (new, old) in META_KEY_TRANS_DEF}
+META_KEY_TRANS = {
+    old: new for (new, old) in META_KEY_TRANS_DEF if new not in META_KEY_NO_TRANS
+}
 META_KEY_ORDER = tuple(x[0] for x in META_KEY_TRANS_DEF)
 COLOFON_KEYS = META_KEY_ORDER[5:]
 META_KEYS = {x[1] for x in META_KEY_TRANS_DEF}
@@ -2912,10 +2941,15 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
         text = DIV_CLEAN_RE.sub(r"", text)
 
     prevMatch = 0
-    lastNote = []
+    previous = {}
     result = []
 
     def doPage(page, *args, **kwargs):
+        if page is None:
+            if processPage is not None:
+                processPage(None, previous, result, info, *args, **kwargs)
+            return
+
         match = PAGE_NUM_RE.search(page)
         pageNum = f"-{match.group(1):>04}" if match else ""
         info["page"] = f"{info['doc']}{pageNum}"
@@ -2926,7 +2960,7 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
         if processPage is None:
             page = trimPage(page, info, *args, **kwargs)
         else:
-            processPage(page, lastNote, result, info, *args, **kwargs)
+            processPage(page, previous, result, info, *args, **kwargs)
 
         page = LB_RE.sub(r"""<lb/>\n""", page)
         page = PB_RE.sub(r"""\n\n\g<0>\n\n""", page)
@@ -2948,6 +2982,7 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
     if prevMatch < len(text):
         thisPage = text[prevMatch:].strip()
         doPage(thisPage, *args, **kwargs)
+    doPage(None, *args, kwargs)
 
     body = "".join(result)
 

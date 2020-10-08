@@ -5,9 +5,10 @@ from lib import REPO, VERSION_SRC, trim
 from trimTei0 import trimPage as t0, processPage as p0
 from trimTei1 import trimPage as t1, processPage as p1
 from trimTei2 import trimPage as t2, processPage as p2
+from trimTei3 import trimPage as t3, processPage as p3
 
-trimPage = [t0, t1, t2]
-processPage = [p0, p1, p2]
+trimPage = [t0, t1, t2, t3]
+processPage = [p0, p1, p2, p3]
 
 
 HELP = f"""
