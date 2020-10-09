@@ -26,9 +26,12 @@ LARGEX_RE = re.compile(r"""<hi rend="xlarge[^"]*">(.*?)</hi>""", re.S)
 SUPER_RE = re.compile(r"""<hi rend="super[^"]*">(.*?)</hi>""", re.S)
 REF_RE = re.compile(r"""<hi>(.*?)</hi>""", re.S)
 REMARK_NOTE_RE = re.compile(r"""<note\b[^>]*?\bresp="editor"[^>]*>(.*?)</note>""", re.S)
+REMARK_EXTRA_RE = re.compile(r"""<note\b[^>]*>(\(.*?)</note>""", re.S)
 REMARK_EMPH_RE = re.compile(
     r"""(<remark>)\s*<emph>(.*?)</emph>(.*?)(</remark>)""", re.S
 )
+REMARK_STRIP_RE = re.compile(r"""</?remark>""")
+NOTE_STRIP_RE = re.compile(r"""</?note>""")
 
 
 def formatTablePre(info):
@@ -38,6 +41,7 @@ def formatTablePre(info):
 def formatTable(match, info):
     info["table"] += 1
     n = info["table"]
+    remarkInfo = info["remarks"]
 
     table = match.group(1)
     table = DEL_TBL_ELEM.sub(r" ", table)
@@ -49,23 +53,32 @@ def formatTable(match, info):
     result.append(f"""\n<table n="{n}">""")
     rows = ROW_RE.findall(table)
 
+    nCells = 0
     for (r, row) in enumerate(rows):
         result.append(f"""<row n="{n}" row="{r + 1}">""")
         cells = CELL_RE.findall(row)
+        nCells += len(cells)
 
         for (c, cell) in enumerate(cells):
+            cell = NOTE_STRIP_RE.sub("", cell)
             result.append(
                 f"""<cell n="{n}" row="{r + 1}" col="{c + 1}">{cell}</cell>"""
             )
         result.append("</row>")
 
     result.append("</table>\n")
+    table = "\n".join(result)
+    (table, nRemarks) = REMARK_STRIP_RE.subn(r"", table)
+    nRemarks //= 2
+    if nRemarks > nCells // 2:
+        table = f"<remark>\n{table}</remark>"
+        remarkInfo["n"] -= nRemarks
 
-    return "\n".join(result)
+    return table
 
 
 def trimPage(text, info, *args, **kwargs):
-    text = TABLE_RE.sub(formatTablePre(info), text)
+    remarkInfo = info["remarks"]
     text = P_RE.sub(r"""\1para""", text)
     text = DELETE_REND_RE.sub(r"\1", text)
     text = EMPH_RE.sub(r"<emph>\1</emph>", text)
@@ -75,7 +88,11 @@ def trimPage(text, info, *args, **kwargs):
     text = SMALLX_RE.sub(r"<special>\1</special>", text)
     text = LARGE_RE.sub(r"\1", text)
     text = LARGEX_RE.sub(r"<special>\1</special>", text)
-    text = REMARK_NOTE_RE.sub(r"""\n<remark>\1</remark>\n""", text)
+    (text, nR) = REMARK_NOTE_RE.subn(r"""\n<remark>\1</remark>\n""", text)
+    (text, nRx) = REMARK_EXTRA_RE.subn(r"""\n<remark>\1</remark>\n""", text)
+    remarkInfo["n"] += nR
+    remarkInfo["nx"] += nRx
     text = REMARK_EMPH_RE.sub(r"""\1\2\3\4""", text)
     text = REF_RE.sub(r"""[\1]""", text)
+    text = TABLE_RE.sub(formatTablePre(info), text)
     return text

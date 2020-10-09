@@ -199,7 +199,7 @@
  hi.rend=font-size:10; font-family:Liberation Sans; font-weight:bold; vertical-align:sub	1
  hi.rend=font-size:10; font-family:Liberation Sans; text-decoration:underline; font-variant:small-caps	1
  hi.rend=font-size:10; font-family:Liberation Sans; vertical-align:super	1
- hi.rend=font-size:10; font-family:Liberation Serif	7701
+ hi.rend=font-size:10; font-family:Liberation Serif	7696
  hi.rend=font-size:10; font-family:Liberation Serif; font-style:italic	912
  hi.rend=font-size:10; font-family:Liberation Serif; font-style:italic; font-variant:small-caps	3
  hi.rend=font-size:10; font-family:Liberation Serif; font-style:italic; font-weight:bold	20
@@ -258,7 +258,7 @@
  hi.rend=font-size:11; font-family:Liberation Sans	4
  hi.rend=font-size:11; font-family:Liberation Sans; font-style:italic	2
  hi.rend=font-size:11; font-family:Liberation Serif	1135
- hi.rend=font-size:11; font-family:Liberation Serif; font-style:italic	713
+ hi.rend=font-size:11; font-family:Liberation Serif; font-style:italic	712
  hi.rend=font-size:11; font-family:Liberation Serif; font-style:italic; font-variant:small-caps	2
  hi.rend=font-size:11; font-family:Liberation Serif; font-style:italic; font-weight:bold	36
  hi.rend=font-size:11; font-family:Liberation Serif; font-style:italic; font-weight:bold; font-variant:small-caps	1
@@ -386,7 +386,7 @@
  hi.rend=font-size:4; font-family:Liberation Sans	2
  hi.rend=font-size:4; font-family:Liberation Sans; font-style:italic	1
  hi.rend=font-size:4; font-family:Liberation Sans; letter-spacing:1.0pt	1
- hi.rend=font-size:4; font-family:Liberation Serif	350
+ hi.rend=font-size:4; font-family:Liberation Serif	349
  hi.rend=font-size:4; font-family:Liberation Serif; font-style:italic	6
  hi.rend=font-size:4; font-family:Liberation Serif; font-style:italic; font-weight:bold	1
  hi.rend=font-size:4; font-family:Liberation Serif; font-style:italic; letter-spacing:0.5pt	2
@@ -659,7 +659,6 @@
  note.rend=font-size: 10.5; font-variant: small-caps; line-height: 28.8pt; text-indent: 30.0pt	1
  note.rend=font-size: 10.5; font-variant: small-caps; line-height: 29.1pt; text-indent: 27.0pt	1
  note.rend=font-size: 10.5; font-variant: small-caps; line-height: 29.1pt; text-indent: 31.0pt	1
- note.rend=font-size: 10.5; font-variant: small-caps; line-height: 29.7pt; text-indent: 27.0pt	1
  note.rend=font-size: 10.5; font-variant: small-caps; text-align: justify; line-height: 14.4pt	2
  note.rend=font-size: 10.5; font-weight: bold; line-height: 11.4pt; text-indent: 28.0pt	1
  note.rend=font-size: 10.5; font-weight: bold; line-height: 11.6pt; margin-left: 2800	1
@@ -871,7 +870,7 @@
  note.rend=font-size: 11; font-style: italic; text-align: justify; line-height: 12.2pt	16
  note.rend=font-size: 11; font-style: italic; text-align: justify; line-height: 14.1pt	4
  note.rend=font-size: 11; font-style: italic; text-align: justify; line-height: 14.4pt	974
- note.rend=font-size: 11; font-style: italic; text-align: justify; line-height: 14.7pt	85
+ note.rend=font-size: 11; font-style: italic; text-align: justify; line-height: 14.7pt	84
  note.rend=font-size: 11; font-style: italic; text-align: justify; line-height: 15.0pt	6
  note.rend=font-size: 11; font-style: italic; text-align: justify; line-height: 15.6pt	1
  note.rend=font-size: 11; font-style: italic; text-align: right; line-height: 12.2pt	10
@@ -2040,7 +2039,7 @@
  note.rend=font-style: italic; line-height: 14.4pt; text-indent: 26.0pt; text-align: justify; font-size: 12	263
  note.rend=font-style: italic; line-height: 14.4pt; text-indent: 26.0pt; text-align: justify; font-weight: bold; font-size: 11	24
  note.rend=font-style: italic; line-height: 14.4pt; text-indent: 26.0pt; text-align: justify; font-weight: bold; font-size: 12	7
- note.rend=font-style: italic; line-height: 14.4pt; text-indent: 27.0pt; text-align: justify; font-size: 11	745
+ note.rend=font-style: italic; line-height: 14.4pt; text-indent: 27.0pt; text-align: justify; font-size: 11	750
  note.rend=font-style: italic; line-height: 14.4pt; text-indent: 27.0pt; text-align: justify; font-size: 11.5	5
  note.rend=font-style: italic; line-height: 14.4pt; text-indent: 27.0pt; text-align: justify; font-size: 12	226
  note.rend=font-style: italic; line-height: 14.4pt; text-indent: 27.0pt; text-align: justify; font-weight: bold; font-size: 11	17
@@ -2074,7 +2073,7 @@
  note.rend=font-style: italic; line-height: 14.7pt; text-indent: 26.0pt; text-align: justify; font-size: 11.5	1
  note.rend=font-style: italic; line-height: 14.7pt; text-indent: 26.0pt; text-align: justify; font-size: 12	31
  note.rend=font-style: italic; line-height: 14.7pt; text-indent: 26.0pt; text-align: justify; font-weight: bold; font-size: 11	1
- note.rend=font-style: italic; line-height: 14.7pt; text-indent: 27.0pt; text-align: justify; font-size: 11	78
+ note.rend=font-style: italic; line-height: 14.7pt; text-indent: 27.0pt; text-align: justify; font-size: 11	77
  note.rend=font-style: italic; line-height: 14.7pt; text-indent: 27.0pt; text-align: justify; font-size: 11.5	2
  note.rend=font-style: italic; line-height: 14.7pt; text-indent: 27.0pt; text-align: justify; font-size: 12	38
  note.rend=font-style: italic; line-height: 14.7pt; text-indent: 27.0pt; text-align: justify; font-weight: bold; font-size: 11	2
@@ -2425,7 +2424,7 @@
  p.rend=font-size: 10.5; font-variant: small-caps; line-height: 14.7pt	14
  p.rend=font-size: 10.5; font-variant: small-caps; text-align: justify; line-height: 11.6pt	18
  p.rend=font-size: 10.5; font-variant: small-caps; text-align: justify; line-height: 14.1pt	2
- p.rend=font-size: 10.5; font-variant: small-caps; text-align: justify; line-height: 14.4pt	333
+ p.rend=font-size: 10.5; font-variant: small-caps; text-align: justify; line-height: 14.4pt	336
  p.rend=font-size: 10.5; font-variant: small-caps; text-align: justify; line-height: 14.7pt	50
  p.rend=font-size: 10.5; font-variant: small-caps; text-align: justify; line-height: 15.0pt	1
  p.rend=font-size: 10.5; font-variant: small-caps; text-align: right; line-height: 11.6pt	1
@@ -3744,7 +3743,7 @@
  p.rend=font-size: 12; text-align: justify; line-height: 14.4pt; text-indent: 18.0pt	23
  p.rend=font-size: 12; text-align: justify; line-height: 14.4pt; text-indent: 25.0pt	3
  p.rend=font-size: 12; text-align: justify; line-height: 14.4pt; text-indent: 26.0pt	196
- p.rend=font-size: 12; text-align: justify; line-height: 14.4pt; text-indent: 27.0pt	181
+ p.rend=font-size: 12; text-align: justify; line-height: 14.4pt; text-indent: 27.0pt	180
  p.rend=font-size: 12; text-align: justify; line-height: 14.4pt; text-indent: 28.0pt	12
  p.rend=font-size: 12; text-align: justify; line-height: 14.4pt; text-indent: 29.0pt	4
  p.rend=font-size: 12; text-align: justify; line-height: 14.4pt; text-indent: 30.0pt	503
@@ -5885,13 +5884,13 @@ body..	569
 cell..	21622
 fw.facs=#zone.nnnnn	222
 fw.facs=#zone.nnnnnn	2335
-fw.facs=#zone.nnnnnnn	12797
-fw.place=top	15354
-fw.type=bottom-page-number	4731
-fw.type=head	10842
+fw.facs=#zone.nnnnnnn	12796
+fw.place=top	15353
+fw.type=bottom-page-number	4730
+fw.type=head	10841
 fw.type=page-number	4512
 header..	569
-lb..	537253
+lb..	537248
 meta.key=author	491
 meta.key=day	487
 meta.key=month	486
@@ -5903,10 +5902,10 @@ meta.key=seq	569
 meta.key=title	569
 meta.key=year	487
 meta.value=x	4746
-note.place=inline	25111
-note.resp=editor	25111
-note.type=editorial-summary	25111
-p.resp=int_paragraph_joining	13101
+note.place=inline	25113
+note.resp=editor	25113
+note.type=editorial-summary	25113
+p.resp=int_paragraph_joining	13102
 pb.facs=n_nnn_nnnn	6310
 pb.facs=nnn_nnn	3513
 pb.facs=nnn_nnnn	1162

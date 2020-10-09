@@ -16,12 +16,86 @@ def longestFirst(x):
     return -len(x)
 
 
+def applyCorrections(corrections, doc, text):
+    if doc in corrections:
+        for (correctRe, correctRepl) in corrections[doc]:
+            (text, n) = correctRe.subn(correctRepl, text)
+            if n == 0:
+                print(text)
+                print(f"\tCORRECTION {doc} {correctRe.pattern} did not apply")
+            elif n > 1:
+                print(text)
+                print(f"\tCORRECTION {doc} {correctRe.pattern} applied {n} times")
+    return text
+
+
 # SOURCE CORRECTIONS
 
-HARD_CORRECTIONS = {
+CORRECTIONS = {
+    "02:p0480": ((re.compile(r"""<p\b[^>]*>p\.r cento<lb/>\s*</p>\s*""", re.S), r""),),
     "04:p0496": ((re.compile(r"""I( en 9 maart 1683)""", re.S), r"""1\1"""),),
+    "05:p0439": ((re.compile(r"""<p\b[^>]*>i<lb/>\s*</p>\s*""", re.S), r""),),
+    "05:p0779": (
+        (
+            re.compile(
+                r"""
+                    (
+                        <pb\ n="793"[^>]*>
+                        \s*
+                        <fw\b[^>]*>[^<]*</fw>
+                        \s*
+                    )
+                    <note\b[^>]*>(.*?)</note>
+                """,
+                re.S | re.X,
+            ),
+            r"\1<p>\2</p>",
+        ),
+    ),
+    "06:p0844": (
+        (
+            re.compile(
+                r"""
+                    <p\b[^>]*>([^<]*)<lb/>\s*</p>
+                    (
+                        \s*
+                        <pb\ n="894"[^>]*>
+                    )
+                """,
+                re.S | re.X,
+            ),
+            r"<note>\1</note>\2",
+        ),
+    ),
     "07:p0003": ((re.compile(r"""(<head\b[^>]*>)(CHRIS)""", re.S), r"""\1I. \2"""),),
     "07:p0660": ((re.compile(r"""(<head\b[^>]*>XX)L""", re.S), r"""\1II"""),),
+    "09:p0233": (
+        (
+            re.compile(
+                r"""
+                    <head\b[^>]*>
+                        [^<]*
+                        <lb/>
+                        \s*
+                    </head>
+                    \s*
+                    <p\b[^>]*>
+                        [^<]*
+                        <lb/>
+                        \s*
+                    </p>
+                    \s*
+                    <fw\b[^>]*>
+                        [^<]*
+                    </fw>
+                    \s*
+                    (<pb\ n="254")
+                """,
+                re.S | re.X,
+            ),
+            r"\1",
+        ),
+    ),
     "10:p0857": ((re.compile(r"""decem¬ber""", re.S), r"""december"""),),
     "10:p0749": (
         (
@@ -749,6 +823,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
         folioFalse=collections.defaultdict(list),
         folioUndecided=collections.defaultdict(lambda: collections.defaultdict(list)),
         headInfo=collections.defaultdict(list),
+        remarks=collections.Counter(),
         remarkInfo=collections.defaultdict(lambda: collections.defaultdict(list)),
         heads={},
         bigTitle={},
@@ -811,12 +886,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                     text = fh.read()
 
             if stage == 1:
-                if doc in HARD_CORRECTIONS:
-                    for (pattern, replacement) in HARD_CORRECTIONS[doc]:
-                        (text, n) = pattern.subn(replacement, text)
-                        if not n:
-                            print(f"\nHARD REPLACEMENT FAILED on {doc}:")
-                            print(f"\t{pattern} => {replacement}")
+                text = applyCorrections(CORRECTIONS, doc, text)
 
             origText = text
 
@@ -1008,6 +1078,12 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                     fh.write(f"\t{sHead}\n\t===versus===\n\t{mHead}\n")
 
     elif stage == 2:
+        remarkInfo = info["remarks"]
+
+        print("REMARKS:")
+        for (label, amount) in remarkInfo.items():
+            print(f"\t{label:<5}: {amount:>5} generated")
+
         nameDiag = info["nameDiag"]
         metaValues = info["metaValues"]
         metaDiag = info["metaDiag"]
@@ -1099,39 +1175,42 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     elif stage == 3:
         print("REMARKS:\n")
         remarkInfo = info["remarkInfo"]
-        labels = set(remarkInfo)
-        labels = sorted(labels - {"v", "1", "F", "L"}) + ["1", "F", "L", "v"]
+        totalPatterns = 0
+        totalRemarks = 0
         with open(f"{REP}/remarks.tsv", "w") as fh:
-            for label in labels:
+            for (label, legend) in LEGEND.items():
                 thisRemarkInfo = remarkInfo.get(label, {})
 
                 nPatterns = len(thisRemarkInfo)
                 nRemarks = sum(len(x) for x in thisRemarkInfo.values())
-                msg = (
-                    f"{label}: {nPatterns:>5} "
-                    f"in {nRemarks:>5} x {LEGEND[label]}"
-                )
+                if label not in {"m", "1", "F", "L", "0"}:
+                    totalPatterns += nPatterns
+                    totalRemarks += nRemarks
+
+                msg = f"{label}: {nPatterns:>5} " f"in {nRemarks:>5} x {legend}"
                 print(f"\t{msg}")
                 fh.write(f"\n-------------------\n{msg}\n\n")
 
                 for (summary, docs) in sorted(thisRemarkInfo.items(), key=byOcc):
-                    fh.write(f"{summary} {docSummary(docs)}\n")
+                    fh.write(f"{summary} {docSummary(docs).rstrip()}\n")
 
+            msg = f"T: {totalPatterns:>5} " f"in {totalRemarks:>5} x in total"
+            print(f"\t{msg}")
     return True
 
 
 LEGEND = {
-    "v": "remark without issues",
-    "0": "page without remarks",
+    "<": "continuing remark without previous remark on preceding page",
+    ">": "to-be-continued remark without next remark on following page",
+    "x": "remark without opening and without closing",
+    "(": "remark with opening and without closing",
+    ")": "remark without opening and with closing",
+    "m": "multiple remarks combined into one",
     "1": "single remark continuing from previous page and extending to next page",
     "F": "first remark on page continuing from previous page",
     "L": "last remark on page continuing to next page",
-    "m": "multiple remarks combined into one",
-    "<": "continuing remark without previous remark on preceding page",
-    ">": "to-be-continued remark without next remark on following page",
-    "(": "remark with opening and without closing",
-    ")": "remark without opening and with closing",
-    "x": "remark without opening and without closing",
+    "0": "page without remarks",
+    "v": "remark without issues",
 }
 
 

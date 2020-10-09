@@ -1,6 +1,6 @@
 import re
 
-from lib import WHITE_RE
+from lib import WHITE_RE, applyCorrections
 
 
 """
@@ -34,18 +34,35 @@ CORRECTIONS_DEF = {
             r"""\1\3\2""",
         ),
     ),
+    "07:p0610-0639": (
+        (r"""(<remark>)6 ml\.""", r"\1(vnl."),
+    ),
 }
 CORRECTIONS = {
     page: tuple((re.compile(spec[0], re.S), spec[1]) for spec in specs)
     for (page, specs) in CORRECTIONS_DEF.items()
 }
 
+OVERRIDE_FIRST = {
+    "01:p0247-0247": {"Inleiding afgedrukt  ... vertrek van schepen)"},
+    "05:p0388-0400": {"- maar het werkt stu ...  de Sultan heeft - )"},
+}
 REMARK_SPURIOUS_RE = re.compile(r"""<remark>(y[y ]*)</remark>""", re.S)
 REMARK_END_CORR_RE = re.compile(r"""\)\.\s*\*\s*(</remark>)""", re.S)
 
 MARK_NUM_RE = re.compile(r"""\s*([xi*0-9]{1,2})\s*\)?\s*(.*)""", re.S)
 COMMENT_RE = re.compile(r"""<(fnote|remark)\b([^>]*)>(.*?)</\1>""", re.S)
-REMARK_START_RE = re.compile(r"""^[({]\s*""", re.S)
+REMARK_START_RE = re.compile(
+    r"""
+        ^
+        -*
+        \s*
+        \*?
+        [({]
+        \s*
+    """,
+    re.S | re.X,
+)
 REMARK_END_RE = re.compile(
     r"""
         (?:
@@ -64,7 +81,7 @@ REMARK_END_RE = re.compile(
             )
         )
         \s*
-        \.?
+        [.\]]*
         $
     """,
     re.S | re.X,
@@ -276,20 +293,13 @@ def remarkMultiple(match, info):
 def trimPage(text, info, previous, *args, **kwargs):
     remarkInfo = info["remarkInfo"]
     page = info["page"]
+    overrideFirst = OVERRIDE_FIRST.get(page, set())
 
     text = REMARK_SPURIOUS_RE.sub(r"<special>\1</special>", text)
     text = COMMENT_RE.sub(cleanTag, text)
     text = REMARK_END_CORR_RE.sub(r"*).\1", text)
 
-    if page in CORRECTIONS:
-        for (correctRe, correctRepl) in CORRECTIONS[page]:
-            (text, n) = correctRe.subn(correctRepl, text)
-            if n == 0:
-                print(text)
-                print(f"\tCORRECTION {page} {correctRe.pattern} did not apply")
-            elif n > 1:
-                print(text)
-                print(f"\tCORRECTION {page} {correctRe.pattern} applied {n} times")
+    text = applyCorrections(CORRECTIONS, page, text)
 
     text = REMARK_MULTIPLE_RE.sub(remarkMultiplePre(info), text)
 
@@ -313,7 +323,9 @@ def trimPage(text, info, previous, *args, **kwargs):
             (summary, trimmed) = summarize(content)
             startBracket = trimmed.startswith("(")
             endBracket = trimmed.endswith(")")
-            isFirst = i == 0 and not pre and not startBracket
+            isFirst = (
+                i == 0 and not pre and not startBracket and summary not in overrideFirst
+            )
             isLast = i == len(matches) - 1 and not post and not endBracket
             if isFirst and isLast:
                 onlyRemark = (content, summary)
@@ -426,6 +438,33 @@ NOTE_COLLAPSE_RE = re.compile(
 
 FOLIO_DWN_RE = re.compile(r"""<folio>\s*(.*?)\s*</folio>""", re.S)
 MARK_DWN_RE = re.compile(r"""<fref ref="([^"]*)"/>""", re.S)
+TABLE_DWN_RE = re.compile(r"""<table\b[^>]*>\s*(.*?)\s*</table>""", re.S)
+ROW_DWN_RE = re.compile(r"""<row\b[^>]*>\s*(.*?)\s*</row>""", re.S)
+CELL_DWN_RE = re.compile(r"""<cell\b[^>]*>\s*(.*?)\s*</cell>""", re.S)
+
+
+def tableDown(match):
+    text = match.group(1)
+    rows = []
+    for rowStr in ROW_DWN_RE.findall(text):
+        rows.append(CELL_DWN_RE.findall(rowStr))
+    columns = max(len(row) for row in rows)
+
+    result = []
+    result.append(
+        "".join((("" if i == 0 else " | ") + f" {i + 1} ") for i in range(columns))
+    )
+    result.append(
+        "".join((("" if i == 0 else " | ") + " --- ") for i in range(columns))
+    )
+    for row in rows:
+        result.append(
+            "".join(
+                (("" if i == 0 else " | ") + f" {cell} ")
+                for (i, cell) in enumerate(row)
+            )
+        )
+    return "\\n".join(result)
 
 
 def cleanTag(match):
@@ -451,6 +490,8 @@ def cleanText(text, tag):
     text = text.replace("\n", " ")
     text = text.strip()
     text = WHITE_RE.sub(" ", text)
+    text = TABLE_DWN_RE.sub(tableDown, text)
+
     if tag == "remark":
         text = REMARK_START_RE.sub(r"(", text)
         text = REMARK_END_RE.sub(r")", text)
