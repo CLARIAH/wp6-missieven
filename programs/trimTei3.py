@@ -4,49 +4,96 @@ from lib import WHITE_RE
 
 
 """
-Notes and Tables.
+Notes.
 
 """
 
+CORRECTIONS_DEF = {
+    "01:p0004-0004": (
+        (
+            r"""\^4J\^ \.(</remark>)""",
+            r"""^4^)\1""",
+        ),
+    ),
+    "05:p0099-0100": (
+        (
+            r"""\s*(</remark>)\s*<para>\s*<emph>(is)</emph>\s* (-) ;<lb/>\s*</para>""",
+            r""" \2\3)\1""",
+        ),
+    ),
+    "05:p0099-0135": (
+        (
+            r"""(Padang te vestigen\.)(</remark>)""",
+            r"""\1)\2""",
+        ),
+    ),
+    "05:p0099-0149": (
+        (
+            r"""(Pits vernam te Bantam,)(</remark>)"""
+            r"""\s*<para>\s*(dat\s*-\s*\))<lb/>\s*</para>""",
+            r"""\1\3\2""",
+        ),
+    ),
+}
+CORRECTIONS = {
+    page: tuple((re.compile(spec[0], re.S), spec[1]) for spec in specs)
+    for (page, specs) in CORRECTIONS_DEF.items()
+}
+
+REMARK_SPURIOUS_RE = re.compile(r"""<remark>(y[y ]*)</remark>""", re.S)
+REMARK_END_CORR_RE = re.compile(r"""\)\.\s*\*\s*(</remark>)""", re.S)
 
 MARK_NUM_RE = re.compile(r"""\s*([xi*0-9]{1,2})\s*\)?\s*(.*)""", re.S)
 COMMENT_RE = re.compile(r"""<(fnote|remark)\b([^>]*)>(.*?)</\1>""", re.S)
-REMARK_FIRST_REMOVE_RE = re.compile(r"""<remark\b[^>]*>.*?</remark>""", re.S)
-
-REMARK_FIRST_RE = re.compile(
+REMARK_START_RE = re.compile(r"""^[({]\s*""", re.S)
+REMARK_END_RE = re.compile(
     r"""
-    <pb\b[^>]*>\s*
-    (?:
         (?:
             (?:
-                <head\b[^>]*>.*?</head>
+                [)}]-*
             )
             |
             (?:
-                <folio\b[^>]*>.*?</folio>
+                -
+                [\ -]*
+                (?:
+                    \*j\*
+                    |
+                    [;-]
+                )
             )
         )
         \s*
-    )*
-    (.*?)
-    (<remark\b[^>]*>(.*?)</remark>)
+        \.?
+        $
+    """,
+    re.S | re.X,
+)
+REMARK_RE = re.compile(r"""<remark>(.*?)</remark>""", re.S)
+REMARK_MULTIPLE_RE = re.compile(
+    r"""
+        (?:
+            <remark>
+                [^<]*
+            </remark>
+            \s*
+        ){2,}
     """,
     re.S | re.X,
 )
 
-testRe = re.compile(
-    r"""
-        a
-        (?=
-            b
-        )
-    """,
-    re.S | re.X,
-)
+REMARK_FIRST_REMOVE_RE = re.compile(r"""<remark\b[^>]*>.*?</remark>""", re.S)
 
 REMARK_LAST_REMOVE_RE = re.compile(
     r"""
-        <remark\b[^>]*>.*?</remark>
+        <remark\b[^>]*>
+            (
+                (?:
+                    .
+                    (?!<remark)
+                )*
+            )
+        </remark>
         (?=
             \s*
             (?:
@@ -67,11 +114,46 @@ REMARK_LAST_REMOVE_RE = re.compile(
     re.S | re.X,
 )
 
-REMARK_LAST_RE = re.compile(
+REMARK_PRE_POST_RE = re.compile(
     r"""
+        ^
+        (.*?)
+        <remark>
         .*
-        (<remark\b[^>]*>(.*?)</remark>)
+        </remark>
         (.*)
+        $
+    """,
+    re.S | re.X,
+)
+
+REMARK_PRE_RE = re.compile(
+    r"""
+        <pb\b[^>]*>\s*
+        (?:
+            (?:
+                (?:
+                    <head\b[^>]*>.*?</head>
+                )
+                |
+                (?:
+                    <folio\b[^>]*>.*?</folio>
+                )
+            )
+            \s*
+        )*
+        \s*
+        (.*)
+        $
+    """,
+    re.S | re.X,
+)
+
+REMARK_POST_RE = re.compile(
+    r"""
+        ^
+        \s*
+        (.*?)
         (?:
             (?:
                 (?:
@@ -90,13 +172,16 @@ REMARK_LAST_RE = re.compile(
 )
 
 
-def processPage(page, previous, result, info, *args, **kwargs):
+def processPage(text, previous, result, info, *args, **kwargs):
+    remarkInfo = info["remarkInfo"]
+    page = info["page"]
     prevRemark = previous.get("remark", None)
     prevNotes = previous.get("notes", None)
+    prevPage = previous.get("page", None)
 
-    if not page:
+    if not text:
         if prevRemark is not None:
-            result.append(prevRemark)
+            result.append(prevRemark[0])
             previous["remark"] = None
         if prevNotes is not None:
             result.append("\n".join(prevNotes))
@@ -104,13 +189,29 @@ def processPage(page, previous, result, info, *args, **kwargs):
         result.append("\n\n")
         return
 
-    (text, current) = trimPage(page, info, previous, *args, **kwargs)
+    (text, current) = trimPage(text, info, previous, *args, **kwargs)
 
+    onlyRemark = current["onlyRemark"]
     firstRemark = current["firstRemark"]
-    if prevRemark is not None:
-        if firstRemark is not None:
-            prevRemark += firstRemark
-        result.append(prevRemark)
+    lastRemark = current["lastRemark"]
+    startRemark = onlyRemark if onlyRemark else firstRemark if firstRemark else None
+
+    if startRemark:
+        (curContent, curSummary) = startRemark
+
+    if prevRemark is None:
+        if startRemark:
+            remarkInfo["<"][curSummary].append(page)
+    else:
+        (prevContent, prevSummary) = prevRemark
+        if startRemark:
+            (thisSummary, thisTrimmed) = summarize(prevSummary + curSummary)
+            prevRemark = (prevContent + curContent, thisSummary)
+        else:
+            remarkInfo[">"][prevSummary].append(prevPage)
+
+        result.append(prevRemark[0])
+        result.append("\n")
 
     firstNote = current["firstNote"]
     if prevNotes is not None:
@@ -118,45 +219,149 @@ def processPage(page, previous, result, info, *args, **kwargs):
             prevNotes[-1] = prevNotes[-1].replace("</fnote>", firstNote[7:])
         result.append("\n".join(prevNotes))
 
-    previous["remark"] = current["lastRemark"]
+    previous["remark"] = onlyRemark if onlyRemark else lastRemark
     previous["notes"] = current["notes"]
+    previous["page"] = page
 
     result.append(text)
     result.append("\n")
 
 
+def remarkMultiplePre(info):
+    return lambda match: remarkMultiple(match, info)
+
+
+def remarkMultiple(match, info):
+    remarkInfo = info["remarkInfo"]
+    page = info["page"]
+    text = match.group(0)
+    result = []
+
+    for remarks in REMARK_MULTIPLE_RE.findall(text):
+        mRemarks = []
+        prevClosed = False
+
+        for match in REMARK_RE.finditer(remarks):
+            content = match.group(1)
+            content = cleanText(content, "remark")
+            (summary, trimmed) = summarize(content)
+            thisOpen = trimmed.startswith("(")
+            thisClosed = trimmed.endswith(")")
+
+            if prevClosed or thisOpen:
+                if mRemarks:
+                    mText = (
+                        "<remark>\n"
+                        + (" ".join(r[0] for r in mRemarks))
+                        + "</remark>\n"
+                    )
+                    result.append(mText)
+                    if len(mRemarks) > 1:
+                        summary = "\n\t".join(r[1] for r in mRemarks)
+                        remarkInfo["m"][f"{len(mRemarks)}\t{summary}"].append(page)
+                    mRemarks = []
+            mRemarks.append((content, summary))
+            prevClosed = thisClosed
+
+        if mRemarks:
+            mText = "<remark>\n" + (" ".join(r[0] for r in mRemarks)) + "</remark>\n"
+            result.append(mText)
+            if len(mRemarks) > 1:
+                summary = "\n\t".join(r[1] for r in mRemarks)
+                remarkInfo["m"][f"{len(mRemarks)}\t{summary}"].append(page)
+
+    return "".join(result)
+
+
 def trimPage(text, info, previous, *args, **kwargs):
+    remarkInfo = info["remarkInfo"]
+    page = info["page"]
+
+    text = REMARK_SPURIOUS_RE.sub(r"<special>\1</special>", text)
+    text = COMMENT_RE.sub(cleanTag, text)
+    text = REMARK_END_CORR_RE.sub(r"*).\1", text)
+
+    if page in CORRECTIONS:
+        for (correctRe, correctRepl) in CORRECTIONS[page]:
+            (text, n) = correctRe.subn(correctRepl, text)
+            if n == 0:
+                print(text)
+                print(f"\tCORRECTION {page} {correctRe.pattern} did not apply")
+            elif n > 1:
+                print(text)
+                print(f"\tCORRECTION {page} {correctRe.pattern} applied {n} times")
+
+    text = REMARK_MULTIPLE_RE.sub(remarkMultiplePre(info), text)
+
     current = {}
 
-    prevRemark = previous.get("remark", None)
+    onlyRemark = None
     firstRemark = None
-    if prevRemark:
-        match = REMARK_FIRST_RE.search(text)
-        if match:
-            (pre, firstRemark, content) = match.groups([1, 2, 3])
-            if pre.strip() or not content.startswith("("):
-                firstRemark = None
-            else:
-                text = REMARK_FIRST_REMOVE_RE.sub("", text, count=1)
-    current["firstRemark"] = firstRemark
-
-    match = REMARK_LAST_RE.search(text)
     lastRemark = None
-    if match:
-        (lastRemark, content, post) = match.groups([1, 2, 3])
-        if post.strip() or not content.rstrip().rstrip(".").rstrip().endswith(")"):
-            lastRemark = None
-        else:
-            text = REMARK_LAST_REMOVE_RE.sub("", text, count=1)
+    prevRemark = previous.get("remark", None)
+
+    ppMatch = REMARK_PRE_POST_RE.search(text)
+    if ppMatch:
+        (beforeFirst, afterLast) = ppMatch.groups([1, 2])
+        pre = REMARK_PRE_RE.match(beforeFirst).group(1).strip()
+        post = REMARK_POST_RE.match(afterLast).group(1).strip()
+
+        matches = tuple(REMARK_RE.finditer(text))
+        for (i, match) in enumerate(matches):
+            content = match.group(1)
+            content = cleanText(content, "remark")
+            (summary, trimmed) = summarize(content)
+            startBracket = trimmed.startswith("(")
+            endBracket = trimmed.endswith(")")
+            isFirst = i == 0 and not pre and not startBracket
+            isLast = i == len(matches) - 1 and not post and not endBracket
+            if isFirst and isLast:
+                onlyRemark = (content, summary)
+            elif isFirst:
+                firstRemark = (content, summary)
+            elif isLast:
+                lastRemark = (content, summary)
+            label = (
+                "1"
+                if isFirst and isLast
+                else "F"
+                if isFirst
+                else "L"
+                if isLast
+                else "v"
+                if startBracket and endBracket
+                else "("
+                if startBracket
+                else ")"
+                if endBracket
+                else "x"
+            )
+            remarkInfo[label][summary].append(page)
+    else:
+        remarkInfo["0"][""].append(page)
+
+    current["onlyRemark"] = onlyRemark
+    current["firstRemark"] = firstRemark
     current["lastRemark"] = lastRemark
 
-    text = formatNotes(text)
-    text = NOTES_FILTER_RE.sub(filterNotes, text)
-    text = COMMENT_RE.sub(cleanOther, text)
+    for (condition, removeRe, msg) in (
+        (onlyRemark and prevRemark, REMARK_RE, "only remark"),
+        (firstRemark and prevRemark, REMARK_FIRST_REMOVE_RE, "first remark"),
+        (lastRemark, REMARK_LAST_REMOVE_RE, "last remark"),
+    ):
+        if condition:
+            (text, n) = removeRe.subn("", text, count=1)
+            if not n:
+                print(f"\n{page} removal of {msg} failed")
+
+    # text = formatNotes(text)
+    # text = NOTES_FILTER_RE.sub(filterNotes, text)
+    text = COMMENT_RE.sub(cleanTag, text)
 
     notes = None
     firstNote = None
-    match = NOTES_ALL_RE.match(text)
+    # match = NOTES_ALL_RE.match(text)
+    match = None
     if match:
         text = match.group(1)
         notesStr = match.group(2)
@@ -170,7 +375,6 @@ def trimPage(text, info, previous, *args, **kwargs):
 
     current["notes"] = notes
     current["firstNote"] = firstNote
-    analyseRemarks(text, info)
     return (text, current)
 
 
@@ -210,7 +414,6 @@ def filterNotes(match):
 NOTES_FILTER_RE = re.compile(r"""((?:<fnote[^>]*>.*?</fnote>\s*)+)(\S*)""", re.S)
 NOTES_ALL_RE = re.compile(r"""^(.*?)((?:<fnote.*?</fnote>\s*)+)(.*?)$""", re.S)
 NOTE_RE = re.compile(r"""<fnote.*?</fnote>""", re.S)
-OUTDENT_RE = re.compile(r"""text-indent:\s*-[^;"']*;?""", re.S)
 
 # CELL_NOTES_RE = re.compile(r"""<fnote[^>]*>(.*?)</fnote>""", re.S)
 # cell = CELL_NOTES_RE.sub(r"""\1""", cell)
@@ -223,13 +426,17 @@ NOTE_COLLAPSE_RE = re.compile(
 
 FOLIO_DWN_RE = re.compile(r"""<folio>\s*(.*?)\s*</folio>""", re.S)
 MARK_DWN_RE = re.compile(r"""<fref ref="([^"]*)"/>""", re.S)
-REMARK_RE = re.compile(r"""<remark>(.*?)</remark>""", re.S)
 
 
-def cleanOther(match):
+def cleanTag(match):
     tag = match.group(1)
     atts = match.group(2)
     text = match.group(3)
+    text = cleanText(text, tag)
+    return f"<{tag}{atts}>{text}</{tag}>"
+
+
+def cleanText(text, tag):
     text = text.replace("<lb/>", " ")
     text = text.replace("<emph>", "*")
     text = text.replace("</emph>", "*")
@@ -243,12 +450,15 @@ def cleanOther(match):
     text = FOLIO_DWN_RE.sub(r" {\1} ", text)
     text = text.replace("\n", " ")
     text = text.strip()
-
     text = WHITE_RE.sub(" ", text)
+    if tag == "remark":
+        text = REMARK_START_RE.sub(r"(", text)
+        text = REMARK_END_RE.sub(r")", text)
+
     if "<" in text:
         print(f"\nunclean {tag}")
         print(f"\t==={text}===")
-    return f"<{tag}{atts}>{text}</{tag}>"
+    return text
 
 
 def parseMarkPlain(match):
@@ -289,40 +499,22 @@ def formatNotes(text):
     return text
 
 
-def analyseRemarks(text, info):
-    doc = info["doc"]
-    remarkInfo = info["remarkInfo"]
-    limit = 20
+def summarize(text, limit=20):
+    lText = len(text)
+    if lText <= limit:
+        start = text
+        inter = ""
+        end = ""
+    elif lText <= 2 * limit:
+        start = text[0:limit]
+        inter = ""
+        end = text[limit:]
+    else:
+        start = text[0:limit]
+        inter = " ... "
+        end = text[-limit:]
 
-    for match in REMARK_RE.finditer(text):
-        remark = match.group(1)
-        remark = FOLIO_DWN_RE.sub(r" {\1} ", remark)
-        remark = (
-            remark.replace("<lb/>", " ")
-            .replace("<super>", "^")
-            .replace("</super>", "^")
-            .replace(")</emph>", "</emph>)")
-            .replace("\n", " ")
-            .replace("( ", "(")
-            .replace(" )", ")")
-            .replace(" .", ".")
-        )
-        remark = " ".join(remark.strip().split())
-        lRemark = len(remark)
-        if lRemark <= limit:
-            start = remark
-            inter = ""
-            end = ""
-        elif lRemark <= 2 * limit:
-            start = remark[0:limit]
-            inter = ""
-            end = remark[limit:]
-        else:
-            start = remark[0:limit]
-            inter = " ... "
-            end = remark[-limit:]
+    summary = f"{start:<{limit}}{inter:<5}{end:>{limit}}"
+    trimmed = f"{start}{inter}{end}"
 
-        summary = f"{start:<20}{inter:<5}{end:>20}"
-        trimmed = f"{start}{inter}{end}"
-        label = "ok" if trimmed.startswith("(") and trimmed.endswith(").") else "xx"
-        remarkInfo[label][summary].append(doc)
+    return (summary, trimmed)

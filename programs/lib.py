@@ -1099,23 +1099,45 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
     elif stage == 3:
         print("REMARKS:\n")
         remarkInfo = info["remarkInfo"]
+        labels = set(remarkInfo)
+        labels = sorted(labels - {"v", "1", "F", "L"}) + ["1", "F", "L", "v"]
         with open(f"{REP}/remarks.tsv", "w") as fh:
-            for label in ("xx", "ok"):
-                thisRemarkInfo = remarkInfo[label]
+            for label in labels:
+                thisRemarkInfo = remarkInfo.get(label, {})
 
                 nPatterns = len(thisRemarkInfo)
                 nRemarks = sum(len(x) for x in thisRemarkInfo.values())
                 msg = (
-                    f"{label}: {nPatterns:>4} remarks patterns"
-                    f" in {nRemarks} occurrences"
+                    f"{label}: {nPatterns:>5} "
+                    f"in {nRemarks:>5} x {LEGEND[label]}"
                 )
                 print(f"\t{msg}")
-                fh.write(f"{msg}\n\n")
+                fh.write(f"\n-------------------\n{msg}\n\n")
 
-                for summary in sorted(thisRemarkInfo):
-                    fh.write(f"{summary} {docSummary(thisRemarkInfo[summary])}\n")
+                for (summary, docs) in sorted(thisRemarkInfo.items(), key=byOcc):
+                    fh.write(f"{summary} {docSummary(docs)}\n")
 
     return True
+
+
+LEGEND = {
+    "v": "remark without issues",
+    "0": "page without remarks",
+    "1": "single remark continuing from previous page and extending to next page",
+    "F": "first remark on page continuing from previous page",
+    "L": "last remark on page continuing to next page",
+    "m": "multiple remarks combined into one",
+    "<": "continuing remark without previous remark on preceding page",
+    ">": "to-be-continued remark without next remark on following page",
+    "(": "remark with opening and without closing",
+    ")": "remark without opening and with closing",
+    "x": "remark without opening and without closing",
+}
+
+
+def byOcc(x):
+    (summary, docs) = x
+    return (docs[0], summary) if docs else ("", summary)
 
 
 SPLIT_DOC_RE = re.compile(
@@ -2953,24 +2975,24 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
         match = PAGE_NUM_RE.search(page)
         pageNum = f"-{match.group(1):>04}" if match else ""
         info["page"] = f"{info['doc']}{pageNum}"
+        info["pageNum"] = pageNum.lstrip("-")
         if stage == 0:
             page = X_RE.sub("", page)
             page = FACS_REF1_RE.sub(r'''tpl="1" vol="\1" facs="\2"''', page)
             page = FACS_REF2_RE.sub(r'''tpl="2" vol="\1" facs="\2"''', page)
         if processPage is None:
             page = trimPage(page, info, *args, **kwargs)
+            page = LB_RE.sub(r"""<lb/>\n""", page)
+            page = PB_RE.sub(r"""\n\n\g<0>\n\n""", page)
+            page = NL_B_RE.sub(r"""\n<\1\2>""", page)
+            page = NL_E_RE.sub(r"""\n</\1>\n""", page)
+            if stage == 0:
+                page = page.replace(" <hi", "\n<hi")
+            page = WHITE_NL_RE.sub("\n", page.strip())
+            page = SPACE_RE.sub(" ", page)
+            result.append(page)
         else:
             processPage(page, previous, result, info, *args, **kwargs)
-
-        page = LB_RE.sub(r"""<lb/>\n""", page)
-        page = PB_RE.sub(r"""\n\n\g<0>\n\n""", page)
-        page = NL_B_RE.sub(r"""\n<\1\2>""", page)
-        page = NL_E_RE.sub(r"""\n</\1>\n""", page)
-        if stage == 0:
-            page = page.replace(" <hi", "\n<hi")
-        page = WHITE_NL_RE.sub("\n", page.strip())
-        page = SPACE_RE.sub(" ", page)
-        result.append(page)
 
     for match in PB_RE.finditer(text):
         b = match.start()
@@ -2989,7 +3011,7 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
     match = PB_RE.search(body)
     prePage = body[0 : match.start()].strip()
     if prePage:
-        print(f"\nMaterial in before first page\n\t=={prePage}==")
+        print(f"\nMaterial before first page\n\t=={prePage}==")
 
     body = WHITE_NLNL_RE.sub("\n\n", body.strip())
     return body
