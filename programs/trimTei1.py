@@ -1022,6 +1022,13 @@ FOLIO_PAGE_RE = re.compile(
     re.S | re.X,
 )
 
+
+def folioPageRepl(match):
+    text = match.group(0)
+    (tag, folioPage) = match.groups([1, 2])
+    return text if tag == "note" else f"<folio>{folioPage}</folio>\n"
+
+
 FOLIO_KA_RE = re.compile(
     r"""
     <
@@ -1476,6 +1483,20 @@ HEAD_TITLE_RE = re.compile(r"""<head rend="[^"]*?\bxlarge\b[^>]*>(.*?)</head>"""
 
 CELL_RE = re.compile(r"""<cell>(.*?)</cell>""", re.S)
 P_REMOVE = re.compile(r"""<p\b[^>]*>""", re.S)
+FIRST_P_SMALL_RE = re.compile(
+    r"""
+        (<pb\b[^>]*>)
+        \s*
+        <p\b
+            [^>]*?
+            x?small
+            [^>]*
+        >
+            .*?
+        </p>
+    """,
+    re.S | re.X,
+)
 
 
 def removePs(match):
@@ -1583,6 +1604,8 @@ def trimPage(text, info, *args, **kwargs):
     ):
         text = trimRe.sub(val, text)
 
+    text = FIRST_P_SMALL_RE.sub(r"\1", text)
+
     for trimRe in (FONT_STYLE_RE, ALIGN_V_RE, ALIGN_H_RE, DECORATION_RE):
         text = trimRe.sub(r"\1", text)
 
@@ -1605,7 +1628,7 @@ def trimPage(text, info, *args, **kwargs):
     lastPos = 0
 
     text = FOLIO_KA_RE.sub(r"""<folio>\2</folio>\n""", text)
-    text = FOLIO_PAGE_RE.sub(r"""<folio>\2</folio>\n""", text)
+    text = FOLIO_PAGE_RE.sub(folioPageRepl, text)
 
     for tmatch in FOLIO_TRIGGER_RE.finditer(text):
         (btag, space, pre, fol, post, etag) = tmatch.groups(range(1, 7))

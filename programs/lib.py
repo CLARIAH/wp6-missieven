@@ -32,6 +32,8 @@ def applyCorrections(corrections, doc, text):
 # SOURCE CORRECTIONS
 
 CORRECTIONS = {
+    "01:p0203": ((re.compile(r"""(<p\ rend="font-size:)\ 8\.5;""", re.S), r"\1 12;"),),
+    "01:p0663": ((re.compile(r""">\(1\) Dirck""", re.S), r">1) Dirck"),),
     "02:p0480": ((re.compile(r"""<p\b[^>]*>p\.r cento<lb/>\s*</p>\s*""", re.S), r""),),
     "04:p0496": ((re.compile(r"""I( en 9 maart 1683)""", re.S), r"""1\1"""),),
     "05:p0439": ((re.compile(r"""<p\b[^>]*>i<lb/>\s*</p>\s*""", re.S), r""),),

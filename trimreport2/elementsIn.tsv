@@ -1,10 +1,10 @@
 body..	555
 cell..	21306
-folio..	2523
+folio..	2507
 head..	400
 header..	555
-hi..	4123
-lb..	466683
+hi..	4121
+lb..	466290
 meta.key=author	553
 meta.key=authorFull	66
 meta.key=day	550
@@ -20,9 +20,9 @@ meta.key=title	555
 meta.key=year	550
 meta.value=x	5076
 note..	403
-note.place=inline	25101
-note.resp=editor	25108
-note.type=editorial-summary	25101
+note.place=inline	25105
+note.resp=editor	25112
+note.type=editorial-summary	25105
 p..	18927
 pb.facs=n_nnn_nnnn	5857
 pb.facs=nnn_nnn	3191

@@ -34,9 +34,7 @@ CORRECTIONS_DEF = {
             r"""\1\3\2""",
         ),
     ),
-    "07:p0610-0639": (
-        (r"""(<remark>)6 ml\.""", r"\1(vnl."),
-    ),
+    "07:p0610-0639": ((r"""(<remark>)6 ml\.""", r"\1(vnl."),),
 }
 CORRECTIONS = {
     page: tuple((re.compile(spec[0], re.S), spec[1]) for spec in specs)
@@ -48,7 +46,7 @@ OVERRIDE_FIRST = {
     "05:p0388-0400": {"- maar het werkt stu ...  de Sultan heeft - )"},
 }
 REMARK_SPURIOUS_RE = re.compile(r"""<remark>(y[y ]*)</remark>""", re.S)
-REMARK_END_CORR_RE = re.compile(r"""\)\.\s*\*\s*(</remark>)""", re.S)
+REMARK_END_CORR_RE = re.compile(r"""\)\s*\.\s*([*\]^])\s*(</remark>)""", re.S)
 
 MARK_NUM_RE = re.compile(r"""\s*([xi*0-9]{1,2})\s*\)?\s*(.*)""", re.S)
 COMMENT_RE = re.compile(r"""<(fnote|remark)\b([^>]*)>(.*?)</\1>""", re.S)
@@ -82,6 +80,22 @@ REMARK_END_RE = re.compile(
         )
         \s*
         [.\]]*
+        $
+    """,
+    re.S | re.X,
+)
+REMARK_END_RE = re.compile(
+    r"""
+        [ -]*
+        (?:
+            [ :)}][;\]]
+            |
+            [:)}]
+        )
+        [ -]*
+        \s*
+        [:;.,]?
+        \s*
         $
     """,
     re.S | re.X,
@@ -188,6 +202,19 @@ REMARK_POST_RE = re.compile(
     re.S | re.X,
 )
 
+PARA_END_BEFORE_NOTES_RE = re.compile(
+    r"""
+        (
+            <fnote\b
+                .*
+            </fnote>
+            \s*
+        )
+        (</para>)
+    """,
+    re.S | re.X,
+)
+
 
 def processPage(text, previous, result, info, *args, **kwargs):
     remarkInfo = info["remarkInfo"]
@@ -227,7 +254,7 @@ def processPage(text, previous, result, info, *args, **kwargs):
         else:
             remarkInfo[">"][prevSummary].append(prevPage)
 
-        result.append(prevRemark[0])
+        result.append(f"<remark>{prevRemark[0]}</remark>")
         result.append("\n")
 
     firstNote = current["firstNote"]
@@ -235,6 +262,7 @@ def processPage(text, previous, result, info, *args, **kwargs):
         if firstNote is not None:
             prevNotes[-1] = prevNotes[-1].replace("</fnote>", firstNote[7:])
         result.append("\n".join(prevNotes))
+        result.append("\n")
 
     previous["remark"] = onlyRemark if onlyRemark else lastRemark
     previous["notes"] = current["notes"]
@@ -297,7 +325,7 @@ def trimPage(text, info, previous, *args, **kwargs):
 
     text = REMARK_SPURIOUS_RE.sub(r"<special>\1</special>", text)
     text = COMMENT_RE.sub(cleanTag, text)
-    text = REMARK_END_CORR_RE.sub(r"*).\1", text)
+    text = REMARK_END_CORR_RE.sub(r"\1).\2", text)
 
     text = applyCorrections(CORRECTIONS, page, text)
 
@@ -366,14 +394,13 @@ def trimPage(text, info, previous, *args, **kwargs):
             if not n:
                 print(f"\n{page} removal of {msg} failed")
 
-    # text = formatNotes(text)
-    # text = NOTES_FILTER_RE.sub(filterNotes, text)
+    text = formatNotes(text)
+    text = NOTES_FILTER_RE.sub(filterNotes, text)
     text = COMMENT_RE.sub(cleanTag, text)
 
     notes = None
     firstNote = None
-    # match = NOTES_ALL_RE.match(text)
-    match = None
+    match = NOTES_ALL_RE.match(text)
     if match:
         text = match.group(1)
         notesStr = match.group(2)
@@ -383,7 +410,8 @@ def trimPage(text, info, previous, *args, **kwargs):
 
         if post:
             print("\nMaterial after footnotes:")
-            print(f"\t==={post}")
+            print(f"\tNOTES==={notesStr}")
+            print(f"\tPOST ==={post}")
 
     current["notes"] = notes
     current["firstNote"] = firstNote
@@ -424,7 +452,21 @@ def filterNotes(match):
 
 
 NOTES_FILTER_RE = re.compile(r"""((?:<fnote[^>]*>.*?</fnote>\s*)+)(\S*)""", re.S)
-NOTES_ALL_RE = re.compile(r"""^(.*?)((?:<fnote.*?</fnote>\s*)+)(.*?)$""", re.S)
+NOTES_ALL_RE = re.compile(
+    r"""
+        ^
+            (.*?)
+            (
+                (?:
+                    <fnote.*?</fnote>
+                    \s*
+                )+
+            )
+            (.*?)
+        $
+    """,
+    re.S | re.X,
+)
 NOTE_RE = re.compile(r"""<fnote.*?</fnote>""", re.S)
 
 # CELL_NOTES_RE = re.compile(r"""<fnote[^>]*>(.*?)</fnote>""", re.S)
@@ -517,26 +559,183 @@ def collapseNotes(match):
     return f"""{firstNoteStart}{firstNoteText} {restNotes}{firstNoteEnd}"""
 
 
+def markedUnNoteRepl(match):
+    (pre, num, text) = match.groups([1, 2, 3])
+    pre = pre.replace("<lb/>", "")
+    text = text.strip()
+    if text.endswith("<lb/>"):
+        text = text[0:-5].rstrip()
+    return f"{pre}\n<note>{num}) {text}</note>\n"
+
+
 MARK_PLAIN_RE = re.compile(r"""\b([xi*0-9]{1,2})\s*\)\s*""", re.S)
 MARKED_NOTE_DBL_RE = re.compile(r"""(<lb/></note>)(<note>)""", re.S)
 MARKED_NOTE_RE = re.compile(r"""<note>\s*([0-9]{1,2}|[a-z])\s*\)\s*""", re.S)
-MARKED_UN_NOTE_RE = re.compile(
-    r"""(<(?:(?:lb/)|(?:/note))>)\s*([0-9]{1,2}|[a-z])\s*\)\s*(.*?)(?=<lb/>)""", re.S
+MARKED_UN_NOTE = (
+    (
+        re.compile(
+            r"""
+            \s*
+            (
+                (?:
+                    <lb/>
+                    |<para>
+                )
+            )
+            \s*
+            (
+                [0-9]{1,2}
+                |
+                [a-z]
+            )
+            \s*
+            \)
+            \s*
+            (.*?)
+            (?=
+                (?:
+                    <lb/>
+                    \s*
+                    (?:
+                        [0-9]{1,2}
+                        |
+                        [a-z]
+                    )
+                    \s*
+                    \)
+                )
+                |
+                (?:
+                    (?:
+                        <lb/>
+                    )?
+                    (?:
+                        <note\b
+                        |<para
+                        |</para
+                        |<remark
+                        |$
+                    )
+                )
+            )
+        """,
+            re.S | re.X,
+        ),
+        markedUnNoteRepl,
+    ),
+    (
+        re.compile(
+            r"""
+                <para\b[^>]*>
+                \s*
+                (
+                    <note>
+                    (?:
+                        .
+                        (?!
+                            <para\b
+                        )
+                    )*
+                    </note>
+                )
+                \s*
+                </para>
+                \s*
+            """,
+            re.S | re.X
+        ),
+        r"\1\n",
+    ),
 )
+
+
 NOTE_RENAME_RE = re.compile(r"""<note\b([^>]*)>(.*?)</note>""", re.S)
-SPURIOUS_P_RE = re.compile(r"""(<lb/>)\s*</p><p>\s*([0-9]{1,2}|[a-z])\s*\)\s*""", re.S)
-SWITCH_NOTE_RE = re.compile(r"""(</note>)\s*(<lb/>)""", re.S)
+SPURIOUS_PARA_RE = re.compile(
+    r"""
+        (
+            <lb/>
+            \s*
+        )
+        </para>
+        \s*
+        <para>
+        \s*
+        (
+            [0-9]{1,2}
+            |
+            [a-z]
+        )
+        \s*
+        \)
+        \s*
+    """,
+    re.S | re.X,
+)
+DEL_LB_RE = re.compile(r"""(</note>)\s*<lb/>\s*""", re.S)
 
 
 def formatNotes(text):
-    text = SPURIOUS_P_RE.sub(r"""\1\2) """, text)
+    showPage = False and 'n="218"' in text
+    if showPage:
+        print(
+            "=== [AAAA] ==============================================================="
+        )
+        print(text[-1400:])
+    text = SPURIOUS_PARA_RE.sub(r"""\1\2) """, text)
+    if showPage:
+        print(
+            "=== [BBBB] ==============================================================="
+        )
+        print(text[-1400:])
     text = MARKED_NOTE_DBL_RE.sub(r"""\1\n\2""", text)
-    text = MARKED_UN_NOTE_RE.sub(r"""\1<note>\2) \3</note>""", text)
-    text = SWITCH_NOTE_RE.sub(r"""\2\1""", text)
+    if showPage:
+        print(
+            "=== [CCCC] ==============================================================="
+        )
+        print(text[-1400:])
+    for (convertRe, convertRepl) in MARKED_UN_NOTE:
+        text = convertRe.sub(convertRepl, text)
+    if showPage:
+        print(
+            "=== [DDDD] ==============================================================="
+        )
+        print(text[-1400:])
+    text = DEL_LB_RE.sub(r"""\1\n""", text)
+    if showPage:
+        print(
+            "=== [EEEE] ==============================================================="
+        )
+        print(text[-1400:])
     text = MARKED_NOTE_RE.sub(r"""<note ref="\1">""", text)
+    if showPage:
+        print(
+            "=== [FFFF] ==============================================================="
+        )
+        print(text[-1400:])
     text = NOTE_RENAME_RE.sub(r"""<fnote\1>\2</fnote>""", text)
+    if showPage:
+        print(
+            "=== [GGGG] ==============================================================="
+        )
+        print(text[-1400:])
+    # text = PARA_END_BEFORE_NOTES_RE.sub(r"\2\n\1", text)
+    if showPage:
+        print(
+            "=== [HHHH] ==============================================================="
+        )
+        print(text[-1400:])
     text = NOTE_COLLAPSE_RE.sub(collapseNotes, text)
+    if showPage:
+        print(
+            "=== [IIII] ==============================================================="
+        )
+        print(text[-1400:])
     text = MARK_PLAIN_RE.sub(parseMarkPlain, text)
+    if showPage:
+        print(
+            "=== [JJJJ] ==============================================================="
+        )
+        print(text[-1400:])
     return text
 
 
