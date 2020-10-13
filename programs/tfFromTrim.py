@@ -38,6 +38,22 @@ volume: only process this volume; default: all volumes
 page  : only process letter that starts at this page; default: all letters
 """
 
+PAGE_OFFSETS = {
+    "01": 23,
+    "02": 13,
+    "03": 13,
+    "04": 15,
+    "05": 15,
+    "06": 15,
+    "07": 11,
+    "08": 11,
+    "09": 13,
+    "10": 11,
+    "11": 11,
+    "12": 11,
+    "13": 11,
+}
+
 # TF CONFIGURATION
 
 slotType = "word"
@@ -59,7 +75,7 @@ generic = {
 }
 
 otext = {
-    "fmt:text-orig-full": "{trans}{punc}",
+    "fmt:text-orig-full": "{pre}{trans}{post}",
     "sectionFeatures": "n,n,n",
     "sectionTypes": "volume,page,line",
     "structureFeatures": "n,title,n",
@@ -73,6 +89,9 @@ intFeatures = set(
         vol
         row
         col
+        day
+        month
+        year
     """.strip().split()
 )
 
@@ -123,8 +142,12 @@ featureMeta = {
     "place": {
         "description": "place from where the letter was sent",
     },
-    "punc": {
-        "description": "whitespace and/or punctuation following a word"
+    "pre": {
+        "description": "non-alphabetical material prefixed to a word"
+        "up to the next word"
+    },
+    "post": {
+        "description": "punctuation and/or whitespace following a word"
         "up to the next word"
     },
     "rawdate": {
@@ -526,12 +549,26 @@ def featsFromAtts(atts):
     }
 
 
+WORD_PARTS_RE = re.compile(
+    r""",
+    ^
+    (\W*)
+    (\w*)
+    (.*)
+    $
+    """,
+    re.S | re.I | re.X,
+)
+
+
 def addText(cv, text, cur):
     if text:
         for word in text.split():
             curWord = cv.slot()
             cur["word"] = curWord
-            cv.feature(curWord, trans=word, punc=" ")
+            match = WORD_PARTS_RE.match(word)
+            (pre, word, post) = match.groups([1, 2, 3])
+            cv.feature(curWord, trans=word, pre=pre, post=f"{post} ")
             for tag in TEXT_ATTRIBUTES:
                 if cur.get(tag, None):
                     cv.feature(curWord, **{tag: 1})
