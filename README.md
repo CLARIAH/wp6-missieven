@@ -18,6 +18,15 @@ Status
 
 This is **work in progress!**
 
+*   2020-10-13 A new TF version (0.2) has been delivered, and there is now a TF-app
+    [missieven](https://github.com/annotation/app-missieven) for this corpus.
+    That means that functions like the Text-Fabric browser and easy downloading of data are supported.
+    There is still cleaning work to do, especially in linking the footnotes to the proper
+    footnote references.
+    There are also a few mis-encoded tables (from landscape format), that need manual adjustment,
+    and some pages that are altoghether missing.
+    See [trimTei0.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei0.py) where some of those
+    pages have already been added.
 *   2020-10-07 Many checks have been performed, many structural corrections w.r.t the TEI source have been performed,
     the metadata of all metadata has been thoroughly checked and corrected.
     See the reports in
