@@ -1,6 +1,6 @@
 import sys
 
-from lib import REPO, VERSION_SRC, trim
+from lib import REPO, VERSION_SRC, parseArgs, trim
 
 from trimTei0 import trimPage as t0, processPage as p0
 from trimTei1 import trimPage as t1, processPage as p1
@@ -49,47 +49,10 @@ def main():
         print(HELP.format(stage=stage))
         return False
 
-    vol = None
-    lid = None
-
-    kwargs = {}
-    pargs = []
-
-    good = True
-
-    for arg in args:
-        if arg.isdigit() or '-' in arg:
-            if '-' in arg:
-                (b, e) = arg.split('-', 1)
-                if b.isdigit() and e.isdigit():
-                    values = set(range(int(b), int(e) + 1))
-                else:
-                    print(f"Unrecognized argument `{arg}`")
-                    good = False
-                    continue
-            else:
-                values = {int(arg)}
-            if vol is None:
-                vol = values
-            elif lid is None:
-                lid = values
-        else:
-            kv = arg.split("=", 1)
-            if len(kv) == 1:
-                pargs.append[arg]
-            else:
-                (k, v) = kv
-                if k == "orig":
-                    v = set(v.split(","))
-                kwargs[k] = v
+    (good, vol, lid, kwargs, pargs) = parseArgs(args)
 
     if not good:
         return False
-
-    if vol is not None:
-        vol = {f"{i:>02}" for i in vol}
-    if lid is not None:
-        lid = {f"p{i:>04}" for i in lid}
 
     print(f"TEI trimmer stage {stage} for {REPO}")
     print(f"TEI source version = {VERSION_SRC}")

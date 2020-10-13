@@ -451,7 +451,20 @@ def filterNotes(match):
     return f"""{notes}{word}"""
 
 
-NOTES_FILTER_RE = re.compile(r"""((?:<fnote[^>]*>.*?</fnote>\s*)+)(\S*)""", re.S)
+NOTES_FILTER_RE = re.compile(
+    r"""
+        (
+            (?:
+                <fnote[^>]*>
+                    .*?
+                </fnote>
+                \s*
+            )+
+        )
+        (\S*)
+    """,
+    re.S | re.X,
+)
 NOTES_ALL_RE = re.compile(
     r"""
         ^
@@ -565,12 +578,14 @@ def markedUnNoteRepl(match):
     text = text.strip()
     if text.endswith("<lb/>"):
         text = text[0:-5].rstrip()
-    return f"{pre}\n<note>{num}) {text}</note>\n"
+    if text and num == "0":
+        print(f"X {pre=}, {num=} {text=}")
+    return f"{pre}\n<note>{num}) {text}</note>\n" if text else match.group(0)
 
 
 MARK_PLAIN_RE = re.compile(r"""\b([xi*0-9]{1,2})\s*\)\s*""", re.S)
 MARKED_NOTE_DBL_RE = re.compile(r"""(<lb/></note>)(<note>)""", re.S)
-MARKED_NOTE_RE = re.compile(r"""<note>\s*([0-9]{1,2}|[a-z])\s*\)\s*""", re.S)
+MARKED_NOTE_RE = re.compile(r"""<note>\s*([0-9]{1,2}|[a-z])\s*\)\?\s*""", re.S)
 MARKED_UN_NOTE = (
     (
         re.compile(
@@ -675,7 +690,9 @@ DEL_LB_RE = re.compile(r"""(</note>)\s*<lb/>\s*""", re.S)
 
 
 def formatNotes(text):
-    showPage = False and 'n="218"' in text
+    # 01:p02024
+
+    showPage = False and 'n="648"' in text
     if showPage:
         print(
             "=== [AAAA] ==============================================================="
@@ -718,7 +735,7 @@ def formatNotes(text):
             "=== [GGGG] ==============================================================="
         )
         print(text[-1400:])
-    # text = PARA_END_BEFORE_NOTES_RE.sub(r"\2\n\1", text)
+    text = PARA_END_BEFORE_NOTES_RE.sub(r"\2\n\1", text)
     if showPage:
         print(
             "=== [HHHH] ==============================================================="

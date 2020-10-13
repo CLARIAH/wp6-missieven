@@ -6,14 +6,14 @@
  head.rend=right	1
  head.rend=small	26
  head.rend=small bold	1
- hi.rend=emphasis	4554
- hi.rend=large	628
- hi.rend=small	974
- hi.rend=small-caps	347
- hi.rend=sub	60
- hi.rend=super	9549
- hi.rend=xlarge	10
- hi.rend=xsmall	94
+ hi.rend=emphasis	4473
+ hi.rend=large	624
+ hi.rend=small	899
+ hi.rend=small-caps	327
+ hi.rend=sub	59
+ hi.rend=super	9531
+ hi.rend=xlarge	5
+ hi.rend=xsmall	51
  note.rend=bold	57
  note.rend=bold indent	21
  note.rend=bold small	23
@@ -25,7 +25,7 @@
  note.rend=indent bold small	8
  note.rend=indent small	29
  note.rend=indent xsmall	1
- note.rend=italic	474
+ note.rend=italic	472
  note.rend=italic bold	2
  note.rend=italic bold large	20
  note.rend=italic bold small	7
@@ -33,25 +33,25 @@
  note.rend=italic bold xsmall	1
  note.rend=italic center	53
  note.rend=italic center large	7
- note.rend=italic center small	3
+ note.rend=italic center small	2
  note.rend=italic center xsmall	68
  note.rend=italic indent	5201
  note.rend=italic indent bold	23
  note.rend=italic indent bold large	100
  note.rend=italic indent bold small	73
- note.rend=italic indent large	7773
+ note.rend=italic indent large	7778
  note.rend=italic indent small	7346
  note.rend=italic large	128
  note.rend=italic outdent	9
  note.rend=italic outdent large	2
- note.rend=italic right	88
+ note.rend=italic right	87
  note.rend=italic right bold	1
  note.rend=italic right bold large	3
  note.rend=italic right bold small	34
  note.rend=italic right large	22
- note.rend=italic right small	4
+ note.rend=italic right small	1
  note.rend=italic right xsmall	74
- note.rend=italic small	54
+ note.rend=italic small	53
  note.rend=italic small-caps center xsmall	1
  note.rend=italic small-caps right small	1
  note.rend=italic sub	1
@@ -66,10 +66,10 @@
  note.rend=large bold super	1
  note.rend=large center	7
  note.rend=large indent	84
- note.rend=large italic	1388
+ note.rend=large italic	1389
  note.rend=large italic bold	4
  note.rend=large italic indent	21
- note.rend=large italic right	102
+ note.rend=large italic right	101
  note.rend=large italic small-caps	1
  note.rend=large outdent	45
  note.rend=large right	197
@@ -89,16 +89,15 @@
  note.rend=small bold right	1
  note.rend=small center	23
  note.rend=small indent	4518
- note.rend=small italic	886
+ note.rend=small italic	831
  note.rend=small italic indent	24
- note.rend=small italic right	96
- note.rend=small italic small-caps	1
+ note.rend=small italic right	81
  note.rend=small outdent	1
  note.rend=small right	118
  note.rend=small small-caps	1
  note.rend=small-caps	3
  note.rend=small-caps bold large	1
- note.rend=small-caps indent	4
+ note.rend=small-caps indent	5
  note.rend=small-caps indent large	1
  note.rend=super	250
  note.rend=super bold	5
@@ -113,24 +112,22 @@
  note.rend=xsmall	56
  note.rend=xsmall bold	2
  note.rend=xsmall center	3
- note.rend=xsmall italic	723
+ note.rend=xsmall italic	722
  note.rend=xsmall italic center	1
  note.rend=xsmall right	13
- p.rend=bold	154
+ p.rend=bold	51
  p.rend=bold indent	2
  p.rend=bold large	4
- p.rend=bold right	30
- p.rend=bold small	7
- p.rend=bold small-caps	6
+ p.rend=bold right	7
+ p.rend=bold small	6
  p.rend=center	14
- p.rend=center bold	1
- p.rend=indent	7405
+ p.rend=indent	7399
  p.rend=indent bold	36
  p.rend=indent bold large	157
  p.rend=indent bold small	5
  p.rend=indent large	89
  p.rend=indent small	5
- p.rend=italic	22
+ p.rend=italic	21
  p.rend=italic bold	2
  p.rend=italic indent	38
  p.rend=italic indent bold	1
@@ -138,26 +135,23 @@
  p.rend=italic indent small	28
  p.rend=italic large	5
  p.rend=italic right	1
- p.rend=italic right small	1
  p.rend=italic small	2
  p.rend=italic sub indent	1
  p.rend=italic underline	2
  p.rend=italic xsmall	1
- p.rend=large	2114
- p.rend=large bold	49
+ p.rend=large	2082
+ p.rend=large bold	47
  p.rend=large bold indent	3
- p.rend=large bold right	7
+ p.rend=large bold right	6
  p.rend=large bold small-caps	2
  p.rend=large center	2
- p.rend=large indent	3563
+ p.rend=large indent	3564
  p.rend=large italic	13
  p.rend=large italic super	1
  p.rend=large outdent	22
- p.rend=large right	121
+ p.rend=large right	117
  p.rend=large small-caps	462
  p.rend=large small-caps right	2
- p.rend=large super	1
- p.rend=large super right	1
  p.rend=large underline	12
  p.rend=large underline center	2
  p.rend=large underline right	6
@@ -165,55 +159,39 @@
  p.rend=outdent bold	5
  p.rend=outdent bold large	1
  p.rend=outdent large	53
- p.rend=outdent small	6
- p.rend=right	442
- p.rend=small	874
- p.rend=small bold	128
+ p.rend=outdent small	5
+ p.rend=right	327
+ p.rend=small	506
+ p.rend=small bold	16
  p.rend=small bold indent	1
- p.rend=small bold right	21
- p.rend=small bold small-caps	1
+ p.rend=small bold right	1
  p.rend=small indent	627
- p.rend=small italic	12
+ p.rend=small italic	8
  p.rend=small italic bold	7
- p.rend=small italic right	1
  p.rend=small outdent	4
- p.rend=small right	87
- p.rend=small small-caps	20
- p.rend=small super right	1
- p.rend=small underline	1
- p.rend=small-caps	578
+ p.rend=small right	42
+ p.rend=small small-caps	11
+ p.rend=small-caps	572
  p.rend=small-caps bold	19
  p.rend=small-caps bold large	38
  p.rend=small-caps large	8
- p.rend=small-caps right	9
- p.rend=small-caps right bold small	1
+ p.rend=small-caps right	5
  p.rend=small-caps small	2
- p.rend=small-caps super xsmall	1
- p.rend=small-caps xsmall	1
- p.rend=super	3
- p.rend=super xsmall	1
- p.rend=underline	8
- p.rend=underline italic small	1
+ p.rend=super	1
+ p.rend=underline	7
  p.rend=underline large	1
  p.rend=underline right	1
- p.rend=xlarge	12
+ p.rend=xlarge	1
  p.rend=xlarge bold	1
- p.rend=xlarge super	1
- p.rend=xsmall	170
- p.rend=xsmall bold	1
- p.rend=xsmall indent	1
- p.rend=xsmall italic	3
- p.rend=xsmall right	36
- p.rend=xsmall small-caps	11
- p.rend=xsmall super	5
- p.rend=xsmall super right	2
+ p.rend=xsmall	10
+ p.rend=xsmall italic	2
 body..	489
-cell..	21306
-folio..	2507
+cell..	20477
+folio..	2510
 head..	400
 header..	489
-hi..	4121
-lb..	466290
+hi..	4089
+lb..	462393
 meta.key=author	487
 meta.key=day	484
 meta.key=month	483
@@ -226,22 +204,22 @@ meta.key=title	489
 meta.key=year	484
 meta.value=x	4409
 note..	403
-note.place=inline	25105
-note.resp=editor	25112
-note.type=editorial-summary	25105
-p..	16308
-p.resp=int_paragraph_joining	2627
+note.place=inline	25031
+note.resp=editor	25038
+note.type=editorial-summary	25031
+p..	15689
+p.resp=int_paragraph_joining	2619
 pb.facs=n_nnn_nnnn	5857
-pb.facs=nnn_nnn	3191
+pb.facs=nnn_nnn	3193
 pb.facs=nnn_nnnn	1090
 pb.n=n	110
 pb.n=nn	1157
-pb.n=nnn	8780
+pb.n=nnn	8782
 pb.n=nnnn	91
-pb.tpl=n	10138
-pb.vol=nn	10138
-row..	4629
+pb.tpl=n	10140
+pb.vol=nn	10140
+row..	4516
 subHead..	88
-table..	330
+table..	319
 teiTrim..	489
 und..	415

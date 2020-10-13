@@ -1,5 +1,4 @@
 import sys
-import os
 import collections
 import re
 
@@ -8,17 +7,22 @@ import xml.etree.ElementTree as ET
 from tf.fabric import Fabric
 from tf.convert.walker import CV
 
+
 from lib import (
-    TRIM2_DIR,
+    XML_DIR,
     OUT_DIR,
     REPO,
-    VERSION_SRC,
-    VERSION_TF,
     META_DECL,
-    clearTree,
+    parseArgs,
+    initTree,
     getVolumes,
     getLetters,
+    docSummary
 )
+
+SRC = f"{XML_DIR}"
+VERSION_SRC = META_DECL["versionSrc"]
+VERSION_TF = META_DECL["versionTf"]
 
 
 HELP = """
@@ -73,45 +77,69 @@ intFeatures = set(
 )
 
 featureMeta = {
-    "authors": {
-        "description": "authors of the letter",
-        "format": "comma-separated values",
+    "author": {
+        "description": "authors of the letter, surnames only",
+        "format": "comma-space-separated values",
+    },
+    "authorFull": {
+        "description": "authors of the letter, full names",
+        "format": "comma-space-separated values",
+    },
+    "col": {"description": "column number of a column in a row in a table"},
+    "day": {
+        "description": "day part of the date of the letter",
+        "format": "numeral between 1 and 31 inclusive",
+    },
+    "emph": {
+        "description": "whether a word is emphasized by typography",
+        "format": "integer 1 or absent",
+    },
+    "facs": {
+        "description": (
+            "url part of the corresponding online facsimile page;"
+            " the url itself can be constructed using a hard coded template."
+            " See also the tpl feature"
+        )
+    },
+    "fnote": {
+        "description": "all footnotes at that position",
+        "format": "string with mark down formatting, separated by newlines",
+    },
+    "folio": {
+        "description": "label indicating a folio break",
+        "format": (
+            "string of the form `Fol. {n} {rv}` where rv is a recto/verso indication"
+        ),
+    },
+    "month": {
+        "description": "month part of the date of the letter",
+        "format": "numeral between 1 and 12 inclusive",
+    },
+    "n": {"description": "number of a volume, letter, page, para, line, table"},
+    "page": {
+        "description": "number of the first page of this letter in this volume",
+        "format": "numeral (at most 4 digits)",
     },
     "place": {
         "description": "place from where the letter was sent",
+    },
+    "punc": {
+        "description": "whitespace and/or punctuation following a word"
+        "up to the next word"
     },
     "rawdate": {
         "description": "the date the letter was sent",
         "format": "informal Dutch date notation",
     },
-    "dayFrom": {
-        "description": "day part of the date the letter was sent",
-        "format": "numeral between 1 and 31 inclusive",
+    "remark": {
+        "description": "editorial remark after this word position",
+        "format": "full text, with markdown and without XML mark up",
     },
-    "dayTo": {
-        "description": "day part of the date the letter was received",
-        "format": "numeral between 1 and 31 inclusive",
+    "rest": {
+        "description": "unidentified metadata of the letter",
+        "format": "string",
     },
-    "monthFrom": {
-        "description": "month part of the date the letter was sent",
-        "format": "numeral between 1 and 12 inclusive",
-    },
-    "monthTo": {
-        "description": "month part of the date the letter was received",
-        "format": "numeral between 1 and 12 inclusive",
-    },
-    "yearFrom": {
-        "description": "year part of the date the letter was sent",
-        "format": "numeral between 1600 and 1800",
-    },
-    "yearTo": {
-        "description": "year part of the date the letter was received",
-        "format": "numeral between 1600 and 1800",
-    },
-    "page": {
-        "description": "number of the first page of this letter in this volume",
-        "format": "numeral (at most 4 digits)",
-    },
+    "row": {"description": "row number of a row of column in a table"},
     "seq": {
         "description": (
             "sequence number of this letter among the letters of"
@@ -119,27 +147,27 @@ featureMeta = {
         ),
         "format": "roman numeral (capitalized)",
     },
-    "pid": {
+    "special": {
         "description": (
-            "abstract identifier, corresponding with the file name of the"
-            " TEI source file of the letter"
+            "whether a word has special typography"
+            " possibly with OCR mistakes as well"
         ),
-        "format": "'INT_' plus '-' separated hex numbers",
+        "format": "integer 1 or absent",
     },
-    "title": {"description": "short title of letter, from fileDesc element"},
-    "location": {"description": "location from letter was sent, from fileDesc element"},
-    "vol": {"description": "volume number", "format": "positive integer"},
-    "data": {"description": "date when letter was sent, from fileDesc element"},
-    "lid": {"description": "ID of letter, from fileDesc element"},
-    "n": {"description": "number of a volume, letter, page, para, line, table"},
-    "row": {"description": "row number of a row of column in a table"},
-    "col": {"description": "column number of a column in a row in a table"},
-    "facs": {
+    "status": {
+        "description": "status of the letter, e.g. secret, copy",
+        "format": "keyword",
+    },
+    "super": {
         "description": (
-            "url part of the corresponding online facsimile page;"
-            " the url itself can be constructed using a hard coded template."
-            " See also the tpl feature"
-        )
+            "whether a word has superscript typography"
+            " possibly indicating the numerator of a fraction"
+        ),
+        "format": "integer 1 or absent",
+    },
+    "title": {
+        "description": "title of the letter",
+        "format": "comma-separated values",
     },
     "tpl": {
         "description": (
@@ -157,58 +185,15 @@ featureMeta = {
             "images/generale_missiven_gs{facs}.tif"
         ),
     },
-    "folio": {
-        "description": "label indicating a folio break",
-        "format": (
-            "string of the form `Fol. {n} {rv}` where rv is a recto/verso indication"
-        ),
-    },
-    "fref": {
-        "description": "foot note mark as it occurs in the text",
-        "format": "string",
-    },
-    "flabel": {
-        "description": "foot note mark as it occurs in the footnote",
-        "format": "string",
-    },
-    "fnum": {
-        "description": "foot note number (interpreted and corrected)",
-        "format": "integer",
-    },
-    "fnote": {
-        "description": "foot note text",
-        "format": "string with mark down formatting",
-    },
     "trans": {"description": "transcription of a word"},
-    "punc": {
-        "description": "whitespace and/or punctuation following a word"
-        "up to the next word"
-    },
-    "emph": {
-        "description": "whether a word is emphasized by typography",
-        "format": "integer 1 or absent",
-    },
     "und": {
         "description": "whether a word is underlined by typography",
         "format": "integer 1 or absent",
     },
-    "super": {
-        "description": (
-            "whether a word has superscript typography"
-            " possibly indicating the numerator of a fraction"
-        ),
-        "format": "integer 1 or absent",
-    },
-    "special": {
-        "description": (
-            "whether a word has special typography"
-            " possibly with OCR mistakes as well"
-        ),
-        "format": "integer 1 or absent",
-    },
-    "remark": {
-        "description": "editorial remark after this word position",
-        "format": "full text, with markdown and without XML mark up",
+    "vol": {"description": "volume number", "format": "positive integer"},
+    "year": {
+        "description": "year part of the date of the letter",
+        "format": "numeral between 1600 and 1800",
     },
 }
 
@@ -219,15 +204,9 @@ def showDiags(diags, kind, batch=20):
     if not diags:
         print("No diags")
     else:
-        for (diag, srcs) in sorted(diags.items()):
-            print(f"{kind} {diag}")
-            for (src, data) in sorted(srcs.items()):
-                print(f"\t{src} ({len(data)}x)")
-                for (l, line, doc, sore) in sorted(data)[0:batch]:
-                    soreRep = "" if sore is None else f'"{sore}" in '
-                    print(f"\t\t{l} in {doc}: {soreRep}{line}")
-                if len(data) > batch:
-                    print("\t\t + more")
+        for (diag, docs) in sorted(diags.items()):
+            docRep = docSummary(sorted(docs))
+            print(f"{kind} {diag} {len(docs):>4}x {docRep}")
 
 
 # SET UP CONVERSION
@@ -238,17 +217,14 @@ def getConverter():
     return CV(TF)
 
 
-def convert(vol, lid, doLoad):
+def convert(vol, lid):
     global givenVol
     global givenLid
 
     givenVol = vol
     givenLid = lid
 
-    if doLoad:
-        if os.path.exists(OUT_DIR):
-            clearTree(OUT_DIR)
-        os.makedirs(OUT_DIR, exist_ok=True)
+    initTree(OUT_DIR)
 
     cv = getConverter()
 
@@ -266,12 +242,12 @@ def convert(vol, lid, doLoad):
 # DIRECTOR
 
 
+warnings = collections.defaultdict(set)
+errors = collections.defaultdict(set)
+
+
 def director(cv):
-
-    warnings = collections.defaultdict(lambda: collections.defaultdict(set))
-    errors = collections.defaultdict(lambda: collections.defaultdict(set))
-
-    volumes = getVolumes(TRIM2_DIR)
+    volumes = getVolumes(SRC)
 
     cur = {}
     notes = dict(
@@ -279,7 +255,6 @@ def director(cv):
         markOrder=[],
         bodies={},
         bodyOrder=[],
-        lastMark=None,
         totalMarks=0,
         totalBodies=0,
         ambiguousMarks={},
@@ -290,7 +265,7 @@ def director(cv):
     )
 
     for vol in volumes:
-        if givenVol is not None and givenVol != vol:
+        if givenVol is not None and vol not in givenVol:
             continue
         print(f"\rvolume {vol:>2}" + " " * 70)
 
@@ -299,25 +274,26 @@ def director(cv):
 
         cv.feature(cur["volume"], n=vol)
 
-        thisTrimDir = f"{TRIM2_DIR}/{vol}"
-        letters = getLetters(thisTrimDir)
+        thisSrcDir = f"{SRC}/{vol}"
+        letters = getLetters(thisSrcDir)
 
         for name in letters:
-            lid = int(name[1:5].lstrip("0"))
-            if givenLid is not None and givenLid != lid:
+            lid = name
+            doc = f"{vol:>2}:{name}"
+            if givenLid is not None and lid not in givenLid:
                 continue
-            sys.stderr.write(f"\r\t{name[0:5]}      ")
-            with open(f"{thisTrimDir}/{name}") as fh:
+            sys.stderr.write(f"\r\t{lid}      ")
+            with open(f"{thisSrcDir}/{name}.xml") as fh:
                 text = fh.read()
                 root = ET.fromstring(text)
-            walkLetter(cv, root, cur, notes)
+            walkLetter(cv, doc, root, cur, notes)
 
         cv.terminate(cur["volume"])
+        cur["volume"] = None
 
     print("\rdone" + " " * 70)
 
     reportNotes(notes)
-    sys.exit()
 
     # delete meta data of unused features
 
@@ -335,22 +311,26 @@ def director(cv):
 # WALKERS
 
 
-def walkLetter(cv, root, cur, notes):
+def walkLetter(cv, doc, root, cur, notes):
     cur["letter"] = cv.node("letter")
     cur["ln"] = 0
     cur["p"] = 0
-    cur["fn"] = None
 
     for child in root:
         if child.tag == "header":
             collectMeta(cv, child, cur)
         if child.tag == "body":
-            walkNode(cv, child, cur, notes)
+            walkNode(cv, doc, child, cur, notes)
 
-    cv.terminate(cur.get("line", None))
+    if cur.get("line", None):
+        cv.terminate(cur["line"])
+        cur["line"] = None
     doNotes(cv, cur, notes)
-    cv.terminate(cur.get("page", None))
+    if cur.get("page", None):
+        cv.terminate(cur["page"])
+        cur["page"] = None
     cv.terminate(cur["letter"])
+    cur["letter"] = None
 
 
 TEXT_ATTRIBUTES = """
@@ -367,6 +347,12 @@ NODE_ELEMENTS = set(
     table
     row
     cell
+""".strip().split()
+)
+
+PREVENT_NEST = set(
+    """
+    para
 """.strip().split()
 )
 
@@ -414,7 +400,7 @@ DO_TAIL_ELEMENTS = set(
 DOWN_REF_RE = re.compile(r"""\[=([^\]]*)\]""")
 
 
-def walkNode(cv, node, cur, notes):
+def walkNode(cv, doc, node, cur, notes):
     """Handle all elements in the XML file.
 
     List of all elements and attributes.
@@ -448,11 +434,19 @@ def walkNode(cv, node, cur, notes):
     tag = node.tag
     atts = node.attrib
 
+    if tag in PREVENT_NEST:
+        if cur.get(tag, None):
+            cv.terminate(cur[tag])
+            cur[tag] = None
+            warnings[f"nested: {tag}"].add(doc)
+
     if tag in BREAKS:
-        cv.terminate(cur.get("line", None))
+        if cur.get("line", None):
+            cv.terminate(cur["line"])
         if tag == "pb":
             doNotes(cv, cur, notes)
-            cv.terminate(cur.get("page", None))
+            if cur.get("page", None):
+                cv.terminate(cur["page"])
             cur["page"] = cv.node("page")
             cv.feature(cur["page"], **featsFromAtts(atts))
             cur["pg"] = f"{cur['vol']:>02}:p{atts['n']:>04}"
@@ -482,36 +476,30 @@ def walkNode(cv, node, cur, notes):
         cur[tag] = 1
 
     elif tag == "fref":
-        notes["marks"].setdefault(atts.get("ref", None), []).append((cur["word"], cur["ln"]))
+        notes["marks"].setdefault(atts.get("ref", None), []).append(
+            (cur["word"], cur["ln"])
+        )
         notes["totalMarks"] += 1
 
     elif tag == "fnote":
         bodies = notes["bodies"]
         fref = atts.get("ref", None)
-        if fref is None and notes["lastMark"] is not None:
-            lastBody = notes["lastBody"]
-            lastBody[-1] += node.text
-            cur["fn"] = bodies[notes["lastMark"]]
-        else:
-            notes["totalBodies"] += 1
-            bodies.setdefault(fref, []).append(node.text)
-            notes["lastMark"] = fref
-            cur["fn"] = bodies[fref]
+        notes["totalBodies"] += 1
+        bodies.setdefault(fref, []).append(node.text)
 
     if tag in DO_TEXT_ELEMENTS:
         addText(cv, node.text, cur)
 
     for child in node:
-        walkNode(cv, child, cur, notes)
+        walkNode(cv, doc, child, cur, notes)
 
     if tag in NODE_ELEMENTS:
-        cv.terminate(cur[tag])
+        if cur.get(tag, None):
+            cv.terminate(cur[tag])
+            cur[tag] = None
 
     elif tag in TEXT_ATTRIBUTES:
         cur[tag] = None
-
-    elif tag == "fnote":
-        cur["fn"] = None
 
     if tag in DO_TAIL_ELEMENTS:
         addText(cv, node.tail, cur)
@@ -522,8 +510,11 @@ def walkNode(cv, node, cur, notes):
 
 def collectMeta(cv, node, cur):
     info = {
-        meta.attrib["key"]: meta.attrib["value"] for meta in node if meta.tag == "meta"
+        meta.attrib["key"]: meta.attrib["value"]
+        for meta in node
+        if meta.tag == "meta" and meta.attrib["key"] != "pid"
     }
+
     cv.feature(cur["letter"], **info)
 
 
@@ -537,51 +528,60 @@ def featsFromAtts(atts):
 
 def addText(cv, text, cur):
     if text:
-        dest = cur["fn"]
-        if dest:
-            dest[-1] += text
-        else:
-            for word in text.split():
-                curWord = cv.slot()
-                cur["word"] = curWord
-                cv.feature(curWord, trans=word, punc=" ")
-                for tag in TEXT_ATTRIBUTES:
-                    if cur.get(tag, None):
-                        cv.feature(curWord, **{tag: 1})
+        for word in text.split():
+            curWord = cv.slot()
+            cur["word"] = curWord
+            cv.feature(curWord, trans=word, punc=" ")
+            for tag in TEXT_ATTRIBUTES:
+                if cur.get(tag, None):
+                    cv.feature(curWord, **{tag: 1})
 
 
 def doNotes(cv, cur, notes):
+    # 9:597
+    if "word" not in cur:
+        return
+
     markInfo = notes["marks"]
     markOrder = notes["markOrder"]
     bodyInfo = notes["bodies"]
     bodyOrder = notes["bodyOrder"]
-    lastMark = notes["lastMark"]
 
     curPg = cur.get("pg", None)
 
+    wordNotes = collections.defaultdict(list)
+
+    for (word, noteTexts) in wordNotes.items():
+        cv.feature(word, fnote="\n\n".join(noteTexts))
+
     for (mark, occs) in markInfo.items():
+        bodiesText = "\n\n".join(bodyInfo[mark]) if mark in bodyInfo else ""
+        for (word, line) in occs:
+            wordNotes[word].append(f"^{mark}^. {bodiesText}")
+
         if len(occs) > 1:
             notes["ambiguousMarks"].setdefault(mark, {})[curPg] = occs
         if mark not in bodyInfo:
             notes["unresolvedMarks"].setdefault(mark, {})[curPg] = occs
 
+    word = cur["word"]
     for (mark, bodies) in bodyInfo.items():
         if mark is None:
             notes["unmarkedBodies"][curPg] = len(bodies)
         else:
             if len(bodies) > 1:
                 notes["ambiguousBodies"].setdefault(mark, {})[curPg] = len(bodies)
-            if mark not in markInfo:
-                notes["unresolvedBodies"].setdefault(mark, {})[curPg] = len(bodies)
+        if mark not in markInfo:
+            notes["unresolvedBodies"].setdefault(mark, {})[curPg] = len(bodies)
+            bodiesText = "\n\n".join(bodies)
+            markRep = "??" if mark is None else mark
+            wordNotes[word].append(f"^{markRep}^. {bodiesText}")
+
+    for (word, texts) in wordNotes.items():
+        cv.feature(word, fnote="\n\n".join(texts))
 
     markInfo.clear()
     markOrder.clear()
-
-    if not bodyInfo:
-        notes["lastMark"] = None
-        notes["lastBody"] = None
-    else:
-        notes["lastBody"] = bodyInfo[lastMark]
 
     bodyInfo.clear()
     bodyOrder.clear()
@@ -662,10 +662,10 @@ def loadTf():
     api = TF.load(loadableFeatures, silent=False)
     if api:
         print(f"max node = {api.F.otype.maxNode}")
-        print("Frequency of readings")
-        print(api.F.reading.freqList()[0:20])
-        print("Frequency of grapheme")
-        print(api.F.grapheme.freqList()[0:20])
+        print("Frequency of author")
+        print(api.F.author.freqList()[0:20])
+        print("Frequency of words")
+        print(api.F.trans.freqList()[0:20])
 
 
 # MAIN
@@ -674,7 +674,8 @@ def loadTf():
 def main():
     args = () if len(sys.argv) == 1 else tuple(sys.argv[1:])
 
-    doLoad = "load" in args
+    doLoad = "load" in args or "loadonly" in args
+    doConvert = "loadonly" not in args
 
     vol = None
     lid = None
@@ -683,23 +684,16 @@ def main():
         if arg == "--help":
             print(HELP)
             return True
-        if arg.isdigit():
-            if vol is None:
-                vol = arg
-            elif lid is None:
-                lid = arg
 
-    if vol is not None:
-        vol = int(vol)
-    if lid is not None:
-        lid = int(lid)
+    (good, vol, lid, kwargs, pargs) = parseArgs(args)
 
     print(f"trimmed TEI to TF converter for {REPO}")
     print(f"TEI source version = {VERSION_SRC}")
     print(f"TF  target version = {VERSION_TF}")
 
-    if not convert(vol, lid, doLoad):
-        return False
+    if doConvert:
+        if not convert(vol, lid):
+            return False
 
     if doLoad:
         loadTf()

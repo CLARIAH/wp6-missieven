@@ -8,6 +8,49 @@ import yaml
 import xml.etree.ElementTree as ET
 
 
+def parseArgs(args):
+    vol = None
+    lid = None
+
+    kwargs = {}
+    pargs = []
+
+    good = True
+
+    for arg in args:
+        if arg.isdigit() or '-' in arg:
+            if '-' in arg:
+                (b, e) = arg.split('-', 1)
+                if b.isdigit() and e.isdigit():
+                    values = set(range(int(b), int(e) + 1))
+                else:
+                    print(f"Unrecognized argument `{arg}`")
+                    good = False
+                    continue
+            else:
+                values = {int(arg)}
+            if vol is None:
+                vol = values
+            elif lid is None:
+                lid = values
+        else:
+            kv = arg.split("=", 1)
+            if len(kv) == 1:
+                pargs.append(arg)
+            else:
+                (k, v) = kv
+                if k == "orig":
+                    v = set(v.split(","))
+                kwargs[k] = v
+
+    if vol is not None:
+        vol = {f"{i:>02}" for i in vol}
+    if lid is not None:
+        lid = {f"p{i:>04}" for i in lid}
+
+    return (good, vol, lid, kwargs, pargs)
+
+
 def ucfirst(x, lower=True):
     return (x[0].upper() + (x[1:].lower() if lower else x[1:])) if x else x
 
@@ -625,6 +668,9 @@ VERSION_TF = META_DECL["versionTf"]
 IN_DIR = f"{SOURCE_DIR}/{VERSION_SRC}/tei"
 TRIM_DIR = f"{SOURCE_DIR}/{VERSION_SRC}/trim"
 REPORT_DIR = f"{REPO_DIR}/trimreport"
+XML_DIR = f"{REPO_DIR}/xml"
+
+LAST_STAGE = 3
 
 TF_DIR = f"{REPO_DIR}/tf"
 OUT_DIR = f"{TF_DIR}/{VERSION_TF}"
@@ -790,11 +836,8 @@ def combineTexts(first, following):
 
 
 def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
-    if stage == 0:
-        SRC = IN_DIR
-    else:
-        SRC = f"{TRIM_DIR}{stage - 1}"
-    DST = f"{TRIM_DIR}{stage}"
+    SRC = IN_DIR if stage == 0 else f"{TRIM_DIR}{stage - 1}"
+    DST = XML_DIR if stage == LAST_STAGE else f"{TRIM_DIR}{stage}"
     REP = f"{REPORT_DIR}{stage}"
     initTree(REP)
 
@@ -850,7 +893,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
 
         info["vol"] = vol
         idMap = {} if stage == 0 else None
-        letters = getLetters(thisSrcDir, idMap)
+        letters = getLetters(thisSrcDir, idMap=idMap)
 
         if stage == 1:
             for name in letters:
@@ -1047,6 +1090,7 @@ def trim(stage, givenVol, givenLid, trimPage, processPage, *args, **kwargs):
                 else:
                     singleHeads.append((doc, heads[0][1]))
 
+        print("SPLITS:")
         print(f"\t: {len(shortHeads):>3} short headings")
         print(f"\t: {len(noHeads):>3} without heading")
         print(f"\t: {len(singleHeads):>3} with single heading")
@@ -1223,12 +1267,14 @@ def byOcc(x):
 
 SPLIT_DOC_RE = re.compile(
     r"""
-        <pb\b[^>]*?\bn="([0-9]+)"[^>]*>\s*
+        <pb\b[^>]*?\bn="([0-9]+)"[^>]*>
+        \s*
         (?:
             <pb\b[^>]*>\s*
         )*
         (?:
-            <p\b[^>]*>.*?</p>\s*
+            <p\b[^>]*>.*?</p>
+            \s*
         )?
         <head\b[^>]*>(.*?)</head>
     """,
@@ -1238,7 +1284,7 @@ HEADER_RE = re.compile(r"""^.*?</header>\s*""", re.S)
 
 
 def splitPage(
-    vol, doc, info, lastPageNum, i, body, lastIndex, b, lastHead, metadata, splits
+    dst, vol, doc, info, lastPageNum, i, body, lastIndex, b, lastHead, metadata, splits
 ):
     page = f"p{lastPageNum:>04}"
     sDoc = f"{vol}:{page}"
@@ -1250,14 +1296,15 @@ def splitPage(
     lastText = P_INTERRUPT_RE.sub(r"""\1""", lastText)
     lastText = P_JOIN_RE.sub(r"""\1\2""", lastText)
 
-    writeDoc(vol, page, metadata, lastText)
+    writeDoc(dst, vol, page, metadata, lastText)
     splits.append((doc, sDoc, lastHead))
 
 
 def splitDoc(doc, info):
-    stage = 1
     (vol, startPage) = doc.split(":")
-    path = f"{TRIM_DIR}{stage}/{doc.replace(':', '/')}.xml"
+    stage = 1
+    DST = XML_DIR if stage == LAST_STAGE else f"{TRIM_DIR}{stage}"
+    path = f"{DST}/{doc.replace(':', '/')}.xml"
     with open(path) as fh:
         text = fh.read()
 
@@ -1287,6 +1334,7 @@ def splitDoc(doc, info):
 
         (b, e) = match.span()
         splitPage(
+            DST,
             vol,
             doc,
             info,
@@ -1307,6 +1355,7 @@ def splitDoc(doc, info):
     if i > 0:
         b = None
         splitPage(
+            DST,
             vol,
             doc,
             info,
@@ -1323,15 +1372,14 @@ def splitDoc(doc, info):
     return splits
 
 
-def writeDoc(vol, pageNum, metadata, text):
-    stage = 1
+def writeDoc(dst, vol, pageNum, metadata, text):
     header = "\n".join(
         f"""<meta key="{k}" value="{v}"/>""" for (k, v) in sorted(metadata.items())
     )
     header = f"<header>\n{header}\n</header>\n"
     body = f"<body>\n{text}\n</body>\n"
 
-    with open(f"{TRIM_DIR}{stage}/{vol}/{pageNum:>04}.xml", "w") as fh:
+    with open(f"{dst}/{vol}/{pageNum:>04}.xml", "w") as fh:
         fh.write(f"<teiTrim>\n{header}{body}</teiTrim>")
 
 
@@ -1417,6 +1465,8 @@ def trimDocument(
     match = BODY_RE.search(text)
     bodyText = match.group(1)
 
+    DST = XML_DIR if stage == LAST_STAGE else f"{TRIM_DIR}{stage}"
+
     header = (
         trimHeader(metaText, info)
         if stage == 0
@@ -1469,7 +1519,7 @@ def trimDocument(
                     r"""\1""", head.replace("<lb/>", " ").replace("\n", " ")
                 )
                 fileName = f"{pnum}.xml"
-                path = f"{TRIM_DIR}{stage}/{vol}/rest/{fileName}"
+                path = f"{DST}/{vol}/rest/{fileName}"
                 with open(path, "w") as fh:
                     fh.write(page)
 
