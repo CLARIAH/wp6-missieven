@@ -35,7 +35,7 @@
  note.rend=italic center large	7
  note.rend=italic center small	2
  note.rend=italic center xsmall	68
- note.rend=italic indent	5201
+ note.rend=italic indent	5235
  note.rend=italic indent bold	23
  note.rend=italic indent bold large	100
  note.rend=italic indent bold small	73
@@ -83,7 +83,7 @@
  note.rend=outdent large	7
  note.rend=outdent small	1
  note.rend=right	70
- note.rend=small	6859
+ note.rend=small	6863
  note.rend=small bold	6
  note.rend=small bold indent	4
  note.rend=small bold right	1
@@ -161,7 +161,7 @@
  p.rend=outdent large	53
  p.rend=outdent small	5
  p.rend=right	327
- p.rend=small	506
+ p.rend=small	510
  p.rend=small bold	16
  p.rend=small bold indent	1
  p.rend=small bold right	1
@@ -185,41 +185,41 @@
  p.rend=xlarge bold	1
  p.rend=xsmall	10
  p.rend=xsmall italic	2
-body..	489
-cell..	20477
-folio..	2510
-head..	400
-header..	489
-hi..	4089
-lb..	462393
-meta.key=author	487
-meta.key=day	484
-meta.key=month	483
-meta.key=page	489
+body..	523
+cell..	20556
+folio..	2515
+head..	434
+header..	523
+hi..	4122
+lb..	462539
+meta.key=author	521
+meta.key=day	518
+meta.key=month	517
+meta.key=page	523
 meta.key=pid	489
-meta.key=place	28
-meta.key=rawdate	487
-meta.key=seq	489
-meta.key=title	489
-meta.key=year	484
-meta.value=x	4409
+meta.key=place	62
+meta.key=rawdate	521
+meta.key=seq	523
+meta.key=title	523
+meta.key=year	518
+meta.value=x	4715
 note..	403
-note.place=inline	25031
-note.resp=editor	25038
-note.type=editorial-summary	25031
-p..	15689
+note.place=inline	25065
+note.resp=editor	25072
+note.type=editorial-summary	25065
+p..	15690
 p.resp=int_paragraph_joining	2619
-pb.facs=n_nnn_nnnn	5857
-pb.facs=nnn_nnn	3193
+pb.facs=n_nnn_nnnn	5865
+pb.facs=nnn_nnn	3194
 pb.facs=nnn_nnnn	1090
-pb.n=n	110
-pb.n=nn	1157
-pb.n=nnn	8782
+pb.n=n	111
+pb.n=nn	1163
+pb.n=nnn	8784
 pb.n=nnnn	91
-pb.tpl=n	10140
-pb.vol=nn	10140
-row..	4516
-subHead..	88
-table..	319
-teiTrim..	489
+pb.tpl=n	10149
+pb.vol=nn	10149
+row..	4550
+subhead..	88
+table..	321
+teiTrim..	523
 und..	415

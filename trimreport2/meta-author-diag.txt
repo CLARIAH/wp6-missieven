@@ -6,10 +6,11 @@ ok------------------
  12x 04:p0405 04:p0416 ...     Bent
   8x 07:p0583 07:p0596 ...     Bergman
   3x 09:p0525 09:p0652 ...     Bernard
+  1x 01:p0244e                 Blocq Martensz
  88x 04:p0311 04:p0312 ...     Blom
  53x 05:p0376 05:p0388 ...     Bornezee
  25x 04:p0241 04:p0242 ...     Bort
- 12x 01:p0004 01:p0007 ...     Both
+ 22x 01:p0003a 01:p0003b ...   Both
  13x 01:p0331 01:p0366 ...     Brouwer
  13x 01:p0554 01:p0596 ...     Caen
   7x 02:p0480 02:p0555 ...     Caesar
@@ -18,7 +19,7 @@ ok------------------
  44x 06:p0596 06:p0601 ...     Castelyn
  36x 06:p0345 06:p0346 ...     Chasteleyn
  58x 10:p0857 10:p0997 ...     Cluysenaar
-  1x 01:p0105                  Coen
+ 25x 01:p0097a 01:p0097b ...   Coen
   4x 06:p0390 06:p0401 ...     Comans
  44x 03:p0462 03:p0466 ...     Cops
  17x 09:p0365 09:p0424 ...     Coyett
@@ -27,13 +28,14 @@ ok------------------
  39x 10:p0297 10:p0399 ...     Crul
  19x 02:p0403 02:p0445 ...     Cunaeus
  10x 05:p0024 05:p0077 ...     De Beveren
- 18x 01:p0099 01:p0106 ...     De Carpentier
+ 31x 01:p0097d 01:p0097f ...   De Carpentier
  14x 07:p0162 07:p0166 ...     De Groot
  97x 06:p0289 06:p0290 ...     De Haan
  32x 05:p0439 05:p0493 ...     De Haas
  56x 06:p0596 06:p0601 ...     De Haeze
-  2x 01:p0129 01:p0131         De Houtman
+  5x 01:p0097d 01:p0098b ...   De Houtman
  19x 12:p0501 12:p0509 ...     De Klerk
+  4x 01:p0244a 01:p0244b ...   De Meester
  29x 12:p0186 12:p0189 ...     De Nijs
   1x 06:p0345                  De Roo
  26x 04:p0791 05:p0001 ...     De Saint-martin
@@ -42,7 +44,7 @@ ok------------------
  22x 06:p0267 06:p0275 ...     De Wilde
   2x 02:p0445 02:p0476         De With
  42x 08:p0121 08:p0127 ...     De Witte
-  5x 01:p0099 01:p0106 ...     Dedel
+ 11x 01:p0097d 01:p0097e ...   Dedel
  11x 02:p0311 02:p0332 ...     Demmer
  54x 06:p0219 06:p0231 ...     Douglas
  12x 08:p0003 08:p0009 ...     Dubbeldekop
@@ -65,8 +67,10 @@ ok------------------
   3x 03:p0468 03:p0474 ...     Hustaert
   6x 11:p0858 11:p0862 ...     Huyghens
  50x 07:p0353 07:p0381 ...     Huysman
-  1x 01:p0121                  Jansz
+  4x 01:p0097d 01:p0097f ...   Jansz
  15x 10:p0494 10:p0857 ...     Lakeman
+  1x 01:p0118a                 Lam
+  1x 01:p0244e                 Lefebvre
  12x 12:p0001 12:p0003 ...     Loten
   9x 01:p0373 01:p0507 ...     Lucasz
  23x 05:p0439 05:p0493 ...     Lycochthon
@@ -111,8 +115,8 @@ ok------------------
   5x 07:p0707 07:p0710 ...     Sipman
   7x 07:p0224 07:p0226 ...     Six
   2x 05:p0001 05:p0007         Slicher
-  4x 01:p0105 01:p0129 ...     Sonck
- 13x 01:p0121 01:p0129 ...     Specx
+  7x 01:p0098a 01:p0098b ...   Sonck
+ 15x 01:p0118e 01:p0121 ...    Specx
  54x 03:p0739 03:p0748 ...     Speelman
   2x 03:p0210 03:p0247         Sterthemius
  34x 02:p0445 02:p0476 ...     Steur
@@ -125,6 +129,7 @@ ok------------------
  77x 05:p0295 05:p0296 ...     Valckenier
  29x 10:p0494 10:p0495 ...     Van Aerden
   6x 02:p0232 02:p0256 ...     Van Alphen
+  6x 01:p0118a 01:p0118b ...   Van Antzen
   3x 09:p0484 09:p0525 ...     Van Arrewijne
  33x 08:p0059 08:p0068 ...     Van Baerle
  43x 08:p0179 08:p0188 ...     Van Bayen
@@ -134,12 +139,13 @@ ok------------------
  46x 11:p0224 11:p0226 ...     Van Broyel
  24x 09:p0112 09:p0130 ...     Van Cloon
  25x 03:p0484 03:p0525 ...     Van Dam
- 47x 01:p0152 01:p0174 ...     Van Diemen
+ 55x 01:p0152 01:p0174 ...     Van Diemen
  10x 07:p0640 07:p0651 ...     Van Dishoeck
   5x 02:p0296 02:p0306 ...     Van Dutecum
+  4x 01:p0244a 01:p0244b ...   Van Duynen
  35x 03:p0466 04:p0038 ...     Van Goens
  15x 12:p0089 12:p0096 ...     Van Gollenesse
-  2x 01:p0131 01:p0148         Van Gorcom
+  3x 01:p0131 01:p0148 ...     Van Gorcom
  25x 08:p0121 08:p0127 ...     Van Heyningen
  19x 12:p0394 12:p0403 ...     Van Hohendorf
 155x 03:p0453 03:p0462 ...     Van Hoorn
@@ -184,7 +190,7 @@ ok------------------
  21x 11:p0350 11:p0353 ...     Verijssel
  11x 08:p0121 08:p0127 ...     Versluys
   4x 02:p0445 02:p0476 ...     Versteghen
- 17x 01:p0152 01:p0174 ...     Vlack
+ 21x 01:p0152 01:p0174 ...     Vlack
   3x 03:p0815 03:p0821 ...     Volger
  10x 07:p0547 07:p0552 ...     Vuyst
   3x 01:p0663 01:p0734 ...     Welsing

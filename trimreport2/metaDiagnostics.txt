@@ -1,3 +1,52 @@
+01:p0003a
+I. PIETER BOTH, AAN BOORD VAN HET WAPEN VAN AMSTERDAM,  VOOR ILE DE MAYO 1) 25 februari 1610.  
+ok pid        =VD= 
+ok page       =VD= 3
+ok seq        =VD= I
+ok title      =OD= Both, aan boord van het Wapen van Amsterdam voor Ile de Mayo, 25 februari 1610
+ok            =VD= Both; aan boord van het Wapen van Amsterdam voor Ile de Mayo, 25 februari 1610
+ok status     =VD= 
+ok author     =VD= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 25 februari 1610
+ok place      =VD= aan boord van het Wapen van Amsterdam voor Ile de Mayo
+ok year       =VD= 1610
+ok month      =VD= 2
+ok day        =VD= 25
+
+01:p0003b
+II. PIETER BOTH, AAN BOORD VAN HET WAPEN VAN AMSTERDAM,  LIGGENDE IN DE TAFELBAAI 6 augustus 1610.  
+ok pid        =VD= 
+ok page       =V = 3
+ok seq        =VD= II
+ok title      =OD= Both, aan boord van het Wapen van Amsterdam liggende in de Tafelbaai, 6 augustus 1610
+ok            =VD= Both; aan boord van het Wapen van Amsterdam liggende in de Tafelbaai, 6 augustus 1610
+ok status     =VD= 
+ok author     =VD= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 6 augustus 1610
+ok place      =VD= aan boord van het Wapen van Amsterdam liggende in de Tafelbaai
+ok year       =VD= 1610
+ok month      =VD= 8
+ok day        =VD= 6
+
+01:p0003c
+III. PIETER BOTH, AAN BOORD VAN HET WAPEN VAN AMSTERDAM,  TER REDE VAN MAURITIUS 14 oktober 1610.  
+ok pid        =VD= 
+ok page       =V = 3
+ok seq        =VD= III
+ok title      =OD= Both, aan boord van het Wapen van Amsterdam ter rede van Mauritius, 14 oktober 1610
+ok            =VD= Both; aan boord van het Wapen van Amsterdam ter Rede van Mauritius, 14 oktober 1610
+ok status     =VD= 
+ok author     =VD= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 14 oktober 1610
+ok place      =OD= aan boord van het Wapen van Amsterdam ter rede van Mauritius
+ok            =VD= aan boord van het Wapen van Amsterdam ter Rede van Mauritius
+ok year       =VD= 1610
+ok month      =VD= 10
+ok day        =VD= 14
+
 01:p0004
 IV. PIETER BOTH, KASTEEL NASSAU OP BANDA 18 juli 1611.  
 ok pid        =V = INT_85d873f4-8e9e-31b2-af43-a85316f054a0
@@ -45,6 +94,38 @@ ok            =V = ; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 j
 ok            = D= Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
 ok status     =VD= 
 ok author     = D= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 26 juli 1612
+ok place      =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+ok year       =VD= 1612
+ok month      =VD= 7
+ok day        =VD= 26
+
+01:p0016a
+VII. PIETER BOTH, FORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612.  
+ok pid        =VD= 
+ok page       =VD= 16
+ok seq        =VD= VII
+ok title      =OD= Both, Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+ok            =VD= Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+ok status     =VD= 
+ok author     =VD= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 26 juli 1612
+ok place      =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+ok year       =VD= 1612
+ok month      =VD= 7
+ok day        =VD= 26
+
+01:p0016b
+VIII. PIETER BOTH, FORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612.  
+ok pid        =VD= 
+ok page       =V = 16
+ok seq        =VD= VIII
+ok title      =OD= Both, Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+ok            =VD= Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+ok status     =VD= 
+ok author     =VD= Both
 ok authorFull = D= Pieter Both
 ok rawdate    =VD= 26 juli 1612
 ok place      =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
@@ -104,6 +185,54 @@ ok year       =VD= 1612
 ok month      =VD= 7
 ok day        =VD= 26
 
+01:p0020a
+XII. PIETER BOTH, FORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612.  
+ok pid        =VD= 
+ok page       =VD= 20
+ok seq        =VD= XII
+ok title      =OD= Both, Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+ok            =VD= Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+ok status     =VD= 
+ok author     =VD= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 26 juli 1612
+ok place      =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+ok year       =VD= 1612
+ok month      =VD= 7
+ok day        =VD= 26
+
+01:p0020b
+XIII. PIETER BOTH, FORT MAURITIUS NABIJ NGOFAKIAHA OP HET  EILAND MAKÉAN 26 juli 1612.  
+ok pid        =VD= 
+ok page       =V = 20
+ok seq        =VD= XIII
+ok title      =OD= Both, Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+ok            =VD= Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+ok status     =VD= 
+ok author     =VD= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 26 juli 1612
+ok place      =VD= Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+ok year       =VD= 1612
+ok month      =VD= 7
+ok day        =VD= 26
+
+01:p0020c
+XIV. PIETER BOTH, ZONDER PLAATS EN DATUM  
+ok pid        =VD= 
+ok page       =V = 20
+ok seq        =VD= XIV
+ok title      =OD= Both, zonder plaats en datum
+ok            =VD= Both; zonder plaats, zonder datum
+ok status     =VD= 
+ok author     =VD= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 
+ok place      =VD= 
+ok year       =VD= 
+ok month      =VD= 
+ok day        =VD= 
+
 01:p0021
 XV. PIETER BOTH, BANTAM 1 januari 1614 *).  
 ok pid        =V = INT_953a59a1-9078-31f7-82c5-4b453f73ac5a
@@ -114,6 +243,38 @@ ok            =V = ; Bantam, 1 januari 1614
 ok            = D= Both; Bantam, 1 januari 1614
 ok status     =VD= 
 ok author     = D= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 1 januari 1614
+ok place      =VD= Bantam
+ok year       =VD= 1614
+ok month      =VD= 1
+ok day        =VD= 1
+
+01:p0027a
+XVI. PIETER BOTH, BANTAM 1 januari 1614.  
+ok pid        =VD= 
+ok page       =VD= 27
+ok seq        =VD= XVI
+ok title      =OD= Both, Bantam, 1 januari 1614
+ok            =VD= Both; Bantam, 1 januari 1614
+ok status     =VD= 
+ok author     =VD= Both
+ok authorFull = D= Pieter Both
+ok rawdate    =VD= 1 januari 1614
+ok place      =VD= Bantam
+ok year       =VD= 1614
+ok month      =VD= 1
+ok day        =VD= 1
+
+01:p0027b
+XVII. PIETER BOTH, BANTAM 1 januari 1614.  
+ok pid        =VD= 
+ok page       =V = 27
+ok seq        =VD= XVII
+ok title      =OD= Both, Bantam, 1 januari 1614
+ok            =VD= Both; Bantam, 1 januari 1614
+ok status     =VD= 
+ok author     =VD= Both
 ok authorFull = D= Pieter Both
 ok rawdate    =VD= 1 januari 1614
 ok place      =VD= Bantam
@@ -469,6 +630,166 @@ ok year       =VD= 1618
 ok month      =VD= 8
 ok day        =VD= 20
 
+01:p0097a
+I. JAN PIETERSZ. COEN, KASTEEL JAKATRA 5 augustus 1619.  
+ok pid        =VD= 
+ok page       =VD= 97
+ok seq        =VD= I
+ok title      =OD= Coen, Kasteel Jakatra, 5 augustus 1619
+ok            =VD= Coen; Kasteel Jakatra, 5 augustus 1619
+ok status     =VD= 
+ok author     =VD= Coen
+ok authorFull = D= Jan Pietersz Coen
+ok rawdate    =VD= 5 augustus 1619
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1619
+ok month      =VD= 8
+ok day        =VD= 5
+
+01:p0097b
+II. JAN PIETERSZ. COEN, KASTEEL JAKATRA 7 oktober 1619.  
+ok pid        =VD= 
+ok page       =V = 97
+ok seq        =VD= II
+ok title      =OD= Coen, Kasteel Jakatra, 7 oktober 1619
+ok            =VD= Coen; Kasteel Jakatra, 7 oktober 1619
+ok status     =VD= 
+ok author     =VD= Coen
+ok authorFull = D= Jan Pietersz Coen
+ok rawdate    =VD= 7 oktober 1619
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1619
+ok month      =VD= 10
+ok day        =VD= 7
+
+01:p0097c
+III. JAN PIETERSZ. COEN, KASTEEL JAKATRA 15 oktober 1619.  
+ok pid        =VD= 
+ok page       =V = 97
+ok seq        =VD= III
+ok title      =OD= Coen, Kasteel Jakatra, 15 oktober 1619
+ok            =VD= Coen; Kasteel Jakatra, 15 oktober 1619
+ok status     =VD= 
+ok author     =VD= Coen
+ok authorFull = D= Jan Pietersz Coen
+ok rawdate    =VD= 15 oktober 1619
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1619
+ok month      =VD= 10
+ok day        =VD= 15
+
+01:p0097d
+IV. JAN PIETERSZ. COEN, PIETER DE CARPENTIER, JACOB DEDEL,  FREDERICK DE HOUTMAN EN WILLEM JANSZ 1) 2), KASTEEL JAKATRA 22 januari 1620.  
+ok pid        =VD= 
+ok page       =V = 97
+ok seq        =VD= IV
+ok title      =OD= Coen, De Carpentier, Dedel, De Houtman, Jansz, Kasteel Jakatra, 22 januari 1620
+ok            =VD= Coen, De Carpentier, Dedel, De Houtman, Jansz; Kasteel Jakatra, 22 januari 1620
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Dedel, De Houtman, Jansz
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel, Frederick de Houtman, Willem Jansz
+ok rawdate    =VD= 22 januari 1620
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1620
+ok month      =VD= 1
+ok day        =VD= 22
+
+01:p0097e
+V. JAN PIETERSZ. COEN EN JACOB DEDEL, KASTEEL JAKATRA  29 januari 1620.  
+ok pid        =VD= 
+ok page       =V = 97
+ok seq        =VD= V
+ok title      =OD= Coen, Dedel, Kasteel Jakatra, 29 januari 1620
+ok            =VD= Coen, Dedel; Kasteel Jakatra, 29 januari 1620
+ok status     =VD= 
+ok author     =VD= Coen, Dedel
+ok authorFull = D= Jan Pietersz Coen, Jacob Dedel
+ok rawdate    =VD= 29 januari 1620
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1620
+ok month      =VD= 1
+ok day        =VD= 29
+
+01:p0097f
+VI. JAN PIETERSZ. COEN, PIETER DE CARPENTIER, WILLEM JANSZ.  EN JACOB DEDEL, KASTEEL JAKATRA 11 mei 1620.  
+ok pid        =VD= 
+ok page       =V = 97
+ok seq        =VD= VI
+ok title      =OD= Coen, De Carpentier, Jansz, Dedel, Kasteel Jakatra, 11 mei 1620
+ok            =VD= Coen, De Carpentier, Jansz, Dedel; Kasteel Jakatra, 11 mei 1620
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Jansz, Dedel
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Willem Jansz, Jacob Dedel
+ok rawdate    =VD= 11 mei 1620
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1620
+ok month      =VD= 5
+ok day        =VD= 11
+
+01:p0097g
+VII. JAN PIETERSZ. COEN, PIETER DE CARPENTIER, EN JACOB  DEDEL, KASTEEL JAKATRA 12 mei 1620.  
+ok pid        =VD= 
+ok page       =V = 97
+ok seq        =VD= VII
+ok title      =OD= Coen, De Carpentier, Dedel, Kasteel Jakatra, 12 mei 1620
+ok            =VD= Coen, De Carpentier, Dedel; Kasteel Jakatra, 12 mei 1620
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Dedel
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel
+ok rawdate    =VD= 12 mei 1620
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1620
+ok month      =VD= 5
+ok day        =VD= 12
+
+01:p0098a
+VIII. JAN PIETERSZ. COEN, PIETER DE CARPENTIER, JACOB DEDEL  EN DR. MARTINUS SONCK, KASTEEL JAKATRA 31 juli 1620.  
+ok pid        =VD= 
+ok page       =VD= 98
+ok seq        =VD= VIII
+ok title      =OD= Coen, De Carpentier, Dedel, Sonck, Kasteel Jakatra, 31 juli 1620
+ok            =VD= Coen, De Carpentier, Dedel, Sonck; Kasteel Jakatra, 31 juli 1620
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Dedel, Sonck
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel Dr, Martinus Sonck
+ok rawdate    =VD= 31 juli 1620
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1620
+ok month      =VD= 7
+ok day        =VD= 31
+
+01:p0098b
+IX. JAN PIETERSZ. COEN, FREDERICK DE HOUTMAN, PIETER DE  CARPENTIER, EN DR. MARTINUS SONCK, KASTEEL JAKATRA 26 oktober  1620.  
+ok pid        =VD= 
+ok page       =V = 98
+ok seq        =VD= IX
+ok title      =OD= Coen, De Houtman, De Carpentier, Sonck, Kasteel Jakatra, 26 oktober 1620
+ok            =VD= Coen, De Houtman, De Carpentier, Sonck; Kasteel Jakatra, 26 oktober 1620
+ok status     =VD= 
+ok author     =VD= Coen, De Houtman, De Carpentier, Sonck
+ok authorFull = D= Jan Pietersz Coen, Frederick de Houtman, Pieter de Carpentier Dr, Martinus Sonck
+ok rawdate    =VD= 26 oktober 1620
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1620
+ok month      =VD= 10
+ok day        =VD= 26
+
+01:p0098c
+X. JAN PIETERSZ. COEN, FREDERICK DE HOUTMAN, PIETER DE  CARPENTIER, JACOB DEDEL EN DR. MARTINUS SONCK, KASTEEL  JAKATRA 8 januari 1621.  
+ok pid        =VD= 
+ok page       =V = 98
+ok seq        =VD= X
+ok title      =OD= Coen, De Houtman, De Carpentier, Dedel, Sonck, Kasteel Jakatra, 8 januari 1621
+ok            =VD= Coen, De Houtman, De Carpentier, Dedel, Sonck; Kasteel Jakatra, 8 januari 1621
+ok status     =VD= 
+ok author     =VD= Coen, De Houtman, De Carpentier, Dedel, Sonck
+ok authorFull = D= Jan Pietersz Coen, Frederick de Houtman, Pieter de Carpentier, Jacob Dedel Dr, Martinus Sonck
+ok rawdate    =VD= 8 januari 1621
+ok place      =VD= Kasteel Jakatra
+ok year       =VD= 1621
+ok month      =VD= 1
+ok day        =VD= 8
+
 01:p0099
 XI. FIETER DE CARPENTIER EN JACOB DEDEL, KASTEEL JAKATRA  8 maart 1621 1).  
 ok pid        =V = INT_d88954f6-c387-3a43-a187-1a5661e4d7e7
@@ -522,6 +843,102 @@ ok place      =VD= Kasteel Jakatra
 ok year       =VD= 1621
 ok month      =VD= 7
 ok day        =VD= 9
+
+01:p0118a
+XIV. JAN PIETERSZ. COEN, PIETER DE CARPENTIER, JAN DIRCKSZ.  LAM EN WILLEM VAN ANTZEN, BATAVIA 1) 16 november 1621.  
+ok pid        =VD= 
+ok page       =VD= 118
+ok seq        =VD= XIV
+ok title      =OD= Coen, De Carpentier, Lam, Van Antzen, Batavia, 16 november 1621
+ok            =VD= Coen, De Carpentier, Lam, Van Antzen; Batavia, 16 november 1621
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Lam, Van Antzen
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Jan Dircksz Lam, Willem van Antzen
+ok rawdate    =VD= 16 november 1621
+ok place      =VD= Batavia
+ok year       =VD= 1621
+ok month      =VD= 11
+ok day        =VD= 16
+
+01:p0118b
+XV. JAN PIETERSZ. COEN, PIETER DE CARPENTIER EN WILLEM  VAN ANTZEN, BATAVIA 20 december 1621.  
+ok pid        =VD= 
+ok page       =V = 118
+ok seq        =VD= XV
+ok title      =OD= Coen, De Carpentier, Van Antzen, Batavia, 20 december 1621
+ok            =VD= Coen, De Carpentier, Van Antzen; Batavia, 20 december 1621
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Van Antzen
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen
+ok rawdate    =VD= 20 december 1621
+ok place      =VD= Batavia
+ok year       =VD= 1621
+ok month      =VD= 12
+ok day        =VD= 20
+
+01:p0118c
+XVI. JAN PIETERSZ. COEN, PIETER DE CARPENTIER EN WILLEM  VAN ANTZEN, BATAVIA 21 januari 1622.  
+ok pid        =VD= 
+ok page       =V = 118
+ok seq        =VD= XVI
+ok title      =OD= Coen, De Carpentier, Van Antzen, Batavia, 21 januari 1622
+ok            =VD= Coen, De Carpentier, Van Antzen; Batavia, 21 januari 1622
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Van Antzen
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen
+ok rawdate    =VD= 21 januari 1622
+ok place      =VD= Batavia
+ok year       =VD= 1622
+ok month      =VD= 1
+ok day        =VD= 21
+
+01:p0118d
+XVII. JAN PIETERSZ. COEN, PIETER DE CARPENTIER EN WILLEM  VAN ANTZEN, BATAVIA 14 maart 1622.  
+ok pid        =VD= 
+ok page       =V = 118
+ok seq        =VD= XVII
+ok title      =OD= Coen, De Carpentier, Van Antzen, Batavia, 14 maart 1622
+ok            =VD= Coen, De Carpentier, Van Antzen; Batavia, 14 maart 1622
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Van Antzen
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen
+ok rawdate    =VD= 14 maart 1622
+ok place      =VD= Batavia
+ok year       =VD= 1622
+ok month      =VD= 3
+ok day        =VD= 14
+
+01:p0118e
+XIX. JAN PIETERSZ. COEN, PIETER DE CARPENTIER, WILLEM VAN  ANTZEN EN JACQUES SPECX, BATAVIA 6 september 1622.  
+ok pid        =VD= 
+ok page       =V = 118
+ok seq        =VD= XIX
+ok title      =OD= Coen, De Carpentier, Van Antzen, Specx, Batavia, 6 september 1622
+ok            =VD= Coen, De Carpentier, Van Antzen, Specx; Batavia, 6 september 1622
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Van Antzen, Specx
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen, Jacques Specx
+ok rawdate    =VD= 6 september 1622
+ok place      =VD= Batavia
+ok year       =VD= 1622
+ok month      =VD= 9
+ok day        =VD= 6
+
+01:p0118f
+XVIII. JAN PIETERSZ. COEN, PIETER DE CARPENTIER EN WILLEM  VAN ANTZEN, BATAVIA 26 maart 1622.  
+ok pid        =VD= 
+ok page       =V = 118
+ok seq        =VD= XVIII
+ok title      =OD= Coen, De Carpentier, Van Antzen, Batavia, 26 maart 1622
+ok            =VD= Coen, De Carpentier, Van Antzen; Batavia, 26 maart 1622
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Van Antzen
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen
+ok rawdate    =VD= 26 maart 1622
+ok place      =VD= Batavia
+ok year       =VD= 1622
+ok month      =VD= 3
+ok day        =VD= 26
 
 01:p0121
 I. PIETER DE CARPENTIER, WILLEM JANSZ en JACQUES SPECX,  BATAVIA, 1 februari 1623.  
@@ -826,6 +1243,134 @@ ok place      = D= Batavia
 ok year       =VD= 1627
 ok month      =VD= 7
 ok day        =VD= 29
+
+01:p0244a
+I. JAN PIETERSZ. COEN, PIETER DE CARPENTIER, JACQUES SPECX,  PIETER VAN DUYNEN, ANTONIO VAN DIEMEN EN JEREMIAS DE  MEESTER, Batavia 9 november 1627.  
+ok pid        =VD= 
+ok page       =VD= 244
+ok seq        =VD= I
+ok title      =OD= Coen, De Carpentier, Specx, Van Duynen, Van Diemen, De Meester, Batavia, 9 november 1627
+ok            =VD= Coen, De Carpentier, Specx, Van Duynen, Van Diemen, De Meester; Batavia, 9 november 1627
+ok status     =VD= 
+ok author     =VD= Coen, De Carpentier, Specx, Van Duynen, Van Diemen, De Meester
+ok authorFull = D= Jan Pietersz Coen, Pieter de Carpentier, Jacques Specx, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester
+ok rawdate    =VD= 9 november 1627
+ok place      =VD= Batavia
+ok year       =VD= 1627
+ok month      =VD= 11
+ok day        =VD= 9
+
+01:p0244b
+II. JAN PIETERSZ. COEN, PIETER VAN DUYNEN, ANTONIO VAN   DIEMEN EN JEREMIAS DE MEESTER, Batavia 6 januari 1628.  
+ok pid        =VD= 
+ok page       =V = 244
+ok seq        =VD= II
+ok title      =OD= Coen, Van Duynen, Van Diemen, De Meester, Batavia, 6 januari 1628
+ok            =VD= Coen, Van Duynen, Van Diemen, De Meester; Batavia, 6 januari 1628
+ok status     =VD= 
+ok author     =VD= Coen, Van Duynen, Van Diemen, De Meester
+ok authorFull = D= Jan Pietersz Coen, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester
+ok rawdate    =VD= 6 januari 1628
+ok place      =VD= Batavia
+ok year       =VD= 1628
+ok month      =VD= 1
+ok day        =VD= 6
+
+01:p0244c
+III. JAN PIETERSZ. COEN, PIETER VAN DUYNEN, ANTONIO VAN   DIEMEN EN JEREMIAS DE MEESTER, Batavia 13 januari 1628.  
+ok pid        =VD= 
+ok page       =V = 244
+ok seq        =VD= III
+ok title      =OD= Coen, Van Duynen, Van Diemen, De Meester, Batavia, 13 januari 1628
+ok            =VD= Coen, Van Duynen, Van Diemen, De Meester; Batavia, 13 januari 1628
+ok status     =VD= 
+ok author     =VD= Coen, Van Duynen, Van Diemen, De Meester
+ok authorFull = D= Jan Pietersz Coen, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester
+ok rawdate    =VD= 13 januari 1628
+ok place      =VD= Batavia
+ok year       =VD= 1628
+ok month      =VD= 1
+ok day        =VD= 13
+
+01:p0244d
+IV. JAN PIETERSZ. COEN, PIETER VAN DUYNEN, ANTONIO VAN   DIEMEN EN JEREMIAS DE MEESTER, Batavia 24 januari 1628.  
+ok pid        =VD= 
+ok page       =V = 244
+ok seq        =VD= IV
+ok title      =OD= Coen, Van Duynen, Van Diemen, De Meester, Batavia, 24 januari 1628
+ok            =VD= Coen, Van Duynen, Van Diemen, De Meester; Batavia, 24 januari 1628
+ok status     =VD= 
+ok author     =VD= Coen, Van Duynen, Van Diemen, De Meester
+ok authorFull = D= Jan Pietersz Coen, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester
+ok rawdate    =VD= 24 januari 1628
+ok place      =VD= Batavia
+ok year       =VD= 1628
+ok month      =VD= 1
+ok day        =VD= 24
+
+01:p0244e
+V. JAN PIETERSZ. COEN, WILLEM JANSZ., JACQUES LEFEBVRE,  JAN VAN GORCOM, DR. PIETER VLACK, ANTONIO VAN DIEMEN EN  ADRIAAN BLOCQ MARTENSZ., Batavia 3 november 1628.  
+ok pid        =VD= 
+ok page       =V = 244
+ok seq        =VD= V
+ok title      =OD= Coen, Jansz, Lefebvre, Van Gorcom, Vlack, Van Diemen, Blocq Martensz, Batavia, 3 november 1628
+ok            =VD= Coen, Jansz, Lefebvre, Van Gorcom, Vlack, Van Diemen, Blocq Martensz; Batavia, 3 november 1628
+ok status     =VD= 
+ok author     =VD= Coen, Jansz, Lefebvre, Van Gorcom, Vlack, Van Diemen, Blocq Martensz
+ok authorFull = D= Jan Pietersz Coen, Willem Jansz, Jacques Lefebvre, Jan van Gorcom Dr, Pieter Vlack, Antonio van Diemen, Adriaan Blocq Martensz
+ok rawdate    =VD= 3 november 1628
+ok place      =VD= Batavia
+ok year       =VD= 1628
+ok month      =VD= 11
+ok day        =VD= 3
+
+01:p0244f
+VI. JAN PIETERSZ. COEN, DR. PIETER VLACK EN ANTONIO VAN  DIEMEN, Batavia 17 november 1628.  
+ok pid        =VD= 
+ok page       =V = 244
+ok seq        =VD= VI
+ok title      =OD= Coen, Vlack, Van Diemen, Batavia, 17 november 1628
+ok            =VD= Coen, Vlack, Van Diemen; Batavia, 17 november 1628
+ok status     =VD= 
+ok author     =VD= Coen, Vlack, Van Diemen
+ok authorFull = D= Jan Pietersz Coen Dr, Pieter Vlack, Antonio van Diemen
+ok rawdate    =VD= 17 november 1628
+ok place      =VD= Batavia
+ok year       =VD= 1628
+ok month      =VD= 11
+ok day        =VD= 17
+
+01:p0244g
+VII. JAN PIETERSZ. COEN, DR. PIETER VLACK EN ANTONIO VAN  DIEMEN, Batavia 10 februari 1629.  
+ok pid        =VD= 
+ok page       =V = 244
+ok seq        =VD= VII
+ok title      =OD= Coen, Vlack, Van Diemen, Batavia, 10 februari 1629
+ok            =VD= Coen, Vlack, Van Diemen; Batavia, 10 februari 1629
+ok status     =VD= 
+ok author     =VD= Coen, Vlack, Van Diemen
+ok authorFull = D= Jan Pietersz Coen Dr, Pieter Vlack, Antonio van Diemen
+ok rawdate    =VD= 10 februari 1629
+ok place      =VD= Batavia
+ok year       =VD= 1629
+ok month      =VD= 2
+ok day        =VD= 10
+
+01:p0244h
+VIII. JAN PIETERSZ. COEN, DR. PIETER VLACK EN ANTONIO VAN  DIEMEN, Batavia 18 maart 1629.  
+ok pid        =VD= 
+ok page       =V = 244
+ok seq        =VD= VIII
+ok title      =OD= Coen, Vlack, Van Diemen, Batavia, 18 maart 1629
+ok            =VD= Coen, Vlack, Van Diemen; Batavia, 18 maart 1629
+ok status     =VD= 
+ok author     =VD= Coen, Vlack, Van Diemen
+ok authorFull = D= Jan Pietersz Coen Dr, Pieter Vlack, Antonio van Diemen
+ok rawdate    =VD= 18 maart 1629
+ok place      =VD= Batavia
+ok year       =VD= 1629
+ok month      =VD= 3
+ok day        =VD= 18
 
 01:p0247
 I. JACQUES SPECX, Dr. PIETER VLACK, ANTONIO VAN DIEMEN,  PIETER NUYTS en CRIJN VAN RAEMBURCH Batavia 15 december 1629.  

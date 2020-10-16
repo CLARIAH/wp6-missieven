@@ -1,7 +1,15 @@
 import re
 
-from lib import WHITE_RE, applyCorrections
+from lib import REPORT_DIR, WHITE_RE, applyCorrections, docSummary
 
+corpusPre = None
+trimVolume = None
+trimDocBefore = None
+trimDocPrep = None
+trimDocPost = None
+
+STAGE = 3
+REP = f"{REPORT_DIR}{STAGE}"
 
 """
 Notes.
@@ -11,7 +19,7 @@ Notes.
 CORRECTIONS_DEF = {
     "01:p0004-0004": (
         (
-            r"""\^4J\^ \.(</remark>)""",
+            r"""<super>4J</super> \.<lb/>\s*(</remark>)""",
             r"""^4^)\1""",
         ),
     ),
@@ -23,13 +31,13 @@ CORRECTIONS_DEF = {
     ),
     "05:p0099-0135": (
         (
-            r"""(Padang te vestigen\.)(</remark>)""",
+            r"""(Padang te vestigen\.<lb/>\s*)(</remark>)""",
             r"""\1)\2""",
         ),
     ),
     "05:p0099-0149": (
         (
-            r"""(Pits vernam te Bantam,)(</remark>)"""
+            r"""(Pits vernam te Bantam,<lb/>\s*)(</remark>)"""
             r"""\s*<para>\s*(dat\s*-\s*\))<lb/>\s*</para>""",
             r"""\1\3\2""",
         ),
@@ -48,7 +56,6 @@ OVERRIDE_FIRST = {
 REMARK_SPURIOUS_RE = re.compile(r"""<remark>(y[y ]*)</remark>""", re.S)
 REMARK_END_CORR_RE = re.compile(r"""\)\s*\.\s*([*\]^])\s*(</remark>)""", re.S)
 
-MARK_NUM_RE = re.compile(r"""\s*([xi*0-9]{1,2})\s*\)?\s*(.*)""", re.S)
 COMMENT_RE = re.compile(r"""<(fnote|remark)\b([^>]*)>(.*?)</\1>""", re.S)
 REMARK_START_RE = re.compile(
     r"""
@@ -58,29 +65,6 @@ REMARK_START_RE = re.compile(
         \*?
         [({]
         \s*
-    """,
-    re.S | re.X,
-)
-REMARK_END_RE = re.compile(
-    r"""
-        (?:
-            (?:
-                [)}]-*
-            )
-            |
-            (?:
-                -
-                [\ -]*
-                (?:
-                    \*j\*
-                    |
-                    [;-]
-                )
-            )
-        )
-        \s*
-        [.\]]*
-        $
     """,
     re.S | re.X,
 )
@@ -96,6 +80,12 @@ REMARK_END_RE = re.compile(
         \s*
         [:;.,]?
         \s*
+        (
+            (?:
+                <lb/>
+                \s*
+            )?
+        )
         $
     """,
     re.S | re.X,
@@ -105,7 +95,12 @@ REMARK_MULTIPLE_RE = re.compile(
     r"""
         (?:
             <remark>
-                [^<]*
+                (?:
+                    .
+                    (?!
+                        <remark
+                    )
+                )*
             </remark>
             \s*
         ){2,}
@@ -272,6 +267,52 @@ def processPage(text, previous, result, info, *args, **kwargs):
     result.append("\n")
 
 
+LEGEND = {
+    "<": "continuing remark without previous remark on preceding page",
+    ">": "to-be-continued remark without next remark on following page",
+    "x": "remark without opening and without closing",
+    "(": "remark with opening and without closing",
+    ")": "remark without opening and with closing",
+    "m": "multiple remarks combined into one",
+    "1": "single remark continuing from previous page and extending to next page",
+    "F": "first remark on page continuing from previous page",
+    "L": "last remark on page continuing to next page",
+    "0": "page without remarks",
+    "v": "remark without issues",
+}
+
+
+def corpusPost(info):
+    print("REMARKS:\n")
+    remarkInfo = info["remarkInfo"]
+    totalPatterns = 0
+    totalRemarks = 0
+    with open(f"{REP}/remarks.tsv", "w") as fh:
+        for (label, legend) in LEGEND.items():
+            thisRemarkInfo = remarkInfo.get(label, {})
+
+            nPatterns = len(thisRemarkInfo)
+            nRemarks = sum(len(x) for x in thisRemarkInfo.values())
+            if label not in {"m", "1", "F", "L", "0"}:
+                totalPatterns += nPatterns
+                totalRemarks += nRemarks
+
+            msg = f"{label}: {nPatterns:>5} " f"in {nRemarks:>5} x {legend}"
+            print(f"\t{msg}")
+            fh.write(f"\n-------------------\n{msg}\n\n")
+
+            for (summary, docs) in sorted(thisRemarkInfo.items(), key=byOcc):
+                fh.write(f"{summary} {docSummary(docs).rstrip()}\n")
+
+        msg = f"T: {totalPatterns:>5} " f"in {totalRemarks:>5} x in total"
+        print(f"\t{msg}")
+
+
+def byOcc(x):
+    (summary, docs) = x
+    return (docs[0], summary) if docs else ("", summary)
+
+
 def remarkMultiplePre(info):
     return lambda match: remarkMultiple(match, info)
 
@@ -288,8 +329,8 @@ def remarkMultiple(match, info):
 
         for match in REMARK_RE.finditer(remarks):
             content = match.group(1)
+            (summary, trimmed) = summarize(cleanText(content, "remark", full=True))
             content = cleanText(content, "remark")
-            (summary, trimmed) = summarize(content)
             thisOpen = trimmed.startswith("(")
             thisClosed = trimmed.endswith(")")
 
@@ -318,6 +359,28 @@ def remarkMultiple(match, info):
     return "".join(result)
 
 
+REF_RE = re.compile(
+    r"""
+        (<ref>)
+        ([^<]*)
+        (</ref>)
+        (
+            (?:
+                \s*
+                (?:
+                    p\.
+                    |
+                    [0-9]+
+                    |
+                    -
+                )
+            )+
+        )
+    """,
+    re.S | re.X,
+)
+
+
 def trimPage(text, info, previous, *args, **kwargs):
     remarkInfo = info["remarkInfo"]
     page = info["page"]
@@ -341,20 +404,22 @@ def trimPage(text, info, previous, *args, **kwargs):
     ppMatch = REMARK_PRE_POST_RE.search(text)
     if ppMatch:
         (beforeFirst, afterLast) = ppMatch.groups([1, 2])
-        pre = REMARK_PRE_RE.match(beforeFirst).group(1).strip()
-        post = REMARK_POST_RE.match(afterLast).group(1).strip()
+        pre = REMARK_PRE_RE.match(beforeFirst)
+        pre = "" if pre is None else pre.group(1).strip()
+        post = REMARK_POST_RE.match(afterLast)
+        post = "" if post is None else post.group(1).strip()
 
         matches = tuple(REMARK_RE.finditer(text))
         for (i, match) in enumerate(matches):
             content = match.group(1)
-            content = cleanText(content, "remark")
-            (summary, trimmed) = summarize(content)
-            startBracket = trimmed.startswith("(")
-            endBracket = trimmed.endswith(")")
+            (summary, trimmed) = summarize(cleanText(content, "remark", full=True))
+            startBracket = trimmed.startswith("«")
+            endBracket = trimmed.endswith("»")
             isFirst = (
                 i == 0 and not pre and not startBracket and summary not in overrideFirst
             )
             isLast = i == len(matches) - 1 and not post and not endBracket
+            content = cleanText(content, "remark")
             if isFirst and isLast:
                 onlyRemark = (content, summary)
             elif isFirst:
@@ -427,22 +492,6 @@ def parseNum(text):
     return text
 
 
-def parseMark(match):
-    num = match.group(1)
-    after = match.group(2)
-    return f"""<fref ref="{parseNum(num)}"/>{after} """
-
-
-def parseSuper(match):
-    material = match.group(1)
-    after = match.group(2)
-    return (
-        MARK_NUM_RE.sub(parseMark, material)
-        if MARK_NUM_RE.search(material)
-        else f"""<super>{material}</super>{after}"""
-    )
-
-
 def filterNotes(match):
     notes = match.group(1)
     word = match.group(2)
@@ -482,14 +531,9 @@ NOTES_ALL_RE = re.compile(
 )
 NOTE_RE = re.compile(r"""<fnote.*?</fnote>""", re.S)
 
-# CELL_NOTES_RE = re.compile(r"""<fnote[^>]*>(.*?)</fnote>""", re.S)
-# cell = CELL_NOTES_RE.sub(r"""\1""", cell)
-
-
 NOTE_COLLAPSE_RE = re.compile(
     r"""(<fnote ref=[^>]*>)(.*?)(</fnote>)((?:\s*<fnote>.*?</fnote>)+)""", re.S
 )
-
 
 FOLIO_DWN_RE = re.compile(r"""<folio>\s*(.*?)\s*</folio>""", re.S)
 MARK_DWN_RE = re.compile(r"""<fref ref="([^"]*)"/>""", re.S)
@@ -530,30 +574,35 @@ def cleanTag(match):
     return f"<{tag}{atts}>{text}</{tag}>"
 
 
-def cleanText(text, tag):
-    text = text.replace("<lb/>", " ")
-    text = text.replace("<emph>", "*")
-    text = text.replace("</emph>", "*")
-    text = text.replace("<und>", "_")
-    text = text.replace("</und>", "_")
-    text = text.replace("<super>", "^")
-    text = text.replace("</super>", "^")
-    text = text.replace("<special>", "`")
-    text = text.replace("</special>", "`")
-    text = MARK_DWN_RE.sub(r"[=\1]", text)
-    text = FOLIO_DWN_RE.sub(r" {\1} ", text)
-    text = text.replace("\n", " ")
-    text = text.strip()
-    text = WHITE_RE.sub(" ", text)
-    text = TABLE_DWN_RE.sub(tableDown, text)
+def cleanText(text, tag, full=False):
+    if full:
+        text = text.replace("<lb/>", " ")
+        text = text.replace("<emph>", "*")
+        text = text.replace("</emph>", "*")
+        text = text.replace("<und>", "_")
+        text = text.replace("</und>", "_")
+        text = text.replace("<super>", "^")
+        text = text.replace("</super>", "^")
+        text = text.replace("<special>", "`")
+        text = text.replace("</special>", "`")
+        text = text.replace("<ref>", "[")
+        text = text.replace("</ref>", "]")
+        text = MARK_DWN_RE.sub(r"[=\1]", text)
+        text = FOLIO_DWN_RE.sub(r" {\1} ", text)
+        text = text.replace("\n", " ")
+        text = text.strip()
+        text = WHITE_RE.sub(" ", text)
+        text = TABLE_DWN_RE.sub(tableDown, text)
 
     if tag == "remark":
-        text = REMARK_START_RE.sub(r"(", text)
-        text = REMARK_END_RE.sub(r")", text)
+        text = REMARK_START_RE.sub(r"«", text)
+        text = REMARK_END_RE.sub(r"\1»", text)
+    text = REF_RE.sub(r"\1\2\4\3", text)
 
-    if "<" in text:
-        print(f"\nunclean {tag}")
-        print(f"\t==={text}===")
+    if full:
+        if "<" in text:
+            print(f"\nunclean {tag}")
+            print(f"\t==={text}===")
     return text
 
 
@@ -583,9 +632,55 @@ def markedUnNoteRepl(match):
     return f"{pre}\n<note>{num}) {text}</note>\n" if text else match.group(0)
 
 
-MARK_PLAIN_RE = re.compile(r"""\b([xi*0-9]{1,2})\s*\)\s*""", re.S)
+MARK_PLAIN = (
+    (
+        re.compile(
+            r"""
+    \b
+    ([xi*0-9]{1,2})
+    \s*
+    \)
+    \s*
+    """,
+            re.S | re.X,
+        ),
+        parseMarkPlain,
+    ),
+    (
+        re.compile(
+            r"""
+                <super>
+                \s*
+                (
+                    <fref[^>]*/>
+                    .*?
+                )
+                </super>
+            """,
+            re.S | re.X,
+        ),
+        r"""\1""",
+    ),
+)
+
 MARKED_NOTE_DBL_RE = re.compile(r"""(<lb/></note>)(<note>)""", re.S)
-MARKED_NOTE_RE = re.compile(r"""<note>\s*([0-9]{1,2}|[a-z])\s*\)\?\s*""", re.S)
+MARKED_NOTE_RE = re.compile(
+    r"""
+        <note>
+        \s*
+        (
+            [0-9]{1,2}
+            |
+            [a-z]
+        )
+        \b
+        \s*
+        \)?
+        \s*
+    """,
+    re.S | re.X,
+)
+
 MARKED_UN_NOTE = (
     (
         re.compile(
@@ -644,7 +739,7 @@ MARKED_UN_NOTE = (
                 <para\b[^>]*>
                 \s*
                 (
-                    <note>
+                    <note\b[^>]*>
                     (?:
                         .
                         (?!
@@ -657,7 +752,7 @@ MARKED_UN_NOTE = (
                 </para>
                 \s*
             """,
-            re.S | re.X
+            re.S | re.X,
         ),
         r"\1\n",
     ),
@@ -692,7 +787,7 @@ DEL_LB_RE = re.compile(r"""(</note>)\s*<lb/>\s*""", re.S)
 def formatNotes(text):
     # 01:p02024
 
-    showPage = False and 'n="648"' in text
+    showPage = False and 'n="46"' in text
     if showPage:
         print(
             "=== [AAAA] ==============================================================="
@@ -747,7 +842,8 @@ def formatNotes(text):
             "=== [IIII] ==============================================================="
         )
         print(text[-1400:])
-    text = MARK_PLAIN_RE.sub(parseMarkPlain, text)
+    for (convertRe, convertRepl) in MARK_PLAIN:
+        text = convertRe.sub(convertRepl, text)
     if showPage:
         print(
             "=== [JJJJ] ==============================================================="

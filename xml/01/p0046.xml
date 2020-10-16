@@ -20,20 +20,23 @@
 <head>II. GERARD REYNST, BANTAM 26 oktober 1615.<lb/>
 </head>
 <folio>970,fol.1-23. Een kopie in bundel 972.</folio>
-<remark>(De korte inleiding is weggelaten. Men vergelijke ter aanvulling Coen’s brief van 22 okt. 1615. [Coen /,] p. 114-147)</remark>
+<remark>«De korte inleiding is weggelaten. Men vergelijke ter aanvulling Coen’s brief van<lb/>
+22 okt. 1615.
+<ref>Coen /, p. 114-147</ref><lb/>
+»</remark>
 <para>
 Ondertusschen is op 16 januarij hier gearriveert ’t jacht Nassauw, dat wij<lb/>
 den IIen augusti voorleden, scheydende van de eylanden van de Comores, naer<lb/>
 Arabien hadden gesonden omme te onderstaen, off men aldaer tot eenige handelinge<lb/>
 soude cunnen geraken. Den coopman van ’t voorsz. jacht
-<super><fref ref="1"/> </super> heeft ons verhaelt<lb/>
+<fref ref="1"/>  heeft ons verhaelt<lb/>
 zijn wedervaren, seggende, hoe dat hij, eerst in de stadt Aden gecomen<lb/>
 zijnde, met alle vrundtsehap is ontfangen geweest, vanwaer hij, naerdat hij der<lb/>
 veerthien dagen geweest was, geboden werdde te vertrecken door oorsake, de wij le<lb/>
 ’t schip gheen cargasoen en hadde, zijluyden voor Engelse gehouden werdden, die<lb/>
 niet en quamen als om te rooven, gelijck d’Engelse daer gedaen hebben ende<lb/>
 continuelijck doen. Vandaer is hij verseylt naer de stadt Xihiri
-<super><fref ref="2"/> ,</super> alwaer met alle<lb/>
+<fref ref="2"/> , alwaer met alle<lb/>
 vrundtsehap is onthaelt geweest ende de civielste luyden gevonden, daer oock de<lb/>
 negotie floreert. Dan en heeft in den tijdt, dat hij daer is geweest, niet sekerlijck<lb/>
 cunnen vernemen tot wat prijs de specerijen ende andere deses landts coopmanschappen<lb/>
@@ -42,10 +45,10 @@ datter metten peper, noten, nagelen ende Chinese sijdelakenen goet prouffijt te<
 doen sal zijn. De Arabiers, zeydt hij, sijn seer secreet ende schrupuleux, soodat de<lb/>
 negotie aldaer mettertijdt sal moeten ondersocht wordden, tot welcken eynde in<lb/>
 Xihiri voorsz. gelaten heeft twee assistenten ende noch eenen Jan Jochomssen
-<super><fref ref="3"/> ,</super><lb/>
+<fref ref="3"/> ,<lb/>
 geappointeerde
-<super><fref ref="4"/> </super> onder de compaignie van Barckman Pieterssen de Wit
-<super><fref ref="5"/> .</super><lb/>
+<fref ref="4"/>  onder de compaignie van Barckman Pieterssen de Wit
+<fref ref="5"/> .<lb/>
 d’Welck wij wunschten, U E. door den Generael Bot, die ’t voorsz. schip in de<lb/>
 Straet van Sonda rescontreerde, hadde mogen gerapporteert wordden, maer en<lb/>
 heeft sich op ’t stuck van de negotie niet eens geinformeert, soo mij den voorsz.<lb/>
@@ -59,11 +62,30 @@ soo niet trecken. De hitte is te groot ende den dranek op meest alle de plaetsen
 overvloedich. Ick hebbe alrede bevonden, dat een slave meer werekx affleydt als<lb/>
 twee ofte meer van onse natie zouden doen, conde ick maer slaven becomen, in-<lb/>
 
-<fnote>[=1] Pieter van den Broecke, die nadat hij tussen 1605 en 1612 enige reizen naar WestAfrika had gemaakt, in 1613 als koopman op het jacht Nassau uitkwam. Grondlegger van de handel op Arabië, maakte hij enige tochten derwaarts en naar Suratte. Vroeger ten onrechte geprezen om zijn vermeend f linie gedrag in het fort Jakatra in 1619, directeur ter kust van Suratte van 1620 tot 1629, commandeur van een retourvloot; hij stierf 1640 voor Malakka gedurende het beleg. Een biografie in *Pieter van den Broecke.*</fnote>
-<fnote>[=2] Xihiri = Sjihir.</fnote>
-<fnote>[=3] Mij niet bekend, de beide assistenten waren Abraham Crabbe en Anthony Claesz. Vischer.</fnote>
-<fnote>[=4] Geappointeerde, een voor een burgerlijke functie bestemde militair.</fnote>
-<fnote>[=5] Barckman Pietersz. de Wit. Volgens *Elias Vroedschap* I, p. 285 op reis naar Indië 3 Dec. 1604 overleden kapitein; mogelijk ten rechte: 1614.[=1] De Mataram. De vorst van Mataram (1613-1645) die later den titel van Sultan Agung voerde. De toezegging was een gevolg van de zending van Jasper van Zurck naar zijn hofstad in 1614. Vgl. *Buysero,* p. 241 en *Goen* I, p. 73 vlg.</fnote>
+<fnote ref="1">Pieter van den Broecke, die nadat hij tussen 1605 en 1612 enige reizen naar WestAfrika<lb/>
+had gemaakt, in 1613 als koopman op het jacht Nassau uitkwam. Grondlegger van de<lb/>
+handel op Arabië, maakte hij enige tochten derwaarts en naar Suratte. Vroeger ten onrechte<lb/>
+geprezen om zijn vermeend f linie gedrag in het fort Jakatra in 1619, directeur ter kust van<lb/>
+Suratte van 1620 tot 1629, commandeur van een retourvloot; hij stierf 1640 voor Malakka<lb/>
+gedurende het beleg. Een biografie in
+<emph>Pieter van den Broecke.</emph><lb/>
+</fnote>
+<fnote ref="2">Xihiri = Sjihir.<lb/>
+</fnote>
+<fnote ref="3">Mij niet bekend, de beide assistenten waren Abraham Crabbe en Anthony Claesz.<lb/>
+Vischer.<lb/>
+</fnote>
+<fnote ref="4">Geappointeerde, een voor een burgerlijke functie bestemde militair.<lb/>
+</fnote>
+<fnote ref="5">Barckman Pietersz. de Wit. Volgens
+<emph>Elias Vroedschap</emph> I, p. 285 op reis naar Indië<lb/>
+3 Dec. 1604 overleden kapitein; mogelijk ten rechte: 1614.<lb/>
+ref="1">De Mataram. De vorst van Mataram (1613-1645) die later den titel van Sultan Agung<lb/>
+voerde. De toezegging was een gevolg van de zending van Jasper van Zurck naar zijn hofstad<lb/>
+in 1614. Vgl.
+<emph>Buysero,</emph> p. 241 en
+<emph>Goen</emph> I, p. 73 vlg.<lb/>
+</fnote>
 <pb n="47" tpl="1" vol="01" facs="1_104_0047"/>
 voegen als andere wel hebben gedaen, souden se in onsen dienst wel weten te<lb/>
 gebruycken.<lb/>
@@ -76,7 +98,9 @@ dienstich zijn, alsoo wij den rijs hier de helft betercoop cunnen hebben<lb/>
 als in Macassar, Gressy off eenige andere quartieren, welcke comptoiren wij daeromme<lb/>
 oock sullen mogen lichten, als voor desen geadviseert.<lb/>
 </para>
-<remark>(Meded. over Amboina , reeds van elders bekend)</remark>
+<remark>«Meded. over Amboina
+, reeds van elders bekend<lb/>
+»</remark>
 <para>Het jacht den Aeolus, dat wij in november voorleden van Bantham naer<lb/>
 Gressy hebben gesonden omme de j oneken, die van Malacca aldaer comen handelen,<lb/>
 waer te nemen, is hier bij ons gearriveert, medebrengende eenige paeken<lb/>
@@ -86,9 +110,10 @@ joneken wat naerder doen letten, want men nu niet sonder voorweten van<lb/>
 den Coninck
 <super>1 <fref ref="2"/> </super> (die van den buyt zijn portie oock treckt) mach doen.<lb/>
 </para>
-<remark>(Tekort aan timmerlieden)</remark>
+<remark>«Tekort aan timmerlieden<lb/>
+»</remark>
 <para>De gemeente off burgerij e, die men hier
-<super><fref ref="3"/> </super> mette Hollandtse vrouwen gemeent<lb/>
+<fref ref="3"/>  mette Hollandtse vrouwen gemeent<lb/>
 heeft te stabilieren, en soude U E. niet wel cunnen decifereren; het is een ongebonden<lb/>
 canali, daer noch eer noch deucht in is ende daeromme en is daervan niet<lb/>
 goets te verwachten. Den Generael Bot sal U E. wel weten te seggen, wat geregeltheyt<lb/>
@@ -97,10 +122,11 @@ de waerheyt te zeggen, dat men met het schuym van onse landen ende ’t schuym<l
 van dese (daer de onse veel aen trouwen) yets goets meent te verhopen, wij abuseren<lb/>
 ons grootelicx.<lb/>
 </para>
-<remark>(Meded. over uitstel in de versterking van garnizoenen)</remark>
+<remark>«Meded. over uitstel in de versterking van garnizoenen<lb/>
+»</remark>
 <para>’t Schip Oudtzeelandt dat op 16 deser
-<super><fref ref="4"/> </super> uyt Japon over Bantham hier
-<super><fref ref="5"/> </super> is<lb/>
+<fref ref="4"/>  uyt Japon over Bantham hier
+<fref ref="5"/>  is<lb/>
 gearriveert, geladen met vivres ende ammunitie van oorloge, in plaetse van silver,<lb/>
 dat men van daer zoude verwachten. Het ware te wenschen, wij ons geit wederomme<lb/>
 hadden ende Japon noyt gesien. Ick en sien niet, dat wij yets goets van<lb/>
@@ -110,15 +136,29 @@ ofte speek, dat 4 ofte 5 jaer out is, soodat alle de costelijcke cargasoenen der
 gesonden in fumo sullen loopen.<lb/>
 </para>
 
-<fnote>[=1] De Mataram. De vorst van Mataram (1613-1645) die later den titel van Sultan Agung voerde. De toezegging was een gevolg van de zending van Jasper van Zurck naar zijn hofstad in 1614. Vgl. *Buysero,* p. 241 en *Goen* I, p. 73 vlg.</fnote>
-<fnote>[=2] De vorst van Surabaja, destijds in Oost- Java nog een onafhankelijk heerser. Geleidelijk maakte Agung zich van zijn rijk meester, het laatst, 1625, van de hoofdstad; sedert is S. een vazalstaat van Mataram.</fnote>
-<fnote>[=3] Hier = Amboina.</fnote>
-<fnote>[=4] 16 deser = 16 maart 1615. Uit deze plaats blijkt dat Reynst zijn brief als dagboek opstelde.</fnote>
-<fnote>[=5] Hier = Hitu, het noordelijke schiereiland van Amboina.[=1] Beschreven in *Oudheden,* p. 21.</fnote>
+<fnote ref="1">De Mataram. De vorst van Mataram (1613-1645) die later den titel van Sultan Agung<lb/>
+voerde. De toezegging was een gevolg van de zending van Jasper van Zurck naar zijn hofstad<lb/>
+in 1614. Vgl.
+<emph>Buysero,</emph> p. 241 en
+<emph>Goen</emph> I, p. 73 vlg.<lb/>
+</fnote>
+<fnote ref="2">De vorst van Surabaja, destijds in Oost- Java nog een onafhankelijk heerser. Geleidelijk<lb/>
+maakte Agung zich van zijn rijk meester, het laatst, 1625, van de hoofdstad; sedert is S. een<lb/>
+vazalstaat van Mataram.<lb/>
+</fnote>
+<fnote ref="3">Hier = Amboina.<lb/>
+</fnote>
+<fnote ref="4">16 deser = 16 maart 1615. Uit deze plaats blijkt dat Reynst zijn brief als dagboek<lb/>
+opstelde.<lb/>
+</fnote>
+<fnote ref="5">Hier = Hitu, het noordelijke schiereiland van Amboina.<lb/>
+ref="1">Beschreven in
+<emph>Oudheden,</emph> p. 21.<lb/>
+</fnote>
 <pb n="48" tpl="1" vol="01" facs="1_104_0048"/>
 <para>In Banda den 21 ditto gearri veert zijnde, hebbe het casteel Nassau, op een<lb/>
 vack gardijns naer van buyten volmaeckt bevonden
-<super><fref ref="1"/> </super> ; dan de daken van de<lb/>
+<fref ref="1"/>  ; dan de daken van de<lb/>
 huysen meestal ingevallen door ’t ontspringen van den Gounum Api off den<lb/>
 Solferberch, dicht aen ’t casteel liggende, die den 16 deser met zeer vehemente<lb/>
 slagen, groote gloyende steenen ende veel solferachtige eerde uytwerpende, geborsten<lb/>
@@ -127,17 +167,19 @@ liggende opte reede, schenen te willen scheuren. De boomen van heel Nera zijn<lb
 geheelick door de smoock besturven, soodatter apparentelick in een jaer off twee<lb/>
 gheen noten sullen wesen. Het was seer vreempt om sien, het water stont rontsomme<lb/>
 den berch en zode
-<super><fref ref="2"/> </super> ende de vis werdde met manden vol, meest doot,<lb/>
+<fref ref="2"/>  ende de vis werdde met manden vol, meest doot,<lb/>
 geschept. Die van Lontoor meenden, wij ’t casteel souden hebben moeten verlaten,<lb/>
 gelijck men oock soude moeten doen hebben, bijaldien den smoock hadde<lb/>
 gecontinueert
-<super><fref ref="3"/> .</super><lb/>
+<fref ref="3"/> .<lb/>
 </para>
-<remark>(De verdere mededelingen over Banda zijn reeds door Van der Chijs in zijn [Banda] verwerkt)</remark>
+<remark>«De verdere mededelingen over Banda zijn reeds door Van der Chijs in zijn<lb/>
+<ref>Banda</ref> verwerkt<lb/>
+»</remark>
 <para>Wij hebben hier mede goetgevonden de commandeurs Steven Doenssen
-<super><fref ref="4"/> </super><lb/>
+<fref ref="4"/> <lb/>
 ende Henrick Brouwer neffens den coopman Abraham van den Broeck
-<super><fref ref="5"/> </super> van hier<lb/>
+<fref ref="5"/>  van hier<lb/>
 te seynden naar Solor omme soo op ’t stuck van de negotie als anderssints hun<lb/>
 aldaer te informeren met last, soo zij bevinden, de voorsz. plaetse voor de Comple<lb/>
 meer schade als prouffijt geeft, (gelijck wij verstaen, deselve doet) het garnisoen,<lb/>
@@ -152,20 +194,39 @@ anekergront is) comen halen.<lb/>
 </para>
 <para>De voorsz. gecommitteerde hebben noch ordre omme de comptoiren Gresse<lb/>
 ende Macassar te lichten
-<super><fref ref="6"/> ,</super> alsoo deselve (mitz wij de plaetse in Japara hebben)<lb/>
+<fref ref="6"/> , alsoo deselve (mitz wij de plaetse in Japara hebben)<lb/>
 voor de Comple ondienstich bevonden wordden.<lb/>
 </para>
 
-<fnote>[=1] Beschreven in *Oudheden,* p. 21.</fnote>
-<fnote>[=2] Van zieden, dus kookte.</fnote>
-<fnote>[=3] De beschrijving van deze vulcanische uitbarsting bij *Valentijn,* Beschr. van Banda, p. 15 is vermoedelijk wel aan deze mededeling ontleend.</fnote>
-<fnote>[=4] Steven Doensz. van Groenendyck maakte zijn eerste reis naar Indië van 1602 tot 1609. Hij werd 1611 raad van Indië en was van dat jaar tot 1613 commandeur op Banda, daarna vnl. werkzaam te Gresik. Hij repatrieerde in 1617. Zie *Woordenboek,* VIII, p. 402.</fnote>
-<fnote>[=5] Abraham van den Broeck had van 1605 tot 1616 een zeer bewogen loopbaan in Azië, waarvoor men vgl. *Coen* VII, p. 852.</fnote>
-<fnote>[=6] Toen de gecommitteerden te Makassar kwamen, bleek de vertegenwoordiger van de Compagnie het kantoor reeds in april 1615 gelicht te hebben. Ook hier blijkt, dat Reynst zijn brief als dagboek schreef, want eind okt. 1615 was hem dit zowel als de lichting van Gresik bekend.[=1] Van Amboina.</fnote>
+<fnote ref="1">Beschreven in
+<emph>Oudheden,</emph> p. 21.<lb/>
+</fnote>
+<fnote ref="2">Van zieden, dus kookte.<lb/>
+</fnote>
+<fnote ref="3">De beschrijving van deze vulcanische uitbarsting bij
+<emph>Valentijn,</emph> Beschr. van Banda,<lb/>
+p. 15 is vermoedelijk wel aan deze mededeling ontleend.<lb/>
+</fnote>
+<fnote ref="4">Steven Doensz. van Groenendyck maakte zijn eerste reis naar Indië van 1602 tot<lb/>
+1609. Hij werd 1611 raad van Indië en was van dat jaar tot 1613 commandeur op Banda, daarna<lb/>
+vnl. werkzaam te Gresik. Hij repatrieerde in 1617. Zie
+<emph>Woordenboek,</emph> VIII, p. 402.<lb/>
+</fnote>
+<fnote ref="5">Abraham van den Broeck had van 1605 tot 1616 een zeer bewogen loopbaan in Azië,<lb/>
+waarvoor men vgl.
+<emph>Coen</emph> VII, p. 852.<lb/>
+</fnote>
+<fnote ref="6">Toen de gecommitteerden te Makassar kwamen, bleek de vertegenwoordiger van de<lb/>
+Compagnie het kantoor reeds in april 1615 gelicht te hebben. Ook hier blijkt, dat Reynst zijn<lb/>
+brief als dagboek schreef, want eind okt. 1615 was hem dit zowel als de lichting van Gresik<lb/>
+bekend.<lb/>
+ref="1">Van Amboina.<lb/>
+</fnote>
 <pb n="49" tpl="1" vol="01" facs="1_104_0049"/>
-<remark>(Meded. over Amboina reeds van elders bekend)</remark>
+<remark>«Meded. over Amboina reeds van elders bekend<lb/>
+»</remark>
 <para>Van daer
-<super><fref ref="x"/> </super> scheydende ende in Moloucco arriverende, zijn wij van den Coninck<lb/>
+<fref ref="x"/>  scheydende ende in Moloucco arriverende, zijn wij van den Coninck<lb/>
 ende alle de Terna tanen magnifikelijck ingehaelt. Hebben den stant aldaer<lb/>
 in redelijcken doen bevonden; dan met groote verwonderinge gesien, de overgroote<lb/>
 fortificatiën aldaer gedaen, insonderheyt de wercken van Maleya, alwaer<lb/>
@@ -187,10 +248,10 @@ hadden, eenichsints versterckt ende, de gelegentheyt der fortten geexamineert<lb
 hebbende, bevinden, datter verscheyden gehouden wordden, daer de<lb/>
 Compaignie niet als groote schade van is hebbende; als eerstelijck de fortten van<lb/>
 Gammacanorre ende Saboue
-<super><fref ref="2"/> ,</super> beyde beset met ontrent 80 persoonen, die alleenlij<lb/>
+<fref ref="2"/> , beyde beset met ontrent 80 persoonen, die alleenlij<lb/>
 ck tot contemplatie van de Terna tanen zijn gemaeckt geweest omme van daer<lb/>
 haere verse sagou te becomen
-<super><fref ref="3"/> ,</super> die anderssints uyt handen van de Compaignie<lb/>
+<fref ref="3"/> , die anderssints uyt handen van de Compaignie<lb/>
 souden moeten coopen.<lb/>
 </para>
 <para>Item de plaetse van Bachian, vanwaer de Compie. niet een baer nagelen heeft<lb/>
@@ -202,7 +263,7 @@ daer men niet een neus mach uytsteken, vermitz de Tidoresen ons soo<lb/>
 harden vijant als de Spaignaerden vallen.<lb/>
 </para>
 <para>De plaetse van Motier
-<super><fref ref="4"/> </super> en can oock de oncosten niet opbrengen, alsoo aldaer,<lb/>
+<fref ref="4"/>  en can oock de oncosten niet opbrengen, alsoo aldaer,<lb/>
 mits het versterven ende verloopen van de inwoonderen, gheen nagelen cunnen<lb/>
 gepluckt wordden.<lb/>
 </para>
@@ -211,19 +272,31 @@ dispense van de tafel zijn excessiff groot, bedragende dese negenthien maenden,<
 als bij de bijgaende calculatie blijckt, ƒ 360320 st. 2 p. 11, doch sullen alsnu de<lb/>
 fortificatiewercken alleynskens affnemen, maer over de groote dispense van de<lb/>
 tafels ben seer verwondert geweest
-<super><fref ref="5"/> .</super> Hebbe daeromme geordonneert, daerop<lb/>
+<fref ref="5"/> . Hebbe daeromme geordonneert, daerop<lb/>
 beter regard genomen werdde.<lb/>
 </para>
 
-<fnote>[=1] Van Amboina.</fnote>
-<fnote>[=2] Gamkonora en Sabua (ook als Sabugu, Sabuga vermeld) lagen aan de westkust van Halmaheira, resp. op ongeveer 21/2 en l1/2° N. B.</fnote>
-<fnote>[=3] Sago was en is het dagelijkse hoofdvoedsel van de meeste bewoners van de Molukken. Op de kleine eilanden komt ze niet of in onvoldoende mate voor, zodat men op Halmaheira aangewezen is.</fnote>
-<fnote>[=4] Het eiland Moti tussen Tidore en Makéan.</fnote>
-<fnote>[=5] Het compagniespersoneel ontving zijn maaltijden van den werkgever; men at gezamenlijk; de voornaamsten aan een tafel voorgezeten door den gouverneur.[=1] NI. Reael.</fnote>
+<fnote ref="1">Van Amboina.<lb/>
+</fnote>
+<fnote ref="2">Gamkonora en Sabua (ook als Sabugu, Sabuga vermeld) lagen aan de westkust van<lb/>
+Halmaheira, resp. op ongeveer 21/2 en l1/2° N. B.<lb/>
+</fnote>
+<fnote ref="3">Sago was en is het dagelijkse hoofdvoedsel van de meeste bewoners van de Molukken.<lb/>
+Op de kleine eilanden komt ze niet of in onvoldoende mate voor, zodat men op Halmaheira<lb/>
+aangewezen is.<lb/>
+</fnote>
+<fnote ref="4">Het eiland Moti tussen Tidore en Makéan.<lb/>
+</fnote>
+<fnote ref="5">Het compagniespersoneel ontving zijn maaltijden van den werkgever; men at gezamenlijk;<lb/>
+de voornaamsten aan een tafel voorgezeten door den gouverneur.<lb/>
+ref="1">NI. Reael.<lb/>
+</fnote>
 <pb n="50" tpl="1" vol="01" facs="1_104_0050"/>
-<remark>(Voor de nu volgende gebeurtenissen in de Molukken vergelijke men de brief van Goen boven genoemd)</remark>
+<remark>«Voor de nu volgende gebeurtenissen in de Molukken vergelijke men de brief<lb/>
+van Goen boven genoemd<lb/>
+»</remark>
 <para>Ende alsoo den tijdt van den voorsz. gouverneur
-<super><fref ref="1"/> </super> nu ginck expireren ende<lb/>
+<fref ref="1"/>  nu ginck expireren ende<lb/>
 in de Moloucquos, daer men de meeste swaricheyt van den vijant opten hals heeft<lb/>
 een clouck ende gequalificeert persoon moet blijven ende in heel Indien gheen<lb/>
 persoon is omme soo tref felij eken gouvernement waer te nemen, hebben niet willen<lb/>
@@ -242,7 +315,8 @@ gelaten, die door zijn goet beleydt van den vijandt ontsien is; hij heeft hem de
 tijdt van soo veel jaren, als ick in ’t landt zal zijn, verbonden met augmentatie<lb/>
 van 25 ® VI. ter maent, boven zijn bedongen gage in ’t vaderlant.<lb/>
 </para>
-<remark>(Diversen van weinig belang)</remark>
+<remark>«Diversen van weinig belang<lb/>
+»</remark>
 <para>De schepen comen ordinaerlijck met soo weynieh volck alhier in ’t landt, dat<lb/>
 in plaetse men volck van de schepen totte jachten soude gebruycken, veeleer die<lb/>
 van de jachten souden moeten nemen (indyen van volck versien waren) omme de<lb/>
@@ -250,7 +324,8 @@ schepen te verstereken, als men yets wil uytrechten ende tensij U E. menichte<lb
 van bootsvolck zeyndt totte continuele versterekinge van de schepen, jachten<lb/>
 ende roeytuych en sal nummermeer yets goets werdden uytgericht.<lb/>
 </para>
-<remark>(In Azië geen goede roeivaartuigen te bekomen)</remark>
+<remark>«In Azië geen goede roeivaartuigen te bekomen<lb/>
+»</remark>
 <para>Omme galeyen in de Moloucquos te gebruycken is voor dees tijdt oock niet<lb/>
 doenlij ck, want wij van geen slaven, gelijck de Spaegnaerden, versien zijn, die,<lb/>
 waer sij comen, d’Indianen, die sij cunnen crijgen, met gewelt daertoe gebruycken,<lb/>
@@ -266,9 +341,12 @@ alwaer oock zeer schone ververschinge ende goede anekergront is ende abondantie<
 van slaven om seer cleyn geit te becommen.<lb/>
 </para>
 
-<fnote>[=1] NI. Reael.[=1] Sic, misschien bedoeld: daer.</fnote>
+<fnote ref="1">NI. Reael.<lb/>
+ref="1">Sic, misschien bedoeld: daer.<lb/>
+</fnote>
 <pb n="51" tpl="1" vol="01" facs="1_104_0051"/>
-<remark>(Over de slechte kwaliteit en kwantiteit van het uitgezonden personeel)</remark>
+<remark>«Over de slechte kwaliteit en kwantiteit van het uitgezonden personeel<lb/>
+»</remark>
 <para>Waeromme omme hier te lande een goede inlandtse negotie te doen, door de<lb/>
 prouffijten van dewelcke de sware oncosten souden mogen vervallen, moet U E.<lb/>
 goede parthije ervaren ende bequame commisen ende ondercommisen (die op comptoiren<lb/>
@@ -295,7 +373,10 @@ costen ende schaden van de Comp.ie gedijt, want eer sij wat weten, is den tij dt
 geexpireert omme naer huys te gaen ende daeromme altijdt met onbequaem<lb/>
 volck verlegen blijven.<lb/>
 </para>
-<remark>(Over hoge schenkagiën aan vorsten en over voorstellen levensmiddelen uit Patani naar de Molukken te zenden, waarvoor men zie [Patani,] p. [=57]</remark>
+<remark>«Over hoge schenkagiën aan vorsten en over voorstellen levensmiddelen uit Patani<lb/>
+naar de Molukken te zenden, waarvoor men zie
+<ref>Patani, p. 57</ref><lb/>
+»</remark>
 <para>In heel Indien sijn gheen beter ende meerder quantiteyt van beesten te<lb/>
 becomen als in Madagascar, daer men sulex eenichssints soude cunnen in ’t werek<lb/>
 stellen; dan daer moste zes off acht cuypers met goede duygen tot fustage ende<lb/>
@@ -317,16 +398,22 @@ omme ’s landts incomen te doen [acjcresceren ende den oorloge tegen<lb/>
 onsen vijandt te mogen mainteneren.
 <emph>(In de copie volgt:</emph> Waeromme soo U. E.<lb/>
 
-<fnote>[=1] Sic, misschien bedoeld: daer.[=1] NI. het zenden van vlees uit Patani naar de Specerij eilanden. Men zie voor het voorstel hieromtrent van den koopman Sprinckel *Patani,* p. 57 en *Coen* VII, p. 57.</fnote>
+<fnote ref="1">Sic, misschien bedoeld: daer.<lb/>
+ref="1">NI. het zenden van vlees uit Patani naar de Specerij eilanden. Men zie voor het voorstel<lb/>
+hieromtrent van den koopman Sprinckel
+<emph>Patani,</emph> p. 57 en
+<emph>Coen</emph> VII, p. 57.<lb/>
+</fnote>
 <pb n="52" tpl="1" vol="01" facs="1_104_0052"/>
 ’t welvaert van de Comp.ie in recommandatie wilt hebben, moet U E. van soodanich<lb/>
 absurd voornemen
-<super><fref ref="1"/> </super> desisteren).<lb/>
+<fref ref="1"/>  desisteren).<lb/>
 </para>
-<remark>(Volgt een 'passage over de benodigde scheepsmaterialen)</remark>
+<remark>«Volgt een 'passage over de benodigde scheepsmaterialen<lb/>
+»</remark>
 <para>Willen U E. met vele treffelijcke schepen yets goets uytrechten, soo moet alle<lb/>
 provisie, scheepsbehoefte ende volck van daer
-<super><fref ref="2"/> </super> gesonden wordden ende, sulckx<lb/>
+<fref ref="2"/>  gesonden wordden ende, sulckx<lb/>
 niet willende doen, zullen de schepen hier te lande liggen vergaen. Hoe de heerlijcke<lb/>
 schepen als de Sonne, de Mane ende andere door mancquement van timmerluyden,<lb/>
 piek, teer ende d’appendentien van dyen vergaen sijn, wordden wij hier<lb/>
@@ -335,12 +422,13 @@ de Moloucquos gebleven, bij den anderen hadden, wij en souden de schepen niet<lb
 cunnen repareren. Nu wordt d’een met d’ander geholpen ende d’een voor ende<lb/>
 d’ander naer versien.<lb/>
 </para>
-<remark>(Verwijzing naar de mededeling over Gresilc in Coen’s brief van 22 okt.)</remark>
+<remark>«Verwijzing naar de mededeling over Gresilc in Coen’s brief van 22 okt.<lb/>
+»</remark>
 <para>De plaetse van Bouton, daer ontrent 20 persoonen, soo soldaten als andere,<lb/>
 gelegen hebben, hebben mede geheelick verlaten ende acht stucken geschuts (soo<lb/>
 op ’t fortgen lagen) gelicht
-<super><fref ref="3"/> .</super> Den Coninck die die tijdt in ’t landt was
-<super><fref ref="4"/> </super> ende<lb/>
+<fref ref="3"/> . Den Coninck die die tijdt in ’t landt was
+<fref ref="4"/>  ende<lb/>
 naerderhant daer comende, heeft daerover gheen goet genoegen gehadt, daer men<lb/>
 hem nochtans met alle beleeftheyt heeft verthoont, dat wij volck ende geschut tot<lb/>
 onsen oorloge noodich van doen hadden.<lb/>
@@ -349,12 +437,13 @@ onsen oorloge noodich van doen hadden.<lb/>
 soldaten te besetten, daer doch gheen victualie in ’t minste te becomen is ende<lb/>
 gheen negotie valt.<lb/>
 </para>
-<remark>(Over naar patria teruggezonden personeel)</remark>
+<remark>«Over naar patria teruggezonden personeel<lb/>
+»</remark>
 <para>
 De maentlijeke betalinge aen de voorsz. soldaten heeft mede moeten geschieden,<lb/>
 want soo op des Compies. cost waren gebleven, soude overlangh al op eenige<lb/>
 plaetsen groote alteratie zijn geresen geweest
-<super><fref ref="5"/> ,</super> welcke betalinge hun in toom<lb/>
+<fref ref="5"/> , welcke betalinge hun in toom<lb/>
 houdt ende niettegenstaende d’augmentatie van hare gage en cunne nergens naer<lb/>
 toecomen, dewijle men haer de chineese stoffe tot cledinge tegens 75 per cento<lb/>
 winninge doet betalen ende alles extreem dyer is ende ’t quaetste, datter noch is,<lb/>
@@ -370,11 +459,22 @@ Banda dubbel randtsoen souden mogen geven, dewijle doch de Comp.ie daer<lb/>
 groote avance op heeft, als voor een vlees een
 <super>1/8</super> reael genietende, omme welcke<lb/>
 
-<fnote>[=1] NI. het zenden van vlees uit Patani naar de Specerij eilanden. Men zie voor het voorstel hieromtrent van den koopman Sprinckel *Patani,* p. 57 en *Coen* VII, p. 57.</fnote>
-<fnote>[=2] Bedoeld is: van Nederland.</fnote>
-<fnote>[=3] De vestiging op Buton dateerde van 17 dec. 1612, datum van het contract met den vorst van dat eiland.</fnote>
-<fnote>[=4] Versta: in het binnenland, niet ter hoofdplaats.</fnote>
-<fnote>[=5] Daar de Compagnie onvoldoende levensmiddelen naar de Specerij eilanden had gezonden om de soldaten te kunnen voeden, had men hun een rantsoen in geld verschaft.[=1] Wat nl. in strijd was met de contracten, die de bewoners met de Compagnie hadden gesloten.</fnote>
+<fnote ref="1">NI. het zenden van vlees uit Patani naar de Specerij eilanden. Men zie voor het voorstel<lb/>
+hieromtrent van den koopman Sprinckel
+<emph>Patani,</emph> p. 57 en
+<emph>Coen</emph> VII, p. 57.<lb/>
+</fnote>
+<fnote ref="2">Bedoeld is: van Nederland.<lb/>
+</fnote>
+<fnote ref="3">De vestiging op Buton dateerde van 17 dec. 1612, datum van het contract met den<lb/>
+vorst van dat eiland.<lb/>
+</fnote>
+<fnote ref="4">Versta: in het binnenland, niet ter hoofdplaats.<lb/>
+</fnote>
+<fnote ref="5">Daar de Compagnie onvoldoende levensmiddelen naar de Specerij eilanden had gezonden<lb/>
+om de soldaten te kunnen voeden, had men hun een rantsoen in geld verschaft.<lb/>
+ref="1">Wat nl. in strijd was met de contracten, die de bewoners met de Compagnie hadden<lb/>
+gesloten.</fnote>
 <pb n="53" tpl="1" vol="01" facs="1_104_0053"/>
 prouffijten behoorde men haer dryemael vlees te geven, dat haer uytnemende aengenaem<lb/>
 soude wesen, in beter gesontheyt onderhouden ende tot haren dienst niet<lb/>
@@ -384,7 +484,8 @@ Terna tanen valt, werdt den handel van de Javanen ende andere vreemde natiën<lb
 in de Moloucques veroorsaeckt, dewelcke alleenlij ck daerdoor gelockt wordden<lb/>
 ende anderssints niet en souden cunnen negotiëren.<lb/>
 </para>
-<remark>(Over de wijze van aannemen der soldaten; aangekomen Engelse schepen)</remark>
+<remark>«Over de wijze van aannemen der soldaten; aangekomen Engelse schepen<lb/>
+»</remark>
 <para>U. E. hebben over veele jaren geweten, hoe d’ Engelse ons al overal den handel<lb/>
 indirectelijck hebben gesocht ende noch soecken te verhinderen ende ons voor alle<lb/>
 coningen ende princen odieux te maken ende dies niettegenstaende continuelijck<lb/>
@@ -396,7 +497,7 @@ Amboyna, Banda, Loehoe ende Combello met een schip quamen te handelen,<lb/>
 dat men neffens haer een van onse schepen soude doen leggen omme d’Indianen<lb/>
 daermede een vreese aen te jagen ende alsoo mette gevoechlicxte middel haer te<lb/>
 beletten eenige leveringe van specerije aen de Engelse te doen
-<super><fref ref="1"/> .</super><lb/>
+<fref ref="1"/> .<lb/>
 </para>
 <para>Wij sijn verwondert, U E. niet en considereert, dat de handelinge dese superbe<lb/>
 ende incompatibele natie mette Indianen door sodanige middel niet en is te beletten,<lb/>
@@ -417,7 +518,7 @@ staen, daer wij mede in verbont sijn, gelijck wij oock niet en behooren te lijde
 dat se in de eylanden van Banda (die alle bij contract verbonden sijn aen ons alleen<lb/>
 hare specerijen te leveren ende tegenwoordich met ons in oorloge zijn) comen<lb/>
 handelen
-<super><fref ref="2"/> .</super><lb/>
+<fref ref="2"/> .<lb/>
 </para>
 <para>
 Ende de wij le zijluyden niet alleen met onbehoorlijcke ende indirecte middelen<lb/>
@@ -427,25 +528,34 @@ te maken, maer oock hun van onse plaetsen meester te maken, de forten in te<lb/>
 nemen, als blijekt bij tghene op Combello gepasseert . is alsmede bij ’t stuck<lb/>
 van Pouloway, hebben geresolveert haer met gewelt sulcke stoute ende onbehoor-
 
-<fnote>[=1] Wat nl. in strijd was met de contracten, die de bewoners met de Compagnie hadden gesloten.</fnote>
-<fnote>[=2] Zie voor de hier bedoelde contracten *Corpus,* deel 1.[=1] Zie voor de hier bedoelde gebeurtenissen *Geschiedenis,* III, p. 95.</fnote>
+<fnote ref="1">Wat nl. in strijd was met de contracten, die de bewoners met de Compagnie hadden<lb/>
+gesloten.</fnote>
+<fnote ref="2">Zie voor de hier bedoelde contracten
+<emph>Corpus,</emph> deel 1.ref="1">Zie voor de hier bedoelde gebeurtenissen
+<emph>Geschiedenis,</emph> III, p. 95.<lb/>
+</fnote>
 <pb n="54" tpl="1" vol="01" facs="1_104_0054"/>
 lijcke proceduren te beletten, ten ware ons anders bij U E. werdde geadviseert
-<super><fref ref="1"/> .</super><lb/>
+<fref ref="1"/> .<lb/>
 Ende soo U E. daerinne anders niet en derf versien, ware best, hoe eer hoe beter<lb/>
 de forten verlaten, de garnisoenen gelicht ende soo naer huys gecomen.<lb/>
 </para>
-<remark>(Beraamde aanval op Banda , vgl. [Banda,] p. [=74]</remark>
+<remark>«Beraamde aanval op Banda
+, vgl.
+<ref>Banda, p. 74</ref><lb/>
+»</remark>
 <para>De betalinge aldaer
-<super><fref ref="2"/> </super> gedaen aen de vrouwe van eenen Willem Adams
-<super><fref ref="3"/> -</super><lb/>
+<fref ref="2"/>  gedaen aen de vrouwe van eenen Willem Adams
+<fref ref="3"/> -<lb/>
 Engelsman gelegen in Japan, doordyen hij onse commisen veel behulp ende vrundtschap<lb/>
 heeft bewesen ende verhoopen, daerdoor noch te meer sal doen, is geit in<lb/>
 ’t water gewurpen, want alsoo d’ Engelse daer mede handelen ende comptoiren<lb/>
 hebben, soo sal hij nu in plaetse van vrundtschap ons alle nadeel soecken aen te<lb/>
 doen.<lb/>
 </para>
-<remark>(Plan van Amsterdamse kooplieden een Compagnie te stichten voor de handel over land op Oost-Indië)</remark>
+<remark>«Plan van Amsterdamse kooplieden een Compagnie te stichten voor de handel<lb/>
+over land op Oost-Indië<lb/>
+»</remark>
 <para>
 Ende alhoewel de plaetse van Solor . bevonden wordt meer schade<lb/>
 als prouffijt te geven, volgens de calcula bij de gedeputeerde (soo derwaerts sijn<lb/>
@@ -455,31 +565,49 @@ gedaen hebben.<lb/>
 </para>
 <para>Zedert wij de voorsz. plaetse hebben gewonnen, gaen jaerlicx van Java derwaerts<lb/>
 verscheyden j oneken, die paertlijck
-<super><fref ref="4"/> </super> met hout wederomme comen, daer se<lb/>
+<fref ref="4"/>  met hout wederomme comen, daer se<lb/>
 van te voren ten tijde van de Portugiesen niet en hebben derven comen, soo dat<lb/>
 ’t schijnt, wij den handel met onsen oorloge voor dese natiën goet maken.<lb/>
 </para>
-<remark>(Uit diverse delen van Azië te verwachten Compagniesschepen)</remark>
+<remark>«Uit diverse delen van Azië te verwachten Compagniesschepen<lb/>
+»</remark>
 <para>Soo U E. de voorsz. Brouwer
-<super><fref ref="5"/> </super> (die des Comp.ies saken wel beharticht,<lb/>
+<fref ref="5"/>  (die des Comp.ies saken wel beharticht,<lb/>
 cloeck ende ervaren is) wederomme in dienst conden aennemen (daertoe ick hem<lb/>
 alreede aengeweest hebbe) soude ons aengenaem wesen, want hij in de negotie<lb/>
 gestileert is.<lb/>
 </para>
 <para>
 Wij moeten hierbij noch voegen, in mijne voorgaende brieven hebbe geadviseert<lb/>
-<super><fref ref="6"/> ,</super> hoe hoochnoodich herwaerts moet wordden gesonden de penningen bij de<lb/>
+<fref ref="6"/> , hoe hoochnoodich herwaerts moet wordden gesonden de penningen bij de<lb/>
 Brabantse Comp.ie wegen d’Arabiers in banco gedepositeert
-<super><fref ref="7"/> ,</super> niet twijffelende,<lb/>
+<fref ref="7"/> , niet twijffelende,<lb/>
 off tselve sal bij U E. tewege gebracht ende geeffectueert zijn ende, niet gedaen<lb/>
 
-<fnote>[=1] Zie voor de hier bedoelde gebeurtenissen *Geschiedenis,* III, p. 95.</fnote>
-<fnote>[=2] D. i. in Nederland.</fnote>
-<fnote>[=3] William Adams, de bekende piloot, die in dienst van de expeditie van Mahu en de Cordes met het schip de Liefde in 1600 in Japan was gekomen, waar hij bij den sjogoen zeer in de gunst kwam. Vgl. *Mahu en de Cordes,* vnl. dl. III, p. 21-27. Hij trad in 1613, nog steeds in Japan vertoevend, waar hij 1620 stierf, in Engelse dienst.</fnote>
-<fnote>[=4] Voor een part, gedeeltelijk.</fnote>
-<fnote>[=5] De latere Gouverneur-Generaal Henrick Brouwer.</fnote>
-<fnote>[=6] Er is maar één vroegere generale brief van Reynst bekend.</fnote>
-<fnote>[=7] Paulus van Caerden had als vice-admiraal van een vloot der Nieuwe Brabantse Gom pagnie 12 januari 1601 voor Atjeh uit Arabische schepen peper gelicht; de benadeelde Arabieren kwamen door hun gemachtigde Laurens Bicker te Amsterdam in verzet. Reeds 16 nov. 1602 kwam men tot een schikking; ruim een halve ton werd door de bewindhebbers van de bedoelde Compagnie „in banco gedepositeert”. Vgl. *Ottsen,* p. CIII-CV.</fnote>
+<fnote ref="1">Zie voor de hier bedoelde gebeurtenissen
+<emph>Geschiedenis,</emph> III, p. 95.<lb/>
+</fnote>
+<fnote ref="2">D. i. in Nederland.<lb/>
+</fnote>
+<fnote ref="3">William Adams, de bekende piloot, die in dienst van de expeditie van Mahu en de<lb/>
+Cordes met het schip de Liefde in 1600 in Japan was gekomen, waar hij bij den sjogoen zeer<lb/>
+in de gunst kwam. Vgl.
+<emph>Mahu en de Cordes,</emph> vnl. dl. III, p. 21-27. Hij trad in 1613, nog steeds<lb/>
+in Japan vertoevend, waar hij 1620 stierf, in Engelse dienst.<lb/>
+</fnote>
+<fnote ref="4">Voor een part, gedeeltelijk.<lb/>
+</fnote>
+<fnote ref="5">De latere Gouverneur-Generaal Henrick Brouwer.<lb/>
+</fnote>
+<fnote ref="6">Er is maar één vroegere generale brief van Reynst bekend.<lb/>
+</fnote>
+<fnote ref="7">Paulus van Caerden had als vice-admiraal van een vloot der Nieuwe Brabantse Gom<lb/>
+pagnie 12 januari 1601 voor Atjeh uit Arabische schepen peper gelicht; de benadeelde Arabieren<lb/>
+kwamen door hun gemachtigde Laurens Bicker te Amsterdam in verzet. Reeds 16 nov.<lb/>
+1602 kwam men tot een schikking; ruim een halve ton werd door de bewindhebbers van de<lb/>
+bedoelde Compagnie „in banco gedepositeert”. Vgl.
+<emph>Ottsen,</emph> p. CIII-CV.<lb/>
+</fnote>
 <pb n="55" tpl="1" vol="01" facs="1_104_0055"/>
 wesende, gelieve tselve te laten geschieden, opdat onse schepen, volck ende goederen<lb/>
 tot Mocha, alwaer de geinteresseerde woonen, in gheen disgracie en geraken.<lb/>
@@ -490,6 +618,7 @@ goede parthije noten, peper, porcelleynen ende andere waren cunnen verteren.<lb/
 D’Engelse en sullen ons daer niet in de wege wesen, dewijle sijluyden door haer<lb/>
 gewoone roverije aldaer niet en sullen mogen comen negotiëren.<lb/>
 </para>
-<remark>(Verspreide berichten, reeds van elders bekend)</remark>
+<remark>«Verspreide berichten, reeds van elders bekend<lb/>
+»</remark>
 </body>
 </teiTrim>

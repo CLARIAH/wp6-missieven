@@ -29,7 +29,7 @@
 02:p0296-0305    2x YES FoL
 11:p0226-0255    1x YES FoLSlSv.
 03:p0823-0827   29x YES Fol
-01:p0019-0019 1586x YES Fol.
+01:p0019-0019 1585x YES Fol.
 10:p0001-0016    1x YES Fol.237r-v.
 09:p0344-0458    1x YES Fol.4238r-4238v.
 10:p0297-0385    1x YES Fol.473r.
@@ -38,11 +38,11 @@
 01:p0438-0446    1x YES Folio
 04:p0426-0427    2x YES Foll
 01:p0076-0076    3x YES fol
-01:p0021-0021  472x YES fol.
+01:p0021-0021  474x YES fol.
 06:p0383-0383    1x YES folieerd
 02:p0194-0194    1x YES folieerd,
 01:p0174-0174   23x YES folio
-01:p0017-0017    1x YES folio.
+01:p0003a-0003    5x YES folio.
 01:p0007-0007    1x YES folio’s,
 01:p0004-0004    3x YES folio’s.
 02:p0223-0228    1x YES iTol.
@@ -182,12 +182,14 @@
 04:p0647-0647    1x FF 1271,fol.572-574.
 04:p0598-0598    1x FF 1271,fol.574-579.
 02:p0267-0267    1x FF 1957,fol.1-38.
-01:p0017-0017    1x FF 961, 1folio.
+01:p0003a-0003    5x FF 961, 1folio.
 01:p0007-0007    1x FF 961, 2folio’s,2 exemplaren, 1 origineel, 1 copie.
 01:p0018-0018    1x FF 961, 2folio’s.
 01:p0004-0004    1x FF 961, 3folio’s.
 01:p0008-0008    1x FF 961, 7folio’s.
 01:p0021-0021    1x FF 968,fol.101 recto-111 verso.
+01:p0027a-0027    1x FF 968,fol.113r.-115v.
+01:p0027b    1x FF 968,fol.116r.
 01:p0028-0028    1x FF 969,fol.13-19.
 01:p0029-0029    1x FF 969,fol.20-30.
 01:p0033-0033    1x FF 969,fol.31-37.
@@ -841,7 +843,6 @@
 09:p0628-0649    1x FF Fol.2816v -2817r.
 09:p0628-0650    1x FF Fol.2818r.
 09:p0344-0404    1x FF Fol.2818v-2819v.
-09:p0628-0650    1x FF Fol.2819r.
 11:p0350-0395    1x FF Fol.281r-282r.
 06:p0231-0234    1x FF Fol.282v.
 04:p0001-0002    1x FF Fol.283r-v.
@@ -2345,3 +2346,7 @@
 01:p0131-0141    1x FF p. 59-60
 04:p0218-0235    1x FF p. 68 
 03:p0525-0532    1x FF p. 85, 
+folio's.               3 contexts,    4 occurrences
+	01:p0016b    1x: 961, 3├folio's.┤
+	01:p0003b    1x: 961, copie, 5├folio's.┤
+	01:p0016a-0016    2x: 961, 2├folio's.┤

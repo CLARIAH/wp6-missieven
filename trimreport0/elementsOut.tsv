@@ -189,7 +189,7 @@
  hi.rend=font-size:10.5; font-family:Liberation Serif; letter-spacing:5.0pt	1
  hi.rend=font-size:10.5; font-family:Liberation Serif; text-decoration:underline	4
  hi.rend=font-size:10.5; font-family:Liberation Serif; vertical-align:super	82
- hi.rend=font-size:10; font-family:Liberation Serif	7699
+ hi.rend=font-size:10; font-family:Liberation Serif	7698
  hi.rend=font-size:10; font-family:Liberation Serif; font-style:italic	911
  hi.rend=font-size:10; font-family:Liberation Serif; font-style:italic; font-variant:small-caps	3
  hi.rend=font-size:10; font-family:Liberation Serif; font-style:italic; font-weight:bold	20
@@ -5367,7 +5367,7 @@
  p.rend=text-decoration: underline; margin-left: 25800; line-height: 11.1pt; text-align: justify; font-size: 10	1
  p.rend=text-decoration: underline; margin-right: 1200; line-height: 11.1pt; text-align: right; font-size: 10	1
 body..	569
-cell..	20793
+cell..	20872
 fw.facs=#zone.nnnnn	222
 fw.facs=#zone.nnnnnn	2335
 fw.facs=#zone.nnnnnnn	12791
@@ -5376,7 +5376,7 @@ fw.type=bottom-page-number	4729
 fw.type=head	10836
 fw.type=page-number	4512
 header..	569
-lb..	534085
+lb..	534084
 meta.key=author	491
 meta.key=day	487
 meta.key=month	486
@@ -5391,17 +5391,17 @@ meta.value=x	4746
 note.place=inline	25039
 note.resp=editor	25039
 note.type=editorial-summary	25039
-p..	4
+p..	5
 p.resp=int_paragraph_joining	13094
 pb.facs=n_nnn_nnnn	6310
-pb.facs=nnn_nnn	3515
+pb.facs=nnn_nnn	3516
 pb.facs=nnn_nnnn	1162
 pb.n=n	116
-pb.n=nn	1164
+pb.n=nn	1165
 pb.n=nnn	9535
 pb.n=nnnn	172
-pb.tpl=n	10987
-pb.vol=nn	10987
-row..	4582
-table..	326
+pb.tpl=n	10988
+pb.vol=nn	10988
+row..	4616
+table..	328
 teiTrim..	569

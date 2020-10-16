@@ -23,9 +23,10 @@
 <folio>Copie 997,fol.9-10</folio>
 <para><super>l).</super><lb/>
 </para>
-<remark>(Reis der Eng eisen naar de Westkust van Sumatra)</remark>
+<remark>«Reis der Eng eisen naar de Westkust van Sumatra<lb/>
+»</remark>
 <para>Van de 1600 coppen met voorsz. vlote
-<super><fref ref="2"/> </super> uuytgevaren, sijn noch in ’t leven<lb/>
+<fref ref="2"/>  uuytgevaren, sijn noch in ’t leven<lb/>
 ontrent 1040 coppen; de reste sijn soo in de Suydtzee gelijck mede op de tocht<lb/>
 van Amboina als elders gesmolten. Gemelte tocht heeft soodanigen effect (onses<lb/>
 oordeels) niet gesorteert, als de ruste en de securiteyt van den staet van Amboina<lb/>
@@ -46,9 +47,15 @@ maer dit jaer souden d’inwoonders noch van de gevelde en de geschilde boomen<l
 alsoo de boomen vol rijpe vruchten stonden, d’onse geen tijt hadden te plucken<lb/>
 ende deselve niet vernielen conden.<lb/>
 </para>
-<remark>(Zending van schepen naar Suratte , vgl. [Zeemogendheid] I, p. 415)</remark>
+<remark>«Zending van schepen naar Suratte
+, vgl.
+<ref>Zeemogendheid</ref> I, p. 415<lb/>
+»</remark>
 
-<fnote>[=1] Deze brief maakt, hoewel ze een maand later is gedateerd, met de vorige één geheel uit. Vandaar dat ze het nummer Vila heeft ontvangen.</fnote>
-<fnote>[=2] De Nassause vloot.</fnote>
+<fnote ref="1">Deze brief maakt, hoewel ze een maand later is gedateerd, met de vorige één geheel<lb/>
+uit. Vandaar dat ze het nummer Vila heeft ontvangen.<lb/>
+</fnote>
+<fnote ref="2">De Nassause vloot.<lb/>
+</fnote>
 </body>
 </teiTrim>

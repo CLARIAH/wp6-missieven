@@ -1,13 +1,22 @@
+import collections
 import re
 
-from lib import WHITE_RE
+from distill import META_KEY_ORDER, EXTRA_META_KEYS, DERIVED_META_KEYS, checkMeta
+from lib import REPORT_DIR, WHITE_RE, CELL_RE, docSummary
 
+corpusPre = None
+trimVolume = None
+trimDocBefore = None
 processPage = None
+trimDocPost = None
+
+
+STAGE = 2
+REP = f"{REPORT_DIR}{STAGE}"
 
 WHITE_B_RE = re.compile(r"""(>)\s+""", re.S)
 WHITE_E_RE = re.compile(r"""\s+(<)""", re.S)
 
-CELL_RE = re.compile(r"""<cell>(.*?)</cell>""", re.S)
 DEL_TBL_ELEM = re.compile(r"""</?(?:lb|p)/?>""", re.S)
 ROW_RE = re.compile(r"""<row>(.*?)</row>""", re.S)
 TABLE_RE = re.compile(r"""<table>(.*?)</table>""", re.S)
@@ -32,6 +41,107 @@ REMARK_EMPH_RE = re.compile(
 )
 REMARK_STRIP_RE = re.compile(r"""</?remark>""")
 NOTE_STRIP_RE = re.compile(r"""</?note>""")
+
+
+def trimDocPrep(info, metaText, bodyText, previousMeta):
+    header = checkMeta(metaText, bodyText, info, previousMeta)
+    return (header, bodyText)
+
+
+def corpusPost(info):
+    remarkInfo = info["remarks"]
+
+    print("REMARKS:")
+    for (label, amount) in remarkInfo.items():
+        print(f"\t{label:<5}: {amount:>5} generated")
+
+    nameDiag = info["nameDiag"]
+    metaValues = info["metaValues"]
+    metaDiag = info["metaDiag"]
+    metaStats = collections.defaultdict(collections.Counter)
+    nameStats = collections.Counter()
+
+    heads = info["heads"]
+    metas = info["metas"]
+    print("METADATA:")
+    print(f"\t{metas:>3} docs with metadata")
+
+    for (k, labelInfo) in nameDiag.items():
+        with open(f"{REP}/meta-{k}-diag.txt", "w") as fh:
+            for label in sorted(labelInfo):
+                fh.write(f"{label}------------------\n")
+                nameInfo = labelInfo[label]
+                for name in sorted(nameInfo):
+                    docs = nameInfo[name]
+                    docRep = docSummary(docs)
+                    fh.write(f"{docRep} {name}\n")
+                    if k == "authorFull":
+                        nameStats[label] += len(docs)
+    print("\t\tNAMES:")
+    for label in sorted(nameStats):
+        print(f"\t\t\t\t{label:<4}: {nameStats[label]:>3}x")
+
+    fh = {}
+    for kind in sorted(metaValues):
+        keyInfo = metaValues[kind]
+        for (k, valInfo) in keyInfo.items():
+            if kind in fh:
+                thisFh = fh[k]
+            else:
+                thisFh = fh.get(k, open(f"{REP}/meta-{k}-values.txt", "w"))
+                fh[k] = thisFh
+            thisFh.write(f"{kind}\n---------------\n")
+            for val in sorted(valInfo):
+                docs = valInfo[val]
+                docRep = docSummary(docs)
+                thisFh.write(f"{docRep} {val}\n")
+
+    for thisFh in fh.values():
+        thisFh.close()
+
+    with open(f"{REP}/metaDiagnostics.txt", "w") as fh:
+        for doc in sorted(metaDiag):
+            fh.write(f"{doc}\n")
+            fh.write(f"{heads[doc]}\n")
+
+            keyInfo = metaDiag[doc]
+            for k in META_KEY_ORDER + EXTRA_META_KEYS:
+                if k not in keyInfo:
+                    continue
+                (lb, ov, v, d) = keyInfo[k]
+                metaStats[k][lb] += 1
+                lines = []
+                if v == d:
+                    if ov != v:
+                        lines.append(f"OD= {ov}")
+                    lines.append(f"VD= {v}")
+                elif v and not d:
+                    if ov != v:
+                        lines.append(f"O = {ov}")
+                    lines.append(f"V = {v}")
+                elif not v and d:
+                    lines.append(f" D= {d}")
+                else:
+                    if ov != v:
+                        lines.append(f"O = {ov}")
+                    lines.append(f"V = {v}")
+                    lines.append(f" D= {d}")
+                fh.write(f"{lb} {k:<10} ={lines[0]}\n")
+                for line in lines[1:]:
+                    fh.write(f"{lb} {'':<10} ={line}\n")
+            fh.write("\n")
+
+    for k in META_KEY_ORDER + EXTRA_META_KEYS:
+        if k == "pid" or k in DERIVED_META_KEYS or k not in metaStats:
+            continue
+        print(f"\t\t{k}")
+        labelInfo = metaStats[k]
+        for label in sorted(labelInfo):
+            print(f"\t\t\t\t{label:<4}: {labelInfo[label]:>3}x")
+
+    with open(f"{REP}/heads.tsv", "w") as fh:
+        for (doc, head) in heads.items():
+            fh.write(f"{doc} {head}\n")
 
 
 def formatTablePre(info):
@@ -93,6 +203,6 @@ def trimPage(text, info, *args, **kwargs):
     remarkInfo["n"] += nR
     remarkInfo["nx"] += nRx
     text = REMARK_EMPH_RE.sub(r"""\1\2\3\4""", text)
-    text = REF_RE.sub(r"""[\1]""", text)
+    text = REF_RE.sub(r"""<ref>\1</ref>""", text)
     text = TABLE_RE.sub(formatTablePre(info), text)
     return text

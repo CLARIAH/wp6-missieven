@@ -6,6 +6,7 @@ head
  88x 05:p0376 05:p0388 ...     Abraham van Riebeeck
   1x 01:p0106                  Abraham van Uffelen
  34x 06:p0231 06:p0236 ...     Adam van Rijn
+  1x 01:p0244e                 Adriaan Blocq Martensz
  30x 09:p0001 09:p0007 ...     Adriaan Oostwalt
  48x 09:p0112 09:p0130 ...     Adriaan Valckenier
  29x 12:p0186 12:p0189 ...     Adriaan de Nijs
@@ -17,7 +18,7 @@ head
   6x 04:p0125 04:p0156 ...     Anthonio Paviljoen
  50x 07:p0353 07:p0381 ...     Anthony Huysman
   3x 01:p0554 01:p0596 ...     Antonio Caen
- 42x 01:p0152 01:p0174 ...     Antonio van Diemen
+ 50x 01:p0152 01:p0174 ...     Antonio van Diemen
   5x 01:p0373 01:p0393 ...     Antonio van Diemen Dr
   1x 01:p0393                  Antonio van den Heuvel
  46x 11:p0224 11:p0226 ...     Arend van Broyel
@@ -61,7 +62,7 @@ head
  14x 07:p0162 07:p0166 ...     Ferdinand de Groot
  44x 06:p0596 06:p0601 ...     Frans Castelyn
  11x 02:p0137 02:p0138 ...     François Caron
-  2x 01:p0129 01:p0131         Frederick de Houtman
+  5x 01:p0097d 01:p0098b ...   Frederick de Houtman
  12x 04:p0405 04:p0416 ...     Frederik Bent
  17x 09:p0365 09:p0424 ...     Frederik Julius Coyett
   5x 11:p0641 11:p0735 ...     Galenus Mersen
@@ -95,8 +96,8 @@ head
  26x 09:p0588 09:p0597 ...     Isaac van Schinne
   8x 09:p0233 09:p0256 ...     Jacob Christiaan Pielat
   3x 03:p0462 03:p0466 ...     Jacob Cops
-  2x 01:p0099 01:p0106         Jacob Dedel
-  3x 01:p0129 01:p0131 ...     Jacob Dedel Dr
+  6x 01:p0097d 01:p0097e ...   Jacob Dedel
+  5x 01:p0098a 01:p0098c ...   Jacob Dedel Dr
  42x 06:p0663 06:p0713 ...     Jacob Faes
   3x 03:p0468 03:p0474 ...     Jacob Hustaert
  15x 10:p0494 10:p0857 ...     Jacob Lakeman
@@ -107,19 +108,24 @@ head
  23x 06:p0017 06:p0048 ...     Jacob van Dam
  28x 11:p0115 11:p0116 ...     Jacob van den Bosch
  54x 11:p0618 11:p0641 ...     Jacob van der Waeyen
-  4x 01:p0121 01:p0129 ...     Jacques Specx
+  1x 01:p0244e                 Jacques Lefebvre
+  6x 01:p0118e 01:p0121 ...    Jacques Specx
   9x 01:p0152 01:p0174 ...     Jacques Specx Dr
   2x 11:p0115 11:p0116         Jan Albert Sichterman
+  1x 01:p0118a                 Jan Dircksz Lam
   5x 13:p0362 13:p0477 ...     Jan Elias van Mijlendonk
   6x 11:p0858 11:p0862 ...     Jan Huyghens
-  1x 01:p0105                  Jan Pietersz Coen Dr
+ 21x 01:p0097a 01:p0097b ...   Jan Pietersz Coen
+  4x 01:p0105 01:p0244f ...    Jan Pietersz Coen Dr
   4x 12:p0501 12:p0509 ...     Jan Schreuder
   1x 01:p0453                  Jan van Broeckum
   2x 01:p0131 01:p0148         Jan van Gorcom
+  1x 01:p0244e                 Jan van Gorcom Dr
   2x 05:p0508 05:p0567         Jan van Leene
   1x 02:p0480                  Jan van Teylingen
  13x 01:p0279 01:p0303 ...     Jan van der Burch
   1x 01:p0393                  Jan van der Burch Mr
+  4x 01:p0244a 01:p0244b ...   Jeremias de Meester
  23x 12:p0394 12:p0403 ...     Jeremias van Riemsdijk
   6x 05:p0599 05:p0650 ...     Joachim Nieustadt
  18x 07:p0479 07:p0485 ...     Joan Adriaan Crudop
@@ -160,7 +166,7 @@ head
   3x 01:p0366 01:p0369 ...     Maerten Ysbrantsz
  53x 05:p0376 05:p0388 ...     Manuel Bornezee
  24x 04:p0598 04:p0600 ...     Marten Pit
-  4x 01:p0105 01:p0129 ...     Martinus Sonck
+  7x 01:p0098a 01:p0098b ...   Martinus Sonck
  97x 06:p0289 06:p0290 ...     Mattheus de Haan
  19x 03:p0466 03:p0468 ...     Mattheus van den Brouck
  29x 10:p0494 10:p0495 ...     Maurits van Aerden
@@ -174,7 +180,7 @@ head
  10x 07:p0547 07:p0552 ...     Petrus Vuyst
   9x 01:p0373 01:p0507 ...     Philips Lucasz
   3x 03:p0453 03:p0462 ...     Pieter Anthonisz Overtwater
- 12x 01:p0004 01:p0007 ...     Pieter Both
+ 22x 01:p0003a 01:p0003b ...   Pieter Both
  24x 09:p0750 09:p0782 ...     Pieter Duquesne
  13x 08:p0003 08:p0009 ...     Pieter Gabry
   1x 01:p0247                  Pieter Nuyts
@@ -182,9 +188,11 @@ head
  47x 09:p0702 09:p0750 ...     Pieter Rochus Pasques de Chavonnes
  19x 06:p0641 06:p0658 ...     Pieter Rooselaar
   2x 03:p0210 03:p0247         Pieter Sterthemius
- 17x 01:p0152 01:p0174 ...     Pieter Vlack
- 18x 01:p0099 01:p0106 ...     Pieter de Carpentier
+ 21x 01:p0152 01:p0174 ...     Pieter Vlack
+ 30x 01:p0097d 01:p0097f ...   Pieter de Carpentier
+  1x 01:p0098b                 Pieter de Carpentier Dr
  24x 06:p0345 06:p0390 ...     Pieter de Vos
+  4x 01:p0244a 01:p0244b ...   Pieter van Duynen
  52x 03:p0453 03:p0462 ...     Pieter van Hoorn
  31x 12:p0096 12:p0180 ...     Pieter van de Velde
   6x 01:p0126 01:p0172 ...     Raden
@@ -206,11 +214,12 @@ head
  75x 07:p0534 07:p0537 ...     Wijbrant Blom
   2x 01:p0234 01:p0235         Wijbrant Schram
   4x 07:p0353 07:p0381 ...     Willem Backer Jacobsz
-  1x 01:p0121                  Willem Jansz
+  4x 01:p0097d 01:p0097f ...   Willem Jansz
   7x 07:p0224 07:p0226 ...     Willem Six
   4x 02:p0445 02:p0476 ...     Willem Versteghen
   3x 03:p0815 03:p0821 ...     Willem Volger
   1x 06:p0345                  Willem de Roo
+  6x 01:p0118a 01:p0118b ...   Willem van Antzen
  93x 04:p0238 04:p0239 ...     Willem van Outhoorn
   7x 05:p0605 05:p0650 ...     Willem van Wijngaerden
   3x 02:p0403 02:p0770 ...     Willem van der Beecken

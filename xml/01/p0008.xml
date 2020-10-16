@@ -19,21 +19,21 @@
 <pb n="8" tpl="1" vol="01" facs="1_104_0008"/>
 <head>VI. PIETER BOTH, EORT MAURITIUS NABIJ NGOFAKIAHA OP HET<lb/>
 EILAND MAKÉAN 26 juli 1612
-<super><fref ref="x"/> .</super><lb/>
+<fref ref="x"/> .<lb/>
 </head>
 <folio>961, 7folio’s.</folio>
 <para>Mijn Heeren, tsedert het vertreck van ons schip den Leeuw met Pijlen1
-<super><fref ref="2"/> </super><lb/>
+<fref ref="2"/> <lb/>
 hebben met alle vlijt op ’t versouck der Tarnatanen gearbeyt in ’t opmaecken van<lb/>
 ons fortgen op Tolloucke ende alsoo fortuyne-contrarie door ’t verliesen van de<lb/>
 galeye
-<super><fref ref="3"/> </super> hem niet gecontenteert en heeft, is gebeurt opten eersten meye passado,<lb/>
+<fref ref="3"/>  hem niet gecontenteert en heeft, is gebeurt opten eersten meye passado,<lb/>
 dat ons schip Gouda, gedestineert sijnde om met vyvres te verseylen naer Mackjan<lb/>
 ende Mothyr ende van daer naer Batsian ende alsdan voorts te gaen naer Soela<lb/>
 om sagou te haelen, voor dese fortten drijvende in stilte drie dagen ontrent Tydoor,<lb/>
 den vyant sulcx merckende, hebben in der ijl de galeye gemonteert ende met een<lb/>
 fregat ende ses Tydorese correcorren
-<super><fref ref="4"/> </super> ons schip voornoemt, ten ancker liggende,<lb/>
+<fref ref="4"/>  ons schip voornoemt, ten ancker liggende,<lb/>
 geabordeert ’s morgens in den dageraet ende alsoo het schip bestormt, twelck van<lb/>
 den onsen primo instantye gedefendeert worde, alsoo dat de galeye haer een weynich<lb/>
 retireerde principalijck door haer eygen vuyr, waervan vele verbrant ende<lb/>
@@ -44,7 +44,7 @@ gallerye in de cajuyt gecomen met groot gewelt. Den schipper ende den coopman,<l
 van ons mede gemaeckt capitein van Batsian, en hebben haer eet nochte eere<lb/>
 niet betracht, maer haer schandelijck ghequiteert, den schipper loopende in ’t<lb/>
 ruym, hem bergende in de sagou, den coopman ende capiteyn Claes Albertsz
-<super><fref ref="5"/> </super><lb/>
+<fref ref="5"/> <lb/>
 nam sijn wijck achter de mast, sonder geweer in de handt te hebben, gheheel<lb/>
 ghediscourageert ; hem worde het geweer in de handt gegeven om couragie te<lb/>
 maecken, twelck hij neder smeet ende alsoo hem meer retireerde. Sommighe van<lb/>
@@ -55,22 +55,46 @@ verovert, sonder dat wij ’t conden secoureren, alsoo ’t geheel stock stil wa
 voorts van de galeye achteraen gesleept naer Tydoor.<lb/>
 </para>
 
-<fnote>[=1] De brieven VI tot en met XIV zijn alle van dezelfde plaats en datum (in X en XIV worden deze niet genoemd, maar zowel uit de inhoud als uit de plaats tussen de andere brieven blijkt, dat ze tot dezelfde groep behoren). Een van deze brieven, nl. VI, is door Both als generale missive bedoeld, terwijl de andere bijzondere punten moeten behandelen. Both had blijkbaar de gewoonte tussen zijn andere werkzaamheden door zijn brieven te schrijven en die af te sluiten, als een schip naar het westen vertrok. Hij hield zich daardoor soms niet strikt aan zijn aanvankelijke opzet; de brieven komen herhaaldelijk op eenzelfde terrein, vaak bijv. de moeite die het personeel hem geeft. Soms gaat hij, vermoedelijk na zijn schrijfwerk enige tijd onderbroken te hebben, plotseling in een brief op een ander onderwerp over, soms wordt een aangesneden kwestie in een andere brief voortgezet. Ik heb mij niet star tot de door B. als „generale” brief bedoelde beperkt, maar heb uit de gehele groep het belangrijkste afgedrukt.</fnote>
-<fnote>[=2] Kort na 31 maart 1612.</fnote>
-<fnote>[=3] Tiele spreekt *(Europeërs,* VIII, p. 261 ) van een boot met manschappen, die bij een mislukte poging tot vermeestering van het jacht, waarmee de nieuwe Spaanse bevelhebber op Temate uit de Philippijnen was gekomen, verloren ging.</fnote>
-<fnote>[=4] Kora-kora, het bekende oorlogsvaartuig van de bewoners van de Specerij -eilanden, een grote vlerkprauw, vooral voor het roeien ingericht; de bemanning was soms een paar honderd man groot.</fnote>
-<fnote>[=5] Claes Albertsz. werd begin april 1612 als opperkoopman en kapitein van Temate naar Bat jan gezonden. Hij viel in Spaanse handen en was in 1617 nog te Manilla gevangen.[=1] Don Geronimo de Silva, sinds maart 1612 Spaans bevelhebber op Temate, volgde in april 1617 als wnd. kapitein -generaal zijn oom Don Juan de S. op de Philippijnen op.</fnote>
+<fnote ref="1">De brieven VI tot en met XIV zijn alle van dezelfde plaats en datum (in X en XIV<lb/>
+worden deze niet genoemd, maar zowel uit de inhoud als uit de plaats tussen de andere brieven<lb/>
+blijkt, dat ze tot dezelfde groep behoren). Een van deze brieven, nl. VI, is door Both als<lb/>
+generale missive bedoeld, terwijl de andere bijzondere punten moeten behandelen. Both had<lb/>
+blijkbaar de gewoonte tussen zijn andere werkzaamheden door zijn brieven te schrijven en die<lb/>
+af te sluiten, als een schip naar het westen vertrok. Hij hield zich daardoor soms niet strikt aan<lb/>
+zijn aanvankelijke opzet; de brieven komen herhaaldelijk op eenzelfde terrein, vaak bijv. de<lb/>
+moeite die het personeel hem geeft. Soms gaat hij, vermoedelijk na zijn schrijfwerk enige tijd<lb/>
+onderbroken te hebben, plotseling in een brief op een ander onderwerp over, soms wordt een<lb/>
+aangesneden kwestie in een andere brief voortgezet. Ik heb mij niet star tot de door B. als<lb/>
+„generale” brief bedoelde beperkt, maar heb uit de gehele groep het belangrijkste afgedrukt.<lb/>
+</fnote>
+<fnote ref="2">Kort na 31 maart 1612.<lb/>
+</fnote>
+<fnote ref="3">Tiele spreekt
+<emph>(Europeërs,</emph> VIII, p. 261
+) van een boot met manschappen, die bij een<lb/>
+mislukte poging tot vermeestering van het jacht, waarmee de nieuwe Spaanse bevelhebber op<lb/>
+Temate uit de Philippijnen was gekomen, verloren ging.<lb/>
+</fnote>
+<fnote ref="4">Kora-kora, het bekende oorlogsvaartuig van de bewoners van de Specerij -eilanden,<lb/>
+een grote vlerkprauw, vooral voor het roeien ingericht; de bemanning was soms een paar<lb/>
+honderd man groot.<lb/>
+</fnote>
+<fnote ref="5">Claes Albertsz. werd begin april 1612 als opperkoopman en kapitein van Temate<lb/>
+naar Bat jan gezonden. Hij viel in Spaanse handen en was in 1617 nog te Manilla gevangen.<lb/>
+ref="1">Don Geronimo de Silva, sinds maart 1612 Spaans bevelhebber op Temate, volgde<lb/>
+in april 1617 als wnd. kapitein -generaal zijn oom Don Juan de S. op de Philippijnen op.<lb/>
+</fnote>
 <pb n="9" tpl="1" vol="01" facs="1_104_0009"/>
 <para>Waeromme ick daechs daernaer aen Don Jeronimo
-<super><fref ref="1"/> </super> schreeff om een seguire
-<super><fref ref="2"/> </super><lb/>
+<fref ref="1"/>  schreeff om een seguire
+<fref ref="2"/> <lb/>
 om met hem te trackteren nopende de gevangens ende om een lijst te hebben<lb/>
 van de dooden ende levendigen; die hij mij gesonden heeft ende alsnu U Ed mede<lb/>
 ben sendende. Wij en hebben tot noch toe belangende de gevangenen niet connen<lb/>
 accorderen ende dat door haer onredelijcke proceduren. Sij hebben op ten 24en meye<lb/>
 den admirael Pauls van Caerden
-<super><fref ref="3"/> ,</super> den schipper Allert Hermansz
-<super><fref ref="4"/> ,</super> den coopman<lb/>
+<fref ref="3"/> , den schipper Allert Hermansz
+<fref ref="4"/> , den coopman<lb/>
 Claes Albertsz, den opperstuyrman, den trompetter en de botteliersmaet, wesende<lb/>
 des schippers zoon, den schoolmeester ende noch een jonck soldaet van Maleyen<lb/>
 genaempt Cornelis Ysbrantsz van Enchuysen ghe voert naer de Manilhas ende<lb/>
@@ -82,28 +106,56 @@ schrijver, vijff off zes Portugesen, ontrent 20 Manilhas, ettelijcke christen Ch
 die ick haer altemael ghepresenteert hebbe tegens den onsen, aldaer wesende<lb/>
 ontrent 50 man, waervan wel 20 cranck ende gequest laegen in ’t hospitael op<lb/>
 Gagamlamme
-<super><fref ref="5"/> ,</super> alleen excipierende tegens Patacque ende Lodesteyn den capiteyn<lb/>
+<fref ref="5"/> , alleen excipierende tegens Patacque ende Lodesteyn den capiteyn<lb/>
 van de galeye ende een serjant, off mij te geven soldaet voor soldaet, bootsman<lb/>
 tegens bootsman; dan het schijnt, dat sij meer estaet maecken van een Hollander<lb/>
 als van drie Spaignaerden, alsoo dat tot huyden toe, meer als twee maenden<lb/>
 geleden, naerdat wij 2 off 3 mael bij malcanderen geweest hadden, tsedert daer<lb/>
 niet meer van ghesproocken is.<lb/>
 </para>
-<remark>(Enkele regels weggelaten)</remark>
+<remark>«Enkele regels weggelaten<lb/>
+»</remark>
 <para>
 Het is voor mij een groote plage, terwijlen wij hier in den oorloch sijn, dat men<lb/>
 
-<fnote>[=1] Don Geronimo de Silva, sinds maart 1612 Spaans bevelhebber op Temate, volgde in april 1617 als wnd. kapitein -generaal zijn oom Don Juan de S. op de Philippijnen op.</fnote>
-<fnote>[=2] Vrijgeleide.</fnote>
-<fnote>[=3] Paulus van Caerden, de bekende admiraal, die in de Molukken tweemaal (1608, 1610) in Spaanse handen viel. Hij stierf vermoedelijk medio 1615 te Manilla *(Coen* I, p. 226,).</fnote>
-<fnote>[=4] Van de hierna genoemde personen zijn mij bekend:</fnote>
-<fnote>Allert Hermansz., schipper, viel in 1612 tegelijk met Claes Albertsz. in Spaanse handen en was in 1617 nog te Manilla gevangen.</fnote>
-<fnote>Cornelis IJsbrantsz. was reeds in juli 1608 soldaat te Takome; wegens zijn kennis van de landstaal werd hij in 1611 en ’12 als tolk gebruikt.</fnote>
-<fnote>Jacob Jansz. Patacka was reeds in 1608 als onderkoopman onder Van Caerden in Indië, 1611 opperkoopman op Batjan, 1612 in Spaanse krijgsgevangenschap, 1623 daaruit ontslagen en opperkoopman op Temate. Hij repatrieerde 1626 met de Nassause vloot en kwam</fnote>
-<fnote>1627 met Coen weer uit. Oct. 1627 op Ambon geplaatst, vanwaar hij met een aantal hoofden</fnote>
-<fnote>1628 naar Batavia kwam, waar hij het eerste beleg meemaakte en 25 nov. 1628 weer te Ambon. In juni 1631 als opperkoopman van Luhu gelicht. In september met een jonk naar Batavia gezonden, strandde hij op Buru en werd weer op Luhu geplaatst, 1633/34 op Hitu. In 1635 vice-commandeur onder Van Ommeren van vijf schepen, naar Perzië varend en na diens dood op 18 oktober commandeur. In 1637 kruiste hij op de Valck met 8 jachten in het Ambonse, waar hij 10 mei stierf.</fnote>
-<fnote>Jacob, zoon van den Delftsen raadsheer in den Hove van Holland Lodensteyn, diende op het schip Vere en viel gekwetst ongeveer maart 1612 in Spaanse handen. Pogingen hem los te kopen mislukten, hij was jaren te Manilla gevangen, waar hij vermoedelijk voor 1621 stierf.</fnote>
-<fnote>[=5] Gam Lamo, de Temataanse naam (letterlijk: stad grote) voor de Spaanse hoofdvesting op Temate, in het zuidwesten van het eiland gelegen.[=1] Camel, vleselijk.</fnote>
+<fnote ref="1">Don Geronimo de Silva, sinds maart 1612 Spaans bevelhebber op Temate, volgde<lb/>
+in april 1617 als wnd. kapitein -generaal zijn oom Don Juan de S. op de Philippijnen op.<lb/>
+</fnote>
+<fnote ref="2">Vrijgeleide.<lb/>
+</fnote>
+<fnote ref="3">Paulus van Caerden, de bekende admiraal, die in de Molukken tweemaal (1608, 1610)<lb/>
+in Spaanse handen viel. Hij stierf vermoedelijk medio 1615 te Manilla
+<emph>(Coen</emph> I, p. 226,).<lb/>
+</fnote>
+<fnote ref="4">Van de hierna genoemde personen zijn mij bekend:<lb/>
+ 
+ Allert Hermansz., schipper, viel in 1612 tegelijk met Claes Albertsz. in Spaanse handen<lb/>
+en was in 1617 nog te Manilla gevangen.<lb/>
+ 
+ Cornelis IJsbrantsz. was reeds in juli 1608 soldaat te Takome; wegens zijn kennis van de<lb/>
+landstaal werd hij in 1611 en ’12 als tolk gebruikt.<lb/>
+ 
+ Jacob Jansz. Patacka was reeds in 1608 als onderkoopman onder Van Caerden in Indië,<lb/>
+1611 opperkoopman op Batjan, 1612 in Spaanse krijgsgevangenschap, 1623 daaruit ontslagen<lb/>
+en opperkoopman op Temate. Hij repatrieerde 1626 met de Nassause vloot en kwam<lb/>
+ 
+ 1627 met Coen weer uit. Oct. 1627 op Ambon geplaatst, vanwaar hij met een aantal hoofden<lb/>
+ 
+ 1628 naar Batavia kwam, waar hij het eerste beleg meemaakte en 25 nov. 1628 weer te Ambon.<lb/>
+In juni 1631 als opperkoopman van Luhu gelicht. In september met een jonk naar Batavia<lb/>
+gezonden, strandde hij op Buru en werd weer op Luhu geplaatst, 1633/34 op Hitu. In 1635<lb/>
+vice-commandeur onder Van Ommeren van vijf schepen, naar Perzië varend en na diens dood<lb/>
+op 18 oktober commandeur. In 1637 kruiste hij op de Valck met 8 jachten in het Ambonse,<lb/>
+waar hij 10 mei stierf.<lb/>
+ 
+ Jacob, zoon van den Delftsen raadsheer in den Hove van Holland Lodensteyn, diende op<lb/>
+het schip Vere en viel gekwetst ongeveer maart 1612 in Spaanse handen. Pogingen hem los<lb/>
+te kopen mislukten, hij was jaren te Manilla gevangen, waar hij vermoedelijk voor 1621 stierf.<lb/>
+ </fnote>
+<fnote ref="5">Gam Lamo, de Temataanse naam (letterlijk: stad grote) voor de Spaanse hoofdvesting<lb/>
+op Temate, in het zuidwesten van het eiland gelegen.<lb/>
+ref="1">Camel, vleselijk.<lb/>
+</fnote>
 <pb n="10" tpl="1" vol="01" facs="1_104_0010"/>
 mij luyden sent, mennonisten off papisten, die niet en willen vechten tegens de<lb/>
 Spaignarts, want anders Gouda hadde wel connen slaen tegens vier diergelijcke<lb/>
@@ -114,7 +166,9 @@ ende alleen vier cleyne stuckgens, connen nemen sonder schade, maer niet ge wilt
 door bloodicheyt ofte sijn consciëntie niet te besmetten, waervan ick versekert ben<lb/>
 tsedert verlies van ’t schip Gouda.<lb/>
 </para>
-<remark>(Aankomst van Reael met de Banda; vgl. [Europeërs] VIII, p. 263)</remark>
+<remark>«Aankomst van Reael met de Banda; vgl.
+<ref>Europeërs</ref> VIII, p. 263<lb/>
+»</remark>
 <para>Die meeste swaericheyt, die mij in dese landen bejegent, is het quaet gouverne<lb/>
 ment van den onsen ende moet niettemin dickwils symuleren ende dat door de<lb/>
 ervaerentheyt, uutstaende schulden ende andersins, die sij van dese plaetsen<lb/>
@@ -125,11 +179,11 @@ hebben, welcke de nieuwe geheel onbekendt is.<lb/>
 <para>Het is een grouwelijeke saecke alhier, dat dese superstitie use secten mahometisten<lb/>
 permitteren, dat haer slavinnen, dochters, jae mede sommighe haer vrouwen,<lb/>
 metten onsen chernelle
-<super><fref ref="1"/> </super> conversatie te hebben om het geit te winnen ende niet<lb/>
+<fref ref="1"/>  conversatie te hebben om het geit te winnen ende niet<lb/>
 toe en willen laeten metten onsen te trouwen. Sij sijn soo verblint ende obstinaet<lb/>
 in haer seckten sonder eenich fondament, waervan sij geen reden en weten te<lb/>
 geven dan alleen een weynich uuytten alquerael
-<super><fref ref="2"/> </super> van Mahomet. Het is hier mette<lb/>
+<fref ref="2"/>  van Mahomet. Het is hier mette<lb/>
 papen3) even gelijck als bij de papisten, die overal het gebiet hebben ende waer<lb/>
 yemant van qualiteyt sterft, daervan groote presenten ende baneketten genieten,<lb/>
 omdat sij voor den overleden bidden, want anders seggen sij, de siel verdoempt<lb/>
@@ -145,7 +199,7 @@ Ende de vrouwen, die U Ed. mij mede gegeven heeft ende naermaels noch<lb/>
 gesonden, sullen weynich ofte geen stichtinghe geven ende weynich kinderen van<lb/>
 comen, doordien sij meest bedorven sijn voor ’t vertreck van ’t vaederlandt. Wij<lb/>
 hebben op de schepen sommighe van de pocken
-<super><fref ref="4"/> </super> moeten genesen, andere hier<lb/>
+<fref ref="4"/>  moeten genesen, andere hier<lb/>
 in ’t landt. Op een van de schepen, met mij gecomen, starff een bootsman van<lb/>
 de pocken, die hij op ’t schip gecregen hadde, soo hij seyde, sijn meer soo onreyn<lb/>
 ende vuyl, dattet voor dese natie een spodt ende grouwel om sien is. Daeromme<lb/>
@@ -153,10 +207,20 @@ soude ick U Ed. raeden alsulcke persoonen niet meer hier te senden dan<lb/>
 wel eerlij cke huysgesinnen, waervan groote vruchten te verwachten sijn. De gehoudene<lb/>
 mette naturelle van dese landen als d’andere mette Nederlantsche vrou-<lb/>
 
-<fnote>[=1] Camel, vleselijk.</fnote>
-<fnote>[=2] Al Coran.</fnote>
-<fnote>[=3] De Islam kent geen priesters, geen „papen”. Bedoeld zijn of hadji’s of hoofden van mystieke broederschappen, dan wel moskeepersoneel.</fnote>
-<fnote>[=4] Met deze „pokken” zijn de Spaanse pokken, een geslachtsziekte, bedoeld.[=1] Hendrick van Raey maakte 1608 als onderkoopman een reis naar Japan, was februari 1611 koopman op de Pauw voor Amboina, werd juni d. a. v. fiscaal en was van december 1611 tot juni 1612 kapitein en opperkoopman op Batjan. Werd wegens diefstal ter dood veroordeeld, doch begenadigd. In augustus 1612 soldaat onder Schotte op Buton, werd daar eind augustus 1613 wegens diefstal opgehangen.</fnote>
+<fnote ref="1">Camel, vleselijk.<lb/>
+</fnote>
+<fnote ref="2">Al Coran.<lb/>
+</fnote>
+<fnote ref="3">De Islam kent geen priesters, geen „papen”. Bedoeld zijn of hadji’s of hoofden van<lb/>
+mystieke broederschappen, dan wel moskeepersoneel.<lb/>
+</fnote>
+<fnote ref="4">Met deze „pokken” zijn de Spaanse pokken, een geslachtsziekte, bedoeld.<lb/>
+ref="1">Hendrick van Raey maakte 1608 als onderkoopman een reis naar Japan, was februari<lb/>
+1611 koopman op de Pauw voor Amboina, werd juni d. a. v. fiscaal en was van december<lb/>
+1611 tot juni 1612 kapitein en opperkoopman op Batjan. Werd wegens diefstal ter dood veroordeeld,<lb/>
+doch begenadigd. In augustus 1612 soldaat onder Schotte op Buton, werd daar eind<lb/>
+augustus 1613 wegens diefstal opgehangen.<lb/>
+</fnote>
 <pb n="11" tpl="1" vol="01" facs="1_104_0011"/>
 wen. hebben op ons versocht om betaelt te mogen wesen, vandt gene sij in zee<lb/>
 ende aen landt verdient souden mogen hebben, alsoo sij nu gedestineert sijn haer<lb/>
@@ -168,11 +232,13 @@ gelijck voor desen de Portugesen gedaen hebben ende alsnoch doen, die weleke<lb/
 sommighe van haer seer rijck in dese landen worden ende den onsen altijt in een<lb/>
 soberen staet blijven; hierop sal U Ed. gelieven eenighe ordre te raemen.<lb/>
 </para>
-<remark>(Vertrek van Jan Dircksz. Lam naar patria. B. is nu te zwak om Manilla te kunnen aanvallen)</remark>
+<remark>«Vertrek van Jan Dircksz. Lam naar patria. B. is nu te zwak om Manilla te<lb/>
+kunnen aanvallen<lb/>
+»</remark>
 <para>Naer ’t vertreck van dese schepen sal ick gaen met ’t schip Banda naar<lb/>
 Batsian om die plaets naer behooren te provideren, alwaer ick gelaten hebbe<lb/>
 mijnen fiscael Hendrick van Raey
-<super><fref ref="x"/> </super> met last het fort aldaer van vack tot vack<lb/>
+<fref ref="x"/>  met last het fort aldaer van vack tot vack<lb/>
 aff te breken ende in calck te leggen, dat nu meest gedaen is.<lb/>
 </para>
 <para>Voor desen hebben den onsen de fortten overal gemaeckt van aert ende houdt,<lb/>
@@ -194,16 +260,33 @@ alleen slecht, jae de kinderen gelijck ende geeft niet meer antwoort als een hou
 beelt in saecken van importantie, maer bij nacht te vrouweren ende gew'elt te doen<lb/>
 sijn tijdt meest mede doorbrenght. Voor mijn compste alhier heeft hij sijn vrouwe<lb/>
 van grooten huyse van Sabougo
-<super><fref ref="3"/> </super> bij nacht vermoort ende buyten ’t reciff met<lb/>
+<fref ref="3"/>  bij nacht vermoort ende buyten ’t reciff met<lb/>
 een camer aen den hals in zee doen werpen ; nu een maendt geleden heeft hij een<lb/>
 getroude vrouwe van een van de princypalen, genaempt Kitsyl Belle, wesende de<lb/>
 suster van Kitsyl Aly
-<super><fref ref="4"/> ,</super> Amirael van der Zee, genomen tot sijn bijsit ende een<lb/>
+<fref ref="4"/> , Amirael van der Zee, genomen tot sijn bijsit ende een<lb/>
 
-<fnote>[=1] Hendrick van Raey maakte 1608 als onderkoopman een reis naar Japan, was februari 1611 koopman op de Pauw voor Amboina, werd juni d. a. v. fiscaal en was van december 1611 tot juni 1612 kapitein en opperkoopman op Batjan. Werd wegens diefstal ter dood veroordeeld, doch begenadigd. In augustus 1612 soldaat onder Schotte op Buton, werd daar eind augustus 1613 wegens diefstal opgehangen.</fnote>
-<fnote>[=2] Modafar was, nadat zijn vader Koning Sa(h)id in maart 1606 in Spaanse handen was gevallen, hem opgevolgd, tot 1610 onder regentschap. Hij was een onbetekenend man, die steeds meer versufte en in 1627 stierf.</fnote>
-<fnote>[=3] Sabugo, plaats ter westkust van Halmaheira, waar de Compagnie destijds een kleine versterking had, die kort te voren in Spaanse handen was gevallen.</fnote>
-<fnote>[=4] Ketjil Ali, neef van Koning Modafar, was reeds bij de komst der Nederlanders inl599 kapitan laut (= vlootvoogd) van Temate en een van de voornaamste rijksgroten. Na de dood van zijn neef in 1627 was hij de Nederlandse tro onkandidaat, maar werd door de groten gepas-seerd voor zijn jongeren broeder Hamzah, die hem met een korakoravloot in juni 1628 naar het Ambonse zond om de geschillen daar bij te leggen en de Makassaren te bestrijden. In 1631 vertoefde hij op Sula en Banggai. Hij stierf 1632 op Buton, misschien vergiftigd op last van den Koning van Makassar.</fnote>
+<fnote ref="1">Hendrick van Raey maakte 1608 als onderkoopman een reis naar Japan, was februari<lb/>
+1611 koopman op de Pauw voor Amboina, werd juni d. a. v. fiscaal en was van december<lb/>
+1611 tot juni 1612 kapitein en opperkoopman op Batjan. Werd wegens diefstal ter dood veroordeeld,<lb/>
+doch begenadigd. In augustus 1612 soldaat onder Schotte op Buton, werd daar eind<lb/>
+augustus 1613 wegens diefstal opgehangen.<lb/>
+</fnote>
+<fnote ref="2">Modafar was, nadat zijn vader Koning Sa(h)id in maart 1606 in Spaanse handen was<lb/>
+gevallen, hem opgevolgd, tot 1610 onder regentschap. Hij was een onbetekenend man, die<lb/>
+steeds meer versufte en in 1627 stierf.<lb/>
+</fnote>
+<fnote ref="3">Sabugo, plaats ter westkust van Halmaheira, waar de Compagnie destijds een kleine<lb/>
+versterking had, die kort te voren in Spaanse handen was gevallen.<lb/>
+</fnote>
+<fnote ref="4">Ketjil Ali, neef van Koning Modafar, was reeds bij de komst der Nederlanders inl599<lb/>
+kapitan laut (= vlootvoogd) van Temate en een van de voornaamste rijksgroten. Na de dood<lb/>
+van zijn neef in 1627 was hij de Nederlandse tro onkandidaat, maar werd door de groten gepas-<lb/>
+seerd voor zijn jongeren broeder Hamzah, die hem met een korakoravloot in juni 1628 naar<lb/>
+het Ambonse zond om de geschillen daar bij te leggen en de Makassaren te bestrijden. In 1631<lb/>
+vertoefde hij op Sula en Banggai. Hij stierf 1632 op Buton, misschien vergiftigd op last van<lb/>
+den Koning van Makassar.<lb/>
+</fnote>
 <pb n="12" tpl="1" vol="01" facs="1_104_0012"/>
 ander vrouwe, dochter van ke. Nary, het haer met een swaert affgesneden ende<lb/>
 gequetst in ’t aensicht; tegenwoordich in haer vaeders huys, alwaer sij bij nacht<lb/>
@@ -250,9 +333,20 @@ zes voor, d’ander naer, onder de voet ende voor desen met groote oosten weder<
 opgemaeckt ; is niettemin een plaetse van importantie, die niet en dient verlaten<lb/>
 te wesen door de abondantie van nagelen, die daer vallen, waerom den vyant al-<lb/>
 
-<fnote>seerd voor zijn jongeren broeder Hamzah, die hem met een korakoravloot in juni 1628 naar het Ambonse zond om de geschillen daar bij te leggen en de Makassaren te bestrijden. In 1631 vertoefde hij op Sula en Banggai. Hij stierf 1632 op Buton, misschien vergiftigd op last van den Koning van Makassar.</fnote>
-<fnote>[=1] Ketjil Sedang of Sidang, oudere en bekwamere broeder van Koning Modafar.</fnote>
-<fnote>[=2] Het Spaanse kasteel op Batjan werd 26 november 1609 door Simon Jansz. Hoen genomen, waarna op 10 dec. met Koning Alaudin van Batjan een contract werd aangegaan, waarbij ook Koning Modafar zich aansloot *(Corpus* I, p. 75-78 j.[=1] Zie voor deze sterkte Takome *Oudheden* , p. 256.</fnote>
+<fnote>seerd voor zijn jongeren broeder Hamzah, die hem met een korakoravloot in juni 1628 naar<lb/>
+het Ambonse zond om de geschillen daar bij te leggen en de Makassaren te bestrijden. In 1631<lb/>
+vertoefde hij op Sula en Banggai. Hij stierf 1632 op Buton, misschien vergiftigd op last van<lb/>
+den Koning van Makassar.<lb/>
+</fnote>
+<fnote ref="1">Ketjil Sedang of Sidang, oudere en bekwamere broeder van Koning Modafar.<lb/>
+</fnote>
+<fnote ref="2">Het Spaanse kasteel op Batjan werd 26 november 1609 door Simon Jansz. Hoen<lb/>
+genomen, waarna op 10 dec. met Koning Alaudin van Batjan een contract werd aangegaan,<lb/>
+waarbij ook Koning Modafar zich aansloot
+<emph>(Corpus</emph> I, p. 75-78 j.<lb/>
+ref="1">Zie voor deze sterkte Takome
+<emph>Oudheden</emph> , p. 256.<lb/>
+</fnote>
 <pb n="13" tpl="1" vol="01" facs="1_104_0013"/>
 daer soude connen nestelen. Hebbe daeromme den raet van Tarnate voorgedraegen<lb/>
 naer vysitatie van ditto plaetse, dattet hoochnoodich was, indien wij te samen<lb/>
@@ -260,13 +354,14 @@ die plaets wilden behouden, aldaer te maecken een casteel op de strant in steen<
 ende calck, waerop sijluyden repliceerden, dat sij al voor desen van den onsen<lb/>
 hadden begeert, soo wel op Maleyo als op andere plaetsen in calck ende steen te<lb/>
 wercken, haer beclagende over den onsen, die daervan in gebreke gebleven sijn
-<super><fref ref="x"/> .</super><lb/>
+<fref ref="x"/> .<lb/>
 Ick vreese, dat van sulex perticulier proffijt oorsaeck is gheweest, want dickwils<lb/>
 vervallen wercken te vernieuwen groote rekeningen maecken connen, gelijck U Ed.<lb/>
 meer als te veel in haerlieder rekeningen sult sien, die wij nu van alle dese plaetsen<lb/>
 U Ed. sijn mede sendende.<lb/>
 </para>
-<remark>(Mislukte 'poging de Ternatanen tegen betaling bij de fortenbouw te betrekken)</remark>
+<remark>«Mislukte 'poging de Ternatanen tegen betaling bij de fortenbouw te betrekken<lb/>
+»</remark>
 <para>
 De Tarnatanen pretenderen van Loehoe, Cambelle
 <super>1 <fref ref="2"/> </super> ende Maquian te genieten<lb/>
@@ -276,17 +371,17 @@ ende een pertye van dien wel 42 jaeren onder de Tydoresen gheweest hadde ende<lb
 alsdoen maer betaelden aen den Coninck van Tydoor een seker tribuyt ende de<lb/>
 subjeckten voor desen gheweest aen den Coninck van Tarnate oock een seker trybuyt,<lb/>
 sonder yets anders, waervan ick nu door Bastiaen de Castro
-<super><fref ref="3"/> </super> geinformeert<lb/>
+<fref ref="3"/>  geinformeert<lb/>
 ben ende noch mij breeder sal informeren. Daeromme haerluyden voor antwoort<lb/>
 gegeven hebben, dat de Maqu jannesen door beyde ons toedoen geconquesteert<lb/>
 sijn gheweest, ’t welck sonder ons van haer nimmermeer en hadde connen gheschieden.<lb/>
 Om die redenen wille den Prins van Hollant
-<super><fref ref="4"/> </super> door de groote oncosten<lb/>
+<fref ref="4"/>  door de groote oncosten<lb/>
 mede van conqueste competeerde insonderheyt ’t gene den Tydorees soo langhe<lb/>
 ghepossedeert hadde. Ende soo veel aengaet den tol, dat ick mij soude informeren,<lb/>
 ’tgene voor desen ’t gebruyck geweest hadde, soo wel op Loehoe ende Cambello<lb/>
 als hier, daerbij niettemin adderende, dat onsen Prins was rijck, genieroys
-<super><fref ref="5"/> </super> ende<lb/>
+<fref ref="5"/>  ende<lb/>
 goedertieren ende tot haerluyden seer genegen, die ick van alles soude advyseren,<lb/>
 insonderheyt van de groote affectie, die sij hem waeren toedragende, om haerluyden<lb/>
 alsoo te houden metten beek in ’t waeter ende onse pretensie open te houden<lb/>
@@ -297,11 +392,28 @@ door haer onverdraegelijcke regeringe gere volteert hebben ende onder den Tydore
 haer begeven, dan het tyraniseren der Spaignaerts is oorsaeck, dat vele van dese<lb/>
 Princen t’onswaerts ghenegen sijn. Ick ben desen van Macquian exhorterende tot<lb/>
 
-<fnote>[=1] Zie voor deze sterkte Takome *Oudheden* , p. 256.</fnote>
-<fnote>[=2] Luhu en Kambello, belangrijke kruidnagelplaatsen resp. aan de oost- en de westkust van Hoamoal, het zuidwestelijk schiereiland van Ceram; beide behoorden tot de Temataanse onderhorigheden.</fnote>
-<fnote>[=3] Bastiaen de Castro, hoofd der christenen op Batjan, die tot ongeveer 1627 heeft geleefd. Hij bezocht Nederland, maar werd- tegen het einde van zijn leven verdacht van Spaansgezindheid.</fnote>
-<fnote>[=4] Het was den Nederlanders niet mogelijk de Indonesiërs duidelijk te maken, hoe hun staat geregeerd werd. Men sprak daarom van Prins Maurits als van den Prins van Holland, zonder zich over zijn positie nader uit te laten.</fnote>
-<fnote>[=5] Genereus.[=1] Comelis Bastiaensz. nam 19 mei 1605 de Portugese sterkte op Tidore in, hun laatste vesting op de Specerij -eilanden. De vijandschap tussen de Tidorezen en de met de Nederlanders verbonden Tematanen was echter zo groot, dat de eersten zich in maart 1606 bij de komst van de Spanjaarden uit de Philippijnen direct bij hen aansloten; het kasteel ging voor de Nederlanders verloren.</fnote>
+<fnote ref="1">Zie voor deze sterkte Takome
+<emph>Oudheden</emph> , p. 256.<lb/>
+</fnote>
+<fnote ref="2">Luhu en Kambello, belangrijke kruidnagelplaatsen resp. aan de oost- en de westkust<lb/>
+van Hoamoal, het zuidwestelijk schiereiland van Ceram; beide behoorden tot de Temataanse<lb/>
+onderhorigheden.<lb/>
+</fnote>
+<fnote ref="3">Bastiaen de Castro, hoofd der christenen op Batjan, die tot ongeveer 1627 heeft<lb/>
+geleefd. Hij bezocht Nederland, maar werd- tegen het einde van zijn leven verdacht van<lb/>
+Spaansgezindheid.<lb/>
+</fnote>
+<fnote ref="4">Het was den Nederlanders niet mogelijk de Indonesiërs duidelijk te maken, hoe hun<lb/>
+staat geregeerd werd. Men sprak daarom van Prins Maurits als van den Prins van Holland,<lb/>
+zonder zich over zijn positie nader uit te laten.<lb/>
+</fnote>
+<fnote ref="5">Genereus.<lb/>
+ref="1">Comelis Bastiaensz. nam 19 mei 1605 de Portugese sterkte op Tidore in, hun laatste<lb/>
+vesting op de Specerij -eilanden. De vijandschap tussen de Tidorezen en de met de Nederlanders<lb/>
+verbonden Tematanen was echter zo groot, dat de eersten zich in maart 1606 bij de komst van<lb/>
+de Spanjaarden uit de Philippijnen direct bij hen aansloten; het kasteel ging voor de Nederlanders<lb/>
+verloren.<lb/>
+</fnote>
 <pb n="14" tpl="1" vol="01" facs="1_104_0014"/>
 gehoorsaemheyt ende patiëntie ende dat Godt ende den tijdt liiernaermaels wel in<lb/>
 versien can werden; vooral Macqnian moet hiernaer aen U Ed. blijven, want sijluyden,<lb/>
@@ -310,10 +422,11 @@ aen te steken, sijluyden het jock van de Tarnatanen van haeren hals leggen<lb/>
 sonden ende haer onder ons onder eerlij cke ende avantagieuse conditiën souden<lb/>
 begeven.<lb/>
 </para>
-<remark>(7 regels uitgelaten)</remark>
+<remark>«7 regels uitgelaten<lb/>
+»</remark>
 <para>Mijn Heeren, het openbaert sich hoe langer hoe meer, dat den Coninck van<lb/>
 Tydoor
-<super><fref ref="x"/> ,</super> insonderheyt sijn onderdanen, een seer groot discontentement hebben<lb/>
+<fref ref="x"/> , insonderheyt sijn onderdanen, een seer groot discontentement hebben<lb/>
 van het tyrannich regeren der Spagnaerden ende dat hij berou heeft, de Hollanders<lb/>
 verlaten te hebben ende de Spagnaerden in sijn landt geroepen. Mij is onlangs<lb/>
 gherelateert van een Tydorees, dat den Coninck van Tydoor dickwils Godt was<lb/>
@@ -344,9 +457,17 @@ wert de gemaeckte vrede ende conditiën voor ons ende onse geallieerde soo wel<l
 in ’t vaederlandt als in de Indiens, welcken brieff in ’t Tarnataens overgeset is<lb/>
 alsmede de mijne ende soo gelijck aen den Coninck gesonden.<lb/>
 </para>
-<remark>(4 regels uitgelaten)</remark>
+<remark>«4 regels uitgelaten<lb/>
+»</remark>
 
-<fnote>[=1] Comelis Bastiaensz. nam 19 mei 1605 de Portugese sterkte op Tidore in, hun laatste vesting op de Specerij -eilanden. De vijandschap tussen de Tidorezen en de met de Nederlanders verbonden Tematanen was echter zo groot, dat de eersten zich in maart 1606 bij de komst van de Spanjaarden uit de Philippijnen direct bij hen aansloten; het kasteel ging voor de Nederlanders verloren.[=1] Djogugu, Ternataanse term voor den rijksbestuurder in de Molukse rijken. Djou = Heer, gugu = beheerder , bestuurder.</fnote>
+<fnote ref="1">Comelis Bastiaensz. nam 19 mei 1605 de Portugese sterkte op Tidore in, hun laatste<lb/>
+vesting op de Specerij -eilanden. De vijandschap tussen de Tidorezen en de met de Nederlanders<lb/>
+verbonden Tematanen was echter zo groot, dat de eersten zich in maart 1606 bij de komst van<lb/>
+de Spanjaarden uit de Philippijnen direct bij hen aansloten; het kasteel ging voor de Nederlanders<lb/>
+verloren.<lb/>
+ref="1">Djogugu, Ternataanse term voor den rijksbestuurder in de Molukse rijken. Djou =<lb/>
+Heer, gugu = beheerder , bestuurder.<lb/>
+</fnote>
 <pb n="15" tpl="1" vol="01" facs="1_104_0015"/>
 <para>Den gougouge *) van de Tarna tanen is voor drie off vier dagen bij mij geweest<lb/>
 ende versocht, dat alle de correcorren van Maquian mede wilden gaen in compagnie<lb/>
@@ -369,8 +490,11 @@ den inhoudt van den selven in sijn hart hadde gegraveert ende hiernaermaels mij<
 soude antwoorden. Ick verhope hieruuyt yets goets rysen sal, dat principalijck<lb/>
 door het tiraniseren der Spagniaerden.<lb/>
 </para>
-<remark>(Gouverneur Prins, van Banda, gestorven, diverse korte berichten, slot)</remark>
+<remark>«Gouverneur Prins, van Banda, gestorven, diverse korte berichten, slot<lb/>
+»</remark>
 
-<fnote>[=1] Djogugu, Ternataanse term voor den rijksbestuurder in de Molukse rijken. Djou = Heer, gugu = beheerder , bestuurder.</fnote>
+<fnote ref="1">Djogugu, Ternataanse term voor den rijksbestuurder in de Molukse rijken. Djou =<lb/>
+Heer, gugu = beheerder , bestuurder.<lb/>
+</fnote>
 </body>
 </teiTrim>

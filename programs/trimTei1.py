@@ -1,10 +1,608 @@
 import sys
 import re
+from itertools import chain
 
-from lib import WHITE_RE, TRIM_DIR, HI_CLEAN_STRONG_RE
+from distill import META_KV_2_RE, HEAD_RE, HI_CLEAN_STRONG_RE, distillHead
+from lib import (
+    TRIM_DIR,
+    REPORT_DIR,
+    WHITE_RE,
+    BODY_RE,
+    CELL_RE,
+    applyCorrections,
+)
 
 
+corpusPre = None
+trimVolume = None
 processPage = None
+
+STAGE = 1
+SRC = f"{TRIM_DIR}{STAGE - 1}"
+DST = f"{TRIM_DIR}{STAGE}"
+REP = f"{REPORT_DIR}{STAGE}"
+
+# SOURCE CORRECTIONS
+
+MERGE_DOCS = {
+    "06:p0406": ("06:p0407",),
+}
+SKIP_DOCS = {x for x in chain.from_iterable(MERGE_DOCS.values())}
+
+CORRECTIONS = {
+    "01:p0203": ((re.compile(r"""(<p\ rend="font-size:)\ 8\.5;""", re.S), r"\1 12;"),),
+    "01:p0663": ((re.compile(r""">\(1\) Dirck""", re.S), r">1) Dirck"),),
+    "02:p0480": ((re.compile(r"""<p\b[^>]*>p\.r cento<lb/>\s*</p>\s*""", re.S), r""),),
+    "04:p0496": ((re.compile(r"""I( en 9 maart 1683)""", re.S), r"""1\1"""),),
+    "05:p0439": ((re.compile(r"""<p\b[^>]*>i<lb/>\s*</p>\s*""", re.S), r""),),
+    "05:p0779": (
+        (
+            re.compile(
+                r"""
+                    (
+                        <pb\ n="793"[^>]*>
+                        \s*
+                        <fw\b[^>]*>[^<]*</fw>
+                        \s*
+                    )
+                    <note\b[^>]*>(.*?)</note>
+                """,
+                re.S | re.X,
+            ),
+            r"\1<p>\2</p>",
+        ),
+    ),
+    "06:p0844": (
+        (
+            re.compile(
+                r"""
+                    <p\b[^>]*>([^<]*)<lb/>\s*</p>
+                    (
+                        \s*
+                        <pb\ n="894"[^>]*>
+                    )
+                """,
+                re.S | re.X,
+            ),
+            r"<note>\1</note>\2",
+        ),
+    ),
+    "07:p0003": ((re.compile(r"""(<head\b[^>]*>)(CHRIS)""", re.S), r"""\1I. \2"""),),
+    "07:p0660": ((re.compile(r"""(<head\b[^>]*>XX)L""", re.S), r"""\1II"""),),
+    "09:p0233": (
+        (
+            re.compile(
+                r"""
+                    <head\b[^>]*>
+                        [^<]*
+                        <lb/>
+                        \s*
+                    </head>
+                    \s*
+                    <p\b[^>]*>
+                        [^<]*
+                        <lb/>
+                        \s*
+                    </p>
+                    \s*
+                    <fw\b[^>]*>
+                        [^<]*
+                    </fw>
+                    \s*
+                    (<pb\ n="254")
+                """,
+                re.S | re.X,
+            ),
+            r"\1",
+        ),
+    ),
+    "10:p0857": ((re.compile(r"""decem¬ber""", re.S), r"""december"""),),
+    "10:p0749": (
+        (
+            re.compile(
+                r"""(<pb n="799"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""", re.S
+            ),
+            r"""\2\1""",
+        ),
+        (
+            re.compile(
+                r"""(<pb n="997"[^>]*>\s*<fw\b[^>]*>.*?</fw>\s*)(</p>\s*)""", re.S
+            ),
+            r"""\2\1""",
+        ),
+    ),
+    "11:p0226": (
+        (re.compile(r"""\((niet getekend wegens ziekte)\]""", re.S), r"""(\1)"""),
+    ),
+}
+CORRECTION_HEAD = {
+    "01:p0734": (
+        re.compile(r"""<head .*?</p>""", re.S),
+        (
+            "VI. "
+            "ANTONIO VAN DIEMEN, PHILIPS LUCASZ, CAREL RENIERS "
+            "(EN DE GEASSUMEERDE RADEN) "
+            "ABRAHAM WELSING EN CORNELIS VAN DER LIJN, "
+            "BATAVIA. "
+            "30 december 1638."
+        ),
+    ),
+}
+
+
+PB_P_PERM_RE = re.compile(
+    r"""
+    (
+        (?:
+            <pb\b[^>]*>\s*
+        )+
+    )
+    (
+        </p>
+    )
+    """,
+    re.S | re.X,
+)
+
+BIG_TITLE_PART_RE = re.compile(
+    r"""
+    (
+        \s*
+        <pb\b[^>]*?\bn="([^"]*)"[^>]*>
+        \s*
+        (?:
+            <pb\b[^>]*?\bn="[^"]*"[^>]*>
+            \s*
+        )*
+        <bigTitle>(.*?)</bigTitle>
+        \s*
+        (?:
+            (?:
+                (?:
+                    <p\b[^>]*>.*?</p>
+                )
+                |
+                (?:
+                    <pb\b[^>]*>
+                )
+            )
+            \s*
+        )*
+        \s*
+    )
+    """,
+    re.S | re.X,
+)
+
+
+def trimVolume(vol, letters, info, idMap, givenLid, mergeText):
+    thisSrcDir = f"{SRC}/{vol}"
+    for name in letters:
+        lid = name if idMap is None else idMap[name]
+        if givenLid is not None and lid not in givenLid:
+            continue
+        doc = f"{vol}:{lid}"
+        if doc in SKIP_DOCS:
+            continue
+        if doc in MERGE_DOCS:
+            with open(f"{thisSrcDir}/{name}.xml") as fh:
+                text = fh.read()
+            followTexts = []
+            for followDoc in MERGE_DOCS[doc]:
+                followName = followDoc.split(":", 1)[1] + ".xml"
+                with open(f"{thisSrcDir}/{followName}") as fh:
+                    followTexts.append(fh.read())
+            mergeText[doc] = combineTexts(text, followTexts)
+
+
+def trimDocBefore(doc, name, thisSrcDir, mergeText):
+    if doc in SKIP_DOCS:
+        return None
+
+    if doc in mergeText:
+        text = mergeText[doc]
+    else:
+        with open(f"{thisSrcDir}/{name}.xml") as fh:
+            text = fh.read()
+    return applyCorrections(CORRECTIONS, doc, text)
+
+
+def combineTexts(first, following):
+    bodies = []
+
+    for text in following:
+        match = BODY_RE.search(text)
+        bodies.append(match.group(1))
+
+    return first.replace("</body", ("\n".join(bodies)) + "</body>")
+
+
+HEADER_TITLE_RE = re.compile(
+    r"""
+        <meta\s+
+        key="title"\s+
+        value="([^"]*)"
+    """,
+    re.S | re.X,
+)
+REST_RE = re.compile(
+    r"""
+    ^
+    (?:
+        index
+        |
+        indices
+        |
+        toelichting
+    )
+    """,
+    re.S | re.I | re.X,
+)
+
+
+def trimDocPrep(info, metaText, bodyText, previousMeta):
+    doc = info["doc"]
+    bigTitle = info["bigTitle"]
+    header = f"""<header>\n{metaText}\n</header>"""
+    match = HEADER_TITLE_RE.search(header)
+    if match:
+        title = match.group(1)
+        if REST_RE.match(title):
+            bigTitle[doc] = HI_CLEAN_STRONG_RE.sub(
+                r"""\1""", title.replace("<lb/>", " ").replace("\n", " ")
+            )
+            return (header, None)
+
+    if doc in CORRECTION_HEAD:
+        (corrRe, corrText) = CORRECTION_HEAD[doc]
+        (bodyText, n) = corrRe.subn(f"<head>{corrText}</head>\n", bodyText, count=1)
+        if not n:
+            print(f"\nWarning: head correction failed on `{doc}`")
+
+    return (header, bodyText)
+
+
+def trimDocPost(info, body):
+    vol = info["vol"]
+    doc = info["doc"]
+    bigTitle = info["bigTitle"]
+
+    body = PB_P_PERM_RE.sub(r"""\2\n\1""", body)
+    match = BIG_TITLE_PART_RE.search(body)
+
+    if match:
+
+        text = match.group(1)
+
+        if text == body:
+            head = match.group(3)
+            bigTitle[doc] = HI_CLEAN_STRONG_RE.sub(
+                r"""\1""", head.replace("<lb/>", " ").replace("\n", " ")
+            )
+            return None
+
+        bigTitles = BIG_TITLE_PART_RE.findall(body)
+        for (page, pnum, head) in bigTitles:
+            pnum = f"p{int(pnum):>04}"
+            doc = f"{vol}:{pnum}"
+            bigTitle[doc] = HI_CLEAN_STRONG_RE.sub(
+                r"""\1""", head.replace("<lb/>", " ").replace("\n", " ")
+            )
+            fileName = f"{pnum}.xml"
+            path = f"{DST}/{vol}/rest/{fileName}"
+            with open(path, "w") as fh:
+                fh.write(page)
+
+        body = BIG_TITLE_PART_RE.sub("", body)
+
+    headInfo = info["headInfo"]
+    heads = headInfo[doc]
+    if len(heads) <= 1:
+        body = P_INTERRUPT_RE.sub(r"""\1""", body)
+        body = P_JOIN_RE.sub(r"""\1\2""", body)
+
+    return body
+
+
+def corpusPost(info):
+    docs = info["docs"]
+    captionInfo = info["captionInfo"]
+    captionNorm = info["captionNorm"]
+    captionVariant = info["captionVariant"]
+    captionRoman = info["captionRoman"]
+    if captionNorm or captionVariant or captionInfo or captionRoman:
+        print("CAPTIONS:")
+        print(f"\t{len(captionNorm):>3} verified names")
+        print(f"\t{len(captionVariant):>3} unresolved variants")
+        print(f"\t{len(captionRoman):>3} malformed roman numerals")
+        with open(f"{REP}/fwh-yes.tsv", "w") as fh:
+            for (captionSrc, tag) in (
+                (captionNorm, "OK"),
+                (captionVariant, "XX"),
+                (captionInfo, "II"),
+                (captionRoman, "RR"),
+            ):
+                for caption in sorted(captionSrc):
+                    theseDocs = captionSrc[caption]
+                    firstDoc = theseDocs[0]
+                    nDocs = len(theseDocs)
+                    fh.write(f"{firstDoc} {nDocs:>4}x {tag} {caption}\n")
+
+    folioUndecided = info["folioUndecided"]
+    folioTrue = info["folioTrue"]
+    folioFalse = info["folioFalse"]
+    folioResult = info["folioResult"]
+    if folioUndecided or folioTrue or folioFalse:
+        with open(f"{REP}/folio.txt", "w") as fh:
+            for (folioSrc, tag) in (
+                (folioFalse, "NO "),
+                (folioTrue, "YES"),
+                (folioResult, "FF"),
+            ):
+                triggers = 0
+                occs = 0
+                for folio in sorted(folioSrc):
+                    theseDocs = folioSrc[folio]
+                    firstDoc = theseDocs[0]
+                    nDocs = len(theseDocs)
+                    triggers += 1
+                    occs += nDocs
+                    fh.write(f"{firstDoc} {nDocs:>4}x {tag} {folio}\n")
+                print(f"FOLIO {tag}:")
+                print(f"\t{tag}: {triggers:>2} with {occs:>4} occurrences")
+            if folioUndecided:
+                totalContexts = sum(len(x) for x in folioUndecided.values())
+                totalOccs = sum(
+                    sum(len(x) for x in folioInfo.values())
+                    for folioInfo in folioUndecided.values()
+                )
+                print(
+                    f"FOLIOS (undecided): {len(folioUndecided)} triggers,"
+                    f" {totalContexts} contexts,"
+                    f" {totalOccs} occurrences"
+                )
+                for (fol, folInfo) in sorted(
+                    folioUndecided.items(), key=lambda x: (len(x[1]), x[0])
+                ):
+                    nContexts = len(folInfo)
+                    nOccs = sum(len(x) for x in folInfo.values())
+                    msg = f"{fol:<20} {nContexts:>3} contexts, {nOccs:>4} occurrences"
+                    print(f"\t{msg}")
+                    fh.write(f"{msg}\n")
+                    for (context, pages) in sorted(
+                        folInfo.items(), key=lambda x: (len(x[1]), x[0])
+                    ):
+                        fh.write(f"\t{pages[0]} {len(pages):>4}x: {context}\n")
+
+    splits = info["splits"]
+    splitsX = info["splitsX"]
+    headInfo = info["headInfo"]
+    bigTitle = info["bigTitle"]
+
+    for doc in docs:
+        if doc not in headInfo:
+            headInfo[doc] = []
+
+    noHeads = []
+    singleHeads = []
+    shortHeads = []
+
+    for doc in sorted(docs):
+        if doc in bigTitle:
+            continue
+        heads = headInfo[doc]
+        nHeads = len(heads)
+        if nHeads == 0:
+            noHeads.append(doc)
+        else:
+            for (fullDoc, head) in heads:
+                if len(head) < 40 and "BIJLAGE" not in head:
+                    shortHeads.append((fullDoc, head))
+            if nHeads > 1:
+                theseSplits = splitDoc(doc, info)
+                for ((startDoc, newDoc, sHead), (fullDoc, mHead)) in zip(
+                    theseSplits, heads
+                ):
+                    newPage = newDoc[4:]
+                    expPage = fullDoc[9:]
+                    if newPage == expPage and sHead == mHead:
+                        singleHeads.append((newDoc, sHead))
+                        splits.append((startDoc, newDoc, sHead))
+                    else:
+                        splitsX.append((startDoc, newPage, expPage, sHead, mHead))
+            else:
+                singleHeads.append((doc, heads[0][1]))
+
+    print("SPLITS:")
+    print(f"\t: {len(shortHeads):>3} short headings")
+    print(f"\t: {len(noHeads):>3} without heading")
+    print(f"\t: {len(singleHeads):>3} with single heading")
+    print(f"\t: {len(noHeads) + len(singleHeads):>3} letters")
+    print(f"\t: {len(splits):>3} split-off letters")
+    print(f"\t: {len(splitsX):>3} split-off errors")
+    print(f"\t: {len(bigTitle):>3} rest documents")
+
+    with open(f"{REP}/heads.tsv", "w") as fh:
+        for doc in noHeads:
+            fh.write(f"{doc} NO\n")
+        for (doc, head) in shortHeads:
+            fh.write(f"{doc} =SHORT=> {head}\n")
+        for (doc, head) in singleHeads:
+            etc = " ... " if len(head) > 70 else ""
+            fh.write(f"{doc} => {head[0:70]}{etc}\n")
+
+    with open(f"{REP}/rest.tsv", "w") as fh:
+        for (doc, head) in sorted(bigTitle.items()):
+            msg = f"{doc} => {head}"
+            fh.write(f"{msg}\n")
+
+    with open(f"{REP}/splits.tsv", "w") as fh:
+        for (startDoc, newDoc, sHead) in splits:
+            etc = " ... " if len(sHead) > 50 else ""
+            fh.write(f"{startDoc} =OK=> {newDoc} {sHead[0:50]}\n")
+        for (startDoc, newPage, expPage, sHead, mHead) in splitsX:
+            label = "===" if newPage == expPage else "=/="
+            fh.write(f"{startDoc} =XX=> {newPage} {label} {expPage}\n")
+            if sHead != mHead:
+                fh.write(f"\t{sHead}\n\t===versus===\n\t{mHead}\n")
+
+
+HEADER_RE = re.compile(r"""^.*?</header>\s*""", re.S)
+
+SPLIT_DOC_RE = re.compile(
+    r"""
+        <pb\b[^>]*?\bn="([0-9]+)"[^>]*>
+        \s*
+        (?:
+            <pb\b[^>]*>\s*
+        )*
+        (?:
+            <p\b[^>]*>.*?</p>
+            \s*
+        )?
+        <head\b[^>]*>(.*?)</head>
+    """,
+    re.S | re.X,
+)
+
+
+def splitDoc(doc, info):
+    (vol, startPage) = doc.split(":")
+    path = f"{DST}/{doc.replace(':', '/')}.xml"
+    with open(path) as fh:
+        text = fh.read()
+
+    match = HEADER_RE.match(text)
+    header = match.group(0)
+    metadata = {k: v for (k, v) in META_KV_2_RE.findall(header)}
+
+    match = BODY_RE.search(text)
+    body = match.group(1)
+
+    lastPageNum = None
+    lastHead = None
+    lastIndex = 0
+    splits = []
+
+    i = -1
+
+    for (i, match) in enumerate(SPLIT_DOC_RE.finditer(body)):
+        pageNum = int(match.group(1))
+        head = HI_CLEAN_STRONG_RE.sub(
+            r"""\1""", match.group(2).replace("<lb/>", " ").replace("\n", " ")
+        )
+        if i == 0:
+            lastPageNum = pageNum
+            lastHead = head
+            continue
+
+        (b, e) = match.span()
+        splitPage(
+            DST,
+            vol,
+            doc,
+            info,
+            lastPageNum,
+            i,
+            body,
+            lastIndex,
+            b,
+            lastHead,
+            metadata,
+            splits,
+        )
+        lastPageNum = pageNum
+        lastHead = head
+        lastIndex = b
+
+    i += 1
+    if i > 0:
+        b = None
+        splitPage(
+            DST,
+            vol,
+            doc,
+            info,
+            lastPageNum,
+            i,
+            body,
+            lastIndex,
+            b,
+            lastHead,
+            metadata,
+            splits,
+        )
+
+    return splits
+
+
+P_INTERRUPT_RE = re.compile(
+    r"""
+        </p>
+        (
+            (?:
+                (?:
+                    <note\b
+                        (?:
+                            .
+                            (?<!
+                                <note
+                            )
+                        )+?
+                    </note>
+                )
+                |
+                (?:
+                    <fw\b[^>]*>[^<]*?</fw>
+                )
+                |
+                (?:
+                    <pb\b[^>]*/>
+                )
+            )*
+        )
+        <p\b[^>]*\bresp="int_paragraph_joining"[^>]*>
+    """,
+    re.S | re.X,
+)
+P_JOIN_RE = re.compile(
+    r"""
+        (
+            <p\b[^>]*
+        )
+        \ resp="int_paragraph_joining"
+        ([^>]*>)
+    """,
+    re.S | re.X,
+)
+
+
+def splitPage(
+    dst, vol, doc, info, lastPageNum, i, body, lastIndex, b, lastHead, metadata, splits
+):
+    page = f"p{lastPageNum:>04}"
+    sDoc = f"{vol}:{page}"
+
+    if i > 1:
+        metadata = distillHead(sDoc, info, lastHead, force=True)
+        metadata["page"] = lastPageNum
+    lastText = body[lastIndex:b]
+    lastText = P_INTERRUPT_RE.sub(r"""\1""", lastText)
+    lastText = P_JOIN_RE.sub(r"""\1\2""", lastText)
+
+    writeDoc(dst, vol, page, metadata, lastText)
+    splits.append((doc, sDoc, lastHead))
+
+
+def writeDoc(dst, vol, pageNum, metadata, text):
+    header = "\n".join(
+        f"""<meta key="{k}" value="{v}"/>""" for (k, v) in sorted(metadata.items())
+    )
+    header = f"<header>\n{header}\n</header>\n"
+    body = f"<body>\n{text}\n</body>\n"
+
+    with open(f"{dst}/{vol}/{pageNum:>04}.xml", "w") as fh:
+        fh.write(f"<teiTrim>\n{header}{body}</teiTrim>")
 
 
 def stripRendAtt(match):
@@ -17,9 +615,6 @@ def stripRendAtt(match):
 
 
 CLEAR_FW_RE = re.compile(r"""<fw\b[^>]*>(.*?)</fw>""", re.S)
-
-FWH = None
-
 
 ALIGN_RE = re.compile(r"""text-align:\s*justify[^;"']*;?""", re.S)
 ALIGN_H_RE = re.compile(r"""text-align:\s*([^;"']+)[^;'"]*;?""", re.S)
@@ -124,7 +719,6 @@ SIZE_XSMALL_RE = re.compile(
 )
 SPACING_RE = re.compile(r"""letter-spacing:[^;"']*;?""", re.S)
 STRIP_RE = re.compile(r""" rend=['"]([^'"]*)['"]""", re.S)
-P_LB_RE = re.compile(r"""<lb/>\s*(</p>)""", re.S)
 IS_TEXT_1_RE = re.compile(
     r"""
         (?:[A-Z]{8,})
@@ -428,12 +1022,6 @@ STOPWORDS = set(
     de
     den
     der
-""".strip().split()
-)
-
-SHOW_ORIG = set(
-    """
-02:p0443
 """.strip().split()
 )
 
@@ -1314,8 +1902,6 @@ FOLIO_MOVE = (
 )
 
 
-HEAD_RE = re.compile(r"""<head\b[^>]*>(.*?)</head>""", re.S)
-
 HEAD_CORRECT = r"""
         [IVXLC]+[IVXLCl\ ]*(?:\s*a)?\.?\s*
         [A-Z\ ,.]{10,}
@@ -1403,7 +1989,8 @@ HEAD_CLEAN_HI_RE = re.compile(
         )*
         </head>
     )
-    """, re.S | re.X,
+    """,
+    re.S | re.X,
 )
 
 ALPHA = r"""[A-ZËÖ]+"""
@@ -1446,17 +2033,6 @@ def getFolioPost(post):
     return match.groups([1, 2]) if match else plain
 
 
-# RETAIN
-# (potlood
-# (na fol
-# (Copie
-# (copie
-# (secreet)
-# (F-v
-# (F.
-# (folio 87
-
-
 def checkFw(match):
     fw = match.group(1)
     fw = WHITE_RE.sub(" ", fw.strip())
@@ -1481,7 +2057,6 @@ def checkFw(match):
 
 HEAD_TITLE_RE = re.compile(r"""<head rend="[^"]*?\bxlarge\b[^>]*>(.*?)</head>""", re.S)
 
-CELL_RE = re.compile(r"""<cell>(.*?)</cell>""", re.S)
 P_REMOVE = re.compile(r"""<p\b[^>]*>""", re.S)
 FIRST_P_SMALL_RE = re.compile(
     r"""
@@ -1715,7 +2290,7 @@ def trimPage(text, info, *args, **kwargs):
 
     text = HEAD_TITLE_RE.sub(r"""\n<bigTitle>\1</bigTitle>\n""", text)
     text = HEAD_CLEAN_HI_RE.sub(r"""\1\2\3""", text)
-    text = HEAD_CORRECT_NAME_RE.sub(r"""\n<subHead>\1</subHead>\n""", text)
+    text = HEAD_CORRECT_NAME_RE.sub(r"""\n<subhead>\1</subhead>\n""", text)
     text = HEAD_CORRECT_RE.sub(headCorrectRepl, text)
     text = HEAD_CORRECT_N_RE.sub(r"""\n<head>\2</head>\n\1\3""", text)
     text = HEAD_CORRECT_NUM_RE.sub(r"""\n<p>\1</p>\n""", text)

@@ -13,6 +13,7 @@ from lib import (
     OUT_DIR,
     REPO,
     META_DECL,
+    WHITE_RE,
     parseArgs,
     initTree,
     getVolumes,
@@ -75,7 +76,7 @@ generic = {
 }
 
 otext = {
-    "fmt:text-orig-full": "{pre}{trans}{post}",
+    "fmt:text-orig-full": "{trans}{punc}",
     "sectionFeatures": "n,n,n",
     "sectionTypes": "volume,page,line",
     "structureFeatures": "n,title,n",
@@ -92,6 +93,7 @@ intFeatures = set(
         day
         month
         year
+        remark
     """.strip().split()
 )
 
@@ -142,11 +144,7 @@ featureMeta = {
     "place": {
         "description": "place from where the letter was sent",
     },
-    "pre": {
-        "description": "non-alphabetical material prefixed to a word"
-        "up to the next word"
-    },
-    "post": {
+    "punc": {
         "description": "punctuation and/or whitespace following a word"
         "up to the next word"
     },
@@ -154,9 +152,13 @@ featureMeta = {
         "description": "the date the letter was sent",
         "format": "informal Dutch date notation",
     },
+    "ref": {
+        "description": "whether a word belongs to the text of reference",
+        "format": "integer 1 or absent",
+    },
     "remark": {
-        "description": "editorial remark after this word position",
-        "format": "full text, with markdown and without XML mark up",
+        "description": "whether a word belongs to the text of editorial remarks",
+        "format": "integer 1 or absent",
     },
     "rest": {
         "description": "unidentified metadata of the letter",
@@ -247,7 +249,7 @@ def convert(vol, lid):
     givenVol = vol
     givenLid = lid
 
-    initTree(OUT_DIR)
+    initTree(OUT_DIR, fresh=True)
 
     cv = getConverter()
 
@@ -329,6 +331,7 @@ def director(cv):
         showDiags(warnings, "WARNING")
     if errors:
         showDiags(errors, "ERROR")
+        cv.stop("because of irregularities")
 
 
 # WALKERS
@@ -338,6 +341,7 @@ def walkLetter(cv, doc, root, cur, notes):
     cur["letter"] = cv.node("letter")
     cur["ln"] = 0
     cur["p"] = 0
+    cur["fn"] = None
 
     for child in root:
         if child.tag == "header":
@@ -345,12 +349,16 @@ def walkLetter(cv, doc, root, cur, notes):
         if child.tag == "body":
             walkNode(cv, doc, child, cur, notes)
 
-    if cur.get("line", None):
-        cv.terminate(cur["line"])
+    curLine = cur.get("line", None)
+    if curLine:
+        linkIfEmpty(cv, curLine)
+        cv.terminate(curLine)
         cur["line"] = None
     doNotes(cv, cur, notes)
-    if cur.get("page", None):
-        cv.terminate(cur["page"])
+    curPage = cur.get("page", None)
+    if curPage:
+        linkIfEmpty(cv, curPage)
+        cv.terminate(curPage)
         cur["page"] = None
     cv.terminate(cur["letter"])
     cur["letter"] = None
@@ -358,15 +366,24 @@ def walkLetter(cv, doc, root, cur, notes):
 
 TEXT_ATTRIBUTES = """
     emph
+    remark
     special
     super
     und
+    ref
 """.strip().split()
+
+TRANSPARENT_ELEMENTS = set(
+    """
+    body
+""".strip().split()
+)
 
 NODE_ELEMENTS = set(
     """
     para
     head
+    subhead
     table
     row
     cell
@@ -389,38 +406,50 @@ BREAKS = set(
 COMMENT_ELEMENTS = set(
     """
     folio
+    ref
     remark
 """.strip().split()
 )
 
 DO_TEXT_ELEMENTS = set(
     """
-    head
-    para
     cell
     emph
+    folio
+    head
+    para
+    ref
+    remark
+    special
+    subhead
     super
     und
-    special
 """.strip().split()
 )
 
 DO_TAIL_ELEMENTS = set(
     """
-    pb
-    lb
-    table
     emph
+    folio
+    fref
+    lb
+    pb
+    table
+    ref
+    remark
+    special
     super
     und
-    special
-    folio
-    remark
-    fref
 """.strip().split()
 )
 
 DOWN_REF_RE = re.compile(r"""\[=([^\]]*)\]""")
+
+
+def linkIfEmpty(cv, node):
+    if not cv.linked(node):
+        emptySlot = cv.slot()
+        cv.feature(emptySlot, trans="", punc="")
 
 
 def walkNode(cv, doc, node, cur, notes):
@@ -464,12 +493,16 @@ def walkNode(cv, doc, node, cur, notes):
             warnings[f"nested: {tag}"].add(doc)
 
     if tag in BREAKS:
-        if cur.get("line", None):
-            cv.terminate(cur["line"])
+        curLine = cur.get("line", None)
+        if curLine:
+            linkIfEmpty(cv, curLine)
+            cv.terminate(curLine)
         if tag == "pb":
             doNotes(cv, cur, notes)
-            if cur.get("page", None):
-                cv.terminate(cur["page"])
+            curPage = cur.get("page", None)
+            if curPage:
+                linkIfEmpty(cv, curPage)
+                cv.terminate(curPage)
             cur["page"] = cv.node("page")
             cv.feature(cur["page"], **featsFromAtts(atts))
             cur["pg"] = f"{cur['vol']:>02}:p{atts['n']:>04}"
@@ -489,26 +522,33 @@ def walkNode(cv, doc, node, cur, notes):
             cv.feature(cur["para"], n=cur["p"])
 
     elif tag in COMMENT_ELEMENTS:
-        curWord = cur["word"]
-        text = node.text
-        cv.feature(curWord, **{tag: text})
-        for ref in DOWN_REF_RE.findall(text):
-            notes["marks"].setdefault(ref, []).append((curWord, cur["ln"]))
+        curNode = cv.node(tag)
+        cur[tag] = curNode
+        cur[f"is_{tag}"] = 1
+        if atts:
+            cv.feature(curNode, **featsFromAtts(atts))
 
     elif tag in TEXT_ATTRIBUTES:
         cur[tag] = 1
 
     elif tag == "fref":
-        notes["marks"].setdefault(atts.get("ref", None), []).append(
+        notes["marks"].setdefault(atts.get("ref", ""), []).append(
             (cur["word"], cur["ln"])
         )
         notes["totalMarks"] += 1
 
     elif tag == "fnote":
         bodies = notes["bodies"]
-        fref = atts.get("ref", None)
+        fref = atts.get("ref", "")
         notes["totalBodies"] += 1
-        bodies.setdefault(fref, []).append(node.text)
+        bodies.setdefault(fref, []).append(node.text or "")
+        cur["fn"] = bodies[fref]
+
+    elif tag in TRANSPARENT_ELEMENTS:
+        pass
+
+    else:
+        errors[f"unrecognized: {tag}"].add(doc)
 
     if tag in DO_TEXT_ELEMENTS:
         addText(cv, node.text, cur)
@@ -516,13 +556,26 @@ def walkNode(cv, doc, node, cur, notes):
     for child in node:
         walkNode(cv, doc, child, cur, notes)
 
+    curNode = cur.get(tag, None)
+
     if tag in NODE_ELEMENTS:
-        if cur.get(tag, None):
+        if curNode:
+            linkIfEmpty(cv, curNode)
             cv.terminate(cur[tag])
             cur[tag] = None
 
+    elif tag in COMMENT_ELEMENTS:
+        if cur.get(tag, None):
+            linkIfEmpty(cv, curNode)
+            cv.terminate(cur[tag])
+            cur[tag] = None
+        cur[f"is_{tag}"] = None
+
     elif tag in TEXT_ATTRIBUTES:
         cur[tag] = None
+
+    elif tag == "fnote":
+        cur["fn"] = None
 
     if tag in DO_TAIL_ELEMENTS:
         addText(cv, node.tail, cur)
@@ -535,7 +588,7 @@ def collectMeta(cv, node, cur):
     info = {
         meta.attrib["key"]: meta.attrib["value"]
         for meta in node
-        if meta.tag == "meta" and meta.attrib["key"] != "pid"
+        if meta.tag == "meta" and meta.attrib["key"] != "pid" and meta.attrib["value"]
     }
 
     cv.feature(cur["letter"], **info)
@@ -550,9 +603,13 @@ def featsFromAtts(atts):
 
 
 WORD_PARTS_RE = re.compile(
-    r""",
+    r"""
     ^
-    (\W*)
+    (.*?)
+        (
+            \W
+            .*
+        )
     (\w*)
     (.*)
     $
@@ -560,22 +617,41 @@ WORD_PARTS_RE = re.compile(
     re.S | re.I | re.X,
 )
 
+NON_WORD_CHAR = r",./\\<>;:'\"\[\]{}()!@#$%^&*+=_«» \t\n-"
+WORD_CHAR = f"^{NON_WORD_CHAR}"
+WORD_RE = re.compile(
+    fr"""
+        ([{WORD_CHAR}]+)
+        ([{NON_WORD_CHAR}]*)
+    """,
+    re.S | re.X,
+)
+
 
 def addText(cv, text, cur):
     if text:
-        for word in text.split():
-            curWord = cv.slot()
-            cur["word"] = curWord
-            match = WORD_PARTS_RE.match(word)
-            (pre, word, post) = match.groups([1, 2, 3])
-            cv.feature(curWord, trans=word, pre=pre, post=f"{post} ")
-            for tag in TEXT_ATTRIBUTES:
-                if cur.get(tag, None):
-                    cv.feature(curWord, **{tag: 1})
+        dest = cur["fn"]
+        if dest is not None:
+            dest.append(text)
+        else:
+            for match in WORD_RE.finditer(text):
+                (trans, punc) = match.groups([1, 2])
+                trans = trans.strip("«»")
+                if punc:
+                    punc = WHITE_RE.sub(" ", punc)
+                    punc = punc.replace("\n", " ")
+                curWord = cv.slot()
+                cur["word"] = curWord
+                cv.feature(curWord, trans=trans, punc=punc)
+                for tag in TEXT_ATTRIBUTES:
+                    if cur.get(tag, None):
+                        cv.feature(curWord, **{tag: 1})
+                for tag in COMMENT_ELEMENTS:
+                    if cur.get(f"is_{tag}", None):
+                        cv.feature(curWord, **{tag: 1})
 
 
 def doNotes(cv, cur, notes):
-    # 9:597
     if "word" not in cur:
         return
 
@@ -594,7 +670,7 @@ def doNotes(cv, cur, notes):
     for (mark, occs) in markInfo.items():
         bodiesText = "\n\n".join(bodyInfo[mark]) if mark in bodyInfo else ""
         for (word, line) in occs:
-            wordNotes[word].append(f"^{mark}^. {bodiesText}")
+            wordNotes[word].append(f"<{mark}). {bodiesText}")
 
         if len(occs) > 1:
             notes["ambiguousMarks"].setdefault(mark, {})[curPg] = occs
@@ -603,7 +679,7 @@ def doNotes(cv, cur, notes):
 
     word = cur["word"]
     for (mark, bodies) in bodyInfo.items():
-        if mark is None:
+        if mark == "":
             notes["unmarkedBodies"][curPg] = len(bodies)
         else:
             if len(bodies) > 1:
@@ -611,8 +687,8 @@ def doNotes(cv, cur, notes):
         if mark not in markInfo:
             notes["unresolvedBodies"].setdefault(mark, {})[curPg] = len(bodies)
             bodiesText = "\n\n".join(bodies)
-            markRep = "??" if mark is None else mark
-            wordNotes[word].append(f"^{markRep}^. {bodiesText}")
+            markRep = mark if mark else "??"
+            wordNotes[word].append(f"{markRep}) {bodiesText}")
 
     for (word, texts) in wordNotes.items():
         cv.feature(word, fnote="\n\n".join(texts))

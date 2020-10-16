@@ -24,7 +24,7 @@
 <para>Memorie van tghene uyt Nederlandt mette eerste<lb/>
 schepen dyent gesonden voor de fortten, schepen ende<lb/>
 comptoiren in Indien
-<super><fref ref="1"/> .</super><lb/>
+<fref ref="1"/> .<lb/>
 </para>
 <para>6 paer blaesbalcken, soo voor de Moloucquos, Banda, Jacatra, als Bantham.<lb/>
 </para>
@@ -46,7 +46,7 @@ schepen hier te lande van anckers heel ontbloot zijn.<lb/>
 Goede parthije cabels ende insonderheyt opstaende ende loopende want<lb/>
 ende cabeltouwen tot boeyreeps, daer alle de schippers seer om roepen.<lb/>
 50 in 60 balen canefaes
-<super><fref ref="2"/> ,</super> soo swaer als licht doeck, soo voor de schepen die hier<lb/>
+<fref ref="2"/> , soo swaer als licht doeck, soo voor de schepen die hier<lb/>
 in ’t landt eenige jaren moeten blijven, alsmede voor de schepen gaende<lb/>
 naer ’t vaderlant.<lb/>
 3 a 400 goede londtroers met trecksloten in plaetse van musquetten omme te<lb/>
@@ -73,15 +73,22 @@ Goede parthije van alderhande kettinghcoegels, die uytnemende goet<lb/>
 sijn in ’t slaen tegen den vijandt.<lb/>
 </para>
 
-<fnote>[=1] Deze memorie is een bijlage van de voorafgaande brief. Hoewel zij, strikt genomen, zeker geen generale missive is, wordt zij afgedrukt als een vroeg voorbeeld van een zgn. eis, een lijst van wat de Indische Regering uit patria begeerde. Zij heeft meer betrekking op benodigdheden ten eigen gebruike dan op waren voor de handel.</fnote>
-<fnote>[=2] Canefaes, grof doek voor scheepszeilen, zakken enz.[=1] Een pedarme is een kort stijf rapier, waarmee een rondassier (schilddrager met een rond schild) was bewapend.</fnote>
+<fnote ref="1">Deze memorie is een bijlage van de voorafgaande brief. Hoewel zij, strikt genomen,<lb/>
+zeker geen generale missive is, wordt zij afgedrukt als een vroeg voorbeeld van een zgn. eis,<lb/>
+een lijst van wat de Indische Regering uit patria begeerde. Zij heeft meer betrekking op benodigdheden<lb/>
+ten eigen gebruike dan op waren voor de handel.<lb/>
+</fnote>
+<fnote ref="2">Canefaes, grof doek voor scheepszeilen, zakken enz.<lb/>
+ref="1">Een pedarme is een kort stijf rapier, waarmee een rondassier (schilddrager met een<lb/>
+rond schild) was bewapend.<lb/>
+</fnote>
 <pb n="57" tpl="1" vol="01" facs="1_104_0057"/>
 <para>
 Goede parthije lange spiessen totte fortten ende halve totte schepen.<lb/>
 Goede parthije londt, alsoo de londt, hier te lande gemaeckt, over de<lb/>
 8 st. &lt;u? compt te staen, daer se in ons landt maer een ende P/4 st. costen.<lb/>
 2 a 300 pedarmen
-<super><fref ref="1"/> ,</super> latende de lemmers apardt wel gesmeert in cassen doen<lb/>
+<fref ref="1"/> , latende de lemmers apardt wel gesmeert in cassen doen<lb/>
 sonder in de scheden te steken, want alle de pedarmen, soo mijne<lb/>
 schepen mede sijn gegeven geweest, zijn heel bedurven ende niet een st.<lb/>
 weerdt geweest, doordyen dat se in de schede gelaten ende gepackt sijn<lb/>
@@ -101,7 +108,7 @@ vilt soude geven als een daelder voor een slechte.<lb/>
 Goede parthije fijne swarte hoeden voor de commisen, capiteynen ende<lb/>
 officieren met fraye geborduerde ende fijne goude banden, gelijck de<lb/>
 jonckmans in ons landt dragen, mogen niet te costelijck wesen
-<super><fref ref="2"/> ,</super> want<lb/>
+<fref ref="2"/> , want<lb/>
 sullen se geerne dryedubbel betalen.<lb/>
 200 paer sijde Melaense cousens van alderhande goede couleuren voor gouverneurs,<lb/>
 commandeurs, coopluyden, capiteynen ende andere officieren,<lb/>
@@ -112,7 +119,7 @@ verstrecken.<lb/>
 Alderhande sorteringe van fijne goude ende silvere canten tot cousebanden.<lb/>
 <lb/>
 Een parthye stucken perpetuaenen
-<super><fref ref="3"/> </super> van allerhande couleuren, soo voor<lb/>
+<fref ref="3"/>  van allerhande couleuren, soo voor<lb/>
 officieren als soldaten.<lb/>
 </para>
 <para>Alle de schepen goede parthije hembden mede te geven voor de matrosen,<lb/>
@@ -127,15 +134,20 @@ seynden omme de soldaten 2 a 3 rantsoenen te mogen geven, alsmede 3 vleesdagen<l
 in de schepen, als in mijne brieven breeder geadviseert.<lb/>
 </para>
 
-<fnote>[=1] Een pedarme is een kort stijf rapier, waarmee een rondassier (schilddrager met een rond schild) was bewapend.</fnote>
-<fnote>[=2] Versta: ze kunnen niet te kostbaar zijn, want . . .</fnote>
-<fnote>[=3] Perpetuanen, sterke sergeachtige stoffen.[=1] Leggers, grote watervaten, van 500, 750, 1000 Nedeiiandse kan.</fnote>
+<fnote ref="1">Een pedarme is een kort stijf rapier, waarmee een rondassier (schilddrager met een<lb/>
+rond schild) was bewapend.<lb/>
+</fnote>
+<fnote ref="2">Versta: ze kunnen niet te kostbaar zijn, want . . .<lb/>
+</fnote>
+<fnote ref="3">Perpetuanen, sterke sergeachtige stoffen.<lb/>
+ref="1">Leggers, grote watervaten, van 500, 750, 1000 Nedeiiandse kan.<lb/>
+</fnote>
 <pb n="58" tpl="1" vol="01" facs="1_104_0058"/>
 <para>Goede parthije olie voor de fortten ende schepen, sorge dragende, dat desel ve<lb/>
 in goede fustage werdde gedaen, want alle de olie, mijne schepen medegegeven soo<lb/>
 voor de forten als schepen, en is het derdde part niet overgecomen, dat seer schadelijck<lb/>
 ende te verdrietich is. Men moet gheen oude duygen van leggers
-<super><fref ref="x"/> </super> nemen,<lb/>
+<fref ref="x"/>  nemen,<lb/>
 maer nieuwe, drooge ende dicke duygen ende desel ve olie niet in ’t ruym, maer op ten<lb/>
 overloop leggen ende apart af f schutten omme dickwils daernaer te mogen sien.<lb/>
 </para>
@@ -187,8 +199,11 @@ te sien.<lb/>
 gedaen, dat ick voor seer goet houde.<lb/>
 </para>
 
-<fnote>[=1] Leggers, grote watervaten, van 500, 750, 1000 Nedeiiandse kan.</fnote>
-<fnote>[=2] Dus: de uitgedeelde kaas werd verkwanseld.[=1] Dit is in margine toegevoegd.</fnote>
+<fnote ref="1">Leggers, grote watervaten, van 500, 750, 1000 Nedeiiandse kan.<lb/>
+</fnote>
+<fnote ref="2">Dus: de uitgedeelde kaas werd verkwanseld.<lb/>
+ref="1">Dit is in margine toegevoegd.<lb/>
+</fnote>
 <pb n="59" tpl="1" vol="01" facs="1_104_0059"/>
 <para>Goede parthije trommelvellen ende snaren tot 50 st. met een paer dousijn<lb/>
 vaten *).<lb/>
@@ -220,7 +235,7 @@ seer hebben gerecommandeert, die tselve dryedubbel sullen betalen.<lb/>
 Tot schenckage.<lb/>
 </para>
 <para>1 stuck fijn root scheraken
-<super><fref ref="3"/> .</super><lb/>
+<fref ref="3"/> .<lb/>
 </para>
 <para>Een parthije goude ringen met fijne diamanten segge oriëntale van 1, 2, 3, 4<lb/>
 ende 5 greyn, alsmede robijnen ende esmeraulden.<lb/>
@@ -250,13 +265,20 @@ gedistilleert, van lavendel ende andere.<lb/>
 <para>
 meest groote canten.<lb/>
 6 st. Italiaans fluweel van alderhande couleuren, root, groen ende incarnadin
-<super><fref ref="5"/> .</super><lb/>
+<fref ref="5"/> .<lb/>
 
-<fnote>[=1] Dit is in margine toegevoegd.</fnote>
-<fnote>[=2] Eenvoudige.</fnote>
-<fnote>[=3] Sic, scharlaken.</fnote>
-<fnote>[=4] Vermoedelijk is breinaad hier metonymisch gebruikt voor doek met gebreide naden misschien galon.</fnote>
-<fnote>[=5] Incarnadin, vleeskleurig.[=1] Bardezanen, soort hellebaarden.</fnote>
+<fnote ref="1">Dit is in margine toegevoegd.<lb/>
+</fnote>
+<fnote ref="2">Eenvoudige.<lb/>
+</fnote>
+<fnote ref="3">Sic, scharlaken.<lb/>
+</fnote>
+<fnote ref="4">Vermoedelijk is breinaad hier metonymisch gebruikt voor doek met gebreide naden<lb/>
+misschien galon.<lb/>
+</fnote>
+<fnote ref="5">Incarnadin, vleeskleurig.<lb/>
+ref="1">Bardezanen, soort hellebaarden.<lb/>
+</fnote>
 <pb n="60" tpl="1" vol="01" facs="1_104_0060"/>
 6 stormhoeden van silver gemaeckt opte Melaense maniere, doch boven wat<lb/>
 scherper, dat de punt in den midde ten naesten bij recht come, eenige aen<lb/>
@@ -302,6 +324,7 @@ exquise cristalijne brillen in silver geseth, eenige met silveredooskens,<lb/>
 eenige met lerre vergulde.<lb/>
 </para>
 
-<fnote>[=1] Bardezanen, soort hellebaarden.</fnote>
+<fnote ref="1">Bardezanen, soort hellebaarden.<lb/>
+</fnote>
 </body>
 </teiTrim>
