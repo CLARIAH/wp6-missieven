@@ -263,8 +263,9 @@ def trim(
 
     info = dict(
         table=0,
+        tableDiag={},
         docs=[],
-        pages=collections.defaultdict(lambda: collections.defaultdict(list)),
+        pageDiag=collections.defaultdict(dict),
         metas=0,
         metasUnknown=[],
         metasDistilled=collections.defaultdict(dict),
@@ -560,3 +561,26 @@ def applyCorrections(corrections, doc, text):
                 print(text)
                 print(f"\tCORRECTION {doc} {correctRe.pattern} applied {n} times")
     return text
+
+
+def rangesFromList(nodeList):  # the list must be sorted
+    curstart = None
+    curend = None
+    for n in nodeList:
+        if curstart is None:
+            curstart = n
+            curend = n
+        elif n == curend + 1:
+            curend = n
+        else:
+            yield (curstart, curend)
+            curstart = n
+            curend = n
+    if curstart is not None:
+        yield (curstart, curend)
+
+
+def specFromRanges(ranges):  # ranges must be normalized
+    return ",".join(
+        "{}".format(r[0]) if r[0] == r[1] else "{}-{}".format(*r) for r in ranges
+    )

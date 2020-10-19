@@ -3,7 +3,14 @@ import re
 import collections
 
 from distill import META_KEY_TRANS_DEF
-from lib import CHANGE_DIR, REPORT_DIR, TRIM_DIR, PAGE_NUM_RE
+from lib import (
+    CHANGE_DIR,
+    REPORT_DIR,
+    TRIM_DIR,
+    PAGE_NUM_RE,
+    rangesFromList,
+    specFromRanges,
+)
 
 trimDocBefore = None
 trimDocPrep = None
@@ -55,13 +62,20 @@ def corpusPre(givenVol):
 
 
 def trimVolume(vol, letters, info, idMap, givenLid, mergeText):
+    pageDiag = info["pageDiag"]
     for (doc, text) in ADD_DOC.items():
-        (vol, name) = doc.split(":")
+        (docVol, name) = doc.split(":")
+        if docVol != vol:
+            continue
         path = f"{DST}/{vol}/{name}.xml"
         with open(path, "w") as fh:
             fh.write(text)
         pages = PAGE_NUM_RE.findall(text)
-        info["pages"][vol][doc].extend(int(p) for p in pages)
+        for p in pages:
+            p = int(p)
+            if p in pageDiag[vol]:
+                print(f"PAGE ERROR in volume {vol}: duplicate page {p}")
+            pageDiag[vol][p] = "ocr"
 
 
 META_KV_RE = re.compile(
@@ -102,10 +116,14 @@ META_VAL_RE = re.compile(
 
 def trimDocPrep(info, metaText, bodyText, previousMeta):
     vol = info["vol"]
-    doc = info["doc"]
+    pageDiag = info["pageDiag"]
 
     pages = PAGE_NUM_RE.findall(bodyText)
-    info["pages"][vol][doc].extend(int(p) for p in pages)
+    for p in pages:
+        p = int(p)
+        if p in pageDiag[vol]:
+            print(f"PAGE ERROR in volume {vol}: duplicate page {p}")
+        info["pageDiag"][vol][p] = "tei"
     return (trimHeader(metaText, info), bodyText)
 
 
@@ -161,38 +179,29 @@ def corpusPost(info):
                 fh.write(f"\t{k:<10} = {v}\n")
             fh.write("\n")
 
-    pages = info["pages"]
-    log = []
-    for vol in sorted(pages):
-        pageIndex = collections.defaultdict(set)
-        docs = pages[vol]
-        for doc in sorted(docs):
-            for p in docs[doc]:
-                pageIndex[p].add(doc)
-        minPage = min(pageIndex)
-        maxPage = max(pageIndex)
-        missing = tuple(
-            p
-            for p in range(minPage, maxPage + 1)
-            if not (p in pageIndex or p in ADD_PAGE_SET[vol])
-        )
-        duplicates = {p: ds for (p, ds) in pageIndex.items() if len(ds) > 1}
-        if missing or duplicates:
-            log.append(
-                f"\t{vol}: {len(missing):>2} missing; {len(duplicates):>2} duplicates"
-            )
-            if missing:
-                psRep = ", ".join(str(p) for p in missing)
-                log.append(f"\t\tmissing: {psRep}")
-            if duplicates:
-                log.append("\t\tduplicates:")
-                for p in sorted(duplicates):
-                    dRep = ", ".join(duplicates[p])
-                    log.append(f"\t\t\t{p:<8} occurs in {dRep}")
+    print("PAGES:")
+    pageDiag = info["pageDiag"]
+    with open(f"{REP}/pageDiag.txt", "w") as fh:
+        for vol in sorted(pageDiag):
+            fh.write(f"{vol}:\n")
+            stats = dict(ok=[], xx=[], dd=[])
+            pages = pageDiag[vol]
+            minPage = min(pages)
+            maxPage = max(pages)
+            for p in range(minPage, maxPage + 1):
+                if p not in pages:
+                    label = "ocr" if p in ADD_PAGE_SET[vol] else "xx"
+                    pageDiag[vol][p] = label
+                    stats["ok" if label == "ocr" else label].append(p)
+                else:
+                    stats["ok"].append(p)
+                fh.write(f"\tp{p:>04} {pageDiag[vol][p]}\n")
 
-    logStr = "\n".join(log)
-    if log:
-        print("PAGES:")
-        print(logStr)
-    with open(f"{REP}/pages.txt", "w") as fh:
-        fh.write(f"{logStr}\n")
+            first = True
+            for label in ("ok", "xx", "dd"):
+                data = stats[label]
+                if data:
+                    rep = specFromRanges(rangesFromList(data))
+                    volRep = f"{vol}:" if first else "   "
+                    first = False
+                    print(f"{volRep} {label} {rep}")

@@ -49,8 +49,31 @@ def trimDocPrep(info, metaText, bodyText, previousMeta):
 
 
 def corpusPost(info):
-    remarkInfo = info["remarks"]
+    table = info["table"]
+    tableDiag = info["tableDiag"]
 
+    nPatho = 0
+
+    with open(f"{REP}/tableDiag.txt", "w") as fh:
+        for (n, tableInfo) in tableDiag.items():
+            doc = tableInfo["doc"]
+            rows = tableInfo["rows"]
+            cells = tableInfo["cells"]
+            pathos = tableInfo["pathos"]
+            empties = tableInfo["empties"]
+            pathoMeasure = int(round(100 * pathos / (cells - empties)))
+            pathoRep = f"{pathoMeasure:>3}% ({pathos:>3} out of {cells - empties:>3})"
+            if pathoMeasure > 10:
+                nPatho += 1
+                pathoRep += " PATHOLOGICAL"
+            fh.write(
+                f"{n:>3} {doc} {rows:>3} rows, {cells:>4} cells"
+                f" P={pathoRep}\n"
+            )
+
+    print(f"TABLES: {table} x (of which {nPatho} pathological")
+
+    remarkInfo = info["remarks"]
     print("REMARKS:")
     for (label, amount) in remarkInfo.items():
         print(f"\t{label:<5}: {amount:>5} generated")
@@ -148,7 +171,94 @@ def formatTablePre(info):
     return lambda match: formatTable(match, info)
 
 
+PATHO_CHAR = r"""[*•■±§—‘£.()<>'!?,.:;\[\]{}+=&%$#@^\\/_-]"""
+PATHO_CHAR_RE = re.compile(PATHO_CHAR, re.S | re.X)
+
+PATHO_RE = re.compile(
+    fr"""
+    ^
+    (?:
+        [a-zA-Z0-9]
+        |
+        {PATHO_CHAR}
+    )
+    $
+    """,
+    re.S | re.X,
+)
+
+SANE_RE = re.compile(
+    r"""
+    ^
+        g[li]-
+        |
+        [0-9]+\)
+        |
+        (?:
+            (?:
+                [0-9]+
+                |
+                [A-Z]?[a-z]+
+            )
+            (?:
+                \s+
+                (?:
+                    [0-9]+
+                    |
+                    [A-Z]?[a-z]+
+                )
+            )*
+        )
+    $""",
+    re.S | re.X,
+)
+
+QUOTE_RE = re.compile(r"""^[_.’'"«»,„/<>()]+$""")
+
+
+def hasPathoContent(cell):
+    cell = (
+        cell.replace("&gt;&gt;", "»")
+        .replace("&gt;", ">")
+        .replace("&lt;&lt;", "«")
+        .replace("&lt;", "<")
+        .replace("&apos;&apos;", '"')
+        .replace("&apos;", "'")
+        .replace("&quot;", '"')
+        .replace(",,", "„")
+        .strip()
+        .rstrip(".")
+    )
+    if not cell or cell == "-" or cell == "—":
+        return False
+
+    parts = cell.split()
+
+    parts = [p for p in parts if not QUOTE_RE.match(p)]
+
+    if not parts:
+        return False
+
+    if len(parts) > 2 or max(len(p) for p in parts) > 3 or SANE_RE.match(cell):
+        return False
+
+    for p in parts:
+        if len(p) > 1 and p.startswith("0"):
+            return True
+        if p.isdigit():
+            return False
+        if PATHO_CHAR_RE.search(p):
+            return True
+
+        if PATHO_RE.match(p):
+            return True
+
+    return False
+
+
 def formatTable(match, info):
+    tableDiag = info["tableDiag"]
+    doc = info["doc"]
     info["table"] += 1
     n = info["table"]
     remarkInfo = info["remarks"]
@@ -164,6 +274,8 @@ def formatTable(match, info):
     rows = ROW_RE.findall(table)
 
     nCells = 0
+    pathos = 0
+    empties = 0
     for (r, row) in enumerate(rows):
         result.append(f"""<row n="{n}" row="{r + 1}">""")
         cells = CELL_RE.findall(row)
@@ -171,6 +283,11 @@ def formatTable(match, info):
 
         for (c, cell) in enumerate(cells):
             cell = NOTE_STRIP_RE.sub("", cell)
+            if not cell:
+                empties += 1
+            elif hasPathoContent(cell):
+                # print(f"PATHO=`{cell}`")
+                pathos += 1
             result.append(
                 f"""<cell n="{n}" row="{r + 1}" col="{c + 1}">{cell}</cell>"""
             )
@@ -183,6 +300,9 @@ def formatTable(match, info):
     if nRemarks > nCells // 2:
         table = f"<remark>\n{table}</remark>"
         remarkInfo["n"] -= nRemarks
+
+    diag = dict(doc=doc, rows=len(rows), cells=nCells, pathos=pathos, empties=empties)
+    tableDiag[n] = diag
 
     return table
 

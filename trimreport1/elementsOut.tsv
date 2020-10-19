@@ -66,7 +66,7 @@
  note.rend=large bold super	1
  note.rend=large center	7
  note.rend=large indent	84
- note.rend=large italic	1389
+ note.rend=large italic	1388
  note.rend=large italic bold	4
  note.rend=large italic indent	21
  note.rend=large italic right	101
@@ -139,7 +139,7 @@
  p.rend=italic sub indent	1
  p.rend=italic underline	2
  p.rend=italic xsmall	1
- p.rend=large	2082
+ p.rend=large	2070
  p.rend=large bold	47
  p.rend=large bold indent	3
  p.rend=large bold right	6
@@ -191,7 +191,7 @@ folio..	2515
 head..	434
 header..	523
 hi..	4122
-lb..	462539
+lb..	462552
 meta.key=author	521
 meta.key=day	518
 meta.key=month	517
@@ -205,9 +205,9 @@ meta.key=year	518
 meta.value=x	4715
 note..	403
 note.place=inline	25065
-note.resp=editor	25072
+note.resp=editor	25105
 note.type=editorial-summary	25065
-p..	15690
+p..	15663
 p.resp=int_paragraph_joining	2619
 pb.facs=n_nnn_nnnn	5865
 pb.facs=nnn_nnn	3194

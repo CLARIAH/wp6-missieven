@@ -43,15 +43,79 @@ CORRECTIONS_DEF = {
         ),
     ),
     "07:p0610-0639": ((r"""(<remark>)6 ml\.""", r"\1(vnl."),),
+    "10:p0175-0228": (
+        (
+            r"""(<remark>)<special>([^<]*)</special> \( """,
+            r"<subhead>\2</subhead>\n\1( ",
+        ),
+    ),
+    "10:p0496-0518": (
+        (
+            r"""(<remark>)<special>([^<]*)</special> \( """,
+            r"<subhead>\2</subhead>\n\1( ",
+        ),
+    ),
+    "10:p0633-0700": (
+        (
+            r"""(<remark>)<special>\((Bandar[^<]*)</special> """,
+            r"<subhead>\2</subhead>\n\1( ",
+        ),
+    ),
+    "10:p0807-0814": (
+        (
+            r"""(<remark>)<special>(Menado[^<]*)</special> """,
+            r"<subhead>\2</subhead>\n\1( ",
+        ),
+    ),
+    "10:p0807-0820": (
+        (
+            r"""(<remark>)<special>(Bima)</special>""",
+            r"<subhead>\2</subhead>\n\1",
+        ),
+    ),
+    "11:p0207-0209": ((r"""(traffique )\\(<lb/>)""", r"\1)\2"),),
+    "11:p0363-0409": (
+        (
+            r"""(<remark>)<special>(Hooghly)</special>""",
+            r"<subhead>\2</subhead>\n\1",
+        ),
+    ),
+    "11:p0641-0670": (
+        (
+            r"""(<remark>)(Kasimbazar)\n<emph>([^<]*)</emph>""",
+            r"<subhead>\2</subhead>\n\1\3",
+        ),
+    ),
 }
 CORRECTIONS = {
     page: tuple((re.compile(spec[0], re.S), spec[1]) for spec in specs)
     for (page, specs) in CORRECTIONS_DEF.items()
 }
+OVERRIDE_START = {
+    "02:p0770-0813": "«3\\ ton)",
+    "07:p0534-0535": "«Kamer Zeeland)",
+}
 
 OVERRIDE_FIRST = {
-    "01:p0247-0247": {"Inleiding afgedrukt  ... vertrek van schepen)"},
-    "05:p0388-0400": {"- maar het werkt stu ...  de Sultan heeft - )"},
+    "01:p0247-0247": {"Inleiding afgedrukt  ... ertrek van schepen »"},
+    "05:p0388-0400": {"- maar het werkt stu ... n; de Sultan heeft »"},
+    "09:p0112-0116": {"De Huis te Assenburg ... e Machilipatnam af »"},
+    "09:p0294-0324": {"uitrustingsgoederen                debiteuren"},
+    "09:p0548-0562": {"Op 8 juli zijn nog 2 ... an de Compagnie. Wat"},
+}
+OVERRIDE_LAST = {
+    "09:p0112-0115": {"«Het schip Linschote ... ober zou vertrekken."},
+    "09:p0131-0174": {"«Ondanks deze overwe ... omst zorg te draaien"},
+    "09:p0702-0731": {"«Personalia. De Midd ... oor de retourlading."},
+    "11:p0217-0219": {"«Hoewel het bestuur  ... 1 745 verwacht werd."},
+    "11:p0481-0494": {"Men werkt aan het we ... eper geen gebrek is."},
+    "13:p0001-0001": {"«Dat uit Palembang v ... ld naartoe gezonden."},
+    "13:p0217-0228": {"Naar Bengalen is rui ... rland zijn gezonden."},
+    "13:p0340-0340": {"De Mossel is naar Be ... chepen zullen komen."},
+    "13:p0483-0494": {"«Gouverneur Roelof B ... anten teruggezonden."},
+    "13:p0501-0559": {"«Voor huishoudelijke ... en 21 augustus 1760."},
+    "13:p0501-0590": {"«Het bestuur is van  ... oopman werd benoemd."},
+    "13:p0620-0620": {"«Van resident Ajax F ... mbang is vertrokken."},
 }
 REMARK_SPURIOUS_RE = re.compile(r"""<remark>(y[y ]*)</remark>""", re.S)
 REMARK_END_CORR_RE = re.compile(r"""\)\s*\.\s*([*\]^])\s*(</remark>)""", re.S)
@@ -81,6 +145,15 @@ REMARK_END_RE = re.compile(
         [:;.,]?
         \s*
         (
+            (?:
+                </
+                    (?:
+                        ref
+                        |
+                        super
+                    )>
+                \s*
+            )?
             (?:
                 <lb/>
                 \s*
@@ -209,6 +282,8 @@ PARA_END_BEFORE_NOTES_RE = re.compile(
     """,
     re.S | re.X,
 )
+
+EMPTY_PARA_RE = re.compile(r"""<para>\s*</para>\s*""", re.S)
 
 
 def processPage(text, previous, result, info, *args, **kwargs):
@@ -385,10 +460,14 @@ def trimPage(text, info, previous, *args, **kwargs):
     remarkInfo = info["remarkInfo"]
     page = info["page"]
     overrideFirst = OVERRIDE_FIRST.get(page, set())
+    overrideLast = OVERRIDE_LAST.get(page, set())
+    overrideStart = OVERRIDE_START.get(page, None)
 
     text = REMARK_SPURIOUS_RE.sub(r"<special>\1</special>", text)
     text = COMMENT_RE.sub(cleanTag, text)
     text = REMARK_END_CORR_RE.sub(r"\1).\2", text)
+
+    text = EMPTY_PARA_RE.sub(r"", text)
 
     text = applyCorrections(CORRECTIONS, page, text)
 
@@ -416,10 +495,21 @@ def trimPage(text, info, previous, *args, **kwargs):
             startBracket = trimmed.startswith("«")
             endBracket = trimmed.endswith("»")
             isFirst = (
-                i == 0 and not pre and not startBracket and summary not in overrideFirst
+                i == 0
+                and not pre
+                and (
+                    (not startBracket and summary not in overrideFirst)
+                    or (overrideStart and content.startswith(overrideStart))
+                )
             )
-            isLast = i == len(matches) - 1 and not post and not endBracket
+            isLast = (
+                i == len(matches) - 1
+                and not post
+                and (not endBracket and summary not in overrideLast)
+            )
             content = cleanText(content, "remark")
+            if overrideStart and content.startswith(overrideStart):
+                content = "(" + content[1:]
             if isFirst and isLast:
                 onlyRemark = (content, summary)
             elif isFirst:

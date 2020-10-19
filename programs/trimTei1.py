@@ -32,8 +32,46 @@ SKIP_DOCS = {x for x in chain.from_iterable(MERGE_DOCS.values())}
 CORRECTIONS = {
     "01:p0203": ((re.compile(r"""(<p\ rend="font-size:)\ 8\.5;""", re.S), r"\1 12;"),),
     "01:p0663": ((re.compile(r""">\(1\) Dirck""", re.S), r">1) Dirck"),),
-    "02:p0480": ((re.compile(r"""<p\b[^>]*>p\.r cento<lb/>\s*</p>\s*""", re.S), r""),),
+    "02:p0480": (
+        (re.compile(r"""<p\b[^>]*>p\.r cento<lb/>\s*</p>\s*""", re.S), r""),
+        (
+            re.compile(r"""<fw\b[^>]*>(noorden gezonden[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "04:p0373": (
+        (
+            re.compile(r"""<fw\b[^>]*>(inkomsten en producten[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
     "04:p0496": ((re.compile(r"""I( en 9 maart 1683)""", re.S), r"""1\1"""),),
+    "05:p0296": (
+        (
+            re.compile(r"""<fw\b[^>]*>(beschikbaar zijn; koopman[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(r"""<fw\b[^>]*>(toren inspecteren[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(r"""<fw\b[^>]*>(vangen voor[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "05:p0605": (
+        (
+            re.compile(r"""<p\b[^>]*>(wel eenige notebomen.*?)</p>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "05:p0668": (
+        (
+            re.compile(r"""<fw[^>]*>Van Outlioom[^<]*?689(doen[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
     "05:p0439": ((re.compile(r"""<p\b[^>]*>i<lb/>\s*</p>\s*""", re.S), r""),),
     "05:p0779": (
         (
@@ -52,6 +90,58 @@ CORRECTIONS = {
             r"\1<p>\2</p>",
         ),
     ),
+    "06:p0011": (
+        (
+            re.compile(r"""<fw\b[^>]*>(Karaëng Bontolangkas[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "06:p0161": (
+        (
+            re.compile(r"""<fw\b[^>]*>(groten [^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(r"""<fw[^>]*>172 Van Out[^<]*?1701(niet[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "06:p0189": (
+        (
+            re.compile(r"""<fw[^>]*>194 Van Out[^<]*?1702(hierover[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "06:p0346": (
+        (
+            re.compile(r"""<fw[^>]*>(vertrek van De Vos[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "06:p0415": (
+        (
+            re.compile(r"""<fw[^>]*>(139 man aan[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(r"""<fw[^>]*>(wordt vice-[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "06:p0477": (
+        (
+            re.compile(
+                r"""<fw[^>]*>510 Van Hoorn[^<]*?1707(de Chinese[^<]*)</fw>""", re.S
+            ),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "06:p0836": (
+        (
+            re.compile(r"""<fw[^>]*>(70088 \*S\?[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
     "06:p0844": (
         (
             re.compile(
@@ -67,8 +157,21 @@ CORRECTIONS = {
             r"<note>\1</note>\2",
         ),
     ),
+    "06:p0915": (
+        (
+            re.compile(r"""<fw[^>]*>(betekent in Bengalen[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
     "07:p0003": ((re.compile(r"""(<head\b[^>]*>)(CHRIS)""", re.S), r"""\1I. \2"""),),
+    "07:p0517": (
+        (
+            re.compile(r"""<fw[^>]*>Zwaardecroon[^<]*?533(winnende[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
     "07:p0660": ((re.compile(r"""(<head\b[^>]*>XX)L""", re.S), r"""\1II"""),),
+    "08:p0179": ((re.compile(r"""(begraven\)\. )’(<lb/>)""", re.S), r"\1\2"),),
     "09:p0233": (
         (
             re.compile(
@@ -96,7 +199,103 @@ CORRECTIONS = {
             r"\1",
         ),
     ),
-    "10:p0857": ((re.compile(r"""decem¬ber""", re.S), r"""december"""),),
+    "09:p0344": (
+        (
+            re.compile(r"""<fw[^>]*>(Klarabeek[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(r"""<fw[^>]*>(retourschepen[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(
+                r"""<p[^>]*>(<hi\b[^>]*>Europeanen[^<]*</hi>.*?\)\.</hi><lb/>)""", re.S
+            ),
+            r"""<note resp="editor">\1</note>\n<p>""",
+        ),
+        (
+            re.compile(r"""<fw[^>]*>(Franqois[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(r"""<p[^>]*>(loeds.*?)</p>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(
+                r"""
+                    (<note[^>]*>\(\ Per\ Heinkenszand.*?)
+                    (</note>)
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                """,
+                re.S | re.X,
+            ),
+            r"\1<lb/>\n\3<lb/>\n\4<lb/>\n\2",
+        ),
+    ),
+    "09:p0628": (
+        (
+            re.compile(
+                r"""
+                    (<note[^>]*>\(Kleden\ niet.*?)
+                    (</note>)
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                """,
+                re.S | re.X,
+            ),
+            r"\1<lb/>\n\3<lb/>\n\4<lb/>\n\5<lb/>\n\2",
+        ),
+    ),
+    "10:p0175": (
+        (
+            re.compile(r"""<p\b[^>]*>(<hi\b[^>]*>Atjeh,.*? f 80,\)</hi><lb/>)""", re.S),
+            r"""<note resp="editor">\1</note>\n<p>""",
+        ),
+        (
+            re.compile(r"""<fw[^>]*>(voor f77[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "10:p0413": (
+        (
+            re.compile(r"""<fw[^>]*>(\[ MacNeal\? \],[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "10:p0633": (
+        (
+            re.compile(
+                r"""
+                (
+                    <pb\ n="743"[^>]*>\n
+                    <fw[^>]*>.*?</fw>\n
+                )
+                </p>\n
+                """,
+                re.S | re.X,
+            ),
+            r"\1",
+        ),
+        (
+            re.compile(
+                r"""
+                    <note[^>]*>(bij\ de\ Chinese.*?</note>\n)
+                    (<table>.*?</table>\n)
+                """,
+                re.S | re.X,
+            ),
+            r"""</p>\n\2<note resp="editor">( \1""",
+        ),
+    ),
     "10:p0749": (
         (
             re.compile(
@@ -111,10 +310,95 @@ CORRECTIONS = {
             r"""\2\1""",
         ),
     ),
+    "10:p0857": ((re.compile(r"""decem¬ber""", re.S), r"""december"""),),
     "11:p0226": (
         (re.compile(r"""\((niet getekend wegens ziekte)\]""", re.S), r"""(\1)"""),
     ),
+    "11:p0350": (
+        (
+            re.compile(
+                r"""
+                    (<note[^>]*>\(De\ verkoop\ van\ kruidnagels.*?)
+                    (</note>)
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                """,
+                re.S | re.X,
+            ),
+            r"\1<lb/>\n\3<lb/>\n\4<lb/>\n\2",
+        ),
+        (
+            re.compile(r"""(<note[^>]*>\(Dat er 19 balen grove.*?</note>)""", re.S),
+            r"</p>\1",
+        ),
+        (
+            re.compile(
+                r"""
+                (
+                    <pb\ n="435"[^>]*>\n
+                    <fw[^>]*>.*?</fw>\n
+                )
+                </p>\n
+                """,
+                re.S | re.X,
+            ),
+            r"\1",
+        ),
+    ),
+    "12:p0003": (
+        (
+            re.compile(r"""<fw[^>]*>(dien[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "13:p0122": (
+        (
+            re.compile(r"""<fw[^>]*>(Om achter[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "13:p0231": (
+        (
+            re.compile(r"""<fw[^>]*>(goederen ƒ[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "13:p0340": (
+        (
+            re.compile(r"""<fw[^>]*>(Verleende[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "13:p0362": (
+        (
+            re.compile(r"""<fw[^>]*>(opgedragen[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(r"""<fw[^>]*>(tot 31 augustus[^<]*)</fw>""", re.S),
+            r"""<note resp="editor">\1</note>""",
+        ),
+    ),
+    "13:p0501": (
+        (
+            re.compile(
+                r"""
+                    (</note>\s*<note[^>]*>29<lb/>\s*)
+                    (</note>)
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                    \s*
+                    <p\b[^>]*>(.*?)</p>
+                """,
+                re.S | re.X,
+            ),
+            r"\1<lb/>\n\3<lb/>\n\4<lb/>\n\2",
+        ),
+    ),
 }
+
 CORRECTION_HEAD = {
     "01:p0734": (
         re.compile(r"""<head .*?</p>""", re.S),

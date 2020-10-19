@@ -6,11 +6,11 @@ cell.n=nn	4711
 cell.n=nnn	15569
 cell.row=n	11321
 cell.row=nn	9235
-emph..	4284
+emph..	4282
 folio..	2515
 head..	589
 header..	589
-lb..	429585
+lb..	429598
 meta.key=author	589
 meta.key=authorFull	589
 meta.key=day	589
@@ -25,8 +25,8 @@ meta.key=status	589
 meta.key=title	589
 meta.key=year	589
 meta.value=x	7069
-note..	12863
-para..	34950
+note..	12862
+para..	34911
 pb.facs=n_nnn_nnnn	5865
 pb.facs=nnn_nnn	3194
 pb.facs=nnn_nnnn	1090
@@ -37,7 +37,7 @@ pb.n=nnnn	91
 pb.tpl=n	10149
 pb.vol=nn	10149
 ref..	4122
-remark..	23711
+remark..	23744
 row.n=n	62
 row.n=nn	1005
 row.n=nnn	3483
