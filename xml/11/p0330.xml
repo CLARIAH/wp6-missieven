@@ -255,7 +255,7 @@ slechts 162. De sterfte onder het personeel in Batavia is hoog. Tussen 1 januari
 <para>Als men eens daar tegenover stelt dat in dien tijd uyt Nederland alhier aangekomen<lb/>
 zijn een nomber van 4782 koppen en daarvan 1549 militairen, 2977 zeevarende<lb/>
 en 1 5 6 ambagtsgesellen,
-<super>1</super> mitsgaders daarvan weder detraheert een getal van 1776 zeevarende,<lb/>
+<fref ref="1"/>  mitsgaders daarvan weder detraheert een getal van 1776 zeevarende,<lb/>
 78 ambagtsgesellen en 152 militairen, offwel 2006 te samen, dewelke sedert<lb/>
 maert 1745 tot januarij 1746 met 20 scheepen zijn gerepatrieerd, soo direct als over<lb/>
 Ceylon, Bengale en China, zoo blijkt dat wij tot recruteering der guarnisoenen, supplement<lb/>
@@ -291,9 +291,10 @@ der rendementen is aengeweesen, en zoomede dat de vaderlandse manufacturen in he
 boekjaer 1744/5 door den anderen hebben gegeven 46j ruym percento op een capitaeltje<lb/>
 van ƒ 26.4 1 1 , 1 7,8, mitsgaders de lij waten van hetgeene alhier heeft kunnen wer-<lb/>
 
-<fnote><super>1</super> De som van uit Nederland ontvangen personeel is niet juist. 2977 plus 1549 plus 156 is niet<lb/>
+<fnote ref="1">De som van uit Nederland ontvangen personeel is niet juist. 2977 plus 1549 plus 156 is niet<lb/>
 4782 maar 4682.<lb/>
 </fnote>
+
 <pb n="335" tpl="2" vol="11" facs="232_335"/>
 den omgeset uyt onsen voorraed
 <emph>10fê</emph> schaars percento off ƒ 1500,7 op een inkoopsbedragen<lb/>
@@ -1061,7 +1062,7 @@ kunnen gehouden werden.<lb/>
 twee groote kameren altoos behoorden te werden aangebouwd scheepen van 150 en<lb/>
 bij de vier klijne die van 136 voet, dewijl de eerste, uytgesondert eenige wijnige van de<lb/>
 laaste gelijk Duynhoff en Spaenderwout die goede zijlders zijn, ongelijk beter bij de vellen<lb/>
-gemanierder zijn2 als de andere en de Compagnie de klijnste soort alleen maer voor<lb/>
+gemanierder zijn<fref ref="2"/>  als de andere en de Compagnie de klijnste soort alleen maer voor<lb/>
 Bengale benodigt, daar integendeel de andere op alle andere vaarwaters kunnen gebruykt<lb/>
 werden en desnoods scheepen van 50 stucken fourneren die vrij wat defensiev<lb/>
 kunnen werden gemaekt, daer de andere integendeel alle die avantages zoo niet hebben<lb/>
@@ -1076,10 +1077,11 @@ Barnet dat hetselve sterk ses scheepen, twee van 60, één van 50, één van 40 
 20 stucken, in den aanvang van mey van hier westwaerds vertrocken is, hebbende tot de<lb/>
 maend september toe gekruyst b’oosten Ceylon langs Cormandel en voor de Ganges,<lb/>
 
-<fnote><super>2</super> Bij de vellen gemanierder zijn, van het Latijnse velum, zeil. Een goed gemanierd schip is een<lb/>
+<fnote ref="2">Bij de vellen gemanierder zijn, van het Latijnse velum, zeil. Een goed gemanierd schip is een<lb/>
 schip waarop de stand en de hoeveelheid der zeilen goed geregeld en verdeeld is, en dat goed is<lb/>
 toegeladen, zodat het zich gemakkelijk laat besturen, niet zwaar stampt, noch wreed slingert.<lb/>
 </fnote>
+
 <pb n="346" tpl="2" vol="11" facs="232_346"/>
 mitsgaders drie off vier niet extra rijke en veel cavillatie subjecte prijsen gemaekt, dog<lb/>
 op die tijd om der moussons wille vandaer hebbende moeten vertrecken heeft men ’tsedert<lb/>

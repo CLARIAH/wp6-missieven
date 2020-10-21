@@ -24,7 +24,7 @@ WIJBRANT BLOM, BATAVIA 21 september 1723.<lb/>
 </head>
 <folio>Kol. Arch. 1877,fol.6-35.</folio>
 <para>De retourschepen van de laatste besending buyten Schonenberg, die op Caab d'Aguilhas<lb/>
-is verseyld, alle tesamen seer spoedig aan dien uythoek ') overgekomen en ook op een<lb/>
+is verseyld, alle tesamen seer spoedig aan dien uythoek <fref ref="1"/>  overgekomen en ook op een<lb/>
 gewenschten tijd van daar na het vaderland zijn voortgeseyld, alzoo Anna Maria op 24 januarij<lb/>
 deses jaars, de twee Mochase schepen Hogenes en Doomick op den 6en februarij, het<lb/>
 gros van de retourvloot onder d’e. Van Strijen op den 25en maart en de 4 Batavise schepen<lb/>
@@ -72,9 +72,8 @@ er vertrokken<lb/>
 <fnote ref="2">Sophy, bij Europeanen gebruikelijke titel voor den Sjah, omdat hij stamde uit het geslacht<lb/>
 der Safaïden, stamvader Safiudin, betekenend : zuiver in het geloof. Het bericht is niet geheel juist, Sjah<lb/>
 Husain gaf zich nabij Ispahan aan den Afghaan Mahmud Khan over.<lb/>
-ref="1">Vgl. I Koningen 4,25: Ende Juda en Israël woonden seker een ijegelick onder sijnen wijnstock<lb/>
-ende onder sijnen vijgeboom.<lb/>
 </fnote>
+
 <pb n="658" tpl="1" vol="07" facs="7_164_0658"/>
 <para>
 - na Cormandel schepen 4, Bengalen 10, Japan 2, Palembang 3, Ceylon 4, Su-<lb/>
@@ -116,7 +115,7 @@ hebben loon na wercken.<lb/>
 </para>
 <para>Den ernst, die gebruykt is in het ontdecken en aanhalen van een partije Engelse manufacturen<lb/>
 van cattoen en zijde, uyt Bengalen hier aangebragt en opgekogt door degeene<lb/>
-die, onder den wijnstok en vijgeboom ') van de Generale Comp. te deser stede gerust en<lb/>
+die, onder den wijnstok en vijgeboom <fref ref="1"/>  van de Generale Comp. te deser stede gerust en<lb/>
 wel geseten zijnde, niet hebben willen nalaten door sulken gedoente zeer kenbaare preuven<lb/>
 te geven van haare inwendigen aard en genegendheyd om de wortelen van dien wijnstok<lb/>
 en vijgeboom op een schendige wijse te ondergraven, want in 3 reysen zijn er ontdeckt 36<lb/>
@@ -127,11 +126,12 @@ geworden.<lb/>
 <fnote ref="1">Vgl. I Koningen 4,25: Ende Juda en Israël woonden seker een ijegelick onder sijnen wijnstock<lb/>
 ende onder sijnen vijgeboom.<lb/>
 </fnote>
+
 <pb n="659" tpl="1" vol="07" facs="7_164_0659"/>
 <remark>«T weede reis van Durven naar de berg Parang ter hervatting van het mijnwerk, hoewel hij<lb/>
 nog maar 9 voet in de berg liet graven, kwam enig goud en zilver leverend erts te voorschijn; einde<lb/>
 van de oorlog op Java, qfgedr.
-<ref>Opkomst</ref> IX, p. 82, noot, le alinea; voor 12566 dukaten of<lb/>
+<ref>Opkomst IX, p. 82, </ref>noot, le alinea; voor 12566 dukaten of<lb/>
 f 67856 werd aan wissels op patria afgegeven; uit China kwamen 13 jonken van Amoy, 6 van<lb/>
 Sjanghai, 2 van Ningpo en 3 andere; Van der Stoppel wordt naar patria gezonden; Bergman<lb/>
 wil repatriëren wegens zijn kwalen; volgt de tweede alinea van dezelfde noot, men leze voor passebaan:<lb/>
@@ -150,7 +150,7 @@ gedurende een jaar; de retourschepen Wendela, Linschoten en Slot Aldegonde hebbe
 van f 699727, waarvan voor Kamer Amsterdam f 353367, Zeeland f 186479 en elk der<lb/>
 andere ongeveer f 40000; hiervan is 919258
 ® Javakoffie, waard f 476538, en 199972
-<ref>ffi</ref> thee,<lb/>
+<ref>ffi </ref>thee,<lb/>
 waard f 163959<lb/>
 »</remark>
 </body>

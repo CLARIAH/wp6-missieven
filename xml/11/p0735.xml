@@ -581,8 +581,9 @@ van meer dan ses ton gesloten waren en dit jaar so wij hopen beyde effen komen.<
 <folio>Fol.1056v-1057r.1</folio>
 </para>
 
-<fnote><super>1</super> Fol. 1055 ontbreekt in de nummering.<lb/>
+<fnote ref="1">Fol. 1055 ontbreekt in de nummering.<lb/>
 </fnote>
+
 <pb n="745" tpl="2" vol="11" facs="232_745"/>
 <remark>«Het is een schrale troost dat als de verbeteringen niet zouden zijn doorgevoerd de<lb/>
 Compagnie wellicht al niet meer te herstellen zou zijn. Men houdt de schade nu beperkt in<lb/>
@@ -773,7 +774,7 @@ het eene niet verboden heeft het varen, maer alleen het varen met andere dan ons
 eene precautie die onvermijdelijk is tot voorkoming van de grote misbruyken die<lb/>
 het licentieuse verleenen van pascen, buyten voorweten van de resp. compagniën, nevens<lb/>
 ons in Indiën trafiqueerende, en selfs tegens hare ordres en reglementen hebben<lb/>
-veroorsaekt. In opsigte van het tweede heeft men altoos ongerespecteerd en nullius valeris2<lb/>
+veroorsaekt. In opsigte van het tweede heeft men altoos ongerespecteerd en nullius valeris<fref ref="2"/> <lb/>
 gehouden alle pascen die op de generale benaamingen
 <und>om de oost</und> ofnadecusten<lb/>
 <und>of eylanden om de oost</und> door de subalterne ministers der andere natiën hier te lande<lb/>
@@ -811,8 +812,9 @@ rekenen.<lb/>
 </para>
 <folio>Fol.1067v-1070v.</folio>
 
-<fnote><super>2</super> Nullius valeris, zonder geldigheid.<lb/>
+<fnote ref="2">Nullius valeris, zonder geldigheid.<lb/>
 </fnote>
+
 <pb n="749" tpl="2" vol="11" facs="232_749"/>
 <remark>«Batavia hoopt dat het met de Duinenburg op 6 april 1749 ontvangen bericht van de<lb/>
 kamer Amsterdam, nl. dat de vijandelijkheden gestopt waren en dat men met vredesonderhandelingen<lb/>

@@ -350,8 +350,8 @@ zijn en den regter selfs nog niet eens in staat geraakt is daarover praeferentie
 doen houden, en is alleenlijk bij onse resolutie van den 19e november 1745 het moederlijke<lb/>
 bewijs der kinders, dat tot den boedel geheel en al niet gehoorde, op daartoe<lb/>
 gedaan verzoek uyt ’s Compagnies cassa uytgekeert, dog niet anders dan onder cautie<lb/>
-de restituendo1, ten genoege en ten pericule van den sequester in cas daarvan in judicio<lb/>
-contradictoris2 weder uytkeering moeste werden gedaan, en onder dese conditie alleen<lb/>
+de restituendo<fref ref="1"/> , ten genoege en ten pericule van den sequester in cas daarvan in judicio<lb/>
+contradictoris<fref ref="2"/>  weder uytkeering moeste werden gedaan, en onder dese conditie alleen<lb/>
 zijn ’tsedert al dien tijdt dat dit justitium heeft geduurt nog maar eenige penningen uyt<lb/>
 voorsz. onder de Compagnie berustende insolvente en onafgedane boedels geligt geworden,<lb/>
 wagtende de saken ten principale nog al na het antwoord, dat nopens de gedane<lb/>
@@ -371,10 +371,11 @@ van dien datum.<lb/>
 overzicht van Batavia van het boekjaar 1 746/47 laat zien<lb/>
 »</remark>
 
-<fnote><super>1</super> Onder cautie de restituendo, onder borgstelling van terugbetaling.<lb/>
+<fnote ref="1">Onder cautie de restituendo, onder borgstelling van terugbetaling.<lb/>
 </fnote>
-<fnote><super>2</super> In judicio contradictoris, door een op tegenspraak gewezen vonnis.<lb/>
+<fnote ref="2">In judicio contradictoris, door een op tegenspraak gewezen vonnis.<lb/>
 </fnote>
+
 <pb n="614" tpl="2" vol="11" facs="232_614"/>
 <para>
 - dat alschoon de lasten der equipagie alleen circa vier ton zijn g’accresseert,<lb/>
@@ -454,7 +455,7 @@ lande ten faveure der doodreekening ingenomen is, als blijkt bij de overgesonden
 so soude het geheele octroy van Haar Hoogmog. waarbij aan de Compagnie<lb/>
 dit grote privilegie is vergunt om sodanige curator ad lites te mogen hebben welhaast<lb/>
 in duygen vallen, en eenieder erfgename in Nederland konde dan met weynig<lb/>
-moeyte onder een gepraetexeerd periculum insolventie3 of beneficii van inventaris<lb/>
+moeyte onder een gepraetexeerd periculum insolventie<fref ref="3"/>  of beneficii van inventaris<lb/>
 selfs redderaar werden van de boedels die in Indiën vallen, sodat dese verregaande<lb/>
 prastentie van voorsz. Johanna Aletta Meyer in het minste niet kan werden ingewilligt,<lb/>
 en zij tevreeden sal moeten zijn met sig nopens de uyt Indiën overgemaakte erffenissen,<lb/>
@@ -471,7 +472,7 @@ weeskamer in Middelburg en f 44. 900 uit het kapitaal van de weesmeesters aan de
 in Amsterdam.<lb/>
 »</remark>
 
-<fnote><super>3</super> Onder een gepraetexeerd periculum insolventie, onder een voorgewend gevaar van onmacht<lb/>
+<fnote ref="3">Onder een gepraetexeerd periculum insolventie, onder een voorgewend gevaar van onmacht<lb/>
 om de geldelijke verplichtingen na te komen.<lb/>
 </fnote>
 </body>

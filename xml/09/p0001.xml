@@ -107,7 +107,7 @@ invoegen.<lb/>
 <remark>«Hij wil zijn post verlaten zonder opdracht daartoe<lb/>
 »</remark>
 <para>
-- allegeerende sekeren Balthazar Ayla1 in wiens tractaet
+- allegeerende sekeren Balthazar Ayla<fref ref="1"/>  in wiens tractaet
 <emph>De jure et officiis bellicis</emph><lb/>
 sulx soude werden geleerd - met een ergerlijke bijvoeging dat men tot nog toe op den<lb/>
 onwederstaanbaren goddelijken arm met een goede consciëntie hadde gehoopt.<lb/>
@@ -127,10 +127,10 @@ bij provisie geëxecuteerd en daarvan 8 aen de tacken der boomen tegens de Justi
 Kamer staende tot mesnagement van ceremoniën en commotiën opgeknoopt want de<lb/>
 saeken zijn de plano afgedaen de soogenaamde hoofdverraders Andries Swarts en Benja-<lb/>
 
-<fnote><super>1</super>
-<ref>Balthazar Ayala (Antwerpen-Aalst 1548), jurist, auteur van</ref> De iure Officiis Bellicis, ac Militari<lb/>
+<fnote ref="1"><ref>Balthazar Ayala (Antwerpen-Aalst 1548), jurist, auteur van </ref>De iure Officiis Bellicis, ac Militari<lb/>
 Disciplina.<lb/>
 </fnote>
+
 <pb n="3" tpl="2" vol="09" facs="205_003"/>
 min Pegolottij met nog 3 andere levendig geledebraekt, den eersten het lichaam geopent,<lb/>
 het hard daar uyt gescheurd en in desselfs aengesigt geworpen mitsgaders benevens den<lb/>
@@ -303,7 +303,7 @@ de gestempeld en tegens 13 schellingen gangbaar gelaten met en nevens den nieuwe
 ducaton de verdere off die binnen sekeren te fixeeren tijd ter stempeling niet zijn ingebragt<lb/>
 
 <pb n="6" tpl="2" vol="09" facs="205_006"/>
-billioen2 verklarende hetwelke dan na onse gedagten een seer secuur middel soude wesen<lb/>
+billioen<fref ref="2"/>  verklarende hetwelke dan na onse gedagten een seer secuur middel soude wesen<lb/>
 om den aanbreng van particuliere ducatons te beletten en wanneer men alsdan ook largesse<lb/>
 van geld zal hebben.<lb/>
 </para>
@@ -324,7 +324,7 @@ gevuld met coffij en porcelijn, een kasje en twee bondels of bossen met handrott
 <remark>«Daarop is besloten de bemanning te verwisselen<lb/>
 »</remark>
 
-<fnote><super>2</super> Billioen, vals geld.<lb/>
+<fnote ref="2">Billioen, vals geld.<lb/>
 </fnote>
 </body>
 </teiTrim>

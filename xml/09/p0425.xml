@@ -40,7 +40,7 @@ In een brief van 11 september 1732 uit Ternate wordt de sengadji van Patani besc
 leider te zijn van de strooptochten van de Papuase zeerovers en sluikhandel te drijven met de<lb/>
 »</remark>
 <para>
-- swervende Cerammers, Badjes1 en Maccassaren die desen jaere als weleer met<lb/>
+- swervende Cerammers, Badjes<fref ref="1"/>  en Maccassaren die desen jaere als weleer met<lb/>
 een groot getal prauwen en omtrent 300 mannen sterk ettelijke tijd bevorens hier en<lb/>
 elders in het vaerwater waren vernomen, die ook tot Patanij soude zijn aangeweest, en<lb/>
 vermeend werden deselve te wesen, die bevorens omtrent Xulla Bessij, Ouba en naderhand<lb/>
@@ -68,9 +68,10 @@ tegenwerping van geciteerde Arij Sell, dat Tidoors koning sijnen heer en meester
 daervoor bedonge redemptiepenningen trekt, te willen antwoorden.<lb/>
 </para>
 
-<fnote><super>1</super> Badjes, Badjos of Orang Laut, een voornamelijk op zee levend en door de gehele archipel rondtrekkend<lb/>
+<fnote ref="1">Badjes, Badjos of Orang Laut, een voornamelijk op zee levend en door de gehele archipel rondtrekkend<lb/>
 volk.<lb/>
 </fnote>
+
 <pb n="426" tpl="2" vol="09" facs="205_426"/>
 <remark>«Het hof van Tidore weigert iets tegen de sengadji te ondernemen. Hierop weigerde<lb/>
 op 18 juli de bevolking van Maba verder aan de extirpatie mee te werken. Het is zelfs zo,<lb/>

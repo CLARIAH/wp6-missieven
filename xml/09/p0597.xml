@@ -89,9 +89,9 @@ boekjaar<lb/>
 <para>ƒ 4.325,11<lb/>
 </para>
 
-<fnote><super>1</super> Kulit lawang, cinnamomum culit-lawan.<lb/>
-<super>2</super> Adherent, aanhanger.<lb/>
+<fnote ref="1">Kulit lawang, cinnamomum culit-lawan.<lb/>
 </fnote>
+
 <pb n="598" tpl="2" vol="09" facs="205_598"/>
 <para>de vermeerderde lasten en verminderde winsten hebben te-<lb/>
 </para>
@@ -143,7 +143,7 @@ opgepakt nl.<lb/>
 <para>- twee Theennaresen genaamt Laisloekoe en Minjoe (welke eerste de voorschreven<lb/>
 roofsugt der Papoesen op het eylant Majoer deelagtig was geweest) tot Banda waren<lb/>
 aangekomen nevens Kajalie, Orangkay tot Poulo Gisser, en sijn zoon Joemat met den<lb/>
-adherent2 ail.<lb/>
+adherent<fref ref="2"/>  ail.<lb/>
 </para>
 <remark>«Besloten is<lb/>
 »</remark>
@@ -154,8 +154,9 @@ te lossen en als verpandelingen voor de kost te laten arbeyden om na restitutie 
 penningen weder na hun land te kunnen vertrecken.<lb/>
 </para>
 
-<fnote><super>2</super> Adherent, aanhanger.<lb/>
+<fnote ref="2">Adherent, aanhanger.<lb/>
 </fnote>
+
 <pb n="599" tpl="2" vol="09" facs="205_599"/>
 <remark>«De gecommitteerde van de Zuidoostereilanden bracht mee terug: 3220 kannen klapperolie<lb/>
 , 1 pikol karet , 14 pikol parelmoer , 2 casuarissen , en 4 philanders. Op Workai<lb/>
@@ -414,10 +415,9 @@ uitgegeven. In Jedo is voor
 ƒ 16.533 aan geschenken besteed. Het wegen van pakken<lb/>
 en kassen wordt in Japan achterwege gelaten omdat dit<lb/>
 »</remark>
-<fnote ref="3"><ref>Traa, of frae, Siamse term voor paspoort of vrijbrief.</ref><lb/>
-</fnote>
-<fnote ref="4"><ref>Dit is een vergissing van de schrijvers, de folio’s 1200 tot en met 1300 zijn twee keer geteld.</ref><lb/>
-</fnote>
+<fnote ref="3"><ref>Traa, of frae, Siamse term voor paspoort of vrijbrief. </ref></fnote>
+<fnote ref="4"><ref>Dit is een vergissing van de schrijvers, de folio’s 1200 tot en met 1300 zijn twee keer geteld. </ref></fnote>
+
 <pb n="603" tpl="2" vol="09" facs="205_603"/>
 
 <para>
@@ -676,7 +676,7 @@ Men had het liever aan kooplieden verkocht ,<lb/>
 <pb n="607" tpl="2" vol="09" facs="205_607"/>
 
 <para>
-- egter leefde men in hoope dat daardoor de versogte munting van dabboesen5<lb/>
+- egter leefde men in hoope dat daardoor de versogte munting van dabboesen<fref ref="5"/> <lb/>
 door den duan verdwijnen soude, dewijl de opregting van soo een munt op dat comptoir<lb/>
 voor de E. Compagnie gantsch ondienstig geoordeeld.<lb/>
 </para>
@@ -684,7 +684,7 @@ voor de E. Compagnie gantsch ondienstig geoordeeld.<lb/>
 «Men moet proberen de verkoop tegen te houden. Te Sadras, Bimlipatam en Pulicat<lb/>
 6357 Ib Perzische paisamunten verkocht, te Porto Novo was de prijs te laag.<lb/>
  Lasten 1732/33 f 331.359, winsten f 798.977. 9038 mark zilver vermunt tot 195.285<lb/>
-ropias, kostprijs 3nli2 per pagode. Deze zijn alleen met verlies in Coromandel gangbaar te<lb/>
+ropias, kostprijs 3nli<fref ref="6"/>  per pagode. Deze zijn alleen met verlies in Coromandel gangbaar te<lb/>
 maken en nog weinig gewild. Iman Sahib wil de ropia in Arcadu toelaten als het sterretje<lb/>
 op het muntstempel wordt opengelaten. Op de eis van 3 ton goud met een laag gehalte zijn<lb/>
 721 realen gezonden. Winst op de vermunting van 206 mark Nederlands goud f 564 of<lb/>
@@ -719,8 +719,8 @@ Calipatnam, Waypaer Wembaar of Pattana Marradoer met eenige onderhorige dorpen,<
 op den voet van het Nagapatnams leencontract aan de E. Compagnie over te laten, waarop<lb/>
 de ministers een dilayerend antwoord en tegelijk aan het Colombose ministerium kennisse<lb/>
 
-<fnote ref="5"><ref>Dabus, kleine koperen munt.</ref><lb/>
-</fnote>
+<fnote ref="5"><ref>Dabus, kleine koperen munt. </ref></fnote>
+
 <pb n="608" tpl="2" vol="09" facs="205_608"/>
 hadden gegeven dewijl die plaatsen na aan Ceylon gelegen en zij dus best konden oordeelen<lb/>
 welke haer ten dienste der Edele Compagnie te stade soude komen, waarop deselve<lb/>
@@ -785,7 +785,7 @@ aldaar van een gevaarlijken aanschouw en ook seer kostelijk was.<lb/>
 <remark>«Een verzoek van de nawab om 20 olifanten is afgeslagen<lb/>
 »</remark>
 <para>
-De per het jagt Adriana van Trinquenemale ontfangene 31 stux cattemarauws6 houten<lb/>
+De per het jagt Adriana van Trinquenemale ontfangene 31 stux cattemarauws<fref ref="7"/>  houten<lb/>
 kostende ƒ 574,3,8 met 25 percento advans aan de Sadraspatnamse hoofdvissers overgelaten<lb/>
 om uyt hun verdiende loon voldaan te werden. Den nieuwen gouverneur Guillot<lb/>
 ter resolutie van den 28e februarie den agterstal der Portonovose en Sadraspatnamse<lb/>
@@ -830,9 +830,8 @@ Tot Palliacatte was het eyland Erikan met de dorpen Mangie en Aurewaka voor drie
 jaaren verpagt tot 1180 pagoden ’sjaars ofte 260 ditos meerder als anno passato, voorts<lb/>
 was ’s Compagnie’s aandeel van het kort gewasch tot Palicol verkogt voor pagode 128,77/2o<lb/>
 
-<fnote ref="6"><ref>Cattemarauw, katamaran, licht vaartuig.</ref><lb/>
-ref="7"><ref>Etc., in het origineel is geen verdere opgave gedaan.</ref><lb/>
-</fnote>
+<fnote ref="7"><ref>Cattemarauw, katamaran, licht vaartuig. </ref></fnote>
+
 <pb n="610" tpl="2" vol="09" facs="205_610"/>
 of pagode 49, l1^ meerder als bevorens, en de pagter der nelij meterije ditos aldaar voor<lb/>
 een jaar afgestaan voor pagode 256,4 of pagode 112,4 meerder dat het laastemaal en was<lb/>
@@ -890,9 +889,8 @@ De inpakkers van kaneel belast met de betaling van 1640 Ib bedorven kaneel<lb/>
 <para>
 Hebbende middelerwijle aan Haar Edele mede belast, dat ze voortaan de caneelpac-<lb/>
 
-<fnote ref="7"><ref>Etc., in het origineel is geen verdere opgave gedaan.</ref><lb/>
-<super>8</super> Folio 1387 is twee keer geteld.<lb/>
-</fnote>
+<fnote ref="8"><ref>Etc., in het origineel is geen verdere opgave gedaan. </ref></fnote>
+
 <pb n="611" tpl="2" vol="09" facs="205_611"/>
 ken van binnen zullen hebben te voorsien met een plankje waerop geschreven sal moeten<lb/>
 werden, waar die packen in huyden afgepakt sijn en door wie en op wat tijd, met de<lb/>
@@ -949,8 +947,9 @@ als ’s jaarlijks gewoon zijn uyt Bengale en andere quartieren, wanneer de reys
 verloop des tijds na de Maldivos niet konnen gewinnen als dan ’t zij tot Colombo, Jaffanapatnam<lb/>
 dan wel Gale aan te gieren om haare graanen tot gerief der gemeente te verkopen<lb/>
 
-<fnote><super>8</super> Folio 1387 is twee keer geteld.<lb/>
+<fnote ref="9">Folio 1387 is twee keer geteld.<lb/>
 </fnote>
+
 <pb n="612" tpl="2" vol="09" facs="205_612"/>
 en bij retour de Compagnie van een goed gedeelte arreek en elifanten te ontlasten, ’t<lb/>
 welk sijlieden noteeren in dien deele, aangesien dese ordre bij haar ingesien wierd in ’t<lb/>
@@ -1241,7 +1240,7 @@ tot welkers voedinge de maatschappije insgelijx een ruyme portie van penningen t
 ons leedwesen heeft moeten contribueeren, niet anders beoogde dan ’s lands totale ruïne,<lb/>
 eyndelijk door de geledene nederlaag voor Baagdaad bijkans ten eenemale tot val geraakt<lb/>
 zijne den onttroonden koning sig wederom in vrijheyd en aan het hoofd bevond van een<lb/>
-talrijk leeger, hetgeene gestrekt9 door de bijgebragte magt van twee voorname generaalspersonen,<lb/>
+talrijk leeger, hetgeene gestrekt<fref ref="10"/>  door de bijgebragte magt van twee voorname generaalspersonen,<lb/>
 die den regent waren afgevallen, genoegsaam in staat geoordeeld wierd om<lb/>
 dien vorst wederom den weg te openen tot den throon, en tot de herstellinge van de<lb/>
 algemeene ruste en vreede in zijn rijk.<lb/>
@@ -1274,9 +1273,8 @@ Op 28 oktober 1733 nog
 ƒ 16.209 in kas. De beslissing over het aanhouden van het<lb/>
 kantoor te Basra overgelaten aan Heren XVII<lb/>
 »</remark>
-<fnote ref="9"><ref>Lett. gestrekt, moet zijn gesterkt.</ref><lb/>
-ref="10"><ref>Insteller der brieven, degene die de brieven opstelt.</ref><lb/>
-</fnote>
+<fnote ref="10"><ref>Lett. gestrekt, moet zijn gesterkt. </ref></fnote>
+
 <pb n="617" tpl="2" vol="09" facs="205_617"/>
 
 <para>
@@ -1293,7 +1291,7 @@ om dat montant ten spoedigsten op te brengen en inmiddens voor den Chan te besor
 een goed getal paarden en muylezels, de bedientens van dat comptoir ter ontwijkinge van<lb/>
 een veel disgracieuser bejegeninge eyndelijk wel genoodsaakt sijn geweest den opgelegde<lb/>
 last te dragen, dogh ook t’effens bij den inkoop dier animalen te markte te gaan bij eenen<lb/>
-Miersa Taggie, bekleedende het ampt van insteller10 der brieven aan vreemde vorsten,<lb/>
+Miersa Taggie, bekleedende het ampt van insteller<fref ref="11"/>  der brieven aan vreemde vorsten,<lb/>
 een man die onder den scherm van sijnen heer en meester den Chan, wiens gunste hij bij<lb/>
 uytnemendheyd, en dus ook t’effens het vermogen bezat om sijnen boosen drift den vrijen<lb/>
 teugel te vieren, in alle dese stribbelinge employ gevonden hebbende overmits sijne bijsondere<lb/>
@@ -1313,8 +1311,8 @@ van Gamron tot remboursement van voorschreven penningen, ten bedragen van 320 th
 of ƒ 13.600 vermits deselve wissels, ten vervaldage om het credit van de E. Compagnie<lb/>
 te conserveeren, hadde moeten werden betaald met 400 thomans ofte ƒ 17.000, sijnde<lb/>
 
-<fnote ref="10"><ref>Insteller der brieven, degene die de brieven opstelt.</ref><lb/>
-</fnote>
+<fnote ref="11"><ref>Insteller der brieven, degene die de brieven opstelt. </ref></fnote>
+
 <pb n="618" tpl="2" vol="09" facs="205_618"/>
 dit het montant hetgeene bij de g’allegeerde omstandigheden dese lastige schattinge de<lb/>
 E. Compagnie komt te kosten, dog waerbij het nogthans tot ons leetwesen niet is gebleven,<lb/>

@@ -19,7 +19,7 @@
 <pb n="8" tpl="1" vol="01" facs="1_104_0008"/>
 <head>VI. PIETER BOTH, EORT MAURITIUS NABIJ NGOFAKIAHA OP HET<lb/>
 EILAND MAKÉAN 26 juli 1612
-<fref ref="x"/> .<lb/>
+<fref ref="1"/> .<lb/>
 </head>
 <folio>961, 7folio’s.</folio>
 <para>Mijn Heeren, tsedert het vertreck van ons schip den Leeuw met Pijlen1
@@ -81,9 +81,8 @@ honderd man groot.<lb/>
 </fnote>
 <fnote ref="5">Claes Albertsz. werd begin april 1612 als opperkoopman en kapitein van Temate<lb/>
 naar Bat jan gezonden. Hij viel in Spaanse handen en was in 1617 nog te Manilla gevangen.<lb/>
-ref="1">Don Geronimo de Silva, sinds maart 1612 Spaans bevelhebber op Temate, volgde<lb/>
-in april 1617 als wnd. kapitein -generaal zijn oom Don Juan de S. op de Philippijnen op.<lb/>
 </fnote>
+
 <pb n="9" tpl="1" vol="01" facs="1_104_0009"/>
 <para>Waeromme ick daechs daernaer aen Don Jeronimo
 <fref ref="1"/>  schreeff om een seguire
@@ -154,8 +153,8 @@ te kopen mislukten, hij was jaren te Manilla gevangen, waar hij vermoedelijk voo
  </fnote>
 <fnote ref="5">Gam Lamo, de Temataanse naam (letterlijk: stad grote) voor de Spaanse hoofdvesting<lb/>
 op Temate, in het zuidwesten van het eiland gelegen.<lb/>
-ref="1">Camel, vleselijk.<lb/>
 </fnote>
+
 <pb n="10" tpl="1" vol="01" facs="1_104_0010"/>
 mij luyden sent, mennonisten off papisten, die niet en willen vechten tegens de<lb/>
 Spaignarts, want anders Gouda hadde wel connen slaen tegens vier diergelijcke<lb/>
@@ -167,8 +166,7 @@ door bloodicheyt ofte sijn consciëntie niet te besmetten, waervan ick versekert
 tsedert verlies van ’t schip Gouda.<lb/>
 </para>
 <remark>«Aankomst van Reael met de Banda; vgl.
-<ref>Europeërs</ref> VIII, p. 263<lb/>
-»</remark>
+<ref>Europeërs VIII, p. 263 </ref>»</remark>
 <para>Die meeste swaericheyt, die mij in dese landen bejegent, is het quaet gouverne<lb/>
 ment van den onsen ende moet niettemin dickwils symuleren ende dat door de<lb/>
 ervaerentheyt, uutstaende schulden ende andersins, die sij van dese plaetsen<lb/>
@@ -184,7 +182,7 @@ toe en willen laeten metten onsen te trouwen. Sij sijn soo verblint ende obstina
 in haer seckten sonder eenich fondament, waervan sij geen reden en weten te<lb/>
 geven dan alleen een weynich uuytten alquerael
 <fref ref="2"/>  van Mahomet. Het is hier mette<lb/>
-papen3) even gelijck als bij de papisten, die overal het gebiet hebben ende waer<lb/>
+pape<fref ref="3"/>  even gelijck als bij de papisten, die overal het gebiet hebben ende waer<lb/>
 yemant van qualiteyt sterft, daervan groote presenten ende baneketten genieten,<lb/>
 omdat sij voor den overleden bidden, want anders seggen sij, de siel verdoempt<lb/>
 soude wesen, het waer te wensschen, sijluyden noch heydens waeren. Ick hebbe<lb/>
@@ -215,12 +213,8 @@ mette naturelle van dese landen als d’andere mette Nederlantsche vrou-<lb/>
 mystieke broederschappen, dan wel moskeepersoneel.<lb/>
 </fnote>
 <fnote ref="4">Met deze „pokken” zijn de Spaanse pokken, een geslachtsziekte, bedoeld.<lb/>
-ref="1">Hendrick van Raey maakte 1608 als onderkoopman een reis naar Japan, was februari<lb/>
-1611 koopman op de Pauw voor Amboina, werd juni d. a. v. fiscaal en was van december<lb/>
-1611 tot juni 1612 kapitein en opperkoopman op Batjan. Werd wegens diefstal ter dood veroordeeld,<lb/>
-doch begenadigd. In augustus 1612 soldaat onder Schotte op Buton, werd daar eind<lb/>
-augustus 1613 wegens diefstal opgehangen.<lb/>
 </fnote>
+
 <pb n="11" tpl="1" vol="01" facs="1_104_0011"/>
 wen. hebben op ons versocht om betaelt te mogen wesen, vandt gene sij in zee<lb/>
 ende aen landt verdient souden mogen hebben, alsoo sij nu gedestineert sijn haer<lb/>
@@ -238,7 +232,7 @@ kunnen aanvallen<lb/>
 <para>Naer ’t vertreck van dese schepen sal ick gaen met ’t schip Banda naar<lb/>
 Batsian om die plaets naer behooren te provideren, alwaer ick gelaten hebbe<lb/>
 mijnen fiscael Hendrick van Raey
-<fref ref="x"/>  met last het fort aldaer van vack tot vack<lb/>
+<fref ref="1"/>  met last het fort aldaer van vack tot vack<lb/>
 aff te breken ende in calck te leggen, dat nu meest gedaen is.<lb/>
 </para>
 <para>Voor desen hebben den onsen de fortten overal gemaeckt van aert ende houdt,<lb/>
@@ -254,7 +248,7 @@ sal. Sal nu alleen U Ed. relateren den tegen woordigen stant van de Moluques.<lb
 </para>
 <para>
 Den Coninck van Tarnate tegenwoordich
-<super>1 <fref ref="2"/> ,</super> die wort hoe langer hoe booser<lb/>
+<fref ref="2"/> , die wort hoe langer hoe booser<lb/>
 van leven, alsoo dat wij van hem geen goet en hebben te verwachten, hij is niet<lb/>
 alleen slecht, jae de kinderen gelijck ende geeft niet meer antwoort als een houten<lb/>
 beelt in saecken van importantie, maer bij nacht te vrouweren ende gew'elt te doen<lb/>
@@ -287,6 +281,7 @@ het Ambonse zond om de geschillen daar bij te leggen en de Makassaren te bestrij
 vertoefde hij op Sula en Banggai. Hij stierf 1632 op Buton, misschien vergiftigd op last van<lb/>
 den Koning van Makassar.<lb/>
 </fnote>
+
 <pb n="12" tpl="1" vol="01" facs="1_104_0012"/>
 ander vrouwe, dochter van ke. Nary, het haer met een swaert affgesneden ende<lb/>
 gequetst in ’t aensicht; tegenwoordich in haer vaeders huys, alwaer sij bij nacht<lb/>
@@ -296,7 +291,7 @@ Tarnatanen hem willen deporteren ende op een eylandt confineeren. Sijn derhalven
 alhier bij mij geweest om die ende andere oorsaecken.<lb/>
 </para>
 <para>Ick stoocke het vuyr sonder consent te geven, dan, gedaen sijnde, sal mij<lb/>
-verblijden. Den Prins Sedangh *) schijnt, dat sij verkiesen sullen, die ’t met recht<lb/>
+verblijden. Den Prins Sedangh <fref ref="1"/>  schijnt, dat sij verkiesen sullen, die ’t met recht<lb/>
 oock toecompt, is voor desen van den onsen ende de Tarnatanen seer qualijck<lb/>
 gedaen geweest desen voor Coninck ghecosen te hebben tot prejuditie van den<lb/>
 gevangen Coninck, sijn vaeder, ende den Prins Sedangh, sijn outste broeder; mede<lb/>
@@ -308,7 +303,7 @@ van oorloghe ende van anders, dat ons mogelijck is.<lb/>
 </para>
 <para>
 Den Coninck van Batsian
-<super>* 1 <fref ref="2"/> ,</super> mede met onse waepenen sampt de Tarnatanen<lb/>
+<fref ref="2"/> , mede met onse waepenen sampt de Tarnatanen<lb/>
 overwonnen, beclaecht hem oock over de Tarnatanen. De Maquianesen ende Batsianesen<lb/>
 sijn van natuiren een goetaerdich volck, ter contrarie de Tarnatanen<lb/>
 tyrannich, gierich, moordadich, daerbij in ’t leste geen goet van haer te verwachten;<lb/>
@@ -333,20 +328,14 @@ zes voor, d’ander naer, onder de voet ende voor desen met groote oosten weder<
 opgemaeckt ; is niettemin een plaetse van importantie, die niet en dient verlaten<lb/>
 te wesen door de abondantie van nagelen, die daer vallen, waerom den vyant al-<lb/>
 
-<fnote>seerd voor zijn jongeren broeder Hamzah, die hem met een korakoravloot in juni 1628 naar<lb/>
-het Ambonse zond om de geschillen daar bij te leggen en de Makassaren te bestrijden. In 1631<lb/>
-vertoefde hij op Sula en Banggai. Hij stierf 1632 op Buton, misschien vergiftigd op last van<lb/>
-den Koning van Makassar.<lb/>
-</fnote>
 <fnote ref="1">Ketjil Sedang of Sidang, oudere en bekwamere broeder van Koning Modafar.<lb/>
 </fnote>
 <fnote ref="2">Het Spaanse kasteel op Batjan werd 26 november 1609 door Simon Jansz. Hoen<lb/>
 genomen, waarna op 10 dec. met Koning Alaudin van Batjan een contract werd aangegaan,<lb/>
 waarbij ook Koning Modafar zich aansloot
 <emph>(Corpus</emph> I, p. 75-78 j.<lb/>
-ref="1">Zie voor deze sterkte Takome
-<emph>Oudheden</emph> , p. 256.<lb/>
 </fnote>
+
 <pb n="13" tpl="1" vol="01" facs="1_104_0013"/>
 daer soude connen nestelen. Hebbe daeromme den raet van Tarnate voorgedraegen<lb/>
 naer vysitatie van ditto plaetse, dattet hoochnoodich was, indien wij te samen<lb/>
@@ -354,7 +343,7 @@ die plaets wilden behouden, aldaer te maecken een casteel op de strant in steen<
 ende calck, waerop sijluyden repliceerden, dat sij al voor desen van den onsen<lb/>
 hadden begeert, soo wel op Maleyo als op andere plaetsen in calck ende steen te<lb/>
 wercken, haer beclagende over den onsen, die daervan in gebreke gebleven sijn
-<fref ref="x"/> .<lb/>
+<fref ref="1"/> .<lb/>
 Ick vreese, dat van sulex perticulier proffijt oorsaeck is gheweest, want dickwils<lb/>
 vervallen wercken te vernieuwen groote rekeningen maecken connen, gelijck U Ed.<lb/>
 meer als te veel in haerlieder rekeningen sult sien, die wij nu van alle dese plaetsen<lb/>
@@ -364,7 +353,7 @@ U Ed. sijn mede sendende.<lb/>
 »</remark>
 <para>
 De Tarnatanen pretenderen van Loehoe, Cambelle
-<super>1 <fref ref="2"/> </super> ende Maquian te genieten<lb/>
+<fref ref="2"/>  ende Maquian te genieten<lb/>
 den vollen tol als vijfthien ten hondert, even off wij bij ’t innemen van Mackjan<lb/>
 niet en waeren geweest, welck voor ’t innemen geheel subjekt aen den vyandt was<lb/>
 ende een pertye van dien wel 42 jaeren onder de Tydoresen gheweest hadde ende<lb/>
@@ -408,12 +397,8 @@ staat geregeerd werd. Men sprak daarom van Prins Maurits als van den Prins van H
 zonder zich over zijn positie nader uit te laten.<lb/>
 </fnote>
 <fnote ref="5">Genereus.<lb/>
-ref="1">Comelis Bastiaensz. nam 19 mei 1605 de Portugese sterkte op Tidore in, hun laatste<lb/>
-vesting op de Specerij -eilanden. De vijandschap tussen de Tidorezen en de met de Nederlanders<lb/>
-verbonden Tematanen was echter zo groot, dat de eersten zich in maart 1606 bij de komst van<lb/>
-de Spanjaarden uit de Philippijnen direct bij hen aansloten; het kasteel ging voor de Nederlanders<lb/>
-verloren.<lb/>
 </fnote>
+
 <pb n="14" tpl="1" vol="01" facs="1_104_0014"/>
 gehoorsaemheyt ende patiëntie ende dat Godt ende den tijdt liiernaermaels wel in<lb/>
 versien can werden; vooral Macqnian moet hiernaer aen U Ed. blijven, want sijluyden,<lb/>
@@ -426,7 +411,7 @@ begeven.<lb/>
 »</remark>
 <para>Mijn Heeren, het openbaert sich hoe langer hoe meer, dat den Coninck van<lb/>
 Tydoor
-<fref ref="x"/> , insonderheyt sijn onderdanen, een seer groot discontentement hebben<lb/>
+<fref ref="1"/> , insonderheyt sijn onderdanen, een seer groot discontentement hebben<lb/>
 van het tyrannich regeren der Spagnaerden ende dat hij berou heeft, de Hollanders<lb/>
 verlaten te hebben ende de Spagnaerden in sijn landt geroepen. Mij is onlangs<lb/>
 gherelateert van een Tydorees, dat den Coninck van Tydoor dickwils Godt was<lb/>
@@ -465,11 +450,10 @@ vesting op de Specerij -eilanden. De vijandschap tussen de Tidorezen en de met d
 verbonden Tematanen was echter zo groot, dat de eersten zich in maart 1606 bij de komst van<lb/>
 de Spanjaarden uit de Philippijnen direct bij hen aansloten; het kasteel ging voor de Nederlanders<lb/>
 verloren.<lb/>
-ref="1">Djogugu, Ternataanse term voor den rijksbestuurder in de Molukse rijken. Djou =<lb/>
-Heer, gugu = beheerder , bestuurder.<lb/>
 </fnote>
+
 <pb n="15" tpl="1" vol="01" facs="1_104_0015"/>
-<para>Den gougouge *) van de Tarna tanen is voor drie off vier dagen bij mij geweest<lb/>
+<para>Den gougouge <fref ref="1"/>  van de Tarna tanen is voor drie off vier dagen bij mij geweest<lb/>
 ende versocht, dat alle de correcorren van Maquian mede wilden gaen in compagnie<lb/>
 van die van Tarnate omme den Coninck van Tydoor metten sijnen te rescontreren<lb/>
 op een seker plaetse in see om van de vrede te spreken ende een eynde van die<lb/>

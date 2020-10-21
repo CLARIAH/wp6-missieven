@@ -107,7 +107,7 @@ mei, waarin wordt gewezen op het rondzwerven van vreemde schepen rond het eiland
 Vuyst heeft nu het oog geslagen op de Moren, die door hun groot aantal, hun steun aan de<lb/>
 rondzwervende schepen en hun aanwezigheid, tesamen meteen groot aantal roomse papen,<lb/>
 in Kandy een gevaar voor de Compagnie vormen; te meer daar de vorst
-<super>1</super> aan een dodelijke<lb/>
+<fref ref="1"/>  aan een dodelijke<lb/>
 ziekte lijdt, terwijl er geen mannelijke erfgenaam is, zodat het rijk aan grote verwarring zou<lb/>
 kunnen worden onderworpen. De 1800 balen kaneel die al in het voorjaar klaar lagen zijn<lb/>
 zonder opgaaf van reden niet verzonden met de Boekenrode, zodat de kleine Kamers geen<lb/>
@@ -128,8 +128,8 @@ sig steeds binnenshuys houd sonder daarbuyten te derven komen, gewapend zijnde m
 een houwer en twee pistoolen en zulx aan wederzijden één.<lb/>
 </para>
 
-<fnote ref="1"><ref>Het betrof hier Sri Narendra Simha, hij zou eerst in 1739 overlijden.</ref><lb/>
-</fnote>
+<fnote ref="1"><ref>Het betrof hier Sri Narendra Simha, hij zou eerst in 1739 overlijden. </ref></fnote>
+
 <pb n="9" tpl="2" vol="09" facs="205_009"/>
 <remark>«Joan Paul Schaghen en de koopman Joan Benjamin Vernatti zijn te Batavia vrijgesproken)<lb/>
 <lb/>
@@ -272,8 +272,6 @@ f 9.991.876, uit Coromandel
 De lading van de 5a 6 schepen van Ceylon wordt geschat op 10 ton. Wissels getrokken voor<lb/>
 f 230.261<lb/>
 »</remark>
-<fnote>Galetten, nog niet afgehaspelde cocons van de zijderups.<lb/>
-</fnote>
 <pb n="11" tpl="2" vol="09" facs="205_011"/>
 </body>
 </teiTrim>

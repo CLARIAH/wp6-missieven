@@ -187,10 +187,11 @@ Elias van Mijlendonk was ontdekt. De Hollandse legger bevatte slechts 348 a 360 
 als arak en azijn ontvangen werden van de leveranciers, verkleind was. Om dit tegen te gaan<lb/>
 werd besloten<lb/>
 »</remark>
-<fnote><super>1</super> Cayonany-palen, van het Maleise kaju, hout, en nani, hoge boom van Celebes en het oosten van<lb/>
+<fnote ref="1">Cayonany-palen, van het Maleise kaju, hout, en nani, hoge boom van Celebes en het oosten van<lb/>
 de Archipel, levert een houtsoort die buitengewoon goed bestand is tegen de paalworm en<lb/>
 daarom in zeewater voor allerlei doeleinden te gebruiken is.<lb/>
 </fnote>
+
 <pb n="30" tpl="2" vol="11" facs="232_030"/>
 
 <para>
@@ -483,7 +484,7 @@ verboden is,<lb/>
 - op poene dat de voorsz. dienaren en ingesetenen daarover na exigentie van<lb/>
 saken aan den lijve gestraft, mitsgaders de gemelde koningjes en rijxgroten afgeset, opgevat<lb/>
 en desnoods in de ketting geslagen, en sodanig herwaarts souden gesonden werden<lb/>
-omme wijders voor haar leven daarinne ad opus publicum2 dienst te doen.<lb/>
+omme wijders voor haar leven daarinne ad opus publicum<fref ref="2"/>  dienst te doen.<lb/>
 </para>
 <remark>«Batavia gaat akkoord met het door het volk van Palopo gedane verzoek<lb/>
 »</remark>
@@ -524,8 +525,9 @@ daarvan eygenaars te doen werden, om welke redenen wij tot voorkominge van dien<
 hebben goedgevonden de ministers aan te schrijven, dat voortaan de gemelde qualiteyt<lb/>
 van hoekum major soude moeten gedempt blijven, mits den althans fungerenden Aris<lb/>
 
-<fnote><super>2</super> Ad opus publicum, voor de publieke werken.<lb/>
+<fnote ref="2">Ad opus publicum, voor de publieke werken.<lb/>
 </fnote>
+
 <pb n="36" tpl="2" vol="11" facs="232_036"/>
 Tollieuw Suppit, in sijn presente aansien en titul, dog egter buyten commando, voor<lb/>
 desselfs leven gelaten wierde.<lb/>
@@ -706,7 +708,7 @@ zich niet bevoegd<lb/>
 - (gelijk sulx nogtans door hem was gepractiseerd) om met praeteritie van de<lb/>
 
 <pb n="39" tpl="2" vol="11" facs="232_039"/>
-proceduren ad torturam3 tegens Goela over soo een sware en grasserende misdaad,<lb/>
+proceduren ad torturam<fref ref="3"/>  tegens Goela over soo een sware en grasserende misdaad,<lb/>
 waartoe absolut de doodstraffe was staande, ten principalen een minderen eysch op<lb/>
 eenige futiele argumenten gefundeerd uyt te brengen.<lb/>
 </para>
@@ -723,7 +725,7 @@ excuse konde dienen dat Goela zoowel als Sineni op het aanhoren van des fiscaals
 eysch en conclusie bij weege van antwoord schuld bekend, mitsgaders vergiffenis<lb/>
 en genade versogt zoude hebben, vermits dit voor geen confessie, veel minder voor een<lb/>
 genoegsame confessie konde gehouden werden om daarop een gevangene te konnen<lb/>
-straffen, aangesien de inlanders doorgaans gewoon waren ampon4 te versoeken, waarmede<lb/>
+straffen, aangesien de inlanders doorgaans gewoon waren ampon<fref ref="4"/>  te versoeken, waarmede<lb/>
 geen schuldbekentenisse maar simpel een onderdanigheyd en een vergiffenis<lb/>
 van het quaad dat sij souden mogen gedaan hebben door haar betekend wierde.<lb/>
 </para>
@@ -773,11 +775,12 @@ Compagnie gelicht worden. Streng verboden is ook het in dienst nemen van soldate
 pen, zoals bij Carolus Johannes de Rhee was gebeurd, en het verplaatsen van personeel van<lb/>
 de ene functie naar de andere.<lb/>
 </remark>
-<fnote><super>3</super> Met praeteritie van de proceduren ad torturam, met voorbijgaan van de procedures tot de tortuur.<lb/>
+<fnote ref="3">Met praeteritie van de proceduren ad torturam, met voorbijgaan van de procedures tot de tortuur.<lb/>
 <lb/>
 </fnote>
-<fnote><super>4</super> Ampon, ampun, vergiffenis, genade.<lb/>
+<fnote ref="4">Ampon, ampun, vergiffenis, genade.<lb/>
 </fnote>
+
 <pb n="40" tpl="2" vol="11" facs="232_040"/>
 
 <para>Makassar<lb/>
@@ -937,7 +940,7 @@ voortaan in beslag te neemen, heeft ons almede veel te slap toegescheenen en nie
 
 <pb n="43" tpl="2" vol="11" facs="232_043"/>
 handelt met dien ernst als het gewigt der zaeke vereyschte, en daarom geordonneert dat<lb/>
-indien dese of eenige andere vorst op Celebes gepexeert5 hebbende tegens de regelen<lb/>
+indien dese of eenige andere vorst op Celebes gepexeert<fref ref="5"/>  hebbende tegens de regelen<lb/>
 van het bondgenoodschap en satisfactie te geeven blijft weygeren, alsdan middelen met<lb/>
 de overige bondgenoten te beramen den sodanige na de swaarte der overtredinge te<lb/>
 doen straffen.<lb/>
@@ -989,8 +992,9 @@ door de onderkoopman Jan Anthony Meulenbeek,<lb/>
 <para>
 - welken wij nevens onse missive van den 24e deser per gemelde brigantijn<lb/>
 
-<fnote><super>5</super> Gepexeert, van het Latijnse peccare, zondigen.<lb/>
+<fnote ref="5">Gepexeert, van het Latijnse peccare, zondigen.<lb/>
 </fnote>
+
 <pb n="44" tpl="2" vol="11" facs="232_044"/>
 hebben derwaarts gesonden teneynde van den boekhouder Brandenburg den ommeslag<lb/>
 aldaar over te neemen en met aanschrijving aan de bediendens om dien bodem na<lb/>
@@ -1144,7 +1148,7 @@ te kopen. Commissaris Abraham Aarnouts kreeg hiertoe 20.000 rsd aan ducatons mee
 winst en verlies afgeschrevene ƒ35.179,1,8 ligt geld die in questie zijn te tellen, nu weder<lb/>
 door ons besluyt van den 2 1
 <super>e</super> en 25e junij passato om de voor dat hoff ontbodene<lb/>
-chierpen6 voor hetgeene gelden willen te verkopen, en het minder rendement dan 50<lb/>
+chierpen<fref ref="6"/>  voor hetgeene gelden willen te verkopen, en het minder rendement dan 50<lb/>
 percento dien vorst op reeckening te stellen, nu weder veragtert is ƒ 1 588,7,- ligt geld,<lb/>
 sijnde sooveel de voorsz. chierpen minder dan die bepalinge gehaalt hebben en de<lb/>
 reeckening en het verschil van reeckening met den berquelang en de klangsvolkeren<lb/>
@@ -1174,6 +1178,7 @@ door het binnenlopen van de thee- of naschepen met die papieren aan boord.<lb/>
 </remark>
 <fnote ref="6"><emph>Chierp, sjerp.</emph><lb/>
 </fnote>
+
 <pb n="47" tpl="2" vol="11" facs="232_047"/>
 
 <para>China<lb/>
@@ -1658,7 +1663,7 @@ Hinseley nog een zwaar touw overgenomen i.p. v. een
 ‘ onbequaam '. Het retourschip Bosbeek<lb/>
 had een nieuw vijgertouw overgenomen, de Schonauwen een touw uit Nederland, en de<lb/>
 Voorduin twee kayirutouwen, allemaal i.p.v.
-<super>4</super> onbequame '.<lb/>
+<fref ref="7"/>  onbequame '.<lb/>
 »</remark>
 <para>
 Schoon de overheeden dier bodems bij hare communicatiebriefjes daarvan geen<lb/>
@@ -1890,7 +1895,7 @@ het transport der goederen, teneynde expresse reysen uyt te winnen.<lb/>
 <para>
 - waardoor niet alleen 2000 pees goenijs, tot desselfs lading geprojecteerd,<lb/>
 niet had kunnen inneemen, maar selfs niet volgens verklaring de 100 haar door de<lb/>
-mangie7 of stuurman van het losvaartuyg te laste gebragt.<lb/>
+mangie<fref ref="8"/>  of stuurman van het losvaartuyg te laste gebragt.<lb/>
 </para>
 <remark>«Als retour uit Bengalen heeft men de volgende schepen aangelegd: de West hoven<lb/>
 voor Zeeland, de Phoenix en de Lis voor Amsterdam en de Nieuwstad voor Hoorn,<lb/>
@@ -1949,8 +1954,9 @@ personeel moet naar Batavia gestuurd worden. Het aantal ambachtslieden, militair
 zeevarenden is eveneens teruggebracht, zoals beschreven in de brief van 6 augustus 1 743.<lb/>
 Tevens heeft Batavia een akte van remissie naar Bengalen gestuurd<lb/>
 »</remark>
-<fnote><super>7</super> Mangie, manjee, stuurman.<lb/>
+<fnote ref="8">Mangie, manjee, stuurman.<lb/>
 </fnote>
+
 <pb n="60" tpl="2" vol="11" facs="232_060"/>
 
 <para>- voor den gewezen Mochasen resident Willem van den Berg, insooverre hij<lb/>
@@ -2148,7 +2154,7 @@ voortgang.<lb/>
 Engelsen betalen ook meer, ,<lb/>
 »</remark>
 <para>
-- die ook eenige onser voorkopers tot Sjoppra hadden gedeboseert8, dog door<lb/>
+- die ook eenige onser voorkopers tot Sjoppra hadden gedeboseert<fref ref="9"/> , dog door<lb/>
 de resident weder onder bedwang gebragt voor een spendatie van 340 ropia’s aan eenige<lb/>
 jimidaars. De restanten van dat zilt in de pakhuysen tot Houglij waren nog groot<lb/>
 3.092.063 lb., ofte 20.600 sacken, en te Pattena 470 sacken, uyt 1800 maon ruwe zilt<lb/>
@@ -2194,8 +2200,9 @@ Abdul Mansoerchan, om van affront bevrijd te blijven, tot groot disrespect van d
 Compagnie, sijnde nu met veel distinctie onthaald en door Zijn Excellentie beschonken<lb/>
 met een fraye eerekleet en een carstanjebruyn Turkse hengst ter waarde van ropia’s<lb/>
 
-<fnote><super>8</super> Gedeboseert, van het Franse débaucher, tot staking, desertie overhalen.<lb/>
+<fnote ref="9">Gedeboseert, van het Franse débaucher, tot staking, desertie overhalen.<lb/>
 </fnote>
+
 <pb n="65" tpl="2" vol="11" facs="232_065"/>
 600, waartegens dese personeele visite de Compagnie quam te kosten ropia’s 700, 10§<lb/>
 anes, en de contrapresenten, na ’s lands wijse onvermijdelijk ƒ1842,3,8 in- ofte<lb/>
@@ -2772,14 +2779,15 @@ Nagapatnam en dorpen vooruyt, alsmede te wille geweest in de uytkeeringe van 108
 pagoden voor de helft van twee verkogte vaartuygen van twee arme Naoerders, en vermeenden<lb/>
 de ministers dat de Compagnie bij dese vreede vrij meer quam te profiteeren<lb/>
 dan off al het aangehaalde onder haar gebleven was, aangesien de vragtolens van neutrale<lb/>
-vrij meer dan tweemaal sooveel quamen te bedragen als aan de barquiers9 wierde<lb/>
+vrij meer dan tweemaal sooveel quamen te bedragen als aan de barquiers<fref ref="10"/>  wierde<lb/>
 gerestitueerd, behalven dat den gouverneur van voorsz. Ajengaar ook nog verkregen<lb/>
 hadde een ordre ter restitutie van 220 pagoden, tot Manaar aan de barcquiers verstrekt,<lb/>
 en 250 dito’s van een ’s Compagnies coopman, nevens 25 morgen lands tot uytbreydinge<lb/>
 harer limiten aan de noordzijde, oversulx men na hare stellinge hierdoor voldaen<lb/>
 
-<fnote><super>9</super> Barquier, barkier: champanotty, bestuurder van een sampan bij de parelvisserij op Ceylon.<lb/>
+<fnote ref="10">Barquier, barkier: champanotty, bestuurder van een sampan bij de parelvisserij op Ceylon.<lb/>
 </fnote>
+
 <pb n="75" tpl="2" vol="11" facs="232_075"/>
 krijgende alle de ongelden en schade van de Compagnie nevens het verlies dat de dorpelingen<lb/>
 door de woeste Tansjoerse krijgers aan hare woningen hadden geleden, zij<lb/>
@@ -3418,9 +3426,10 @@ Persiën of geheel Indiën door voor 60 stuyvers swaar geld laat aanneemen, nade
 sulks dog bijna om het even is als men de verkoopsprijsen daarna bedingen kan en men<lb/>
 hierdoor des te meer staat op die van desen handel sal kunnen maken wanneer zij soo<lb/>
 
-<fnote><super>10</super> Tussen fol. 963 en 964 bevindt zich een ongenummerd folio, waarop het getranscribeerde gedeelte<lb/>
+<fnote ref="11">Tussen fol. 963 en 964 bevindt zich een ongenummerd folio, waarop het getranscribeerde gedeelte<lb/>
 staat.<lb/>
 </fnote>
+
 <pb n="86" tpl="2" vol="11" facs="232_086"/>
 goedkoop contanten daarvoor kunnen ontfangen, dat den tijd kan leeren en in het vervolg<lb/>
 ook wel doen egualiseeren met de overige comptoiren van negotie in die quartieren.<lb/>
@@ -3548,8 +3557,6 @@ en van de assistent Jan George Schemming. De verantwoording vond Batavia zeer ve
 en tegenstrijdig en men had deze uit Perzisch oogpunt beter achterwege kunnen laten.<lb/>
 Zo bleek<lb/>
 »</remark>
-<fnote><super>1 1</super> Fol. 978 is dubbel geteld, nl. 978a en 978b.<lb/>
-</fnote>
 <pb n="88" tpl="2" vol="11" facs="232_088"/>
 
 <para>- de 9850 lb. peper van Steenhoven, die zij alsnu bij hare voornoemde schrijven<lb/>
@@ -4263,7 +4270,7 @@ en besnoeyen somtijds ses, agt en meer percento’s te ligt zijn, dat ook al in 
 van ducatons na Bengale, die hier in cassa ontfangen waren, is ontdekt; en<lb/>
 dan soude men inderdaad gelijk hebben, en U Ed. Hoogagtb. sullen dat met weynigen<lb/>
 begrijpen, als men de eere heeft haar te demonstreeren, dat de reaal of het negende gedeelte<lb/>
-van een mark ruym tot negenensestig stuyvers haar12 geld alhier souden moeten<lb/>
+van een mark ruym tot negenensestig stuyvers haar<fref ref="12"/>  geld alhier souden moeten<lb/>
 werden ingewisseld, als het silver van elf penningen vier greyn was of gelijkstandig met<lb/>
 dat van de ducatons, om soo hoog in prijs te sijn als 78 stuyvers swaar geld voor een ducaton<lb/>
 of 2 1
@@ -4271,9 +4278,8 @@ of 2 1
 guldens en sestien stuyvers het mark van het genoemde essay, en sestig stuyvers swaar<lb/>
 geld voor de reaal, van tien penningen twaalff greyn, berekent naar vierensestig stuy-<lb/>
 
-<fnote ref="12"><ref>Lett. haar, moet zijn zwaar.</ref><lb/>
-<super>13</super> Het aantal stuivers wordt niet genoemd.<lb/>
-</fnote>
+<fnote ref="12"><ref>Lett. haar, moet zijn zwaar. </ref></fnote>
+
 <pb n="101" tpl="2" vol="11" facs="232_101"/>
 vers schaars voor datselfde gewigt aan silver van elf penningen en vier greyn, soodat het<lb/>
 inderdaad vijff stuyvers ruym op de negenensestig of seven en een vijfde percento ruym<lb/>
@@ -4316,7 +4322,7 @@ in desen niet absoluut admissibel is, en daarom soude die reeckening vooral niet
 uytkomen met oude wigtige Hollandsche ducatons, waarvan sesthien pees 2g marcq of<lb/>
 19 realen komen uyt te maken, welke sestien ducatons, tegens agtenseventig stuyvers<lb/>
 swaar geld ingewisseld, de reaal zilver soude doen kosten vijffensestig en dertien negentiende<lb/>
-sware stuyvers, verschillende alsoo maar ... stuyvers13 schaars op de reaal of<lb/>
+sware stuyvers, verschillende alsoo maar ... stuyvers<fref ref="13"/>  schaars op de reaal of<lb/>
 18 stuyvers op het markt met het bovengenoemde zilver als het volgens de genomene<lb/>
 resolutie Bengale aangerekent was, sijnde 3£ percento en als men sonder onderscheyd<lb/>
 de soorten en sonder computatie van het gewigt der ducatons tot de vorige klare bereeckeninge<lb/>
@@ -4326,8 +4332,9 @@ moet wigtig en goed van alloy sijn, op die munt niet meer dan 15 percento en gev
 ook niet meer verliest als op de voorsz. zilverwerken in Bengale bij vermuntinge<lb/>
 verloren zijn, volgens hetgeene bij die beschrijvinge van den 1 0e jan. 1741 werd g’avan-<lb/>
 
-<fnote><super>13</super> Het aantal stuivers wordt niet genoemd.<lb/>
+<fnote ref="13">Het aantal stuivers wordt niet genoemd.<lb/>
 </fnote>
+
 <pb n="102" tpl="2" vol="11" facs="232_102"/>
 ceert, maar integendeel soude de Compagnie nog aan de slegtste koop zijn met de opwisselinge<lb/>
 van sulk zilver voor 60 stuyvers de reaal, als men de reeckening opmaakte tegens<lb/>
@@ -4580,7 +4587,7 @@ Vermits dese aanhalingen op fundament van die articulen sonder forme of feguur<l
 van proces sijn geschiet, soo is het ook om even die reden dat men den waterfiscaal, mr.<lb/>
 Jan Henrik van Panhuys, tenminsten sooveel het eerste kleyne partijtje aangaat, bij resolutie<lb/>
 van den 1
-<super>0</super> november passato daarvan niets heeft toegelegt, en over het tweede<lb/>
+<fref ref="14"/>  november passato daarvan niets heeft toegelegt, en over het tweede<lb/>
 geval, van sooveel meer importantie, heeft hij sig tot op het schrijven van desen nog niet<lb/>
 g’addresseert, hoewel hij vermeent dat hem, al was het ook maar ingevolge U Ed.<lb/>
 Hoogagtb. genereuse belofte over den thans g’eradiceerden amphioen, bij missive van<lb/>
@@ -4632,7 +4639,7 @@ als lijfwacht en voor plotselinge expedities, te rekenen.<lb/>
 
 <pb n="106" tpl="2" vol="11" facs="232_106"/>
 <para>Als men verder gaat en de battaillons van 6 compagnieën a 130 koppen primo<lb/>
-plan14 ieder als sterk genoeg om wel gadegeslagen te werden komt te rekenen, dan sal<lb/>
+plan<fref ref="15"/>  ieder als sterk genoeg om wel gadegeslagen te werden komt te rekenen, dan sal<lb/>
 bij confrontatie der guarnisoenen in de oostersche provintiën selfs van den ouden tijd<lb/>
 en de importantie van die posten in dese tijd U Ed. Hoogagtb. kunnen blijken dat die<lb/>
 quartieren ieder nodig hebben een geheel battaillon, om gerust te sijn dat alles en daaronder<lb/>
@@ -4729,8 +4736,8 @@ diepte gehouden worden door de stroom die de bank voor de rivier door het meegen
 afval doet verzanden in twee armen te splitsen, nl. ten oosten en ten westen van de stad. Als<lb/>
 waterleiding wordt voorgesteld een aquaduct met drie stenen buizen, die te Bantam gebak-<lb/>
 </remark>
-<fnote ref="14"><ref>Primo plan, volgens het eerste plan.</ref><lb/>
-</fnote>
+<fnote ref="15"><ref>Primo plan, volgens het eerste plan. </ref></fnote>
+
 <pb n="107" tpl="2" vol="11" facs="232_107"/>
 
 <remark>om er een eskadron dragonders op te richten. Batavia had graag de drie beloofde majoors<lb/>

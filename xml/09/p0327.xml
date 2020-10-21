@@ -165,7 +165,7 @@ opperhooft zodanig in verlegentheyd heeft gebragt, dat bij Pattanaas schrijvens 
 een jaar te mogen overblijven.<lb/>
 </para>
 <remark>«De zaak lijkt gunstig te zullen aflopen. Op 18 november is de eerste Patnase bezending<lb/>
-voorspoedig te Hooghly aangekomen , van de tweede door een zware storm twee pattalas1<lb/>
+voorspoedig te Hooghly aangekomen , van de tweede door een zware storm twee pattalas<fref ref="1"/> <lb/>
 met salpeter verongelukt tussen 7 en 8 december. Wegens de lage waterstand van de rivier<lb/>
 en het droogvallen van de Murshiase zandbanken heeft men opium en artillerie een eindweegs<lb/>
 over land moeten vervoeren: kosten per pak 3 ropia en per kist opium 2, een plunjekist<lb/>
@@ -202,10 +202,10 @@ Nederlandse Compagnie, in name Rajaram, volgens het seggen van dikgemelte Chijru
 tot voorsz. afgave zoude bewilligt hebben.<lb/>
 </para>
 
-<fnote><super>1</super> Pattalas, bengaals pateli, platbodem schip, op de Ganges gebruikt voor transport van salpeter en<lb/>
+<fnote ref="1">Pattalas, bengaals pateli, platbodem schip, op de Ganges gebruikt voor transport van salpeter en<lb/>
 andere goederen.<lb/>
-ref="2"><ref>Namptiseren komt van nantir, een onderpand stellen.</ref><lb/>
 </fnote>
+
 <pb n="330" tpl="2" vol="09" facs="205_330"/>
 <remark>«Na de inbeslagname van de Nederlandse gelden hebben de troepen van de nawab de<lb/>
 Engelse loge te Kasimbazar bezet. De Engelsen polsen de Nederlanders over een gezamenlijke<lb/>
@@ -252,7 +252,7 @@ Rajaram ervan<lb/>
 Hollanders een goede en secure borg hadden. Ten tweden, men rapport had ontfangen<lb/>
 de portie der Hollanders gereed was. Ten derden dat eenige hofministers haar geraden<lb/>
 hadden het exempel der Hollanders te volgen om elders zodanige somma gelds te namp-<lb/>
-tiseeren2 dat den nawab aldaar altijd het bedragen konde vinden - waarbij dan ook<lb/>
+tiseeren<fref ref="2"/>  dat den nawab aldaar altijd het bedragen konde vinden - waarbij dan ook<lb/>
 nog komt, niet alleen dat het Cassembazaars Engels opperhooft met stilswijgen had gepasseert<lb/>
 het verwijt van Chijrullabeek , dat Herrij Kirsten de voorsz. voldoening belooft<lb/>
 had, maar ook derselver ontdekte sinistre toeleg in het formeeren van zeeker klagtschrift,<lb/>
@@ -262,8 +262,8 @@ Nederlandse Compagnie was toebehoorende, en waardoor zekerlijk den nawab een nie
 pretentie zoude gemaekt hebben onder voorgeeving men het silver der Engelse, nevens<lb/>
 dat van U Ed. Hoogagtb. op een clandestine wijse in ’s conings munt (waarvan deselve<lb/>
 
-<fnote ref="2"><ref>Namptiseren komt van nantir, een onderpand stellen.</ref><lb/>
-</fnote>
+<fnote ref="2"><ref>Namptiseren komt van nantir, een onderpand stellen. </ref></fnote>
+
 <pb n="331" tpl="2" vol="09" facs="205_331"/>
 uytgesloten zijn) liet verstempelen, hetwelke dan ook ligtelijk zoude hebben veroorsaekt<lb/>
 Zijn Hoogheid geen swarigheyd hadde gemaekt het restand van de te dier tijd in de munt<lb/>
@@ -437,10 +437,11 @@ verzonden 2759 pakken lijnwaden en kleden. Door een schip uit China te Pulicat a
 Ib peper; 2759 stukken lijnwaad door een brigantijn naar Malakka en door een thoni naar<lb/>
 Ceylon gebracht. Verder wordt gemeld<lb/>
 »</remark>
-<fnote><super>3</super> Thioli mandosti, wortel waaruit verf werd bereid, volgens
+<fnote ref="3">Thioli mandosti, wortel waaruit verf werd bereid, volgens
 <emph>Beschrijvinge</emph> 2e boek, deel II, 461, was<lb/>
 mandosti een andere naam voor ruinaswortels.<lb/>
 </fnote>
+
 <pb n="334" tpl="2" vol="09" facs="205_334"/>
 
 <para>
@@ -782,8 +783,8 @@ schafthuis te Pasuruan wordt gewerkt. Toestemming herbouw hospitaal en gevangeni
 Semarang
 , aangezien<lb/>
 »</remark>
-<fnote ref="4"><ref>Tranquen. kleine open vaartuigen.</ref><lb/>
-</fnote>
+<fnote ref="4"><ref>Tranquen. kleine open vaartuigen. </ref></fnote>
+
 <pb n="340" tpl="2" vol="09" facs="205_340"/>
 
 <para>
@@ -877,7 +878,7 @@ pasmunt.<lb/>
 ƒ 81.912; nog in voorraad was 900 bahar. Op 29 februari de Oudenaarde opnieuw voor<lb/>
 Bantam bestemd met 25.000 Spaanse realen. De vorst een schenking van twee Ib kruidnagels<lb/>
 en één Ib kaneelolie gedaan. Personalia. Een Europese korporaal en twee soldaten omgekomen<lb/>
-bij een overval door slaven op hun prauw majang5. De sultan heeft zich na zijn<lb/>
+bij een overval door slaven op hun prauw majang<fref ref="5"/> . De sultan heeft zich na zijn<lb/>
 ziekte op 16 februari voor het eerst weer buiten zijn dalem vertoond om te baden , met enige<lb/>
 vrouwen , kinderen en een groot gevolg. De voorraad peper is aangegroeid tot 1000 bahar.<lb/>
 Er zijn 1000 passen aan het personeel gezonden en 100 zegels. Op 7 maart was de pepervoorraad<lb/>
@@ -897,8 +898,9 @@ vreest dat de P alias, Heinkenszand en Schuitwijk in de bocht van Guinee zijn ve
 hetgeen<lb/>
 »</remark>
 
-<fnote><super>5</super> Prauw majang, soort vissersvaartuig.<lb/>
+<fnote ref="5">Prauw majang, soort vissersvaartuig.<lb/>
 </fnote>
+
 <pb n="342" tpl="2" vol="09" facs="205_342"/>
 <para>
 - al veelmaals het lot schijnt te weesen der schepen die wat laat in het voorjaar<lb/>

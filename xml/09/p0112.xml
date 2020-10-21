@@ -241,7 +241,7 @@ bovendien nog f 2.219.278 heengezonden<lb/>
 »</remark>
 <para>Terwijl men ons al verder communiceert dat den g’aufugeerden prins uyt sijne detentie<lb/>
 van de Hillij
-<super>1</super> , in name Sa ben Sjah, zijnde een agterkleenzoon van den vermaerden<lb/>
+<fref ref="1"/>  , in name Sa ben Sjah, zijnde een agterkleenzoon van den vermaerden<lb/>
 Orang Seeb, beneden Agra geattrapeert, weder ten hove gevoert en in zijne vorige gevankenisse<lb/>
 opgesloten is. Mitsgaders dat de Zuydlanders met een leger van 20 a 30.000 ruyters<lb/>
 in Gousouratta waren gevallen en dat den viceroy van Agra zig tegens haar te velde<lb/>
@@ -257,9 +257,8 @@ Waker d.d. 26 mei is gebleken dat de handel weer is opengesteld, de aanbesteding
 lijnwaden reeds is gedaan en dat de Linschoten in oktober zou vertrekken.<lb/>
 </remark>
 
-<fnote ref="1"><ref>Verschrijving voor Delhi.</ref><lb/>
-ref="2"><ref>Gaas, gas of casbegis, 20 casbegis vormden 1 mahmudi.</ref><lb/>
-</fnote>
+<fnote ref="1"><ref>Verschrijving voor Delhi. </ref></fnote>
+
 <pb n="116" tpl="2" vol="09" facs="205_116"/>
 <subhead>COROMANDEL</subhead>
 <remark>
@@ -277,7 +276,7 @@ de Pulicatse ropias. Te Nagapattinam was op 13 februari f 2.088.447 in kas
 nog vermeerderd met 30.000 pagoden uit Sadras en Machilipatnam. De 1700 bahar koperen<lb/>
 munten, door de Engelsen en Fransen te Madras en Pondicherry aangevoerd, zijn verkocht<lb/>
 voor 78 tot 80 pagode per bahar. De kwaliteit was gelijk aan die van Japans staafkoper;<lb/>
-het zijn vermoedelijk Perzische gaas2. De munt vond veel aftrek. In Noord- Coromandel is<lb/>
+het zijn vermoedelijk Perzische gaas<fref ref="2"/> . De munt vond veel aftrek. In Noord- Coromandel is<lb/>
 nog geen verbetering ingetreden door het optreden van Nizam-ul-Mulk. Daarom zijn de<lb/>
 vestigingen te Palicol en Datcheron gesloten. Men wacht de gevolgen te Machilipatnam af<lb/>
 »</remark>
@@ -320,8 +319,8 @@ De retourschepen de Duinbeek, Adrichem en Alblasserdam hebben vandaar voor<lb/>
 van de Siamese koning, die schreven behouden te zijn teruggekeerd met het schip van de<lb/>
 Moorse koopman Mohammad Ali. De gezaghebber Phoonsen en zijn raad schreven<lb/>
 »</remark>
-<fnote ref="2"><ref>Gaas, gas of casbegis, 20 casbegis vormden 1 mahmudi.</ref><lb/>
-</fnote>
+<fnote ref="2"><ref>Gaas, gas of casbegis, 20 casbegis vormden 1 mahmudi. </ref></fnote>
+
 <pb n="117" tpl="2" vol="09" facs="205_117"/>
 
 <para>
@@ -392,7 +391,7 @@ den voorengenoemden generaal Thamas Coelichan voor reeckening van zijnen meester
 de stad Chiraas heeft verovert mitsgaders dat volgens de gerugten der Spahansen secunde<lb/>
 Jelmer Laan met eenige goederen in die verwoestinge is omgekomen. Voorts dat den<lb/>
 Batsia tot Basjoura op het ontfangen van een brief van den resident tot Constantinopolen,<lb/>
-de heer Cornelis Calkoen3 zeer groote beloften had gedaan dog deselve in het vervolg<lb/>
+de heer Cornelis Calkoen<fref ref="3"/>  zeer groote beloften had gedaan dog deselve in het vervolg<lb/>
 geensints gepresteert. Maar de bedientens genoegsaam door gewelt genootsaakt aan hem<lb/>
 ter leen te geven, om op de thollen verrekent te werden ƒ 8712,7,- buyten nog eenige<lb/>
 geschencken aan hem en andere gedaan. Oversulx U Edele Hoog Agtb. dan zeer ligt<lb/>
@@ -429,10 +428,11 @@ dat de kaneel uit Mindanao<lb/>
 - niet alleen is een zeer wilde soorte die nergens toe kan werden g’employeert,<lb/>
 maar ook alomme in dese landen in sodanige quantiteyt wert gevonden, onder de naam<lb/>
 
-<fnote><super>3</super> Cornelis Calkoen (Amsterdam 1969-’s Gravenhage 1764), ambassadeur aan de Sublime Porte 17261744.<lb/>
+<fnote ref="3">Cornelis Calkoen (Amsterdam 1969-’s Gravenhage 1764), ambassadeur aan de Sublime Porte 17261744.<lb/>
 Hij verwierf voor de VOC het recht dat te Basra dezelfde privileges zouden gelden als elders<lb/>
 in het Turkse rijk, nl. een heffing van 3% invoerrechten.<lb/>
 </fnote>
+
 <pb n="119" tpl="2" vol="09" facs="205_119"/>
 van cassea lignea, dat het onmogelijk is deselve uyt te roeyen. En selfs alhier op de<lb/>
 publicque bazaar voor zeer geringen prijs wert verkogt aan den inlander die deselve ten<lb/>
@@ -545,7 +545,7 @@ minste reticentie werden behandelt.<lb/>
 <remark>«Engelse schepen zonder pas zullen van de rede van Batavia worden geweerd. De<lb/>
 burgerij zal tot de theehandel worden aangemoedigd. Men verwacht dat de Altonase of<lb/>
 Deense handel
-<super>4</super> vanzelf zal verdwijnen als gevolg van de grote inkoop door de Compagnie.<lb/>
+<fref ref="4"/>  vanzelf zal verdwijnen als gevolg van de grote inkoop door de Compagnie.<lb/>
 Een proef thee in Japan verkopen lijkt weinig succes te zullen hebben<lb/>
 »</remark>
 <para>
@@ -570,7 +570,7 @@ der resolutie van den 21
 mogelijk is gesorgt, van welke voormelte suspecte uytgesondene vaartuygen niet meer<lb/>
 dan een is agterhaalt met drie Chineesen en een Balijsen praauwvoerder die men ter<lb/>
 examinatie aan den regter heeft overgegeven, en bij manquement van bewijsen op den<lb/>
-5en julij daaraanvolgende met een laarsinge5 agter het stadhuys deser steede zijn vrij<lb/>
+5en julij daaraanvolgende met een laarsinge<fref ref="5"/>  agter het stadhuys deser steede zijn vrij<lb/>
 geraakt. Maar ook bij die van den 30en may passado konnen werden beoogt wat men in<lb/>
 volle vergaderinge de scheepsoverheeden na dese en gene comptoiren vertreckende heeft<lb/>
 gelast en aanbevolen ten opsigte van het overbrengen der volumineuse bestelpacken en<lb/>
@@ -598,12 +598,11 @@ coucheeren en tekenen van gemelte geschrift en de resolutie ten dien subjecte ge
 zijn voorgevallen, geensints twijffelende of U Ed. Hoog Agtb. zullen door dese onbeschaamde<lb/>
 en superbe menschen (waaronder egter nog wel goede te vinden zijn , tenminsten<lb/>
 
-<fnote><super>4</super> Vermoedelijk wordt hier bedoeld Det Kongelige Octroyerede Danske Asiatiske Compagnie, 17321772.<lb/>
+<fnote ref="4">Vermoedelijk wordt hier bedoeld Det Kongelige Octroyerede Danske Asiatiske Compagnie, 17321772.<lb/>
 <lb/>
 </fnote>
-<fnote ref="5"><ref>Laarsinge, straf voor schepelingen waarbij slagen werden toegediend met een dik eind touw.</ref><lb/>
-ref="6"><ref>Veniam agendi, toestemming in rechten op te treden.</ref><lb/>
-</fnote>
+<fnote ref="5"><ref>Laarsinge, straf voor schepelingen waarbij slagen werden toegediend met een dik eind touw. </ref></fnote>
+
 <pb n="122" tpl="2" vol="09" facs="205_122"/>
 na den uyterlijke aanschouw) die anderen door leer en leven behoorden te verstrecken<lb/>
 tot een exempel van nedrigheyt en modestie, alwederom met nieuwe klagten en taedieuse<lb/>
@@ -611,7 +610,7 @@ versoeken werden g’incommodeert. Niettemin zullen w’van onse zijde, ingevolg
 begeerte van U Edele Hoog Agtb. zorge dragen dat gemelte predicanten door<lb/>
 luyden van eenen minderen rang, waarinne deselve bij geciteerde onse resolutie tot nader<lb/>
 ordre van U Edele Hoog Agtb. zijn gelaten, niet zullen werden betrocken in regten dan<lb/>
-na bekomen veniam agendi6, en middelerwijle niet nalaten evengemelte leeraaren tot<lb/>
+na bekomen veniam agendi<fref ref="6"/> , en middelerwijle niet nalaten evengemelte leeraaren tot<lb/>
 voorstant van den waren godsdienst, na merites in alle billikheyt te protogeren en mainctineeren.<lb/>
 <lb/>
 </para>
@@ -619,11 +618,11 @@ voorstant van den waren godsdienst, na merites in alle billikheyt te protogeren 
 wordt door G.-G. en Raden afgewezen. Het verpachten van de boom en van de licenten<lb/>
 zou tot schade voor de Compagnie en veel moeilijkheden tussen de onderdanen leiden. Het<lb/>
 onderzoek naar een klimop die een bijzonder fraaie blauwe kleurstof zou leveren , volgens<lb/>
-wijlen G.-G. Zwaardecroon} heeft geleid tot overzending van de Javaanse plant tom-rambat7.<lb/>
+wijlen G.-G. Zwaardecroon} heeft geleid tot overzending van de Javaanse plant tom-rambat<fref ref="7"/> .<lb/>
 Het sap zou door de bevolking worden gebruikt om het haar te verven en er kinderen<lb/>
 mee in te smeren. Hoe er verf uit te maken valt moet men in Europa uitvinden. Ook gaat<lb/>
 een bericht over betreffende verschilende andere klimgewassen , o.a. de foula krika (Port.)<lb/>
-en de kembang telang8 van de Maleiers , Baliërs, Javanen en Makassaren , waarvan de<lb/>
+en de kembang telang<fref ref="8"/>  van de Maleiers , Baliërs, Javanen en Makassaren , waarvan de<lb/>
 bloemen een mooie blauwe verf beloven te geven,<lb/>
 »</remark>
 <para>
@@ -653,12 +652,10 @@ voor de terugreis nauwkeurig te doen breeuwen, ter vermijding van moeilijkheden 
 het schip Blijdorp in 1728 heeft gehad. Men bedankt voor de<lb/>
 »</remark>
 
-<fnote ref="6"><ref>Veniam agendi, toestemming in rechten op te treden.</ref><lb/>
-</fnote>
-<fnote ref="7"><ref>Tom-rambat, een indigofera.</ref><lb/>
-</fnote>
-<fnote ref="8"><ref>Foula krika of kembang telang, clitorea ternatea.</ref><lb/>
-</fnote>
+<fnote ref="6"><ref>Veniam agendi, toestemming in rechten op te treden. </ref></fnote>
+<fnote ref="7"><ref>Tom-rambat, een indigofera. </ref></fnote>
+<fnote ref="8"><ref>Foula krika of kembang telang, clitorea ternatea. </ref></fnote>
+
 <pb n="123" tpl="2" vol="09" facs="205_123"/>
 <para>
 - gegevene communicatie omtrent de aanstaande voldoeninge van onsen eysch<lb/>
@@ -1245,10 +1242,9 @@ Bengaalse Coopmanschappen, als<lb/>
 <cell n="119" row="48" col="4"></cell>
 </row>
 </table>
+<para>ƒ 663.968,13, -<lb/>
+</para>
 
-<fnote>ƒ 663.968,13, -<lb/>
-ƒ 943.460, 1,<lb/>
-</fnote>
 <pb n="126" tpl="2" vol="09" facs="205_126"/>
 <table n="120">
 <row n="120" row="1">
@@ -1539,9 +1535,9 @@ Bengaalse Coopmanschappen, als<lb/>
 <cell n="121" row="19" col="5">8</cell>
 </row>
 </table>
+<para>ƒ 943.460, 1,<lb/>
+</para>
 
-<fnote>ƒ 943.460, 1,<lb/>
-</fnote>
 <pb n="127" tpl="2" vol="09" facs="205_127"/>
 480 p.sdito grove<lb/>
 5000 p.ssawagesjeswitte<lb/>

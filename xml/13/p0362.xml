@@ -547,6 +547,7 @@ meer dan
 </remark>
 <fnote ref="1"><emph>Ten rechte rsd 377.</emph><lb/>
 </fnote>
+
 <pb n="371" tpl="2" vol="13" facs="258_371"/>
 
 <para>Makassar<lb/>
@@ -1415,11 +1416,11 @@ opgedragen hier niet op in te gaan, de hoeden zo goed mogelijk te verkopen en he
 <cell n="277" row="11" col="2">ƒ 290,</cell>
 </row>
 <row n="277" row="12">
-<cell n="277" row="12" col="1"><fref ref="2"/> aan ongelden</cell>
+<cell n="277" row="12" col="1">2) aan ongelden</cell>
 <cell n="277" row="12" col="2">ƒ 3.755,17,8</cell>
 </row>
 <row n="277" row="13">
-<cell n="277" row="13" col="1"><fref ref="1"/> „ equipagiegoederen</cell>
+<cell n="277" row="13" col="1">1) „ equipagiegoederen</cell>
 <cell n="277" row="13" col="2">ƒ 42,10-</cell>
 </row>
 <row n="277" row="14">
@@ -2185,7 +2186,7 @@ op grond van onvermogen en verliezen in 1757, is in overweging genomen.<lb/>
 <para>Waarop wij aanmerkten dat de van jaar tot jaar van den beginne af gesteygerde<lb/>
 boomsinkomsten, een zodanig versoek weynig valeur konde bijzetten, wanneer wij<lb/>
 teffens niet hadden in aanmerking genomen, gelijk ons ten vollen bekend is, dat<lb/>
-geduurende de laatste onlusten Malacca en derzelver envierons2 al menigmalen zijn<lb/>
+geduurende de laatste onlusten Malacca en derzelver envierons<fref ref="2"/>  al menigmalen zijn<lb/>
 omcingeld geweest van vijandig gespuys, en daaruyt hebben opgemaakt het merkelijk<lb/>
 verval in den handel en de hem pagter daardoor toegebragte schadens. Overzulx<lb/>
 een billijke inschikkelijkheid meriteert om hem voor eene totale ruïne te bevrijden,<lb/>
@@ -2237,10 +2238,11 @@ pikol en 21 kati peper. Dit is niet eens de volle 1250 pikol die in 1757158 door
 carga Anthonij Abraham Werndley tegen een voorschot van 8 Spaanse realen het pikol<lb/>
 zijn gecontracteerd.<lb/>
 »</remark>
-<fnote><super>2</super> Uit het Frans environs, omstreken.<lb/>
+<fnote ref="2">Uit het Frans environs, omstreken.<lb/>
 </fnote>
-<fnote><super>3</super> Dit bedrag is onduidelijk; het verlies over de jaren 1756-1758 is ƒ 202.875.<lb/>
+<fnote ref="3">Dit bedrag is onduidelijk; het verlies over de jaren 1756-1758 is ƒ 202.875.<lb/>
 </fnote>
+
 <pb n="396" tpl="2" vol="13" facs="258_396"/>
 
 <para>Alzo den rijksbestierder, zijnde den koning van Trangano zijn ouder broeder die<lb/>
@@ -5442,11 +5444,12 @@ schip Leiden werd vernomen hoe kritiek de toestand in het noorden van de kust is
 in een postscriptum op de brief van 20 oktober 1759 bevolen, zodra ingenieur Pieter<lb/>
 Coenraad Keiler het werk heeft uitgezet, met de bouw te beginnen.<lb/>
 »</remark>
-<fnote><super>4</super> Volgens
+<fnote ref="4">Volgens
 <emph>VOC-Glossarium</emph> consjam; in de tekst geschreven als contjang.<lb/>
 </fnote>
-<fnote><super>5</super> Bedoeld lijkt dat de geleden schade voor rekening van de verantwoordelijken komt.<lb/>
+<fnote ref="5">Bedoeld lijkt dat de geleden schade voor rekening van de verantwoordelijken komt.<lb/>
 </fnote>
+
 <pb n="430" tpl="2" vol="13" facs="258_430"/>
 
 <para>Egter alles met dezen verstande dat zij uyt deze ordre ten vollen zullen moeten<lb/>
@@ -6164,9 +6167,10 @@ dat deze zaak wel heel lang heeft geduurd en dat het besluit te Colombo van 9 fe
 1757 veel te krachtdadig is geweest, of niet goed begrepen, dan wel met te weinig omzichtigheid<lb/>
 is genomen.<lb/>
 »</remark>
-<fnote><super>6</super> Baygam, van Singalees buth=rijst en gam = dorpen; dus de korale met rijstproducerende dorpen.<lb/>
+<fnote ref="6">Baygam, van Singalees buth=rijst en gam = dorpen; dus de korale met rijstproducerende dorpen.<lb/>
 <lb/>
 </fnote>
+
 <pb n="442" tpl="2" vol="13" facs="258_442"/>
 
 <para>Dan dewijl ons diergelijke behandelingen nu en dan al eens voorkomen, moeten<lb/>
@@ -6385,8 +6389,9 @@ Sindsdien zijn ontvangen gewone en aparte brieven van 7 september en 28 oktober 
 en van 18 en 30 januari, 8 en 20 april 1759, waarvan kopieën langs de directe route naar<lb/>
 Nederland zijn gezonden.<lb/>
 »</remark>
-<fnote><super>7</super> De naam van deze persoon wordt niet vermeld.<lb/>
+<fnote ref="7">De naam van deze persoon wordt niet vermeld.<lb/>
 </fnote>
+
 <pb n="446" tpl="2" vol="13" facs="258_446"/>
 
 <para>Noteeren dat, ofwel uytwijsens de jongste communicatie, door het draaien van<lb/>
@@ -6825,8 +6830,6 @@ konden worden. Enerzijds vraagt Travancore voor de peper ropia’s, anderzijds<l
 is door de schaarsheid en grote vraag naar zilver te Malabar het goud op een lage prijs<lb/>
 geraakt.<lb/>
 »</remark>
-<fnote>Hoe dit bedrag tot stand komt is onduidelijk.<lb/>
-</fnote>
 <pb n="454" tpl="2" vol="13" facs="258_454"/>
 
 <para>Zij zig genoodzaakt hebben gevonden ditheen over te stuuren d\ anno passato<lb/>
@@ -6988,7 +6991,7 @@ met den sammorijn, en dezen hem verzekering had gegeven niet langer in de<lb/>
 grensen van zijn rijk te zullen dulden Trevancoors vijanden, denoteerende daarmede<lb/>
 de door hem uyt haere landen verdrevene ongelukkige vorsten, welke derwaarts hun<lb/>
 toevlugt genomen en zolange aldaar zig opgehouden hadden. Maar ook dat, vermits<lb/>
-de gerugten liepen dezelve schuylplaats zoude neemen in ’s Compagnies landen, zij9<lb/>
+de gerugten liepen dezelve schuylplaats zoude neemen in ’s Compagnies landen, zij<fref ref="8"/> <lb/>
 Hoogheid vertrouwde zulx, om de onderhouden werdende goede vriendschap, niet<lb/>
 zoude geschieden. En aan de andere zijde van voorsz. verdrevene Tek en Berkenkoerse<lb/>
 princen mede een ola te hebben gekregen, waarbij zij schrijven door den sammorijn<lb/>
@@ -7050,8 +7053,9 @@ of 7002,- cannassers poederzuyker,<lb/>
 in vertrouwen dat de opgemelde koopmanschappen, renderende met den anderen<lb/>
 ƒ 471.585,14,-, niet alleen spoedig van meester veranderen, maar ook een goed rethour<lb/>
 
-<fnote><super>9</super> Bedoeld lijkt Zijn.<lb/>
+<fnote ref="8">Bedoeld lijkt Zijn.<lb/>
 </fnote>
+
 <pb n="458" tpl="2" vol="13" facs="258_458"/>
 zullen komen uyt te leveren, navolgens het jongstleden vandaar ontfangene, bedragende<lb/>
 ƒ 718.974,1<lb/>
@@ -7187,8 +7191,9 @@ in 1756157 hebben bedragen. Daarentegen zijn de uitgaven in 1757/58 toegenomen m
 f 25.049 en bedroegen f 288.883. Buiten de uiterlijke winst blijft er voor de Compagnie<lb/>
 weinig over.<lb/>
 »</remark>
-<fnote><super>10</super> Ges, ook gudge, van Perzisch en Hindi gaz, in India een variërende lengtemaat.<lb/>
+<fnote ref="9">Ges, ook gudge, van Perzisch en Hindi gaz, in India een variërende lengtemaat.<lb/>
 </fnote>
+
 <pb n="460" tpl="2" vol="13" facs="258_460"/>
 
 <para>Al hetwelke ten dage der besoigne in serieuse overweging genomen, en daarnevens<lb/>
@@ -7534,14 +7539,15 @@ kregelijken landaard niet ongemeen, voor te komen nog eenen van Ceylon ontboden.
 U Wel Edele Hoogagtb. ter kennisse te brengen dat men den 28e januarij dezes jaars<lb/>
 ter rheede van Sumanap, aan den oosthoek van ’t eyland Madura gelegen, gansch<lb/>
 onverwagt vier Engelsche, van China retourneerende, scheepen zag verschijnen,<lb/>
-genaamt de Prins Henrik, kapitain Thomas Best, de Hawke, capitain Richard Drake11,<lb/>
+genaamt de Prins Henrik, kapitain Thomas Best, de Hawke, capitain Richard Drake<fref ref="10"/> ,<lb/>
 de Osterley, capitain Frederik Vincent, en de Tavistock, capitain Benjamin Jenkins.<lb/>
 </para>
 <folio>Fol.1891v-1892v.</folio>
 
-<fnote><super>11</super> Volgens
+<fnote ref="10">Volgens
 <emph>EIC Maritime Service Officers</emph> George Drake.<lb/>
 </fnote>
+
 <pb n="465" tpl="2" vol="13" facs="258_465"/>
 <remark>
 «Uit angst voor de Fransen hadden zij deze route genomen . Ze zijn van water,<lb/>

@@ -102,7 +102,7 @@ def docSummary(docs):
     if not rep:
         examples = " ".join(docs[0:2])
         rest = " ..." if nDocs > 2 else ""
-        rep = f"{nDocs:>3}x {examples}{rest}"
+        rep = f"{nDocs:>4}x {examples}{rest}"
     return f"{rep:<30}"
 
 
@@ -287,6 +287,7 @@ def trim(
         headInfo=collections.defaultdict(list),
         remarks=collections.Counter(),
         remarkInfo=collections.defaultdict(lambda: collections.defaultdict(list)),
+        noteInfo=collections.defaultdict(list),
         heads={},
         bigTitle={},
         splits=[],
@@ -498,17 +499,23 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
     prevMatch = 0
     previous = {}
     result = []
+    first = True
 
     def doPage(page, *args, **kwargs):
+        nonlocal first
+
         if page is None:
             if processPage is not None:
                 processPage(None, previous, result, info, *args, **kwargs)
+                first = False
             return
 
         match = PAGE_NUM_RE.search(page)
         pageNum = f"-{match.group(1):>04}" if match else ""
         info["page"] = f"{info['doc']}{pageNum}"
         info["pageNum"] = pageNum.lstrip("-")
+        info["first"] = first
+        first = False
         if stage == 0:
             page = X_RE.sub("", page)
             page = FACS_REF1_RE.sub(r'''tpl="1" vol="\1" facs="\2"''', page)
@@ -530,6 +537,8 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
     for match in PB_RE.finditer(text):
         b = match.start()
         thisPage = text[prevMatch:b].strip()
+        if not thisPage:
+            continue
         doPage(thisPage, *args, **kwargs)
         result.append("\n")
         prevMatch = b

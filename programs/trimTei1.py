@@ -1897,7 +1897,7 @@ FOLIO_PAGE_RE = re.compile(
 
 def folioPageRepl(match):
     text = match.group(0)
-    (tag, folioPage) = match.groups([1, 2])
+    (tag, folioPage) = match.groups(1, 2)
     return text if tag == "note" else f"<folio>{folioPage}</folio>\n"
 
 
@@ -2314,7 +2314,7 @@ def getFolioPost(post):
     if FOLIO_POST_RETAIN_RE.search(post):
         return plain
     match = FOLIO_POST_REMOVE_RE.match(post)
-    return match.groups([1, 2]) if match else plain
+    return match.groups(1, 2) if match else plain
 
 
 def checkFw(match):

@@ -1786,10 +1786,10 @@ Somma<lb/>
 <para>
 <und>7.876,10,8</und><lb/>
 ƒ 264.120, 1,8
-<super>1</super><lb/>
+<fref ref="1"/> <lb/>
 
-<fnote ref="1"><ref>Ten rechte ƒ 193.120,1,8</ref><lb/>
-</fnote>
+<fnote ref="1"><ref>Ten rechte ƒ 193.120,1,8 </ref></fnote>
+
 <pb n="255" tpl="2" vol="13" facs="258_255"/>
 230.720 lb. thin<lb/>
 30.425 „ benzoin<lb/>
@@ -2103,7 +2103,7 @@ dus in ons gevoelen bevestigt werden dat de daarbij bepaalde vaart en handel van
 na Straat Malacca bekwaamlijk zal kunnen g’executeert werden.<lb/>
 </para>
 <para>De geordonneerde verandering van den thol bij ’t sestiende articul van ’t in concept<lb/>
-meedegegeevene contract om den thol op 2 percento te brengen, heeft den bindhara2 niet<lb/>
+meedegegeevene contract om den thol op 2 percento te brengen, heeft den bindhara<fref ref="2"/>  niet<lb/>
 willen accordeeren en dienvolgende ter naderen occasie op den voet vanouds gelaaten.<lb/>
 </para>
 <folio>Fol.366r-367v.</folio>
@@ -2119,9 +2119,9 @@ van het contract, het rapport van deze commissie en de resolutie van 30 december
 Met ’t schip de Spaarsaamheit en de chialoup de Goudvink is in deesen jaare of<lb/>
 zedert primo januarij tot ultimo december 1758 vandaar alhier aangebragt<lb/>
 
-<fnote><super>2</super> Bindhara, bendahara, soort eerste minister, meestal beheerder van de schatkist<lb/>
-ref="3"><emph>Ten rechte 43.536 lb</emph><lb/>
+<fnote ref="2">Bindhara, bendahara, soort eerste minister, meestal beheerder van de schatkist<lb/>
 </fnote>
+
 <pb n="261" tpl="2" vol="13" facs="258_261"/>
 629^ mq. of 3736^ thail goud<lb/>
 38.546 ponden swarte peeper<lb/>
@@ -2212,6 +2212,7 @@ nieuws in de gewone brief van 22 juni 1 758.<lb/>
 »</remark>
 <fnote ref="3"><emph>Ten rechte 43.536 lb</emph><lb/>
 </fnote>
+
 <pb n="262" tpl="2" vol="13" facs="258_262"/>
 
 <para>Wijders sijn de bediendens om de aangehaalde reedenen bij meergeciteerde brief<lb/>
@@ -2338,10 +2339,11 @@ tweede administrateur, van de secretaris Jan Anthonij Thierens tot fiscaal, van 
 klerk van politieke zaken Boudewijns tot secretaris. Over deze provisionele aanstellingen<lb/>
 wordt in de aanstaande vergadering een besluit genomen.<lb/>
 »</remark>
-<fnote><super>4</super> Ten rechte, ƒ40.103,17,-.<lb/>
+<fnote ref="4">Ten rechte, ƒ40.103,17,-.<lb/>
 </fnote>
-<fnote><super>5</super> Op Nias liggen twee dorpen met verwante namen: Gunungsitoli en Lolowau.<lb/>
+<fnote ref="5">Op Nias liggen twee dorpen met verwante namen: Gunungsitoli en Lolowau.<lb/>
 </fnote>
+
 <pb n="264" tpl="2" vol="13" facs="258_264"/>
 
 <para>Bengalen<lb/>
@@ -2576,8 +2578,8 @@ de specificatie bij de brief uit Hooghly van 15 maart 1758 ingekocht:<lb/>
 </row>
 </table>
 
-<fnote ref="6"><ref>Ten rechte ƒ 1.298.826,6,1.</ref><lb/>
-</fnote>
+<fnote ref="6"><ref>Ten rechte ƒ 1.298.826,6,1. </ref></fnote>
+
 <pb n="266" tpl="2" vol="13" facs="258_266"/>
 <para>Voor India in<lb/>
 </para>
@@ -2778,7 +2780,7 @@ bestuur dat er
 Bengalen. Er is nadere informatie gevraagd en ten laste van de gerepatriëerde Gualterus<lb/>
 van der Beets is in de negotieboeken voorlopig
 ƒ 2823 op diens rekening gedebiteerd.<lb/>
-Naar aanleiding van informatie van opperkoopman Pieter Johan Bangeman7<lb/>
+Naar aanleiding van informatie van opperkoopman Pieter Johan Bangeman<fref ref="7"/> <lb/>
 is
 ƒ 989 die over 1750/51 tot 1753154 teveel aan rente was uitbetaald op de gewone voor -<lb/>
 uitverstrekking van 75% in contant en obligaties, aan betrokkenen ter vergoeding opgelegd.)<lb/>
@@ -2850,9 +2852,10 @@ onkosten van het munten vastgesteld. De overwegingen over de munt en middelen te
 zijn, zoals vermeld in de brief van eind december 1757, door de gouverneurgeneraal<lb/>
 naar Bengalen gezonden.<lb/>
 »</remark>
-<fnote><super>7</super> Pieter Johan Bangeman is in 1751 overleden; waarschijnlijk wordt Anthony Julius Bangeman<lb/>
+<fnote ref="7">Pieter Johan Bangeman is in 1751 overleden; waarschijnlijk wordt Anthony Julius Bangeman<lb/>
 bedoeld, want hij diende in Bengalen.<lb/>
 </fnote>
+
 <pb n="269" tpl="2" vol="13" facs="258_269"/>
 
 <para>
@@ -3189,9 +3192,6 @@ Samram als tweede makelaar aangesteld. Daarbij is voorbijgegaan aan de solide op
 in de memorie van de gewezen directeur Louis Taillefert over de aanstelling van hem<lb/>
 in de dienst van de Compagnie. De aanstelling wordt echter niet herroepen.<lb/>
 »</remark>
-<fnote>Firtij, ook wel uitschot genoemd. Dit is grove textiel met afwijkende maten en van mindere<lb/>
-kwaliteit dan het monster.<lb/>
-</fnote>
 <pb n="275" tpl="2" vol="13" facs="258_275"/>
 
 <para>
@@ -3496,7 +3496,7 @@ Jan Barbet.<lb/>
 <pb n="280" tpl="2" vol="13" facs="258_280"/>
 
 <para>Inmiddels hebben wij op het versoek van voormelde Cornelis Rietveld tot obtenue<lb/>
-van landwinning9, mitsgaders ’t gerequireerd en ingekomen berigt van onsen advocaat-fiscaal<lb/>
+van landwinning<fref ref="8"/> , mitsgaders ’t gerequireerd en ingekomen berigt van onsen advocaat-fiscaal<lb/>
 disponeerende, goedgevonden in dit geval gratie voor rigeur van justitie<lb/>
 te prefereeren en aan den suppliant pardon te verleenen. Waartoe wij de nodige opene<lb/>
 brieven dan ook in communi forma op den 28e aug. 1758 verleend en onder ultimo<lb/>
@@ -3687,9 +3687,8 @@ december 1758 werden ontvangen de gewone en aparte missiven van 8 juli en 30 sep
 </row>
 </table>
 
-<fnote ref="9"><ref>Landwinning, vergunning om na een delict vrij van straf in het land te mogen verblijven.</ref><lb/>
-<super>10</super> Monteering, uitrusting, uniform.<lb/>
-</fnote>
+<fnote ref="8"><ref>Landwinning, vergunning om na een delict vrij van straf in het land te mogen verblijven. </ref></fnote>
+
 <pb n="281" tpl="2" vol="13" facs="258_281"/>
 <table n="269">
 <row n="269" row="1">
@@ -3747,7 +3746,7 @@ december 1758 werden ontvangen de gewone en aparte missiven van 8 juli en 30 sep
 <cell n="269" row="6" col="3">99</cell>
 <cell n="269" row="6" col="4">7</cell>
 <cell n="269" row="6" col="5">99</cell>
-<cell n="269" row="6" col="6">monteerings10</cell>
+<cell n="269" row="6" col="6">monteerings<fref ref="9"/> </cell>
 <cell n="269" row="6" col="7">/</cell>
 <cell n="269" row="6" col="8">7.653,14,8</cell>
 </row>
@@ -4022,8 +4021,9 @@ lb. oude kooperwerken Persiaans<lb/>
 ƒ 5.442, 3,8<lb/>
 ƒ 142.620,10,8<lb/>
 
-<fnote><super>10</super> Monteering, uitrusting, uniform.<lb/>
+<fnote ref="9">Monteering, uitrusting, uniform.<lb/>
 </fnote>
+
 <pb n="282" tpl="2" vol="13" facs="258_282"/>
 635.750 lb. kooper Japans in staven ƒ 194.285, 4,-<lb/>
 35.000 „ kooper dito „ platen ƒ 20.160,-,-<lb/>
@@ -4549,7 +4549,7 @@ na het vermelde bij gedagte brief ter gelegentheid van de komst van den Fransche
 d’ esquadere, de heer graaf D’ Ache, met eenige scheepen ter Nagapatnamse rheede<lb/>
 over en weder is gedaan geworden, zo ridicul en oneygen bevonden dat wij dierweegens<lb/>
 ons ongenoegen op ’t ernstigste hebben moeten betuygen. Nademaal der ministers<lb/>
-pligt vereyscht hadde om, sonder de minste reflectie te slaan op alle de rodomontades11<lb/>
+pligt vereyscht hadde om, sonder de minste reflectie te slaan op alle de rodomontades<fref ref="10"/> <lb/>
 der Franschen, sig in dat opzigt eenelijk te reguleeren na onze ordere van den<lb/>
 6e october 1750. Daarenboven hebben w’ niet anders dan lachieus konnen aanmerken<lb/>
 dat den schipper van het schip de Vrouwe Petronella sig door de Franschen heeft laten<lb/>
@@ -4599,8 +4599,8 @@ en dat de opmerkingen van Heren XVII en de Hoge Regering ter verbetering van<lb/
 de kwaliteit aan de onderhorige kantoren zijn doorgegeven. De afzet van waren liep niet<lb/>
 naar wens.<lb/>
 »</remark>
-<fnote ref="11"><ref>Rodomontade, snoeverij, pocherij.</ref><lb/>
-</fnote>
+<fnote ref="10"><ref>Rodomontade, snoeverij, pocherij. </ref></fnote>
+
 <pb n="292" tpl="2" vol="13" facs="258_292"/>
 
 <para>
@@ -5159,8 +5159,9 @@ jaar was gepasseert met de Ghierreway Pattoe, sonder een enkeld dorp compleet<lb
 af te sluyten.<lb/>
 </para>
 
-<fnote ref="12"><emph>Morgen, Rijnlandse morgen is 8516 m2.</emph><lb/>
+<fnote ref="11"><emph>Morgen, Rijnlandse morgen is 8516 m2.</emph><lb/>
 </fnote>
+
 <pb n="302" tpl="2" vol="13" facs="258_302"/>
 <remark>«Dat het bestuur als reden van de achterstand de onrust in 1757 aanvoerd, is acceptabel<lb/>
 maar het is onjuist dat het laten versloffen van zaken sinds vele jaren wordt toegeschreven<lb/>
@@ -5304,8 +5305,9 @@ is te vinden in de genoemde rapporten van Michiel Hemme. Daardoor, en door wat<l
 er over staat in de memorie van de oud-gouverneur Joan Gideon Loten, is Batavia op het<lb/>
 denkbeeld gebracht dat<lb/>
 »</remark>
-<fnote><super>13</super> Doeria, durai, heer, kleine machthebber.<lb/>
+<fnote ref="12">Doeria, durai, heer, kleine machthebber.<lb/>
 </fnote>
+
 <pb n="304" tpl="2" vol="13" facs="258_304"/>
 
 <para>---het nog het
@@ -5572,7 +5574,7 @@ afgezanten opdaagen, niet alleen met volle qualificatie, maar ook daarop sig beg
 tot onderhandelinge op een eylandje leggende schuyns over Cranganoor. Den<lb/>
 commandeur ter hand te stellen een geteekende ola, of geschrift, van den sammorijn,<lb/>
 waarbij Zijn Hoogheid inwilligd de voorgestelde vreedensarticulen welke aldaar nagesien<lb/>
-en goedgekeurt wierden. En waarvan den weedergade14, bij den commandeur<lb/>
+en goedgekeurt wierden. En waarvan den weedergade<fref ref="13"/> , bij den commandeur<lb/>
 onderteekend, haar in handen is gegeeven na de Mallabaarse methode, totdat er een<lb/>
 behoorlijk contract was opgesteld. Gelijk dit ten eersten gedaan, door de sammorijnse<lb/>
 gezanten geresumeerd en g’approbeerd zijnde, vervolgens na den sammorijn gesonden<lb/>
@@ -5607,8 +5609,8 @@ invordering aangesteld zal werden, so bij Zijn Hoogheid als bij de Compagnie en<
 laastelijk dat alle zijnen onderdaanen, uytgesondert gewapend krijgsvolk, langs de<lb/>
 territoiren van de Compagnie zullen moogen passeeren en repasseeren. Alles blijkens<lb/>
 
-<fnote ref="14"><ref>Weedergade, teruggaande.</ref><lb/>
-</fnote>
+<fnote ref="13"><ref>Weedergade, teruggaande. </ref></fnote>
+
 <pb n="310" tpl="2" vol="13" facs="258_310"/>
 ’t voorgeciteerd, so vanweegen den sammorijn, als bij den commandeur onderteekend<lb/>
 conceptcontract bij provisie door de ministers ons toegeschikt, terwijl men dies geratificeerd<lb/>
@@ -5801,8 +5803,9 @@ beloopt f 31.698. Er zijn opmerkingen gemaakt bij de toestemming voor deze<lb/>
 werken die in 1751 werd verleend, en het is wederom goedgekeurd deze werken, die tot nu<lb/>
 bleven liggen, uit te voeren.<lb/>
 »</remark>
-<fnote><super>15</super> Bombara, schip met één mast, scherpe voor- en achtersteven, vaart langs westkust van India.<lb/>
+<fnote ref="14">Bombara, schip met één mast, scherpe voor- en achtersteven, vaart langs westkust van India.<lb/>
 </fnote>
+
 <pb n="313" tpl="2" vol="13" facs="258_313"/>
 
 <para>Wat aangaat de vreemde Europeesche natiën, daarvan was den Engels commandeur<lb/>
@@ -6045,7 +6048,7 @@ nieuwen methode, maar gerendeert hebben<lb/>
 Een somma van ƒ 362.696,16,- dog na d’ oude manier wel ƒ 677.037, 6,8<lb/>
 En de generale lasten ƒ 263.833, 9,8 ƒ 263.833, 9,8<lb/>
 gevolglijk meerder winsten ƒ 98.863, 8,-
-<super>16</super> dog ƒ 413.203,17,—<lb/>
+<fref ref="15"/>  dog ƒ 413.203,17,—<lb/>
 en dewijl anno 1755/6 de<lb/>
 winsten na aftrek der lasten<lb/>
 gerendeert hebben ƒ 567.807, 3,8 ƒ 567.807, 3,8<lb/>
@@ -6100,13 +6103,13 @@ voor vergoeding van soldijen voor boventallige inlandse dienaren. Hij dient een 
 voeren die aansluit bij die van de andere Europese naties, maar de zuinigheid moet niet<lb/>
 in oneigenlijke en onredelijke zaken gezocht worden.<lb/>
 »</remark>
-<fnote ref="16"><emph>Ten rechte ƒ 98.863,6,8.</emph><lb/>
+<fnote ref="15"><emph>Ten rechte ƒ 98.863,6,8.</emph><lb/>
 </fnote>
-<fnote ref="17"><emph>Ten rechte ƒ468.943,17,-.</emph><lb/>
+<fnote ref="16"><emph>Ten rechte ƒ468.943,17,-.</emph><lb/>
 </fnote>
-<fnote ref="18"><emph>Ten rechte ƒ 154.603,6,8.</emph><lb/>
-<super>19</super> Latthij, waarschijnlijk van lathi, bamboestok, opslagplaats voor bamboe.<lb/>
+<fnote ref="17"><emph>Ten rechte ƒ 154.603,6,8.</emph><lb/>
 </fnote>
+
 <pb n="318" tpl="2" vol="13" facs="258_318"/>
 
 <para>Mitsgaders den directeur, wanneer het een jaar van 13 maanscheynen is (waarna<lb/>
@@ -6132,8 +6135,9 @@ heeft bevolen de Hollandse schepen geen schade te berokkenen. Hopelijk is dit va
 duur. Met het geschenk van twee paarden aan deze vorst en van één aan de gouverneur<lb/>
 van Bassein is dan ook graag ingestemd.<lb/>
 »</remark>
-<fnote><super>19</super> Latthij, waarschijnlijk van lathi, bamboestok, opslagplaats voor bamboe.<lb/>
+<fnote ref="18">Latthij, waarschijnlijk van lathi, bamboestok, opslagplaats voor bamboe.<lb/>
 </fnote>
+
 <pb n="319" tpl="2" vol="13" facs="258_319"/>
 
 <para>Van deselve favorable aanschouw is bij ons geconsidereert dat het, op den<lb/>
@@ -6665,7 +6669,7 @@ worden waarom er dan nog
 </para>
 <remark>In de brief van 25 oktober 1758 is bevolen om aan ieder van de retourschepen uit<lb/>
 Batavia van 150 voet vier ijzeren en vier wieltrossen mee te geven, en aan die van 136 d<lb/>
-140 voet drie ijzeren en drie wieltrossen20. In de brief van 30 oktober 1758 is bevolen<lb/>
+140 voet drie ijzeren en drie wieltrossen<fref ref="19"/> . In de brief van 30 oktober 1758 is bevolen<lb/>
 steeds een lijst te sturen van manschappen die ziek aan Kaap de Goede Hoop zijn<lb/>
 achtergebleven. Tevens moeten manschappen van schepen die in de Valse Baai de goede<lb/>
 moesson afwachten om goederen te lossen, over uitgaande schepen naar Batavia verdeeld<lb/>
@@ -6675,7 +6679,7 @@ onderhevig is, moet het niet meer aan Batavia geleverd worden. Het verstrekken v
 hun hele leven aan de Kaap blijven zonder dat hun is toegestaan te corresponderen.<lb/>
 Tevens is goedgekeurd dat de keldermeester een toeslag van 10% op de jaarlijkse restanten<lb/>
 krijgt ter compensatie van de schade die hij door lekkage lijdt. Dominee Remmerus<lb/>
-Harders mag aan de Kaap blijven dienen. Echter zijn 13 stuks aanschoven en hoeden21<lb/>
+Harders mag aan de Kaap blijven dienen. Echter zijn 13 stuks aanschoven en hoeden<fref ref="20"/> <lb/>
 steenkool, die in diverse schepen achterbleven en naar Batavia gingen, niet teruggestuurd.<lb/>
 De 13 lange- of karvee lp lanken die niet zijn af geleverd uit de Wildrijk, zijn Bengalen<lb/>
 aangerekend. In de brief van 11 november 1758 zijn de behandeling van de schepen<lb/>
@@ -6698,11 +6702,11 @@ Amsterdam verzonden worden.<lb/>
 De producten die deesen jaaren van dit gouvernement na India’s hoofdplaatse<lb/>
 en elders sijn overgebragt bestaan in<lb/>
 
-<fnote><super>20</super> Ijzeren tros is een nieuwe tros; een wieltros is een dunne lijn om een haspel gewonden.<lb/>
+<fnote ref="19">Ijzeren tros is een nieuwe tros; een wieltros is een dunne lijn om een haspel gewonden.<lb/>
 </fnote>
-<fnote><super>21</super> Hoed is een inhoudsmaat voor steenkool, ongeveer 1 172 liter.<lb/>
-<super>22</super> Het bedrag van ƒ 10.803,10,- is tenrechte ƒ 10.794,9,8; in de marge staat bovendien 5489=4.<lb/>
+<fnote ref="20">Hoed is een inhoudsmaat voor steenkool, ongeveer 1 172 liter.<lb/>
 </fnote>
+
 <pb n="329" tpl="2" vol="13" facs="258_329"/>
 <table n="271">
 <row n="271" row="1">
@@ -6868,8 +6872,9 @@ Christiaan Engelstroom en luitenant Johan Hendrik Lemkemeijer, tot luitenant de 
 Johan Hendrik Be bier, en tot vaandrigs de sergeanten Erdwijn Blanke en Hendrik<lb/>
 Coetsier.<lb/>
 »</remark>
-<fnote><super>22</super> Het bedrag van ƒ 10.803,10,- is tenrechte ƒ 10.794,9,8; in de marge staat bovendien 5489=4.<lb/>
+<fnote ref="21">Het bedrag van ƒ 10.803,10,- is tenrechte ƒ 10.794,9,8; in de marge staat bovendien 5489=4.<lb/>
 </fnote>
+
 <pb n="330" tpl="2" vol="13" facs="258_330"/>
 
 <para>Cheribon<lb/>
@@ -7463,8 +7468,9 @@ ontfangen en aan assignatiën etc. ten goede gekreegen, als derwaerts versonden<
 ƒ 4.023.930,4,-. In welker voegen India’s capitaal vermeerdert is met ƒ 2. 669. 959, 4, 223<lb/>
 en dus uit. augustus 1757 per saldo groot gebleeven ƒ 39.456.992,10,15.<lb/>
 
-<fnote ref="23"><emph>Ten rechte ƒ 2.769.959,4,2.</emph><lb/>
+<fnote ref="22"><emph>Ten rechte ƒ 2.769.959,4,2.</emph><lb/>
 </fnote>
+
 <pb n="338" tpl="2" vol="13" facs="258_338"/>
 <para>Op assignatiën ter ontfang in Nederland hebben weesmeesteren
 </para>

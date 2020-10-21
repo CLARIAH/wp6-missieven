@@ -635,7 +635,7 @@ def addText(cv, text, cur):
             dest.append(text)
         else:
             for match in WORD_RE.finditer(text):
-                (trans, punc) = match.groups([1, 2])
+                (trans, punc) = match.groups(1, 2)
                 trans = trans.strip("«»")
                 if punc:
                     punc = WHITE_RE.sub(" ", punc)

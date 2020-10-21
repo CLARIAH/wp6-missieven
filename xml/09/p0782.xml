@@ -1127,10 +1127,11 @@ zijn uit hun detentie ontslagen omdat zij vrijwillig waren teruggekeerd. Het ver
 advocaat- fiscaal om opzending naar Batavia van een aantal perkeniers en burgers van<lb/>
 Banda, op grond van een beschuldiging wegens smokkel, is afgewezen,<lb/>
 »</remark>
-<fnote><super>1</super> 1403 volgt inderdaad op 1405. De volgorde is 1405, 1406, 1403, 1404, 1407 enz.<lb/>
+<fnote ref="1">1403 volgt inderdaad op 1405. De volgorde is 1405, 1406, 1403, 1404, 1407 enz.<lb/>
 Zie
 <emph>DAS</emph> II, 447-449. De Buis, Loosdrecht en Meermond liepen vast op Goodwin's Sand; de Hillegom<lb/>
 </fnote>
+
 <pb n="801" tpl="2" vol="09" facs="205_801"/>
 
 <para>
@@ -1140,7 +1141,7 @@ so scheen ons deselve egter aan de andere zijde van sodanigen nadeligen nasleep 
 de Compagnie als veele van derselver onderhorige te sullen wesen, dat voor ongeraadsaam<lb/>
 moeste werden aangesien, nademaal uyt de belegde stucken volgens de vrijwillige confessie<lb/>
 van de voorschreve gedetineerdens genoegsaam kan afgenomen werden, so veel in<lb/>
-dien morshandel sedert eenige jaren op een directe en indirecte wijse getrampeert3 te<lb/>
+dien morshandel sedert eenige jaren op een directe en indirecte wijse getrampeert<fref ref="2"/>  te<lb/>
 hebben, dat er seer weynige onschuldig souden werden bevonden, en daaruyt niet anders<lb/>
 te verwagten wesen als een genoegsame totale subversie van dit gouvernement tot een<lb/>
 ongemeen nadeel van de Compagnie, oversulx is bij ons op den 27e november goedgevonden<lb/>
@@ -1181,13 +1182,10 @@ om krachtige dreigementen te gebruiken. De generale restanten bedroegen op 31 au
 Azië met
 ƒ 2.652.461<lb/>
 »</remark>
-<fnote>Zie
-<emph>DAS</emph> II, 447-449. De Buis, Loosdrecht en Meermond liepen vast op Goodwin's Sand; de Hillegom<lb/>
+<fnote ref="2">leed schipbreuk voor Texel.<lb/>
 </fnote>
-<fnote>leed schipbreuk voor Texel.<lb/>
-</fnote>
-<fnote ref="3"><ref>Tramperen, letterlijk met de voeten stampen, hier gebruikt in de zin van deelnemen.</ref><lb/>
-</fnote>
+<fnote ref="3"><ref>Tramperen, letterlijk met de voeten stampen, hier gebruikt in de zin van deelnemen. </ref></fnote>
+
 <pb n="802" tpl="2" vol="09" facs="205_802"/>
 
 <pb n="803" tpl="2" vol="09" facs="205_803"/>
@@ -1352,8 +1350,8 @@ Azië met
 <cell n="158" row="1" col="6">r- cc</cell>
 </row>
 <row n="158" row="2">
-<cell n="158" row="2" col="1"><fref ref="0"/> </cell>
-<cell n="158" row="2" col="2"><fref ref="0"/> </cell>
+<cell n="158" row="2" col="1">0)</cell>
+<cell n="158" row="2" col="2">0)</cell>
 <cell n="158" row="2" col="3">(/)</cell>
 <cell n="158" row="2" col="4">3</cell>
 <cell n="158" row="2" col="5">3</cell>

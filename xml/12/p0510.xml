@@ -463,7 +463,7 @@ Nieuwmark, en deze door de oud-opperchirurgijn Gerrit Verkerk.<lb/>
 15 mei en 20 juni 1755 , heeft ontvangen ‘ inhoudende weinige zaken van belang
 ’. De<lb/>
 reeds lang verwachte Hageveld en de bark Amazone, evenals de vorig jaar gestuurde<lb/>
-pantjalang1 waren behouden in Ternate aangekomen, maar nog niet vandaar teruggekeerd<lb/>
+pantjalang<fref ref="1"/>  waren behouden in Ternate aangekomen, maar nog niet vandaar teruggekeerd<lb/>
 met de ‘ generale advisen. Volgens ontvangen berichten heerste er vrede op de<lb/>
 Molukken,<lb/>
 »</remark>
@@ -490,8 +490,8 @@ gedaane examinatie langs dezelve weg den
 tot rapport dat het evengemelte vaarwater, zowel door de Straat Poulo Lauwt als<lb/>
 buyten dat eyland om, bevaarbaar is bevonden, zelfs voor groote scheepen, waarop men<lb/>
 
-<fnote ref="1"><ref>Dit was de Clara.</ref><lb/>
-</fnote>
+<fnote ref="1"><ref>Dit was de Clara. </ref></fnote>
+
 <pb n="518" tpl="2" vol="12" facs="257_518"/>
 terzelver tijd gedepecheerd heeft langs diezelve route direct na Amoerang, de scheepen<lb/>
 Diemen en de Anna, ’t eerste om 300 lasten rijst voor Banda en ’t andere om 200 lasten<lb/>
@@ -811,15 +811,15 @@ padij meerder is dan de thiende in ’t voorige jaar te Maros opgebragt heeft.<l
 <cell n="231" row="7" col="7">—</cell>
 </row>
 </table>
-
-<fnote>ofte schaars 25| percento, buyten en behalven nog 60 vaaten bier zo uyt de hand als bij<lb/>
+<para>ofte schaars 25| percento, buyten en behalven nog 60 vaaten bier zo uyt de hand als bij<lb/>
 openbaare verkopinge met 1 76^ percento advance verkogt, dog daarenteegen was een verlies<lb/>
 van ƒ 113,2- ofte 69^ percento gevallen op een parthij onbenodigd porcelijn en<lb/>
 bedurven roosewaater bij evengezegde vendutie van de hand gezet, maar hetgeene in<lb/>
 anno 1753 op de in de maand december verkogte 17.311 lb. tarwe verlooren is, hebben<lb/>
 wij de vergoeding der schade opgelegt, die meerder van dat graan gevorderd heeft als tot<lb/>
 de huyshouding benodigt was.<lb/>
-</fnote>
+</para>
+
 <pb n="522" tpl="2" vol="12" facs="257_522"/>
 <para>De aangebragte slaaven ten getale van 300 stux, bestaande in 239 mans en 61 vrouwe,<lb/>
 tegens de gewoone prijs van 60 rds. ij der, zijn dezen jaare na genoegen komen uyt te<lb/>
@@ -904,7 +904,7 @@ teerd werden. Inmiddels hebben wij den tot duslange op Macassar in detensie gewe
 zijnde sabendhaar na Cabo de Goede Hoop gerelegeerd.<lb/>
 </para>
 <para>Sumbauwa op ’t ernstigste over zijne afwijking onderhouden zijnde, hadde dien<lb/>
-koning bij weege van amende tweeduyzend2 picols sappanhout aangeboden en daarvan<lb/>
+koning bij weege van amende tweeduyzend<fref ref="2"/>  picols sappanhout aangeboden en daarvan<lb/>
 een handschrift gepasseert, en was vervolgens vergenoegt weder na zijn rijk vertrocken.<lb/>
 Door een groote schaarsheyd aan contanten waaren de ministers genoodzaakt geweest om<lb/>
 successive, zo van de weeskamer als de ingesetene, te negotieeren rds. 21.000 a
@@ -927,8 +927,8 @@ van de maatschappij onder die volkeren te doen standgrijpen, waarin hij zeer gev
 is en altoos deze regering omtrent desselfs bestier groot genoegen heeft gegeven.<lb/>
 </para>
 
-<fnote ref="2"><ref>Boven de ‘twee’ staat ‘een’.</ref><lb/>
-</fnote>
+<fnote ref="2"><ref>Boven de ‘twee’ staat ‘een’. </ref></fnote>
+
 <pb n="524" tpl="2" vol="12" facs="257_524"/>
 <remark>«Predikant Henricus de Grave volgt de overleden Hermanus Vedder op. I.p.v. fiscaal<lb/>
 Steven Winkelman, die tot eerste administrateur van de pakhuizen op Onrust en Kuiper<lb/>
@@ -1200,7 +1200,7 @@ w’ van zijn iever en vigilantie - verwagtende zijn.<lb/>
 »</remark>
 <para>
 - als zijnde na examinatie bevonden te wezen 3de soort, tot welkers voortzetting de<lb/>
-bediendens - zijn geassisteerd geworden met zodanige kopere doelangs3 etc. als<lb/>
+bediendens - zijn geassisteerd geworden met zodanige kopere doelangs<fref ref="3"/>  etc. als<lb/>
 s’ ten fine voorgeschreven hadde gepetitioneerd, van die om alle exceptiën in den waxhandel<lb/>
 ten dezen comtoire almede te eviteeren, de nodige qualificatie aan de bediendens<lb/>
 hebben verleend om voortaan voor het picol van dat
@@ -1224,7 +1224,7 @@ Ondertusschen hebben w’ op den vandaar ontfangen eysch van contanten,<lb/>
 koopmanschappen en andere provisiën meer per de barcq ..
 <super>4 5</super> voldaan een bedragen van<lb/>
 <emph>f ...</emph>
-<super>5</super>
+<fref ref="4"/> 
 , mitsgaders onder de dienaren eenelijk geaccordeert de verzogte verlossing aan<lb/>
 7 soldaten en eenige geringe verbeteringen, conform het reglement.<lb/>
 Palembang<lb/>
@@ -1240,12 +1240,10 @@ met Compagniesschepen. Batavia heeft
 en koopwaar gestuurd met de brigantijnen Mossel en Kaaskoper, de bark<lb/>
 Vriendschap, de Wereld, de bark Rijder, de pantjalang Neptunus en de bark Meermin.<lb/>
 »</remark>
-<fnote ref="3"><ref>Dulang: pan, gebruikt in de mijnbouw, om het erts te scheiden van het zand.</ref><lb/>
-</fnote>
-<fnote ref="4"><ref>De naam van de bark is niet ingevuld.</ref><lb/>
-</fnote>
-<fnote ref="5"><ref>Het bedrag is niet ingevuld.</ref><lb/>
-</fnote>
+<fnote ref="3"><ref>Dulang: pan, gebruikt in de mijnbouw, om het erts te scheiden van het zand. </ref></fnote>
+<fnote ref="4"><ref>De naam van de bark is niet ingevuld. </ref></fnote>
+<fnote ref="5"><ref>Het bedrag is niet ingevuld. </ref></fnote>
+
 <pb n="529" tpl="2" vol="12" facs="257_529"/>
 
 <para>En vandaar behalven de voorsz. peeper en thin nog bekomen
@@ -1267,7 +1265,7 @@ werk mogten maken omtrent de tijdige bezorging van de peper, thin, enz.<lb/>
 <remark>«Koopman Huijbert Johan de Heere is de overleden Jacob Alexander van der Werp<lb/>
 opgevolgd als eerste resident. De brigantijn Kaaskoper en de bark Vriendschap zijn in<lb/>
 mei 1 755 uit Batavia vertrokken om net als vorig jaar ‘de noorder engtens te bekruysen
-<super>9</super><lb/>
+<fref ref="6"/> <lb/>
 en het particuliere vervoer van tin en peper zoveel mogelijk tegen te gaan. In de brief<lb/>
 van 9 juni heeft Batavia het bestuur gemeld dat ook al was de vorig jaar uitgevoerde<lb/>
 expeditie naar Djambi niet geslaagd men niet instemt met nog zo'n kostbare expeditie.<lb/>
@@ -2677,7 +2675,7 @@ Insgelijx was den inzaam van camfer en benzuin laatst ook minder bevonden, niett
 is het wel en conform de reflectie bij den onzen aan haar van den 16e aug. 1753 geweest,<lb/>
 
 <pb n="550" tpl="2" vol="12" facs="257_550"/>
-dat ze zig hebben geappliceerd minder swarte of zoort peeu van laastged. gunnen6, met<lb/>
+dat ze zig hebben geappliceerd minder swarte of zoort peeu van laastged. gunnen<fref ref="7"/> , met<lb/>
 maar een matige quantiteit camfer op te doen, opdat men met die ongewilde Barose<lb/>
 kraam niet overkropt mogte blijven zitten, zijnde nogthans de ontwaarde slegte valeur der<lb/>
 overgemaakte camfer den insamelaar ter vergoeding geïmponeerd en de ministers nog<lb/>
@@ -2733,8 +2731,8 @@ vaartuygen vervolgens jaarlijx over en weder hebben gevaaren ten handel, aan de<
 goede verwagting, die men in den beginne had omtrent het daarmede bedoeld oogmerk,<lb/>
 te weeten een ruymer debiet van lijwaten als bevorens, niet na wensch heeft beantwoord,<lb/>
 
-<fnote ref="6"><ref>Gommen.</ref><lb/>
-</fnote>
+<fnote ref="7"><ref>Gommen. </ref></fnote>
+
 <pb n="551" tpl="2" vol="12" facs="257_551"/>
 schoon men ook niet zeggen kan dat het in eenigen deele daaraan schadelijk is geweest.<lb/>
 Nog hebben wij, nagaande der ministers gemaakte schikkinge op de verkoopsprijsen van<lb/>
@@ -3214,7 +3212,7 @@ Persijnenburg en Eendracht brieven d.d. 14 februari, 24 augustus en 15 oktober 1
 w’ ontfangen hebben de volgende goederen, te weeten:<lb/>
 
 <pb n="559" tpl="2" vol="12" facs="257_559"/>
-<para>1955 pakken lijwaten in soort ten bedragen van57 pees lijwaten22 pakken roggevellen308.180 lb. caliatourhout2330 pees vloersteenenaan diverse goederen
+<para>1955 pakken lijwaten in soort ten bedragen van<fref ref="8"/>  pees lijwaten<fref ref="9"/>  pakken roggevellen308.180 lb. caliatourhout2330 pees vloersteenenaan diverse goederen
 </para>
 ƒ 1.201.002,12, -<lb/>
 ƒ 2.779, 2, 8<lb/>
@@ -3746,12 +3744,13 @@ lieutenant-militair Leonard de Coste, meedevoerende een geschenk van ƒ 15.757,6
 inkoops, waaronder voomamentlijk heeft uytgemunt een fraay goud repetitiehorlogie met<lb/>
 dies haak en sleutel, rijkelijk bezet met diamanten, bij den koning en dies hofgroten met<lb/>
 veel meer distinctie als volgens gewoonte gerecipieert, mitsgaders den eersten gesant<lb/>
-wederom beschonken is boven het ordinair present met een partisaan7 en houwer, buytengemeen<lb/>
+wederom beschonken is boven het ordinair present met een partisaan<fref ref="10"/>  en houwer, buytengemeen<lb/>
 met goud en silver gewerkt, en voorts de gezamentlijke gesanten ieder met<lb/>
 een elifant, den scriba met een goude ketting en den tolk met een goude ring, onder veele<lb/>
 
-<fnote><super>7</super> Pertisaan: hellebaard.<lb/>
+<fnote ref="10">Pertisaan: hellebaard.<lb/>
 </fnote>
+
 <pb n="568" tpl="2" vol="12" facs="257_568"/>
 betuyginge van ’s vorsten waare genegentheyd en vriendschap waarvan Zijn Majesteyt<lb/>
 ook al bereets preuve had gegeven aan den bevorens teruggekomen ordinairen gesand den<lb/>
@@ -4123,7 +4122,7 @@ ons niet hebben konnen conformeren met het ten eenemaal onnosel en ongefundeert<
 berigt van de Colombo’s visitateurs Franchimont en Noé om namentlijk den crediet van<lb/>
 den debet der gezegde reekeningen van de fanummunterije detraheerende het overschot,<lb/>
 of zo zij seggen het agterstal dier reekening (uytmakende een aanzienlijke somma van<lb/>
-ƒ 96.760,<fref ref="16"/> , zomaar af te schrijven op reekening van canneel, even of zulks genoeg was<lb/>
+ƒ 96.760,16), zomaar af te schrijven op reekening van canneel, even of zulks genoeg was<lb/>
 en dien reukbast eenige overeenkomst met de zogenoemde fanummunterij had, daar diergelijken<lb/>
 dwase propositie van haar niet gevergt was, maar sij door de ministers gelast<lb/>
 waren een expediënt uyt te zoeken om die reekening eenigermate te soulageeren, zeekerlijk<lb/>
@@ -4544,7 +4543,7 @@ te verbinden in dier voegen als gemeld staat bij onze laatste generaale advijsen
 hoewel met zijnen neef een contract van 5 candijlen cardamom cabessa aangegaan en<lb/>
 daaraan ook voldaan was.<lb/>
 </para>
-<para>Den vorst van Mangattij had zijn agterstal (groot geweest ƒ920,<fref ref="17"/> met peper voldaan,<lb/>
+<para>Den vorst van Mangattij had zijn agterstal (groot geweest ƒ920,17) met peper voldaan,<lb/>
 dog van het agterweezen des Syriaanse aartsbisschop Basilius was er niets afgelegd,<lb/>
 maar integendeel, het erreur bij de Cochimse en Bassourase boeken ten laste der<lb/>
 Syriaanse geestelijke ontdekt, geredresseerd. Niettemin flatteeren de ministers zig met de<lb/>
@@ -5815,9 +5814,6 @@ rds. Sps.8 8873^ of ƒ28.395,4, zijnde minder rds. Sps. 794 of ƒ2540,16,- dan i
 jaare 1751, welke vermindering gering is indien men considereerd dat ’tsedert de thol-<lb/>
 8<lb/>
 
-<fnote>De rijksdaalder en Spaanse reaal waren allebei 60 stuiver waard. Waarschijnlijk bedoelt de schrijver<lb/>
-‘realen Spaans’.<lb/>
-</fnote>
 <pb n="604" tpl="2" vol="12" facs="257_604"/>
 poorten [en] de pagten der suyker afgeschaft zijn, zijnde daarenboven ’t district Oeloedjamie<lb/>
 voor den tijd van 6 jaren afgestaan ’s jaars voor Sps. 3000 of ƒ 9600,- en de leverantie<lb/>
@@ -6098,7 +6094,7 @@ nog vier ge voegt, die weder alle den
 mr. Hendrik Adriaan Lokman en mr. Carel Philip Johan Schippers gepermitteerd<lb/>
 voor de regtbanken van justitie te postuleeren.<lb/>
 </para>
-<para>Bij resolutie van 21 september10 is ingelijft de sententie van den raad, waarbij de crimineele<lb/>
+<para>Bij resolutie van 21 september<fref ref="11"/>  is ingelijft de sententie van den raad, waarbij de crimineele<lb/>
 procedures teegens wijlen den gewezen gouvemeur-generaal de heer Adriaan<lb/>
 Valkenier door desselfs overlijden werden verklaard te zijn geaboleert en g’extingueert,<lb/>
 en bij die van heeden de vrijspreeking van den schipper op ’t uytgekome schip Oosthuyzen,<lb/>
@@ -6122,10 +6118,9 @@ rente dier kamer, welke in Compagnies cas overgebragt zijn, bedragen ƒ 11.533,1
 en haare assignatiën op Nederland ƒ 220.596,18, wezende haar capitaal ƒ4.894.546,-.<lb/>
 </para>
 
-<fnote ref="9"><ref>Boven de ‘31’ staat ‘30’ geschreven.</ref><lb/>
-</fnote>
-<fnote ref="10"><ref>Boven ‘7ber’ staat ‘octbr’ geschreven.</ref><lb/>
-</fnote>
+<fnote ref="11"><ref>Boven de ‘31’ staat ‘30’ geschreven. </ref></fnote>
+<fnote ref="12"><ref>Boven ‘7ber’ staat ‘octbr’ geschreven. </ref></fnote>
+
 <pb n="609" tpl="2" vol="12" facs="257_609"/>
 <para>Tot president van heemraden is in steede van de heer directeur-generaal Van der Parra<lb/>
 benoemd den raad extraordinair Joan Andries baron Van Hohendorf en in plaatse van den<lb/>
@@ -6501,9 +6496,10 @@ geleverd bestaan in:<lb/>
 1.758.562 lb. coffij<lb/>
 28.250 lb. peeper<lb/>
 
-<fnote><super>11</super> In de tekst staat een aanhalingsteken.
+<fnote ref="13">In de tekst staat een aanhalingsteken.
 <emph>DAS</emph> II, 552, noemt 20 mei 1755 als aankomstdatum.<lb/>
 </fnote>
+
 <pb n="614" tpl="2" vol="12" facs="257_614"/>
 23.125 lb. garen<lb/>
 5269 lb. indigo<lb/>

@@ -17,7 +17,7 @@
 </header>
 <body>
 <pb n="85" tpl="1" vol="01" facs="1_104_0085"/>
-<head>X. LAURENS REAEL, WAPEN VAN AMSTERDAM VOOR BANDANEIRA1)<lb/>
+<head>X. LAURENS REAEL, WAPEN VAN AMSTERDAM VOOR BANDANEIRA<fref ref="1"/> <lb/>
 11 juli 1618.<lb/>
 </head>
 <folio>Copie, 980,fol.214-217, tezamen met IX, ook, eveneens als copie, tezamen met XI, f. 218-229.</folio>
@@ -77,8 +77,8 @@ p. XXXIII.<lb/>
 <fnote ref="4">De oosthelft van het eiland Lonthoir of Groot-Banda behoorde tot de ene der uit de<lb/>
 Grote Oost bekende partijen, nl. die der Ulilima, de westhelft met de plaats Lonthoir tot de<lb/>
 haar vijandige partij der Ulisiwa.<lb/>
-ref="1">Overbodich = bereid.<lb/>
 </fnote>
+
 <pb n="86" tpl="1" vol="01" facs="1_104_0086"/>
 <para>Den 30 harde winden ende regenachtige lochi ; die van Celamme zijn op desen<lb/>
 dach wederomme bij ons geweest ende hebben ons aengesecht, dat die van Lontor<lb/>
@@ -91,12 +91,12 @@ se haer volck (die noch alle daechs aen ’t fort ende de schepen gehandelt hadd
 souden thuys houden, dat wij voortaen van geen vrede vulde spreecken, noch<lb/>
 horen spreken. Hierop vraechden die van Celamme, off men dan met haar in ’t<lb/>
 besonder geen vrede wilde houden, sij waren overbodich
-<fref ref="x"/>  de conditiën naar te<lb/>
+<fref ref="1"/>  de conditiën naar te<lb/>
 comen, die men haar voorgestelt hadde. Ons antwoorde was, dat wij in het general<lb/>
 geen andere vrede en vulden hebben, als op de conditiën het ghemene landt tevoren<lb/>
 aengedient. Wilden die van Selamme in ’t bisonder met ons accorderen, zij<lb/>
 souden haar met garen
-<super>1 <fref ref="2"/> </super> ende hoof f den te halen tegens die van Lontor vijant<lb/>
+<fref ref="2"/>  ende hoof f den te halen tegens die van Lontor vijant<lb/>
 thonen ende met ons tegens haar aenspannen omme alle affbreuck te doen. Eyndelijck<lb/>
 hebben haer belast met die antwoorde te vertrecken ende, ingevalle daartoe<lb/>
 niet en costen verstaen, niet wederomme te keren ende dat se haar volck souden<lb/>

@@ -137,7 +137,7 @@ maken Natal en Tapanuli te verlaten; zie het geheime besluit van 10 juni 1757,<l
 »</remark>
 <para>
 - konnende dezelve daarbij mede zien de abrogatie der Padangse handel-<lb/>
-sociteyd en ’t openstellen van een gelimiteerde vrije vaart na die cust1. Terwijl aangaande<lb/>
+sociteyd en ’t openstellen van een gelimiteerde vrije vaart na die cust<fref ref="1"/> . Terwijl aangaande<lb/>
 de aanreekening van goud en weegens ’t besnoeyd payement ’t nodige te vinden<lb/>
 is bij brieven van december 1755 en 1756.<lb/>
 </para>
@@ -179,9 +179,10 @@ voortaan te beladen met<lb/>
 <para>’twelk met de packen gegist werd op 8 a 900.000 lb. aan swaarte.<lb/>
 </para>
 
-<fnote><super>1</super> Zie
+<fnote ref="1">Zie
 <emph>Plakaatboek</emph> 7, p. 213-217.<lb/>
 </fnote>
+
 <pb n="118" tpl="2" vol="13" facs="258_118"/>
 <para>
 En de Ceylonse retourschepen met<lb/>
@@ -325,8 +326,7 @@ Malabar<lb/>
 </para>
 <remark>
 «Op Malabar speelt in het geschil met de zamorin, Travancore ook een rol.<lb/>
-<ref>SURAT</ref><lb/>
- Te Sur at zijn de dienaren slecht behandeld. Met gering succes hebben de Basseiners<lb/>
+<ref>SURAT </ref>Te Sur at zijn de dienaren slecht behandeld. Met gering succes hebben de Basseiners<lb/>
 de hoeker van de Compagnie op de rede aangevallen. In een gevecht met volk van<lb/>
 Kanhoji Angria ging een smalschip en een gelia door buskruit verloren, maar deze rover<lb/>
 had zelf veel doden.<lb/>

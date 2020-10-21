@@ -27,7 +27,7 @@ EN JAN VAN DER BURCH, Batavia 7 maart 1631.<lb/>
 gemeene volck al voor haer aencompste in ditto baey *)) waren gepleecht. Met<lb/>
 d’acte, die wij alle d’officieren als gemeene scbeepsvolck van ditto vlote hier<lb/>
 hadden doen teeckenen ende ’t emaneren van ’t placcaet
-<fref ref="2"/> , van dat niemant als<lb/>
+<fref ref="1"/> , van dat niemant als<lb/>
 behoorlijcke gelicentieerde persoonen mette selve souden vertrecken, mitsgaders<lb/>
 de goede satisfactie ende circumspectie, die in ’t verlossen van ’t volck gegeven<lb/>
 ende gebruyckt was, hadden ons ’t contrarye doen vertrouwen ende verhopen,<lb/>
@@ -37,13 +37,13 @@ als wij nu duchten, dat geschiet is.<lb/>
 <remark>«Schepen uit patria onder commandeur Artus Gij seis<lb/>
 »</remark>
 <para>Door gebreck van waeter ende dagelijcxe toenemende scheurbuyck onder<lb/>
-’t volck3) (principaelijck op ’t schip Deventer) resolveerden mette gemelte schepen<lb/>
+’t volck<fref ref="2"/>  (principaelijck op ’t schip Deventer) resolveerden mette gemelte schepen<lb/>
 ’t eylandt S* Anna
-<fref ref="4"/>  aen te doen omme te ververschen, doch alsoo daer benedenwindt<lb/>
+<fref ref="3"/>  aen te doen omme te ververschen, doch alsoo daer benedenwindt<lb/>
 voorbij liepen, sijn den 4n july in een baye onder Cabo Erio (ter hoochte<lb/>
 van omtrent 23
 <super>2/3</super> graden)
-<fref ref="5"/>  ten ancker gecomen, alwaer ’t gelande volck den<lb/>
+<fref ref="4"/>  ten ancker gecomen, alwaer ’t gelande volck den<lb/>
 7n ditto van de Brasiliaenen ofte inwoonderen van ’t landt door quaede wacht ofte<lb/>
 met gewelt overvallen ende tot 110 coppen, soo soldaten als varent volck, dootgeslaegen<lb/>
 zijn, zulx dat gemelte schepen den 10en ditto, weynich ofte geen<lb/>
@@ -52,9 +52,9 @@ waeter becomen hebbende, wederom van daer zijn vertrocken.<lb/>
 <remark>«De reis leverde verder geen dgl. ongevallen op<lb/>
 »</remark>
 <para>d’ Heer Gijsels
-<fref ref="6"/>  met zijne famillie ende voirder bijhebbende geselschap,<lb/>
+<fref ref="5"/>  met zijne famillie ende voirder bijhebbende geselschap,<lb/>
 als oock de Amboinesche kinderen
-<fref ref="7"/>  zijn met d.° schepen naer een seer penible<lb/>
+<fref ref="6"/>  zijn met d.° schepen naer een seer penible<lb/>
 </para>
 
 <fnote ref="1">Baai bij de uitvaart van Straat Sunda.<lb/>
@@ -87,14 +87,8 @@ stierf eerst 1676. Vgl.
 Nederland gezonden om theologie te studeren. De drie overlevenden keerden met de vloot<lb/>
 van Gijsels in 1629 terug. Vgl.
 <emph>Indische Prinsen.</emph><lb/>
-ref="1">Tristan da Cunha. Het hoofdeiland ligt op 37°6' Z.B. en 12°16' W.L. Zuidwestelijk<lb/>
-daarvan liggen op ongeveer 36 km afstand in noordwest-zuidoostelijke richting Inaccessible<lb/>
-en Nightingale. Ik vermoed, dat Specx Inaccessible zag, hoewel dat niet op 36
-<super>2/3</super>° Z.B. ligt;<lb/>
-de zuidelijke eilanden waren dan Nightingale en omgeving. Dit bezoek wordt niet vermeld in<lb/>
-<emph>Tristan da Cunha.</emph> Vgl.
-<emph>Beschrijvinge,</emph> I, I, p. 667-670, 688-690.<lb/>
 </fnote>
+
 <pb n="280" tpl="1" vol="01" facs="1_104_0280"/>
 <para>ende lange reyse in taemelijcke goede dispositie oock alhier wel aengecomen;<lb/>
 groote peryculen ende ongemack heeft Sijn E. gepasseert, claegende seer over de<lb/>
@@ -105,7 +99,7 @@ vele slechte officieren, die soo op Sijn E. als andere schepen in de vlote gewee
 <para>naer Amboina laten keeren.<lb/>
 </para>
 <para>Den commandeur Gij seis is mette gemelte dry schepen onder d’eylanden van<lb/>
-Tristan de Cunha1) den 3 augusti vervallen, gelijck d’ Heer Generael Specx den<lb/>
+Tristan de Cunha<fref ref="1"/>  den 3 augusti vervallen, gelijck d’ Heer Generael Specx den<lb/>
 6en juny 29 met de schepen Hollandia, Der Goes, Oost-ende Westzaenen oock<lb/>
 wedervaeren is, doch hebben d’een noch d’ander de gelegentheyden derselver<lb/>
 door subyt overcomen onweder niet connen ondersoecken, gelijck gaerne hadden<lb/>
@@ -153,9 +147,8 @@ de zuidelijke eilanden waren dan Nightingale en omgeving. Dit bezoek wordt niet 
 <fnote ref="2">Abrolhos, klippen voor de Braziliaanse kust op ongeveer 18° Z.B. en 381/2° W.L.<lb/>
 Het passeren hiervan was een belangrijke gebeurtenis voor de Oostindiëvaarders, dat met een<lb/>
 feest werd gevierd.<lb/>
-ref="1">Men vergelijke
-<emph>Zeemogendheid</emph> I, p. 349.<lb/>
 </fnote>
+
 <pb n="281" tpl="1" vol="01" facs="1_104_0281"/>
 armade voor Jamby aengetast, in den brant gecregen ende met zijn geheele<lb/>
 laedinge, als veel volck, gesprongen is .
@@ -217,6 +210,7 @@ souden connen werden gebruyckt.<lb/>
 vastgehouden; ten gevolge van het uitblijven van de nodige herstellingen werd het geheel<lb/>
 onbruikbaar; het werd in 1634 voor sloping verkocht.<lb/>
 </fnote>
+
 <pb n="282" tpl="1" vol="01" facs="1_104_0282"/>
 <para>’t Schip den Gouden Leeuw is onbequaem bevonden omme met retouren<lb/>
 naer ’t vaderlandt over te gaen, jaa is inwendich soo vergaen, dat, onaengesyen<lb/>
@@ -268,8 +262,7 @@ meest is ontstaen.<lb/>
 <remark>«Wensen betreffende zending van schepen voor 1632, zeer kleine equipage voldoende,<lb/>
 gebruik der schepen in diverse kwartieren, aankomst van schepen uit Perzië<lb/>
 en Suratte, berichten over Perzië, vgl.
-<ref>Perzië</ref><lb/>
-»</remark>
+<ref>Perzië </ref>»</remark>
 
 <pb n="283" tpl="1" vol="01" facs="1_104_0283"/>
 <para>Den Coninck
@@ -338,10 +331,8 @@ af te doen.<lb/>
 <fnote ref="7">Dom Miguel de Noronha, conde de Linhares, onderkoning van Portugees Indië<lb/>
 van 1630 tot 1635; hij sloot 20 jan. 1635 een overeenkomst tot staking der vijandelijkheden<lb/>
 met Engeland.<lb/>
-ref="1">De Nederlands-Engelse vlootovereenkomst ter zake is afgedrukt
-<emph>Perzie</emph> onder<lb/>
-nr. 172.<lb/>
 </fnote>
+
 <pb n="284" tpl="1" vol="01" facs="1_104_0284"/>
 . . . twee schepen in december van Suratte naer Engelandt gesonden te hebben,<lb/>
 dat naderhant niet dorsten bestaen, maer hebben hnn met d’onse gecombineert
@@ -400,7 +391,7 @@ nr. 172.<lb/>
 <fnote ref="2">Nuno Alvarez Botelho, Portugees vlootvoogd, die sinds 1624 met succes in de<lb/>
 oosterse wateren tegen Nederlanders en Engelsen vocht; in oktober 1629 versloeg hij voor<lb/>
 Malakka een Atjehse vloot, in april 1630 ageerde hij voor Djambi, waar hij 7 mei bij het<lb/>
-springen van de Walcheren (p. 281, noot <fref ref="1"/> omkwam.<lb/>
+springen van de Walcheren (p. 281, noot 1) omkwam.<lb/>
 </fnote>
 <fnote ref="3">Armade de rema, vloot van roeivaartuigen.<lb/>
 </fnote>
@@ -411,10 +402,8 @@ van Malakka tegen de Atjehers dapper maar zonder groot succes gedroeg.<lb/>
 </fnote>
 <fnote ref="6">Dit gevecht wordt in het kort beschreven
 <emph>Zeemogendheid</emph> I, p. 426.<lb/>
-ref="1">Daman, bezitting der Portugezen ter westkust van India, aan de ingang van de<lb/>
-golf van Cambaya, op 20
-<super>1/2</super>° N.B.<lb/>
 </fnote>
+
 <pb n="285" tpl="1" vol="01" facs="1_104_0285"/>
 brieven sijn mede bij d’onse op deselve tijtt geintercipieert, die hier nevens gaen,<lb/>
 daerbij U Ed. naerder van des vijandts intentie ende hoe haeren Indischen staet<lb/>
@@ -441,7 +430,7 @@ bejegenende ende aensloegen, zijnde ’t eene een Conincx schip, daer den gouver
 veel werx van maeckte ende soo quaelijck nam, dat den ambassadeur van Goa,<lb/>
 eenige papen ende andere Portugiesen gevangen dede stellen, meende daerdoor<lb/>
 de relaxatie van gemelte schepen t’obtineren, dreygende wijders die van Daoman
-<fref ref="x"/> <lb/>
+<fref ref="1"/> <lb/>
 seer ende was den directeur Van Hasel van opinie, gemelte dreygementen zijn<lb/>
 swaricheyt voor den Portugies naersleepten, te meer den Coninck soo dicht tot<lb/>
 Brampour
@@ -476,9 +465,8 @@ de provincie Dekhan van het Hindustaanse rijk.<lb/>
 </fnote>
 <fnote ref="4">Diu, Portugees eiland aan de zuidkust van het schiereiland Kathiawar, op 20°40/<lb/>
 N.B. en 71° O.L.<lb/>
-ref="1">Bassein, tot 1739 Portugese bezitting ter westkust van India, 50 km noordelijk<lb/>
-van Bombay.<lb/>
 </fnote>
+
 <pb n="286" tpl="1" vol="01" facs="1_104_0286"/>
 <para>Ende hoewel dese furie tsedert gants gestilt ende bij middel van de Jesuyten<lb/>
 veraccordeert is, soo versoeckt den directeur advys ende ordere, ingevalle tselve<lb/>
@@ -494,7 +482,7 @@ ende naer Compg.8 constitutie in ’t voorvallende schicken.<lb/>
 <para>Over ’t aenhaelen van de twee Moorsche vaertuygen hebben die van Goa aen<lb/>
 de Mooren van Suratte uuytgekeert zeventhyen duysent ropias ende 5 Persische<lb/>
 paerden, daermede weder vrunden sijn; ondertusschen houden Daoman ende<lb/>
-Bassing *) onder ’t commandement van den soone van den vice-roy met 800<lb/>
+Bassing <fref ref="1"/>  onder ’t commandement van den soone van den vice-roy met 800<lb/>
 soldaeten starck beseth; ’t schijnt, ’t nabij wesen des Groot Mogols met sijn<lb/>
 macht de Portugiesen wat doet omsyen ende hun des te gedweeger thoonen ende<lb/>
 de Mooren omme aen d’eere te blijven geven uuyt, dit accoort gemaect hebben<lb/>
@@ -509,7 +497,7 @@ buyten meeningh van vele in zijn gouvernement gecontinueert, doet te Hove<lb/>
 groote schenckagien. Van Haesel seyt, over hem noch weynich heeft te claegen,<lb/>
 alleen naer ’t vertreck van de vloote hadde met hem wat overhoop gelegen wegen<lb/>
 den tol van de afgescheepte goederen, naementlijck de coopmanschappen van<lb/>
-Agra ende Amdabat4), die hij sustineerde, thol schuldich waeren, ten prijse als<lb/>
+Agra ende Amdabat<fref ref="4"/> , die hij sustineerde, thol schuldich waeren, ten prijse als<lb/>
 in Suratte waerdich sijn, daer hart op drong. d’Onse daertegen sustineerden, dat<lb/>
 volvaerdich waeren te betaelen, als altijt gebruyckelijck waere geweest, te weten,<lb/>
 soo in Agra ende elders gecocht hadden ende dat hmi noyt anders voor was geleyt ;<lb/>
@@ -547,6 +535,7 @@ naar Ahmadnagar uit, van waar hij in 1630 moest vluchten. Op de vlucht werd hij 
 verslagen en gedood (1631). Vgl.
 <emph>Zeemogendheid</emph> I, p. 428.<lb/>
 </fnote>
+
 <pb n="287" tpl="1" vol="01" facs="1_104_0287"/>
 <para>Dese oorloghe heeft ende geefft noch groote verachteringe in ’t procureren<lb/>
 van den salpeter, 200 000 ‘fi?, meent Van Haesel, voorleden jaer daerdoor verachtert<lb/>
@@ -560,7 +549,7 @@ verlossinge aen, gelijck U Ed. uuyt nevengaende zijn missyve, dato 8en augusti<l
 sullen sijn vrijdom bevoirderen.<lb/>
 </para>
 <para>Met onsen voorgaenden is U Ed. geadviseert, aen die van Suratte
-<fref ref="x"/>  verboden<lb/>
+<fref ref="1"/>  verboden<lb/>
 hadden ’t overvoeren van Mooren ende haere goederen van Suratte in Persia<lb/>
 ende de retour. Den directeur seyt daertegen sooveel mogelijck gewerckt te hebben<lb/>
 ende, sooveel den dienst van de Compg.ie lijden mocht, geexcuseert ende affgeslaegen,<lb/>
@@ -584,7 +573,7 @@ als zijnde te gants ondienstich voor des Comp.8 negotie.<lb/>
 <lb/>
 »</remark>
 <para>Omtrent met 50 fergats hengelde den Portugies bij d’Engelsche vloote
-<super>* 1 <fref ref="2"/> ,</super><lb/>
+<fref ref="2"/> ,<lb/>
 daervan somwijlen een in de gront raeckte; als wat te na quaemen, sochten<lb/>
 d’Engelsche met branders te beschadigen, hun empecherende sooveel mogelijck<lb/>
 in ’t disbarqueren ende lossen van haere goederen. Op een exploict hadden hun<lb/>
@@ -599,10 +588,6 @@ maer ’t gemeen gevoelen is, dat met zijn gallioens binnen sal blijven ende dat
 machtich is d’selve t’zee te brengen, ten aensyen de nederlage op Ceylon becomen<lb/>
 <fref ref="3"/> , gelijck mede omtrent Mallacca ende op de Custe Choromandel, daer men<lb/>
 
-<fnote>naar Ahmadnagar uit, van waar hij in 1630 moest vluchten. Op de vlucht werd hij nogmaals<lb/>
-verslagen en gedood (1631). Vgl.
-<emph>Zeemogendheid</emph> I, p. 428.<lb/>
-</fnote>
 <fnote ref="1">D.w.z. dat wij aan het Compagniespersoneel te Suratte verboden hadden .<lb/>
 </fnote>
 <fnote ref="2">Voor de Engelse lezing zie men
@@ -614,8 +599,8 @@ bij hen aansloten, werden ze in een hinderlaag gelokt en totaal verslagen. Vgl.
 <emph>Geilon,</emph> p. 27-28<lb/>
 en
 <emph>Portuguese</emph> II, p. 236.<lb/>
-ref="1">Versta: maar omdat.<lb/>
 </fnote>
+
 <pb n="288" tpl="1" vol="01" facs="1_104_0288"/>
 verstaet, meer als 800 blancke verlooren heeft. Sober ontseth had van Portugael<lb/>
 becomen, te weten niet meer als twee schepen ende de tijdingh van daer scheen<lb/>
@@ -675,15 +660,8 @@ het eerste.<lb/>
 <fnote ref="3">Gilan, Perzische provincie aan de Kaspische Zee, vanwaar de meeste zijde kwam.<lb/>
 Dit door het hoge Elbursgebergte van de rest van Perzië moeilijk bereikbare gebied kwam<lb/>
 vaak in verzet.<lb/>
-ref="1">Jacob de Wit(h) ging in 1624 als assistent naar Coromandel, werd 1627 onder-,<lb/>
-1629 opperkoopman, 1630 opperhoofd van Paliool, 1631 van Masulipatam, ging in 1632 naar<lb/>
-Batavia, maar diende sinds september tot 1634 weer in Coromandel, febr. 1634 tot 1637 opperkoopman<lb/>
-van ’t groot comptoir te Batavia, gedurende van Diemens reis naar Amboina in 1637<lb/>
-geassumeerd lid van de Raad van Indië, waarna hij repatrieerde; te Hoorn controleur der<lb/>
-convooien en licenten, 1645 weer uitgekomen, lid van de Raad van Justitie, 1646 commissaris<lb/>
-naar Banda, 1647 opperkoopman van het kasteel, dec. 1650 benoemd tot gouverneur van<lb/>
-Coromandel, waar hij in juli 1651 kwam en in augustus stierf; schoonvader van Carel Reniers.<lb/>
 </fnote>
+
 <pb n="289" tpl="1" vol="01" facs="1_104_0289"/>
 <para>Uutt onse voorgaende brieven sullen U E. gesyen hebben, op wat conditiën<lb/>
 d’onse mette Mooren in Masilipatnam provisionelijck (ende op onse naerder<lb/>
@@ -745,9 +723,8 @@ Coromandel, waar hij in juli 1651 kwam en in augustus stierf; schoonvader van Ca
 </fnote>
 <fnote ref="2">Bulsbelrauw, meer dan de naam van dezen gouverneur te Masulipatam voor den<lb/>
 Koning van Golconda is mij niet bekend.<lb/>
-ref="1">De bedoelde firman is afgedrukt
-<emph>Gor-pus</emph> I als nr. XCIV. Vgl. boven p. 274, noot 3.<lb/>
 </fnote>
+
 <pb n="290" tpl="1" vol="01" facs="1_104_0290"/>
 teert, maer tot uuytpayen off vergoedinge van Comp8 geledene schaede was de<lb/>
 royaele casse niet te brengen ende bij den Tackij resteerde cleene middelen, hebbende<lb/>
@@ -813,9 +790,8 @@ in leven.<lb/>
 </fnote>
 <fnote ref="5">Palicol en Datcheron, plaatsen in de Godavaridelta op 161/a° N.B., lagen beide in<lb/>
 Golconda. Voor de opkoop der in de tekst bedoelde weefsels waren ze onmisbaar.<lb/>
-ref="1">In het oosten werd als groot eerbewijs aan gezanten en gunstelingen de kleding van<lb/>
-den vorst geschonken.<lb/>
 </fnote>
+
 <pb n="291" tpl="1" vol="01" facs="1_104_0291"/>
 <para>Den 18e februari 1630 bequam den coopman Jacob de Wit sijn affscheyt,<lb/>
 sijnde met ’s Conincx cleedinge vereert
@@ -880,10 +856,8 @@ Godavari op 17° N.B. en 813/3° O.L. en Ellore tussen Kistna en Godavari op 162
 81° O.L.<lb/>
 </fnote>
 <fnote ref="4">Versta: M. Tacki is met bewijsstukken beschuldigd .<lb/>
-ref="1">SetiRama. In Carnatica was na tientallen jaren van onrust in 1624 S.R., een telg<lb/>
-van het oude vorstengeslacht, als vorst opgetreden, vooral in 1629 wist hij na veel strijd zijn<lb/>
-macht over de lagere hoofden uit te breiden. Hij stierf, nog zeer jong, 24 mei 1630.<lb/>
 </fnote>
+
 <pb n="292" tpl="1" vol="01" facs="1_104_0292"/>
 maer ’t zouw zijn tijtt moeten hebben ende ondertusschen souden d’Engelschen,<lb/>
 Deenen ende Portugiesen met de prof f ij ten doorgaen, intrem dat ons met oorlooghe<lb/>
@@ -897,15 +871,14 @@ minste seer wel connen wesen.<lb/>
 »</remark>
 <para>Bij de voorgaende advysen zullen Uw Ed. gesyen hebben ’t opcomen van<lb/>
 den Coninck van Carnatica
-<fref ref="x"/>  ; tsedert heeft sich Wencketapeneyck
-<super>1 2 <fref ref="3"/> </super> met gemelte<lb/>
+<fref ref="1"/>  ; tsedert heeft sich Wencketapeneyck
+<fref ref="2"/>  met gemelte<lb/>
 Coninck mede gereconsilieert ende hem alle de landen, welcke langh wegen den<lb/>
 Coninck beseth hadde, ingeruympt ende is alsoo absolut Coninck geworden.<lb/>
 </para>
 <remark>«Volgen mededelingen over Carnatica
 , vermeld
-<ref>Zeemogendheid 7, p. 488-489</ref><lb/>
-en 491; het jacht David verbrand<lb/>
+<ref>Zeemogendheid 7, p. 488-489 </ref>en 491; het jacht David verbrand<lb/>
 »</remark>
 <para>Uutt copie van den coopman Heindrick de Wits joumael
 <super>z)</super>
@@ -922,13 +895,13 @@ procureren, seyt men, in de maent april, als wanneer de beste suyckeren gemaect<
 worden, in Bengala behoort te wesen. In Pepelij ende Bellesor waren wel ontfangen<lb/>
 ende getracteert; omtrent Bellesor vallen de suyckeren wat slechter als wel in de<lb/>
 dorpen Santon, Candahar, Cassarij, Bourlaxampour ende Monerepour
-<fref ref="4"/> , alwaer<lb/>
+<fref ref="3"/> , alwaer<lb/>
 jaerlijcx 2 000 packen seer schoone suyckeren van 3 may off, 180 ’t pack, te<lb/>
 becomen zijn ende dat voor 8 a 9 ropias van 25 st. ’t pack, mits in april ende mey<lb/>
 ’t geit op de hant gevende, daer nu de suyckeren van de Davidt 12 en 13 ropias<lb/>
 hebben gecocht. Groote quantité cleeden, fijn ende groff, principaelijck extraordinary<lb/>
 fijne cassen
-<fref ref="5"/> , worden in voors. quartieren ende daeromtrent gemaect,<lb/>
+<fref ref="4"/> , worden in voors. quartieren ende daeromtrent gemaect,<lb/>
 maer vallen wel soo dier als in Masilipatnam. ’t Is een schoon landt, vol ende<lb/>
 
 <fnote ref="1">SetiRama. In Carnatica was na tientallen jaren van onrust in 1624 S.R., een telg<lb/>
@@ -950,9 +923,8 @@ II, p. 15 wordt genoemd. Nadere gegevens over de hier genoemde dorpen kan ik nie
 </fnote>
 <fnote ref="5">Casse, zachte, dunne katoenen stof, als neteldoek of moesseline, vooral uit Bengalen<lb/>
 komend.<lb/>
-ref="1">De nawab was de gouverneur van Bengalen namens den Groot-Mogol. Het woord<lb/>
-is als nabob in Europa voor een rijkaard uit Indië ingeburgerd.<lb/>
 </fnote>
+
 <pb n="293" tpl="1" vol="01" facs="1_104_0293"/>
 overvloedich van alles, maer selden in rust, geduyrich met oorlogen gequelt<lb/>
 ende d’inwoonders van haer heer, den Navaeb
@@ -1018,19 +990,12 @@ is als nabob in Europa voor een rijkaard uit Indië ingeburgerd.<lb/>
 <fnote ref="2">Men vindt de gegevens over de Der Schelling en over het kasteel Gelria te Paleakatte<lb/>
 in het kort vermeld
 <emph>Zeemogendheid</emph> I, p. 490.<lb/>
-ref="1">Willem Jacobsz. Coster kwam 1627 als schipper op den Briel uit, ging in die kwaliteit<lb/>
-in 1630 naar Perzië en was 1630—1634 commandeur van vloten in diverse delen van Zuid-OostAzië,<lb/>
-repatrieerde in 1634 als vice-commandeur van een retourvloot en kwam in 1636 als<lb/>
-commandeur terug; vergezelde 1637 Van Diemen naar Amboina, was daarna voor Goa en<lb/>
-Ceylon werkzaam ; was in 1 639 2e persoon voor Malakka, werd president op Ceylon en veroverde<lb/>
-maart 1640 Galle. Na een reis naar den vorst voor Kandy werd hij op de terugtocht door<lb/>
-Singalezen 17 aug. 1640 te Nilgale vermoord, voor hij bericht had van zijn benoeming tot<lb/>
-gouverneur van Ceylon.<lb/>
 </fnote>
+
 <pb n="294" tpl="1" vol="01" facs="1_104_0294"/>
 Vlielandt ende Bon Remedio, gemant met 226 cloecke coppen, naementlijck<lb/>
 186 varent volck ende 40 soldaeten, gemelte zijn in vlote den 25en augusti onder<lb/>
-commandement van den schipper Willem Jacobsz Coster *) van hier derrewaerts<lb/>
+commandement van den schipper Willem Jacobsz Coster <fref ref="1"/>  van hier derrewaerts<lb/>
 gevaren ende op de Custe den 22e september wel aengecomen.<lb/>
 </para>
 <para>Interim was bij de Portugiesen niet notabels geattenteert, als dat hun den<lb/>
@@ -1095,12 +1060,10 @@ gouverneur van Ceylon.<lb/>
 op 12° N.B.<lb/>
 </fnote>
 <fnote ref="6">Don Bras. Mij verder niet bekend.<lb/>
-ref="1">Jan Verhoeven, 1628 onderkoopman te Gamron, moest in 1630, verdacht van malversaties,<lb/>
-met de Vlielandt naar Batavia vertrekken. Hij sneuvelde 22 sept. 1630 tegen de<lb/>
-Portugezen.<lb/>
 </fnote>
+
 <pb n="295" tpl="1" vol="01" facs="1_104_0295"/>
-daeronder den coopman Jan Verhoeven1) met noch 20 gequetste. Men verstaet,<lb/>
+daeronder den coopman Jan Verhoeve<fref ref="1"/>  met noch 20 gequetste. Men verstaet,<lb/>
 in de fust 40 vaten cruyt waren om na Ceylon te brengen ende dat een overlooper,<lb/>
 syende de fust geentert, ’t vier in ’t cruyt heeft gesteecken; de fuste sprang heel<lb/>
 wegh, met alle zijn volck, behalven dry Portugiesen, die bij d’onse gesalveert<lb/>
@@ -1174,9 +1137,8 @@ oostelijk van Colombo (vgl.
 </fnote>
 <fnote ref="8">Dom Felipe de Mascarenhas kwam reeds in 1623 uit Portugal naar Indië, was 1630<lb/>
 gouverneur van Cochin en 1644-1651 onderkoning van Portugees Indië.<lb/>
-ref="1">Dom Diego de Mello, gouverneur van Meliapore of San Thomé is mij verder niet<lb/>
-bekend.<lb/>
 </fnote>
+
 <pb n="296" tpl="1" vol="01" facs="1_104_0296"/>
 verrichten mogen. Dese rescontre in Ceylon, op de Cust ende omtrent Jamby<lb/>
 schijnen, den Portugies soo gematteert hebben, dat in Snratte ten principaele<lb/>
@@ -1235,8 +1197,8 @@ bekend.<lb/>
 <fnote ref="2">Resgateren, loskopen, van het Portugese resgate.<lb/>
 </fnote>
 <fnote ref="3">NI. van specerijen om de prijzen hoog te houden.<lb/>
-ref="1">Ali Khan, blijkbaar een Moslims koopman.<lb/>
 </fnote>
+
 <pb n="297" tpl="1" vol="01" facs="1_104_0297"/>
 <remark>«Daarom ontvangt Barent Pietersz. liever specerijen dan realen<lb/>
 »</remark>
@@ -1246,7 +1208,7 @@ Alichan
 ; ’t schip van Merchimchia na Pegu was omgeseylt ende van 600 persoonen<lb/>
 niet meer als 40 met de boot op de custe van S’gengelij te lande gecomen. Van<lb/>
 Atchin stont een schip te comen, een ander van Arracan ende twee champans off<lb/>
-barequesons2) uuyt Pegu ende dit was alles, dat de Mooren in Masilipatnam in te<lb/>
+barequesons<fref ref="2"/>  uuyt Pegu ende dit was alles, dat de Mooren in Masilipatnam in te<lb/>
 wachten hadden.<lb/>
 </para>
 <para>Met Noortwijck dato 25 november uyt Masilipatnam adviseert ons den coopman<lb/>
@@ -1301,12 +1263,12 @@ werkzaam, de laatste tijd met de titel directeur. Hij stierf als commandeur van 
 van 1641 naar patria.<lb/>
 </fnote>
 <fnote ref="4">Gerestringeert, beperkt, ingetrokken.<lb/>
-ref="1">Onbeslet, onbelemmerd.<lb/>
 </fnote>
+
 <pb n="298" tpl="1" vol="01" facs="1_104_0298"/>
 ende door hem geretoureert te werden, als wanneer d’opjaging’ der coopmanschappen,<lb/>
 de fraude ende ’t verswijgen op den tol ende d’onlusten in Masilipatnam<lb/>
-sullen voorgecomen sijn; Compgs. schepen sullen oock onbesleth1) blijven ende<lb/>
+sullen voorgecomen sijn; Compgs. schepen sullen oock onbesleth<fref ref="1"/>  blijven ende<lb/>
 veel costen ende provigien gespaert.<lb/>
 </para>
 <remark>«Goederen in Coromandel verkrijgbaar<lb/>
@@ -1352,8 +1314,7 @@ neyck daerop niet sullen derven attenteren.<lb/>
 nevens andere ons gerieff van cleeden, salpeter etc. van daer becomen.<lb/>
 </para>
 <remark>«Handel op Sumatra, af gedrukt
-<ref>Bouwstoffen</ref> II, p. 168-170<lb/>
-»</remark>
+<ref>Bouwstoffen II, p. 168-170 </ref>»</remark>
 <para>
 Uuyt onsen jongsten sullen Uw Ed. verstaen hebben, met wat cargasoen<lb/>
 ende orderen wij ’t schip ’t Wapen van Hoorn ende ’t jacht Brouckerhaeven den<lb/>
@@ -1365,12 +1326,8 @@ Met hem stond de Compagnie jarenlang in goede relatie. De man, die eigenlijk Ast
 Chitty heette, stierf maart 1634.<lb/>
 </fnote>
 <fnote ref="3">Gastos, Portugees = onkosten. Hier geld om onkosten te betalen.<lb/>
-ref="1">Ten rechte Henry Sill; het jacht „Coster” heette in werkelijkheid: Coaster. Sill<lb/>
-kwam 1620 uit als steward’s mate; was eind 1623 factor te Amboina, 1625-1630 in Jambi,<lb/>
-vervolgens hoofd der kantoren Armagon en Masulipatam, werd in 1631 door Willoughby<lb/>
-gearresteerd en naar Bantam gevoerd; van daar naar Suratte opgeroepen, stierf hij op weg<lb/>
-daarheen okt. of nov. 1632 ter rede van Gamron.<lb/>
 </fnote>
+
 <pb n="299" tpl="1" vol="01" facs="1_104_0299"/>
 7en november 29 van hier naer Jambi hadden gedepecheert ; ditto schip is den<lb/>
 15n januari 1630 met 62231/2 picol suyvere sware ende 190 picol 36 cattij lichte<lb/>
@@ -1429,8 +1386,8 @@ sommigen werd erkend, is het moeilijk in deze jaren te begrijpen, wie in een bep
 bedoeld: hier de vrouwen van den in juni en van den in oktober overledene, van wie de laatste<lb/>
 als Ratu Mas bekend stond. Zij was onder den derden der bedoelde vorsten de voornaamste<lb/>
 machthebbende in den lande.<lb/>
-ref="1">Opcorten, hier de rivier hoger opkomen (door het inkorten van het ankertouw).<lb/>
 </fnote>
+
 <pb n="300" tpl="1" vol="01" facs="1_104_0300"/>
 toegestaen zijn, daermede dese Engelsche gesmede turbnlentyen voor die tijtt<lb/>
 wat gestilt zijn .<lb/>
@@ -1456,8 +1413,8 @@ uuyt Jambi eyndelijck sonder naerder gevolch mede gestilt.<lb/>
 </para>
 <remark>«Zending van schepen naar D jambi en gebeurtenissen aldaar ,
 <emph>gedrukt</emph> Bouwstoffen<lb/>
-<emph>II, p. 170-173. Vertrek van Van Diemen en Block Martsz. naar patria).</emph><lb/>
-</remark>
+<emph>II, p. 170-173. Vertrek van Van Diemen en Block Martsz. naar patria</emph><lb/>
+»</remark>
 <para>d’ Heer Nuydts naer verscheyden gedaen versoeck, blijfft hier over.<lb/>
 </para>
 <para>
@@ -1491,12 +1448,11 @@ zijn, wert Zijn E. oock seer te laste geleght, uuyt oorsaecken als Uw Ed.<lb/>
 </fnote>
 <fnote ref="4">Zie
 <emph>Nuyts,</emph> p. 33.<lb/>
-ref="1">Zie
-<emph>Nuyts,</emph> p. 34.<lb/>
 </fnote>
+
 <pb n="301" tpl="1" vol="01" facs="1_104_0301"/>
 bij de neffensgaende pampieren in handen van de heer Van Diemen sullen believen<lb/>
-te syen *).<lb/>
+te sye<fref ref="1"/> .<lb/>
 </para>
 <para>Geduyrende sijn aenwesen alhier heeft met den fiscael Van den Heuvel,<lb/>
 naerdat hij mede gedeporteert was, sulcken onbehoorlijcken correspondentie gehouden,<lb/>
@@ -1529,8 +1485,7 @@ herrewaerts te senden, alsoo de schade ende verachteringen al te groot is, die d
 Compaingnie alreede geleden heeft.<lb/>
 </para>
 <remark>«Slot, enkele zinsneden daarvan zijn af gedrukt
-<ref>Indisch Verslag, p. 8</ref><lb/>
-»</remark>
+<ref>Indisch Verslag, p. 8 </ref>»</remark>
 
 <fnote ref="1">Zie
 <emph>Nuyts,</emph> p. 34.<lb/>

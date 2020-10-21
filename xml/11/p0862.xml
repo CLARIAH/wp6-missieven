@@ -372,9 +372,9 @@ De Cormandelse coopmanschappen belopen<lb/>
 <cell n="208" row="33" col="3">8</cell>
 </row>
 </table>
+<para>ƒ 150.287,10, 8<lb/>
+</para>
 
-<fnote>ƒ 150.287,10, 8<lb/>
-</fnote>
 <pb n="864" tpl="2" vol="11" facs="232_864"/>
 <para>Bengaalse coopmanschappen<lb/>
 </para>
@@ -890,18 +890,18 @@ preuve<lb/>
 <cell n="210" row="23" col="3">3,18, -</cell>
 </row>
 </table>
-
-<fnote>De Bataviase versaameling rendeert<lb/>
-</fnote>
-<fnote>Het volgende als tot het rethour niet behoorende<lb/>
+<para>De Bataviase versaameling rendeert<lb/>
+</para>
+<para>Het volgende als tot het rethour niet behoorende<lb/>
 werd hetselve hier eenlijk binneslinies<lb/>
 bekend gesteld, namentlijk:<lb/>
-</fnote>
-<fnote ref="54">.000 lb. klipsteenen ƒ -, -<lb/>
+</para>
+
+<fnote ref="1">.000 lb. klipsteenen ƒ -, -<lb/>
  
  Van de equipagiewerff<lb/>
  </fnote>
-<fnote ref="38">pees onbequaame ankers wege 88.344<lb/>
+<fnote ref="2">pees onbequaame ankers wege 88.344<lb/>
  
  <special>lb./-</special> -<lb/>
  
@@ -909,14 +909,14 @@ bekend gesteld, namentlijk:<lb/>
  </fnote>
 <fnote ref="3">pees aambeelden |<lb/>
 </fnote>
-<fnote ref="60">pees dommekragten I<lb/>
+<fnote ref="4">pees dommekragten I<lb/>
 </fnote>
-<fnote ref="20">pees bankschroeven /
+<fnote ref="5">pees bankschroeven /
 <super>we8en</super> 60.000 lb. ƒ<lb/>
 </fnote>
-<fnote ref="4">pees speerhaken<lb/>
+<fnote ref="6">pees speerhaken<lb/>
 </fnote>
-<fnote ref="8">kassen snaphanen en pistoollopen /<lb/>
+<fnote ref="7">kassen snaphanen en pistoollopen /<lb/>
  
  Voor 2 percento Batavia’s ongelden op<lb/>
 ƒ1.978.684,14, -<lb/>
@@ -927,6 +927,7 @@ bekend gesteld, namentlijk:<lb/>
  <und>ƒ 39.573,14, -</und><lb/>
 ƒ 2.018.258, 8, -<lb/>
  </fnote>
+
 <pb n="867" tpl="2" vol="11" facs="232_867"/>
 <para>Nu volgt het bedragen van ieder bodems inlaadingh, namentlijk:<lb/>
 voor reekening der praesidiale kamer Amsterdam<lb/>

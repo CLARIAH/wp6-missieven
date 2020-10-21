@@ -795,9 +795,6 @@ De gehoudene vendutiën op de volgende datums als den:<lb/>
 dus minder winst oplevert. Batavia zal zoveel mogelijk de gevraagde textiel sturen.<lb/>
 »</remark>
 
-<fnote>Ook waeren eenige lijwaeten opgeveyld, tot op het kostende afgeloopen en van de<lb/>
-hand gezet, om reedenen dat het losse stucken waaren, welkers volle packen om dies<lb/>
-</fnote>
 <pb n="415" tpl="2" vol="12" facs="257_415"/>
 ongewiltheit aldaar herwaarts gezonden zijn, bestaande in:<lb/>
 2 packen baftas zwarte heele Sourats<lb/>
@@ -1822,7 +1819,7 @@ konden absolveeren, op een genegotieerde capitaal van ƒ 277.842,9,8 in plaats v
 carga’s neevens den theeproever en mede-carga Ludecq in Canton doen overblijven en<lb/>
 met den koopman Tsja Honqua (die wij voor sijn betoonde trouwe en vigilantie met een<lb/>
 present ter waarde van ƒ -
-<super>1</super> hebben geregaleert) en één a twee welgegoede kooplie¬<lb/>
+<fref ref="1"/>  hebben geregaleert) en één a twee welgegoede kooplie¬<lb/>
 den laaten contracteeren tegens de minst te bedingene prijsen om in september 1755 gelevert<lb/>
 te werden thien a twaalfduysend picols thee bohea uyt het nieuwe gewasch, 5000<lb/>
 pees zijde stoffen, 10.000 ponden Nankingse zijde, 100.000 ponden alluyn, drie maal<lb/>
@@ -1848,8 +1845,9 @@ van 12.000 picols peper af te staan voor thail 10,2,9^ en de resteerende 5522| p
 naderhand tegens thail 8,3,3^ of door den anderen tegens ƒ50,17,8 ’t picol dan wel<lb/>
 ƒ 8,6,- minder dan het voorgaande jaar, het thin tegens ƒ 60,7,13,- of ƒ 1,10,10, het loot<lb/>
 
-<fnote><super>1</super> Het bedrag is niet ingevuld.<lb/>
+<fnote ref="1">Het bedrag is niet ingevuld.<lb/>
 </fnote>
+
 <pb n="433" tpl="2" vol="12" facs="257_433"/>
 tegens ƒ 19,7,3 dan wel ƒ -,7,12 ’t picol, de poetjoek tegens ƒ 112,4,- of ƒ 21,13, het cattoen<lb/>
 tegens ƒ 48,8,- dan wel ƒ 8,14,9 en het Timorees sandelhout tegens ƒ 13,4 of ƒ -,5,5<lb/>
@@ -2641,7 +2639,7 @@ en op den raad zijner vrienden, welke tot Batahan versameld, hem weeder verwagte
 waaren.<lb/>
 </para>
 <remark>«Deze kwestie staat beschreven in de brief van 13 april 1754
-<super>2</super> waarop Batavia in de<lb/>
+<fref ref="2"/>  waarop Batavia in de<lb/>
 brief van 22 augustus heeft geantwoord,<lb/>
 »</remark>
 <para>
@@ -2663,8 +2661,8 @@ gedaan op Padang te komen, teneinde middelen te beramen den vervallen handel ald
 weder op te beuren en dat zij daarin condescendeerende, tegelijk op de instantie der sendelingen<lb/>
 van diverse in ’t gebergte leggende negorijen, onder het bestier van twee hooft-<lb/>
 
-<fnote ref="2"><ref>In de marge staat 12 april.</ref><lb/>
-</fnote>
+<fnote ref="2"><ref>In de marge staat 12 april. </ref></fnote>
+
 <pb n="443" tpl="2" vol="12" facs="257_443"/>
 regenten, tot Ticou hebben laaten opregten een marktplaats op campong Massang, welke<lb/>
 de Engelse te Bancahoulou, zoo zij zeggen, meede in ’t oog zoude hebben genoomen<lb/>
@@ -4209,7 +4207,7 @@ vermeld staat bij ’t schrijven der ministers de dato
 <und>5 junij</und> deses jaars, waarop men bij<lb/>
 onse secreete van den
 <und>22e</und>
-<und>november3</und> laastverleeden haar heeft gerecommandeerd door<lb/>
+<und>november<fref ref="3"/> </und> laastverleeden haar heeft gerecommandeerd door<lb/>
 goede middelen sulke in ’s Compagnies districten intollerable buytensporigheeden van<lb/>
 die blinde ijveraars te betuygelen en de roomse militairen van dat postje elders anders<lb/>
 verplaatsende, teffens verdagt te zijn de officieren van dat geloof algaandeweg herwaarts<lb/>
@@ -4230,10 +4228,11 @@ door den fiscaal over het steelen en verkoopen van eenig buskruyt g’actioneerd
 de drie busschieters daaromtrend niet strafschuldig werden bevonden en nogtans<lb/>
 door gemelte raade ter corporeele straffe waaren gecondemneerd, ten regten heeft<lb/>
 
-<fnote><super>3</super> Boven 5 juni staat 19 april geschreven, boven 22 november 8 november. De erboven geschreven<lb/>
+<fnote ref="3">Boven 5 juni staat 19 april geschreven, boven 22 november 8 november. De erboven geschreven<lb/>
 data zijn de correcte data. Zij worden eerder genoemd bij dit kantoor als verzenddata van brieven.<lb/>
 <lb/>
 </fnote>
+
 <pb n="470" tpl="2" vol="12" facs="257_470"/>
 gesurcheerd tot onse nadere dispositie en wij resumeerende de overgesondene processtucken<lb/>
 met de daarbij gevoegde deductie van Zijn E., desel ve wel en na regten gefondeerd<lb/>
@@ -4690,11 +4689,12 @@ met
 beeter is als deselve in de pakhuysen onverkogt te laaten leggen, alsook om de verhoging<lb/>
 van 9 percento op de aanbesteeding van lijwaten te laten voortgang neemen, terwijl<lb/>
 
-<fnote><super>4</super> Fol. 677 ontbreekt in de nummering.<lb/>
+<fnote ref="4">Fol. 677 ontbreekt in de nummering.<lb/>
 </fnote>
-<fnote><super>5</super> Het is niet duidelijk hoe men aan dit bedrag komt. De winsten in 1751/52 bedroegen ƒ 737.760,<lb/>
+<fnote ref="5">Het is niet duidelijk hoe men aan dit bedrag komt. De winsten in 1751/52 bedroegen ƒ 737.760,<lb/>
 in 1752/53 ƒ983.791, d.w.z. een stijging met ƒ246.031.<lb/>
 </fnote>
+
 <pb n="478" tpl="2" vol="12" facs="257_478"/>
 er geen ander middel was, niettegenstaande wij met hunlieden van meening sijn tot eene<lb/>
 nog nadere verhooging van 9 percento, en dus 18 percento te saamen, niet te konnen<lb/>
@@ -4997,14 +4997,12 @@ met rds. 6^ per maand aan gagie, mitsgaders de gemeene ieder 5 rds. tractement s
 meer.<lb/>
 Gamron<lb/>
 </para>
-<remark>«Batavia heeft sinds de brieven van 7 februari6 en 1 oktober 1 753 niets meer vandaar<lb/>
+<remark>«Batavia heeft sinds de brieven van 7 februari<fref ref="6"/>  en 1 oktober 1 753 niets meer vandaar<lb/>
 vernomen. Men meldt dat<lb/>
 »</remark>
 <para>6<lb/>
 </para>
 
-<fnote>Volgens missive XVIII moet dit 8 februari zijn.<lb/>
-</fnote>
 <pb n="481" tpl="2" vol="12" facs="257_481"/>
 <para>
 - de scheepen Hartekamp en de Getrouwigheid met den resident Van Kniphausen,<lb/>
@@ -5397,7 +5395,7 @@ Aan het hof is het rustig,<lb/>
 <para>
 - en de oude afgegane sulthan in zijn daim vergenoegt en stil levende sonder sig<lb/>
 in eenige opsigten met ’t hoff te bemoeyen, konnende in desen opsigte geensints in aanmerking<lb/>
-komen het rukeloos bestaan van eenen zogenaamden tappa7, die met eenige<lb/>
+komen het rukeloos bestaan van eenen zogenaamden tappa<fref ref="7"/> , die met eenige<lb/>
 weynige roervincken uyt het Banjoemaasse aangekomen zijnde, nu en dan de Jaccatrase<lb/>
 bovenlanden ontrust heeft, dog vandaar verdreven en zig daarna in het Bantamse bovengebergte<lb/>
 op hoop van aanhang te krijgen opgehouden hebbende, schielijk door des sulthans<lb/>
@@ -5446,8 +5444,9 @@ dienstdoende luitenant-kolonel Willem Hendrik van Ossenberg,<lb/>
 De Heere hebben wij benoemt tot eerste resident van Palembang en in dies stede<lb/>
 wederom de onderkoopman en commissaris van zeezaken Mens, onder bevordering tot<lb/>
 
-<fnote><super>7</super> Heilige.<lb/>
+<fnote ref="7">Heilige.<lb/>
 </fnote>
+
 <pb n="488" tpl="2" vol="12" facs="257_488"/>
 koopman, zijnde de onderkoopman en scriba Laats herwaarts opontboden, alsmede de<lb/>
 capitain Heller, die aldaar volgens de bepaling der officieren supernumerair was, terwijl<lb/>
@@ -5702,7 +5701,7 @@ om te konnen rondschieten met de ordinaire inkomsten - . De navale magt is reede
 <pb n="492" tpl="2" vol="12" facs="257_492"/>
 <para>aansienlijk en d’ uytkomende scheepen sijn geluckig g’ arriveert, buyten ’t scheepje Prin-
 </para>
-ces Carolina8 dat men wel hopeloos mag stellen.<lb/>
+ces Carolina<fref ref="8"/>  dat men wel hopeloos mag stellen.<lb/>
 <table n="227">
 <row n="227" row="1">
 <cell n="227" row="1" col="1">Leyden</cell>
@@ -5914,12 +5913,13 @@ met de
 </para>
 <folio>Fol.721v-727v.</folio>
 
-<fnote><super>8</super> Volgens
+<fnote ref="8">Volgens
 <emph>DAS</emph> II, 546, is de Prinses Carolina op 12 augustus 1754 in Batavia aangekomen. Uit de<lb/>
 missiven (zowel de onderhavige als missive XXIX van
 <emph>Gen. Miss.</emph> XIII, 104) blijkt dat het schip<lb/>
 op de uitreis waarschijnlijk vergaan is. Het komt niet meer in Batavia aan.<lb/>
 </fnote>
+
 <pb n="493" tpl="2" vol="12" facs="257_493"/>
 <para>(De volgende schepen zijn af gedankt en verkocht:)
 </para>
