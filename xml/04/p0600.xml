@@ -58,7 +58,6 @@ de Coningh van Bantam eenigh gesagh over Sillebaer competeerde
 derhalven dagten de Compe in haere prerogativen met hunne besendinge derwaerts<lb/>
 niet te konnen misdoen.<lb/>
 </para>
-
 <remark>
 «De Engelsen vertrokken 31 aug. 1683 met twee jachten van Batavia naar<lb/>
 Suratte; uit Amsterdam kwamen aan op 23 maart via Malabar Eemland, 5 mei<lb/>
@@ -68,13 +67,8 @@ worden, 3 dec. Coevorden en Castricum, van Zeeland 12 juni Willem Hendrick,<lb/>
  28 juli Burgh van Leyden, 31 oct. Hollandse Thuyn na een lange reis, 30 nov. Princes<lb/>
 Maria; op de reis overleden in totaal 102 personen, w.o. 31 militairen; terug gaan naar<lb/>
 Amsterdam Schouwen en Willem Hendrick, resp. via Malabar en Ceylon op 9 oct.<lb/>
-vertrokken om kaneel en Perzische zijde af te halen, voorts Wapen van Alckmaer
-,<lb/>
-Vrije Zee en Ridderschap, naar Zeeland Burgh van Leyden en Africa, naar Rotterdam<lb/>
-en Delft Eyland Mauritius, naar Enkhuizen en Hoorn Oostenburgh; alle notemus-<lb/>
-<ref>c </ref>aat wordt ingeladen om de prijs in Azië hoog te houden
-<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">De Engelsen hadden nl. een andere bestemming voor deze twee jachten opgegeven.<lb/>
 </fnote>
 <fnote ref="2">Benjamin Crackford (Crawford?).<lb/>
@@ -86,7 +80,13 @@ en Delft Eyland Mauritius, naar Enkhuizen en Hoorn Oostenburgh; alle notemus-<lb
  </fnote>
 
 <pb n="601" tpl="1" vol="04" facs="4_134_0601"/>
-
+<remark>vertrokken om kaneel en Perzische zijde af te halen, voorts Wapen van Alckmaer
+,<lb/>
+Vrije Zee en Ridderschap, naar Zeeland Burgh van Leyden en Africa, naar Rotterdam<lb/>
+en Delft Eyland Mauritius, naar Enkhuizen en Hoorn Oostenburgh; alle notemus-<lb/>
+<ref>c </ref>aat wordt ingeladen om de prijs in Azië hoog te houden
+<lb/>
+»</remark>
 <para>
 - en alsoo de Engelsen te seeckerder de occasie te ontnemen om daerin<lb/>
 met voordeel eenige negotie te doen
@@ -123,7 +123,6 @@ even te vooren binnengekregen, waaruyt Amboina in haare schaarsheyt al een<lb/>
 matigh sustens heeft genoten, daar die van Banda mede in geparticipeert hebben,<lb/>
 dogh de vaart der burgerij op Macassar heeft het meeste wel toegebraght, -<lb/>
 </para>
-
 <remark>
 «- zodat er 150 last rijst en 69\ padi in voorraad was; 19 dec. vertrok<lb/>
  Martensdijck met carg. van f. 65 283.9.4 naar Amboina en last ter Oostkust van Java<lb/>
@@ -131,18 +130,19 @@ rijst in te laden voor Banda; de eis van 300 man voor Amboina, 200 voor Banda en
 100 voor Ternale kan men niet voldoen; over de bouw van het kasteel op de hoek van<lb/>
 Martin Alfonsoof Fonceca wordt door het bestuur van Amboina niet meer gerept; het<lb/>
 woonhuis van den gouverneur buiten het oude kasteel is met een zaal van 80 voet<lb/>
-lengte uitgebreid en wordt door een muur omgeven , terwijl er een bolwerk met 9 kanons<lb/>
-bij is gevoegd , wat de Hoge Reg. onjuist vindt; de commissaris Padtbrugge meent in<lb/>
-zijn rapport,
-<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">Wanneer de prijzen voor producten, waarvan de Nederlanders het monopolie hadden,<lb/>
 in Europa hoog waren, kon het voor de Engelsen voordelig zijn, wat daarvan door de V.O.C.<lb/>
 naar India werd gebracht, aldaar op te kopen.<lb/>
 </fnote>
 
 <pb n="602" tpl="1" vol="04" facs="4_134_0602"/>
-
+<remark>lengte uitgebreid en wordt door een muur omgeven , terwijl er een bolwerk met 9 kanons<lb/>
+bij is gevoegd , wat de Hoge Reg. onjuist vindt; de commissaris Padtbrugge meent in<lb/>
+zijn rapport,
+<lb/>
+»</remark>
 <para>
 - dat het buyten woonen van den gouvernr een nutte saacke was, als<lb/>
 waardoor ’t casteel te min gevaar liep van overrompelinge ende wijders, van sijn<lb/>
@@ -358,7 +358,7 @@ nae en taalden.<lb/>
 </para>
 <remark>«Makassaarse slaven mogen er niet worden ingevoerd; de nagelbomen zijn er<lb/>
 uitgeroeid; de betrokken perkenier, Isaack Jacobsz.
-<super>z),</super> is veroordeeld
+<fref ref="3"/> , is veroordeeld
 <lb/>
 »</remark>
 <para>
@@ -372,10 +372,10 @@ bleek,
 »</remark>
 <para>
 - dat de twee genoemde burgers, met hun sloepje de kreeck Serewatto
-<fref ref="3"/> <lb/>
+<fref ref="4"/> <lb/>
 soo hoogh als mogel. opgeseyld sijnde, aldaar besoght waren geweest door die van<lb/>
 Wierkey
-<fref ref="4"/>  en Mariery, welcke, naar het verhandelen hunner coopmanschapjes op<lb/>
+<fref ref="5"/>  en Mariery, welcke, naar het verhandelen hunner coopmanschapjes op<lb/>
 derselver vertrek met een schoot vereert sijnde, daardoor soo verschrickt waren<lb/>
 geworden, dat hun prauwtje omgeslagen, ’t goetje verlooren en oock een kint<lb/>
 verdroncken was, ’tgeen in haar sulcken bitterheyt verweckte, dat se ’s anderen<lb/>
@@ -634,14 +634,14 @@ tegen had dien Ko. selfs valschel. voorgegeven, dat door de Cauwse Alfoeresen<lb
 een Tidorees dootgeslagen en een gequetst, item nogh op een ander tijt een derde<lb/>
 mede gequetst was geworden en niet alleen duydel. genoegh gedreygt selve te<lb/>
 sullen revengieren, maar oock onder dat decksel de Madase
-<super>L)</super> en Wedase
-<fref ref="1"/>  correcorren<lb/>
+<fref ref="1"/>  en Wedase
+<fref ref="2"/>  correcorren<lb/>
 alomme tot Gammaknorra ten rooff uytgesonden ende verscheyde moorderijen<lb/>
 en roverijen gepleegt voornamentl. aan de arme Ganesen van Toseko, die<lb/>
 sigh evenwel nae dato met het doodslaan eerst van 5 en daarnae van 10 derselve<lb/>
 rovers redel. gerevengieert en al vrij wat ontsagh gemaackt hadden, item op Xula,<lb/>
 Taliabo, Tabako
-<fref ref="2"/>  en Gapy, waartegen wel verscheyde protesten aan Sijn Hoogh1<lb/>
+<fref ref="3"/>  en Gapy, waartegen wel verscheyde protesten aan Sijn Hoogh1<lb/>
 ware gedaan, maar had hij meest telckens den onwetende gespeelt, somtijts oock<lb/>
 geklaaght, dat de sijne eerst aangerandt sijn geweest en diergelijcke. Onse militie<lb/>
 in Ternaten was wel gemoedight om de kerffstock met denselven eens van degen<lb/>
@@ -658,11 +658,10 @@ Tidore vlijtig beoefend
 , maar lijdt door de regens<lb/>
 »</remark>
 <para>Den rigter Colabo
-<fref ref="3"/>  droegh sigh onbestraffel. en ijverigh, voor soo verre sijn<lb/>
+<fref ref="4"/>  droegh sigh onbestraffel. en ijverigh, voor soo verre sijn<lb/>
 ouderdom ende swackheyt toeliet. Men vertrouwde, als hij door Alam ondersteunt<lb/>
 wiert, dat het alsdan nergens aan haeperen soude.<lb/>
 </para>
-
 <remark>«Op het eiland Temate zijn 900 nagelbomen uitgeroeid, op Malcéan en Batjan<lb/>
 706 en 1118 notebomen ; op Temate heeft men grote last van witte mieren; de Koning<lb/>
 van Buton heeft dien van Koroniafgezet wegens een moord, op Cies. matrozen gepleegd;<lb/>
@@ -679,9 +678,8 @@ het rijstgewas te Maros leek goed te slagen, maar leed daarna van zware regens, 
 tiende voor de Cie. bedroeg 180 last; 25 sept. gaat de Couwerve met 20 000 rsd. en<lb/>
 cargasoen van f. 100 578.6.5 naar Makassar, waar 1200 last rijst voor de Oosterprovinciën<lb/>
 moet worden verzameld; Radja Palakka, lang in ongenoegen met Cops ,<lb/>
-bezocht eindelijk M akassar weer; Cops verschaft hem geen militaire hulp in zijn<lb/>
-onnodige strijd tegen de Toradjas<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">Dit moet zijn Mabase, van Maba, vgl. dl. I, p. 458, noot 2.<lb/>
 </fnote>
 <fnote ref="2">Weda, in noot 1 van p. 511 deel I, leze men voor westkust: oostkust.<lb/>
@@ -695,7 +693,9 @@ lbetekent in het ternataans niet rechter, vgl. dl. II, p. 27, noot 2. Men was te
  </fnote>
 
 <pb n="611" tpl="1" vol="04" facs="4_134_0611"/>
-
+<remark>bezocht eindelijk M akassar weer; Cops verschaft hem geen militaire hulp in zijn<lb/>
+onnodige strijd tegen de Toradjas<lb/>
+»</remark>
 <para>Wesende de t’samenrottinge onder den bewusten Bomisserro oock door die<lb/>
 van Dompo en Tambora gedissipeert
 <fref ref="1"/> .<lb/>
@@ -921,20 +921,14 @@ Seylonsen caneel tot seeckere genoemde prijsen van d’E. Compe aen te nemen en<
 daerentegen weder leverantie te doen van cooper, spiaulter, thin, sappanhout, timmerhout,<lb/>
 olij etc.a.<lb/>
 </para>
-
 <remark>«Specerijen wil men hem niet zenden, maar men wil voor 30 000 rsd. van hem<lb/>
 kopen; de factors van den Koning kochten 1500 pikol spiaulter van Portugezen uit<lb/>
 Macao; het opperhoofd Faa hoopt er staaf koper uit Japan, met 4 jonken aangebracht,<lb/>
 te kopen voor minder dan 20 rsd. of 8 taël het pikol; 4 Siamse jonken vergingen op<lb/>
 de reis naar Japan, w.o. een van den Koning; toch neemt die vaart toe; de Koning<lb/>
 schijnt ook niet te verliezen op de vaart naar Perzië en Mokka; Faa moet hem raden.<lb/>
-wat hij van daar behoeft , liever door de Cie. te laten invoeren; schepen van Europeanen<lb/>
-en Indiërs, op Siam varend, schijnen wel voordelig uit te zijn; aan Siam geen scheepsbenodigdheden<lb/>
-te leveren; aan Siamezen, wier schip bij Suratte verongelukte, werd<lb/>
-door de V.O.C. 15 060 ropia verstrekt om een nieuw te bouwen; de gezant van Siam<lb/>
-aan den Sjah ontving 200 toman te leen; ontvangen
-<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">Tulangbawang, landstreek in Zuid-Sumatra aan de gelijknamige rivier op 4£° Z.B.<lb/>
 en 105$° O.L.<lb/>
 </fnote>
@@ -944,7 +938,13 @@ het contact met het buitenland; hij werd begin 1688 ten val en ter dood gebracht
 </fnote>
 
 <pb n="615" tpl="1" vol="04" facs="4_134_0615"/>
-
+<remark>wat hij van daar behoeft , liever door de Cie. te laten invoeren; schepen van Europeanen<lb/>
+en Indiërs, op Siam varend, schijnen wel voordelig uit te zijn; aan Siam geen scheepsbenodigdheden<lb/>
+te leveren; aan Siamezen, wier schip bij Suratte verongelukte, werd<lb/>
+door de V.O.C. 15 060 ropia verstrekt om een nieuw te bouwen; de gezant van Siam<lb/>
+aan den Sjah ontving 200 toman te leen; ontvangen
+<lb/>
+»</remark>
 <para>
 - eenige aftekeningen van een stoel, taeffel, voetbanck, piramide etca<lb/>
 om nae ’t vaderlandt gesonden en aldaer soodanige dingen voor Sijn Maj1 van glas<lb/>
@@ -988,10 +988,12 @@ vorige en huidige opperhoofd der Engelsen in Siam<lb/>
 coopmansz., bestaende in ongeveer 15 000 rs.d aen laeckenen, cherges en perpetuanen,<lb/>
 geborgen was.<lb/>
 </para>
-
 <remark>«Het opperhoofd Samuel Potts wil vergoeding van den Koning , daar hem niet<lb/>
 zou zijn toegestaan met alle waren te vertrekken ; Potts knoeide met de inhoud van<lb/>
-verzegelde kisten
+</remark>
+
+<pb n="616" tpl="1" vol="04" facs="4_134_0616"/>
+<remark>verzegelde kisten
 , in de Ned. loge opgeslagen; 16 juni vertrok de Kroonvogel met carg.<lb/>
 van j. 147 874.11.13 naar Tonkin
 , waar nog voor f. 24 163.8 aan goederen was; er<lb/>
@@ -1010,8 +1012,6 @@ en ’ t Wout kwamen 31 maart terug van de kust van China met carg. van f. 271 8
 r. 21 onder eerstelyck vermelde
 <lb/>
 »</remark>
-<pb n="616" tpl="1" vol="04" facs="4_134_0616"/>
-
 <para>De gierigheyt der mindere Cantonse regenten, die haeren nieuwen pouy ofte<lb/>
 veltheer sogten te bedriegen ende de voordelen van den sluyckhandel alleen te<lb/>
 trecken, was de eerste oorsaack, dat het afcomen der negotianten van daar aen<lb/>
@@ -1582,7 +1582,7 @@ begeven. Door welcke vlucht corts daeraan zijnen vader en jonger broeder rontom<
 haere wooninge seer naeuw sijn beseth geworden van ruyters, die niemandt daerontrent<lb/>
 eenige toegang gaff, uytgenomen den gesant, die de wegh baande met het<lb/>
 doen nedersabelen van den eersten, die hem die zogbt te bedisputeeren, doende<lb/>
-nogh andere vervolgens bastonneere<fref ref="1"/> , totdat se alle van hem afweecken en<lb/>
+nogh andere vervolgens bastonneeren<fref ref="1"/> , totdat se alle van hem afweecken en<lb/>
 sonder eenige interruptie toelieten, dat hij met voorn. Zeyd Moesiaffer en zijnen<lb/>
 zoone over de meydaan
 <fref ref="2"/> , offte ’s Coninx pleyn (den langsten wegh) nae sijne<lb/>
@@ -1779,19 +1779,13 @@ is alsoo onredelijck als de slimste sijner medebroeders en hoewel hij over<lb/>
 een boete van 5000 p.a op onse gedane claghte, soo is hij daarom niet een hayr te<lb/>
 beter geworden.<lb/>
 </para>
-
 <remark>«Hij had het vorige jaar een geschenk van f. 3969.15 ontvangen ; scheepsverkeer<lb/>
 te Masulipatam; het herstel der pakhuizen aldaar na de storm van 1680 kostte<lb/>
 f. 10 258.6; wijlen Nicolaes Bolck, secunde te Golconda, heeft zich schuldig gemaakt<lb/>
 aan paiticuliere handel; men heeft geen rekening gehouden met het voorschrift van<lb/>
 6 april 1665, dat op kantoren, waar de V.O.C. geen jurisdictie heeft, Cies. dienaren<lb/>
-niet meer geld, dan 3 maand gage bedraagt
-, mogen bezitten; de Mauritius- Eylandt<lb/>
-bracht 1590 pak textiel en enige andere waren
-, samen waard f. 333013.18.10
-, naar<lb/>
-Batavia ; in een jaar was 30 juni 1683 uitgegeven:<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1"><emph>Havart,</emph> dl. III, p. 54 noemt Ponare en Oépare als dorpen noordoostelijk van Datcheron<lb/>
 op ongeveer 4 mijl afstand.<lb/>
 </fnote>
@@ -1804,7 +1798,13 @@ wien zij in geregelde relatie stond.<lb/>
 </fnote>
 
 <pb n="630" tpl="1" vol="04" facs="4_134_0630"/>
-
+<remark>niet meer geld, dan 3 maand gage bedraagt
+, mogen bezitten; de Mauritius- Eylandt<lb/>
+bracht 1590 pak textiel en enige andere waren
+, samen waard f. 333013.18.10
+, naar<lb/>
+Batavia ; in een jaar was 30 juni 1683 uitgegeven:<lb/>
+»</remark>
 <para>Op ’t comptoir Masulipat.m . . f. 38656.10.10<lb/>
 </para>
 <para>Golconda, daeronder begrepen extraordon. schenkagie f . 15 000 „ 26 498.17. 6<lb/>
@@ -1971,18 +1971,18 @@ f 178 734.2.9, d.i. meer dan devorige jaren<lb/>
 door de onwilligheyt der cooplieden, die haere goederen daermede niet<lb/>
 dorsten resigneeren uyt vrese voor de Malabaerse rovers.<lb/>
 </para>
-
 <remark>«Men weigerde hem afslag van de tol te Malakka van 13 tot 8°/0; goede berichten<lb/>
 van Sadraspatam, vxiar kasumba verkrijgbaar is voor 1\ pagode de 24 te Paleacatte<lb/>
-heeft men geen last van de regenten; men liet Madanna weten , dat men die stad voor<lb/>
-25 a 30 000 pagoden wil kopen , maar zonder succes; hij wilde ook niet horen
-<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">Brabbeling in de wagt maken: geharrewar veroorzaken.<lb/>
 </fnote>
 
 <pb n="633" tpl="1" vol="04" facs="4_134_0633"/>
-
+<remark>heeft men geen last van de regenten; men liet Madanna weten , dat men die stad voor<lb/>
+25 a 30 000 pagoden wil kopen , maar zonder succes; hij wilde ook niet horen
+<lb/>
+»</remark>
 <para>
 - van de halve deelinge vant opgeviste Frans canon voor S.*
 <super>1</super> Thomé,<lb/>
@@ -2412,10 +2412,10 @@ teffens naar Chirrebon af te brengen, hebbende ter contrarie daermede den wegh<l
 naar Mataram gekosen om deselve aen den Sousouhoenan te presenteren, dogh<lb/>
 om alvorens het goet vinden van Sijn Maj.1 daarop te verstaan hunluyden vooreerst<lb/>
 in ’t landschap Lorentenga geplaast. Werwaarts derhalven over Tagal mede besendinge,<lb/>
-soo wegens den capitai<fref ref="3"/>  als den paap, was gedaan met last aan de<lb/>
+soo wegens den capitain<fref ref="3"/>  als den paap, was gedaan met last aan de<lb/>
 Tagalse residenten de saacke daarheene te dirigeren, ten einde dat gros op de<lb/>
 g’expedieerde actens van gratie sigh van Lorentenga weder terugh en naar Chirrebon<lb/>
-keren mogte om aldaar nevens soo veel andere van Comp8 genade te sjouissere<fref ref="4"/> .<lb/>
+keren mogte om aldaar nevens soo veel andere van Comp8 genade te sjouisseren<fref ref="4"/> .<lb/>
 </para>
 <folio>Fol.317v-318r.</folio>
 <remark>«Pangeran Purbaja zwerft nog met 130 man rond; vendrig Kuffeler tracht<lb/>
@@ -2527,7 +2527,7 @@ heemraad, wat hij nog in 1711 was, gestorven begin 1713.<lb/>
 </fnote>
 
 <pb n="642" tpl="1" vol="04" facs="4_134_0642"/>
-<para>Dat de Nederlandse Generaa<fref ref="1"/>  sijn maght van Bantam sal opontbieden ende de<lb/>
+<para>Dat de Nederlandse Generaal <fref ref="1"/>  sijn maght van Bantam sal opontbieden ende de<lb/>
 Engelse de possessie van haare logie weder overgeven.<lb/>
 </para>
 <para>
@@ -2626,7 +2626,7 @@ de Engelse boodschapdrager tegen den Pangeran Natta Nagara
 <fref ref="1"/> , soo als sij te<lb/>
 samen aan de boom stonden om nogh een parthij loot aff te schepen, (’tgunt wij<lb/>
 meenen mr Quick
-<super>2)</super> geweest te sij<fref ref="2"/>  verklaart was, dat daarmede alle het hare<lb/>
+<super>2)</super> geweest te sijn) verklaart was, dat daarmede alle het hare<lb/>
 afgescheept en niets meer overigh gebleven ware, nemende meteen van den ambassadeur,<lb/>
 daaromtrent sijnde, een beleeft afscheyt, sulcx hij staande houden en<lb/>
 bevestigen conde, dat se ten alderminsten in haare goederen niet en waren beschadight,<lb/>
@@ -2693,7 +2693,6 @@ tegens U Ed.le Aghtb.e tot ongenegentheyt te instigeren, schoon hoe dikmaal sij<
 oock daarvan overtuygt en door de inlandse natie niet selden bespot sijn, dan de<lb/>
 schaamte schijnt bij haar een sware last om te dragen te wesen.<lb/>
 </para>
-
 <remark>«Een schriftelijke dankbetuiging van 28 aug. 1683 van twee Engelse raden over<lb/>
 de heuse bejegening door het V.O.C. 'personeel en hel aanbod van transport mei Cies.<lb/>
 schepen is opgenomen; bij hel afscheid van Batavia, de dag daarna, is hun een feestmaal<lb/>
@@ -2706,7 +2705,15 @@ patria verlost moeten worden; Onrust wordt ingericht voor het kielhalen van 3 gr
 schepen tegelijk, kleinere worden bij het eiland Kuyper geholpen; er zijn aan schepen 3<lb/>
 van 660 last
 , 1 van 550, 14 van 500, 4 van 450, 4 van 400, 12 van 350, 1 van 320, 4 van<lb/>
-300, 22 tussen 230 en 130, aan fluiten 3 van 350, 2 van 300, 31 tussen 250 en 80, 12 hoekers,<lb/>
+</remark>
+
+<fnote ref="1"><lb/>
+ 
+ De Engelsen zich<lb/>
+ </fnote>
+
+<pb n="645" tpl="1" vol="04" facs="4_134_0645"/>
+<remark>300, 22 tussen 230 en 130, aan fluiten 3 van 350, 2 van 300, 31 tussen 250 en 80, 12 hoekers,<lb/>
 tussen 70 en 50 en waarvan 5 bij Ceylon, in totaal 113 stuks, waarvan 25 vertimmerd<lb/>
 moeien , eer ze gebruikt kunnen worden en die, als dat niet gauw gebeurt, wegrotten;<lb/>
 onder de 113 vallen er 31 op weg naar en van patria; er worden te Amsterdam 4, in<lb/>
@@ -2723,13 +2730,6 @@ de diverse scheepssoorten; fluiten zijn wel fraai en handig, maar door het kr om
 van het hout weinig durabel ; gewenst is,
 <lb/>
 »</remark>
-<fnote ref="1"><lb/>
- 
- De Engelsen zich<lb/>
- </fnote>
-
-<pb n="645" tpl="1" vol="04" facs="4_134_0645"/>
-
 <para>
 - dat men evenwel de zinne en humeuren wat meerder voegde nae de<lb/>
 reden, aart en natuur van ’t hout om ’tselve niet veel meer te lasten te leggen, dan<lb/>

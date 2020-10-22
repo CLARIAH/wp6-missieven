@@ -399,7 +399,7 @@ stilswijgens heengelopen waren, een daad van kleen overlegh.<lb/>
 Arou gerooft ende op Keffingh gebragt, waaromtrent nog 15
 <emph>k</emph> 16 andere sworven,<lb/>
 hebbende ongevaar 20 menschen van daar uyt de negory Wattelomy
-<super>L)</super> vervoert,<lb/>
+<fref ref="1"/>  vervoert,<lb/>
 zijnde de Keffingers oock bekommert voor ’s Comp.8 wapenen en overtuygt, dat<lb/>
 hunne zaken niet wel stonden.<lb/>
 </para>
@@ -890,19 +890,19 @@ den mont vol heeft, werdende dagel. zeer gespoeyt met het weder opmaken<lb/>
 der vervalle wallen ende eenige nieuwe bolwerken, ’twelck gesegt wert<lb/>
 tegen Pangeran Aria van Palembang te zijn.<lb/>
 </para>
-
 <remark>«Hij zond 17 juli een gezant naar Riouw; hem is vrede aanbevolen; zijn bespreking<lb/>
 met Pangeran Adipati van Palembang had niet plaats; de Stammezen kopen in<lb/>
-Riouw a 8 rsd. het pikol uit Djambi gesmokkelde peper , waarheen wel 2500 pikol ging,<lb/>
-de Sultan zelf smokkelt mee, hij zond ook 800 pikol op 25 aug. met zijn sloep naar<lb/>
-Siam; tweespalt
-<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">Hagje, figuurlijk : lekker beetje.<lb/>
 </fnote>
 
 <pb n="721" tpl="1" vol="04" facs="4_134_0721"/>
-
+<remark>Riouw a 8 rsd. het pikol uit Djambi gesmokkelde peper , waarheen wel 2500 pikol ging,<lb/>
+de Sultan zelf smokkelt mee, hij zond ook 800 pikol op 25 aug. met zijn sloep naar<lb/>
+Siam; tweespalt
+<lb/>
+»</remark>
 <para>
 - daer oock al bijna ontstaen, dogh tijdel. verhoet ware geweest uyt<lb/>
 sekere jalousye tegen zijn zoon Pangeran Adepatty over de te groote familiariteyt<lb/>
@@ -978,7 +978,7 @@ gehouden en na de veroveringh van hetzelve door den Tartarisen veltheer Tsioncon
 Silauja
 <fref ref="1"/>  op haerlieder versoeck gelargeert waren, namentlijck:<lb/>
 Alexander van ’s Gravenbroeck1
-<super>2</super> ) met zijn huysvrouw, zijnde een mextice;<lb/>
+<fref ref="2"/>  met zijn huysvrouw, zijnde een mextice;<lb/>
 Salomon Valentijn met zijn Formosaanse huysvrouw, twee zoonen en een dogter;<lb/>
 Joannes Brummer;<lb/>
 Antonica van Bengala, weduwe van Harmanus Verbiest, met haer dogtertje;<lb/>
@@ -994,7 +994,7 @@ hunnen handel ter selver kuste goeden dienst zouden konnen doen, hebbende den<lb
 gemelten Tartarischen veltheer Tsioncon Silauja, die door de overwinninge van<lb/>
 Formosa bij den Keyser in groot aansien en door denselven tot Vice-Roy off oppergebieder<lb/>
 van de geheele zeekust aengestelt was
-<fref ref="2"/> , den voomoemden Alexander van<lb/>
+<fref ref="3"/> , den voomoemden Alexander van<lb/>
 ’s Gravenbroeck een brieff aen den Gouverneur- Generaal medegegeven.<lb/>
 </para>
 <remark>«Hij belooft hulp bij de handel; het schijnt
@@ -1444,7 +1444,7 @@ leidde.<lb/>
 </fnote>
 
 <pb n="730" tpl="1" vol="04" facs="4_134_0730"/>
-Groten Mogo<fref ref="1"/>  weder was herstelt en zij, zoo ’t scheen, ontslagen geworden van de<lb/>
+Groten Mogol) weder was herstelt en zij, zoo ’t scheen, ontslagen geworden van de<lb/>
 vreese om haar buyten bewint en ontsagh te zien gestelt.<lb/>
 </para>
 <remark>«De veldoverste Mameth Ibrahim en de havildar te Masulipatam blijven doordienen;<lb/>
@@ -1496,17 +1496,17 @@ opperhoofd was onvoorzichtig<lb/>
 behoorden te nemen, dog dat de vrundelijcke recomandatie (als het met fatsoen<lb/>
 konde tewege gebragt werden) ons ’t beste soude behagen.<lb/>
 </para>
-
 <remark>«Corbusier en Mersman resp. te Masulipatam en te Tegenapatam tot opperkooplieden<lb/>
 bevorderd wegens hun verdiensten; Hartsinck wil repatriëren; de Eng eisen ont-<lb/>
-vingen uit hun land veel minder kapitaal dan zij beweerden , de textielprijzen zullen<lb/>
+</remark>
+
+<pb n="731" tpl="1" vol="04" facs="4_134_0731"/>
+<remark>vingen uit hun land veel minder kapitaal dan zij beweerden , de textielprijzen zullen<lb/>
 dus dalen; er blijven ter Kust effecten, waard f. 5096195, waarvan echter f. 363744<lb/>
 schuld aan wees- en diakoniegelden afgaat; sedert verzond men er echter goederen voor<lb/>
 f. 1168635 en ontving andere voor f. 617321; winsten en verliezen op 31 juli 1684<lb/>
 gedurende een jaar:<lb/>
 »</remark>
-<pb n="731" tpl="1" vol="04" facs="4_134_0731"/>
-
 <table n="60">
 <row n="60" row="1">
 <cell n="60" row="1" col="1"></cell>
@@ -2165,7 +2165,6 @@ Vosburgh tot vermindering is aangevraagd<lb/>
 24 weeskinderen, daeronder 11 dogters, en<lb/>
 38 schoolkinderen, daeronder 12 dogters.<lb/>
 </para>
-
 <remark>«Huysman nam sinds 1678 van de Europeanen 26 als soldaten aan; te Batavia<lb/>
 werden vrijwel geen goederen uit Cochin ontvangen, er gingen benodigdheden heen voor<lb/>
 f. 14604, w.o. een weinig handelsgoederen; 28 aug. kwam uit Suratte de Princeland<lb/>
@@ -2175,7 +2174,13 @@ Cochin en Ceylon carg. van
 /. 106448 , vnl. koper, kaneel en areca, daarna drie schepen<lb/>
 uit Batavia en Malakka, carg. van f. 572109; met de goederen, die er nog waren
 <ref>a </ref>f. 327837 mede, werd bij verkoop f. 794636 winst gemaakt, waarbij nog f. 42653 komt<lb/>
-voor winsten in Mokka en opgeld der maandgelden; de uitgaven bedroegen
+</remark>
+
+<fnote ref="1">Speelkind, natuurlijk kind, hier wel van gemengden bloede.<lb/>
+</fnote>
+
+<pb n="739" tpl="1" vol="04" facs="4_134_0739"/>
+<remark>voor winsten in Mokka en opgeld der maandgelden; de uitgaven bedroegen
 /. 161534;<lb/>
 Kissendas was de voornaamste koper; gewonnen werd o.a. op kruidnagelen 1015 en<lb/>
 1061%, op foelie 620 en 754, kaneel 724 , koper 83 en 86, areca 200; men kon van het<lb/>
@@ -2188,11 +2193,6 @@ niet voldaan, daar die naar Perzië wordt doorverkocht, waar ze de eigen import 
 V.O.C. zou benadelen; 10000 vermiljoen, dat maar 20% winst geeft, zond men er wel<lb/>
 heen, daar de voorraad te Batavia te groot is<lb/>
 »</remark>
-<fnote ref="1">Speelkind, natuurlijk kind, hier wel van gemengden bloede.<lb/>
-</fnote>
-
-<pb n="739" tpl="1" vol="04" facs="4_134_0739"/>
-
 <para>De inlanders aldaar
 <fref ref="1"/>  die veruw mede weten te maken in soodanigen quantiteyt,<lb/>
 als daar te consumeren zij.<lb/>
@@ -2289,7 +2289,6 @@ niet te geloven zijnde, dat, eens daertoe een bevel uytgegeven wesende, ’tzelv
 daarna weer soude werden ingetrocken, ’tgeen tegen der Persianen haar manier en<lb/>
 practijcq is.<lb/>
 </para>
-
 <remark>«In Basra werd gewonnen op kruidnagelen 1319%, kaneel 1162%, tin 75%;<lb/>
 van de opbrengst werden gouden dukaten en zilveren mahmodis gekocht, de laatste van<lb/>
 slecht allooi, daarom liever Spaanse realen in te kopen; de Gulden Wagen bracht voor<lb/>
@@ -2299,17 +2298,18 @@ kwam 27 jan. te G. uit Coromandel , aan vracht werd f. 30617 ontvangen; het eige
 cargasoen was
 /. 281715
 , terug gingen vrachtgoederen voor f. 7676 en 168 baal zijde<lb/>
-voor Batavia; de Zijpe kwam te Gamron 1 maart uit Bengalen met carg. van<lb/>
+</remark>
+
+<fnote ref="1">Voor hun eigen rekening.<lb/>
+</fnote>
+
+<pb n="741" tpl="1" vol="04" facs="4_134_0741"/>
+<remark>voor Batavia; de Zijpe kwam te Gamron 1 maart uit Bengalen met carg. van<lb/>
 f. 65165
 , vnl. suiker en textiel; over de vloot van Casembroot hoorde men nog niets;<lb/>
 volgens een vaag bericht
 <lb/>
 »</remark>
-<fnote ref="1">Voor hun eigen rekening.<lb/>
-</fnote>
-
-<pb n="741" tpl="1" vol="04" facs="4_134_0741"/>
-
 <para>
 - zijne, in Persia met eenige schepen was gearri veert en op de rheede<lb/>
 van Gamron bleef afwagten de commissarissen van den Co. uyt Spahan om daermede<lb/>
@@ -2409,7 +2409,6 @@ in 3700 sacken Bengaalse suycker, 81 packen dieverse zoort lijwaten, 64 potten<l
 Satsumase campher, 230 packen caneel, mitsg.rs 168 packen en kisten cardamom,<lb/>
 die alle op de schepen niet konde geborgen worden.<lb/>
 </para>
-
 <remark>«Men had aan boord van de aangehouden schepen Perzische goederen van veel<lb/>
 groter waarde onder zich, die door de scheepsraad tegen Casembroot' s wens overgebracht<lb/>
 werden naar de V.O.C schepen; twee schepen onder Constantin Verdonck van daar naar<lb/>
@@ -2419,17 +2418,18 @@ Moorse kooplieden 70°/o winst,
 <ref>ze </ref>konden de vracht niet in goede abbassis en dukaten<lb/>
 betalen, waarom wissels op Ispahan werden geaccepteerd door directeur Van den<lb/>
 Heuvel; de opbrengst daarvan wordt voorlopig bij vertrouwde Armenische kooplieden<lb/>
-ondergebracht; knoeierij van wijlen den resident Jan van Merwede, die ook nog<lb/>
+</remark>
+
+<fnote ref="1">Dediceren, opdragen, nl. aan hem, rijksbestuurder.<lb/>
+</fnote>
+
+<pb n="743" tpl="1" vol="04" facs="4_134_0743"/>
+<remark>ondergebracht; knoeierij van wijlen den resident Jan van Merwede, die ook nog<lb/>
 f. 6190 tekort in kas had, waarvan maar f. 3187 binnen kan komen; winst verwacht<lb/>
 in India op ingekochte ruynas en saya; de Engélsen zonden textiel en suiker uit Bengalen<lb/>
 voor de verkoop naar Ispahan; de Fransen verkopen wat wijn, ze zonden ook een<lb/>
 ingehuurd schip naar Basra; 29 febr. was in Perzië in een jaar gewonnen:<lb/>
 »</remark>
-<fnote ref="1">Dediceren, opdragen, nl. aan hem, rijksbestuurder.<lb/>
-</fnote>
-
-<pb n="743" tpl="1" vol="04" facs="4_134_0743"/>
-
 <para>Ten comptoire Gamron . f. 437449. 3. 8<lb/>
 </para>
 <para>In Spahan aan intrest wegens eenige wissels,<lb/>
@@ -2551,15 +2551,15 @@ maackt.<lb/>
 gedaan ende sulcx een goede mesnage in ’t employ van schepen, desen aangaende,<lb/>
 betragt zoude kunnen werden.<lb/>
 </para>
-
 <remark>«Dan kan ook gemakkelijk graan naar de Kaap gezonden worden; Mauritius<lb/>
-leverde 2437 ebbenhouten platen voor patria en men kocht er 3431
+</remark>
+
+<pb n="745" tpl="1" vol="04" facs="4_134_0745"/>
+<remark>leverde 2437 ebbenhouten platen voor patria en men kocht er 3431
 ® tabak van de<lb/>
 vrijburgers voor de Kaap in; goede rijstoogst in Midden- J ava; hoop , dat men er nu<lb/>
 het weven zal laten<lb/>
 »</remark>
-<pb n="745" tpl="1" vol="04" facs="4_134_0745"/>
-
 <para>Nu zij geen sonderlinge vremde frequentie hebben, is het een onwedersprekel.<lb/>
 waarheyt, dat zij niet al connen coopen, dat se zien, mitsgaders geen meer geit<lb/>
 connen besteden, als se selver van ons voor haar rijs, houtwercken en andere<lb/>
@@ -2663,15 +2663,9 @@ tracht te betalen; het slepen van balken achter schepen lukt slecht; gezanten de
 waren, het convenibel respect als haren outsten broeder te geven en met de zijne in<lb/>
 goede harmonie te leven.<lb/>
 </para>
-
 <remark>«Er zullen paarden voor Ceylon worden gekocht; tegen Surapati te Kalonggang, die<lb/>
-veel toeloop kreeg, kon men pas 9 aug. optreden, vgl.
-Priangan III,
-§ 473-476; het is<lb/>
-nu rustig in Cheribon; het hout zal gebruikt worden voor de voltooiing der pakhuizen te<lb/>
-Batavia; de betaling van de peper uit Bantam valt moeilijk ,
-<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">Adipati Urawan was sinds oct. 1677 regent van Surabaja, medio 1684 groot-gouverneur<lb/>
 van de oostelijke kustlanden, zetelend te Japara, niet lang daarna in ongenade bij den<lb/>
 Susuhunan.<lb/>
@@ -2701,7 +2695,13 @@ km westelijk van Surakarta, adiningrat is een honorifiek achtervoegsel.<lb/>
 </fnote>
 
 <pb n="747" tpl="1" vol="04" facs="4_134_0747"/>
-
+<remark>veel toeloop kreeg, kon men pas 9 aug. optreden, vgl.
+Priangan III,
+§ 473-476; het is<lb/>
+nu rustig in Cheribon; het hout zal gebruikt worden voor de voltooiing der pakhuizen te<lb/>
+Batavia; de betaling van de peper uit Bantam valt moeilijk ,
+<lb/>
+»</remark>
 <para>
 - aangesien zij de goude coebangs niet willen ontfangen, nog oock de<lb/>
 kroonen of leuwendaalders, waarvan onlangs 5000 tot een preuve derwaarts zijn<lb/>
@@ -2753,15 +2753,15 @@ te verclaren, dat se bij ons voor de opregte, ware en onveranderde notulen niet 
 zijn, nogh connen worden aangenomen, hoewel den gem.mr Jacob van Dam deselve<lb/>
 daarvoor overgelevert ende met eygen hand onderteeckent heeft.<lb/>
 </para>
-
 <remark>«Aan de diakonie is vergund naast het weeshuis een huis voor ouden en armen te<lb/>
 kopen; regeling van begrafenissen, vgl.
 Plakaatboek III, p. 133; de diakonie had<lb/>
-meer uitgaven dan inkomsten; de visitateur -generaal Solemans vertrok 29 juli met de<lb/>
+</remark>
+
+<pb n="748" tpl="1" vol="04" facs="4_134_0748"/>
+<remark>meer uitgaven dan inkomsten; de visitateur -generaal Solemans vertrok 29 juli met de<lb/>
 Negombo naar Bengalen<lb/>
 »</remark>
-<pb n="748" tpl="1" vol="04" facs="4_134_0748"/>
-
 <para>Die van het eerw. collegie van schepenen eenigh misnoegen hebben getoont<lb/>
 </para>
 <para>nopende seeckeringe

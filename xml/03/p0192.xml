@@ -298,7 +298,7 @@ die daermede te besetten sijn, seer weynich sij.<lb/>
 — &gt;<lb/>
 </remark>
 <para>.... achten wij onder correctie van U Ed. onmogelijck te wesen, gemerckt, onse<lb/>
-natie tot den bouw van die<fref ref="1"/>  in India doorgaens te luy en traegh sij, oock een<lb/>
+natie tot den bouw van dien <fref ref="1"/>  in India doorgaens te luy en traegh sij, oock een<lb/>
 soldaet sijn selven qualijck gouverneren can, van natuyre tot dronckenschap en<lb/>
 debauche seer genegen sijnde.<lb/>
 </para>
@@ -460,7 +460,7 @@ alsoo d’E. Comp.e dan op d’een off d’ander wijse daeraff ontheven moste si
 <para>.... hoe hij aldaer op den 22en november jongstleeden van Tayoan behouden<lb/>
 aengecomen was ende de Vice-Coningen van Canton hem ginder gelijck voorhenen<lb/>
 weder bij ooghluyckinge in negotie hadden geadmitteert, alhoewel den toutangh
-<super>L)</super><lb/>
+<fref ref="1"/> <lb/>
 onsen brieff noch de daerbij gesondene geschencken niet heeft vallen accepteren,<lb/>
 dat gemeynt wert soo maer pro forme om sommige hare oogen te verblinden is<lb/>
 geschiet ende hij evenwel nevens de Vice-Coningen in de proffijten participerende<lb/>
@@ -517,20 +517,20 @@ soodat deselve nootwendigh van houdt sal moeten worden gemaeckt, dat daer<lb/>
 van andere plaetsen toegebracht sal moeten worden, maer wij en dencken daer<lb/>
 vooreerst geen groote oncosten te doen.<lb/>
 </para>
-
 <remark>«Vervolg berichten van Indijck; ’t Zeepaert komt van Coromandel, vgl.
 <ref>Dagh- </ref><ref>registers 26 dec. 1657, p. 347</ref>; de handel in Golconda floreert; de nieuwe uitvoertol<lb/>
 van 2\% is kwijtgescholden; te Paleacatte is f. 691649 - geleend, waarvan alleen aan<lb/>
 den nawab f. 103325 - interest verschuldigd is tot eind juli, terwijl men er nog<lb/>
-/. 245797 - aan geleverde kleden moei betalen, terwijl er slechts f. 233201 .- aan contanten<lb/>
+</remark>
+
+<pb n="201" tpl="1" vol="03" facs="3_125_0201"/>
+<remark>/. 245797 - aan geleverde kleden moei betalen, terwijl er slechts f. 233201 .- aan contanten<lb/>
 is; er zijn geen diamanten ingekocht, daar opkoop van de kant van Armeniërs<lb/>
 de prijs met 40% verhoogde; de loge Sadraspatam is gelicht op enig personeel na<lb/>
 voor de resterende 140 last rijst; de grootgouvemeur der benedenlanden van Tandjore<lb/>
 heeft.
 . . .<lb/>
 »</remark>
-<pb n="201" tpl="1" vol="03" facs="3_125_0201"/>
-
 <para>.... door beter informatie bij onse residenten weder aensoeck van vrundtschap<lb/>
 laaten doen, dies wij daerontrent voor geen schade op ’t landt te vreesen hebben.<lb/>
 </para>
@@ -751,18 +751,11 @@ daer eenige ponden van toesenden nevens de prijs van hetselve ende advijs, wat<l
 quantiteyt daervan sal te becomen wesen.
 <fref ref="2"/> <lb/>
 </para>
-
 <remark>«Van Goens weet zich vrij te pleiten van beschuldigingen van personeel in Suratte,<lb/>
 vgl.
 <ref>Rycklof, p. 113-117 </ref>; de advocaat- fiscaal zou bij het vertrek van Van den Bogaerde<lb/>
-te veel buskruit verschoten hebben en een ongeluk veroorzaakt
-; repatriër enden houden<lb/>
-zich slecht aan het verbod goederen mee te nemen
-, vgl.
-<ref>Plakaatboek II, p. 112-113</ref>;<lb/>
-de vrijburgers hebben door de oorlog met Bantam twee slechte jaren gehad
-<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">De handel van Spanje op de koloniën was in het algemeen gesteld onder de Casa do<lb/>
 Contratacion te Sevilla en was gereserveerd voor Spanjaarden. Toen een levendig handelsverkeer<lb/>
 tussen de westkust van Mexico en de Philippijnen zich ontwikkelde, werd dit op aandrang<lb/>
@@ -777,7 +770,14 @@ sinds 1644 eerste minister van Philips IV.<lb/>
 </fnote>
 
 <pb n="205" tpl="1" vol="03" facs="3_125_0205"/>
-
+<remark>te veel buskruit verschoten hebben en een ongeluk veroorzaakt
+; repatriër enden houden<lb/>
+zich slecht aan het verbod goederen mee te nemen
+, vgl.
+<ref>Plakaatboek II, p. 112-113</ref>;<lb/>
+de vrijburgers hebben door de oorlog met Bantam twee slechte jaren gehad
+<lb/>
+»</remark>
 <para>De rijsbouw wort bij de ingese tenen meer ende meer bij der handt genomen<lb/>
 maer echter met soodanigen ijver niet, als men wel hadde verhoopt om oorsaeck,<lb/>
 soo het schijnt, dat mette selve geen schielijke rijckdommen en sijn te winnen,<lb/>

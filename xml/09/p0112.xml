@@ -300,7 +300,6 @@ gezonden.<lb/>
 </remark>
 <para>Malabar<lb/>
 </para>
-
 <remark>De Adrichem, Duinbeek en Alblasserdam hebben vandaar 695.000 Ib peper aangevoerd<lb/>
 en 190 balen gedroogde curcuma. De Adrichem is vijf maanden onderweg geweest<lb/>
 van Surat naar Batavia. De Wickenburg en Baanman met een lading t.w.v.
@@ -314,15 +313,16 @@ Batavia niet aan deze eis kon worden voldaan zonder nadeel voor de retourvloot, 
 Papenburg, Westerbeek en Schonauwen via Malabar naar patria gezonden. De Papenburg<lb/>
 moet op Ceylon 100 balen kaneel innemen voor Surat, omdat anders te Batavia te weinig<lb/>
 aanwezig is voor de kleine Kamers.<lb/>
-De retourschepen de Duinbeek, Adrichem en Alblasserdam hebben vandaar voor<lb/>
+</remark>
+
+<fnote ref="2"><ref>Gaas, gas of casbegis, 20 casbegis vormden 1 mahmudi. </ref></fnote>
+
+<pb n="117" tpl="2" vol="09" facs="205_117"/>
+<remark>De retourschepen de Duinbeek, Adrichem en Alblasserdam hebben vandaar voor<lb/>
 ƒ 571 .076 aangevoerd inclusief 100.000 ropia. Bij de brieven was er één van de dienaren<lb/>
 van de Siamese koning, die schreven behouden te zijn teruggekeerd met het schip van de<lb/>
 Moorse koopman Mohammad Ali. De gezaghebber Phoonsen en zijn raad schreven<lb/>
 »</remark>
-<fnote ref="2"><ref>Gaas, gas of casbegis, 20 casbegis vormden 1 mahmudi. </ref></fnote>
-
-<pb n="117" tpl="2" vol="09" facs="205_117"/>
-
 <para>
 - dat den voornamen heyden tot Dhillij , Jiewendas Herridas, eyndelijk niet alleen<lb/>
 magtig was geworden, en van den regeerenden koning Mhamoed Sjah geobtineerd hadde<lb/>
@@ -852,7 +852,7 @@ Bengaalse Coopmanschappen, als<lb/>
 </row>
 <row n="118" row="18">
 <cell n="118" row="18" col="1">1100</cell>
-<cell n="118" row="18" col="2">p.s dito van l3/4Cob.°</cell>
+<cell n="118" row="18" col="2">p.s dito van l<fref ref="9"/> /4Cob.°</cell>
 <cell n="118" row="18" col="3">/</cell>
 <cell n="118" row="18" col="4">8.823,13,</cell>
 </row>
@@ -1008,7 +1008,7 @@ Bengaalse Coopmanschappen, als<lb/>
 </row>
 <row n="119" row="15">
 <cell n="119" row="15" col="1">100</cell>
-<cell n="119" row="15" col="2">p.sdito „ l3/4 dito</cell>
+<cell n="119" row="15" col="2">p.sdito „ l<fref ref="10"/> /4 dito</cell>
 <cell n="119" row="15" col="3">/</cell>
 <cell n="119" row="15" col="4">885, -,</cell>
 <cell n="119" row="15" col="5">-</cell>

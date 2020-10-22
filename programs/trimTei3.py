@@ -32,6 +32,8 @@ CORRECTIONS_DEF = {
             r"""\1 <super>4)</super>""",
         ),
     ),
+    "01:p0279-0279": ((r"""(baey )(\*)\)""", r"\1⌊\2⌋"),),
+    "01:p0663-0683": ((r"""(Hensen)(1\))""", r"\1"),),
     "05:p0099-0100": (
         (
             r"""\s*(</remark>)\s*<para>\s*<emph>(is)</emph>\s* (-) ;<lb/>\s*</para>""",
@@ -86,6 +88,7 @@ CORRECTIONS_DEF = {
         ),
     ),
     "11:p0207-0209": ((r"""(traffique )\\(<lb/>)""", r"\1)\2"),),
+    "11:p0226-0270": ((r"""<super>1</super>( overstromingen)""", r"'\1"),),
     "11:p0363-0409": (
         (
             r"""(<remark>)<special>(Hooghly)</special>""",
@@ -321,9 +324,6 @@ def processPage(text, previous, result, info, *args, **kwargs):
     prevPage = previous.get("page", None)
 
     if not text:
-        if prevRemark is not None:
-            result.append(prevRemark[0])
-            previous["remark"] = None
         if prevNotes is not None:
             for (ref, body, summary) in prevNotes:
                 mark = "" if ref is None else f' ref="{ref}"'
@@ -354,14 +354,8 @@ def processPage(text, previous, result, info, *args, **kwargs):
             remarkInfo["≮"][curSummary].append(page)
     else:
         (prevContent, prevSummary) = prevRemark
-        if startRemark:
-            (thisSummary, thisTrimmed) = summarize(prevSummary + curSummary)
-            prevRemark = (prevContent + curContent, thisSummary)
-        else:
+        if not startRemark:
             remarkInfo["≯"][prevSummary].append(prevPage)
-
-        result.append(f"<remark>{prevRemark[0]}</remark>")
-        result.append("\n")
 
     previous["remark"] = onlyRemark if onlyRemark else lastRemark
 
@@ -423,7 +417,6 @@ def trimPage(text, info, previous, *args, **kwargs):
     onlyRemark = None
     firstRemark = None
     lastRemark = None
-    prevRemark = previous.get("remark", None)
 
     ppMatch = REMARK_PRE_POST_RE.search(text)
     if ppMatch:
@@ -483,16 +476,6 @@ def trimPage(text, info, previous, *args, **kwargs):
     current["onlyRemark"] = onlyRemark
     current["firstRemark"] = firstRemark
     current["lastRemark"] = lastRemark
-
-    for (condition, removeRe, msg) in (
-        (onlyRemark and prevRemark, REMARK_RE, "only remark"),
-        (firstRemark and prevRemark, REMARK_FIRST_REMOVE_RE, "first remark"),
-        (lastRemark, REMARK_LAST_REMOVE_RE, "last remark"),
-    ):
-        if condition:
-            (text, n) = removeRe.subn("", text, count=1)
-            if not n:
-                print(f"\n{page} removal of {msg} failed")
 
     noteInfo = info["noteInfo"]
     (text, marks, notesStr) = formatNotes(text, info)
@@ -572,15 +555,17 @@ LEGEND_NOTE = {
     "F": (None, "first note on page continuing from previous page"),
     "0": (None, "page without notes"),
     "!": (0, "missing mark in body or text bot not both"),
-    "?": (0, "mark in conflict with sequence number"),
-    "°": (10, "indefinite mark in body and text"),
+    "≠": (0, "mark in conflict with sequence number"),
+    "↓": (0, "no mark in text"),
+    "°": (0, "indefinite mark in body and text"),
     "+": (20, "mark is one more than sequence number"),
     "-": (20, "mark is one less than sequence number"),
+    "→": (40, "no mark in body"),
     "∉": (40, "sequence number not contained in mark"),
     "∈": (80, "sequence number contained in mark"),
     "*": (50, "mark is * or x, will be filled in by sequence number"),
     "<": (50, "indefinite mark in body only"),
-    ">": (50, "indefinite mark in text only"),
+    ">": (80, "indefinite mark in text only"),
     ":": (100, "mark overridden to be good"),
     "∷": (100, "mark exactly equal to sequence number"),
     "≡": (100, "mark text and body exactly equal"),
@@ -656,7 +641,7 @@ def corpusPost(info):
             polyBodyNums = len(bodyParts) > 1
 
             labelText = (
-                "°"
+                "↓"
                 if not markText
                 else "∷"
                 if str(ref) == markText
@@ -672,10 +657,10 @@ def corpusPost(info):
                 if str(ref + 1) == markText
                 else "+"
                 if str(ref - 1) == markText
-                else "?"
+                else "≠"
             )
             labelBody = (
-                "°"
+                "→"
                 if not markBody
                 else "∷"
                 if str(ref) == markBody
@@ -691,7 +676,7 @@ def corpusPost(info):
                 if str(ref - 1) == markBody
                 else "+"
                 if str(ref + 1) == markBody
-                else "?"
+                else "≠"
             )
             label = (
                 "!"
@@ -709,9 +694,10 @@ def corpusPost(info):
                 == overrideMarkBody.get(ref, markBody)
                 else "x"
             )
-            score += (
+            thisScore = (
                 LEGEND_SCORE[labelText] + LEGEND_SCORE[labelBody] + LEGEND_SCORE[label]
             ) / 3
+            score += thisScore
             markTextRep = f"⌈{markText}⌉"
             markBodyRep = f"⌈{markBody}⌉"
             report.append(
@@ -1054,7 +1040,7 @@ def markedUnNoteRepl(match):
 
 
 MARKED_NOTE_DBL_RE = re.compile(r"""(<lb/></note>)(<note>)""", re.S)
-MARK_LETTERS = "[a-eg-oq-z]"
+MARK_LETTERS_BODY = "[a-eg-oq-z]"
 MARKED_NOTE = (
     (
         re.compile(
@@ -1066,7 +1052,7 @@ MARKED_NOTE = (
                 (
                     [0-9]{{1,2}}
                     |
-                    {MARK_LETTERS}
+                    {MARK_LETTERS_BODY}
                 )
                 \s*
                 \)?
@@ -1087,7 +1073,7 @@ MARKED_NOTE = (
                 (
                     [0-9]{{1,2}}
                     |
-                    {MARK_LETTERS}
+                    {MARK_LETTERS_BODY}
                 )
                 \b
                 \s*
@@ -1107,7 +1093,7 @@ MARKED_NOTE = (
                 (
                     [0-9]{{1,2}}
                     |
-                    {MARK_LETTERS}
+                    {MARK_LETTERS_BODY}
                 )
                 \b
                 \s*
@@ -1138,7 +1124,7 @@ MARKED_UN_NOTE = (
             (
                 [0-9]{{1,2}}
                 |
-                {MARK_LETTERS}
+                {MARK_LETTERS_BODY}
             )
             \s*
             \)
@@ -1151,7 +1137,7 @@ MARKED_UN_NOTE = (
                     (?:
                         [0-9]{{1,2}}
                         |
-                        {MARK_LETTERS}
+                        {MARK_LETTERS_BODY}
                     )
                     \s*
                     \)
@@ -1236,7 +1222,7 @@ SPURIOUS_PARA_RE = re.compile(
         (
             [0-9]{{1,2}}
             |
-            {MARK_LETTERS}
+            {MARK_LETTERS_BODY}
         )
         \s*
         \)
@@ -1342,6 +1328,7 @@ def formatNotes(text, info):
     markDetectRe = MARK_PLAIN_BR_RE if noteBrackets else MARK_PLAIN_RE
 
     text = CL_BR_ESCAPE_RE.sub(r"←\1→", text)
+    text = FL_RE.sub(r"ƒ \1", text)
 
     if not noteBrackets:
         for (escRe, escRepl) in CL_BR_NO:
@@ -1353,9 +1340,21 @@ def formatNotes(text, info):
     ref = NOTE_START
     for (i, match) in enumerate(matches):
         complete = match.group(0)
-        (mark, trail) = match.group(1, 2)
-        if "<super>" in complete:
-            trail = trail.replace("</super>", "")
+        if noteBrackets:
+            (mark, trail) = match.group(1, 2)
+        else:
+            mark = match.group(1)
+            trail = ""
+        if noteBrackets:
+            if "<super>" in complete:
+                trail = trail.replace("</super>", "")
+            else:
+                mark = (
+                    mark.replace("<super>", "")
+                    .replace("</super>", "")
+                    .replace("⌊", "")
+                    .replace("⌋", "")
+                )
         (b, e) = match.span()
         ref += 1
         marks[ref] = mark
@@ -1379,27 +1378,41 @@ def normalize(text):
         text.replace("i", "1")
         .replace("'", "1")
         .replace("l", "1")
+        .replace("L", "1")
         .replace("b", "6")
         .replace("y", "9")
+        .replace("z", "3")
         .replace("n", "11")
     )
 
 
+MARK_LETTERS_TEXT_BR = "xyziLlbn"
+MARK_LETTERS_TEXT = "i"
+MARK_SIGNS_TEXT = "*'"
+
 MARK_PLAIN_BR_RE = re.compile(
-    r"""
+    fr"""
         (?:
             ⌊
             |
             <super>
         )?
         (
-            [xyilbn*'0-9]{1,2}
+            (?:
+                (?:
+                    \b
+                    [{MARK_LETTERS_TEXT_BR}]
+                )
+                |
+                [*'0-9]
+            )
+            [{MARK_LETTERS_TEXT_BR}{MARK_SIGNS_TEXT}0-9]?
             (?:
                 \s+
-                [xyilbn*'0-9]{1,2}
+                [{MARK_LETTERS_TEXT_BR}{MARK_SIGNS_TEXT}0-9]{{1,2}}
             )*
         )
-        (?:</super>)?
+        (?:</super>\ ?)?
         (?:
             \)
             |
@@ -1415,29 +1428,32 @@ MARK_PLAIN_BR_RE = re.compile(
     re.S | re.X,
 )
 
+# Lots of <super>1</super> are really apostrophes.
+# But they can also be frefs. Sigh
+# We can try to weed them out at the moment when we know the note bodies.
+# If then the number in the super element does not correspond to a note body
+# we turn it into an apostrophe
+
 MARK_PLAIN_RE = re.compile(
     r"""
-        (?:
-            ⌊
+        (
+            (?:
+               <super>
+               [0-9]{1,2}
+               </super>
+            )
             |
-            <super>
-        )?
-        (
-            [xyilbn*'0-9]{1,2}
             (?:
-                \s+
-                [xyilbn*'0-9]{1,2}
-            )*
-        )
-        (?:</super>)?
-        (?:
-            ⌋
-        )
-        (
+               ⌊
+               [0-9]{1,2}
+               ⌋
+            )
+            |
             (?:
-                [^<]*
-                </super>
-            )?
+                (?<=[a-z])
+                [0-9]{1,2}
+                \b
+            )
         )
     """,
     re.S | re.X,
@@ -1479,6 +1495,9 @@ CL_BR_NO = (
         r"⌊\1⌋",
     ),
 )
+
+FL_RE = re.compile(r"""\bf([0-9]+)""", re.S)
+
 
 MARK_PLAIN_AFTER_RE = re.compile(
     r"""

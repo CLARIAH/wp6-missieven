@@ -29,7 +29,7 @@ hetsij aen de Caep de Bonne Esperance , Santa Helena ofte elders souden mogen<lb
 toeleggen ook gaan veel zieken mede<lb/>
 »</remark>
 <para>Buy ten dewelcke met onse weten niemandt binnen sijn tijdt overgaet dan<lb/>
-alleen eene Daniël Caro<fref ref="1"/> , sone van den e. Fran^is Caron, gewesen proponent in<lb/>
+alleen eene Daniël Caron <fref ref="1"/> , sone van den e. Fran^is Caron, gewesen proponent in<lb/>
 ’t vaderlandt ende uytgecomen voor soldaet, dien wij sijn verlossinge hebben<lb/>
 toegestaen, omdat hij soo tot die als alle andere diensten onbequaem is.<lb/>
 </para>
@@ -63,23 +63,23 @@ volck beset houden, als buyten becommeringh sal connen geschieden, mitsgaders<lb
 oock van tijdt tot tijdt doen vernieuwen de ordre om dien hoeck van alle nagelboomen<lb/>
 vorder te suy veren ende suyver te houden.<lb/>
 </para>
-
 <remark>«De kleine nageloogst was welkom, daar de prijzen in Nederland laag zijn; er<lb/>
 wordt niet verwacht, dat de Cie. nog meer geld dan tot dusverre van particulieren a<lb/>
-|% p.m. zal kunnen lenen; de kantoren , wam nog geld op hoge interest is geleend, zoals<lb/>
-Siam, zullen eerst van contanten worden voorzien; monsters van lonten, gemaakt van<lb/>
-„clappusbolster , bast van hoornen als anders
-”, opgezonden ; ze zijn niet geschikt bij<lb/>
-veldtochten; de soldijboeken te Amboina zijn niet goed bijgehouden; de betrokken<lb/>
-onderkoopman is tot soldaat gedegradeerd; in de Molukken zijn de Spanjaarden rustig<lb/>
-»</remark>
+</remark>
+
 <fnote ref="1">Daniël Caron, zoon van Fran^is Caron en een Japanse. Volgons
 <emph>Predikanten,</emph> p. 87<lb/>
 zou hij in 1650-1651 te Batavia zijn geweest.<lb/>
 </fnote>
 
 <pb n="293" tpl="1" vol="03" facs="3_125_0293"/>
-
+<remark>|% p.m. zal kunnen lenen; de kantoren , wam nog geld op hoge interest is geleend, zoals<lb/>
+Siam, zullen eerst van contanten worden voorzien; monsters van lonten, gemaakt van<lb/>
+„clappusbolster , bast van hoornen als anders
+”, opgezonden ; ze zijn niet geschikt bij<lb/>
+veldtochten; de soldijboeken te Amboina zijn niet goed bijgehouden; de betrokken<lb/>
+onderkoopman is tot soldaat gedegradeerd; in de Molukken zijn de Spanjaarden rustig<lb/>
+»</remark>
 <para>Dewijl sij daer nu ten principalen sonder naegelen sitten, soo sal te verwonderen<lb/>
 sijn, off sij daer noch al soo breet sullen blijven continueren tot laste van den<lb/>
 Co. sonder eenigh voordeel. Wij sullen ondertusschen alle occasiën van verwijderingh<lb/>
@@ -409,11 +409,21 @@ om van daer tot Jaffanapatam overge voert te worden, ’t Was voor d’Ë<lb/>
 Comp.e te wenschen, dat diergelijcke ambachtsluyden veel conden getrocken<lb/>
 worden.<lb/>
 </para>
-
 <remark>«Nabij Masulipatam is de rijst door te veel regen mislukt, nabij Palicol in het<lb/>
 vorige seizoen door droogte
 , maar thans is de laatste geslaagd ; in Orissa staat de rijst er<lb/>
-prachtig voor; reeds 800 last is besteed voor Ceylon, er is 1500 nodig; 125 nieuwe<lb/>
+</remark>
+
+<fnote ref="1">Opstoppen, vermoedelijk in de zin van: stuiten, beletten verder te gaan.<lb/>
+</fnote>
+<fnote ref="2">Parra, vaartuig van de zuidoostkust van India.<lb/>
+</fnote>
+<fnote ref="3">Of is bedoeld : eens, óf : van diergelijcke parras mede oen
+....<lb/>
+</fnote>
+
+<pb n="299" tpl="1" vol="03" facs="3_125_0299"/>
+<remark>prachtig voor; reeds 800 last is besteed voor Ceylon, er is 1500 nodig; 125 nieuwe<lb/>
 pagoden in Golconda zijn gelijk 100 oude; de Pegu is 13 sept. met cargasoen van<lb/>
 f. 99616.15.5 van Paleacatte naar Siriang vertrokken; 22 sept. de Paleacalte met carg.<lb/>
 van f. 778.7.6 en vrachtgoed; de Engelsen trokken hun kapitaal van daar terug; in<lb/>
@@ -425,16 +435,6 @@ meent
 , dat dit maar snoeverij is; de belangrijkste specerijen komen op goede verkoopprijzen;<lb/>
 Assenchan zal Pastullabeeck als havildar te M. opvolgen<lb/>
 »</remark>
-<fnote ref="1">Opstoppen, vermoedelijk in de zin van: stuiten, beletten verder te gaan.<lb/>
-</fnote>
-<fnote ref="2">Parra, vaartuig van de zuidoostkust van India.<lb/>
-</fnote>
-<fnote ref="3">Of is bedoeld : eens, óf : van diergelijcke parras mede oen
-....<lb/>
-</fnote>
-
-<pb n="299" tpl="1" vol="03" facs="3_125_0299"/>
-
 <para>Mits de duurte van den rijs nam den hongersnoot daeromheen seer toe, sulckx<lb/>
 menichte van menschen om aen de kost te geraecken de vlucht nae de cust Sgensely<lb/>
 naemen.<lb/>
@@ -491,19 +491,19 @@ jaar gewonnen f. 344545.15.10, . . . ,<lb/>
 </para>
 <para>Daerentegen bedraegen de generale ongelden . 198400. 1. 1<lb/>
 </para>
-
 <remark>«Men is er f. 538292.13.2 aan den nawab schuldig voor geleend geld en<lb/>
 f. 90869.15.12 aan diverse kooplieden; sedert is nog voor f. 177945.12 ingekocht; er<lb/>
 blijft aan reële effecten f. 258655; er gaat veel te weinig goud en zilver derwaarts van<lb/>
 Thaiwan om alles af te betalen en het bedrijf gaande te houden; als de nawab wordt<lb/>
-ajbetaald , moet men geld lenen van de kooplieden voor de lage rente van $% p.m.;<lb/>
+</remark>
+
+<pb n="300" tpl="1" vol="03" facs="3_125_0300"/>
+<remark>ajbetaald , moet men geld lenen van de kooplieden voor de lage rente van $% p.m.;<lb/>
 directeur van den Broecke tracht in Bengalen de 400 last geraffineerde salpeter uit<lb/>
 Patna naar de schepen te krijgen , voldoende voor de eis uit patria van 2\ a 3 miljoen<lb/>
 pond; ook de zijde van Kasimbazar en andere waren van de Cie. tracht hij aan de<lb/>
 afscheephaven te krijgen<lb/>
 »</remark>
-<pb n="300" tpl="1" vol="03" facs="3_125_0300"/>
-
 <para>Ter oorsake onse coopluyden Arnold van Wachtendoncq1 ) ende Justus Sicx
 <fref ref="1"/> <lb/>
 op ijdele geruchten (datter 700 ruyters van den prince Sasjousa over de Ganges tot<lb/>
@@ -635,7 +635,7 @@ redenen tot verschoninge waeren bijgebracht met vertoogh van hun onvermogen<lb/>
 tot soodanigen gewelt, soo en hadde tselve echter niet connen verhinderen, dat sij<lb/>
 alle (met stercke wachten in de poort van den Sulthan vastgeset, vervolgens de<lb/>
 peyckaers
-<super>5),</super> maeckelaers, wasschers en die maer eenigsints aen de logie dependeerde<fref ref="4"/> <lb/>
+<super>5),</super> maeckelaers, wasschers en die maer eenigsints aen de logie dependeerden)<lb/>
 soodanigh wierden getracteert, dat een van deselve was dootgeslaegen<lb/>
 om hun alsoo te doen ontdecken ’t geit, ’t welck door d’onse mocht wesen verschuylt,<lb/>
 werdende tot dien eynde de huysvrouw van den coopm. Santvoort door<lb/>
@@ -655,7 +655,7 @@ waeren) dagelijckx 5 ropia’s aen de wachters te geven, ingevalle de wreede swe
 wilden ontgaen en off wel den heer Ammametchan sijne genegentheyt tot<lb/>
 d’onse met voorspraeck bij gedachten jongen prince Sulthan Bangh had willen<lb/>
 doen blij eken, soo was het goet effect door voors. Sayd Alem
-<fref ref="5"/>  telckens belet, jae<lb/>
+<fref ref="4"/>  telckens belet, jae<lb/>
 selfs wanneer gemelte Sulthan eenige reysen genegentheyt hadde getoont om<lb/>
 d’onse te willen largeren. Dan den schandelijcken moort en groote massacre,<lb/>
 </para>
@@ -674,7 +674,7 @@ d’onse te willen largeren. Dan den schandelijcken moort en groote massacre,<lb
 </fnote>
 
 <pb n="303" tpl="1" vol="03" facs="3_125_0303"/>
-<para>begaen aen den nabab Ressetcha<fref ref="1"/>  ende sijne vrunden in Decca (dat meest ter<lb/>
+<para>begaen aen den nabab Ressetchan <fref ref="1"/>  ende sijne vrunden in Decca (dat meest ter<lb/>
 presentie van ’s Comp.6 dienaeren was geschiet), mitsgaders ’t gewelt met rooven<lb/>
 en plunderen van Comp.8 middelen den prinse Chasousa ter ooren geraeckt wesende<lb/>
 ende eenigh misnoegen daerover hebbende laeten blij eken, soo waeren de voors.<lb/>
@@ -946,7 +946,6 @@ voor een portie van 20 per cento van al dat visschen te genieten (gelijck met �
 silver van ’t verongeluckte fleuytschip de Joncker in Tayoan geschiet sij) veraccordeert.<lb/>
 <lb/>
 </para>
-
 <remark>«De schuld aan Reseymondonne van 11000 taël d
 £% p.m. kon daardoor niet<lb/>
 worden terugbetaald; vorderingen d
@@ -955,11 +954,12 @@ in het afgelopen jaar was er een Chinese jonk uit Japan met 150000 taël schuitz
 en een navet uit Macao gekomen
 , die weinig concurrentie veroorzaakten
 , voorts een<lb/>
-kleine patache van een Spanjaard, komende uit Malakka, en een jonk van Reseymondonne<lb/>
+</remark>
+
+<pb n="308" tpl="1" vol="03" facs="3_125_0308"/>
+<remark>kleine patache van een Spanjaard, komende uit Malakka, en een jonk van Reseymondonne<lb/>
 uit Stam, die daar verlies leed<lb/>
 »</remark>
-<pb n="308" tpl="1" vol="03" facs="3_125_0308"/>
-
 <para>Met voorseyde jonck was in Toncquin aengecomen een ambassadeur van den<lb/>
 Coningh uyt Siam, die oock met desel ve weder gintswaerts stondt te vertrecken;<lb/>
 desselfs verrichten is niet anders geweest, als ’tgene den Toncquinsen Coninck ’t<lb/>

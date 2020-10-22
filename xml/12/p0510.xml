@@ -304,7 +304,7 @@ nader verslag te kunnen doen. Vandaar ontvangen met bovengenoemde schepen 292 so
 foelie, 422.794 Ib muskaatnoten, 40.000 pees gekonfijte noten, 300 Ib marmelade,<lb/>
 1487 Ib parelmoerschelpen, enkele vogelnestjes en ‘boahattij’ t.w.v.
 ƒ 52.795. Met de<lb/>
-Meervliet was 400 sokkel foelie en 74.668 Ib muskaatnoten t.w.v. f38.845 gestuurd,<lb/>
+Meervliet was 400 sokkel foelie en 74.668 Ib muskaatnoten t.w.v. ƒ 38.845 gestuurd,<lb/>
 samen f 91.640. Batavia heeft naar Banda gestuurd<lb/>
 »</remark>
 <para>
@@ -1229,23 +1229,23 @@ koopmanschappen en andere provisiën meer per de barcq ..
 7 soldaten en eenige geringe verbeteringen, conform het reglement.<lb/>
 Palembang<lb/>
 </para>
-
 <remark>«Palembang heeft dit jaar 1.520.194 Ib peper geleverd, d.w.z
 . 1.000.000 Ib minder dan<lb/>
 verwacht. Meer dan twee derde is met koningsschepen aangevoerd, de rest met<lb/>
-Compagniesschepen. Aan tin is 1.910.359 Ib aangevoerd, half met koningsschepen, half<lb/>
-met Compagniesschepen. Batavia heeft
-ƒ 320.000 aan contanten en
-<emph>f7820</emph> aan benodigdheden<lb/>
-en koopwaar gestuurd met de brigantijnen Mossel en Kaaskoper, de bark<lb/>
-Vriendschap, de Wereld, de bark Rijder, de pantjalang Neptunus en de bark Meermin.<lb/>
-»</remark>
+</remark>
+
 <fnote ref="3"><ref>Dulang: pan, gebruikt in de mijnbouw, om het erts te scheiden van het zand. </ref></fnote>
 <fnote ref="4"><ref>De naam van de bark is niet ingevuld. </ref></fnote>
 <fnote ref="5"><ref>Het bedrag is niet ingevuld. </ref></fnote>
 
 <pb n="529" tpl="2" vol="12" facs="257_529"/>
-
+<remark>Compagniesschepen. Aan tin is 1.910.359 Ib aangevoerd, half met koningsschepen, half<lb/>
+met Compagniesschepen. Batavia heeft
+ƒ 320.000 aan contanten en
+<emph>ƒ 7820</emph> aan benodigdheden<lb/>
+en koopwaar gestuurd met de brigantijnen Mossel en Kaaskoper, de bark<lb/>
+Vriendschap, de Wereld, de bark Rijder, de pantjalang Neptunus en de bark Meermin.<lb/>
+»</remark>
 <para>En vandaar behalven de voorsz. peeper en thin nog bekomen
 <emph>2A\</emph> picols wax en parthij<lb/>
 cadjang matten etc., te zamen bedragende ƒ6491,12. Terwijl wij bij onze afgegane<lb/>
@@ -2261,7 +2261,7 @@ missive van 30 april 1755 kan dit nu precies. Te Malakka is in 1754 ingekocht<lb
 <cell n="232" row="26" col="5">-</cell>
 </row>
 <row n="232" row="27">
-<cell n="232" row="27" col="1">54.465 lb. alhier in de pakhuysen en56.250 lb. op Pera, daarvan</cell>
+<cell n="232" row="27" col="1">54.465 lb. alhier in de pakhuysen en<fref ref="7"/> .250 lb. op Pera, daarvan</cell>
 <cell n="232" row="27" col="2"></cell>
 <cell n="232" row="27" col="3"></cell>
 <cell n="232" row="27" col="4"></cell>
@@ -2294,7 +2294,7 @@ missive van 30 april 1755 kan dit nu precies. Te Malakka is in 1754 ingekocht<lb
 <cell n="233" row="4" col="1">3 1 20 lb. areek voor de cust</cell>
 <cell n="233" row="4" col="2"></cell>
 <cell n="233" row="4" col="3">/</cell>
-<cell n="233" row="4" col="4">i00</cell>
+<cell n="233" row="4" col="4">i<fref ref="8"/> </cell>
 </row>
 <row n="233" row="5">
 <cell n="233" row="5" col="1">1060 lb. zagoe</cell>
@@ -2331,7 +2331,7 @@ missive van 30 april 1755 kan dit nu precies. Te Malakka is in 1754 ingekocht<lb
 <pb n="544" tpl="2" vol="12" facs="257_544"/>
 <para>(Over wat in 1755 is ingekocht is Batavia ‘ en het kan ook niet wel anders wezen’ totnog toe gebrekkig geïnformeerd. Batavia heeft in 1755 naar Malakka verzonden)aan kopere duyten en penningen ƒ 5.040, -aan reëele koopmansz. ƒ 24.911, 7, -aan provisiën en benodigtheden ƒ 39.315, 2, -te zamen adderende ƒ 69.266, 9, -
 </para>
-<remark>«Aangezien de voorraad contanten te Malakka op 30 april 1755 nog f263.850<lb/>
+<remark>«Aangezien de voorraad contanten te Malakka op 30 april 1755 nog ƒ 263.850<lb/>
 bedroeg en het bestuur geen nieuwe contanten heeft gevraagd heeft Batavia slechts de<lb/>
 bovengenoemde koperen munten gestuurd. Vandaar ontvangen<lb/>
 »</remark>
@@ -2430,14 +2430,13 @@ oordeelen voor ’t belang der Compagnie, gelijk zulx nader door ons betoogd zij
 geworden bij de rescriptie aan de ministers van den 21e october dezes jaars, zal men dienaangaande<lb/>
 hunne consideratiën inwagten mitsgaders alsdan de nodige ordre stellen.<lb/>
 </para>
-
 <remark>«Voor minder belangrijke zaken verwijst Batavia naar de brieven aan Malakka van<lb/>
 10 juni, 29 augustus en 21 oktober 1755, o.a. dat de reis naar de Nicobar eilanden die<lb/>
 door onbekwaamheid van de equipageopzichter van Malakka was mislukt, moet worden<lb/>
 hervat. Op de verkoop van koopwaar is in 1753/54
 ƒ 44.150 winst geboekt, inclusief de<lb/>
 winst op de handel op Indragiri. De verpachting van de domeinen in 1754 heeft<lb/>
-37.939 rsd ofwel f91.048 opgebracht. Het ankergeld bedroeg 1560 rsd ofwel
+37.939 rsd ofwel ƒ 91.048 opgebracht. Het ankergeld bedroeg 1560 rsd ofwel
 ƒ 3744.<lb/>
 Samen
 ƒ 138.943. De lasten zijn gedaald met
@@ -2446,13 +2445,14 @@ Samen
 nog altijd
 ƒ 20.000 boven het reglement. De winsten en inkomsten zijn gestegen met<lb/>
 f 10.958 tot
-ƒ 144.321. Malakka is f29.362 ‘ tevoren geraakt’. De inlandse zaken zal<lb/>
-Batavia ‘ onder een apart hoofddeel openleggen
+ƒ 144.321. Malakka is ƒ 29.362 ‘ tevoren geraakt’. De inlandse zaken zal<lb/>
+</remark>
+
+<pb n="546" tpl="2" vol="12" facs="257_546"/>
+<remark>Batavia ‘ onder een apart hoofddeel openleggen
 \ De overleden secunde Claas de Wind<lb/>
 wordt opgevolgd door de secunde van Te mate, Jeronimus Tonneman,<lb/>
 »</remark>
-<pb n="546" tpl="2" vol="12" facs="257_546"/>
-
 <para>- terwijl in stede van den door tot advocaat-fiscaal geëligeerde mr. Thomas Schippers<lb/>
 tot Malaks fiscaal benoemd is den koopman Gabriel de Lopes en overmits den koopman<lb/>
 mitsgaders sabandhaar en secretaris van politie mr. Andries van Bockum om zijn<lb/>
@@ -2675,7 +2675,7 @@ Insgelijx was den inzaam van camfer en benzuin laatst ook minder bevonden, niett
 is het wel en conform de reflectie bij den onzen aan haar van den 16e aug. 1753 geweest,<lb/>
 
 <pb n="550" tpl="2" vol="12" facs="257_550"/>
-dat ze zig hebben geappliceerd minder swarte of zoort peeu van laastged. gunnen<fref ref="7"/> , met<lb/>
+dat ze zig hebben geappliceerd minder swarte of zoort peeu van laastged. gunnen<fref ref="9"/> , met<lb/>
 maar een matige quantiteit camfer op te doen, opdat men met die ongewilde Barose<lb/>
 kraam niet overkropt mogte blijven zitten, zijnde nogthans de ontwaarde slegte valeur der<lb/>
 overgemaakte camfer den insamelaar ter vergoeding geïmponeerd en de ministers nog<lb/>
@@ -2731,7 +2731,7 @@ vaartuygen vervolgens jaarlijx over en weder hebben gevaaren ten handel, aan de<
 goede verwagting, die men in den beginne had omtrent het daarmede bedoeld oogmerk,<lb/>
 te weeten een ruymer debiet van lijwaten als bevorens, niet na wensch heeft beantwoord,<lb/>
 
-<fnote ref="7"><ref>Gommen. </ref></fnote>
+<fnote ref="9"><ref>Gommen. </ref></fnote>
 
 <pb n="551" tpl="2" vol="12" facs="257_551"/>
 schoon men ook niet zeggen kan dat het in eenigen deele daaraan schadelijk is geweest.<lb/>
@@ -3141,7 +3141,6 @@ persevereren in ’t gevoelen dat de Compagnie zig meester behoord te maken van 
 eerstged. stuk land, als denkende dat het niet vreemd zoude wezen zo wanneer de Embdenaar<lb/>
 eens belust wierden zig daar te nestelen.<lb/>
 </para>
-
 <remark>«Directeur Jan Kersseboom is in Batavia aangekomen met de bedoeling te repatriëren.<lb/>
 Eerste secretaris Louis Taillefert is naar Bengalen vertrokken als zijn opvolger.<lb/>
 Heren XVII hadden echter het Bengaalse directoraat aan het gewezen opperhoofd van<lb/>
@@ -3152,13 +3151,14 @@ van Surat Johan de Rot is naar Batavia ontboden. Louis Taillefert is tot zijn op
 benoemd. Batavia heeft de Visvliet naar Bengalen gestuurd om Taillefert naar Surat<lb/>
 te brengen en om een te Surat gewilde lading uit Bengalen mee te nemen. Mocht directeur<lb/>
 Bisdom tegen de verwachting in naar Nederland zijn vertrokken of mocht hij over-<lb/>
-lijden , dan heeft Batavia de nodige voorzieningen getroffen voor het voorlopige gezag in<lb/>
+</remark>
+
+<pb n="558" tpl="2" vol="12" facs="257_558"/>
+<remark>lijden , dan heeft Batavia de nodige voorzieningen getroffen voor het voorlopige gezag in<lb/>
 Bengalen. De secunde van Hooghly George Lodewijk Vernet is benoemd tot opperhoofd<lb/>
 van Kasimbazar. De eerste in de kledenzaal Auguste Tabuteau volgt hem op. Deze is op<lb/>
 zijn beurt vervangen door de gewezen resident van Dhaka Menso Isinck,<lb/>
 »</remark>
-<pb n="558" tpl="2" vol="12" facs="257_558"/>
-
 <para>
 - onder bevordering tot koopman, die mede vergunt is aan den tot fiscaal en dorp-<lb/>
 meester aangestelden Jacob Larwood Schevichaven. Zijnde voorts nog tot soldijboekhouder<lb/>
@@ -3212,7 +3212,7 @@ Persijnenburg en Eendracht brieven d.d. 14 februari, 24 augustus en 15 oktober 1
 w’ ontfangen hebben de volgende goederen, te weeten:<lb/>
 
 <pb n="559" tpl="2" vol="12" facs="257_559"/>
-<para>1955 pakken lijwaten in soort ten bedragen van<fref ref="8"/>  pees lijwaten<fref ref="9"/>  pakken roggevellen308.180 lb. caliatourhout2330 pees vloersteenenaan diverse goederen
+<para>1955 pakken lijwaten in soort ten bedragen van<fref ref="10"/>  pees lijwaten<fref ref="11"/>  pakken roggevellen308.180 lb. caliatourhout2330 pees vloersteenenaan diverse goederen
 </para>
 ƒ 1.201.002,12, -<lb/>
 ƒ 2.779, 2, 8<lb/>
@@ -3305,7 +3305,6 @@ voeren der lijwaaten alleen zijn aspect hadde om dezelve aldaar niet te laten ov
 als niet overeenkomende met de ordre dienaangaande verleent bij onzen brief na derwaarts<lb/>
 van den 26e may 1752.<lb/>
 </para>
-
 <remark>«Het valt Batavia tegen dat er geen kans is op aflossing van de schulden van de kooplieden<lb/>
 van Jagannathpur omdat er al twee overleden zijn, en omdat hun familieleden en<lb/>
 de andere kooplieden niet eens in staat zijn de kost te verdienen. Toch moet de schuld<lb/>
@@ -3320,14 +3319,15 @@ en stempelsnijder alsmede de hoofdmunter waren van Pulicat naar Nagapattinam ont
 om door te gaan met het vervaardigen van die munt. Aangezien Coromandel meent<lb/>
 dat het staken van het munten van dabusen in geval van ‘eenige obstaculen ’ groot nadeel<lb/>
 zou kunnen veroorzaken, heeft Batavia het bestuur gemachtigd naar bevind van zaken te<lb/>
-handelen mits men zich houdt aan de hierover gegeven order en de in vorige brieven<lb/>
+</remark>
+
+<pb n="561" tpl="2" vol="12" facs="257_561"/>
+<remark>handelen mits men zich houdt aan de hierover gegeven order en de in vorige brieven<lb/>
 genoemde prijs. De geringe verkoop van handelsproducten in 1 752/53 was te wijten aan<lb/>
 de al enige tijd durende onlusten te Coromandel. Als van de aldaar als onverkoopbaar<lb/>
 liggende 192.565 Ib Cheribonse are ka nog iets resteert, moet dit zo goed mogelijk verkocht<lb/>
 worden ter voorkoming van een totaal bederf.<lb/>
 »</remark>
-<pb n="561" tpl="2" vol="12" facs="257_561"/>
-
 <para>
 En nadien ons - kennisse gegeven is dat er te Jaggemaykpoeram nog per restand<lb/>
 in cassa was een parthij van 5 1 .400 silvere ducatons, die ze de bediendens reeds gequalificeerd<lb/>
@@ -3372,18 +3372,18 @@ voorige, buyten het bekostigde en gespendeerde in dien tijd tot absolvatie van d
 geëxtrueerde sterkte te Sadraspatnam ten emporte van ƒ 14.286,5, zijn door ons ter<lb/>
 afschrijving gepasseert.<lb/>
 </para>
-
 <remark>«De stijging van de lasten in 1752/53 met f 135.507 maakt eens te meer duidelijk hoe<lb/>
 noodzakelijk de door gouverneur- gene raai Jacob Mossel opgestelde en Heren XVII in<lb/>
 oktober toegestuurde memorie ter bezuiniging op de buitenkantoren is. Batavia hoopt er<lb/>
 binnenkort resultaat van te zien. Men zal er niet voor terugdeinzen alle overbodige uitgaven<lb/>
 door het bestuur te laten vergoeden, zoals al gebeurd is te Makassar, Amboina en<lb/>
-Cheribon. Batavia wijst erop dat men ook moet blijven werken aan verhoging van de<lb/>
+</remark>
+
+<pb n="562" tpl="2" vol="12" facs="257_562"/>
+<remark>Cheribon. Batavia wijst erop dat men ook moet blijven werken aan verhoging van de<lb/>
 winsten en inkomsten. Hierbij is van groot belang dat de vrijwel beëindigde oorlogen en<lb/>
 onlusten geheel ophouden.<lb/>
 »</remark>
-<pb n="562" tpl="2" vol="12" facs="257_562"/>
-
 <para>Alschoon wij ten aanzien van de verpagting van ’s Compagnies domainen aan de eene<lb/>
 kant reden hebben gehad ons genoegen te betuygen nopens dat de veertien oude en<lb/>
 vijfthien nieuwe dorpen te Nagapatnam met een meerderheyd van pagoden 50,22 of voor<lb/>
@@ -3744,11 +3744,11 @@ lieutenant-militair Leonard de Coste, meedevoerende een geschenk van ƒ 15.757,6
 inkoops, waaronder voomamentlijk heeft uytgemunt een fraay goud repetitiehorlogie met<lb/>
 dies haak en sleutel, rijkelijk bezet met diamanten, bij den koning en dies hofgroten met<lb/>
 veel meer distinctie als volgens gewoonte gerecipieert, mitsgaders den eersten gesant<lb/>
-wederom beschonken is boven het ordinair present met een partisaan<fref ref="10"/>  en houwer, buytengemeen<lb/>
+wederom beschonken is boven het ordinair present met een partisaan<fref ref="12"/>  en houwer, buytengemeen<lb/>
 met goud en silver gewerkt, en voorts de gezamentlijke gesanten ieder met<lb/>
 een elifant, den scriba met een goude ketting en den tolk met een goude ring, onder veele<lb/>
 
-<fnote ref="10">Pertisaan: hellebaard.<lb/>
+<fnote ref="12">Pertisaan: hellebaard.<lb/>
 </fnote>
 
 <pb n="568" tpl="2" vol="12" facs="257_568"/>
@@ -4297,7 +4297,7 @@ onvermijdelijke vernieuwing van de kruytmolen en zulks onder aanschrijving voort
 de vaartuygen die zij sustineeren benodigt te zijn, van hier te ontbieden, item de kerken<lb/>
 op Wolvendaal, Tutucorijn en Gale spoedig te voltooyen.<lb/>
 </para>
-<remark>«De winsten zijn gedaald met f235.338 tot f947.414 in 1753/54 , de lasten met<lb/>
+<remark>«De winsten zijn gedaald met ƒ 235.338 tot ƒ 947.414 in 1753/54 , de lasten met<lb/>
 f 79.859 tot f 1.197.369. Het tekort is dus toegenomen met f 155.478,<lb/>
 »</remark>
 <para>
@@ -6094,7 +6094,7 @@ nog vier ge voegt, die weder alle den
 mr. Hendrik Adriaan Lokman en mr. Carel Philip Johan Schippers gepermitteerd<lb/>
 voor de regtbanken van justitie te postuleeren.<lb/>
 </para>
-<para>Bij resolutie van 21 september<fref ref="11"/>  is ingelijft de sententie van den raad, waarbij de crimineele<lb/>
+<para>Bij resolutie van 21 september<fref ref="13"/>  is ingelijft de sententie van den raad, waarbij de crimineele<lb/>
 procedures teegens wijlen den gewezen gouvemeur-generaal de heer Adriaan<lb/>
 Valkenier door desselfs overlijden werden verklaard te zijn geaboleert en g’extingueert,<lb/>
 en bij die van heeden de vrijspreeking van den schipper op ’t uytgekome schip Oosthuyzen,<lb/>
@@ -6118,8 +6118,8 @@ rente dier kamer, welke in Compagnies cas overgebragt zijn, bedragen ƒ 11.533,1
 en haare assignatiën op Nederland ƒ 220.596,18, wezende haar capitaal ƒ4.894.546,-.<lb/>
 </para>
 
-<fnote ref="11"><ref>Boven de ‘31’ staat ‘30’ geschreven. </ref></fnote>
-<fnote ref="12"><ref>Boven ‘7ber’ staat ‘octbr’ geschreven. </ref></fnote>
+<fnote ref="13"><ref>Boven de ‘31’ staat ‘30’ geschreven. </ref></fnote>
+<fnote ref="14"><ref>Boven ‘7ber’ staat ‘octbr’ geschreven. </ref></fnote>
 
 <pb n="609" tpl="2" vol="12" facs="257_609"/>
 <para>Tot president van heemraden is in steede van de heer directeur-generaal Van der Parra<lb/>
@@ -6496,7 +6496,7 @@ geleverd bestaan in:<lb/>
 1.758.562 lb. coffij<lb/>
 28.250 lb. peeper<lb/>
 
-<fnote ref="13">In de tekst staat een aanhalingsteken.
+<fnote ref="15">In de tekst staat een aanhalingsteken.
 <emph>DAS</emph> II, 552, noemt 20 mei 1755 als aankomstdatum.<lb/>
 </fnote>
 
@@ -6725,7 +6725,7 @@ te Delft; f 49.006 door raad extraordinaris Huijbert Willem van Bazel en secreta
 van de Raad van Justitie Jacob van der Sleijden aan mr. Jacques Willem Dallens te<lb/>
 ’s-Gravenhage; f 32.226 door directeur-generaal Petrus Albertus van der Parra aan<lb/>
 Balthazarina Johanna Pasques de Chavonnes, weduwe van directeur-generaal Daniël<lb/>
-Nolthenius. Aan overgeschreven kapitaal o.a. f65.836 door het repatriërende oudopperhoofd<lb/>
+Nolthenius. Aan overgeschreven kapitaal o.a. ƒ 65.836 door het repatriërende oudopperhoofd<lb/>
 van Japan Hendrik van Homoet aan zichzelf te Amsterdam en
 ƒ 58.306 door<lb/>
 de binnenregent van het binnenziekenhuis Hendrik Otto van Oudgaerden aan Petrus van<lb/>
