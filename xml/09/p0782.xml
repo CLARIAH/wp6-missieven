@@ -404,8 +404,8 @@ kaat , 445 Ib foelie , 3969 Ib kaneel en 5043 Ib kruidnagels voor de gestelde pr
 peper is verkocht met 112% winst , 488.595 Ib Japans staaf koper met 65%, 17501b vermiljoen<lb/>
 met 44%, 206.967 Ib lood met 22%, 95.200 Ib sapanhout met 292% en 1394 Ib kwikzilver<lb/>
 met 40% winst.<lb/>
- Lasten 1734 ƒ 397.587 1735 ƒ 392.334<lb/>
- Winsten 1734 ƒ 306.019 1735 ƒ 416.173<lb/>
+ Lasten 1734 f397.587 1735 f392.334<lb/>
+ Winsten 1734 f306.019 1735 f416.173<lb/>
  Geen bijzonderheden over de ropiamunterij en de aanbesteding der goederen. Op de<lb/>
 eis voor 1736 is met f 4.524.145 voor patria en Batavia voldaan, nl.<lb/>
 »</remark>
@@ -653,7 +653,7 @@ dan blijft er slechts 42% winst over. De restanten bedroegen op 15 juli 1736 f 1
 18.675, of voor f 61.627, Spaanse realen, 371.644 Ib poedersuiker voor f 40.854, en<lb/>
 ƒ 44.543 uitstaande schulden. De 2050 balen te Bayt-al-Faqih ingekochte koffie kostten<lb/>
 f
-- 12, l<fref ref="1"/> /s per Ib; deze te hoge prijs was een gevolg van de hoge transportkosten van Bayt-alFaqih<lb/>
+- 12, l5/s per Ib; deze te hoge prijs was een gevolg van de hoge transportkosten van Bayt-alFaqih<lb/>
 naar Mokka. De inkoop was alleen mogelijk doordat er geen kooplieden uit Jeddah<lb/>
 voor vervoer naar de Levant waren aangeweest. Deze lieden kochten jaarlijks ongeveer<lb/>
 20.000 balen. De verkoop te Bayt-al-Faqih had bestaan uit 2050 balen voor de Nederlanders,<lb/>
@@ -676,7 +676,7 @@ van Java koffie is het niet nodig het kantoor aan te houden.<lb/>
  Lasten 1734
 ƒ 19.237 winst 1734
 ƒ 13.483<lb/>
- Lasten 1735 ƒ 23.610 winst 1735 f 55.602<lb/>
+ Lasten 1735 f23.610 winst 1735 f 55.602<lb/>
  De winsttoename is geen aanleiding tot het aanhouden van een vaste resident, zeker<lb/>
 niet bij het gebrek aan scheepsruimte en de toenemende eisen van de locale bestuurders.<lb/>
 Gouverneur Fakih Hamet heeft voor de Compagnie de tol van 3 tot 908% verhoogd, zodat<lb/>
@@ -1060,14 +1060,12 @@ waren.<lb/>
 en 4 man zenden. Totale bezetting Bantam op 30 juni 410 Europeanen.<lb/>
 </remark>
 
-<fnote ref="2">1403 volgt inderdaad op 1405. De volgorde is 1405, 1406, 1403, 1404, 1407 enz.<lb/>
-Zie
-<emph>DAS</emph> II, 447-449. De Buis, Loosdrecht en Meermond liepen vast op Goodwin's Sand; de Hillegom<lb/>
+<fnote ref="1">1403 volgt inderdaad op 1405. De volgorde is 1405, 1406, 1403, 1404, 1407 enz.<lb/>
 </fnote>
 
 <pb n="801" tpl="2" vol="09" facs="205_801"/>
 <remark>Op 6 december aankomst van de Duinbeek , met melding van de ondergang van of<lb/>
-schade aan de schepen Buis, Meermond, Loosdrecht en Hillegom<fref ref="3"/> . De Heren XVII zeggen<lb/>
+schade aan de schepen Buis, Meermond, Loosdrecht en Hillegom2. De Heren XVII zeggen<lb/>
 toe drie andere te zenden; er zullen bovendien elf nieuwe schepen worden gebouwd. De<lb/>
 Kommerrust, Heinkenszand en Hogenes zijn af gelegd. Men had de zwarte smalle baf tas<lb/>
 naar patria gezonden omdat er daar meer winst op te behalen leek. Men zal tegen de kwade<lb/>
@@ -1090,7 +1088,7 @@ so scheen ons deselve egter aan de andere zijde van sodanigen nadeligen nasleep 
 de Compagnie als veele van derselver onderhorige te sullen wesen, dat voor ongeraadsaam<lb/>
 moeste werden aangesien, nademaal uyt de belegde stucken volgens de vrijwillige confessie<lb/>
 van de voorschreve gedetineerdens genoegsaam kan afgenomen werden, so veel in<lb/>
-dien morshandel sedert eenige jaren op een directe en indirecte wijse getrampeert<fref ref="4"/>  te<lb/>
+dien morshandel sedert eenige jaren op een directe en indirecte wijse getrampeert3 te<lb/>
 hebben, dat er seer weynige onschuldig souden werden bevonden, en daaruyt niet anders<lb/>
 te verwagten wesen als een genoegsame totale subversie van dit gouvernement tot een<lb/>
 ongemeen nadeel van de Compagnie, oversulx is bij ons op den 27e november goedgevonden<lb/>
@@ -1115,9 +1113,12 @@ door de tweede, Johan Herman Theling, met
 ƒ 1 30 per maand. Everard Lurelius nu tweede<lb/>
 </remark>
 
-<fnote ref="3">leed schipbreuk voor Texel.<lb/>
-</fnote>
-<fnote ref="4"><ref>Tramperen, letterlijk met de voeten stampen, hier gebruikt in de zin van deelnemen. </ref></fnote>
+<fnote ref="2">Zie
+<emph>DAS</emph> II, 447-449. De Buis, Loosdrecht en Meermond liepen vast op Goodwin's Sand; de Hillegom<lb/>
+ 
+ leed schipbreuk voor Texel.<lb/>
+ </fnote>
+<fnote ref="3"><ref>Tramperen, letterlijk met de voeten stampen, hier gebruikt in de zin van deelnemen. </ref></fnote>
 
 <pb n="802" tpl="2" vol="09" facs="205_802"/>
 <remark>opperkoopman, Johannes Mattheus Cluysenaar visitateur- gener aal, en Christiaan Pieterszoon<lb/>

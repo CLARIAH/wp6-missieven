@@ -20,13 +20,12 @@ def readYaml(fileName):
 
 # LOCATIONS
 
-LOCAL = os.path.expanduser("~/local")
 BASE = os.path.expanduser("~/github")
 ORG = "Dans-labs"
 REPO = "clariah-gm"
 
 REPO_DIR = f"{BASE}/{ORG}/{REPO}"
-SOURCE_DIR = f"{LOCAL}/{REPO}"
+SOURCE_DIR = f"{REPO_DIR}/_local"
 
 DECL_PATH = f"{REPO_DIR}/yaml"
 META_DECL_FILE = f"{DECL_PATH}/meta.yaml"
@@ -287,7 +286,7 @@ def trim(
         headInfo=collections.defaultdict(list),
         remarks=collections.Counter(),
         remarkInfo=collections.defaultdict(lambda: collections.defaultdict(list)),
-        noteInfo=collections.defaultdict(list),
+        fnotebInfo=collections.defaultdict(list),
         heads={},
         bigTitle={},
         splits=[],
