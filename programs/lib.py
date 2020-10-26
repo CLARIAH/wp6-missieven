@@ -97,7 +97,7 @@ def parseArgs(args):
 
 def docSummary(docs):
     nDocs = len(docs)
-    rep = "  0x" if not nDocs else f"  1x {docs[0]}" if nDocs == 1 else ""
+    rep = "   0x" if not nDocs else f"   1x {docs[0]}" if nDocs == 1 else ""
     if not rep:
         examples = " ".join(docs[0:2])
         rest = " ..." if nDocs > 2 else ""
@@ -286,7 +286,8 @@ def trim(
         headInfo=collections.defaultdict(list),
         remarks=collections.Counter(),
         remarkInfo=collections.defaultdict(lambda: collections.defaultdict(list)),
-        fnotebInfo=collections.defaultdict(list),
+        fnoteBodyInfo=collections.defaultdict(list),
+        fnoteMarkInfo=collections.defaultdict(list),
         heads={},
         bigTitle={},
         splits=[],

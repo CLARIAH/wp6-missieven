@@ -17,9 +17,9 @@
 </header>
 <body>
 <pb n="267" tpl="1" vol="02" facs="2_112_0267"/>
-<head>I. CORNELIS VAN DER LIJN1), JOAN MAETSUYKER2) EN SIMON<lb/>
+<head>I. CORNELIS VAN DER LIJN<fref ref="1"/> , JOAN MAETSUYKER<fref ref="2"/>  EN SIMON<lb/>
 VAN ALPHEN, BATAVIA 9 juli 1645
-<super>3).</super><lb/>
+<fref ref="3"/> .<lb/>
 </head>
 <folio>1957,fol.1-38.</folio>
 <remark>«Verwijzing naar vorige gen. miss.; overlijden van Van Diemen , afgedr.
@@ -83,9 +83,9 @@ monterende ter somme van ƒ 256 047.11.1, daeronder 200 000 gulden contant om<lb
 in gout voor Choromandel overgeset te worden en is met geseyde schip den Haen<lb/>
 derwaerts genavigeert de bruyt van de gouverneur Caron, met ’t schip de Walvisch<lb/>
 hier behouden aengeland
-<super>1).</super> De suster blijft hier, trouwende metten oppercoopman<lb/>
+<fref ref="1"/> . De suster blijft hier, trouwende metten oppercoopman<lb/>
 Frederick Coyet
-<super>2).</super> . . .<lb/>
+<fref ref="2"/> . . . .<lb/>
 </para>
 <para>
 Bovendien staen aldaer te verschijnen het schip Hemiette Louise, mede over<lb/>
@@ -142,8 +142,8 @@ In 1673 werd hij op voorspraak van prins Willem III gegratieerd, waarna hij repa
 Soodat Japan desen jare aen capitael becomen sal ongeveer
 .... / 970 000.<lb/>
 </para>
-<para><emph>(Gegevens over Tonkin; vgl.</emph> Tonkin, 1 644-1 645 j.<lb/>
-</para>
+<remark>«Gegevens over Tonkin; vgl. <lb/>
+»</remark>
 <para>Uyt degene, die op ’t jonghste exploict naer Cambodja geweest sijn, worden<lb/>
 eenstemmigh onderricht, op dat rijck niet te doen sij, off most wel twee mael<lb/>
 sooveel macht derwaerts gaen, als voorleden is geschied, die dit jaer van hier niet<lb/>
@@ -156,7 +156,7 @@ voorleden arriveert alhier een vaertuygh van Cambodja, toebehorende seker<lb/>
 Chinees ingeseten, genaemt Tiggit, ende daermede twee onser Nederlander en met<lb/>
 een brieff van den Coninck, bij welcke zich excuseert van de moord, aen de onse<lb/>
 gedaen
-<super>x)</super> . . . ende offschoon zich onversaeght ende trots hout, soo seggen voorsz.<lb/>
+<fref ref="1"/>  . . . ende offschoon zich onversaeght ende trots hout, soo seggen voorsz.<lb/>
 Nederlander en, oock de Chinesen, het gantsche rijck in grote angst ende benautheyt<lb/>
 sij, uyt vrese den voorjaersen tocht, bij welcke over de 2000 man, daeronder<lb/>
 eenige groten, verloren hebben, met groter macht sullen trachten te hervatten,<lb/>
@@ -181,10 +181,10 @@ van wort geadviseert.<lb/>
 . . . voor dese colonie niet nodiger sij als grote quantiteyt lijffeygenen,<lb/>
 waervan dan ooc de quartieren innewaerts voorsien. Bijaldien daerin geen veranderingh<lb/>
 valt1
-<super>2),</super> sullen nae andere plaetsen moeten uytsien, want sonder slaven<lb/>
+<fref ref="2"/> , sullen nae andere plaetsen moeten uytsien, want sonder slaven<lb/>
 dese republicque niet wel bestaen kan. Hebben al langh het oogh op ’t eyland<lb/>
 Engano buyten Sunda’s enghte
-<super>3)</super> gehad, daer geseght worden ettelijcke duysenden<lb/>
+<fref ref="3"/>  gehad, daer geseght worden ettelijcke duysenden<lb/>
 wilde menschen op te wesen. Nemen voor bij ruymte van schepen, daer ’t vermits<lb/>
 het getroffen bestant metten Portugees nu niet aen mancqueren sal, ettelijcke<lb/>
 
@@ -207,9 +207,9 @@ werden, maer sterven vele wegh, dat de eygenaers niet wel en comt.<lb/>
 <remark>«Vervólg gegevens AraJcan<lb/>
 »</remark>
 <para>Waerover
-<super>x)</super> dan, alsmede de onverdraeghelijcke vexatiën ende quellingen in<lb/>
+<fref ref="1"/>  dan, alsmede de onverdraeghelijcke vexatiën ende quellingen in<lb/>
 den handel voomamelijck van rijs ende slaven per aengeroerde jacht1
-<super>2</super> ), over<lb/>
+<fref ref="2"/> , over<lb/>
 Malacca . . . weder derwaerts geseylt, seer ernstigh aen voornoemde Coningh<lb/>
 hebben gedoleert, versoeckende billic redres, mitsgaders den oppercoopman Van<lb/>
 den Helm geordonneert, bijaldien bij zijn onredelijcke proceduyren persisteert,<lb/>
@@ -218,9 +218,9 @@ daer op te breken ende met sack ende pack herwaerts te comen om te sien, off den
 Coninc daermede niet beweeght sal worden de redelijckheyt plaetse te geven, de<lb/>
 voorn. Nederlanders met hare goederen te restitueren ende de Comp.e onbecommerden<lb/>
 handel in zijn land te laten genieten, gelijck zich bij verleende firmans verbonden<lb/>
-heeft3); dat verhoopt werd, te meer Van den Helm schrijft, een grote<lb/>
+heeft<fref ref="3"/> ; dat verhoopt werd, te meer Van den Helm schrijft, een grote<lb/>
 armade op den Sondiver
-<super>4)</super> uytgeset had ende een schandelijcke neerlaegh behaelt<lb/>
+<fref ref="4"/>  uytgeset had ende een schandelijcke neerlaegh behaelt<lb/>
 heeft; waarmede zijn grootshartigheyt wel wat mochte sijn gesoncken, sijnde<lb/>
 over de 30000 man van zijne doodgeslagen, ’t Succes leerd den tijd.<lb/>
 </para>
@@ -242,12 +242,12 @@ vgl.
 <ref>Bouwstoffen III p. 248, </ref>noot 2<lb/>
 »</remark>
 <para>2 Portugese vaertuygen waren daer
-<super>5)</super> van Macao aengelant, maer hadden<lb/>
+<fref ref="5"/>  van Macao aengelant, maer hadden<lb/>
 geen groot capitael medegebracht. Bovendien soo hadden de Engelsen met haer<lb/>
 schip de Swaen ende jacht de Michiel van Bantam redelijcke partije lijwaten<lb/>
 gecregen, waermede d’onse al eenighsints in de weegh waren. Uyt Manilha is<lb/>
 aldaer geweest eenen Pedro de Lamatte
-<super>6)</super> met een cho, waermede wel 70 000<lb/>
+<fref ref="6"/>  met een cho, waermede wel 70 000<lb/>
 Spaense realen aen de marckt sijn gebracht, die jegens fijn lijwaet ende ijser had<lb/>
 gesocht om te setten. Voor de Deenen was in Macassar niet gecomen.<lb/>
 </para>

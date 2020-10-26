@@ -18,7 +18,7 @@
 <body>
 <pb n="87" tpl="1" vol="01" facs="1_104_0087"/>
 <head>XI. LAURENS REAEL, KASTEEL MAURITIUS, NABIJ NGOFAKIAHA<lb/>
-OP MAKÉAN 20 augustus 1618 !).<lb/>
+OP MAKÉAN 20 augustus 1618 <fref ref="1"/> .<lb/>
 </head>
 <folio>980,fol.218-229, tezamen met een copie van X.</folio>
 <remark>«ReaeVs reis van Banda via Hitu naar de Molukken<lb/>
@@ -34,9 +34,9 @@ loon op moeten, nyet gewent sijnde soo langduyrige oorloge tegens elkanderen te<
 vueren, sijn seer vinnich ende furieus op malcanderen, slaende al doot dat se overwinnen,<lb/>
 gelijck wij aen de corre corre, die met Kitsil Sedang bleeff, gesyen hebben;<lb/>
 alsmede aen die van Kimela Dayas soon
-<super>1 2)</super> ; die van Jou Doty, des Conincx oom,<lb/>
+<fref ref="2"/>  ; die van Jou Doty, des Conincx oom,<lb/>
 die van den Gougougo van Batchian, veele van die van Kayo
-<super>3)</super> ende andre, te<lb/>
+<fref ref="3"/>  ende andre, te<lb/>
 lang om verhaelen, die van de Tidoresen verovert ende meest met al het volck<lb/>
 vermoort sijn geworden.<lb/>
 </para>
@@ -52,7 +52,7 @@ oorloge op Tydor vertrocken.<lb/>
 <para>De derde oorsaecke is natuyerlijcke syeckte, daertegens dese luyden seer<lb/>
 weynich ende onseeckere remedien hebben, maar principalijck de kinderpocxkens,<lb/>
 die lutty lutty
-<super>4)</super> noemen, dewelcke alle seve off acht jaaren als een peste over dese<lb/>
+<fref ref="4"/>  noemen, dewelcke alle seve off acht jaaren als een peste over dese<lb/>
 landen pleech te commen ende een grooten hoop volcx wech te nemen, gelijck wij<lb/>
 hetselve in ’t jaar 1613 gesyen hebben, datter, in Maleye sijnde alsdoen noch weynich<lb/>
 volcx, over de 500 syelen op een mouson gesturven sijn ende over de Molucquen<lb/>
@@ -65,7 +65,7 @@ Dese voorgaende sijn alle uutterlijcke oorsaecken, die haer van buyten thoecomen
 de innerlijcke oorsaecken, die haer meest bederven ende daerenboven<lb/>
 beletten, dat het vervallene nyet gerestaureert en wert, es haere quade gouverne,<lb/>
 beyde in politie ende leven
-<super>5).</super> Het lant wert (Godt betert) van een dwase Coninck<lb/>
+<fref ref="5"/> . Het lant wert (Godt betert) van een dwase Coninck<lb/>
 
 <fnote ref="1">Ook deze brief is evenals nr. X aan de Kamer Amsterdam gericht, misschien echter<lb/>
 voor Heren XVII bestemd.<lb/>
@@ -78,15 +78,15 @@ op Ceram.<lb/>
 <fnote ref="3">Kajoa, onder Ternate staand eiland op 127° O. L. onder de evenaar gelegen.<lb/>
 </fnote>
 <fnote ref="4">Luti-luti is in het Molukkenmaleis inderdaad het woord voor pokken.<lb/>
- 
- 5Ï Bedoeld is zowel in het bestuur van het rijk als in de regeling van het privé-leven.<lb/>
- </fnote>
+</fnote>
+<fnote ref="5">Bedoeld is zowel in het bestuur van het rijk als in de regeling van het privé-leven.<lb/>
+</fnote>
 
 <pb n="88" tpl="1" vol="01" facs="1_104_0088"/>
 ende quade gewoonte (want en connen nyet geseyt werden wetten te hebben)<lb/>
 geregeert, ende principalijck over het stuck van de houwelijcken, dat het rechte<lb/>
 seminarium van de republyque
-<super>1)</super> es, daerinne bijcans geen ordre en wert geobserveert.<lb/>
+<fref ref="1"/>  es, daerinne bijcans geen ordre en wert geobserveert.<lb/>
 Sij houden quansuys door de toelatinge van Mahomet 2 off 3 getrouwde<lb/>
 vrouwen ende sooveel bijsitten, als een ydereen voeden can, maar wat is ’t? Het<lb/>
 scheyden is soo gemeen, dat se malcanderen alle blauwe Maendagen eens de schop<lb/>
@@ -96,7 +96,7 @@ ende onbebouwt moet blijven; soo sijn de genera tien vermits de menichfuldige<lb
 scheydinge oock in ’t onseecker; quade gouvernement in leven, segge menichfuldige<lb/>
 sonden, de eenige ruyne van alle rij eken, hebben hyer d’overhant, lyegen,<lb/>
 bedryegen, roven, stelen, moorden, de armen onder te drucken, die se over mogen
-<super>2),</super><lb/>
+<fref ref="2"/> ,<lb/>
 te tiranniseren ende alle ongeregeltheden gaen nergens meer als hyer in swang;<lb/>
 ende opdat ick spreecke van hetgeene dat eygentlijeken tot dese materie dyent,<lb/>
 overspel ende hoererije onder groote ende cleene, jonek ende oudt, schijnt dese<lb/>
@@ -120,7 +120,7 @@ voorgaende, ende es:<lb/>
 </para>
 <para>2. Dat vermits de verminderinge van ’t volck de nagelboomen ende bergen,<lb/>
 alsmede alle andere erven aen weynieh heeren sijn geraeckt sex domini semissem
-<super>3)</super><lb/>
+<fref ref="3"/> <lb/>
 insularum possident, dat van Ternate, Mothyr ende Batchian wel geseyt mach<lb/>
 worden ende alhoewel onder haerluyden een gebruyck pleech te wesen, dat vreemde<lb/>
 om de helft pluckten, soo wilder nu nyemant aen, nyet alleene omme de moeyten,<lb/>
@@ -147,7 +147,7 @@ middelen haer behouff gemackelijck[er] weeten te becommen, als met het plucken<l
 van de nagelen, dat vol travailles ende peryckels es.<lb/>
 </para>
 <para>4. De excessive duyrte van sagou ende rijs, die se bij ons tot 130 a 150 realen<lb/>
-de koyangh *) ofte last moeten betalen, daer se tevooren bij de Javanen deselve<lb/>
+de koyangh <fref ref="1"/>  ofte last moeten betalen, daer se tevooren bij de Javanen deselve<lb/>
 om 25, 30, een weynich minder off meerder, hebben connen becomen, heeft haer<lb/>
 gedwongen haere landen te bouwen ende de nagelboomen nyet alleen te laten<lb/>
 staen, maer oock op veele plaetsen uut te roeyen om haar lant alsoo tot bouwerij e<lb/>
@@ -158,7 +158,7 @@ tevreden sijnde, costen om haer nagelen, rijs ende sagou, het broot van deze lan
 tot een civyle prijs ende mackelijck becomen, daer se hetselve nu omme de duyerte<lb/>
 te ontgaen, ofte aenplanten, gelijck se den rijs doen, ofte op andere plaetsen moeten<lb/>
 loopen soucken, als met de sagou geschyet, die se van Xoula, Taliabo
-<super>1 2),</super> alsmede<lb/>
+<fref ref="2"/> , alsmede<lb/>
 in de eylanden van Batchian sijn haelende.<lb/>
 </para>
 <para>5. De duyrte van de cleeden, die het haer verdryet soo duyr bij ons te moeten<lb/>
@@ -166,7 +166,7 @@ coopen, daer se deselve weleer tot civylder prijs van andere vreemdelingen hebbe
 connen becomen; principalijcken dagen se, dat, aengesien sij alhyer suy verder<lb/>
 nagelen leveren ende met swaerder wicht, als die van Louo, Cambello ende Hito<lb/>
 ende dat tot 50 realen de bhaer ge taxeert, daer die andere 60 crijgen
-<super>3),</super> syluyden<lb/>
+<fref ref="3"/> , syluyden<lb/>
 nochtans de deden eens soo duyre ten naesten bij moeten betaelen.<lb/>
 </para>
 <para>5, Wij sijn oock soo naeuw op ons wintsten ende verdyensten gestelt, dat wij<lb/>
@@ -188,7 +188,7 @@ cleeden, daarvan wij tot noch toe weynich gewilde sorteringe hebben gehadt ofte,
 eenige wel gewilt sijnde, in soo groote quantiteyt, dat se haer walchde, maer oock<lb/>
 van alderhande gerijff, dat de vreemdelingen plegen te brengen, van ayun, loocq,<lb/>
 peper, allerhande inlantsche specerijen, crijssen
-<super>4),</super> calckdoosen, coopere beckens,<lb/>
+<fref ref="4"/> , calckdoosen, coopere beckens,<lb/>
 rottangh ende duysent dingen, die wij nyet en brengen, daermede sijluyden met<lb/>
 cramen publyckelijcken voorstonden ende de armen alsoo wel als de rij eken, elck<lb/>
 dat hij bracht, jaa omme een stuyvers waerdije, geryeffden.<lb/>
@@ -202,8 +202,10 @@ Bat jan levert sago.<lb/>
 </fnote>
 <fnote ref="3">Het verschil in gewicht is: de Molukkenbahar bedraagt 625, die van het Ambonse<lb/>
  
- 550 pond. 4) Versta: krissen.<lb/>
+ 550 pond. <lb/>
  </fnote>
+<fnote ref="4">Versta: krissen.<lb/>
+</fnote>
 
 <pb n="90" tpl="1" vol="01" facs="1_104_0090"/>
 <para>9. Het veel uutborgen, dat voor desen gedaen is geweest, want alsoo het<lb/>
@@ -214,24 +216,24 @@ groote naersticheyt nyet omrne deselve te plucken, als se wel behooren.<lb/>
 want de Ternatanen altijt voor een maxime gehouden hebben, dat se haere ondersaten<lb/>
 in armoede moeten houden, den rechten wech tot onderganck van alle heerschappijen.<lb/>
 Vooreerst dan soo belasten se haer met onlijdelijcke tribuyten, als is<lb/>
-de Oupaty1), hetwelck een tribuyt is, dat de inwoonders als voor de premitienvan<lb/>
+de Oupaty<fref ref="1"/> , hetwelck een tribuyt is, dat de inwoonders als voor de premitienvan<lb/>
 een groot gewas aen den Coninck vereeren ende en is nyet yets per cent o, maer elck<lb/>
 een dorpken betaelt 1, 2, 3 ofte 4 bharen, die se ’s coningsbhaeren noemen, welcke<lb/>
 eens sooveele moeten sijn als onse ordinaire baeren. Maar de Macqjanesen dagen,<lb/>
 dat se dit jaar ’t gewicht de helft vergroot hebben. Bea
-<super>2)</super> is een tribuyt van 10 ten<lb/>
+<fref ref="2"/>  is een tribuyt van 10 ten<lb/>
 hondert, dat in de logie, als nagelen gelevert werde, geinnet wert, hetwelcke tot<lb/>
 opbouwinge van haere gemeene wercken ende extraordinaire schenckagie voor<lb/>
 den Coninck door de Sengagies ende Kimelahas bewaert pleech te werden
-<super>3).</super> Maer<lb/>
+<fref ref="3"/> . Maer<lb/>
 op Ternate ontfinch het den Coninck selffs, nu ontfanckt hij ’t oock op Macqian,<lb/>
 daerover de inwoonders dagen. Boboula
-<super>4)</super> is hetgeene sy voor de offityeren van<lb/>
+<fref ref="4"/>  is hetgeene sy voor de offityeren van<lb/>
 den Coninck schuldich sijn, te weeten voor de callodij (dat soo veel is als Conincx<lb/>
 coopman) ofte tollenaer ; jure datchyn (de weger), jure tullis
-<super>5)</super> (de schrijver) ende<lb/>
+<fref ref="5"/>  (de schrijver) ende<lb/>
 de paratanda
-<super>6),</super> dat de controlleur is ende opsichter van ’t gewas ende die wacht<lb/>
+<fref ref="6"/> , dat de controlleur is ende opsichter van ’t gewas ende die wacht<lb/>
 moet houden, dat de nagelen nyet vervoert en werden, doch dit en is van geen<lb/>
 groote importantie. Met dese middelen suygen sij de arme luyden het bloet aff ende<lb/>
 van haerentwegen en compt nyet wederomme in haer ondersaten handen omme<lb/>
@@ -240,7 +242,7 @@ handen wederom open en sluyt haer alsoo (in manyere van spreecken) de strot toe 
 daerenboven beneempt hij haer nyet alleen de middel omme yets te winnen, maer<lb/>
 isser noch wat te winnen, dat souckt hij voor sich selven, gelijck hij hetselve doet<lb/>
 met een impositie ofte laste, die se bibilian
-<super>7)</super> heeten ende is een manyere van ’s Conincx<lb/>
+<fref ref="7"/>  heeten ende is een manyere van ’s Conincx<lb/>
 handelinge, daerdoor de inwoonders gehouden sijn een seeckere quantiteyt<lb/>
 cleeden ofte andere waar naer haer vermogen van ’s Conings wegen aen te<lb/>
 nemen tot hooger prijs, als se in de coophandel gelden; maer soo de cleeden<lb/>
@@ -286,7 +288,7 @@ souden mogen gepractiseert werden ende voor de eerste, te weeten: de verminderin
 van ’t volck sye ick weynich hoops, ten waere saecke, eenen deus ex machina<lb/>
 hetselve quame te remedieren, hoewel geduyrende dese treves onder de Ternatanen<lb/>
 en de Tydoresen wij daernaer ten deele getracht hebben, want sedert is Maleye wel<lb/>
-sesmael vergroot ende verperckt *) van volck ende daar sijn oock geduyerende den<lb/>
+sesmael vergroot ende verperckt <fref ref="1"/>  van volck ende daar sijn oock geduyerende den<lb/>
 treves meer nagelen als oeyt te vooren gepluckt geworden, maer gelijck het een<lb/>
 medecijn qualijcken mogelijck is het eene litmaet te secoureren sonder eenigh ander<lb/>
 wederomme te incommoderen, soo schijnt het oock, dat in politie het stuck soo<lb/>
@@ -385,7 +387,7 @@ oude ende bedurve cleeden leggen, die nyet van de hant en willen. Soo is dan met
 goede ende wel gewilde cleeden dit stuck ten deele te remedieren, want dit volck<lb/>
 extraordinaris yets doen soude omme haer geryeff van cleeden te connen becomen.<lb/>
 Maer alle andere minutien
-<super>1)</super> daermede sij van de Javanen ende andere vreemdelingen<lb/>
+<fref ref="1"/>  daermede sij van de Javanen ende andere vreemdelingen<lb/>
 geryeft plegen te worden, en is des Comp.iens werck nyet. Dit kost eenige<lb/>
 particuliere, besonderlijck de Nederlanders, die van de Comp.ie ontslagen sijn,<lb/>
 toegelaten werden, waer ’t saecke, dat se nyet (gelijck wij bevonden hebben) in<lb/>
@@ -417,14 +419,14 @@ verhaelen, opdat Uwe E. haer nyet en bedryegen met seeckere rapporten, voor<lb/>
 desen aen Uwe E. overgeschreven uut de mont van een gevangene Portugees,<lb/>
 Thomanetto, eertijts een grooten handelaer in dese quartyeren, dat Ternate ende<lb/>
 Tydore in een groot mouson
-<super>2)</super> (naer mijn best onthout) tusschen de 12 ende<lb/>
+<fref ref="2"/>  (naer mijn best onthout) tusschen de 12 ende<lb/>
 13 hondert, Macqian 15 hondert, Mothyr 3 bhaer geven coste, ofte oock door de<lb/>
 mondelinge rapporten van Bastiaen de Castro, ten tijde hij in Hollant was ende<lb/>
 geexamineert is geworden van Sr Jacques de Velaer
-<super>3),</super> sa. g., ende Sr Lenard<lb/>
+<fref ref="3"/> , sa. g., ende Sr Lenard<lb/>
 Ray
-<super>4)</super> ten overstaen van Cornelis Velt
-<super>5),</super> naer wyens seggen soude Ternate ende<lb/>
+<fref ref="4"/>  ten overstaen van Cornelis Velt
+<fref ref="5"/> , naer wyens seggen soude Ternate ende<lb/>
 Thydore in sijnnen tijt gegeven hebben op een groot mousson elck duysent bhaer<lb/>
 nagelen; Mothyr hadde bij sijnnen tijt geen volck, maer eertijts had het gegeven<lb/>
 van 2 hondert tot 3 hondert bhaer, Macqian 12 hondert ende daer staet te mercken,<lb/>
@@ -457,7 +459,7 @@ noch becommen is, te vergaderen. Nu jegenwoordich behoorde het groot mouson<lb/>
 te sijn, dat alle seven off acht jaren pleech te comen, maer de inwoonders dagen,<lb/>
 dat het nyet en is als ’t pleech, generalij eken over het geheele lant, maer dat hyer<lb/>
 ende daar bij verscheyde tijden op verscheyde plaetsen het gewas rijp wert. Nu<lb/>
-hebben alleen Taffasoho, Babawa ende Noffagita *) gegeven ende nagelen gelevert,<lb/>
+hebben alleen Taffasoho, Babawa ende Noffagita <fref ref="1"/>  gegeven ende nagelen gelevert,<lb/>
 tegens november soude het gewas over de andere plaetsen vallen; watter van<lb/>
 werden sal, wil den tijt leeren. Ick vreese, dat het weynich genouch sal sijn, derhalven<lb/>
 Uwe E. ordre omme het nagelplanten in de Amboinsche eylanden te beletten<lb/>
