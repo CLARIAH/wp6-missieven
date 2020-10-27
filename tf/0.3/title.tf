@@ -13,14 +13,24 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-10-15T15:45:07Z
+@dateWritten=2020-10-27T14:23:52Z
 
-5072010	Both; Kasteel Nassau op Banda-Neira, 18 juli 1611
+5051149	Both; aan boord van het Wapen van Amsterdam voor Ile de Mayo, 25 februari 1610
+Both; aan boord van het Wapen van Amsterdam liggende in de Tafelbaai, 6 augustus 1610
+Both; aan boord van het Wapen van Amsterdam ter Rede van Mauritius, 14 oktober 1610
+Both; Kasteel Nassau op Banda-Neira, 18 juli 1611
 Both; aan boord van de Vere voor Maleyo, 31 maart 1612
+Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
 Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
 Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
 Both; zonder plaats, zonder datum
 Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+Both; Fort Mauritius nabij Ngofakiaha op het eiland Makéan, 26 juli 1612
+Both; zonder plaats, zonder datum
+Both; Bantam, 1 januari 1614
+Both; Bantam, 1 januari 1614
 Both; Bantam, 1 januari 1614
 Both; Bantam, 10 november 1614
 Both; Bantam, 10 november 1614
@@ -41,9 +51,25 @@ Reael; Jakatra, 6 januari 1618
 Reael; Kasteel Nassau op Banda-Neira, 7 mei 1618
 Reael; Wapen van Amsterdam voor Banda-Neira, 11 juli 1618
 Reael; Kasteel Mauritius nabij Ngofakiaha op Makéan, 20 augustus 1618
+Coen; Kasteel Jakatra, 5 augustus 1619
+Coen; Kasteel Jakatra, 7 oktober 1619
+Coen; Kasteel Jakatra, 15 oktober 1619
+Coen, De Carpentier, Dedel, De Houtman, Jansz; Kasteel Jakatra, 22 januari 1620
+Coen, Dedel; Kasteel Jakatra, 29 januari 1620
+Coen, De Carpentier, Jansz, Dedel; Kasteel Jakatra, 11 mei 1620
+Coen, De Carpentier, Dedel; Kasteel Jakatra, 12 mei 1620
+Coen, De Carpentier, Dedel, Sonck; Kasteel Jakatra, 31 juli 1620
+Coen, De Houtman, De Carpentier, Sonck; Kasteel Jakatra, 26 oktober 1620
+Coen, De Houtman, De Carpentier, Dedel, Sonck; Kasteel Jakatra, 8 januari 1621
 De Carpentier, Dedel; Kasteel Jakatra, 8 maart 1621
 Coen, Sonck; Schip Nieuw Hollandia ter Rede van Banda-Neira , 6 mei 1621
 De Carpentier, Dedel, Reyersz, Van Uffelen; Kasteel Jakatra, 9 juli 1621
+Coen, De Carpentier, Lam, Van Antzen; Batavia, 16 november 1621
+Coen, De Carpentier, Van Antzen; Batavia, 20 december 1621
+Coen, De Carpentier, Van Antzen; Batavia, 21 januari 1622
+Coen, De Carpentier, Van Antzen; Batavia, 14 maart 1622
+Coen, De Carpentier, Van Antzen, Specx; Batavia, 6 september 1622
+Coen, De Carpentier, Van Antzen; Batavia, 26 maart 1622
 De Carpentier, Jansz, Specx; Batavia, 1 februari 1623
 De Carpentier, Raden; Batavia, 24 februari 1623
 De Carpentier, De Houtman, Dedel, Sonck, Specx; Batavia, 25 december 1623
@@ -60,6 +86,14 @@ De Carpentier, Specx, Vlack, Van Diemen, Schram; Batavia, 15 december 1626
 De Carpentier, Schram, Specx, Vlack, Van Diemen; Batavia, 26 december 1626
 De Carpentier, Raden; Batavia, 2 februari 1627
 De Carpentier; Batavia, 29 juli 1627
+Coen, De Carpentier, Specx, Van Duynen, Van Diemen, De Meester; Batavia, 9 november 1627
+Coen, Van Duynen, Van Diemen, De Meester; Batavia, 6 januari 1628
+Coen, Van Duynen, Van Diemen, De Meester; Batavia, 13 januari 1628
+Coen, Van Duynen, Van Diemen, De Meester; Batavia, 24 januari 1628
+Coen, Jansz, Lefebvre, Van Gorcom, Vlack, Van Diemen, Blocq Martensz; Batavia, 3 november 1628
+Coen, Vlack, Van Diemen; Batavia, 17 november 1628
+Coen, Vlack, Van Diemen; Batavia, 10 februari 1629
+Coen, Vlack, Van Diemen; Batavia, 18 maart 1629
 Specx, Vlack, Van Diemen, Nuyts, Van Raemburch; Batavia, 15 december 1629
 Specx, Vlack, Van Diemen, Van der Burch; Batavia, 7 maart 1631
 Van Diemen; in het Schip Deventer nabij de zuidpunt van Afrika, 5 juni 1631

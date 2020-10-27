@@ -30,11 +30,12 @@ HELP = """
 
 Convert simplified pseudo TEI to TF and optionally loads the TF.
 
-python3 tfFromTrim.py ["load"] [volume] [page] [--help]
+python3 tfFromTrim.py ["load"] ["loadonly"] [volume] [page] [--help]
 
---help: print this text amd exit
+--help: print this text and exit
 
 "load": loads the generated TF; if missing this step is not performed
+"loadOnly": does not generate TF; loads previously generated TF
 volume: only process this volume; default: all volumes
 page  : only process letter that starts at this page; default: all letters
 """
@@ -77,6 +78,8 @@ generic = {
 
 otext = {
     "fmt:text-orig-full": "{trans}{punc}",
+    "fmt:text-orig-source": "{transo}{punco}",
+    "fmt:text-orig-remark": "{transr}{puncr}",
     "sectionFeatures": "n,n,n",
     "sectionTypes": "volume,page,line",
     "structureFeatures": "n,title,n",
@@ -148,6 +151,14 @@ featureMeta = {
         "description": "punctuation and/or whitespace following a word"
         "up to the next word"
     },
+    "punco": {
+        "description": "punctuation and/or whitespace following a word,"
+        "up to the next word, original text only"
+    },
+    "puncr": {
+        "description": "punctuation and/or whitespace following a word,"
+        "up to the next word, remark text only"
+    },
     "rawdate": {
         "description": "the date the letter was sent",
         "format": "informal Dutch date notation",
@@ -211,6 +222,8 @@ featureMeta = {
         ),
     },
     "trans": {"description": "transcription of a word"},
+    "transo": {"description": "transcription of a word, only for original text"},
+    "transr": {"description": "transcription of a word, only for remark text"},
     "und": {
         "description": "whether a word is underlined by typography",
         "format": "integer 1 or absent",
@@ -541,7 +554,12 @@ def walkNode(cv, doc, node, cur, notes):
         bodies = notes["bodies"]
         fref = atts.get("ref", "")
         notes["totalBodies"] += 1
-        bodies.setdefault(fref, []).append(node.text or "")
+        if fref in bodies:
+            curPg = cur.get("pg", None)
+            notes["ambiguousBodies"].setdefault(fref, {})[curPg] = len(bodies)
+        else:
+            bodies[fref] = []
+        bodies[fref].append(node.text or "")
         cur["fn"] = bodies[fref]
 
     elif tag in TRANSPARENT_ELEMENTS:
@@ -635,7 +653,7 @@ def addText(cv, text, cur):
             dest.append(text)
         else:
             for match in WORD_RE.finditer(text):
-                (trans, punc) = match.groups(1, 2)
+                (trans, punc) = match.group(1, 2)
                 trans = trans.strip("«»")
                 if punc:
                     punc = WHITE_RE.sub(" ", punc)
@@ -646,9 +664,15 @@ def addText(cv, text, cur):
                 for tag in TEXT_ATTRIBUTES:
                     if cur.get(tag, None):
                         cv.feature(curWord, **{tag: 1})
+                isComment = False
                 for tag in COMMENT_ELEMENTS:
                     if cur.get(f"is_{tag}", None):
+                        isComment = True
                         cv.feature(curWord, **{tag: 1})
+                if isComment:
+                    cv.feature(curWord, transr=trans, puncr=punc)
+                else:
+                    cv.feature(curWord, transo=trans, punco=punc)
 
 
 def doNotes(cv, cur, notes):
@@ -664,13 +688,13 @@ def doNotes(cv, cur, notes):
 
     wordNotes = collections.defaultdict(list)
 
-    for (word, noteTexts) in wordNotes.items():
-        cv.feature(word, fnote="\n\n".join(noteTexts))
+    # for (word, noteTexts) in wordNotes.items():
+    #    cv.feature(word, fnote="\n\n".join(noteTexts))
 
     for (mark, occs) in markInfo.items():
         bodiesText = "\n\n".join(bodyInfo[mark]) if mark in bodyInfo else ""
         for (word, line) in occs:
-            wordNotes[word].append(f"<{mark}). {bodiesText}")
+            wordNotes[word].append(f"{mark}. {bodiesText}")
 
         if len(occs) > 1:
             notes["ambiguousMarks"].setdefault(mark, {})[curPg] = occs
@@ -681,14 +705,11 @@ def doNotes(cv, cur, notes):
     for (mark, bodies) in bodyInfo.items():
         if mark == "":
             notes["unmarkedBodies"][curPg] = len(bodies)
-        else:
-            if len(bodies) > 1:
-                notes["ambiguousBodies"].setdefault(mark, {})[curPg] = len(bodies)
         if mark not in markInfo:
             notes["unresolvedBodies"].setdefault(mark, {})[curPg] = len(bodies)
             bodiesText = "\n\n".join(bodies)
             markRep = mark if mark else "??"
-            wordNotes[word].append(f"{markRep}) {bodiesText}")
+            wordNotes[word].append(f"{markRep}. {bodiesText}")
 
     for (word, texts) in wordNotes.items():
         cv.feature(word, fnote="\n\n".join(texts))

@@ -39,10 +39,77 @@ CORRECTIONS = {
             r"""<note resp="editor">\1</note>""",
         ),
     ),
+    "03:p0676": (
+        (re.compile(r"""<p\b[^>]*>(De catechismus.*?</p>)""", re.S), r"<p>\1"),
+    ),
+    "04:p0183": (
+        (
+            re.compile(
+                r"""
+                    (
+                        (?:
+                            <note[^>]*>1\)\ Vermoedelijk\ was\ men.*?</note>
+                            \s*
+                        )+
+                    )
+                    (
+                        (?:
+                            <p\b[^>]*>.*?</p>
+                            \s*
+                        )+
+                    )
+                    (
+                        <pb\s*n="204"[^>]*>
+                    )
+                """,
+                re.S | re.X,
+            ),
+            r"\2\1\3",
+        ),
+    ),
     "04:p0373": (
         (
             re.compile(r"""<fw\b[^>]*>(inkomsten en producten[^<]*)</fw>""", re.S),
             r"""<note resp="editor">\1</note>""",
+        ),
+        (
+            re.compile(
+                r"""
+                    (
+                        (?:
+                            <p\b[^>]*>Ten\ comptoire\ Pegu.*?</p>
+                            \s*
+                        )
+                        (?:
+                            <p\b[^>]*>.*?</p>
+                            \s*
+                        )+?
+                        (?:
+                            <p\b[^>]*>Nagelwanze8\).*?</p>
+                            \s*
+                        )
+                    )
+                    (
+                        (?:
+                            <p\b[^>]*>.*?</p>
+                            \s*
+                        ){2}
+                    )
+                    (
+                        <p\b[^>]*>
+                            .*?
+                    )
+                    (
+                            10\ 678\.10
+                            .*?
+                    )
+                    (
+                        <pb\s*n="393"[^>]*>
+                    )
+                """,
+                re.S | re.X,
+            ),
+            r"\1\n<p>\4\n\2\3</p>\5",
         ),
     ),
     "04:p0496": ((re.compile(r"""I( en 9 maart 1683)""", re.S), r"""1\1"""),),
@@ -1035,6 +1102,7 @@ IS_TEXT_1_RE = re.compile(
         |onbequame
         |ongelden
         |ormandel
+        |predicatiën
         |Proffijt
         |reekening
         |Rijssel
@@ -1897,7 +1965,7 @@ FOLIO_PAGE_RE = re.compile(
 
 def folioPageRepl(match):
     text = match.group(0)
-    (tag, folioPage) = match.groups(1, 2)
+    (tag, folioPage) = match.group(1, 2)
     return text if tag == "note" else f"<folio>{folioPage}</folio>\n"
 
 
@@ -2314,7 +2382,7 @@ def getFolioPost(post):
     if FOLIO_POST_RETAIN_RE.search(post):
         return plain
     match = FOLIO_POST_REMOVE_RE.match(post)
-    return match.groups(1, 2) if match else plain
+    return match.group(1, 2) if match else plain
 
 
 def checkFw(match):
@@ -2490,7 +2558,7 @@ def trimPage(text, info, *args, **kwargs):
     text = FOLIO_PAGE_RE.sub(folioPageRepl, text)
 
     for tmatch in FOLIO_TRIGGER_RE.finditer(text):
-        (btag, space, pre, fol, post, etag) = tmatch.groups(range(1, 7))
+        (btag, space, pre, fol, post, etag) = tmatch.group(*range(1, 7))
         (b, e) = tmatch.span()
         newText.append(text[lastPos:b])
         lastPos = e

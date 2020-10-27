@@ -1,184 +1,74 @@
 head
 ---------------
-  1x 13:p0626                  
- 28x 01:p0003a 01:p0043 ...    I
- 28x 01:p0003b 01:p0046 ...    II
- 27x 01:p0003c 01:p0070 ...    III
-  2x 01:p0056 10:p0081         IIa
- 27x 01:p0004 01:p0074 ...     IV
- 24x 01:p0017 01:p0082 ...     IX
-  3x 04:p0647 06:p0383 ...     IXa
-  1x 03:p0709                  L
-  1x 03:p0710                  LI
-  1x 03:p0722                  LII
-  1x 03:p0738                  LIII
-  1x 03:p0739                  LIV
-  1x 03:p0814                  LIX
-  1x 03:p0748                  LV
-  1x 03:p0750                  LVI
-  1x 03:p0779                  LVII
-  1x 03:p0813                  LVIII
-  1x 03:p0815                  LX
-  1x 03:p0821                  LXI
-  1x 03:p0822                  LXII
-  1x 03:p0823                  LXIII
-  1x 03:p0834                  LXIV
-  1x 03:p0918                  LXIX
-  1x 03:p0835                  LXV
-  1x 03:p0877                  LXVI
-  1x 03:p0893                  LXVII
-  1x 03:p0894                  LXVIII
-  1x 03:p0919                  LXX
-  1x 03:p0924                  LXXI
-  1x 04:p0001                  LXXII
-  1x 04:p0021                  LXXIII
-  1x 04:p0038                  LXXIV
-  1x 04:p0101                  LXXIX
-  1x 04:p0042                  LXXV
-  1x 04:p0043                  LXXVI
-  1x 04:p0083                  LXXVII
-  1x 04:p0100                  LXXVIII
-  1x 04:p0125                  LXXX
-  1x 04:p0156                  LXXXI
-  1x 04:p0171                  LXXXII
-  1x 04:p0183                  LXXXIII
- 26x 01:p0007 01:p0076 ...     V
- 26x 01:p0008 01:p0077 ...     VI
- 26x 01:p0016a 01:p0080 ...    VII
- 26x 01:p0016b 01:p0081 ...    VIII
-  1x 04:p0598                  VIIIa
-  2x 01:p0173 10:p0399         VIIa
- 22x 01:p0018 01:p0085 ...     X
- 21x 01:p0019 01:p0087 ...     XI
- 19x 01:p0020a 01:p0105 ...    XII
- 18x 01:p0020b 01:p0106 ...    XIII
- 17x 01:p0020c 01:p0118a ...   XIV
-  1x 08:p0224                  XIVa
- 12x 01:p0029 01:p0118e ...    XIX
-  4x 03:p0617 06:p0236 ...     XL
-  4x 03:p0618 06:p0267 ...     XLI
-  3x 03:p0641 06:p0275 ...     XLII
-  2x 03:p0653 06:p0286         XLIII
-  1x 03:p0655                  XLIV
-  1x 03:p0676                  XLIX
-  1x 03:p0664                  XLV
-  1x 03:p0670                  XLVI
-  1x 03:p0674                  XLVII
-  1x 03:p0675                  XLVIII
- 15x 01:p0021 01:p0118b ...    XV
- 14x 01:p0027a 01:p0118c ...   XVI
- 14x 01:p0027b 01:p0118d ...   XVII
- 12x 01:p0028 01:p0118f ...    XVIII
- 10x 01:p0033 02:p0190 ...     XX
-  8x 01:p0037 02:p0194 ...     XXI
- 10x 01:p0039 02:p0195 ...     XXII
-  8x 02:p0199 03:p0372 ...     XXIII
-  8x 02:p0200 03:p0375 ...     XXIV
-  7x 02:p0256 03:p0453 ...     XXIX
-  1x 12:p0403                  XXL
-  7x 02:p0223 03:p0383 ...     XXV
-  7x 02:p0230 03:p0393 ...     XXVI
-  7x 02:p0231 03:p0403 ...     XXVII
-  7x 02:p0232 03:p0452 ...     XXVIII
-  7x 02:p0262 03:p0462 ...     XXX
-  5x 03:p0466 06:p0144 ...     XXXI
-  4x 03:p0468 06:p0150 ...     XXXII
-  4x 03:p0474 06:p0153 ...     XXXIII
-  4x 03:p0483 06:p0161 ...     XXXIV
-  4x 03:p0613 06:p0231 ...     XXXIX
-  4x 03:p0484 06:p0177 ...     XXXV
-  4x 03:p0525 06:p0188 ...     XXXVI
-  4x 03:p0581 06:p0189 ...     XXXVII
-  4x 03:p0601 06:p0219 ...     XXXVIII
+   3x 04:p0217 04:p0485 ...    I
+   3x 04:p0218 04:p0487 ...    II
+   3x 04:p0238 04:p0491 ...    III
+   3x 04:p0239 04:p0492 ...    IV
+   2x 04:p0311 04:p0600        IX
+   1x 04:p0647                 IXa
+   1x 04:p0001                 LXXII
+   1x 04:p0021                 LXXIII
+   1x 04:p0038                 LXXIV
+   1x 04:p0101                 LXXIX
+   1x 04:p0042                 LXXV
+   1x 04:p0043                 LXXVI
+   1x 04:p0083                 LXXVII
+   1x 04:p0100                 LXXVIII
+   1x 04:p0125                 LXXX
+   1x 04:p0156                 LXXXI
+   1x 04:p0171                 LXXXII
+   1x 04:p0183                 LXXXIII
+   3x 04:p0241 04:p0493 ...    V
+   3x 04:p0242 04:p0495 ...    VI
+   3x 04:p0262 04:p0496 ...    VII
+   3x 04:p0309 04:p0498 ...    VIII
+   1x 04:p0598                 VIIIa
+   1x 04:p0312                 X
+   1x 04:p0318                 XI
+   1x 04:p0372                 XII
+   1x 04:p0373                 XIII
+   1x 04:p0405                 XIV
+   1x 04:p0477                 XIX
+   1x 04:p0416                 XV
+   1x 04:p0423                 XVI
+   1x 04:p0426                 XVII
+   1x 04:p0429                 XVIII
+   1x 04:p0480                 XX
+   1x 04:p0481                 XXI
 meta
 ---------------
-  3x 09:p0344 09:p0628 ...     
- 26x 01:p0003a 01:p0043 ...    I
- 28x 01:p0003b 01:p0046 ...    II
- 27x 01:p0003c 01:p0070 ...    III
-  2x 01:p0056 10:p0081         IIa
- 27x 01:p0004 01:p0074 ...     IV
- 24x 01:p0017 01:p0082 ...     IX
-  3x 04:p0647 06:p0383 ...     IXa
-  1x 03:p0709                  L
-  1x 03:p0710                  LI
-  1x 03:p0722                  LII
-  1x 03:p0738                  LIII
-  1x 03:p0739                  LIV
-  1x 03:p0814                  LIX
-  1x 03:p0748                  LV
-  1x 03:p0750                  LVI
-  1x 03:p0779                  LVII
-  1x 03:p0813                  LVIII
-  1x 03:p0815                  LX
-  1x 03:p0821                  LXI
-  1x 03:p0822                  LXII
-  1x 03:p0823                  LXIII
-  1x 03:p0834                  LXIV
-  1x 03:p0918                  LXIX
-  1x 03:p0835                  LXV
-  1x 03:p0877                  LXVI
-  1x 03:p0893                  LXVII
-  1x 03:p0894                  LXVIII
-  1x 03:p0919                  LXX
-  1x 03:p0924                  LXXI
-  1x 04:p0001                  LXXII
-  1x 04:p0021                  LXXIII
-  1x 04:p0038                  LXXIV
-  1x 04:p0101                  LXXIX
-  1x 04:p0042                  LXXV
-  1x 04:p0043                  LXXVI
-  1x 04:p0083                  LXXVII
-  1x 04:p0100                  LXXVIII
-  1x 04:p0125                  LXXX
-  1x 04:p0156                  LXXXI
-  1x 04:p0171                  LXXXII
-  1x 04:p0183                  LXXXIII
- 26x 01:p0007 01:p0076 ...     V
- 26x 01:p0008 01:p0077 ...     VI
- 26x 01:p0016a 01:p0080 ...    VII
- 26x 01:p0016b 01:p0081 ...    VIII
-  1x 04:p0598                  VIIIa
-  2x 01:p0173 10:p0399         VIIa
- 22x 01:p0018 01:p0085 ...     X
- 22x 01:p0019 01:p0087 ...     XI
- 18x 01:p0020a 01:p0105 ...    XII
- 18x 01:p0020b 01:p0106 ...    XIII
- 17x 01:p0020c 01:p0118a ...   XIV
-  1x 08:p0224                  XIVa
- 12x 01:p0029 01:p0118e ...    XIX
-  4x 03:p0617 06:p0236 ...     XL
-  4x 03:p0618 06:p0267 ...     XLI
-  3x 03:p0641 06:p0275 ...     XLII
-  2x 03:p0653 06:p0286         XLIII
-  1x 03:p0655                  XLIV
-  1x 03:p0676                  XLIX
-  1x 03:p0664                  XLV
-  1x 03:p0670                  XLVI
-  1x 03:p0674                  XLVII
-  1x 03:p0675                  XLVIII
- 15x 01:p0021 01:p0118b ...    XV
- 14x 01:p0027a 01:p0118c ...   XVI
- 13x 01:p0027b 01:p0118d ...   XVII
- 13x 01:p0028 01:p0118f ...    XVIII
- 10x 01:p0033 02:p0190 ...     XX
-  9x 01:p0037 02:p0194 ...     XXI
-  9x 01:p0039 02:p0195 ...     XXII
-  8x 02:p0199 03:p0372 ...     XXIII
-  8x 02:p0200 03:p0375 ...     XXIV
-  7x 02:p0256 03:p0453 ...     XXIX
-  1x 12:p0403                  XXL
-  7x 02:p0223 03:p0383 ...     XXV
-  7x 02:p0230 03:p0393 ...     XXVI
-  7x 02:p0231 03:p0403 ...     XXVII
-  7x 02:p0232 03:p0452 ...     XXVIII
-  7x 02:p0262 03:p0462 ...     XXX
-  5x 03:p0466 06:p0144 ...     XXXI
-  4x 03:p0468 06:p0150 ...     XXXII
-  4x 03:p0474 06:p0153 ...     XXXIII
-  4x 03:p0483 06:p0161 ...     XXXIV
-  4x 03:p0613 06:p0231 ...     XXXIX
-  4x 03:p0484 06:p0177 ...     XXXV
-  4x 03:p0525 06:p0188 ...     XXXVI
-  4x 03:p0581 06:p0189 ...     XXXVII
-  4x 03:p0601 06:p0219 ...     XXXVIII
+   3x 04:p0217 04:p0485 ...    I
+   3x 04:p0218 04:p0487 ...    II
+   3x 04:p0238 04:p0491 ...    III
+   3x 04:p0239 04:p0492 ...    IV
+   2x 04:p0311 04:p0600        IX
+   1x 04:p0647                 IXa
+   1x 04:p0001                 LXXII
+   1x 04:p0021                 LXXIII
+   1x 04:p0038                 LXXIV
+   1x 04:p0101                 LXXIX
+   1x 04:p0042                 LXXV
+   1x 04:p0043                 LXXVI
+   1x 04:p0083                 LXXVII
+   1x 04:p0100                 LXXVIII
+   1x 04:p0125                 LXXX
+   1x 04:p0156                 LXXXI
+   1x 04:p0171                 LXXXII
+   1x 04:p0183                 LXXXIII
+   3x 04:p0241 04:p0493 ...    V
+   3x 04:p0242 04:p0495 ...    VI
+   3x 04:p0262 04:p0496 ...    VII
+   3x 04:p0309 04:p0498 ...    VIII
+   1x 04:p0598                 VIIIa
+   1x 04:p0312                 X
+   1x 04:p0318                 XI
+   1x 04:p0372                 XII
+   1x 04:p0373                 XIII
+   1x 04:p0405                 XIV
+   1x 04:p0477                 XIX
+   1x 04:p0416                 XV
+   1x 04:p0423                 XVI
+   1x 04:p0426                 XVII
+   1x 04:p0429                 XVIII
+   1x 04:p0480                 XX
+   1x 04:p0481                 XXI

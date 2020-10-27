@@ -13,9 +13,19 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-10-15T15:44:58Z
+@dateWritten=2020-10-27T14:23:38Z
 
-5072010	Both
+5051149	Both
+Both
+Both
+Both
+Both
+Both
+Both
+Both
+Both
+Both
+Both
 Both
 Both
 Both
@@ -41,9 +51,25 @@ Reael
 Reael
 Reael
 Reael
+Coen
+Coen
+Coen
+Coen, De Carpentier, Dedel, De Houtman, Jansz
+Coen, Dedel
+Coen, De Carpentier, Jansz, Dedel
+Coen, De Carpentier, Dedel
+Coen, De Carpentier, Dedel, Sonck
+Coen, De Houtman, De Carpentier, Sonck
+Coen, De Houtman, De Carpentier, Dedel, Sonck
 De Carpentier, Dedel
 Coen, Sonck
 De Carpentier, Dedel, Reyersz, Van Uffelen
+Coen, De Carpentier, Lam, Van Antzen
+Coen, De Carpentier, Van Antzen
+Coen, De Carpentier, Van Antzen
+Coen, De Carpentier, Van Antzen
+Coen, De Carpentier, Van Antzen, Specx
+Coen, De Carpentier, Van Antzen
 De Carpentier, Jansz, Specx
 De Carpentier, Raden
 De Carpentier, De Houtman, Dedel, Sonck, Specx
@@ -60,6 +86,14 @@ De Carpentier, Specx, Vlack, Van Diemen, Schram
 De Carpentier, Schram, Specx, Vlack, Van Diemen
 De Carpentier, Raden
 De Carpentier
+Coen, De Carpentier, Specx, Van Duynen, Van Diemen, De Meester
+Coen, Van Duynen, Van Diemen, De Meester
+Coen, Van Duynen, Van Diemen, De Meester
+Coen, Van Duynen, Van Diemen, De Meester
+Coen, Jansz, Lefebvre, Van Gorcom, Vlack, Van Diemen, Blocq Martensz
+Coen, Vlack, Van Diemen
+Coen, Vlack, Van Diemen
+Coen, Vlack, Van Diemen
 Specx, Vlack, Van Diemen, Nuyts, Van Raemburch
 Specx, Vlack, Van Diemen, Van der Burch
 Van Diemen

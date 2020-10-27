@@ -13,9 +13,19 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-10-15T15:44:58Z
+@dateWritten=2020-10-27T14:23:38Z
 
-5072010	Pieter Both
+5051149	Pieter Both
+Pieter Both
+Pieter Both
+Pieter Both
+Pieter Both
+Pieter Both
+Pieter Both
+Pieter Both
+Pieter Both
+Pieter Both
+Pieter Both
 Pieter Both
 Pieter Both
 Pieter Both
@@ -41,9 +51,25 @@ Laurens Reael
 Laurens Reael
 Laurens Reael
 Laurens Reael
+Jan Pietersz Coen
+Jan Pietersz Coen
+Jan Pietersz Coen
+Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel, Frederick de Houtman, Willem Jansz
+Jan Pietersz Coen, Jacob Dedel
+Jan Pietersz Coen, Pieter de Carpentier, Willem Jansz, Jacob Dedel
+Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel
+Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel Dr, Martinus Sonck
+Jan Pietersz Coen, Frederick de Houtman, Pieter de Carpentier Dr, Martinus Sonck
+Jan Pietersz Coen, Frederick de Houtman, Pieter de Carpentier, Jacob Dedel Dr, Martinus Sonck
 Pieter de Carpentier, Jacob Dedel
 Jan Pietersz Coen Dr, Martinus Sonck
 Pieter de Carpentier, Jacob Dedel, Cornelis Reyersz, Abraham van Uffelen
+Jan Pietersz Coen, Pieter de Carpentier, Jan Dircksz Lam, Willem van Antzen
+Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen
+Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen
+Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen
+Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen, Jacques Specx
+Jan Pietersz Coen, Pieter de Carpentier, Willem van Antzen
 Pieter de Carpentier, Willem Jansz, Jacques Specx
 Pieter de Carpentier, Raden
 Pieter de Carpentier, Frederick de Houtman, Jacob Dedel Dr, Martinus Sonck, Jacques Specx
@@ -60,6 +86,14 @@ Pieter de Carpentier, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Wijbra
 Pieter de Carpentier, Wijbrant Schram, Jacques Specx Dr, Pieter Vlack, Antonio van Diemen
 Pieter de Carpentier, Raden
 Pieter de Carpentier
+Jan Pietersz Coen, Pieter de Carpentier, Jacques Specx, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester
+Jan Pietersz Coen, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester
+Jan Pietersz Coen, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester
+Jan Pietersz Coen, Pieter van Duynen, Antonio van Diemen, Jeremias de Meester
+Jan Pietersz Coen, Willem Jansz, Jacques Lefebvre, Jan van Gorcom Dr, Pieter Vlack, Antonio van Diemen, Adriaan Blocq Martensz
+Jan Pietersz Coen Dr, Pieter Vlack, Antonio van Diemen
+Jan Pietersz Coen Dr, Pieter Vlack, Antonio van Diemen
+Jan Pietersz Coen Dr, Pieter Vlack, Antonio van Diemen
 Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Pieter Nuyts, Crijn van Raemburch
 Jacques Specx Dr, Pieter Vlack, Antonio van Diemen, Jan van der Burch
 Antonio van Diemen

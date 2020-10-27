@@ -1,3 +1,9 @@
+score= 80
+= 80 page=04:p0001-0007
+  1 ≡ ⌈1⌉  «Bedoeld is Radja of           Anachoda Putih.»
+  2 ≡ ⌈2⌉  «Bedoeld is Radja of           Anachoda Putih.»
+  3 - ⌈2⌉  «Bendahara Putih, de  ... n in de Minangkabau.»
+  4 = ⌈3⌉  «Veilig.                                      »
 score=100
 =100 page=01:p0003a-0003
   1 ≡ ⌈1⌉  «De eerste drie briev ... -Verdische eilanden.»
@@ -7899,6 +7905,7 @@ score=100
 =100 page=03:p0750-0769
   1 ≡ ⌈1⌉  «Gurubewilla, plaats  ... aan de Kelani-Ganga.»
   2 ≡ ⌈2⌉  «Bedoeld is: Bijsterv                     elt.»
+  3 ≡ ⌈3⌉  «Bedoeld is: Bijsterv                     elt.»
 =100 page=03:p0750-0770
 	0 «»
 =100 page=03:p0750-0771
@@ -8305,6 +8312,7 @@ score=100
   3 ≡ ⌈3⌉  «De Heilige Saterdag, ... zaterdag voor Pasen.»
   4 ≡ ⌈4⌉  «NI. die brieven.                             »
   5 ≡ ⌈5⌉  «Dit bericht is onjui                      st.»
+  6 ≡ ⌈6⌉  «Dit bericht is onjui                      st.»
 =100 page=03:p0877-0888
   1 ≡ ⌈1⌉  «Sherkhan Lodi, de pr ... ijapur in Carnatica.»
 =100 page=03:p0877-0889
@@ -8544,11 +8552,12 @@ score=100
 =100 page=04:p0001-0002
   1 ≡ ⌈1⌉  «Van den Koning van B                     ima.»
   2 ≡ ⌈2⌉  «Dit is Holsteyn.                             »
-  3 ≡ ⌈3⌉  «Manggarai, het weste ... kte er aanspraak op.»
-  4 ≡ ⌈4⌉  «Vgl. het contract me ... rtikel 6, op p. 422.»
-  5 ≡ ⌈5⌉  «NI. op Timor.                                »
-  6 ≡ ⌈6⌉  «Bedoeld is: komen.                           »
-  7 ≡ ⌈7⌉  «In de zin van: leed                toevoegen.»
+  3 ≡ ⌈3⌉  «Van den Koning van B                     ima.»
+  4 = ⌈3⌉  «Manggarai, het weste ... kte er aanspraak op.»
+  5 = ⌈4⌉  «Vgl. het contract me ... rtikel 6, op p. 422.»
+  6 = ⌈5⌉  «NI. op Timor.                                »
+  7 = ⌈6⌉  «Bedoeld is: komen.                           »
+  8 = ⌈7⌉  «In de zin van: leed                toevoegen.»
 =100 page=04:p0001-0003
   1 ≡ ⌈1⌉  «De rivier van Djambi                        .»
   2 ≡ ⌈2⌉  «Gezanten van Djambi  ... ters,* 1674, p. 271.»
@@ -8570,10 +8579,6 @@ score=100
   4 ≡ ⌈4⌉  «Ulakan, kustplaats 1 ... m. bezuiden Priaman.»
   5 ≡ ⌈5⌉  «Sintuk, dorp even te ...  zuiden van Priaman.»
   6 ≡ ⌈6⌉  «Tonrechte Lubuk Alun ... Z.B. en 100°20' O.L.»
-=100 page=04:p0001-0007
-  1 ≡ ⌈1⌉  «Bedoeld is Radja of           Anachoda Putih.»
-  2 ≡ ⌈2⌉  «Bendahara Putih, de  ... n in de Minangkabau.»
-  3 ≡ ⌈3⌉  «Veilig.                                      »
 =100 page=04:p0001-0008
   1 ≡ ⌈1⌉  «Anna, een munt ter w ... een zestiende ropia.»
   2 ≡ ⌈2⌉  «Hier in de zin van:       ontgaan, onthouden.»
@@ -8719,7 +8724,8 @@ score=100
   2 ≡ ⌈2⌉  «Hitu had van ouds vi ... l. I, p. 74, noot 5.»
 =100 page=04:p0043-0049
   1 ≡ ⌈1⌉  «Bedoeld: zowel als.                          »
-  2 ≡ ⌈2⌉  «Vgl. *Oudheden,* p.  ...  de Voorzichtigheid.»
+  2 ≡ ⌈2⌉  «Bedoeld: zowel als.                          »
+  3 = ⌈2⌉  «Vgl. *Oudheden,* p.  ...  de Voorzichtigheid.»
 =100 page=04:p0043-0050
   1 ≡ ⌈1⌉  «Provisionele, nl. di ... n Willem van Comput.»
 =100 page=04:p0043-0051
@@ -9016,6 +9022,7 @@ score=100
 =100 page=04:p0101-0117
   1 ≡ ⌈1⌉  «Stuks.                                       »
   2 ≡ ⌈2⌉  «Gouverneur en raden                op Ceylon.»
+  3 ≡ ⌈3⌉  «Gouverneur en raden                op Ceylon.»
 =100 page=04:p0101-0118
   1 ≡ ⌈1⌉  «Gevoelen, hier in de          zin van schade.»
   2 ≡ ⌈2⌉  «Ikeere, wellicht Kar ... .B. en ruim 78° O.L.»
@@ -9352,7 +9359,7 @@ score=100
 =100 page=04:p0183-0203
   1 ≡ ⌈1⌉  «Vermoedelijk was men ... telling veroordeeld.»
   2 ≡ ⌈2⌉  «Plunderagie, kleding                        .»
-  3 ≡ ⌈3⌉  «Kottayam, een onderd ... oorlochsoncosten . .»
+  3 ≡ ⌈3⌉  «Kottayam, een onderd       eel van Tekkenkur.»
 =100 page=04:p0183-0204
   1 ≡ ⌈1⌉  «Lange peper, capsicu ... soort spaanso peper.»
   2 ≡ ⌈2⌉  «Van kasid, arabisch  ... ier, boodschaploper.»
@@ -9788,7 +9795,8 @@ score=100
 =100 page=04:p0318-0324
   1 ≡ ⌈1⌉  «Den Briel, versterki ... heden* , p. 278-279.»
   2 ≡ ⌈2⌉  «1678.                                        »
-  3 ≡ ⌈3⌉  «Fatumatta, mij onbek ... eder heette Pauleng.»
+  3 ≡ ⌈3⌉  «Fatumatta, mij onbek ... ostpunt mee bedoeld.»
+  4 ≡ ⌈4⌉  «Cabonda, bij *Valent ... eder heette Pauleng.»
 =100 page=04:p0318-0325
   1 ≡ ⌈1⌉  «Ten rechte gantang,  ...  II, p. 181, noot 1.»
   2 ≡ ⌈2⌉  «Zie *Corpus* III, nr ... XXXIII, 11 mei 1677.»
@@ -10007,7 +10015,7 @@ score=100
 =100 page=04:p0373-0392
   1 ≡ ⌈1⌉  «Coro mandei.                                 »
   2 ≡ ⌈2⌉  «Dit getal is ƒ 10000 ... ag groter moet zijn.»
-  3 ≡ ⌈3⌉  «Nagelwanse, een plaa ... 5 323.19. 9 ^1 2 3)^»
+  3 ≡ ⌈3⌉  «Nagelwanse, een plaa ... 0 een vestiging had.»
 =100 page=04:p0373-0393
   1 ≡ ⌈1⌉  «Nl. met Van Goens jr                        .»
 =100 page=04:p0373-0394
@@ -10647,28 +10655,28 @@ score=100
   3 ≡ ⌈3⌉  «Padjang, landstreek  ... 40,Z.B.enll0°40'O.L.»
   4 ≡ ⌈4⌉  «Watès, streek nabij  ... Z.B. en 110°17' O.L.»
 =100 page=04:p0498-0588
-  1 ≡ ⌈1⌉  «Tachu segt, dat dese ... Caroan ^9)^ gelegen.»
-  2 ≡ ⌈2⌉  «Bedoeld zijn de drie ...  van Cheribon waren.»
-  3 ≡ ⌈3⌉  «Volgens *Pnangan* II ... Z.B. en 106°50' O.L.»
-  4 ≡ ⌈4⌉  «Tirtajasa, plaats, w ... Z.B. en 106°22/ O.L.»
-  5 ≡ ⌈5⌉  «Pangeran Kidul, Bant ... lde hij in Banjumas.»
-  6 ≡ ⌈6⌉  «Leuwiliang, plaats o ... Z.B. en 106°38/ O.L.»
-  7 ≡ ⌈7⌉  «Pangeran Aria Purbaj ... Ceylon overgebracht.»
-  8 ≡ ⌈8⌉  «Raden Aria Wangsadir ... O.C. te onderwerpen.»
-  9 ≡ ⌈9⌉  «Katjerbonan, een woo ... e passage Tjikalong.»
- 10 ≡ ⌈10⌉ «Krawang, deze medede      ling is niet juist.»
+  1 ≡ ⌈1⌉  «Bedoeld zijn de drie ...  van Cheribon waren.»
+  2 ≡ ⌈2⌉  «Volgens *Pnangan* II ... Z.B. en 106°50' O.L.»
+  3 ≡ ⌈3⌉  «Tirtajasa, plaats, w ... Z.B. en 106°22/ O.L.»
+  4 ≡ ⌈4⌉  «Pangeran Kidul, Bant ... lde hij in Banjumas.»
+  5 ≡ ⌈5⌉  «Leuwiliang, plaats o ... Z.B. en 106°38/ O.L.»
+  6 ≡ ⌈6⌉  «Pangeran Aria Purbaj ... Ceylon overgebracht.»
+  7 ≡ ⌈7⌉  «Raden Aria Wangsadir ... O.C. te onderwerpen.»
+  8 ≡ ⌈8⌉  «Tachu segt, dat dese ... Caroan ^9)^ gelegen.»
+  9 ≡ ⌈9⌉  «Krawang, deze medede      ling is niet juist.»
+ 10 ≡ ⌈10⌉ «Katjerbonan, een woo ... e passage Tjikalong.»
 =100 page=04:p0498-0589
   1 ≡ ⌈1⌉  «Tahoe segt verders,  ... eyt gaven se 4 rd.8.»
-  2 ≡ ⌈2⌉  «Tahoe segt, dat er v ...  dorp gesien hadden.»
-  3 ≡ ⌈3⌉  «Karaëng Tamasongo, e ... rung gehuwd geweest.»
-  4 ≡ ⌈4⌉  «Karaëng Kappot jini, ... j stierf maart 1686.»
-  5 ≡ ⌈5⌉  «Daëng Matula, een de ... ntam tegen de V.O.C.»
-  6 ≡ ⌈6⌉  «Joan Maurits van Hap ... uni 1690 te Batavia.»
-  7 ≡ ⌈7⌉  «Tjikalong-kulon, pla ... Z.B. en 107°13' O.L.»
-  8 ≡ ⌈8⌉  «Tjitjohag, plaats in ... buurt van de vorige.»
-  9 ≡ ⌈9⌉  «Hier: bewijzen.                              »
- 10 ≡ ⌈10⌉ «Maanden.                                     »
- 11 ≡ ⌈11⌉ «Palmiet, palmmerg.                           »
+  2 ≡ ⌈2⌉  «Maanden.                                     »
+  3 ≡ ⌈3⌉  «Palmiet, palmmerg.                           »
+  4 ≡ ⌈4⌉  «Tahoe segt, dat er v ...  dorp gesien hadden.»
+  5 ≡ ⌈5⌉  «Karaëng Tamasongo, e ... rung gehuwd geweest.»
+  6 ≡ ⌈6⌉  «Karaëng Kappot jini, ... j stierf maart 1686.»
+  7 ≡ ⌈7⌉  «Daëng Matula, een de ... ntam tegen de V.O.C.»
+  8 ≡ ⌈8⌉  «Joan Maurits van Hap ... uni 1690 te Batavia.»
+  9 ≡ ⌈9⌉  «Tjikalong-kulon, pla ... Z.B. en 107°13' O.L.»
+ 10 ≡ ⌈10⌉ «Tjitjohag, plaats in ... buurt van de vorige.»
+ 11 ≡ ⌈11⌉ «Hier: bewijzen.                              »
 =100 page=04:p0498-0590
 	0 «»
 =100 page=04:p0498-0591
@@ -10828,9 +10836,10 @@ score=100
 =100 page=04:p0600-0640
   1 ≡ ⌈1⌉  «Sukapura, de oude na ...  hij stierf in 1726.»
   2 ≡ ⌈2⌉  «Van Happel.                                  »
-  3 ≡ ⌈3⌉  «Jouisseren, genieten                        .»
-  4 ≡ ⌈4⌉  «Raden Saké was volge ... Ceylon overgebracht.»
-  5 ≡ ⌈5⌉  «Ten rechte: Nerangku ... u- ruhan vertoevend.»
+  3 ≡ ⌈3⌉  «Van Happel.                                  »
+  4 = ⌈3⌉  «Jouisseren, genieten                        .»
+  5 = ⌈4⌉  «Raden Saké was volge ... Ceylon overgebracht.»
+  6 = ⌈5⌉  «Ten rechte: Nerangku ... u- ruhan vertoevend.»
 =100 page=04:p0600-0641
   1 ≡ ⌈1⌉  «Willem Caeff, 1658 a ... estorven begin 1713.»
 =100 page=04:p0600-0642

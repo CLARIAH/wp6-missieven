@@ -13,15 +13,25 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-10-15T15:45:07Z
+@dateWritten=2020-10-27T14:23:52Z
 
-5072010	IV
+5051149	I
+II
+III
+IV
 V
 VI
+VII
+VIII
 IX
 X
 XI
+XII
+XIII
+XIV
 XV
+XVI
+XVII
 XVIII
 XIX
 XX
@@ -41,9 +51,25 @@ VIII
 IX
 X
 XI
+I
+II
+III
+IV
+V
+VI
+VII
+VIII
+IX
+X
 XI
 XII
 XIII
+XIV
+XV
+XVI
+XVII
+XIX
+XVIII
 I
 II
 III
@@ -60,6 +86,14 @@ XII
 XIII
 XIV
 XV
+I
+II
+III
+IV
+V
+VI
+VII
+VIII
 I
 II
 III

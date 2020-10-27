@@ -13,15 +13,25 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-10-15T15:45:00Z
+@dateWritten=2020-10-27T14:23:40Z
 
-5072010	4
+5051149	3
+3
+3
+4
 7
 8
+16
+16
 17
 18
 19
+20
+20
+20
 21
+27
+27
 28
 29
 33
@@ -41,9 +51,25 @@
 82
 85
 87
+97
+97
+97
+97
+97
+97
+97
+98
+98
+98
 99
 105
 106
+118
+118
+118
+118
+118
+118
 121
 126
 129
@@ -60,6 +86,14 @@
 235
 239
 240
+244
+244
+244
+244
+244
+244
+244
+244
 247
 279
 302

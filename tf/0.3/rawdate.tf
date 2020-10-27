@@ -13,13 +13,22 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-10-15T15:45:05Z
+@dateWritten=2020-10-27T14:23:50Z
 
-5072010	18 juli 1611
+5051149	25 februari 1610
+6 augustus 1610
+14 oktober 1610
+18 juli 1611
 31 maart 1612
 26 juli 1612
 26 juli 1612
-5072015	26 juli 1612
+26 juli 1612
+26 juli 1612
+5051159	26 juli 1612
+26 juli 1612
+26 juli 1612
+5051163	1 januari 1614
+1 januari 1614
 1 januari 1614
 10 november 1614
 10 november 1614
@@ -40,9 +49,25 @@
 7 mei 1618
 11 juli 1618
 20 augustus 1618
+5 augustus 1619
+7 oktober 1619
+15 oktober 1619
+22 januari 1620
+29 januari 1620
+11 mei 1620
+12 mei 1620
+31 juli 1620
+26 oktober 1620
+8 januari 1621
 8 maart 1621
 6 mei 1621
 9 juli 1621
+16 november 1621
+20 december 1621
+21 januari 1622
+14 maart 1622
+6 september 1622
+26 maart 1622
 1 februari 1623
 24 februari 1623
 25 december 1623
@@ -59,6 +84,14 @@
 26 december 1626
 2 februari 1627
 29 juli 1627
+9 november 1627
+6 januari 1628
+13 januari 1628
+24 januari 1628
+3 november 1628
+17 november 1628
+10 februari 1629
+18 maart 1629
 15 december 1629
 7 maart 1631
 5 juni 1631
@@ -423,7 +456,7 @@
 30 september 1729
 7 november 1729
 30 november 1729
-5072420	31 januari 1730
+5051593	31 januari 1730
 27 februari 1730
 23 maart 1730
 17 oktober 1730

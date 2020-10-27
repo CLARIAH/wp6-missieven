@@ -1,41 +1,6 @@
 head
 ---------------
-  3x 01:p0018 01:p0020c ...    
-  1x 01:p0074                  Amboina
-  1x 01:p0070                  Banda-Neira
- 13x 01:p0021 01:p0027a ...    Bantam
-536x 01:p0118a 01:p0118b ...   Batavia
-  7x 01:p0008 01:p0016a ...    Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-  1x 01:p0081                  Jakatra
- 12x 01:p0097a 01:p0097b ...   Kasteel Jakatra
-  1x 01:p0087                  Kasteel Mauritius nabij Ngofakiaha op Makéan
-  2x 01:p0004 01:p0082         Kasteel Nassau op Banda-Neira
-  1x 01:p0105                  Schip Nieuw Hollandia ter Rede van Banda-Neira 
-  2x 01:p0063 01:p0068         Ternate
-  1x 01:p0085                  Wapen van Amsterdam voor Banda-Neira
-  1x 01:p0482                  aan boord van de Utrecht nabij de Vlakke Hoek
-  1x 01:p0007                  aan boord van de Vere voor Maleyo
-  1x 01:p0433                  aan boord van de Wesel in Straat Sunda
-  1x 01:p0003b                 aan boord van het Wapen van Amsterdam liggende in de Tafelbaai
-  1x 01:p0003c                 aan boord van het Wapen van Amsterdam ter Rede van Mauritius
-  1x 01:p0003a                 aan boord van het Wapen van Amsterdam voor Ile de Mayo
-  1x 01:p0302                  in het Schip Deventer nabij de zuidpunt van Afrika
+  52x 04:p0001 04:p0021 ...    Batavia
 meta
 ---------------
-463x 01:p0018 01:p0020c ...    
-  1x 01:p0074                  Amboina
-  1x 01:p0070                  Banda-Neira
- 13x 01:p0021 01:p0027a ...    Bantam
- 80x 01:p0118a 01:p0118b ...   Batavia
-  7x 01:p0008 01:p0016a ...    Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-  1x 01:p0081                  Jakatra
- 12x 01:p0097a 01:p0097b ...   Kasteel Jakatra
-  1x 01:p0087                  Kasteel Mauritius nabij Ngofakiaha op Makéan
-  2x 01:p0004 01:p0082         Kasteel Nassau op Banda-Neira
-  2x 01:p0063 01:p0068         Ternate
-  1x 01:p0007                  Vere voor Maleyo
-  1x 01:p0085                  Wapen van Amsterdam voor Banda-Neira
-  1x 01:p0003b                 aan boord van het Wapen van Amsterdam liggende in de Tafelbaai
-  1x 01:p0003c                 aan boord van het Wapen van Amsterdam ter Rede van Mauritius
-  1x 01:p0003a                 aan boord van het Wapen van Amsterdam voor Ile de Mayo
-  1x 01:p0105                  ter Rede van Banda-Neira
+  52x 04:p0001 04:p0021 ...    

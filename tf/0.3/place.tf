@@ -12,13 +12,22 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-10-15T15:45:00Z
+@dateWritten=2020-10-27T14:23:40Z
 
-5072010	Kasteel Nassau op Banda-Neira
+5051149	aan boord van het Wapen van Amsterdam voor Ile de Mayo
+aan boord van het Wapen van Amsterdam liggende in de Tafelbaai
+aan boord van het Wapen van Amsterdam ter Rede van Mauritius
+Kasteel Nassau op Banda-Neira
 aan boord van de Vere voor Maleyo
 Fort Mauritius nabij Ngofakiaha op het eiland Makéan
 Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-5072015	Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+5051159	Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+5051163	Bantam
+Bantam
 Bantam
 Bantam
 Bantam
@@ -40,8 +49,32 @@ Kasteel Nassau op Banda-Neira
 Wapen van Amsterdam voor Banda-Neira
 Kasteel Mauritius nabij Ngofakiaha op Makéan
 Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
+Kasteel Jakatra
 Schip Nieuw Hollandia ter Rede van Banda-Neira 
 Kasteel Jakatra
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
+Batavia
 Batavia
 Batavia
 Batavia

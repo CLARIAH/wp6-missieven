@@ -13,6 +13,9 @@ with values for letter nodes.
 We peel most keys and values from the `interpGrp` elements and they
 end up as features of letter nodes, see below.
 
+However, we also regenrate the metadata from the headings of the letters and
+compare them to the TEI metadata. We have made an inventory of all discrepancies and resolved them.
+
 The version number of the TEI set is used in the
 [tfFromTrim](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromTrim.py)
 conversion.

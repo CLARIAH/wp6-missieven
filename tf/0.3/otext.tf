@@ -2,6 +2,8 @@
 @converters=Sophie Arnoult, Jesse de Does (TEI), Dirk Roorda (Text-Fabric)
 @editor=Dr. W. Ph. Coolhaas, Dr. J. van Goor, Dr. J.E. Schooneveld-Oosterling, Dr. H.K. s'Jacob
 @fmt:text-orig-full={trans}{punc}
+@fmt:text-orig-remark={transr}{puncr}
+@fmt:text-orig-source={transo}{punco}
 @institute=KNAW/HuygensING
 @language=nld
 @name=Generale Missiven
@@ -15,5 +17,5 @@
 @structureTypes=volume,letter,para
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @writtenBy=Text-Fabric
-@dateWritten=2020-10-15T15:45:16Z
+@dateWritten=2020-10-27T14:24:07Z
 
