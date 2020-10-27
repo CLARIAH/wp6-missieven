@@ -41,18 +41,22 @@ Whitespace will be normalized to single spaces or newlines.
 
 These are the words of the corpus, the basic units, a.k.a *slots*.
 
-Only the letter contents are stored word by word.
-Editorial remarks are stored in bigger chunks, as values of features.
+Only the original letter contents and the editorial remarks are stored word by word.
+The footnotes are stored one by one, as values of the feature `fnote`, see below.
 
 feature | type | description
 --- | --- | ---
 emph | 1 or absent | whether the word is set in emphatic typography
 folio | string | an indication of an original folio at this point
 punc | string | punctuation and or white space after the word
-remark | string | an editorial remark at this point
+punco | string | as `punc`, but only for original letter content
+puncr | string | as `punc`, but only for editorial content
+remark | 1 or absent | whether the word belongs to editorial content
 super | 1 or absent | whether the word is in superscript, possibly the numerator of a fraction
 special | 1 or absent | whether the word has extreme typography or a strange value (possibly OCR effects)
 trans | string | the value of the word
+transo | string | as `trans`, but only for original letter content
+transr | string | as `trans`, but only for editorial content
 und | 1 or absent | whether the word is underlined, possibly the total amount in a calculation
 
 ## Additonal annotations

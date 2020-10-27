@@ -18,6 +18,13 @@ Status
 
 This is **work in progress!**
 
+*   2020-10-13 A new TF version (0.3) has been delivered
+    Footnote bodies are almost all checked and corrected (12247 in total),
+    footnote marks have been checked
+    en corrected for volumes 1-4, there remain at least (300) pages with unlinked footnotes
+    out of the 5270 pages that have footnotes.
+    Editorial text is now in the main text, on equal footing with the original letter content,
+    but separable from it in a number of ways.
 *   2020-10-13 A new TF version (0.2) has been delivered, and there is now a TF-app
     [missieven](https://github.com/annotation/app-missieven) for this corpus.
     That means that functions like the Text-Fabric browser and easy downloading of data are supported.
@@ -27,7 +34,8 @@ This is **work in progress!**
     and some pages that are altoghether missing.
     See [trimTei0.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei0.py) where some of those
     pages have already been added.
-*   2020-10-07 Many checks have been performed, many structural corrections w.r.t the TEI source have been performed,
+*   2020-10-07 Many checks have been performed, many structural corrections
+    w.r.t the TEI source have been performed,
     the metadata of all metadata has been thoroughly checked and corrected.
     See the reports in
     [trimreport2](trimreport2).
