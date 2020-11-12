@@ -10,6 +10,7 @@ from lib import (
     BODY_RE,
     CELL_RE,
     applyCorrections,
+    summarize,
 )
 
 
@@ -29,7 +30,7 @@ MERGE_DOCS = {
 }
 SKIP_DOCS = {x for x in chain.from_iterable(MERGE_DOCS.values())}
 
-CORRECTIONS = {
+CORRECTIONS_DEF = {
     "01:p0203": ((re.compile(r"""(<p\ rend="font-size:)\ 8\.5;""", re.S), r"\1 12;"),),
     "01:p0663": ((re.compile(r""">\(1\) Dirck""", re.S), r">1) Dirck"),),
     "02:p0480": (
@@ -239,6 +240,12 @@ CORRECTIONS = {
     ),
     "07:p0660": ((re.compile(r"""(<head\b[^>]*>XX)L""", re.S), r"""\1II"""),),
     "08:p0179": ((re.compile(r"""(begraven\)\. )’(<lb/>)""", re.S), r"\1\2"),),
+    "09:p0112": (
+        (
+            re.compile(r"""<p\b[^>]*>SURAT<lb/>\n</p>""", re.S),
+            """<subhead>SURAT<lb/>\n</subhead>""",
+        ),
+    ),
     "09:p0233": (
         (
             re.compile(
@@ -303,6 +310,10 @@ CORRECTIONS = {
             ),
             r"\1<lb/>\n\3<lb/>\n\4<lb/>\n\2",
         ),
+        (
+            re.compile(r"""<p\b[^>]*>SURAT<lb/>\n</p>""", re.S),
+            """<subhead>SURAT<lb/>\n</subhead>""",
+        ),
     ),
     "09:p0628": (
         (
@@ -320,6 +331,10 @@ CORRECTIONS = {
                 re.S | re.X,
             ),
             r"\1<lb/>\n\3<lb/>\n\4<lb/>\n\5<lb/>\n\2",
+        ),
+        (
+            re.compile(r"""<p\b[^>]*>SURAT<lb/>\n</p>""", re.S),
+            """<subhead>SURAT<lb/>\n</subhead>""",
         ),
     ),
     "10:p0175": (
@@ -464,6 +479,11 @@ CORRECTIONS = {
             r"\1<lb/>\n\3<lb/>\n\4<lb/>\n\2",
         ),
     ),
+}
+
+CORRECTIONS = {
+    page: tuple((spec[0], spec[1], 1 if len(spec) == 2 else spec[2]) for spec in specs)
+    for (page, specs) in CORRECTIONS_DEF.items()
 }
 
 CORRECTION_HEAD = {
@@ -678,6 +698,20 @@ def corpusPost(info):
                     firstDoc = theseDocs[0]
                     nDocs = len(theseDocs)
                     fh.write(f"{firstDoc} {nDocs:>4}x {tag} {caption}\n")
+
+    firstP = info["firstP"]
+    if firstP:
+        print(f"FIRST PARA REMOVALS on {len(firstP)} pages")
+        with open(f"{REP}/firstp.txt", "w") as fh:
+            for page in sorted(firstP):
+                text = (
+                    firstP[page]
+                    .replace("<lb/>\n", " ")
+                    .replace("\n", " ")
+                    .replace("<lb/>", " ")
+                    .strip()
+                )
+                fh.write(f"{page} {summarize(text, limit=30)[0]}\n")
 
     folioUndecided = info["folioUndecided"]
     folioTrue = info["folioTrue"]
@@ -1008,6 +1042,7 @@ HI_SUBSUPER_RE = re.compile(
 HI_UND_RE = re.compile(
     r"""<hi\b[^>]*?rend=['"][^'"]*?underline[^'"]*['"][^>]*>(.*?)</hi>""", re.S
 )
+SMALLCAPS_RE = re.compile(r"""font-variant:\s*small-caps;?""", re.S)
 INDENT_RE = re.compile(r"""text-indent:\s*[^-][^;"']*;?""", re.S)
 MARGIN_RE = re.compile(r"""margin-(?:[^:'"]*):[^;"']*;?""", re.S)
 OUTDENT_RE = re.compile(r"""text-indent:\s*-[^;"']*;?""", re.S)
@@ -2410,6 +2445,8 @@ def checkFw(match):
 HEAD_TITLE_RE = re.compile(r"""<head rend="[^"]*?\bxlarge\b[^>]*>(.*?)</head>""", re.S)
 
 P_REMOVE = re.compile(r"""<p\b[^>]*>""", re.S)
+SUBHEAD_RE = re.compile(r"""<p\b[^>]*?smallcaps[^>]*>(.*?)</p>""", re.S)
+
 FIRST_P_SMALL_RE = re.compile(
     r"""
         (<pb\b[^>]*>)
@@ -2419,11 +2456,27 @@ FIRST_P_SMALL_RE = re.compile(
             x?small
             [^>]*
         >
-            .*?
+            (.*?)
         </p>
     """,
     re.S | re.X,
 )
+
+
+def firstPReplProto(info):
+    def firstPRepl(match):
+        pb = match.group(1)
+        first = match.group(2)
+        firstText = first.replace("<lb/>\n", "").replace("\n", "").replace("<lb/>", "")
+        if len(firstText) > 2:
+            return match.group(0)
+
+        page = info["page"]
+        firstP = info["firstP"]
+        firstP[page] = first
+        return pb
+
+    return firstPRepl
 
 
 def removePs(match):
@@ -2440,6 +2493,7 @@ def trimPage(text, info, *args, **kwargs):
     captionInfo = info["captionInfo"]
     captionNorm = info["captionNorm"]
     captionVariant = info["captionVariant"]
+    firstPRepl = firstPReplProto(info)
     doc = info["doc"]
     page = info["page"]
     showOrig = f"{page[0:4]}{page[9:]}" in kwargs.get("orig", set())
@@ -2501,7 +2555,6 @@ def trimPage(text, info, *args, **kwargs):
                     captionVariant[name].append(page)
 
     text = CLEAR_FW_RE.sub(checkFw, text)
-
     for trimRe in (
         FAMILY_RE,
         SPACING_RE,
@@ -2526,12 +2579,14 @@ def trimPage(text, info, *args, **kwargs):
         (SIZE_LARGE_RE, "large"),
         (SIZE_SMALL_RE, "small"),
         (SIZE_XSMALL_RE, "xsmall"),
+        (SMALLCAPS_RE, "smallcaps"),
         (OUTDENT_RE, "outdent"),
         (INDENT_RE, "indent"),
     ):
         text = trimRe.sub(val, text)
 
-    text = FIRST_P_SMALL_RE.sub(r"\1", text)
+    text = SUBHEAD_RE.sub(r"<subhead>\1</subhead>", text)
+    text = FIRST_P_SMALL_RE.sub(firstPRepl, text)
 
     for trimRe in (FONT_STYLE_RE, ALIGN_V_RE, ALIGN_H_RE, DECORATION_RE):
         text = trimRe.sub(r"\1", text)

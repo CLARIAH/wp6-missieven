@@ -95,6 +95,27 @@ def parseArgs(args):
 # FILESYSTEM OPERATIONS
 
 
+def summarize(text, limit=20):
+    lText = len(text)
+    if lText <= limit:
+        start = text
+        inter = ""
+        end = ""
+    elif lText <= 2 * limit:
+        start = text[0:limit]
+        inter = ""
+        end = text[limit:]
+    else:
+        start = text[0:limit]
+        inter = " ... "
+        end = text[-limit:]
+
+    summary = f"{start:<{limit}}{inter:<5}{end:>{limit}}"
+    trimmed = f"{start}{inter}{end}"
+
+    return (summary, trimmed)
+
+
 def docSummary(docs):
     nDocs = len(docs)
     rep = "   0x" if not nDocs else f"   1x {docs[0]}" if nDocs == 1 else ""
@@ -279,6 +300,7 @@ def trim(
         captionNorm=collections.defaultdict(list),
         captionVariant=collections.defaultdict(list),
         captionRoman=collections.defaultdict(list),
+        firstP={},
         folioResult=collections.defaultdict(list),
         folioTrue=collections.defaultdict(list),
         folioFalse=collections.defaultdict(list),
@@ -561,14 +583,20 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
 
 def applyCorrections(corrections, doc, text):
     if doc in corrections:
-        for (correctRe, correctRepl) in corrections[doc]:
+        for (correctRe, correctRepl, correctN) in corrections[doc]:
             (text, n) = correctRe.subn(correctRepl, text)
-            if n == 0:
+            if n < correctN:
                 print(text)
-                print(f"\tCORRECTION {doc} {correctRe.pattern} did not apply")
-            elif n > 1:
+                print(
+                    f"\tCORRECTION {doc} {correctRe.pattern} {correctN}"
+                    f" under-applied ({n}x)"
+                )
+            elif n > correctN:
                 print(text)
-                print(f"\tCORRECTION {doc} {correctRe.pattern} applied {n} times")
+                print(
+                    f"\tCORRECTION {doc} {correctRe.pattern} {correctN}"
+                    f" over-applied ({n}x)"
+                )
     return text
 
 

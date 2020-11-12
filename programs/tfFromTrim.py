@@ -507,6 +507,7 @@ def walkNode(cv, doc, node, cur, notes):
 
     if tag in BREAKS:
         curLine = cur.get("line", None)
+        curFn = cur.get("fn", None)
         if curLine:
             linkIfEmpty(cv, curLine)
             cv.terminate(curLine)
@@ -519,11 +520,14 @@ def walkNode(cv, doc, node, cur, notes):
             cur["page"] = cv.node("page")
             cv.feature(cur["page"], **featsFromAtts(atts))
             cur["pg"] = f"{cur['vol']:>02}:p{atts['n']:>04}"
-            cur["ln"] = 1
+            if not curFn:
+                cur["ln"] = 1
         elif tag == "lb":
-            cur["ln"] += 1
-        cur["line"] = cv.node("line")
-        cv.feature(cur["line"], n=cur["ln"])
+            if not curFn:
+                cur["ln"] += 1
+        if not curFn:
+            cur["line"] = cv.node("line")
+            cv.feature(cur["line"], n=cur["ln"])
 
     elif tag in NODE_ELEMENTS:
         curNode = cv.node(tag)
