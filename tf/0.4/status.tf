@@ -13,24 +13,24 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-11T15:15:28Z
+@dateWritten=2020-11-13T20:23:28Z
 
-5031115	copie
-5031142	geheim
-5031233	geheim
-5031239	geheim
-5031245	secreet
-5031253	secreet
-5031260	secreet
-5031264	secreet
-5031268	geheim
-5031285	secreet
-5031288	geheim
-5031293	kopie
+5048476	copie
+5048503	geheim
+5048594	geheim
+5048600	geheim
+5048606	secreet
+5048614	secreet
+5048621	secreet
+5048625	secreet
+5048629	geheim
+5048646	secreet
+5048649	geheim
+5048654	kopie
 kopie geheim
-5031313	geheim
-5031325	geheim
-5031331	geheim
-5031335	geheim
-5031353	geheim
-5031355	geheim
+5048674	geheim
+5048686	geheim
+5048692	geheim
+5048696	geheim
+5048714	geheim
+5048716	geheim

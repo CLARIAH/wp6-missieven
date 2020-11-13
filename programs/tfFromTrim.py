@@ -339,7 +339,8 @@ def director(cv):
 
     print("\rdone" + " " * 70)
 
-    reportNotes(notes)
+    if not reportNotes(notes):
+        cv.stop("because of unreolved notes")
 
     # delete meta data of unused features
 
@@ -810,6 +811,8 @@ def reportNotes(notes):
     print(f"{nBodyAmb:>5} AMBIGUOUS REFERENCES IN FOOTNOTE BODIES")
     print(f"{nMarkUnres:>5} UNRESOLVED REFERENCES TO FOOTNOTES")
     print(f"{nBodyUnres:>5} UNRESOLVED REFERENCES IN FOOTNOTE BODIES")
+
+    return not bodyUnres and not markUnres
 
 
 # TF LOADING (to test the generated TF)

@@ -13,9 +13,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-11T15:15:17Z
+@dateWritten=2020-11-13T20:23:15Z
 
-5030805	3
+5048166	3
 3
 3
 4
