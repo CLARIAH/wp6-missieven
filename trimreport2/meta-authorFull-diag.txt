@@ -1,28 +1,229 @@
 ok------------------
-  31x 04:p0311 04:p0312 ...    Anthonio Hurdt
+  54x 06:p0219 06:p0231 ...    Abraham Douglas
+  24x 09:p0344 09:p0365 ...    Abraham Patras
+   3x 01:p0663 01:p0734 ...    Abraham Welsing
+  88x 05:p0376 05:p0388 ...    Abraham van Riebeeck
+   1x 01:p0106                 Abraham van Uffelen
+  34x 06:p0231 06:p0236 ...    Adam van Rijn
+   1x 01:p0244e                Adriaan Blocq Martensz
+  30x 09:p0001 09:p0007 ...    Adriaan Oostwalt
+  48x 09:p0112 09:p0130 ...    Adriaan Valckenier
+  29x 12:p0186 12:p0189 ...    Adriaan de Nijs
+  13x 06:p0267 06:p0275 ...    Adriaan van der Stel
+   1x 03:p0453                 Adriaen van der Meyde
+   7x 02:p0480 02:p0555 ...    Aernout de Vlaming van Oudtshoorn
+  10x 02:p0007 02:p0090 ...    Anthonio Caen
+  38x 04:p0311 04:p0312 ...    Anthonio Hurdt
    6x 04:p0125 04:p0156 ...    Anthonio Paviljoen
+  50x 07:p0353 07:p0381 ...    Anthony Huysman
+   3x 01:p0554 01:p0596 ...    Antonio Caen
+  50x 01:p0152 01:p0174 ...    Antonio van Diemen
+   5x 01:p0373 01:p0393 ...    Antonio van Diemen Dr
+   1x 01:p0393                 Antonio van den Heuvel
+  46x 11:p0224 11:p0226 ...    Arend van Broyel
+   1x 02:p0370                 Arent Barendsz
+   1x 01:p0303                 Arent Gardenijs
+   1x 02:p0403                 Arnold Heussen
+  11x 02:p0403 03:p0085 ...    Arnold de Vlaming van Oudtshoorn
+   4x 01:p0507 01:p0553 ...    Artus Gijsels
   25x 04:p0241 04:p0242 ...    Balthasar Bort
+  15x 06:p0390 06:p0401 ...    Bernard Phoonsen
+  42x 02:p0480 02:p0555 ...    Carel Hartsinck
+  21x 01:p0663 01:p0734 ...    Carel Reniers
+  76x 06:p0114 06:p0115 ...    Christoffel van Swoll
    1x 04:p0238                 Constantijn Nobel
-  10x 04:p0038 04:p0042 ...    Constantin Ranst
-  36x 04:p0001 04:p0021 ...    Cornelis Speelman
-   4x 04:p0753 04:p0780 ...    Cornelis van Quaelbergh
+  16x 03:p0653 03:p0655 ...    Constantin Ranst
+   7x 02:p0480 02:p0555 ...    Cornelis Caesar
+  36x 06:p0345 06:p0346 ...    Cornelis Chasteleyn
+  70x 07:p0290 07:p0325 ...    Cornelis Hasselaar
+   1x 01:p0106                 Cornelis Reyersz
+  54x 03:p0739 03:p0748 ...    Cornelis Speelman
+   2x 02:p0155 02:p0186        Cornelis Witsen
+   7x 04:p0753 04:p0780 ...    Cornelis van Quaelbergh
+  37x 01:p0663 01:p0734 ...    Cornelis van der Lijn
+   1x 01:p0247                 Crijn van Raemburch
+  41x 10:p0297 10:p0399 ...    Daniël Nolthenius
+  41x 11:p0115 11:p0116 ...    Daniël Overbeek
+   1x 09:p0327                 Daniël van der Maas
+  63x 07:p0479 07:p0485 ...    Diderik Durven
    6x 04:p0311 04:p0312 ...    Dirck Blom
+  27x 02:p0445 02:p0476 ...    Dirck Jansz Steur
+   6x 02:p0739 02:p0770 ...    Dirck Steur
+   1x 03:p0004                 Dircq Sarcerius
+   4x 06:p0390 06:p0401 ...    Dirk Comans
+   1x 03:p0210                 Dirk Jansz Steur
+  32x 05:p0439 05:p0493 ...    Dirk de Haas
+  24x 09:p0112 09:p0130 ...    Dirk van Cloon
+  27x 12:p0186 12:p0189 ...    Dithard van Rheede
+  19x 10:p0112 10:p0175 ...    Elias Guillot
+  26x 09:p0588 09:p0597 ...    Elias de Haeze
+  10x 07:p0640 07:p0651 ...    Ewout van Dishoeck
+  14x 07:p0162 07:p0166 ...    Ferdinand de Groot
+  44x 06:p0596 06:p0601 ...    Frans Castelyn
+  11x 02:p0137 02:p0138 ...    François Caron
+   5x 01:p0097d 01:p0098b ...  Frederick de Houtman
   12x 04:p0405 04:p0416 ...    Frederik Bent
+  17x 09:p0365 09:p0424 ...    Frederik Julius Coyett
+   5x 11:p0641 11:p0735 ...    Galenus Mersen
+   4x 02:p0673 02:p0739 ...    Gaspar van den Bogaerde
+  11x 02:p0311 02:p0332 ...    Gerard Demmer
+   5x 02:p0746 02:p0770 ...    Gerard Hulft
+   2x 01:p0043 01:p0046        Gerard Reynst
+  10x 05:p0024 05:p0077 ...    Gerard de Beveren
+  11x 11:p0115 11:p0116 ...    Gijsbertus Schuylenburg
    1x 04:p0495                 Gouverneur-generaal
+   5x 10:p0001 10:p0049 ...    Gualterus Wouters
+  55x 09:p0484 09:p0525 ...    Gustaaf Willem van Imhoff
+   8x 07:p0583 07:p0596 ...    Hans Frederik Bergman
+   1x 01:p0554                 Hans Putmans
+  17x 06:p0289 06:p0290 ...    Hendrick Zwaardecroon
    2x 04:p0171 04:p0183        Hendrick van Reede
-   1x 04:p0791                 Isaac de Saint-martin
-   2x 04:p0238 04:p0239        Jacob Pits
-  12x 04:p0001 04:p0021 ...    Joan Maetsuycker
-  13x 04:p0493 04:p0496 ...    Joan van Hoorn
-  35x 04:p0238 04:p0239 ...    Joannes Camphuys
-  14x 04:p0001 04:p0021 ...    Laurens Pit
-  11x 04:p0598 04:p0600 ...    Marten Pit
-   8x 04:p0496 04:p0498 ...    Nicolaas Schaghen
-   5x 04:p0001 04:p0021 ...    Nicolaes Verburch
-  14x 04:p0001 04:p0021 ...    Pieter Overtwater
-  14x 04:p0001 04:p0021 ...    Pieter van Hoorn
-   1x 04:p0495                 Raden
-  32x 04:p0038 04:p0042 ...    Ryckloff van Goens
-   7x 04:p0001 04:p0021 ...    Sibrant Abbema
-   1x 04:p0171                 Willem Volger
-  34x 04:p0238 04:p0239 ...    Willem van Outhoorn
+   1x 06:p0231                 Hendrik Joan Winkelman
+  73x 06:p0327 06:p0329 ...    Hendrik Zwaardecroon
+  32x 08:p0059 08:p0100 ...    Hendrik van Baerle
+   5x 06:p0414 06:p0415 ...    Henrick Becker
+  10x 01:p0373 01:p0393 ...    Henrick Brouwer
+   3x 01:p0331 01:p0366 ...    Henrick Brouwer Dr
+   3x 06:p0390 06:p0401 ...    Henrik Becker
+   1x 08:p0068                 Henrik van Baerle
+  22x 06:p0267 06:p0275 ...    Herman de Wilde
+  43x 08:p0179 08:p0188 ...    Herman van Bayen
+  33x 09:p0588 09:p0597 ...    Herman van Suchtelen
+  21x 11:p0350 11:p0353 ...    Hugo Verijssel
+  32x 12:p0186 12:p0189 ...    Huijbert Willem van Bazel
+  26x 04:p0791 05:p0001 ...    Isaac de Saint-martin
+  26x 09:p0588 09:p0597 ...    Isaac van Schinne
+   8x 09:p0233 09:p0256 ...    Jacob Christiaan Pielat
+   3x 03:p0462 03:p0466 ...    Jacob Cops
+   6x 01:p0097d 01:p0097e ...  Jacob Dedel
+   5x 01:p0098a 01:p0098c ...  Jacob Dedel Dr
+  42x 06:p0663 06:p0713 ...    Jacob Faes
+   3x 03:p0468 03:p0474 ...    Jacob Hustaert
+  15x 10:p0494 10:p0857 ...    Jacob Lakeman
+  76x 11:p0115 11:p0116 ...    Jacob Mossel
+   6x 04:p0238 04:p0239 ...    Jacob Pits
+  12x 08:p0003 08:p0009 ...    Jacob Willem Dubbeldekop
+   2x 02:p0445 02:p0476        Jacob de With
+  23x 06:p0017 06:p0048 ...    Jacob van Dam
+  28x 11:p0115 11:p0116 ...    Jacob van den Bosch
+  54x 11:p0618 11:p0641 ...    Jacob van der Waeyen
+   1x 01:p0244e                Jacques Lefebvre
+   6x 01:p0118e 01:p0121 ...   Jacques Specx
+   9x 01:p0152 01:p0174 ...    Jacques Specx Dr
+   2x 11:p0115 11:p0116        Jan Albert Sichterman
+   1x 01:p0118a                Jan Dircksz Lam
+   5x 13:p0362 13:p0477 ...    Jan Elias van Mijlendonk
+   6x 11:p0858 11:p0862 ...    Jan Huyghens
+  21x 01:p0097a 01:p0097b ...  Jan Pietersz Coen
+   4x 01:p0105 01:p0244f ...   Jan Pietersz Coen Dr
+   4x 12:p0501 12:p0509 ...    Jan Schreuder
+   1x 01:p0453                 Jan van Broeckum
+   2x 01:p0131 01:p0148        Jan van Gorcom
+   1x 01:p0244e                Jan van Gorcom Dr
+   2x 05:p0508 05:p0567        Jan van Leene
+   1x 02:p0480                 Jan van Teylingen
+  13x 01:p0279 01:p0303 ...    Jan van der Burch
+   1x 01:p0393                 Jan van der Burch Mr
+   4x 01:p0244a 01:p0244b ...  Jeremias de Meester
+  23x 12:p0394 12:p0403 ...    Jeremias van Riemsdijk
+   6x 05:p0599 05:p0650 ...    Joachim Nieustadt
+  18x 07:p0479 07:p0485 ...    Joan Adriaan Crudop
+  19x 12:p0394 12:p0403 ...    Joan Andreas van Hohendorf
+  37x 06:p0663 06:p0713 ...    Joan Cornelis d'Ableing
+  19x 02:p0403 02:p0445 ...    Joan Cunaeus
+  47x 08:p0003 08:p0009 ...    Joan Everard van der Schuer
+  42x 08:p0121 08:p0127 ...    Joan François de Witte
+  12x 12:p0001 12:p0003 ...    Joan Gideon Loten
+ 108x 02:p0137 02:p0138 ...    Joan Maetsuycker
+   1x 01:p0554                 Joan Ottens
+  46x 09:p0233 09:p0256 ...    Joan Paul Schaghen
+  16x 03:p0403 03:p0452 ...    Joan Thijsz
+ 103x 04:p0493 04:p0496 ...    Joan van Hoorn
+   2x 05:p0599 05:p0605        Joan van Leene
+   3x 09:p0525 09:p0652 ...    Joannes Bernard
+  51x 04:p0238 04:p0239 ...    Joannes Camphuys
+  41x 05:p0668 05:p0712 ...    Joannes Cops
+  10x 10:p0297 10:p0399 ...    Joannes Macaré
+  58x 10:p0857 10:p0997 ...    Joannes Mattheus Cluysenaar
+   5x 07:p0707 07:p0710 ...    Joannes Philippus Sipman
+   3x 10:p0001 10:p0049 ...    Joannes Sautijn
+  47x 09:p0344 09:p0365 ...    Joannes Thedens
+   5x 06:p0663 06:p0713 ...    Joannes van Steelant
+   5x 02:p0296 02:p0306 ...    Jochem Roelofsz van Dutecum
+   8x 11:p0350 11:p0353 ...    Johan Herman Theling
+   2x 03:p0484 03:p0525        Johan van Dam
+   1x 02:p0109                 Johan van Twist
+   3x 09:p0484 09:p0525 ...    Josua van Arrewijne
+  15x 12:p0089 12:p0096 ...    Julius Valentijn Steijn van Gollenesse
+  48x 11:p0766 11:p0846 ...    Jurgen van der Spar
+  13x 02:p0137 02:p0138 ...    Justus Schouten
+  50x 05:p0493 05:p0507 ...    Laurens Pijl
+  60x 03:p0453 03:p0462 ...    Laurens Pit
+  11x 01:p0063 01:p0068 ...    Laurens Reael
+  59x 06:p0596 06:p0601 ...    Laurens Tolling
+  25x 12:p0293 12:p0392 ...    Librecht Hooreman
+   3x 01:p0366 01:p0369 ...    Maerten Ysbrantsz
+  53x 05:p0376 05:p0388 ...    Manuel Bornezee
+  24x 04:p0598 04:p0600 ...    Marten Pit
+   7x 01:p0098a 01:p0098b ...  Martinus Sonck
+  97x 06:p0289 06:p0290 ...    Mattheus de Haan
+  19x 03:p0466 03:p0468 ...    Mattheus van den Brouck
+  29x 10:p0494 10:p0495 ...    Maurits van Aerden
+  45x 08:p0059 08:p0068 ...    Michiel Westpalm
+  39x 10:p0297 10:p0399 ...    Nicolaas Crul
+  12x 04:p0496 04:p0498 ...    Nicolaas Schaghen
+  16x 10:p0297 10:p0399 ...    Nicolaas van Berendregt
+  76x 02:p0673 02:p0739 ...    Nicolaes Verburch
+   1x 02:p0232                 Paulus Croocq
+  52x 11:p0618 11:p0641 ...    Petrus Albertus van der Parra
+  10x 07:p0547 07:p0552 ...    Petrus Vuyst
+   9x 01:p0373 01:p0507 ...    Philips Lucasz
+   3x 03:p0453 03:p0462 ...    Pieter Anthonisz Overtwater
+  22x 01:p0003a 01:p0003b ...  Pieter Both
+  24x 09:p0750 09:p0782 ...    Pieter Duquesne
+  13x 08:p0003 08:p0009 ...    Pieter Gabry
+   1x 01:p0247                 Pieter Nuyts
+  54x 03:p0466 03:p0468 ...    Pieter Overtwater
+  47x 09:p0702 09:p0750 ...    Pieter Rochus Pasques de Chavonnes
+  19x 06:p0641 06:p0658 ...    Pieter Rooselaar
+   2x 03:p0210 03:p0247        Pieter Sterthemius
+  21x 01:p0152 01:p0174 ...    Pieter Vlack
+  30x 01:p0097d 01:p0097f ...  Pieter de Carpentier
+   1x 01:p0098b                Pieter de Carpentier Dr
+  24x 06:p0345 06:p0390 ...    Pieter de Vos
+   4x 01:p0244a 01:p0244b ...  Pieter van Duynen
+  52x 03:p0453 03:p0462 ...    Pieter van Hoorn
+  31x 12:p0096 12:p0180 ...    Pieter van de Velde
+   6x 01:p0126 01:p0172 ...    Raden
+   1x 06:p0406                 Raden van Indië
+  19x 12:p0501 12:p0509 ...    Reynier de Klerk
+   3x 05:p0099 05:p0159 ...    Robert Padtbrugge
+  25x 08:p0121 08:p0127 ...    Rogier Thomas van Heyningen
+  35x 03:p0466 04:p0038 ...    Ryckloff van Goens
+  15x 02:p0138 02:p0139 ...    Salomon Sweers
+  37x 06:p0663 06:p0713 ...    Samuel Timmerman
+   9x 03:p0919 03:p0924 ...    Sibrant Abbema
+   6x 02:p0232 02:p0256 ...    Simon van Alphen
+  11x 08:p0121 08:p0127 ...    Stephanus Versluys
+  30x 06:p0596 06:p0601 ...    Theodorus de Haeze
+   2x 05:p0001 05:p0007        Thomas Slicher
+  18x 05:p0834 06:p0001 ...    Thomas van Rhee
+   4x 10:p0857 10:p0997 ...    Thomas van Spreekens
+  42x 08:p0121 08:p0127 ...    Van Schooten
+  75x 07:p0534 07:p0537 ...    Wijbrant Blom
+   2x 01:p0234 01:p0235        Wijbrant Schram
+   4x 07:p0353 07:p0381 ...    Willem Backer Jacobsz
+   4x 01:p0097d 01:p0097f ...  Willem Jansz
+   7x 07:p0224 07:p0226 ...    Willem Six
+   4x 02:p0445 02:p0476 ...    Willem Versteghen
+   3x 03:p0815 03:p0821 ...    Willem Volger
+   1x 06:p0345                 Willem de Roo
+   6x 01:p0118a 01:p0118b ...  Willem van Antzen
+  93x 04:p0238 04:p0239 ...    Willem van Outhoorn
+   7x 05:p0605 05:p0650 ...    Willem van Wijngaerden
+   3x 02:p0403 02:p0770 ...    Willem van der Beecken
+   1x 02:p0311                 Wollebrant Geleynsz de Jongh
+   5x 09:p0112 09:p0130 ...    Wouter Hendrix
+  29x 05:p0295 05:p0296 ...    Wouter Valckenier
+   7x 07:p0651 07:p0754 ...    Wybrand Blom
+  23x 05:p0439 05:p0493 ...    Wybrand Lycochthon

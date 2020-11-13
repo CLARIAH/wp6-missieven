@@ -1,5 +1,6 @@
 import re
 from itertools import chain
+from lib import GT, LT, AMP
 
 
 CORRECTION_ALLOWED = {
@@ -1688,16 +1689,28 @@ DISTILL = dict(
 )
 
 NOTEMARK_RE = re.compile(
-    r"""
+    fr"""
+    (?:
         \s*
+        <super>
         (?:
             (?:
                 &[^;]*;
             )
             |
-            [iJlx0-9*'!]
+            [iJlx0-9*'"!{GT}{LT}{AMP}]
+        )
+        \)?
+        </super>
+    )
+    |
+    (?:
+        \s*
+        (?:
+            [iJlx0-9*'"!{GT}{LT}{AMP}]
         )
         \)
+    )
     """,
     re.S | re.X,
 )

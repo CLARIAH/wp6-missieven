@@ -1,26 +1,203 @@
 ok------------------
-   7x 04:p0001 04:p0021 ...    Abbema
+   9x 03:p0919 03:p0924 ...    Abbema
+   4x 07:p0353 07:p0381 ...    Backer
+   1x 02:p0370                 Barendsz
+   8x 06:p0390 06:p0401 ...    Becker
   12x 04:p0405 04:p0416 ...    Bent
-   6x 04:p0311 04:p0312 ...    Blom
+   8x 07:p0583 07:p0596 ...    Bergman
+   3x 09:p0525 09:p0652 ...    Bernard
+   1x 01:p0244e                Blocq Martensz
+  88x 04:p0311 04:p0312 ...    Blom
+  53x 05:p0376 05:p0388 ...    Bornezee
   25x 04:p0241 04:p0242 ...    Bort
-  35x 04:p0238 04:p0239 ...    Camphuys
-   1x 04:p0791                 De Saint-martin
+  22x 01:p0003a 01:p0003b ...  Both
+  13x 01:p0331 01:p0366 ...    Brouwer
+  13x 01:p0554 01:p0596 ...    Caen
+   7x 02:p0480 02:p0555 ...    Caesar
+  51x 04:p0238 04:p0239 ...    Camphuys
+  11x 02:p0137 02:p0138 ...    Caron
+  44x 06:p0596 06:p0601 ...    Castelyn
+  36x 06:p0345 06:p0346 ...    Chasteleyn
+  58x 10:p0857 10:p0997 ...    Cluysenaar
+  25x 01:p0097a 01:p0097b ...  Coen
+   4x 06:p0390 06:p0401 ...    Comans
+  44x 03:p0462 03:p0466 ...    Cops
+  17x 09:p0365 09:p0424 ...    Coyett
+   1x 02:p0232                 Croocq
+  18x 07:p0479 07:p0485 ...    Crudop
+  39x 10:p0297 10:p0399 ...    Crul
+  19x 02:p0403 02:p0445 ...    Cunaeus
+  10x 05:p0024 05:p0077 ...    De Beveren
+  31x 01:p0097d 01:p0097f ...  De Carpentier
+  14x 07:p0162 07:p0166 ...    De Groot
+  97x 06:p0289 06:p0290 ...    De Haan
+  32x 05:p0439 05:p0493 ...    De Haas
+  56x 06:p0596 06:p0601 ...    De Haeze
+   5x 01:p0097d 01:p0098b ...  De Houtman
+  19x 12:p0501 12:p0509 ...    De Klerk
+   4x 01:p0244a 01:p0244b ...  De Meester
+  29x 12:p0186 12:p0189 ...    De Nijs
+   1x 06:p0345                 De Roo
+  26x 04:p0791 05:p0001 ...    De Saint-martin
+  18x 02:p0403 02:p0480 ...    De Vlaming van Oudtshoorn
+  24x 06:p0345 06:p0390 ...    De Vos
+  22x 06:p0267 06:p0275 ...    De Wilde
+   2x 02:p0445 02:p0476        De With
+  42x 08:p0121 08:p0127 ...    De Witte
+  11x 01:p0097d 01:p0097e ...  Dedel
+  11x 02:p0311 02:p0332 ...    Demmer
+  54x 06:p0219 06:p0231 ...    Douglas
+  12x 08:p0003 08:p0009 ...    Dubbeldekop
+  24x 09:p0750 09:p0782 ...    Duquesne
+  63x 07:p0479 07:p0485 ...    Durven
+  42x 06:p0663 06:p0713 ...    Faes
+  13x 08:p0003 08:p0009 ...    Gabry
+   1x 01:p0303                 Gardenijs
+   1x 02:p0311                 Geleynsz de Jongh
+   4x 01:p0507 01:p0553 ...    Gijsels
    1x 04:p0495                 Gouverneur-generaal
-  31x 04:p0311 04:p0312 ...    Hurdt
-  12x 04:p0001 04:p0021 ...    Maetsuycker
+  19x 10:p0112 10:p0175 ...    Guillot
+  42x 02:p0480 02:p0555 ...    Hartsinck
+  70x 07:p0290 07:p0325 ...    Hasselaar
+   5x 09:p0112 09:p0130 ...    Hendrix
+   1x 02:p0403                 Heussen
+  25x 12:p0293 12:p0392 ...    Hooreman
+   5x 02:p0746 02:p0770 ...    Hulft
+  38x 04:p0311 04:p0312 ...    Hurdt
+   3x 03:p0468 03:p0474 ...    Hustaert
+   6x 11:p0858 11:p0862 ...    Huyghens
+  50x 07:p0353 07:p0381 ...    Huysman
+   4x 01:p0097d 01:p0097f ...  Jansz
+  15x 10:p0494 10:p0857 ...    Lakeman
+   1x 01:p0118a                Lam
+   1x 01:p0244e                Lefebvre
+  12x 12:p0001 12:p0003 ...    Loten
+   9x 01:p0373 01:p0507 ...    Lucasz
+  23x 05:p0439 05:p0493 ...    Lycochthon
+  10x 10:p0297 10:p0399 ...    Macaré
+ 108x 02:p0137 02:p0138 ...    Maetsuycker
+   5x 11:p0641 11:p0735 ...    Mersen
+  76x 11:p0115 11:p0116 ...    Mossel
+   6x 05:p0599 05:p0650 ...    Nieustadt
    1x 04:p0238                 Nobel
-  14x 04:p0001 04:p0021 ...    Overtwater
+  41x 10:p0297 10:p0399 ...    Nolthenius
+   1x 01:p0247                 Nuyts
+  30x 09:p0001 09:p0007 ...    Oostwalt
+   1x 01:p0554                 Ottens
+  41x 11:p0115 11:p0116 ...    Overbeek
+  57x 03:p0453 03:p0462 ...    Overtwater
+   3x 05:p0099 05:p0159 ...    Padtbrugge
+  47x 09:p0702 09:p0750 ...    Pasques de Chavonnes
+  24x 09:p0344 09:p0365 ...    Patras
    6x 04:p0125 04:p0156 ...    Paviljoen
-  25x 04:p0001 04:p0021 ...    Pit
-   2x 04:p0238 04:p0239        Pits
-   1x 04:p0495                 Raden
-  10x 04:p0038 04:p0042 ...    Ranst
-   8x 04:p0496 04:p0498 ...    Schaghen
-  36x 04:p0001 04:p0021 ...    Speelman
-  32x 04:p0038 04:p0042 ...    Van Goens
-  27x 04:p0001 04:p0021 ...    Van Hoorn
-  34x 04:p0238 04:p0239 ...    Van Outhoorn
-   4x 04:p0753 04:p0780 ...    Van Quaelbergh
+  15x 06:p0390 06:p0401 ...    Phoonsen
+   8x 09:p0233 09:p0256 ...    Pielat
+  50x 05:p0493 05:p0507 ...    Pijl
+  84x 03:p0453 03:p0462 ...    Pit
+   6x 04:p0238 04:p0239 ...    Pits
+   1x 01:p0554                 Putmans
+   6x 01:p0126 01:p0172 ...    Raden
+   1x 06:p0406                 Raden van Indië
+  16x 03:p0653 03:p0655 ...    Ranst
+  11x 01:p0063 01:p0068 ...    Reael
+  21x 01:p0663 01:p0734 ...    Reniers
+   1x 01:p0106                 Reyersz
+   2x 01:p0043 01:p0046        Reynst
+  19x 06:p0641 06:p0658 ...    Rooselaar
+   1x 03:p0004                 Sarcerius
+   3x 10:p0001 10:p0049 ...    Sautijn
+  58x 04:p0496 04:p0498 ...    Schaghen
+  13x 02:p0137 02:p0138 ...    Schouten
+   2x 01:p0234 01:p0235        Schram
+   4x 12:p0501 12:p0509 ...    Schreuder
+  11x 11:p0115 11:p0116 ...    Schuylenburg
+   2x 11:p0115 11:p0116        Sichterman
+   5x 07:p0707 07:p0710 ...    Sipman
+   7x 07:p0224 07:p0226 ...    Six
+   2x 05:p0001 05:p0007        Slicher
+   7x 01:p0098a 01:p0098b ...  Sonck
+  15x 01:p0118e 01:p0121 ...   Specx
+  54x 03:p0739 03:p0748 ...    Speelman
+   2x 03:p0210 03:p0247        Sterthemius
+  34x 02:p0445 02:p0476 ...    Steur
+  15x 02:p0138 02:p0139 ...    Sweers
+  47x 09:p0344 09:p0365 ...    Thedens
+   8x 11:p0350 11:p0353 ...    Theling
+  16x 03:p0403 03:p0452 ...    Thijsz
+  37x 06:p0663 06:p0713 ...    Timmerman
+  59x 06:p0596 06:p0601 ...    Tolling
+  77x 05:p0295 05:p0296 ...    Valckenier
+  29x 10:p0494 10:p0495 ...    Van Aerden
+   6x 02:p0232 02:p0256 ...    Van Alphen
+   6x 01:p0118a 01:p0118b ...  Van Antzen
+   3x 09:p0484 09:p0525 ...    Van Arrewijne
+  33x 08:p0059 08:p0068 ...    Van Baerle
+  43x 08:p0179 08:p0188 ...    Van Bayen
+  32x 12:p0186 12:p0189 ...    Van Bazel
+  16x 10:p0297 10:p0399 ...    Van Berendregt
+   1x 01:p0453                 Van Broeckum
+  46x 11:p0224 11:p0226 ...    Van Broyel
+  24x 09:p0112 09:p0130 ...    Van Cloon
+  25x 03:p0484 03:p0525 ...    Van Dam
+  55x 01:p0152 01:p0174 ...    Van Diemen
+  10x 07:p0640 07:p0651 ...    Van Dishoeck
+   5x 02:p0296 02:p0306 ...    Van Dutecum
+   4x 01:p0244a 01:p0244b ...  Van Duynen
+  35x 03:p0466 04:p0038 ...    Van Goens
+  15x 12:p0089 12:p0096 ...    Van Gollenesse
+   3x 01:p0131 01:p0148 ...    Van Gorcom
+  25x 08:p0121 08:p0127 ...    Van Heyningen
+  19x 12:p0394 12:p0403 ...    Van Hohendorf
+ 155x 03:p0453 03:p0462 ...    Van Hoorn
+  55x 09:p0484 09:p0525 ...    Van Imhoff
+   4x 05:p0508 05:p0567 ...    Van Leene
+   5x 13:p0362 13:p0477 ...    Van Mijlendonk
+  93x 04:p0238 04:p0239 ...    Van Outhoorn
+   7x 04:p0753 04:p0780 ...    Van Quaelbergh
+   1x 01:p0247                 Van Raemburch
    2x 04:p0171 04:p0183        Van Reede
-   5x 04:p0001 04:p0021 ...    Verburch
-   1x 04:p0171                 Volger
+  18x 05:p0834 06:p0001 ...    Van Rhee
+  27x 12:p0186 12:p0189 ...    Van Rheede
+  88x 05:p0376 05:p0388 ...    Van Riebeeck
+  23x 12:p0394 12:p0403 ...    Van Riemsdijk
+  34x 06:p0231 06:p0236 ...    Van Rijn
+  26x 09:p0588 09:p0597 ...    Van Schinne
+  42x 08:p0121 08:p0127 ...    Van Schooten
+   4x 10:p0857 10:p0997 ...    Van Spreekens
+   5x 06:p0663 06:p0713 ...    Van Steelant
+  33x 09:p0588 09:p0597 ...    Van Suchtelen
+  76x 06:p0114 06:p0115 ...    Van Swoll
+   1x 02:p0480                 Van Teylingen
+   1x 02:p0109                 Van Twist
+   1x 01:p0106                 Van Uffelen
+   7x 05:p0605 05:p0650 ...    Van Wijngaerden
+  31x 12:p0096 12:p0180 ...    Van de Velde
+   4x 02:p0673 02:p0739 ...    Van den Bogaerde
+  28x 11:p0115 11:p0116 ...    Van den Bosch
+  19x 03:p0466 03:p0468 ...    Van den Brouck
+   1x 01:p0393                 Van den Heuvel
+   3x 02:p0403 02:p0770 ...    Van der Beecken
+  14x 01:p0279 01:p0303 ...    Van der Burch
+  37x 01:p0663 01:p0734 ...    Van der Lijn
+   1x 09:p0327                 Van der Maas
+   1x 03:p0453                 Van der Meyde
+  52x 11:p0618 11:p0641 ...    Van der Parra
+  47x 08:p0003 08:p0009 ...    Van der Schuer
+  48x 11:p0766 11:p0846 ...    Van der Spar
+  13x 06:p0267 06:p0275 ...    Van der Stel
+  54x 11:p0618 11:p0641 ...    Van der Waeyen
+  76x 02:p0673 02:p0739 ...    Verburch
+  21x 11:p0350 11:p0353 ...    Verijssel
+  11x 08:p0121 08:p0127 ...    Versluys
+   4x 02:p0445 02:p0476 ...    Versteghen
+  21x 01:p0152 01:p0174 ...    Vlack
+   3x 03:p0815 03:p0821 ...    Volger
+  10x 07:p0547 07:p0552 ...    Vuyst
+   3x 01:p0663 01:p0734 ...    Welsing
+  45x 08:p0059 08:p0068 ...    Westpalm
+   1x 06:p0231                 Winkelman
+   2x 02:p0155 02:p0186        Witsen
+   5x 10:p0001 10:p0049 ...    Wouters
+   3x 01:p0366 01:p0369 ...    Ysbrantsz
+  90x 06:p0289 06:p0290 ...    Zwaardecroon
+  37x 06:p0663 06:p0713 ...    d'Ableing

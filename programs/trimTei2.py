@@ -2,7 +2,7 @@ import collections
 import re
 
 from distill import META_KEY_ORDER, EXTRA_META_KEYS, DERIVED_META_KEYS, checkMeta
-from lib import REPORT_DIR, WHITE_RE, CELL_RE, docSummary
+from lib import REPORT_DIR, WHITE_RE, CELL_RE, GT, LT, AMP, docSummary
 
 corpusPre = None
 trimVolume = None
@@ -171,7 +171,7 @@ def formatTablePre(info):
     return lambda match: formatTable(match, info)
 
 
-PATHO_CHAR = r"""[*•■±§—‘£.()<>'!?,.:;\[\]{}+=&%$#@^\\/_-]"""
+PATHO_CHAR = fr"""[*•■±§—‘£.()<>'!?,.:;\[\]{{}}+={AMP}%$#@^\\/_-]"""
 PATHO_CHAR_RE = re.compile(PATHO_CHAR, re.S | re.X)
 
 PATHO_RE = re.compile(
@@ -218,13 +218,9 @@ QUOTE_RE = re.compile(r"""^[_.’'"«»,„/<>()]+$""")
 
 def hasPathoContent(cell):
     cell = (
-        cell.replace("&gt;&gt;", "»")
-        .replace("&gt;", ">")
-        .replace("&lt;&lt;", "«")
-        .replace("&lt;", "<")
-        .replace("&apos;&apos;", '"')
-        .replace("&apos;", "'")
-        .replace("&quot;", '"')
+        cell.replace(f"{GT}{GT}", "»")
+        .replace(f"{LT}{LT}", "«")
+        .replace("''", '"')
         .replace(",,", "„")
         .strip()
         .rstrip(".")

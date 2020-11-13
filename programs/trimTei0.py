@@ -8,6 +8,9 @@ from lib import (
     REPORT_DIR,
     TRIM_DIR,
     PAGE_NUM_RE,
+    LT,
+    GT,
+    AMP,
     rangesFromList,
     specFromRanges,
 )
@@ -130,6 +133,14 @@ def trimDocPrep(info, metaText, bodyText, previousMeta):
 def trimPage(text, info, *args, **kwargs):
     text = text.replace(''' rend=""''', "")
     text = text.replace(''' rend=" "''', "")
+    text = (
+        text.replace("&quot;", '"')
+        .replace("&apos;", "'")
+        .replace("&lt;", LT)
+        .replace("&gt;", GT)
+        .replace("&amp;", AMP)
+    )
+
     page = info["page"]
 
     return (

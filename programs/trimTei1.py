@@ -9,6 +9,9 @@ from lib import (
     WHITE_RE,
     BODY_RE,
     CELL_RE,
+    GT,
+    LT,
+    AMP,
     applyCorrections,
     summarize,
 )
@@ -1289,7 +1292,7 @@ GOOD_STRIPE = (
     (
         "strange",
         re.compile(
-            fr"""[^a-z0-9{DIGIT_OCR}.,’`:;"{{}}\[!@$%^&*()_+=|\\~<>?/ \t\n-]""", re.S
+            fr"""[^a-z0-9{DIGIT_OCR}.,’`:;"{{}}\[!@$%^*()_+=|\\~<>?/ \t\n-]""", re.S
         ),
         r"?",
     ),
@@ -1297,7 +1300,7 @@ GOOD_STRIPE = (
     ("enz", re.compile(fr"""{NONWORD}.[un][vzar]\b{COMMA}*\s*""", re.S), SPACE_REPL),
     ("arabic", re.compile(rf"""{NUM_PAT}\s*""", re.S | re.X), SPACE_REPL),
     ("comma", re.compile(fr"""{COMMA}\s*""", re.S), SPACE_REPL),
-    ("entity", re.compile(r"""&[a-z]+;\s*""", re.S), SPACE_REPL),
+    ("entity", re.compile(fr"""[{AMP}{GT}{LT}]\s*""", re.S), SPACE_REPL),
     ("en", re.compile(r"""\b[oe][ni]i?\b\s*""", re.S), SPACE_REPL),
     ("he", re.compile(r"""\bhe\b\s*"""), SPACE_REPL),
     (
@@ -1336,7 +1339,7 @@ GOOD_STRIPE = (
 
 NAME_SANITY = tuple(
     entry[0:-1].split("=")
-    for entry in """
+    for entry in f"""
 both=both .
 b rouwer=brouwer .
 camphuj's=camphuys .
@@ -1371,7 +1374,7 @@ vanbnhoff=van imhoff .
 vanlmhoff=van imhoff .
 van lm ho ff=van imhoff .
 yan=van .
-a&n=van .
+a{AMP}n=van .
 w'elsmg=welsing .
 y'i=vii.
 """.strip().split(
@@ -2218,12 +2221,12 @@ FOLIO_POST_RETAIN_RE = re.compile(
 )
 
 FOLIO_POST_REMOVE_RE = re.compile(
-    r"""
+    fr"""
     ^(.*?)
     (
         \*\)[.•]
         | 1\)\.
-        | &gt;\)\.
+        | {GT}\)\.
         | »\)\.
         | '\)\.
         | \(.*
@@ -2241,6 +2244,26 @@ FOLIO_MERGE_RE = re.compile(
 )
 
 FOLIO_RESULT_RE = re.compile(r"""<folio>(.*?)</folio>""", re.S)
+
+FOLIO_SEP_RE = re.compile(
+    r"""
+    (
+        [A-Za-z]
+        \.?
+    )
+    (
+        [0-9]+
+    )
+    """,
+    re.S | re.X,
+)
+
+
+def folioSepRepl(match):
+    text = match.group(1)
+    result = FOLIO_SEP_RE.sub(r"\1 \2", text)
+    return f"<folio>{result}</folio>"
+
 
 FOLIO_ISOLATE_RE = re.compile(
     r"""
@@ -2331,7 +2354,7 @@ HEAD_CORRECT_N_RE = re.compile(
 
 
 HEAD_CORRECT_NUM_RE = re.compile(
-    r"""
+    fr"""
     <head\b[^>]*>
     (
         (?:
@@ -2342,7 +2365,7 @@ HEAD_CORRECT_NUM_RE = re.compile(
             )
             |
             (?:
-                &[a-z]+;
+                [{GT}{LT}{AMP}]
             )
             |
             (?:
@@ -2426,16 +2449,7 @@ def checkFw(match):
     if not fw or fw == "d":
         return ""
     orig = fw
-    fw = (
-        fw.replace("&amp;", "&")
-        .replace("&quot;", '"')
-        .replace("&apos;", "'")
-        .replace("&lt;", "<")
-        .replace("&gt;", ">")
-        .replace("ë", "e")
-        .replace("é", "e")
-        .replace("ó", "o")
-    )
+    fw = fw.replace("ë", "e").replace("é", "e").replace("ó", "o")
     if IGNORE_RE.search(fw):
         return ""
     wrong = IS_TEXT_1_RE.search(fw) or (IS_TEXT_2_RE.search(fw) and len(fw) > 100)
@@ -2445,6 +2459,8 @@ def checkFw(match):
 HEAD_TITLE_RE = re.compile(r"""<head rend="[^"]*?\bxlarge\b[^>]*>(.*?)</head>""", re.S)
 
 P_REMOVE = re.compile(r"""<p\b[^>]*>""", re.S)
+SUB_RE = re.compile(r"""<hi\b[^>]*?sub[^>]*>(.*?)</hi>""", re.S)
+SUPER_RE = re.compile(r"""<hi\b[^>]*?super[^>]*>(.*?)</hi>""", re.S)
 SUBHEAD_RE = re.compile(r"""<p\b[^>]*?smallcaps[^>]*>(.*?)</p>""", re.S)
 
 FIRST_P_SMALL_RE = re.compile(
@@ -2486,9 +2502,28 @@ def removePs(match):
     return f"""<cell>{text}</cell>"""
 
 
+SUBSUPER_MOVE_RE = re.compile(
+    r"""
+    (
+        <(super|sub)>
+        [^<]*
+    )
+    (
+        \s*
+        [.,:;]
+        \s*
+    )
+    (
+        </\2>
+    )
+    """,
+    re.S | re.X,
+)
+
+
 def trimPage(text, info, *args, **kwargs):
     if "fwh" not in info:
-        info["fwh"] = open(f"{TRIM_DIR}1/fwh-no.tsv", "w")
+        info["fwh"] = open(f"{REP}/fwh-no.tsv", "w")
     fwh = info["fwh"]
     captionInfo = info["captionInfo"]
     captionNorm = info["captionNorm"]
@@ -2507,16 +2542,7 @@ def trimPage(text, info, *args, **kwargs):
         fw = WHITE_RE.sub(" ", fw.strip())
         if not fw or fw == "d":
             continue
-        fw = (
-            fw.replace("&amp;", "&")
-            .replace("&quot;", '"')
-            .replace("&apos;", "'")
-            .replace("&lt;", "<")
-            .replace("&gt;", ">")
-            .replace("ë", "e")
-            .replace("é", "e")
-            .replace("ó", "o")
-        )
+        fw = fw.replace("ë", "e").replace("é", "e").replace("ó", "o")
         if IGNORE_RE.search(fw):
             continue
         wrong = IS_TEXT_1_RE.search(fw) or (IS_TEXT_2_RE.search(fw) and len(fw) > 100)
@@ -2585,6 +2611,9 @@ def trimPage(text, info, *args, **kwargs):
     ):
         text = trimRe.sub(val, text)
 
+    text = SUB_RE.sub(r"<sub>\1</sub>", text)
+    text = SUPER_RE.sub(r"<super>\1</super>", text)
+    text = SUBSUPER_MOVE_RE.sub(r"\1\4\3", text)
     text = SUBHEAD_RE.sub(r"<subhead>\1</subhead>", text)
     text = FIRST_P_SMALL_RE.sub(firstPRepl, text)
 
@@ -2680,6 +2709,8 @@ def trimPage(text, info, *args, **kwargs):
     text = "".join(newText)
 
     text = FOLIO_MERGE_RE.sub(r"""\1 \3\2\4""", text)
+
+    text = FOLIO_RESULT_RE.sub(folioSepRepl, text)
 
     for match in FOLIO_RESULT_RE.finditer(text):
         fol = match.group(1)

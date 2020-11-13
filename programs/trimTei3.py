@@ -2,7 +2,17 @@ import re
 import collections
 
 from distill import MONTH_DETECT_PAT
-from lib import REPORT_DIR, WHITE_RE, applyCorrections, docSummary, summarize
+from lib import (
+    REPORT_DIR,
+    WHITE_RE,
+    LT,
+    GT,
+    AMP,
+    ADD_LB_ELEMENTS,
+    applyCorrections,
+    docSummary,
+    summarize,
+)
 
 corpusPre = None
 trimVolume = None
@@ -50,13 +60,13 @@ CORRECTIONS_DEF = {
     "01:p0663-0673": ((r"""\.41\)""", r""".<super>t</super>⌊1⌋"""),),
     "02:p0007-0018": (
         (r"""l°\)""", r"""⌊10⌋"""),
-        (r"""(Herman)\s*<super>3\),</super>""", r"""\1 ⌊5⌋,"""),
+        (r"""(Herman)\s*<super>3\)</super>""", r"""\1 ⌊5⌋,"""),
         (
             r"""(<note>)5\)( Tot de vier.*?</note>\s*)""",
             r"""\1⌊5⌋ Mij niet bekend.<lb/>\n</note>\n\1⌊6⌋ \2""",
         ),
     ),
-    "02:p0007-0019": ((r"""<super>a\).</super>""", r"""⌊2⌋."""),),
+    "02:p0007-0019": ((r"""<super>a\)</super>""", r"""⌊2⌋."""),),
     "02:p0007-0031": ((r"""<super>c\)</super>""", r"""⌊6⌋"""),),
     "02:p0007-0039": ((r"""<super>T\)</super>""", r"""⌊1⌋"""),),
     "02:p0007-0040": ((r"""(intervallen)1""", r"""\1⌊1⌋"""),),
@@ -149,7 +159,7 @@ een rif verongelukt<lb/>
     "03:p0004-0014": ((r"""(onsen cap\.tn Verheyden)""", r"\1⌊1⌋"),),
     "03:p0004-0018": ((r"""(coopman Van Voorst)""", r"\1⌊1⌋"),),
     "03:p0004-0040": ((r"""(Mam et Amienbeeck)""", r"\1⌊1⌋"),),
-    "03:p0004-0041": ((r"""(Lala)\s*!\)""", r"\1⌊1⌋"),),
+    "03:p0004-0041": ((r"""(Lala)\s*<super>!\)</super>""", r"\1⌊1⌋"),),
     "03:p0047-0049": ((r"""(Moesaffar)\s*\*\)""", r"\1⌊1⌋"),),
     "03:p0047-0058": ((r"""(daerdoor alle)""", r"\1⌊1⌋"),),
     "03:p0079-0081": (
@@ -167,7 +177,7 @@ een rif verongelukt<lb/>
         (r"""(<note>)1\)( Mij niet nader.*?</note>\s*)""", r"""\1⌊1⌋\2<note>⌊2⌋ \2"""),
     ),
     "03:p0247-0256": ((r"""(Mr\. Willam Courtes)""", r"\1⌊1⌋"),),
-    "03:p0247-0260": ((r"""(ghanghanna)\s*!\)""", r"\1⌊1⌋"),),
+    "03:p0247-0260": ((r"""(ghanghanna)\s*<super>!\)</super>""", r"\1⌊1⌋"),),
     "03:p0247-0273": ((r"""(Pieter Vertange)\s*\^""", r"\1⌊1⌋"),),
     "03:p0247-0279": ((r"""(opperhooft Nicolaes Loenius)""", r"\1⌊1⌋"),),
     "03:p0247-0280": ((r"""(in Ontingpoy)""", r"\1⌊1⌋"),),
@@ -195,7 +205,7 @@ een rif verongelukt<lb/>
     "03:p0641-0644": ((r"""<super>A\)</super>""", r"⌊1⌋)"),),
     "03:p0676-0687": ((r"""(gouverneur Syra Radja Oelebalangh)""", r"\1⌊1⌋"),),
     "03:p0722-0726": ((r"""(Sampoera)""", r"\1⌊1⌋"),),
-    "03:p0739-0742": ((r"""<super>fl\),</super>""", r"⌊6⌋)"),),
+    "03:p0739-0742": ((r"""<super>fl\)</super>""", r"⌊6⌋)"),),
     "03:p0750-0769": (
         (r"""(<note>)2\)( Bedoeld is: .*?</note>\s*)""", r"""\1⌊2⌋\2<note>⌊3⌋ \2"""),
     ),
@@ -234,7 +244,7 @@ een rif verongelukt<lb/>
     ),
     "04:p0043-0050": ((r"""(van den p\.le)""", r"\1⌊1⌋"),),
     "04:p0083-0083": ((r"""<emph>A\)</emph>""", r"⌊1⌋"),),
-    "04:p0101-0101": ((r"""<super>a\),</super>""", r"⌊2⌋,"),),
+    "04:p0101-0101": ((r"""<super>a\)</super>""", r"⌊2⌋,"),),
     "04:p0101-0117": (
         (
             r"""(<note>)2\)( Gouverneur en raden.*?</note>\s*)""",
@@ -245,7 +255,7 @@ een rif verongelukt<lb/>
     "04:p0125-0141": ((r"""(1\.101\))""", r"\1⌊1⌋"),),
     "04:p0171-0171": ((r"""(Balante)""", r"\1⌊1⌋"),),
     "04:p0183-0197": ((r"""(Jan de Graaf f)""", r"\1⌊1⌋"),),
-    "04:p0218-0223": ((r"""<super>5\),</super>""", r"⌊5⌋),"),),
+    "04:p0218-0223": ((r"""<super>5\)</super>""", r"⌊5⌋),"),),
     "04:p0218-0227": (
         (
             r"""<para>huyshuyren\b.*?f\. 507641\. 9\. 6<lb/>\n</para>\n""",
@@ -337,14 +347,14 @@ een rif verongelukt<lb/>
             + ")("
             + re.escape(
                 r"""Bellambellan
-<super>3),</super> bestaande in"""
+<super>3)</super>, bestaande in"""
             )
             + ") ("
             + re.escape(
                 r"""J Saombay
 <super>6)</super> ofte Ouby Latoe<lb/>
 <emph>J</emph> Aloowaloe
-<super>6),</super> bij ons Schilpaddeneylant<lb/>
+<super>6)</super>, bij ons Schilpaddeneylant<lb/>
 """
             )
             + ")",
@@ -395,11 +405,11 @@ comptoiren meer als de winsten, te weten<lb/>
     "04:p0429-0460": ((r"""<super>u\)</super>""", r"⌊11⌋),"),),
     "04:p0429-0469": ((r"""(<note>)11""", r"\1⌊1⌋"),),
     "04:p0480-0480": ((r"""(soetelaars)""", r"⌊1⌋),"),),
-    "04:p0498-0522": ((r"""<super>z\),<\/super>""", r"⌊3⌋"),),
+    "04:p0498-0522": ((r"""<super>z\)</super>""", r"⌊3⌋"),),
     "04:p0498-0554": ((r"""(daatsgelt)""", r"⌊1⌋),"),),
     "04:p0498-0558": ((r"""(Trap)""", r"⌊7⌋),"),),
     "04:p0498-0550": (
-        (r"""<super>3J,</super>""", r"⌊3⌋"),
+        (r"""<super>3J</super>""", r"⌊3⌋"),
         (r"""no\}i\)""", r"noyt"),
     ),
     "04:p0498-0568": ((r"""<super>3\)</super> (verstreckinge)""", r"⌊3⌋ \1"),),
@@ -409,7 +419,7 @@ comptoiren meer als de winsten, te weten<lb/>
     ),
     "04:p0498-0586": ((r"""(<note>)J\)""", r"\1⌊1⌋"),),
     "04:p0498-0588": (
-        (r"""<super>a\),</super>""", r"⌊8⌋, ⌊9⌋, "),
+        (r"""<super>a\)</super>""", r"⌊8⌋, ⌊9⌋, "),
         (
             r"""(<note>а\).*?</note>\s*)((?:<note>.*?</note>\s*){8})"""
             r"""(<note>.*?</note>\s*)(<note>.*?</note>\s*)""",
@@ -427,8 +437,8 @@ comptoiren meer als de winsten, te weten<lb/>
             r"""((?:<note>.*?</note>\s*){2})""",
             r"\1\4\2\3",
         ),
-        (r"""<super>a\)\.</super>""", r"⌊1⌋, ⌊2⌋, ⌊3⌋."),
-        (r"""<super>b\)\.</super>""", r"⌊4⌋."),
+        (r"""<super>a\)</super>\.""", r"⌊1⌋, ⌊2⌋, ⌊3⌋."),
+        (r"""<super>b\)</super>\.""", r"⌊4⌋."),
         (r"""(<note>)a\)""", r"\1⌊1⌋"),
         (r"""(<note>)b\)""", r"\1⌊4⌋"),
         (r"""(<note>)1\)""", r"\1⌊5⌋"),
@@ -451,14 +461,14 @@ comptoiren meer als de winsten, te weten<lb/>
     ),
     "04:p0651-0657": ((r"""(- maght)""", r"\1⌊1⌋"),),
     "04:p0651-0664": ((r"""(6)1\)""", r"\1⌊1⌋"),),
-    "04:p0651-0672": ((r"""<super>4</super>""", r"⌊4⌋)."),),
+    "04:p0651-0672": ((r"""<super>4\)</super>""", r"⌊4⌋)."),),
     "04:p0680-0683": ((r"""(minees)""", r"\1⌊1⌋"),),
     "04:p0680-0693": ((r"""(Toedjoe Cotas)""", r"\1⌊1⌋"),),
     "04:p0707-0709": ((r"""(Popoloewo)""", r"\1⌊1⌋"),),
     "04:p0753-0759": ((r"""(<ref>lant te</ref>)""", r"\1⌊1⌋"),),
     "04:p0791-0821": ((r"""<super>4\)</super>( en Anthonij)""", r"⌊1⌋\1"),),
     "04:p0791-0832": ((r"""(Wiera Goena)""", r"\1⌊1⌋"),),
-    "05:p0001-0002": ((r"""<super>1<\/super>""", r"⌊1⌋"),),
+    "05:p0001-0002": ((r"""<super>1</super>""", r"⌊1⌋"),),
     "05:p0077-0082": ((r"""(Kartisidana) (forte)""", r"\1⌊1⌋ \2"),),
     "05:p0099-0100": (
         (
@@ -489,19 +499,19 @@ comptoiren meer als de winsten, te weten<lb/>
             r"\1<folio>Fol. 361r-v.⌊1⌋</folio>\n\2",
         ),
     ),
-    "05:p0195-0206": ((r"""<super>A\)<\/super>""", r"⌊1⌋"),),
+    "05:p0195-0206": ((r"""<super>A\)</super>""", r"⌊1⌋"),),
     "05:p0195-0212": ((r"""(omgedeelt te werden) \*\)""", r"\1⌊1⌋"),),
     "05:p0195-0219": ((r"""(1664)(<lb/>)""", r"\1⌊1⌋\2"),),
     "05:p0195-0223": ((r"""(Griek)""", r"\1⌊1⌋"),),
     "05:p0195-0228": ((r"""(wakkiel)2\)""", r"\1⌊2⌋"),),
     "05:p0296-0298": ((r"""(Pessy)1\)""", r"\1⌊1⌋"),),
     "05:p0296-0335": ((r"""</note>\s*<note>(9°20' N\.B\.<lb/>\s*)""", r"\1"),),
-    "05:p0296-0339": ((r"""<special>n0g</special> - «\)""", r"nog -----⌊4⌋"),),
-    "05:p0388-0399": ((r"""(<special>cto<\/special>)""", r"\1⌊1⌋"),),
+    "05:p0296-0339": ((r"""<sub>n0g</sub> - «\)""", r"nog -----⌊4⌋"),),
+    "05:p0388-0399": ((r"""(<sub>cto</sub>)""", r"\1⌊1⌋"),),
     "05:p0388-0425": ((r"""(die reyse)""", r"\1⌊1⌋"),),
-    "05:p0439-0454": ((r"""(Binoan)1\n<super>2 3 4\),</super>""", r"\1⌊1⌋,"),),
+    "05:p0439-0454": ((r"""(Binoan)1\n<super>2 3 4\)</super>""", r"\1⌊1⌋,"),),
     "05:p0439-0468": ((r"""(jonken) (jaarlijx)""", r"\1⌊1⌋ \2"),),
-    "05:p0508-0543": ((r"""(spetie\n)<ref>(aldaar) (wiert)<\/ref>""", r"\1 \2⌊1⌋ \2"),),
+    "05:p0508-0543": ((r"""(spetie\n)<ref>(aldaar) (wiert)</ref>""", r"\1 \2⌊1⌋ \2"),),
     "05:p0567-0570": ((r"""(manocken)""", r"\1⌊1⌋"),),
     "05:p0567-0590": ((r"""(Arquaron)""", r"\1⌊1⌋"),),
     "05:p0567-0592": ((r"""(en Bantal)""", r"\1⌊1⌋"),),
@@ -532,7 +542,7 @@ comptoiren meer als de winsten, te weten<lb/>
     "06:p0153-0155": ((r"""<ref>(rottingh)( aan)</ref>""", r"\1⌊1⌋\2"),),
     "06:p0177-0177": ((r"""(</folio>\n)<para>1\)\.(<lb/>)\n</para>""", r"⌊1⌋\2\1"),),
     "06:p0290-0303": ((r"""<ref>(Sam) (bouwer)( de)</ref>""", r"\1\2⌊1⌋\3"),),
-    "06:p0329-0329": ((r"""<super>1</super>""", r"⌊1⌋"),),
+    "06:p0329-0329": ((r"""<super>1\)</super>""", r"⌊1⌋"),),
     "06:p0346-0376": ((r"""(alsook de bediende)""", r"\1⌊1⌋"),),
     "06:p0346-0378": (
         (
@@ -549,7 +559,7 @@ comptoiren meer als de winsten, te weten<lb/>
     "06:p0466-0467": ((r"""(Radja Bea)""", r"\1⌊1⌋"),),
     "06:p0477-0493": ((r"""</note>\s*<note>(22° N\.B\. stromende)""", r"\1"),),
     "06:p0514-0519": ((r"""(appriseering)""", r"\1⌊1⌋"),),
-    "06:p0575-0578": ((r"""<super>1\),</super>""", r"⌊1⌋"),),
+    "06:p0575-0578": ((r"""<super>1\)</super>""", r"⌊1⌋"),),
     "06:p0587-0591": (
         (
             r"""(</remark>\n)(<note>1\) Het)""",
@@ -558,7 +568,7 @@ comptoiren meer als de winsten, te weten<lb/>
     ),
     "06:p0587-0595": ((r"""(capitain Sergeant)""", r"\1⌊1⌋"),),
     "06:p0601-0603": ((r"""<super>1 \*</super>""", r"⌊1⌋"),),
-    "06:p0601-0604": ((r"""(Bira)2\n<super>3 4\),</super>""", r"\1⌊2⌋,"),),
+    "06:p0601-0604": ((r"""(Bira)2\n<super>3 4\)</super>""", r"\1⌊2⌋,"),),
     "06:p0601-0607": ((r"""</note>\s*<note>(25 april 1729.*?)""", r"\1"),),
     "06:p0601-0618": (
         (
@@ -568,21 +578,25 @@ comptoiren meer als de winsten, te weten<lb/>
     ),
     "06:p0601-0629": ((r"""(Pandelekoerse) \*\)""", r"\1⌊1⌋"),),
     "06:p0601-0634": ((r"""<ref>(mandament)( met)</ref>""", r"\1⌊1⌋\2"),),
-    "06:p0658-0658": ((r"""(</folio>\n)<para>&gt;\)\.(<lb/>)\n</para>""", r"⌊1⌋\2\1"),),
+    "06:p0658-0658": (
+        (fr"""(</folio>\n)<para>{GT}\)\.(<lb/>)\n</para>""", r"⌊1⌋\2\1"),
+    ),
     "06:p0663-0691": ((r"""<ref>(China)( Tamby)</ref>""", r"\1⌊1⌋\2"),),
     "06:p0663-0701": ((r"""\.s1\)""", r"<super>gt</super>)"),),
     "06:p0663-0705": ((r"""(Suwagie)""", r"\1⌊1⌋"),),
     "06:p0663-0710": ((r"""vullen\n<ref>(aandoen)( en)</ref>""", r"willen \1⌊1⌋\2"),),
     "06:p0732-0732": ((r"""(</folio>\n)<para>»\)\.(<lb/>)\n</para>""", r"⌊1⌋\2\1"),),
     "06:p0732-0735": (
-        (r"""(klinket)(<lb/>\n)<super>3\)\),</super>""", r"\1⌊3⌋\2"),
+        (r"""(klinket)(<lb/>\n)<super>3\)\)</super>""", r"\1⌊3⌋\2"),
         (r"""<super>4\)</super>""", r"⌊4⌋"),
     ),
     "06:p0750-0773": ((r"""(doorgestoocken)""", r"\1⌊1⌋"),),
     "06:p0750-0791": ((r"""(Chanaan Badur) \^""", r"\1⌊1⌋"),),
     "06:p0750-0795": ((r"""(jun\.r)""", r"\1 ⌊1⌋"),),
     "06:p0810-0814": ((r"""(atlassen)""", r"\1⌊1⌋"),),
-    "06:p0844-0858": ((r"""(eyland S\.)1\n\* (Jan)""", r"\1<super>t</super> \2⌊1⌋"),),
+    "06:p0844-0858": (
+        (r"""(eyland S\.)1\n<super>\*</super> (Jan)""", r"\1<super>t</super> \2⌊1⌋"),
+    ),
     "06:p0844-0878": ((r"""(6500\.- de jo\.) \*\)""", r"\1⌊1⌋"),),
     "07:p0003-0004": (
         (r"""(Tuaha')""", r"\1⌊1⌋"),
@@ -593,8 +607,8 @@ comptoiren meer als de winsten, te weten<lb/>
         ),
     ),
     "07:p0003-0006": ((r"""<note>1\) Ten rechte: Ali.<lb/>\n</note>""", r""),),
-    "07:p0003-0019": ((r"""(geb\.)&quot;\)""", r"\1⌊1⌋"),),
-    "07:p0045-0057": ((r"""&gt;\)""", r"⌊1⌋"),),
+    "07:p0003-0019": ((r"""(geb\.)"\)""", r"\1⌊1⌋"),),
+    "07:p0045-0057": ((fr"""{GT}\)""", r"⌊1⌋"),),
     "07:p0078-0080": ((r"""(brie)P\)""", r"\1f⌊3⌋"),),
     "07:p0078-0094": ((r"""(naturelijke<lb/>\nsoon)""", r"\1⌊1⌋"),),
     "07:p0078-0084": ((r"""(Tonsaronson)2\n<super>3\)</super>""", r"\1⌊2⌋"),),
@@ -606,28 +620,28 @@ comptoiren meer als de winsten, te weten<lb/>
         (r"""(<note>2\) Tenrechte: Ngoera=Ngurah\.<lb/>\n</note>\n)""", r"\1\1"),
     ),
     "07:p0202-0204": ((r"""(Niatlang)""", r"\1⌊1⌋"),),
-    "07:p0226-0234": ((r"""<super>x</super>""", r"⌊1⌋"),),
-    "07:p0226-0237": ((r"""<super>x</super>""", r"⌊1⌋"),),
+    "07:p0226-0234": ((r"""<super>x\)</super>""", r"⌊1⌋"),),
+    "07:p0226-0237": ((r"""<super>x\)</super>""", r"⌊1⌋"),),
     "07:p0226-0243": (
         (
-            r"""(<note>1)\.(<lb/>\s*</note>\s*)""",
-            r"\1). Weligamma, vgl. dl. III, p. 268, noot 1.\2",
+            r"""(<note>)1\.(<lb/>\s*</note>\s*)""",
+            r"\g<1>3). Weligamma, vgl. dl. III, p. 268, noot 1.\2",
         ),
     ),
     "07:p0226-0247": ((r"""'\)\)""", r"⌊1⌋"),),
-    "07:p0226-0254": ((r"""<super>l\);</super>""", r"⌊1⌋"),),
+    "07:p0226-0254": ((r"""<super>l\)</super>""", r"⌊1⌋"),),
     "07:p0226-0263": ((r"""Karei de 6C\|\)""", r"Karel de 6<super>e</super> ⌊1⌋"),),
     "07:p0278-0278": ((r"""(<remark>«Het betrof)""", r"<folio>1973v ⌊1⌋</folio>\n\1"),),
     "07:p0290-0309": ((r"""(Maprana)""", r"\1⌊1⌋"),),
     "07:p0325-0330": ((r"""(haar) '\)""", r"\1⌊1⌋"),),
-    "07:p0336-0349": ((r"""<super>3\);<\/super>""", r"⌊3⌋"),),
+    "07:p0336-0349": ((r"""<super>3\)</super>""", r"⌊3⌋"),),
     "07:p0413-0439": ((r"""<super>l\)</super>""", r"⌊1⌋"),),
     "07:p0479-0479": ((r"""(derselver)'\)""", r"\1⌊1⌋"),),
     "07:p0479-0483": (
-        (r"""(Draak)1\n<super>2\),</super>""", r"\1⌊1⌋,"),
+        (r"""(Draak)1\n<super>2\)</super>""", r"\1⌊1⌋,"),
         (r"""(slaaf)P\)""", r"\1f⌊2⌋,"),
     ),
-    "07:p0485-0499": ((r"""(scheepsstrijd)\n<super>1<\/super>""", r"\1⌊1⌋"),),
+    "07:p0485-0499": ((r"""(scheepsstrijd)\n<super>1</super>""", r"\1⌊1⌋"),),
     "07:p0517-0533": (
         (
             r"""(<remark>winnende en.*?):\)(.*?)(</remark>)""",
@@ -642,7 +656,7 @@ comptoiren meer als de winsten, te weten<lb/>
     "07:p0610-0616": ((r"""(Poelopangang) ‘\)""", r"\1⌊1⌋"),),
     "07:p0610-0639": ((r"""(<remark>)6 ml\.""", r"\1(vnl."),),
     "07:p0640-0648": (
-        (r"""(<remark>«Dubbeldekop)""", r"<folio>Fol. 1921r-v ⌊1⌋<lb/></folio>\n\1"),
+        (r"""(<remark>«Dubbeldekop)""", r"<folio>Fol. 1921r-v ⌊1⌋</folio>\n\1"),
     ),
     "07:p0661-0662": (
         (
@@ -665,24 +679,57 @@ comptoiren meer als de winsten, te weten<lb/>
     "08:p0046-0057": ((r"""(pangawas)(17)""", r"\1⌊\2⌋"),),
     "08:p0128-0130": ((r"""(ara)(5)\)""", r"\1⌊\2⌋"),),
     "08:p0128-0150": ((r"""(4)(27)\)""", r"\1⌊\2⌋"),),
-    "08:p0188-0188": ((r"""(Hatihalu)\n<super>I\);</super>""", r"\1⌊1⌋"),),
+    "08:p0188-0188": ((r"""(Hatihalu)\n<super>I\)</super>""", r"\1⌊1⌋"),),
     "08:p0188-0205": ((r"""(Attapitti)(32)\)""", r"\1⌊\2⌋"),),
     "08:p0235-0235": ((r"""(735)(1)\)""", r"\1⌊\2⌋"),),
     "08:p0552-0581": ((r"""(abord)""", r"\1⌊1⌋"),),
     "09:p0015-0051": ((r"""(sigh offers)'(9)""", r'\1"⌊\2⌋'),),
-    "09:p0071-0081": ((r"""/i([35])""", r'/\1', 2),),
+    "09:p0071-0081": ((r"""/i([35])""", r"/\1", 2),),
     "09:p0097-0105": ((r"""(noroos)(5)""", r"\1⌊\2⌋"),),
     "09:p0365-0387": ((r"""(ƒ 7823)""", r"(\1"),),
+    "09:p0256-0274": ((r"""<super>1 1</super>""", r"⌊11⌋"),),
     "09:p0548-0549": ((r"""(<note>)(Cajatizaad)""", r"\1⌊1⌋ \2"),),
+    "09:p0548-0550": (
+        (r"""(<remark>«Aan de)""", r"<folio>Fol. 4235r ⌊2⌋</folio>\n\1"),
+    ),
+    "09:p0567-0574": ((r"""(kouwers ”)(3)""", r"\1⌊\2⌋"),),
+    "09:p0597-0597": ((r"""(lawang)'""", r"\1⌊1⌋"),),
+    "09:p0597-0602": (
+        (r"""<super>\?</super>""", r"⌊3⌋"),
+        (r"""(<remark>«David)""", r"<folio>Fol. 1219v-1220r. ⌊4⌋</folio>\n\1"),
+    ),
+    "09:p0597-0607": ((r"""3nli2""", r"3 11/12"),),
+    "09:p0597-0610": ((r"""(etc\.,)(7)""", r"\1⌊\2⌋"),),
+    "09:p0597-0611": (
+        (
+            r"""(kooplieden\.<lb/>\n</para>\n)""",
+            r"\1<folio>Fol. 1387v-1387r.⌊8⌋</folio>\n",
+        ),
+    ),
+    "09:p0702-0706": (
+        (
+            r"""(300 rds\.<lb/>\n</para>\n)""",
+            r"\1<folio>Fol. 2786v-2787r.⌊1⌋</folio>\n",
+        ),
+    ),
+    "09:p0782-0800": (
+        (
+            r"""(laten plegen\.<lb/>\n</para>\n)""",
+            r"\1<folio>Fol. 1405r-1408r.⌊1⌋</folio>\n",
+        ),
+    ),
     "09:p0750-0758": (
         (r"""(<note>)(')( Tanna)""", r"\1⌊5⌋\2"),
         (r"""(<note>)(’)( Bohay)""", r"\1⌊6⌋\2"),
     ),
+    "09:p0750-0761": ((r"""(i-a)(8)""", r"\1⌊\2⌋"),),
     "09:p0782-0801": ((r"""(<note>)(Zie)""", r"\1⌊2⌋ \2"),),
+    "10:p0001-0035": ((r"""(\*\*\*)n""", r"\1⌊11⌋"),),
     "10:p0001-0018": ((r"""(<note>)(Dit)""", r"\1⌊8⌋ \2"),),
     "10:p0112-0115": ((r"""(<note>)(Betuyd)""", r"\1⌊4⌋ \2"),),
     "10:p0112-0125": ((r"""(<note>)(In)""", r"\1⌊8⌋ \2"),),
     "10:p0112-0131": ((r"""(<note>)(1 1)""", r"\1⌊11⌋ \2"),),
+    "10:p0175-0185": ((r"""(\.\.\.)(5)""", r"\1⌊\2⌋"),),
     "10:p0175-0228": (
         (
             r"""(<remark>)<special>([^<]*)</special> \( """,
@@ -690,11 +737,29 @@ comptoiren meer als de winsten, te weten<lb/>
         ),
     ),
     "10:p0175-0195": ((r"""(<note>)(Temeraire)""", r"\1⌊8⌋ \2"),),
+    "10:p0255-0269": ((r"""(1737)(3)""", r"\1⌊\2⌋"),),
     "10:p0255-0279": ((r"""(<note>)(De)""", r"\1⌊8⌋ \2"),),
     "10:p0297-0317": ((r"""(<note>)(Het)""", r"\1⌊8⌋ \2"),),
     "10:p0297-0340": ((r"""(<note>)(Sortiados)""", r"\1⌊11⌋ \2"),),
     "10:p0399-0400": ((r"""(<note>)(Calange)""", r"\1⌊1⌋ \2"),),
+    "10:p0399-0407": (
+        (r"""(<cell n="168" row="25" col="2">[^<]*)(4)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="168" row="25" col="4">[^<]*)(5)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="168" row="25" col="5">[^<]*)(6)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="169" row="7" col="9">[^<]*)(7)(</cell>)""", r"\1⌊\2⌋\3"),
+    ),
     "10:p0399-0408": (
+        (r"""(<cell n="170" row="14" col="9">[^<]*)(8)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="170" row="16" col="2">[^<]*)(9)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="170" row="16" col="3">[^<]*)(10)(</cell>)""", r"\1⌊\2⌋\3"),
+        (
+            r"""(<cell n="170" row="16" col="5">[^<]*)<super>(11)</super>(</cell>)""",
+            r"\1⌊\2⌋\3",
+        ),
+        (r"""(<cell n="170" row="19" col="9">[^<]*)(12)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="170" row="20" col="9">[^<]*)(13)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="170" row="22" col="9">[^<]*)(4)(</cell>)""", r"\1⌊1\2⌋\3"),
+        (r"""(<cell n="170" row="31" col="9">[^<]*)(15)(</cell>)""", r"\1⌊\2⌋\3"),
         (
             r"""<note><super>8</super>.*</note>""",
             r"""
@@ -726,6 +791,13 @@ op (ƒ 200.449,5,8).<lb/>
         ),
     ),
     "10:p0399-0409": (
+        (r"""(<cell n="171" row="3" col="2">[^<]*)(16)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="171" row="3" col="3">[^<]*)(17)(</cell>)""", r"\1⌊\2⌋\3"),
+        (
+            r"""(<cell n="171" row="3" col="5">[^<]*)2\^8(</cell>)""",
+            r"\g<1>2 1/5 ⌊18⌋\2",
+        ),
+        (r"""(<cell n="171" row="28" col="2">[^<]*)”(</cell>)""", r"\1⌊19⌋\2"),
         (
             r"""<note><super>16</super>.*</note>""",
             r"""
@@ -747,8 +819,27 @@ op (ƒ 200.449,5,8).<lb/>
             """,
         ),
     ),
+    "10:p0399-0410": (
+        (r"""(<cell n="173" row="4" col="9">[^<]*)(21)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="173" row="14" col="2">[^<]*)(22)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="173" row="24" col="9">[^<]*)(23)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""(<cell n="173" row="28" col="9">[^<]*)(24)(</cell>)""", r"\1⌊\2⌋\3"),
+        (r"""\b(3)(25)\b""", r"\1⌊\2⌋"),
+    ),
+    "10:p0399-0411": (
+        (r"""\b(8)(26)\b""", r"\1⌊\2⌋"),
+        (r"""(-)(27)\b""", r"\1⌊\2⌋"),
+        (r"""(<cell n="175" row="9" col="2">[^<]*)l(28)(</cell>)""", r"\g<1>1⌊\2⌋\3"),
+        (r"""(<cell n="175" row="9" col="3">[^<]*)(29)(</cell>)""", r"\1⌊\2⌋\3"),
+        (
+            r"""(<cell n="175" row="9" col="4">)<ref>([^<]*)</ref>(30)(</cell>)""",
+            r"\1\2⌊\3⌋\4",
+        ),
+    ),
     "10:p0413-0418": ((r"""(<note>)(Slinken)""", r"\1⌊1⌋ \2"),),
     "10:p0413-0430": ((r"""(<note>)<super>2</super>""", r"\1⌊12⌋"),),
+    "10:p0413-0455": ((r"""\b(26)(<lb/>)""", r"⌊\1⌋\2"),),
+    "10:p0413-0456": ((r"""(670)(27)""", r"\1⌊\2⌋"),),
     "10:p0461-0462": ((r"""(<note>)(Peuril)""", r"\1⌊1⌋ \2"),),
     "10:p0496-0504": ((r"""(<note>)(Hier)""", r"\1⌊1⌋ \2"),),
     "10:p0496-0518": (
@@ -766,6 +857,8 @@ op (ƒ 200.449,5,8).<lb/>
             r"<subhead>\2</subhead>\n\1( ",
         ),
     ),
+    "10:p0633-0743": ((r"""(\.\.\.)(6)""", r"\1⌊\2⌋"),),
+    "10:p0767-0769": ((r"""(73 %)\]""", r"\1 ⌊1⌋"),),
     "10:p0807-0814": (
         (
             r"""(<remark>)<special>(Menado[^<]*)</special> """,
@@ -779,17 +872,78 @@ op (ƒ 200.449,5,8).<lb/>
         ),
     ),
     "10:p0857-0858": ((r"""(<note>)(14 december)""", r"\1⌊1⌋ \2"),),
-    "11:p0027-0087": ((r"""(<note>)(<super>1 1</super>)""", r"\1⌊11⌋ \2"),),
+    "11:p0008-0009": (
+        (
+            r"""\n(Djambi<lb/>)\n</para>\n""",
+            r"</para>\n<folio>Fol. 140r. ⌊1⌋</folio>\n<subhead>\1</subhead>\n",
+        ),
+    ),
+    "11:p0027-0085": (
+        (
+            r"""(<remark>«Batavia ondersteunt)""",
+            r"<folio>Fol. [963a]r-v. ⌊10⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0027-0087": (
+        (r"""(<note>)(<super>1 1</super>)""", r"\1⌊11⌋ \2"),
+        (
+            r"""(<remark>«Men moet zijn)""",
+            r"<folio>Fol. 978ar-987br. ⌊11⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0131-0132": ((r"""(Ida Anna)'""", r"\1⌊1⌋"),),
+    "11:p0131-0145": ((r"""( 8\.)(4)""", r"\1⌊\2⌋"),),
+    "11:p0131-0160": (
+        (
+            r"""(<remark>«De rotan die Sumatra)""",
+            r"<folio>Fol. 887v-889r. ⌊7⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0131-0174": ((r"""(1) (48)u""", r"\1\2⌊11⌋"),),
+    "11:p0131-0198": (
+        (
+            r"""(<remark>«Het grote aantal vaarten)""",
+            r"<folio>Fol. 1154r. ⌊14⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0207-0208": (
+        (
+            r"""\n(Malakka<lb/>)\n</para>\n""",
+            r"</para>\n<folio>Fol. 1435r. ⌊1⌋</folio>\n<subhead>\1</subhead>\n",
+        ),
+    ),
     "11:p0207-0209": ((r"""(traffique )\\(<lb/>)""", r"\1)\2"),),
+    "11:p0207-0213": (
+        (
+            r"""(<remark>«De kapers lappen)""",
+            r"<folio>Fol. 1459v-1450v. ⌊4⌋</folio>\n\1",
+        ),
+    ),
     "11:p0226-0270": ((r"""<super>1</super>( overstromingen)""", r"'\1"),),
     "11:p0226-0307": ((r"""(<note>)(<super>1</super>)""", r"\1⌊11⌋ \2"),),
+    "11:p0226-0308": ((r"""(22) (5%\.)(12)""", r"\1\2⌊\3⌋"),),
+    "11:p0226-0323": ((r"""(19)( albereets)""", r"⌊\1⌋\2"),),
     "11:p0226-0325": ((r"""(<note>)(<super>2 1</super>)""", r"\1⌊21⌋ \2"),),
+    "11:p0226-0326": (
+        (
+            r"""(<remark>«Andere justiti)""",
+            r"<folio>Fol. 780r-[793a]r. ⌊27⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0363-0395": ((r"""24Ó\.(4)""", r"240.⌊\1⌋"),),
+    "11:p0363-0407": (
+        (
+            r"""(<remark>«De lasten van Kasimbazar)""",
+            r"<folio>Fol. 332v-335v. ⌊6⌋</folio>\n\1",
+        ),
+    ),
     "11:p0363-0409": (
         (
             r"""(<remark>)<special>(Hooghly)</special>""",
             r"<subhead>\2</subhead>\n\1",
         ),
     ),
+    "11:p0363-0417": ((r"""(illipi-)(8)""", r"\1⌊\2⌋"),),
     "11:p0363-0433": (
         (
             r"""<note>ƒ 481.113,14, 8<lb/>.*</note>""",
@@ -817,12 +971,71 @@ op (ƒ 200.449,5,8).<lb/>
             """,
         ),
     ),
+    "11:p0363-0456": (
+        (
+            r"""(<remark>«Het gehele Bantamse)""",
+            r"<folio>Fol. 555xr-v. ⌊13⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0363-0472": (
+        (
+            r"""(<remark>«Batavia stuurt de brief)""",
+            r"<folio>Fol. 648v-649ar. ⌊16⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0507-0539": ((r"""(446)\/""", r"\1, ⌊3⌋"),),
+    "11:p0507-0572": (
+        (r"""(237)(9)""", r"\1⌊\2⌋"),
+        (r"""(, 8)(10)""", r"\1⌊\2⌋"),
+    ),
+    "11:p0507-0577": ((r"""(-,83)\n<super>1<\/super>""", r"\1 ⌊11⌋"),),
+    "11:p0507-0592": ((r"""\.\n<super>75<\/super>""", r". ⌊15⌋"),),
+    "11:p0507-0600": ((r"""\. ƒ\n<super>6<\/super>""", r". ⌊16⌋"),),
+    "11:p0601-0601": ((r"""(569\.)(1)""", r"\1⌊\2⌋"),),
+    "11:p0641-0642": (
+        (
+            r"""(<remark>«Op de redenen voor)""",
+            r"<folio>Fol. 163v-[163a]r. ⌊1⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0641-0644": (
+        (
+            r"""(<remark>«Batavia vraagt opheldering)""",
+            r"<folio>Fol. [169a]r. ⌊2⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0641-0650": ((r"""(<lb/>\n)<super>\?</super>""", r"⌊3⌋\1"),),
+    "11:p0641-0666": ((r"""(91) (1,)(4)""", r"\1\2⌊\3⌋"),),
     "11:p0641-0670": (
         (
             r"""(<remark>)(Kasimbazar)\n<emph>([^<]*)</emph>""",
             r"<subhead>\2</subhead>\n\1\3",
         ),
     ),
+    "11:p0641-0701": (
+        (r"""(versterkt\.)(6)\n<super>\*<\/super>""", r"\1⌊\2⌋"),
+        (r"""(maanden)9""", r"\1’"),
+    ),
+    "11:p0641-0711": (
+        (
+            r"""(<remark>«Mochten er toch)""",
+            r"<folio>Fol. [457a]r-v. ⌊7⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0641-0734": (
+        (
+            r"""(<remark>«Er wordt voor)""",
+            r"<folio>Fol. 580bv-581v. ⌊16⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0735-0744": ((r"""(1)(</folio>)""", r"⌊\1⌋\2"),),
+    "11:p0769-0789": (
+        (
+            r"""(<remark>«De handel in stofgoud)""",
+            r"<folio>Fol. 246v-252r. ⌊2⌋</folio>\n\1",
+        ),
+    ),
+    "11:p0769-0823": ((r"""(\.\.\.)(9)""", r"\1⌊\2⌋"),),
     "11:p0769-0833": ((r"""(<note>)(<super>1 1</super>)""", r"\1⌊11⌋ \2"),),
     "11:p0862-0866": (
         (
@@ -867,8 +1080,41 @@ bekend gesteld, namentlijk:<lb/>
             """,
         ),
     ),
-    "12:p0003-0068": ((r"""(<note>)(Het bedrag)""", r"\1⌊14⌋ \2"),),
-    "12:p0003-0071": ((r"""15<lb/>\s*<note>""", r"<note>⌊15⌋ "),),
+    "12:p0001-0002": ((r"""(<note>)""", r"<folio>Fol. 101r-v. ⌊1⌋</folio>\n\1"),),
+    "12:p0003-0024": (
+        (
+            r"""(<remark>«Resident Nicolaas Bang)""",
+            r"<folio>Fol. 244r-245r. ⌊6⌋</folio>\n\1",
+        ),
+    ),
+    "12:p0003-0063": ((r"""(\.\.\.)I3""", r"\1⌊13⌋"),),
+    "12:p0003-0068": (
+        (r"""(\.\.\.),4""", r"\1⌊14⌋"),
+        (r"""(<note>)(Het bedrag)""", r"\1⌊14⌋ \2"),
+    ),
+    "12:p0003-0071": (
+        (r"""(2172)(15)""", r"\1⌊\2⌋"),
+        (r"""15<lb/>\s*<note>""", r"<note>⌊15⌋ "),
+    ),
+    "12:p0003-0081": ((r"""(\.\.\.),6""", r"\1⌊16⌋"),),
+    "12:p0096-0103": ((r"""(\.\.\.)l""", r"\1⌊1⌋"),),
+    "12:p0096-0105": (
+        (
+            r"""\n(Bandjarmasin<lb/>)\n</para>\n""",
+            r"</para>\n<folio>Fol. [318a]v. ⌊2⌋</folio>\n<subhead>\1</subhead>\n",
+        ),
+    ),
+    "12:p0096-0107": (
+        (r"""(suspect)9""", r"\1’"),
+        (r"""daim(3)""", r"dalm⌊\1⌋"),
+    ),
+    "12:p0096-0109": ((r"""(\.\.\.)(4)""", r"\1⌊\2⌋"),),
+    "12:p0096-0125": (
+        (
+            r"""(<remark>«Batavia verzoekt om)""",
+            r"<folio>Fol. 391v-[391a]r. ⌊7⌋</folio>\n\1",
+        ),
+    ),
     "12:p0181-0181": (
         (r"""<note>ï<lb/>\s*</note>\s*<note>""", r"<note>⌊1⌋ "),
         (r"""</note>\s*<note>(1752\.<lb/>)""", r"\1"),
@@ -1036,10 +1282,16 @@ goud moeilijk aan de bestellingen door de kantoren die textiel leveren, voldaan 
         ),
     ),
 }
+
+
+def comp(ex):
+    regex = re.compile(ex, re.S)
+    return regex
+
+
 CORRECTIONS = {
     page: tuple(
-        (re.compile(spec[0], re.S), spec[1], 1 if len(spec) == 2 else spec[2])
-        for spec in specs
+        (comp(spec[0]), spec[1], 1 if len(spec) == 2 else spec[2]) for spec in specs
     )
     for (page, specs) in CORRECTIONS_DEF.items()
 }
@@ -1420,6 +1672,38 @@ NOTES_PER_PAGE = {1, 2, 3, 4, 5, 6, 7}
 NOTES_BRACKET = {1, 2, 3, 4, 5, 6, 7, 8}
 NOTE_START = 0
 
+EXTRA_DIGITS = {
+    "i": 1,
+    "l": 1,
+}
+
+EXTRA_DIGIT_STR = "".join(EXTRA_DIGITS)
+
+NUMBER_RE = re.compile(r"""[0-9]""")
+
+NUMBER_SANITY_RE = re.compile(
+    fr"""
+    \b
+    (?:
+        [0-9{EXTRA_DIGIT_STR}]
+        [0-9{EXTRA_DIGIT_STR}.,/-]*
+        [0-9{EXTRA_DIGIT_STR}]
+    )
+    \b
+    """,
+    re.S | re.X,
+)
+
+
+def numberRepl(match):
+    number = match.group(0)
+    if not NUMBER_RE.search(number):
+        return number
+
+    for (extraDigit, value) in EXTRA_DIGITS.items():
+        number = number.replace(extraDigit, str(value))
+    return number
+
 
 def processPage(text, previous, result, info, *args, **kwargs):
     global NOTE_START
@@ -1500,6 +1784,27 @@ def trimVolume(vol, letters, info, idMap, givenLid, mergeText):
     info["noteBrackets"] = int(vol.lstrip("0")) in NOTES_BRACKET
 
 
+ADD_LB_STR = "|".join(ADD_LB_ELEMENTS)
+
+TAIL_LB_RE = re.compile(
+    fr"""
+        <lb/>
+        \s*
+        (
+            </
+                (?:
+                    {ADD_LB_STR}
+                )
+            >
+        )
+        \s*
+    """,
+    re.S | re.X,
+)
+
+A_RE = re.compile(r"(\b|[0-9])a([0-9])", re.S)
+
+
 def trimPage(text, info, previous, *args, **kwargs):
     global NOTE_START
 
@@ -1519,6 +1824,9 @@ def trimPage(text, info, previous, *args, **kwargs):
     text = applyCorrections(CORRECTIONS, page, text)
 
     text = REMARK_MULTIPLE_RE.sub(remarkMultiplePre(info), text)
+
+    text = NUMBER_SANITY_RE.sub(numberRepl, text)
+    text = A_RE.sub(r"\1 à \2", text)
 
     current = {}
 
@@ -1613,6 +1921,9 @@ def trimPage(text, info, previous, *args, **kwargs):
         for x in reversed(thisFnoteBodyInfo):
             fnoteBodyInfo[page].insert(0, x)
 
+    text = TAIL_LB_RE.sub(r"\1\n", text)
+
+    text = text.replace(LT, "&lt;").replace(GT, "&gt;").replace(AMP, "&amp;")
     return (text, current)
 
 
@@ -1796,6 +2107,8 @@ def corpusPost(info):
                 if str(ref) == mark
                 else "="
                 if overrideMark.get(ref, None) == mark
+                else "≃"
+                if str(ref) == mark.replace(" ", "")
                 else "∈"
                 if ref in nums
                 else "∉"
@@ -2128,6 +2441,8 @@ def cleanText(text, tag, full=False):
         text = text.replace("</subhead>", "**")
         text = text.replace("<und>", "_")
         text = text.replace("</und>", "_")
+        text = text.replace("<sub>", "^")
+        text = text.replace("</sub>", "^")
         text = text.replace("<super>", "^")
         text = text.replace("</super>", "^")
         text = text.replace("<special>", "`")
@@ -2521,6 +2836,12 @@ MARK_PLAIN_RE = re.compile(
                 [0-9]{{1,2}}
                 \b
             )
+            |
+            (?:
+                (?<=[a-zé][;.’'])
+                [0-9]{{1,2}}
+                \b
+            )
         )
     """,
     re.S | re.X,
@@ -2565,8 +2886,8 @@ NOTE_REF_BODY_RE = re.compile(
 
 
 def showPage(text, label):
-    (tb, te) = (1000, 1500)
-    show = False and 'n="533"' in text
+    (tb, te) = (400, 1000)
+    show = False and 'n="41"' in text
     if show:
         print(
             f"=== [ {label} ] ========================================================"
@@ -2714,6 +3035,8 @@ def formatNoteMarks(text, info, bodies):
                 .replace(" )", "")
                 .replace(")", "")
             )
+        else:
+            mark = mark.replace("<super>", "").replace("</super>", "")
         mark = mark.replace("⌊", "").replace("⌋", "")
         if mark in skipMarks:
             continue

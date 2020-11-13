@@ -14,6 +14,7 @@ from lib import (
     REPO,
     META_DECL,
     WHITE_RE,
+    ADD_LB_ELEMENTS,
     parseArgs,
     initTree,
     getVolumes,
@@ -193,6 +194,13 @@ featureMeta = {
     "status": {
         "description": "status of the letter, e.g. secret, copy",
         "format": "keyword",
+    },
+    "sub": {
+        "description": (
+            "whether a word has subscript typography"
+            " possibly indicating the denominator of a fraction"
+        ),
+        "format": "integer 1 or absent",
     },
     "super": {
         "description": (
@@ -381,6 +389,7 @@ TEXT_ATTRIBUTES = """
     emph
     remark
     special
+    sub
     super
     und
     ref
@@ -435,6 +444,7 @@ DO_TEXT_ELEMENTS = set(
     remark
     special
     subhead
+    sub
     super
     und
 """.strip().split()
@@ -451,6 +461,8 @@ DO_TAIL_ELEMENTS = set(
     ref
     remark
     special
+    subhead
+    sub
     super
     und
 """.strip().split()
@@ -487,7 +499,8 @@ def walkNode(cv, doc, node, cur, notes):
     row.n,row | holds a table row with cells | node type row
     cell.n,row,col | holds material in a table cell node type cell
     emph | inline formatting (italic-bold-large mixture) | binary feature emph
-    super | inline formatting (superscript) | binary feature supe
+    sub | inline formatting (subscript) | binary feature sub
+    super | inline formatting (superscript) | binary feature super
     und | inline formatting (underline) | binary feature und
     special | inline formatting | binary feature special
     folio | reference to a folio page | feature folio
@@ -598,6 +611,15 @@ def walkNode(cv, doc, node, cur, notes):
 
     elif tag == "fnote":
         cur["fn"] = None
+
+    if tag in ADD_LB_ELEMENTS:
+        curLine = cur.get("line", None)
+        curFn = cur.get("fn", None)
+        if curLine:
+            linkIfEmpty(cv, curLine)
+            cv.terminate(curLine)
+        if not curFn:
+            cur["ln"] += 1
 
     if tag in DO_TAIL_ELEMENTS:
         addText(cv, node.tail, cur)

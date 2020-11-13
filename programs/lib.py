@@ -48,6 +48,21 @@ OUT_DIR = f"{TF_DIR}/{VERSION_TF}"
 
 CELL_RE = re.compile(r"""<cell>(.*?)</cell>""", re.S)
 
+LT = "≤"
+GT = "≥"
+AMP = "∪"
+
+ADD_LB_ELEMENTS = set(
+    """
+    folio
+    head
+    para
+    remark
+    row
+    subhead
+""".strip().split()
+)
+
 
 def parseArgs(args):
     vol = None
