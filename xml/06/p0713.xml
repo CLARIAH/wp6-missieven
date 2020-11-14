@@ -854,7 +854,7 @@ Eenige nae Cheribon afgesondene van den Koning van daar geretourneerd<lb/>
 waren met twee brieven aan Sijn Majesteyt van de twee Cheribonse Princen, den<lb/>
 Panambahan en Pangeran Radja Cassoema - . Eene van des Sultans egte<lb/>
 soonen, genaamt Pangeran Adepatty, volgens de gerugten een springtogtje derwaarts<lb/>
-stond te doen onder voorgeving van aan het soogenaamde heylige graf *) te<lb/>
+stond te doen onder voorgeving van aan het soogenaamde heylige graf <fref ref="1"/>  te<lb/>
 offeren, dog of sulx niet eygentlijk een vervolg zal wesen van de pogingen des<lb/>
 Sultans omtrent het uythuwelijken sijner kinderen aan die der Cheribonse Princen,<lb/>
 —</para>
@@ -881,10 +881,7 @@ in de waterruimen voor patria kunnen dienen:<lb/>
 <para>49 „ vierponders<lb/>
 100 p.
 <super>8</super> drieponders</para>
-<para>438 „ 1387 p.8*),</para>
-<para>Het graf van den in ongeveer 1570 gestorven Sunan Gunung Djati, van wien zowel<lb/>
-de Cheribonse als de Bantamse Vorsten afstamden.</para>
-<para>Bij deze optelling zijn de achtponders vergeten.</para>
+<para>438 „ 1387 p.8<fref ref="2"/> ,</para>
 <table n="97">
 <row n="97" row="1">
 <cell n="97" row="1" col="1">uyt</cell>
@@ -916,6 +913,12 @@ de Cheribonse als de Bantamse Vorsten afstamden.</para>
 </row>
 </table>
 
+<fnote ref="1">Het graf van den in ongeveer 1570 gestorven Sunan Gunung Djati, van wien zowel<lb/>
+de Cheribonse als de Bantamse Vorsten afstamden.<lb/>
+</fnote>
+<fnote ref="2">Bij deze optelling zijn de achtponders vergeten.<lb/>
+</fnote>
+
 <pb n="729" tpl="1" vol="06" facs="6_159_0729"/>
 <remark>«voorts nog 242 stuks onbekwaam kanon; van de ijzeren kanons werd in november<lb/>
 reeds verzonden van de genoemde voorraad:<lb/>
@@ -923,8 +926,7 @@ reeds verzonden van de genoemde voorraad:<lb/>
 <para>
 26 p.8 twaalf ponders, 9 p.8 tienponders, 114 p.8 sesponders, 30 p.8 vijfponders,<lb/>
 42 p.8 vierponders en 102 p.8 drieponders.</para>
-<remark>
-«Is de voorraad op, dan zal men huidspijkers voor ballast gebruiken , waarvan<lb/>
+<remark>«Is de voorraad op, dan zal men huidspijkers voor ballast gebruiken , waarvan<lb/>
  43 vat resteert , de voorkeur heeft echter tin, waarvan men 150000 heeft; door watertekort<lb/>
 in het Molenvliet en het springen van 2 kruitmolens in 1709 was het moeilijk<lb/>
 voldoende buskruit bij te laden, 2 stellen molenstenen vraagt men dringend aan, daar<lb/>
@@ -1057,8 +1059,7 @@ Do crediteuren beloopen f . 5902734, te weten :<lb/>
 d’capitalen
 <emph>k</emph> deposito . f. 5342383<lb/>
 d’credit staande reec . . 560351.</para>
-<remark>
-«Tot de Jakatrase inkomsten aan tollen, lieerden, pasgelden en pachten, totaal<lb/>
+<remark>«Tot de Jakatrase inkomsten aan tollen, lieerden, pasgelden en pachten, totaal<lb/>
 203906 rsd. droegen o.a. bij de pachten 139260, de arakbranderijen 20736, ’s Heren<lb/>
 Gerechtigheid 18040; de verpachting voor 1711 geschiedde voor 13289 rsd. per maand,<lb/>
  o. a. 3260 voor de groentekramen en winkels, 2560 het hoofdgeld der Chinezen, 1600 liet<lb/>

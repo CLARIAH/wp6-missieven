@@ -29,6 +29,14 @@ across page boundaries to the page where their main fragment is.
 
 """
 
+SHIFT_POSTNOTE_MATERIAL = set(
+    """
+    01:p0453-0475
+    02:p0332-0363
+    06:p0713-0728
+    """.strip().split()
+)
+
 CORRECTIONS_DEF = {
     "01:p0004-0004": (
         (r"""<super>4J</super> \.<lb/>\s*(</remark>)""", r"""⌊4⌋\1"""),
@@ -97,6 +105,7 @@ CORRECTIONS_DEF = {
         (r"""l\(F\.""", r"""10r"""),
         (r"""<note>(Soowel.*?)</note>""", r"""<para>\1</para>"""),
     ),
+    "02:p0370-0395": ((r"""(:\))(3)""", r"\1⌊\2⌋"),),
     "02:p0403-0438": (
         (r"""ö\)""", r"""⌊9⌋"""),
         (r"""u\)""", r"""⌊11⌋"""),
@@ -126,6 +135,10 @@ costelijcke peper soude vallen, in comparatie van die op Batavia ingecocht wert,
         (r"""<note>I\)""", r"""<note>2)"""),
     ),
     "02:p0480-0498": ((r"""(memorie gemaect)""", r"\1⌊1⌋"),),
+    "02:p0583-0584": (
+        (r"""<para>584 Reniers.*?1652""", r""),
+        (r"""(1\) Geheten.*)</para>""", r"<note>\1</note>"),
+    ),
     "02:p0585-0615": ((r"""(Borth)1\)""", r"\1⌊1⌋"),),
     "02:p0585-0624": ((r"""(gen\.)11\)""", r"\1<super>t</super>⌊1⌋"),),
     "02:p0585-0636": ((r"""(den Signaty)""", r"\1⌊1⌋"),),
@@ -133,9 +146,13 @@ costelijcke peper soude vallen, in comparatie van die op Batavia ingecocht wert,
     "02:p0640-0651": ((r"""• • ■\)""", r"...)"),),
     "02:p0640-0660": ((r"""(quadreren)1\)""", r"\1⌊1⌋"),),
     "02:p0673-0718": ((r"""<note>6\) (Bandel,)""", r"<note>5) \1"),),
-    "02:p0739-0743": ((r"""<note>(2 .*?)</note>""", r"<para>\1</para>"),),
+    "02:p0739-0743": (
+        (r"""i\)""", r"„"),
+        (r"""<note>(2 .*?)</note>""", r"<para>\1</para>"),
+    ),
     "02:p0770-0806": ((r"""<note>21 """, r"<note>2)"),),
     "02:p0770-0813": (
+        (r"""3\)(</cell>)""", r"„\1"),
         (
             r"""<note>(ƒ 1 .*)</note>""",
             r"""
@@ -507,6 +524,7 @@ comptoiren meer als de winsten, te weten<lb/>
     "05:p0195-0219": ((r"""(1664)(<lb/>)""", r"\1⌊1⌋\2"),),
     "05:p0195-0223": ((r"""(Griek)""", r"\1⌊1⌋"),),
     "05:p0195-0228": ((r"""(wakkiel)2\)""", r"\1⌊2⌋"),),
+    "05:p0195-0232": ((r"""(Bontaingse)""", r"\1⌊1⌋"),),
     "05:p0296-0298": ((r"""(Pessy)1\)""", r"\1⌊1⌋"),),
     "05:p0296-0335": ((r"""</note>\s*<note>(9°20' N\.B\.<lb/>\s*)""", r"\1"),),
     "05:p0296-0339": ((r"""<sub>n0g</sub> - «\)""", r"nog -----⌊4⌋"),),
@@ -639,6 +657,7 @@ comptoiren meer als de winsten, te weten<lb/>
     "07:p0325-0330": ((r"""(haar) '\)""", r"\1⌊1⌋"),),
     "07:p0336-0349": ((r"""<super>3\)</super>""", r"⌊3⌋"),),
     "07:p0413-0439": ((r"""<super>l\)</super>""", r"⌊1⌋"),),
+    "07:p0413-0448": ((r"""!\)•""", r"⌊1⌋"),),
     "07:p0479-0479": ((r"""(derselver)'\)""", r"\1⌊1⌋"),),
     "07:p0479-0483": (
         (r"""(Draak)1\n<super>2\)</super>""", r"\1⌊1⌋,"),
@@ -686,16 +705,34 @@ comptoiren meer als de winsten, te weten<lb/>
     "08:p0188-0205": ((r"""(Attapitti)(32)\)""", r"\1⌊\2⌋"),),
     "08:p0235-0235": ((r"""(735)(1)\)""", r"\1⌊\2⌋"),),
     "08:p0552-0581": ((r"""(abord)""", r"\1⌊1⌋"),),
+    "09:p0007-0010": ((r"""(<note>)(Galetten)""", r"\1⌊2⌋\2"),),
     "09:p0015-0051": ((r"""(sigh offers)'(9)""", r'\1"⌊\2⌋'),),
     "09:p0071-0081": ((r"""/i([35])""", r"/\1", 2),),
+    "09:p0071-0088": ((r"""(\^o)(00)""", r"\1 \2"),),
+    "09:p0097-0100": ((r"""(Zijn Edelh\.)1""", r"\1<super>t</super>"),),
     "09:p0097-0105": ((r"""(noroos)(5)""", r"\1⌊\2⌋"),),
     "09:p0365-0387": ((r"""(ƒ 7823)""", r"(\1"),),
+    "09:p0207-0210": ((r"""of95/s%""", r"of 9 5/8 %"),),
+    "09:p0233-0235": ((r"""(met)(20)""", r"\1 \2"),),
+    "09:p0233-0251": (
+        (r"""(Magdalena)<super>1</super>(Hillegonda)""", r"\1 - \2"),
+        (r"""(Donk)<super>1</super>(De Geertruyd)""", r"\1 - \2"),
+    ),
+    "09:p0256-0257": ((r"""<super>(91)</super>""", r"\1"),),
     "09:p0256-0274": ((r"""<super>1 1</super>""", r"⌊11⌋"),),
+    "09:p0256-0277": ((r"""(37uh)(2)""", r"\1 \2"),),
+    "09:p0344-0355": ((r"""(Zijn Ed.)(2)""", r"\1⌊\2⌋"),),
+    "09:p0365-0365": ((r"""<super>(1 1)</super>""", r"\1"),),
+    "09:p0484-0492": ((r"""8Il4%""", r"8 1/4 %"),),
     "09:p0548-0549": ((r"""(<note>)(Cajatizaad)""", r"\1⌊1⌋ \2"),),
     "09:p0548-0550": (
         (r"""(<remark>«Aan de)""", r"<folio>Fol. 4235r ⌊2⌋</folio>\n\1"),
     ),
+    "09:p0548-0555": ((r"""\n<super>(24)</super>""", r"\1"),),
     "09:p0567-0574": ((r"""(kouwers ”)(3)""", r"\1⌊\2⌋"),),
+    "09:p0567-0579": ((r"""(moet)1 b""", r"\1 1/3"),),
+    "09:p0567-0585": ((r"""(<note>)H""", r"\1⌊8⌋"),),
+    "09:p0588-0591": ((r"""(vullen\.)(1)""", r"\1⌊\2⌋"),),
     "09:p0597-0597": ((r"""(lawang)'""", r"\1⌊1⌋"),),
     "09:p0597-0602": (
         (r"""<super>\?</super>""", r"⌊3⌋"),
@@ -709,12 +746,16 @@ comptoiren meer als de winsten, te weten<lb/>
             r"\1<folio>Fol. 1387v-1387r.⌊8⌋</folio>\n",
         ),
     ),
+    "09:p0628-0630": ((r"""(gesloten\.)(2)""", r"\1⌊\2⌋"),),
+    "09:p0692-0695": ((r"""(<note>)(Ooirt)""", r"\1⌊1⌋"),),
+    "09:p0692-0700": ((r"""(Vi)(6)""", r"\1 \2", 2),),
     "09:p0702-0706": (
         (
             r"""(300 rds\.<lb/>\n</para>\n)""",
             r"\1<folio>Fol. 2786v-2787r.⌊1⌋</folio>\n",
         ),
     ),
+    "09:p0702-0712": ((r"""(moppen\.)(3)""", r"\1⌊\2⌋"),),
     "09:p0782-0800": (
         (
             r"""(laten plegen\.<lb/>\n</para>\n)""",
@@ -732,14 +773,16 @@ comptoiren meer als de winsten, te weten<lb/>
     "10:p0112-0115": ((r"""(<note>)(Betuyd)""", r"\1⌊4⌋ \2"),),
     "10:p0112-0125": ((r"""(<note>)(In)""", r"\1⌊8⌋ \2"),),
     "10:p0112-0131": ((r"""(<note>)(1 1)""", r"\1⌊11⌋ \2"),),
+    "10:p0175-0183": ((r"""(off\.)(4)""", r"\1⌊\2⌋"),),
     "10:p0175-0185": ((r"""(\.\.\.)(5)""", r"\1⌊\2⌋"),),
+    "10:p0175-0195": ((r"""(<note>)(Temeraire)""", r"\1⌊8⌋ \2"),),
     "10:p0175-0228": (
         (
             r"""(<remark>)<special>([^<]*)</special> \( """,
             r"<subhead>\2</subhead>\n\1( ",
         ),
     ),
-    "10:p0175-0195": ((r"""(<note>)(Temeraire)""", r"\1⌊8⌋ \2"),),
+    "10:p0175-0247": ((r"""<note>(Gemeene.*?)</note>""", r"<para>\1</para>"),),
     "10:p0255-0269": ((r"""(1737)(3)""", r"\1⌊\2⌋"),),
     "10:p0255-0279": ((r"""(<note>)(De)""", r"\1⌊8⌋ \2"),),
     "10:p0297-0317": ((r"""(<note>)(Het)""", r"\1⌊8⌋ \2"),),
@@ -839,7 +882,8 @@ op (ƒ 200.449,5,8).<lb/>
             r"\1\2⌊\3⌋\4",
         ),
     ),
-    "10:p0413-0418": ((r"""(<note>)(Slinken)""", r"\1⌊1⌋ \2"),),
+    # "10:p0413-0418": ((r"""(<note>)(Slinken)""", r"\1⌊1⌋ \2"),),
+    "10:p0413-0418": ((r"""(<note>)(i)""", r"\1⌊1⌋"),),
     "10:p0413-0430": ((r"""(<note>)<super>2</super>""", r"\1⌊12⌋"),),
     "10:p0413-0455": ((r"""\b(26)(<lb/>)""", r"⌊\1⌋\2"),),
     "10:p0413-0456": ((r"""(670)(27)""", r"\1⌊\2⌋"),),
@@ -852,6 +896,9 @@ op (ƒ 200.449,5,8).<lb/>
         ),
     ),
     "10:p0496-0531": ((r"""(<note>)(Phaeton)""", r"\1⌊8⌋ \2"),),
+    "10:p0496-0582": ((r"""I0\.538j7""", r"10.53817"),),
+    "10:p0496-0594": ((r"""<note>(.*?)</note>""", r"<para>\1</para>"),),
+    "10:p0496-0595": ((r"""(Bantams)(76)""", r"\1 \2"),),
     "10:p0598-0625": ((r"""(<note>)(Recusatie)""", r"\1⌊8⌋ \2"),),
     "10:p0633-0641": ((r"""(<note>)(Fachinen)""", r"\1⌊1⌋ \2"),),
     "10:p0633-0700": (
@@ -875,12 +922,29 @@ op (ƒ 200.449,5,8).<lb/>
         ),
     ),
     "10:p0857-0858": ((r"""(<note>)(14 december)""", r"\1⌊1⌋ \2"),),
+    "10:p1016-1043": ((r"""<note>(.*?)</note>""", r"<para>\1</para>", 2),),
+    "10:p1016-1048": ((r"""(lj)(6)""", r"\1 \2"),),
+    "11:p0001-0005": (
+        (
+            r"""(<remark>«Batavia is verheugd)""",
+            r"<folio>Fol. 28v-30r. ⌊1⌋</folio>\n\1",
+        ),
+        (r"""(<note>)""", r"\1⌊1⌋"),
+    ),
     "11:p0008-0009": (
         (
             r"""\n(Djambi<lb/>)\n</para>\n""",
             r"</para>\n<folio>Fol. 140r. ⌊1⌋</folio>\n<subhead>\1</subhead>\n",
         ),
     ),
+    "11:p0027-0036": ((r"""(6r)(4)""", r"\1 \2"),),
+    "11:p0027-0055": ((r"""<super>4</super>""", r"‘"),),
+    "11:p0027-0071": ((r"""<super>4</super>""", r"‘", 2),),
+    "11:p0027-0076": (
+        (r"""(644)\n<super>12</super>""", r"\1 1/2 %"),
+        (r"""(6r)(4)""", r"\1 \2"),
+    ),
+    "11:p0027-0083": ((r"""<super>4</super>""", r"‘", 3),),
     "11:p0027-0085": (
         (
             r"""(<remark>«Batavia ondersteunt)""",
@@ -894,15 +958,24 @@ op (ƒ 200.449,5,8).<lb/>
             r"<folio>Fol. 978ar-987br. ⌊11⌋</folio>\n\1",
         ),
     ),
+    "11:p0027-0096": ((r"""<super>4</super>""", r"‘", 2),),
+    "11:p0027-0105": ((r"""1\n<super>0</super>""", r"1<super>e</super>"),),
+    "11:p0116-0129": ((r"""<super>4</super>""", r"‘"),),
     "11:p0131-0132": ((r"""(Ida Anna)'""", r"\1⌊1⌋"),),
     "11:p0131-0145": ((r"""( 8\.)(4)""", r"\1⌊\2⌋"),),
+    "11:p0131-0148": ((r"""(pikol\.)(6)""", r"\1⌊\2⌋"),),
+    "11:p0131-0158": ((r"""16r4""", r"16 3/4"),),
     "11:p0131-0160": (
         (
             r"""(<remark>«De rotan die Sumatra)""",
             r"<folio>Fol. 887v-889r. ⌊7⌋</folio>\n\1",
         ),
     ),
-    "11:p0131-0174": ((r"""(1) (48)u""", r"\1\2⌊11⌋"),),
+    "11:p0131-0174": (
+        (r"""(sijn\.)(10)""", r"\1⌊\2⌋"),
+        (r"""(1) (48)u""", r"\1\2⌊11⌋"),
+    ),
+    "11:p0131-0188": ((r"""8i (mahmudi per) \(r4""", r"8 1/2 \1 6 3/4"),),
     "11:p0131-0198": (
         (
             r"""(<remark>«Het grote aantal vaarten)""",
@@ -922,9 +995,12 @@ op (ƒ 200.449,5,8).<lb/>
             r"<folio>Fol. 1459v-1450v. ⌊4⌋</folio>\n\1",
         ),
     ),
+    "11:p0226-0253": ((r"""(pigen\.)(3)""", r"\1⌊\2⌋"),),
     "11:p0226-0270": ((r"""<super>1</super>( overstromingen)""", r"'\1"),),
+    "11:p0226-0273": ((r"""<super>4</super>""", r"‘"),),
     "11:p0226-0307": ((r"""(<note>)(<super>1</super>)""", r"\1⌊11⌋ \2"),),
     "11:p0226-0308": ((r"""(22) (5%\.)(12)""", r"\1\2⌊\3⌋"),),
+    "11:p0226-0312": ((r"""<super>4</super>""", r"‘"),),
     "11:p0226-0323": ((r"""(19)( albereets)""", r"⌊\1⌋\2"),),
     "11:p0226-0325": ((r"""(<note>)(<super>2 1</super>)""", r"\1⌊21⌋ \2"),),
     "11:p0226-0326": (
@@ -933,6 +1009,9 @@ op (ƒ 200.449,5,8).<lb/>
             r"<folio>Fol. 780r-[793a]r. ⌊27⌋</folio>\n\1",
         ),
     ),
+    "11:p0363-0365": ((r"""<super>12</super>""", r"1/2"),),
+    "11:p0363-0380": ((r"""<super>4</super>""", r"‘"),),
+    "11:p0363-0383": ((r"""(é)(77)""", r"\1 \2"),),
     "11:p0363-0395": ((r"""24Ó\.(4)""", r"240.⌊\1⌋"),),
     "11:p0363-0407": (
         (
@@ -946,7 +1025,9 @@ op (ƒ 200.449,5,8).<lb/>
             r"<subhead>\2</subhead>\n\1",
         ),
     ),
+    "11:p0363-0414": ((r"""<super>4</super>""", r"‘"),),
     "11:p0363-0417": ((r"""(illipi-)(8)""", r"\1⌊\2⌋"),),
+    "11:p0363-0432": ((r"""<note>(.*?)</note>""", r"<para>\1</para>", 4),),
     "11:p0363-0433": (
         (
             r"""<note>ƒ 481.113,14, 8<lb/>.*</note>""",
@@ -980,21 +1061,29 @@ op (ƒ 200.449,5,8).<lb/>
             r"<folio>Fol. 555xr-v. ⌊13⌋</folio>\n\1",
         ),
     ),
+    "11:p0363-0465": ((r"""6r2""", r"6 1/2"),),
     "11:p0363-0472": (
         (
             r"""(<remark>«Batavia stuurt de brief)""",
             r"<folio>Fol. 648v-649ar. ⌊16⌋</folio>\n\1",
         ),
     ),
+    "11:p0507-0517": ((r"""<note>(.*?)</note>""", r"<para>\1</para>", 4),),
     "11:p0507-0539": ((r"""(446)\/""", r"\1, ⌊3⌋"),),
+    "11:p0507-0567": ((r"""6j2""", r"6 9/32"),),
     "11:p0507-0572": (
         (r"""(237)(9)""", r"\1⌊\2⌋"),
         (r"""(, 8)(10)""", r"\1⌊\2⌋"),
     ),
     "11:p0507-0577": ((r"""(-,83)\n<super>1<\/super>""", r"\1 ⌊11⌋"),),
     "11:p0507-0592": ((r"""\.\n<super>75<\/super>""", r". ⌊15⌋"),),
+    "11:p0507-0599": ((r"""<super>4</super>""", r"‘"),),
     "11:p0507-0600": ((r"""\. ƒ\n<super>6<\/super>""", r". ⌊16⌋"),),
-    "11:p0601-0601": ((r"""(569\.)(1)""", r"\1⌊\2⌋"),),
+    "11:p0601-0601": (
+        (r"""<note>(Ondertussen.*?)</note>""", r"<para>\1</para>"),
+        (r"""(569\.)(1)""", r"\1⌊\2⌋"),
+    ),
+    "11:p0601-0602": ((r"""(vertoonde)9""", r"\1’"),),
     "11:p0641-0642": (
         (
             r"""(<remark>«Op de redenen voor)""",
@@ -1038,8 +1127,12 @@ op (ƒ 200.449,5,8).<lb/>
             r"<folio>Fol. 246v-252r. ⌊2⌋</folio>\n\1",
         ),
     ),
+    "11:p0769-0799": ((r"""<super>4</super>""", r"‘"),),
     "11:p0769-0823": ((r"""(\.\.\.)(9)""", r"\1⌊\2⌋"),),
     "11:p0769-0833": ((r"""(<note>)(<super>1 1</super>)""", r"\1⌊11⌋ \2"),),
+    "11:p0769-0844": ((r"""(zijn\.)(15)""", r"\1⌊\2⌋"),),
+    "11:p0769-0845": ((r"""<super>4</super>""", r"‘"),),
+    "11:p0846-0848": ((r"""<super>4</super>""", r"‘"),),
     "11:p0862-0866": (
         (
             r"""<note>De Bataviase versaameling.*</note>""",
@@ -1090,6 +1183,7 @@ bekend gesteld, namentlijk:<lb/>
             r"<folio>Fol. 244r-245r. ⌊6⌋</folio>\n\1",
         ),
     ),
+    "12:p0003-0034": ((r"""Pl0""", r"P<super>lo</super>"),),
     "12:p0003-0063": ((r"""(\.\.\.)I3""", r"\1⌊13⌋"),),
     "12:p0003-0068": (
         (r"""(\.\.\.),4""", r"\1⌊14⌋"),
@@ -1100,6 +1194,7 @@ bekend gesteld, namentlijk:<lb/>
         (r"""15<lb/>\s*<note>""", r"<note>⌊15⌋ "),
     ),
     "12:p0003-0081": ((r"""(\.\.\.),6""", r"\1⌊16⌋"),),
+    "12:p0089-0091": ((r"""(<note>)(Sim)""", r"\1⌊1⌋"),),
     "12:p0096-0103": ((r"""(\.\.\.)l""", r"\1⌊1⌋"),),
     "12:p0096-0105": (
         (
@@ -1112,6 +1207,7 @@ bekend gesteld, namentlijk:<lb/>
         (r"""daim(3)""", r"dalm⌊\1⌋"),
     ),
     "12:p0096-0109": ((r"""(\.\.\.)(4)""", r"\1⌊\2⌋"),),
+    "12:p0096-0119": ((r"""(c\.a\.)(5)""", r"\1⌊\2⌋"),),
     "12:p0096-0125": (
         (
             r"""(<remark>«Batavia verzoekt om)""",
@@ -1119,6 +1215,10 @@ bekend gesteld, namentlijk:<lb/>
         ),
     ),
     "12:p0096-0157": ((r"""(1750)(9)""", r"\1⌊\2⌋"),),
+    "12:p0180-0180": (
+        (r"""(1)(</folio>)""", r"⌊\1⌋\2"),
+        (r"""(<note>)(Missive)""", r"\1⌊1⌋"),
+    ),
     "12:p0181-0181": (
         (r"""<note>ï<lb/>\s*</note>\s*<note>""", r"<note>⌊1⌋ "),
         (r"""</note>\s*<note>(1752\.<lb/>)""", r"\1"),
@@ -1127,11 +1227,21 @@ bekend gesteld, namentlijk:<lb/>
     "12:p0198-0203": ((r"""(<note>)(Er is hier sprake)""", r"\1⌊1⌋ \2"),),
     "12:p0198-0267": ((r"""(,-)(4)""", r"\1⌊\2⌋"),),
     "12:p0276-0276": ((r"""(\.)(1)""", r"\1⌊\2⌋"),),
-    "12:p0293-0309": ((r"""(<note>)(In de marge)""", r"\1⌊1⌋ \2"),),
+    "12:p0281-0286": ((r"""(guar)(2)""", r"\1 \2"),),
+    "12:p0281-0287": (
+        (r"""(Gale|capitain|lieutenant|vaendrigs|sergeants)([129])""", r"\1 \2", 5),
+    ),
+    "12:p0281-0288": ((r"""(comptoiren)(6)""", r"\1 \2"),),
+    "12:p0293-0309": (
+        (r"""(<note>)(In de marge)""", r"\1⌊1⌋ \2"),
+        (r"""<note>i<lb/>\s*</note>\s*<note>""", r"<note>⌊1⌋ "),
+    ),
     "12:p0293-0362": ((r"""(1752)(3)""", r"\1⌊\2⌋"),),
     "12:p0293-0372": ((r"""(\/52)(6)""", r"\1⌊\2⌋"),),
     "12:p0293-0373": ((r"""</note>\s*<note>(9 mei)""", r"\1"),),
     "12:p0394-0395": ((r"""(1705)'""", r"\1⌊1⌋"),),
+    "12:p0403-0414": ((r"""<note>(.*?)</note>""", r"<para>\1</para>", 2),),
+    "12:p0403-0436": ((r"""(en)(83)""", r"\1 \2"),),
     "12:p0403-0477": (
         (
             r"""(<remark>«Het verheugt Batavia)""",
@@ -1154,7 +1264,16 @@ bekend gesteld, namentlijk:<lb/>
         (r"""(7\. )(1)""", r"\1⌊\2⌋"),
         (r"""I(754)(2)""", r"1\2⌊\2⌋ "),
     ),
-    "12:p0510-0603": ((r"""(<note>)(De rijksdaalder)""", r"\1⌊8⌋ \2"),),
+    "12:p0510-0529": ((r"""<super>9</super>""", r"’"),),
+    "12:p0510-0543": ((r"""(en)(56)""", r"\1 \2"),),
+    "12:p0510-0559": (
+        (r"""(van)(57)""", r"\1 \2"),
+        (r"""(lijwaten)(22)""", r"\1 \2"),
+    ),
+    "12:p0510-0603": (
+        (r"""(Sps\.)(8)""", r"\1⌊\2⌋"),
+        (r"""(<note>)(De rijksdaalder)""", r"\1⌊8⌋ \2"),
+    ),
     "12:p0510-0608": ((r"""(3) (1)(9)""", r"\1\2⌊\3⌋"),),
     "12:p0510-0613": ((r"""(mey)'""", r"\1⌊11⌋"),),
     "13:p0008-0011": (
@@ -1164,6 +1283,11 @@ bekend gesteld, namentlijk:<lb/>
     "13:p0014-0039": ((r"""<note>(Voorts.*)</note>""", r"</para><para>\1"),),
     "13:p0014-0098": ((r"""(12)(13)""", r"\1⌊\2⌋"),),
     "13:p0014-0059": ((r"""(<note>)(Platkoper)""", r"\1⌊8⌋ \2"),),
+    "13:p0122-0160": ((r""",lj4""", r",1 9/34"),),
+    "13:p0122-0161": (
+        (r"""(aresdaest)(1)""", r"\1⌊\2⌋"),
+        (r"""(m\.)(2)""", r"\1⌊\2⌋"),
+    ),
     "13:p0122-0167": (
         (
             r"""<note>aan silvere.*</note>""",
@@ -1192,6 +1316,7 @@ bekend gesteld, namentlijk:<lb/>
         (r"""(, 12)(6)""", r"\1⌊\2⌋"),
         (r"""(1, -)(7)""", r"\1⌊\2⌋"),
     ),
+    "13:p0217-0222": ((r"""(<note>)(In de marge)""", r"\1⌊1⌋ \2"),),
     "13:p0231-0261": ((r"""(563)(3)""", r"\1⌊\2⌋"),),
     "13:p0231-0263": ((r"""(,7,-\.)(4)""", r"\1⌊\2⌋"),),
     "13:p0231-0265": ((r"""(, 6,-)'""", r"\1⌊6⌋"),),
@@ -1296,7 +1421,10 @@ Spaans ingekogt en beswaard met procent provisie wel tot ƒ 387,13,8 klimt en no
             """,
         ),
     ),
-    "13:p0501-0578": ((r"""(<note>)(Het totaal)""", r"\1⌊11⌋ \2"),),
+    "13:p0501-0578": (
+        (r"""(vermeld\.)(11)""", r"\1⌊\2⌋"),
+        (r"""(<note>)(Het totaal)""", r"\1⌊11⌋ \2"),
+    ),
     "13:p0501-0581": ((r"""(535)(12)""", r"\1⌊\2⌋"),),
     "13:p0501-0598": (
         (
@@ -1339,6 +1467,8 @@ goud moeilijk aan de bestellingen door de kantoren die textiel leveren, voldaan 
             """,
         ),
     ),
+    "13:p0620-0625": ((r"""(overgemaakt\.)(1)""", r"\1⌊\2⌋"),),
+    "13:p0626-0632": ((r"""(arthillerije)(55)""", r"\1 \2"),),
 }
 
 
@@ -1465,7 +1595,6 @@ OVERRIDE_NOTE_MARK = {
     "07:p0651-0655": {3: "1"},
     "08:p0009-0019": {23: "11"},
     "08:p0121-0124": {2: "3"},
-    "08:p0128-0133": {11: "12", 12: "13"},
 }
 OVERRIDE_NOTE_BODY = {
     "01:p0184-0188": {5: "8", 6: "5", 7: "6", 8: "7"},
@@ -1534,7 +1663,6 @@ OVERRIDE_NOTE_BODY = {
     "07:p0684-0690": {2: "3", 3: "4"},
     "07:p0710-0713": {2: "1"},
     "07:p0710-0733": {2: "1", 3: "2"},
-    "08:p0128-0133": {11: "12", 12: "13"},
     "09:p0344-0355": {2: "1"},
 }
 SKIP_NOTE_BODY = {
@@ -1566,7 +1694,7 @@ REMARK_START_RE = re.compile(
         -*
         \s*
         \*?
-        [({]
+        [({«]
         \s*
     """,
     re.S | re.X,
@@ -1575,9 +1703,9 @@ REMARK_END_RE = re.compile(
     r"""
         [ -]*
         (?:
-            [ :)}][;\]]
+            [ :)}»][;\]]
             |
-            [:)}]
+            [:)}»]
         )
         [ -]*
         \s*
@@ -1815,20 +1943,21 @@ def processPage(text, previous, result, info, *args, **kwargs):
     if startNote:
         (curRef, curBody, curSummary) = startNote
 
-    if not prevNotes:
-        if startNote:
-            (curRef, curBody, curSummary) = startNote
-            fnoteBodyInfo[page].insert(0, ("≮", curSummary))
-            current["notes"].insert(0, startNote)
-    else:
+    if prevNotes:
         (prevRef, prevBody, prevSummary) = prevNotes[-1]
         if startNote:
             (thisSummary, thisTrimmed) = summarize(prevSummary + curSummary)
             prevNotes[-1] = (prevRef, prevBody + curBody, thisSummary)
+            current["notes"].pop(0)
         for (ref, body, summary) in prevNotes:
             mark = "" if ref is None else f' ref="{ref}"'
             result.append(f"<fnote{mark}>{body}</fnote>\n")
         result.append("\n")
+    else:
+        if startNote:
+            (curRef, curBody, curSummary) = startNote
+            current["notes"][0] = (0, curBody, curSummary)
+            fnoteBodyInfo[page][0] = (0, "≮", curSummary)
 
     previous["notes"] = current["notes"]
     previous["page"] = page
@@ -1882,6 +2011,8 @@ def trimPage(text, info, previous, *args, **kwargs):
     text = applyCorrections(CORRECTIONS, page, text)
 
     text = REMARK_MULTIPLE_RE.sub(remarkMultiplePre(info), text)
+    text = text.replace("<super>:)</super>", "<super>1)</super>")
+    text = text.replace(":)", ":»")
 
     text = NUMBER_SANITY_RE.sub(numberRepl, text)
     text = A_RE.sub(r"\1 à \2", text)
@@ -1954,30 +2085,24 @@ def trimPage(text, info, previous, *args, **kwargs):
     fnoteBodyInfo = info["fnoteBodyInfo"]
     fnoteMarkInfo = info["fnoteMarkInfo"]
 
-    thisFnoteBodyInfo = []
-    thisFnoteMarkInfo = []
+    thisFnoteBodyInfo = fnoteBodyInfo[page]
+    thisFnoteMarkInfo = fnoteMarkInfo[page]
 
-    (text, bodies) = formatNoteBodies(text, info, current, thisFnoteBodyInfo)
+    (text, bodies) = formatNoteBodies(text, info, current)
+    nBodies = sum(1 for ref in bodies if ref)
 
-    if len(bodies) == 0:
-        marks = {}
-    else:
-        (text, marks) = formatNoteMarks(text, info, bodies)
-        for (ref, (mark, summary)) in marks.items():
-            thisFnoteMarkInfo.append((ref, mark, summary))
-        thisFnoteMarkInfo.append((None, len(bodies), len(marks)))
-        fnoteMarkInfo[page].extend(thisFnoteMarkInfo)
+    (text, marks) = formatNoteMarks(text, info, bodies)
+    for (ref, (mark, summary)) in marks.items():
+        thisFnoteMarkInfo.append((ref, mark, summary))
+    thisFnoteMarkInfo.append((None, nBodies, len(marks)))
+    if nBodies:
         NOTE_START = max(bodies)
 
     if bodies:
         for (ref, (mark, summary)) in bodies.items():
             thisFnoteBodyInfo.append((ref, mark, summary))
-        fnoteBodyInfo[page].extend(thisFnoteBodyInfo)
     else:
-        label = "0"
-        thisFnoteBodyInfo.append((label, ""))
-        for x in reversed(thisFnoteBodyInfo):
-            fnoteBodyInfo[page].insert(0, x)
+        thisFnoteBodyInfo.append((0, "0", ""))
 
     text = TAIL_LB_RE.sub(r"\1\n", text)
 
@@ -2000,10 +2125,10 @@ LEGEND_REMARK = {
 }
 
 LEGEND_NOTE = {
-    "≮": (None, "continuing note without previous note on preceding page"),
-    "1": (None, "single note continuing from previous page and extending to next page"),
-    "F": (None, "first note on page continuing from previous page"),
-    "0": (None, "page without notes"),
+    "≮": (10, "continuing note without previous note on preceding page"),
+    "U": (100, "single note continuing from previous page and extending to next page"),
+    "F": (100, "first note on page continuing from previous page"),
+    "0": (100, "page without notes"),
     "≠": (0, "mark in conflict with sequence number"),
     "↓": (0, "no mark in text"),
     "+": (20, "mark is one more than sequence number"),
@@ -2066,34 +2191,36 @@ def corpusPost(info):
         nNotes = 0
 
         for entry in entries:
-            if len(entry) == 2:
-                (label, summary) = entry
-                report.append(f"\t{label} «{summary or ''}»\n")
-                continue
-
-            nNotes += 1
             (ref, mark, summary) = entry
-            mark = normalize(mark)
+            if ref == 0:
+                label = mark
+                markRep = "none" if label == "0" else "⌈⌉"
+                if mark != "0":
+                    nNotes += 1
+            else:
+                nNotes += 1
+                mark = normalize(mark)
+                markRep = f"⌈{mark}⌉"
 
-            label = (
-                "→"
-                if not mark
-                else "≡"
-                if str(ref) == mark
-                else "="
-                if overrideMark.get(ref, None) == mark
-                else "-"
-                if str(ref - 1) == mark
-                else "+"
-                if str(ref + 1) == mark
-                else "≠"
-            )
+                label = (
+                    "→"
+                    if not mark
+                    else "≡"
+                    if str(ref) == mark
+                    else "="
+                    if overrideMark.get(ref, None) == mark
+                    else "-"
+                    if str(ref - 1) == mark
+                    else "+"
+                    if str(ref + 1) == mark
+                    else "≠"
+                )
             thisScore = LEGEND_SCORE[label]
             score += thisScore
-            markRep = f"⌈{mark}⌉"
-            report.append(f" {ref:>2} {label} {markRep:<4} «{summary}»\n")
+            report.append(f" {ref:>2} {label} {markRep:<4} «{summary or ''}»\n")
 
-        score = 100 if nNotes == 0 else int(round(score / nNotes))
+        if nNotes != 0:
+            score = int(round(score / nNotes))
         scoreThreshold = int((score // 10) * 10)
         scores[scoreThreshold].append(page)
         totalScore += score
@@ -2527,6 +2654,7 @@ def cleanText(text, tag, full=False):
 
 
 MARK_MAPPING = {
+    "": "1",
     "‘": "1",
     "’": "1",
     "'": "1",
@@ -2681,7 +2809,7 @@ MARKED_NOTE = (
                 <note>
                 \s*
                 (
-                    I
+                    [lI]?
                 )
                 \s*
                 \)
@@ -2913,7 +3041,7 @@ MARK_PLAIN_RE = re.compile(
             )
             |
             (?:
-                (?<=[a-zé][;.’'])
+                (?<=[a-zé][;’'])
                 [0-9]{{1,2}}
                 \b
             )
@@ -2961,8 +3089,8 @@ NOTE_REF_BODY_RE = re.compile(
 
 
 def showPage(text, label):
-    (tb, te) = (400, 1000)
-    show = False and 'n="41"' in text
+    (tb, te) = (-600, None)
+    show = False and 'n="584"' in text
     if show:
         print(
             f"=== [ {label} ] ========================================================"
@@ -2970,42 +3098,83 @@ def showPage(text, label):
         print(text[tb:te])
 
 
-def formatNoteBodies(text, info, current, thisFnoteBodyInfo):
+SHIFT_POSTNOTE_RE = re.compile(
+    r"""
+    (
+        <fnote
+        .*
+        </fnote>
+        \s*
+    )
+    (
+        (?!
+            <fnote
+        )
+        .*
+    )
+    $
+    """,
+    re.S | re.X,
+)
+
+
+def formatNoteBodies(text, info, current):
+    page = info["page"]
+
     showPage(text, "BODY AAAA")
+
     text = NOTE_REF_BODY_RE.sub(r"""\1\2 """, text)
     showPage(text, "BODY AABB")
+
     text = SPURIOUS_PARA_RE.sub(r"""\1\2) """, text)
     showPage(text, "BODY BBBB")
+
     text = MARKED_NOTE_DBL_RE.sub(r"""\1\n\2""", text)
     showPage(text, "BODY CCCC")
+
     for (convertRe, convertRepl) in MARKED_UN_NOTE:
         text = convertRe.sub(convertRepl, text)
     showPage(text, "BODY DDDD")
+
     text = DEL_LB_RE.sub(r"""\1\n""", text)
     showPage(text, "BODY EEEE")
+
     for (trimRe, trimRepl) in MARKED_NOTE:
         text = trimRe.sub(trimRepl, text)
     showPage(text, "BODY FFFF")
+
     text = NOTE_RENAME_RE.sub(r"""<fnote\1>\2</fnote>""", text)
     showPage(text, "BODY GGGG")
+
     text = PARA_END_BEFORE_NOTES_RE.sub(r"\2\n\1", text)
     showPage(text, "BODY HHHH")
+
     for (trimRe, trimRepl) in NOTES_FILTER1:
         text = trimRe.sub(trimRepl, text)
     showPage(text, "BODY IIII")
+
     text = NOTE_COLLAPSE_RE.sub(collapseNotes, text)
     showPage(text, "BODY JJJJ")
+
+    if page in SHIFT_POSTNOTE_MATERIAL:
+        text = SHIFT_POSTNOTE_RE.sub(r"\2\n\1", text)
+
+    showPage(text, "BODY KKKK")
+
     for (trimRe, trimRepl) in NOTES_FILTER2:
         text = trimRe.sub(trimRepl, text)
-    showPage(text, "BODY KKKK")
-    text = COMMENT_RE.sub(cleanTag, text)
     showPage(text, "BODY LLLL")
+
+    text = COMMENT_RE.sub(cleanTag, text)
+    showPage(text, "BODY MMMM")
+
     nmatch = NOTES_ALL_RE.match(text)
     if nmatch:
         (text, notesStr, post) = nmatch.group(1, 2, 3)
 
         if post:
-            print("\nMaterial after footnotes:")
+            page = info["page"]
+            print(f"\nMaterial after footnotes on {page}:")
             print(f"\tNOTES==={notesStr}")
             print(f"\tPOST ==={post}")
     else:
@@ -3035,17 +3204,21 @@ def formatNoteBodies(text, info, current, thisFnoteBodyInfo):
                 if isLast:
                     onlyNote = firstNote
                     firstNote = None
-                    label = "1"
+                    label = "U"
                 else:
                     label = "F"
-                thisFnoteBodyInfo.append((label, summary))
+                useRef = 0
+                useMark = label
             else:
                 ref += 1
                 if page in SKIP_NOTE_BODY:
                     while ref in SKIP_NOTE_BODY[page]:
                         ref += 1
-                notes.append((ref, body, summary))
-                bodies[ref] = (mark, summary)
+                useRef = ref
+                useMark = mark
+
+            notes.append((useRef, body, summary))
+            bodies[useRef] = (useMark, summary)
 
     current["notes"] = notes
     current["onlyNote"] = onlyNote
@@ -3117,6 +3290,9 @@ def formatNoteMarks(text, info, bodies):
             continue
         (b, e) = match.span()
         ref += 1
+        if page in SKIP_NOTE_BODY:
+            while ref in SKIP_NOTE_BODY[page]:
+                ref += 1
         pre = max(b - 20, 0)
         post = min(e + 20, len(text))
         summary = f"{text[pre:b]}⌈{mark}⌉{text[e:post]}".replace("\n", " ")
@@ -3144,7 +3320,13 @@ CL_BR_ESCAPE_RE = re.compile(
                 (?:
                     [^)]
                     (?!
-                        </?para>
+                        </?
+                            (?:
+                                para
+                                |
+                                row
+                            )
+                        >
                     )
                 )
             )*

@@ -12,9 +12,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-13T20:23:13Z
+@dateWritten=2020-11-14T17:59:00Z
 
-5427854	1_104_0003
+5428149	1_104_0003
 1_104_0004
 1_104_0005
 1_104_0006
