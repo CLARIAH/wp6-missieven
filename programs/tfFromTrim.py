@@ -387,6 +387,7 @@ def walkLetter(cv, doc, root, cur, notes):
 
 TEXT_ATTRIBUTES = """
     emph
+    ref
     remark
     special
     sub
@@ -428,7 +429,6 @@ BREAKS = set(
 COMMENT_ELEMENTS = set(
     """
     folio
-    ref
     remark
 """.strip().split()
 )
@@ -456,6 +456,7 @@ DO_TAIL_ELEMENTS = set(
     folio
     fref
     lb
+    para
     pb
     table
     ref
@@ -480,33 +481,6 @@ def linkIfEmpty(cv, node):
 def walkNode(cv, doc, node, cur, notes):
     """Handle all elements in the XML file.
 
-    List of all elements and attributes.
-    All attributes will translate to features.
-    Some node types get extra features.
-    Feature n is a sequence number relative to a bigger unit
-
-    elem | kind | converts to
-    --- | --- | ---
-    teiTrim | top-level element of a letter | --
-    header | holds metadata elements of a letter | --
-    meta.key,value | holds a piece of metadata | feature key with value on letter node
-    body | holds all text of a letter | --
-    head | heading in the text | node type head, no features
-    para | paragraph | node type para, n within letter
-    pb.facs,n,tpl,vol |page break (empty element) | node type page, n within letter
-    lb | line break (empty element) | node type line, n within page
-    table.n | holds a table with rows and cells | node type table, n within corpus
-    row.n,row | holds a table row with cells | node type row
-    cell.n,row,col | holds material in a table cell node type cell
-    emph | inline formatting (italic-bold-large mixture) | binary feature emph
-    sub | inline formatting (subscript) | binary feature sub
-    super | inline formatting (superscript) | binary feature super
-    und | inline formatting (underline) | binary feature und
-    special | inline formatting | binary feature special
-    folio | reference to a folio page | feature folio
-    remark | editorial text in the text flow | feature remark
-    fnote.ref | footnote text at the end of a page | feature footnote at place of fref
-    fref.ref | footnote reference within the text flow | used to bind fnote to this spot
     """
 
     tag = node.tag
@@ -620,6 +594,8 @@ def walkNode(cv, doc, node, cur, notes):
             cv.terminate(curLine)
         if not curFn:
             cur["ln"] += 1
+            cur["line"] = cv.node("line")
+            cv.feature(cur["line"], n=cur["ln"])
 
     if tag in DO_TAIL_ELEMENTS:
         addText(cv, node.tail, cur)

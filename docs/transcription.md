@@ -269,15 +269,6 @@ All words in a `folio` have `folio=`, i.e. the word feature `folio` has value 1 
 Note also that that the contents of words in folio references are stored in the word features
 `trans` and `transr`, but not in `transo`. 
 
-### node type `ref`
-
-Chunks of words that look like a reference to other literature.
-
-This node type has no features, it only serves to group the words of the references.
-
-**Note**
-All words in a `ref` have `ref=`, i.e. the word feature `ref` has value 1 for these words.
-
 ### node type `table`
 
 These are pieces of text in table layout.

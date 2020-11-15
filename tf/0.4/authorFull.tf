@@ -13,9 +13,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-15T09:44:36Z
+@dateWritten=2020-11-15T11:55:51Z
 
-5048451	Pieter Both
+5054182	Pieter Both
 Pieter Both
 Pieter Both
 Pieter Both
