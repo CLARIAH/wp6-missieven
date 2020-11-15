@@ -1,8 +1,8 @@
 @node
 @converters=Sophie Arnoult, Jesse de Does (TEI), Dirk Roorda (Text-Fabric)
-@description=label indicating a folio break
+@description=a folio reference
 @editor=Dr. W. Ph. Coolhaas, Dr. J. van Goor, Dr. J.E. Schooneveld-Oosterling, Dr. H.K. s'Jacob
-@format=string of the form `Fol. {n} {rv}` where rv is a recto/verso indication
+@format=integer 1 or absent
 @institute=KNAW/HuygensING
 @language=nld
 @name=Generale Missiven
@@ -11,9 +11,9 @@
 @published=Martinus Nijhoff (1960-1985), Bureau der Rijkscommissie voor Vaderlandse Geschiedenis (1988), Instituut voor Nederlandse Geschiedenis (1997, 2004-2007)
 @researcher=Lodewijk Petram
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
-@valueType=str
+@valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-14T17:59:00Z
+@dateWritten=2020-11-15T09:44:36Z
 
 18	1
 1

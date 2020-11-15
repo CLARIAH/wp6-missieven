@@ -12,7 +12,7 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-14T17:59:02Z
+@dateWritten=2020-11-15T09:44:38Z
 
 5048451	aan boord van het Wapen van Amsterdam voor Ile de Mayo
 aan boord van het Wapen van Amsterdam liggende in de Tafelbaai

@@ -13,7 +13,7 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-14T17:59:00Z
+@dateWritten=2020-11-15T09:44:36Z
 
 14	1. De eerste drie brieven, door Both op reis naar Indië geschrovon, wijken niet af van\n\n\nde andere brieven van vlootvoogden aan Heren XVII ; dat hij in de kwaliteit van Gouverneur-\n\n\nGeneraal aan boord vertoefde, verandert daaraan niets. Ile de Mayo is een der Kaap-Verdische\n\n\neilanden.\n\n\n
 110	1. Hiermee is bedoeld het kasteel Belgica, op de heuvel, die het kasteel Nassau bestreek.\n\n\nVgl.\n\n\nOudheden,\n\n p. 24.\n\n\n

@@ -13,7 +13,7 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-14T17:59:15Z
+@dateWritten=2020-11-15T09:44:50Z
 
 5048451	Both; aan boord van het Wapen van Amsterdam voor Ile de Mayo, 25 februari 1610
 Both; aan boord van het Wapen van Amsterdam liggende in de Tafelbaai, 6 augustus 1610

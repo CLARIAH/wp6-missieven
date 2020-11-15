@@ -98,6 +98,7 @@ intFeatures = set(
         month
         year
         remark
+        folio
     """.strip().split()
 )
 
@@ -131,10 +132,8 @@ featureMeta = {
         "format": "string with mark down formatting, separated by newlines",
     },
     "folio": {
-        "description": "label indicating a folio break",
-        "format": (
-            "string of the form `Fol. {n} {rv}` where rv is a recto/verso indication"
-        ),
+        "description": "a folio reference",
+        "format": "integer 1 or absent",
     },
     "month": {
         "description": "month part of the date of the letter",

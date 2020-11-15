@@ -18,6 +18,9 @@ Status
 
 This is **work in progress!**
 
+*   2020-11-15 A new TF version (0.3) has been delivered
+    Footnote bodies and marks have been checked and corrected, all encoded footnote marks
+    have been linked to all encoded footnote bodies.
 *   2020-10-13 A new TF version (0.3) has been delivered
     Footnote bodies are almost all checked and corrected (12247 in total),
     footnote marks have been checked
@@ -88,13 +91,32 @@ to simplified pseudo TEI, leaving out all bits that do not end up in the final d
 and reorganizing some material to facilitate the conversion to TF.
 
 However, this TEI version contains many inaccuracies.
-There are many instances of miscategorized material: page headers and footers end up in body text and vice versa;
+There are many instances of miscategorized material:
+page headers and footers end up in body text and vice versa;
 editorial notes and footnotes are not always properly detected; dozens of letters have not been separated;
-metadata is often incoorect.
+metadata is often incorrect.
 
 In order to produce a quality dataset, I needed to do something about it: checks and corrections.
-In particular, all metadata has been freshly distilled from the letter headings, an in case of doubt the
-online images of the missives have been inspected.
+
+1. all metadata has been freshly distilled from the letter headings, an in case of doubt the
+   online images of the missives have been inspected.
+2. all footnote marks are linked to all footnote bodies.
+   It is still possible that there are missed footnotes and missed footnote marks,
+   but chances are slim because footnote marks and footnote bodies are detected
+   independently.
+
+Yet, most OCR errors within words and numbers are mostly untouched.
+The main concern was to get a correct separation between the kinds of text:
+
+* original letter
+* editorial text
+* footnotes
+* page headers and footers
+
+The first result of the laundry is a set of XML files, which contain a clean, simplified TEI-like
+encoding of the material, with all non-essential parts stripped, such as page headers and footers,
+title pages, etc.
+There is also an exact correspondence between files and letters.
 
 Then I used the
 [walker module from TF](https://annotation.github.io/text-fabric/convert/walker.html#gsc.tab=0)
@@ -105,10 +127,17 @@ See
 Rationale
 -----------------
 
-The reason for this exercise is that Text-Fabric takes the concept of stand-off annotation
-to an extreme,
-and I want to see whether that approach makes it easier to pre-process this corpus
-for all sorts of processing pipelines.
+Cleaning a textual dataset is a lot of work.
+If such a dataset is a standard work, it will be studied by many students/researchers from several
+disciplines. 
+To make life easier for those people, they should be able to start with a dataset that is readily
+processable by any tool of their choice.
+
+Text-Fabric provides a data model that captures the data at the end of the cleaning process just
+before it goes into other tools.
+It also support the integration of subsequent enrichment with the original data.
+
+The Missieven corpus is an example how that works.
 
 See
 [other corpora](https://annotation.github.io/text-fabric/about/corpora.html#gsc.tab=0)
@@ -124,8 +153,6 @@ For details about the conversion from TEI to TF, see
 
 Getting started
 ===============
-
-**to come:**
 
 Start with the
 [tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/generalmissives/start.ipynb).

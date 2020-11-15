@@ -11,7 +11,7 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-11-14T17:59:01Z
+@dateWritten=2020-11-15T09:44:36Z
 
 1-5024713	word
 5024714-5045306	cell
