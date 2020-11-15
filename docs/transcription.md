@@ -191,7 +191,7 @@ Each of the letters corresponds with a letter node.
 This is a *structure* of level 2.
 
 feature | type | description | remarks
---- | --- | --- | --- | ---
+--- | --- | --- | ---
 author | string | e.g. `De Carpentier, De Houtman, ` | comma separated list of surnames
 authorFull | string | e.g. `Pieter de Carpentier, Frederick de Houtman, ` | comma separated list of surnames
 day | integer | day part of a date, e.g. `25` |
