@@ -18,9 +18,10 @@ Status
 
 This is **work in progress!**
 
-*   2020-11-15 A new TF version (0.3) has been delivered
+*   2020-11-16 A new TF version (0.4) has been delivered
     Footnote bodies and marks have been checked and corrected, all encoded footnote marks
     have been linked to all encoded footnote bodies.
+    Docs have been updated, and tutorials have been written.
 *   2020-10-13 A new TF version (0.3) has been delivered
     Footnote bodies are almost all checked and corrected (12247 in total),
     footnote marks have been checked
@@ -52,7 +53,7 @@ This is **work in progress!**
 Corpus
 ------
 
-This repo contains a Text-Fabric (TF) version of the data of the *General Missives*.
+This repo contains a structurally clean version of the data of the *General Missives*.
 
 The *Generale Missiven* is a collection of letters from governors of the
 VOC (Dutch East Indian Company) to
@@ -80,15 +81,41 @@ That work is conducted and carried out by
 This repo does not publish the source/intermediate data as developed in CLARIAH-WP6;
 they will publish their materials in due course.
 
-Text-Fabric
---------------------------------------
+Rationale for this representation of the corpus
+================================================
+
+Cleaning a textual dataset is a lot of work.
+If such a dataset is a standard work, it will be studied by many students/researchers from several
+disciplines. 
+To make life easier for those people, they should be able to start with a dataset that is readily
+processable by any tool of their choice.
+
+[Text-Fabric](https://github.com/annotation/text-fabric)
+provides a
+[data model](https://annotation.github.io/text-fabric/about/datamodel.html#gsc.tab=0)
+that captures the data at the end of the cleaning process just
+before it goes into other tools.
+It also support the integration of subsequent enrichment with the original data.
+
+The Missieven corpus is an example how that works.
+
+Getting started
+===============
+
+Start with the
+[tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/generalmissives/start.ipynb).
+
+See
+[other corpora](https://annotation.github.io/text-fabric/about/corpora.html#gsc.tab=0)
+for more experiences with Text-Fabric as a corpus pre-processing tool.
+
+Text-Fabric operates in the ecosystem of Python and its libraries
+and is particularly suited to Jupyter notebooks and lab.
+
+Conversion steps
+=================
 
 The CLARIAH WP6 people kindly provided me with a TEI version of the corpus.
-
-From there I made a conversion
-[trimTei.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei.py)
-to simplified pseudo TEI, leaving out all bits that do not end up in the final dataset,
-and reorganizing some material to facilitate the conversion to TF.
 
 However, this TEI version contains many inaccuracies.
 There are many instances of miscategorized material:
@@ -113,6 +140,11 @@ The main concern was to get a correct separation between the kinds of text:
 * footnotes
 * page headers and footers
 
+[trimTei.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei.py)
+consists of a battery of 4 conversions to clean the incoming TEI ,
+leaving out all bits that do not end up in the final dataset,
+and reorganizing some material to facilitate the conversion to TF.
+
 The first result of the laundry is a set of XML files, which contain a clean, simplified TEI-like
 encoding of the material, with all non-essential parts stripped, such as page headers and footers,
 title pages, etc.
@@ -120,42 +152,12 @@ There is also an exact correspondence between files and letters.
 
 Then I used the
 [walker module from TF](https://annotation.github.io/text-fabric/convert/walker.html#gsc.tab=0)
-to turn the simple XML into TF.
+to turn the simple XML into Text-Fabric.
 See
 [tfFromTrim.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromTrim.py).
 
-Rationale
------------------
-
-Cleaning a textual dataset is a lot of work.
-If such a dataset is a standard work, it will be studied by many students/researchers from several
-disciplines. 
-To make life easier for those people, they should be able to start with a dataset that is readily
-processable by any tool of their choice.
-
-Text-Fabric provides a data model that captures the data at the end of the cleaning process just
-before it goes into other tools.
-It also support the integration of subsequent enrichment with the original data.
-
-The Missieven corpus is an example how that works.
-
-See
-[other corpora](https://annotation.github.io/text-fabric/about/corpora.html#gsc.tab=0)
-for more experiences with Text-Fabric as a corpus pre-processing tool.
-
-Text-Fabric operates in the ecosystem of Python and its libraries
-and is particularly suited to Jupyter notebooks.
-
-TF from TEI
------------
-For details about the conversion from TEI to TF, see 
+For details about the features of the end result, see 
 [transcription](docs/transcription.md)
-
-Getting started
-===============
-
-Start with the
-[tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/generalmissives/start.ipynb).
 
 
 Authors
