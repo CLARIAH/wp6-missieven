@@ -1483,6 +1483,11 @@ CORRECTIONS = {
     )
     for (page, specs) in CORRECTIONS_DEF.items()
 }
+print(
+    f"{sum(len(specs) for specs in CORRECTIONS_DEF.items())} corrections"
+    f" for {len(CORRECTIONS_DEF)} pages"
+)
+
 OVERRIDE_START = {
     "02:p0770-0813": "«3\\ ton)",
     "07:p0534-0535": "«Kamer Zeeland)",
@@ -2189,6 +2194,7 @@ def corpusPost(info):
 
         score = 0
         nNotes = 0
+        nScoreNotes = 0
 
         for entry in entries:
             (ref, mark, summary) = entry
@@ -2196,9 +2202,10 @@ def corpusPost(info):
                 label = mark
                 markRep = "none" if label == "0" else "⌈⌉"
                 if mark != "0":
-                    nNotes += 1
+                    nScoreNotes += 1
             else:
                 nNotes += 1
+                nScoreNotes += 1
                 mark = normalize(mark)
                 markRep = f"⌈{mark}⌉"
 
@@ -2219,8 +2226,8 @@ def corpusPost(info):
             score += thisScore
             report.append(f" {ref:>2} {label} {markRep:<4} «{summary or ''}»\n")
 
-        if nNotes != 0:
-            score = int(round(score / nNotes))
+        if nScoreNotes != 0:
+            score = int(round(score / nScoreNotes))
         scoreThreshold = int((score // 10) * 10)
         scores[scoreThreshold].append(page)
         totalScore += score

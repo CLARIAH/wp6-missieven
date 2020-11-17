@@ -18,6 +18,8 @@ Status
 
 This is **work in progress!**
 
+*   2020-11-17 A new TF version (0.5) has been delivered
+    Fixed the generation of spurious newlines in footnote bodies.
 *   2020-11-16 A new TF version (0.4) has been delivered
     Footnote bodies and marks have been checked and corrected, all encoded footnote marks
     have been linked to all encoded footnote bodies.

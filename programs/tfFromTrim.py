@@ -694,7 +694,7 @@ def doNotes(cv, cur, notes):
     #    cv.feature(word, fnote="\n\n".join(noteTexts))
 
     for (mark, occs) in markInfo.items():
-        bodiesText = "\n\n".join(bodyInfo[mark]) if mark in bodyInfo else ""
+        bodiesText = "".join(bodyInfo[mark]).rstrip("\n") if mark in bodyInfo else ""
         for (word, line) in occs:
             wordNotes[word].append(f"{mark}. {bodiesText}")
 
