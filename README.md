@@ -5,8 +5,7 @@
 <img src="docs/images/dans.png" align="right" width="100"/>
 </div>
 
-General Missives
-=================
+# General Missives
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/Nino-cunei/oldassyrian/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/Dans-labs/clariah-gm)
 
@@ -18,6 +17,7 @@ Status
 
 This is **work in progress!**
 
+*   2020-11-24 Experimenting with a [Blacklab](http://inl.github.io/BlackLab/index.html) interface.
 *   2020-11-17 A new TF version (0.5) has been delivered
     Fixed the generation of spurious newlines in footnote bodies.
 *   2020-11-16 A new TF version (0.4) has been delivered
@@ -76,15 +76,14 @@ new infrastructure for academic text processing:
 [WP6-Text](https://www.clariah.nl/en/work-packages/focus-areas/text?layout=blog).
 That work is conducted and carried out by
 
-* [Lodewijk Petram](https://www.lodewijkpetram.nl)
-* [Jesse de Does](https://www.researchgate.net/profile/Jesse_De_Does)
+* [Lodewijk Petram](https://www.lodewijkpetram.nl) (HuygensING)
+* [Jesse de Does](https://www.researchgate.net/profile/Jesse_De_Does) (INT)
 * [Sophie Arnoult](http://www.illc.uva.nl/People/person/3601/Ir-Sophie-Arnoult)
 
 This repo does not publish the source/intermediate data as developed in CLARIAH-WP6;
 they will publish their materials in due course.
 
-Rationale for this representation of the corpus
-================================================
+# Rationale for this representation of the corpus
 
 Cleaning a textual dataset is a lot of work.
 If such a dataset is a standard work, it will be studied by many students/researchers from several
@@ -101,8 +100,7 @@ It also support the integration of subsequent enrichment with the original data.
 
 The Missieven corpus is an example how that works.
 
-Getting started
-===============
+# Getting started
 
 Start with the
 [tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/generalmissives/start.ipynb).
@@ -114,8 +112,7 @@ for more experiences with Text-Fabric as a corpus pre-processing tool.
 Text-Fabric operates in the ecosystem of Python and its libraries
 and is particularly suited to Jupyter notebooks and lab.
 
-Conversion steps
-=================
+# Conversion steps
 
 The CLARIAH WP6 people kindly provided me with a TEI version of the corpus.
 
@@ -161,16 +158,44 @@ See
 For details about the features of the end result, see 
 [transcription](docs/transcription.md)
 
+# Using this corpus data
 
-Authors
-=======
+At the moment the data delivered is available
+
+* as simple, TEI-like XML (see the xml directory in this repo)
+* as plain text-fabric files (see the tf directory in this repo)
+
+You can fire up a Text-Fabric browser and Query tool for this data by installing text-fabric and running
+a command:
+
+* have Python installed (at least 3.6)
+* `pip3 install text-fabric`
+* `text-fabric missieven:latest --checkout=latest`
+
+This will download the corpus and fire up a local webserver and your webbrowser pointing to a in interface
+for this corpus.
+
+Another version of the data (less cleaned) is visible online in a
+[Blacklab interface ](http://corpora.ato.ivdnt.org/corpus-frontend/Missiven/search/)
+
+The next step is to make the data of this repository available in a Blacklab interface.
+In this repo we show how to set up a local Blacklab server and front-end and how to get the
+present data into Blacklab.
+
+**This is work in progress**, at this point follow the
+[blacklab install guide for macos](https://github.com/Dans-labs/clariah-gm/blob/master/blacklab/install.md).
+
+Thanks to Jesse de Does (key user of Blacklab, INT) and
+Jan Niestadt (main author of Blacklab, INT) for helping out with setting up and using Blacklab.
+
+# Authors
 
 This repo is by
 
 *   [Dirk Roorda](https://pure.knaw.nl/portal/en/persons/dirk-roorda) at
     [DANS](https://www.dans.knaw.nl)
 
-with the help of the CLARIAH WP6 people mentioned above.
+with the help of the people mentioned above.
 
 **N.B.:** Releases of this repo have been archived:
 
