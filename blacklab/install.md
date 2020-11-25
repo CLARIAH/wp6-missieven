@@ -74,6 +74,9 @@ to $CATALINA_HOME/bin/setenv.sh
 If $CATALINA_HOME/bin/setenv.sh doesn't exist, create it and make it executable.
 ```
 
+**N.B** This `CATALINA` is a code name for TomCat and has nothing to do with the current
+macos version 10.15, also named `Catalina`.
+
 OK, it appears that
 
 `CATALINA_HOME` is `/usr/local/Cellar/tomcat/9.0.40/libexec`
@@ -83,7 +86,8 @@ the value out.
 
 It seems that it is not needed to set this variable for TomCat to work.
 
-so say either
+Depending on whether you have chosen to set `CATALINA_HOME` in your shell
+say either
 
 ```
 vim $CATALINA_HOME/bin/setenv.sh
@@ -105,13 +109,13 @@ Then
 either
 
 ```
-chmod ugo+x /usr/local/Cellar/tomcat/9.0.40/libexec/bin/setenv.sh
+chmod ugo+x $CATALINA_HOME/bin/setenv.sh
 ```
 
 or
 
 ```
-chmod ugo+x $CATALINA_HOME/bin/setenv.sh
+chmod ugo+x /usr/local/Cellar/tomcat/9.0.40/libexec/bin/setenv.sh
 ```
 
 ### Run TOMCAT
@@ -130,13 +134,15 @@ Manually
 catalina run
 ```
 
-or as a background process:
+and stop it by `Ctrl-C`.
+
+As a background process:
 
 ```
 catalina start
 ```
 
-Stop manually
+and stop it with
 
 ```
 catalina stop
@@ -194,14 +200,14 @@ blacklab/
          data/
               incoming/
               indexes/
-         indexing/
+         program/
          installation/
 ```
 
 I have put it all under `~/local` i.e. my home directory and then
 a subdirectory `blacklab`.
 
-### Explanation:
+### Contents and downloads
 
 The `data` directory will receive corpus data.
 
@@ -209,10 +215,34 @@ The `incoming` subdir receives downloaded data, the `indexes` subdir is the dest
 of the blacklab indexer.
 
 The `installation` directory receives the downloaded `blacklab-server-2.1.0` war file.
-We will unzip it in place, and copy its `WEB-INF/lib` directory to the `indexing` directory.
+
+This file is attached to a release of the Blacklab repo.
+The releases are listed
+[here](https://github.com/INL/BlackLab/releases/)
+and we pick release 2.1.0. 
+You see a file
+[blacklab-server-2.1.0.war](https://github.com/INL/BlackLab/releases/download/v2.1.0/blacklab-server-2.1.0.war)
+there, download it and place it in the `installation` directory.
+
+We will unzip it in place, and copy its `WEB-INF/lib` directory to the `program` directory.
 
 Over there, we move the `blacklab-2.1.0.jar` file one level up, so that it is directly beneath
-the `indexing` dir.
+the `program` dir.
+
+When we `cd` to the program dir, we can easily run the java program in the blacklab jar file,
+supported by the libraries in the jar files under the `lib` subdirectory.
+
+We'll need the blacklab program soon: for indexing the first corpus.
+
+We also need to download a front-end, a.k.a. client.
+This is in the 
+[INL/corpus-frontend](https://github.com/INL/corpus-frontend) repo.
+Again, move to the
+[releases](https://github.com/INL/corpus-frontend/releases)
+page and there you find release 2.1.0.
+You see a file
+[corpus-frontend-2.1.0.war](https://github.com/INL/corpus-frontend/releases/download/v2.1.0/corpus-frontend-2.1.0.war)
+there, download it and place it in the `installation` directory.
 
 ## Server
 See 
@@ -265,7 +295,7 @@ a single XML file of 66 MB when unzipped, to be put in `data/incoming`.
 Run the blacklab index tool by running the blacklab jar:
 
 ```
-cd ~/local/blacklab/indexing/
+cd ~/local/blacklab/program/
 ```
 
 Then run the jar:
@@ -295,23 +325,23 @@ You should see something like:
 
 ```
 <blacklabResponse>
-<blacklabBuildTime>2020-06-22 16:01:41</blacklabBuildTime>
-<blacklabVersion>2.1.0</blacklabVersion>
-<indices>
-<index name="brown">
-<displayName>brown</displayName>
-<description/>
-<status>available</status>
-<documentFormat>tei</documentFormat>
-<timeModified>2020-11-24 11:47:37</timeModified>
-<tokenCount>1008320</tokenCount>
-</index>
-</indices>
-<user>
-<loggedIn>false</loggedIn>
-<canCreateIndex>false</canCreateIndex>
-</user>
-<helpPageUrl>/blacklab-server-2.1.0/help</helpPageUrl>
+    <blacklabBuildTime>2020-06-22 16:01:41</blacklabBuildTime>
+    <blacklabVersion>2.1.0</blacklabVersion>
+    <indices>
+        <index name="brown">
+            <displayName>brown</displayName>
+            <description/>
+            <status>available</status>
+            <documentFormat>tei</documentFormat>
+            <timeModified>2020-11-24 11:47:37</timeModified>
+            <tokenCount>1008320</tokenCount>
+        </index>
+    </indices>
+    <user>
+        <loggedIn>false</loggedIn>
+        <canCreateIndex>false</canCreateIndex>
+    </user>
+    <helpPageUrl>/blacklab-server-2.1.0/help</helpPageUrl>
 </blacklabResponse>
 ```
 
@@ -319,8 +349,7 @@ which means that all is well and that the Brown corpus indexes have been found.
 
 ### Test the query tool
 
-In the same directory where you ran the Blacklab jar to index the corpus,
-you can run the query tool:
+Still in the `program` directory you can run the query tool:
 
 ```
 java -cp blacklab-2.1.0.jar nl.inl.blacklab.tools.QueryTool ~/local/blacklab/data/indexes/brown
@@ -349,7 +378,7 @@ CorpusQL> "egg"
 12 hits in 6 documents
 105 ms elapsed
 CorpusQL> exit
-dirk:~/local/blacklab/indexing > 
+dirk:~/local/blacklab/program > 
 ```
 
 ## Client
