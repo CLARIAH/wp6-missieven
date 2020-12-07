@@ -63,6 +63,8 @@ ADD_LB_ELEMENTS = set(
 """.strip().split()
 )
 
+A2Z = "abcdefghijklmnopqrstuvwxyz"
+
 
 def parseArgs(args):
     vol = None
@@ -355,7 +357,7 @@ def trim(
 
         for name in letters:
             lid = name if idMap is None else idMap[name]
-            if givenLid is not None and lid not in givenLid:
+            if givenLid is not None and lid.rstrip(A2Z) not in givenLid:
                 continue
             doc = f"{vol}:{lid}"
 

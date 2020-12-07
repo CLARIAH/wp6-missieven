@@ -157,7 +157,7 @@
  p.rend=outdent large	53
  p.rend=outdent small	6
  p.rend=right	327
- p.rend=small	535
+ p.rend=small	531
  p.rend=small bold	16
  p.rend=small bold indent	1
  p.rend=small bold right	1
@@ -176,11 +176,11 @@
  p.rend=xsmall italic	2
 body..	523
 cell..	20556
-folio..	2521
+folio..	2525
 head..	434
 header..	523
 hi..	4069
-lb..	462947
+lb..	462943
 meta.key=author	521
 meta.key=day	518
 meta.key=month	517

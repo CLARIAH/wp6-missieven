@@ -12,6 +12,7 @@ from lib import (
     GT,
     LT,
     AMP,
+    A2Z,
     applyCorrections,
     summarize,
 )
@@ -553,7 +554,7 @@ def trimVolume(vol, letters, info, idMap, givenLid, mergeText):
     thisSrcDir = f"{SRC}/{vol}"
     for name in letters:
         lid = name if idMap is None else idMap[name]
-        if givenLid is not None and lid not in givenLid:
+        if givenLid is not None and lid.rstrip(A2Z) not in givenLid:
             continue
         doc = f"{vol}:{lid}"
         if doc in SKIP_DOCS:
@@ -2117,6 +2118,7 @@ FOLIO_COND_RE = re.compile(
         |fol\.
         |folio
         |folio\.
+        |folio's\.
     )
     $
     """,

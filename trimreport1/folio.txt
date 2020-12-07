@@ -42,6 +42,7 @@
 06:p0383-0383    1x YES folieerd
 02:p0194-0194    1x YES folieerd,
 01:p0174-0174   23x YES folio
+01:p0003b    4x YES folio's.
 01:p0003a-0003    5x YES folio.
 01:p0007-0007    1x YES folio’s,
 01:p0004-0004    3x YES folio’s.
@@ -183,10 +184,13 @@
 04:p0598-0598    1x FF 1271,fol. 574-579.
 02:p0267-0267    1x FF 1957,fol. 1-38.
 01:p0003a-0003    5x FF 961, 1folio.
+01:p0016a-0016    2x FF 961, 2folio's.
 01:p0007-0007    1x FF 961, 2folio’s,2 exemplaren, 1 origineel, 1 copie.
 01:p0018-0018    1x FF 961, 2folio’s.
+01:p0016b    1x FF 961, 3folio's.
 01:p0004-0004    1x FF 961, 3folio’s.
 01:p0008-0008    1x FF 961, 7folio’s.
+01:p0003b    1x FF 961, copie, 5folio's.
 01:p0021-0021    1x FF 968,fol. 101 recto-111 verso.
 01:p0027a-0027    1x FF 968,fol. 113r.-115v.
 01:p0027b    1x FF 968,fol. 116r.
@@ -2351,7 +2355,3 @@
 01:p0131-0141    1x FF p. 59-60
 04:p0218-0235    1x FF p. 68 
 03:p0525-0532    1x FF p. 85, 
-folio's.               3 contexts,    4 occurrences
-	01:p0016b    1x: 961, 3├folio's.┤
-	01:p0003b    1x: 961, copie, 5├folio's.┤
-	01:p0016a-0016    2x: 961, 2├folio's.┤

@@ -17,6 +17,15 @@ Status
 
 This is **work in progress!**
 
+*   2020-12-07 A new TF version (0.6) has been delivered.
+    Fixed some folio references.
+    Also: a simple data export has been made: a csv file with all the words, and for each
+    word whether it is editorial or original, and if a word has a footnote, the footnote is
+    also given. See the
+    [export notebook](https://nbviewer.jupyter.org/github/Dans-labs/clariah-gm/tree/master/usage/SimpleData.ipynb).
+    The
+    [exported data](https://github.com/Dans-labs/clariah-gm/releases/download/v0.6/words.tsv.gz)
+    is attached to this release.
 *   2020-11-24 Experimenting with a [Blacklab](http://inl.github.io/BlackLab/index.html) interface.
 *   2020-11-17 A new TF version (0.5) has been delivered
     Fixed the generation of spurious newlines in footnote bodies.

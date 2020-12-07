@@ -59,6 +59,8 @@ The running, unmarked text is original letter text, written between 1610 and 176
 The italic paragraphs, usually but not always between brackets, are editorial comments,
 written between 1960 and 2007.
 
+### Footnotes
+
 Both types of text are annotated with footnotes.
 
 There are two kind of footnotes: 
@@ -86,6 +88,9 @@ have become features that annotate the words where the corresponding footnote ma
 Yet we have retained the footnote number in the footnote body.
 Because of the remapping of multiple references, the footnote number you see in the dataset may be
 one or more off w.r.t. the footnote number you see in the original.
+
+If there are multiple footnotes to the same word, we concatenate
+the material of the footnotes (including their marks), separated by a double newline.
 
 ## Nodes
 
@@ -159,6 +164,7 @@ All **word** features:
 feature | type | description
 --- | --- | ---
 emph | 1 or absent | whether the word is set in emphatic typography
+fnote | string | footnotes associated with this word, including their marks, separated by double new lines if their are multiple ones
 folio | 1 or absent | whether the word is part of a folio reference
 punc | string | punctuation and or white space after the word
 punco | string | as `punc`, but only for original letter content

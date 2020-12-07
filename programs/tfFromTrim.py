@@ -15,6 +15,7 @@ from lib import (
     META_DECL,
     WHITE_RE,
     ADD_LB_ELEMENTS,
+    A2Z,
     parseArgs,
     initTree,
     getVolumes,
@@ -325,7 +326,7 @@ def director(cv):
         for name in letters:
             lid = name
             doc = f"{vol:>2}:{name}"
-            if givenLid is not None and lid not in givenLid:
+            if givenLid is not None and lid.rstrip(A2Z) not in givenLid:
                 continue
             sys.stderr.write(f"\r\t{lid}      ")
             with open(f"{thisSrcDir}/{name}.xml") as fh:
