@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="234"/>
 <meta key="title" value="De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen; Batavia, 25 februari 1729"/>
 <meta key="rawdate" value="25 februari 1729"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wijbrant Blom, Diderik Durven, Joan Everard van der Schuer, Stephanus Versluys, Michiel Westpalm, Hendrik van Baerle, Joan François de Witte, Van Schooten, Rogier Thomas van Heyningen, Herman van Bayen"/>
+
 
 </header>
 <body>
@@ -35,12 +37,16 @@ betrokken; dit<lb/>
 en verschansingen onder het bestier van den heer ordinaris-raad en gouverneur<lb/>
 mr. Petrus Vuyst is ontbloot geraakt van een groot gedeelte der oude en bequaame<lb/>
 dienaren buyten eenige andere die almede hevig schijnen beschuldigt te werden, waaromtrent<lb/>
-sijn ed.,c maintenue<fref ref="1"/>  komt te versoeken, die nogtans ook gelust heeft<lb/>
+sijn ed.,c maintenue
+<note mark="1">Maintenue, gerechtelijke handhaving.<lb/>
+</note>
+komt te versoeken, die nogtans ook gelust heeft<lb/>
 voorm. brief weder op te vullen met seer chocquante, irreverente en een gesubordineerd<lb/>
 minister geensints betamende expressiën, dewelke egter niet te compareeren<lb/>
 sijn bij die men vind in sijnen aparten brief aan dese Regeering mede van ultimo december,<lb/>
 want dese is niet minder uytsporig als de voorige met aflegginge van alle ontsag<lb/>
-ingesteld.</para>
+ingesteld.
+</para>
 <remark>«Men hield de Anna Maria er aan , omdat ze te laat was om de Ganges te kunnen<lb/>
 bevaren , waarheen ze met f. 177.944 aan zilver pas in juni kan vertrekken , ze wordt<lb/>
 inmiddels gebruikt om peper van Malabar af te halen; pas 5 dec. vertrokken van Gale<lb/>
@@ -66,8 +72,5 @@ vnl. in 264.875
 <emph>‘vè</emph> thee boey, kostende<lb/>
 f. 72.984<lb/>
 »</remark>
-
-<fnote ref="1">Maintenue, gerechtelijke handhaving.<lb/>
-</fnote>
 </body>
 </teiTrim>

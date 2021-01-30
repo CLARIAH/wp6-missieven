@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="658"/>
 <meta key="title" value="Van Diemen, Lucasz, Caen; Batavia, 26 december 1637"/>
 <meta key="rawdate" value="26 december 1637"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Philips Lucasz, Antonio Caen"/>
+
 
 </header>
 <body>
@@ -34,14 +36,19 @@ ende intercessie van d’onse, ’t opperhooft der Engelse souden aldaer gedetin
 sijn gebleven ende peryckel van ’t leven geloopen hebben. Op ’t versoeck<lb/>
 derselver Engelse sijn die van ’t schip Crispina met een licht ancker uyt ons jacht<lb/>
 Hoochcarspel geaccommodeert, twelck met gelegentheyt van den president tot<lb/>
-Bantam sullen doen voorderen.</para>
+Bantam sullen doen voorderen.
+</para>
 <para>Den extraordinarie grooten regen, in Martapura gevallen, hadde aen ’t pepergewas<lb/>
 veel schade gedaen, sulckx dat niet seecker wegen de te becomen quantité<lb/>
-conden adviseren.</para>
+conden adviseren.
+</para>
 <remark>«De jonk Amsterdam komt 11 dec. uit Thaiwan<lb/>
 »</remark>
 <para>Ondertusschen ende voor ’t vertreck deser joncke hadde den gem.<lb/>
-gouverneur<fref ref="1"/>  sijn crijchsmacht nae Vavorolangh uytgeseth, bestaende uyt 300<lb/>
+gouverneur
+<note mark="1">Die van Formosa, nl. Van der Burch.<lb/>
+</note>
+sijn crijchsmacht nae Vavorolangh uytgeseth, bestaende uyt 300<lb/>
 Nederlantse coppen ende 1400 onser onderdanen, daermede gem. dorp, dat wel<lb/>
 bepaggert ende van de Vavorolangers, die ongeveer 800 weerbare mannen sterck<lb/>
 waren, gedefendeert wierde, furieuselijck wiert aengetast, verovert ende geheel<lb/>
@@ -51,25 +58,25 @@ voor de victorie gedanckt ende wort gesustineert, geseyde Vavorolangeren ende<lb
 haere adherenten eerlangh hun sullen submitteren ende tot den christengeloove<lb/>
 begeven. Dese, soo geseyt wort, sijn wel de belliceuste van ’t eylandt Eormosa,<lb/>
 haer geweer sijn pijl ende boogh. Met Amsterdam becomen U Ed. desen aengaende<lb/>
-naerder bescheyt.</para>
+naerder bescheyt.
+</para>
 <para>Den gouverneur is van gevoelen, dat onsen eysch van 800 picols rouwe sij de,<lb/>
 die wij voor ’t patria gevoordert hadden, ten aensien U Ed. desen jaere geen<lb/>
 Persise sij de conden beschicken, voldoen sal ende bleef f geresolveert nae Batavia<lb/>
 aff te seynden alle de sij de, die tot ultimo november in Teyouan staet aen te<lb/>
 langen, sich verlatende, die voor Nederlants retour te spade quam t’arriveren,<lb/>
-van hier voor Japan can dienen.</para>
+van hier voor Japan can dienen.
+</para>
 <remark>«De Ruttem 11 dec. uit Arakan gekomen<lb/>
 »</remark>
 <para>De vexatien aldaer begonden wat te cesseren ende apparent metten<lb/>
-ontfanck van onse missive, aen Sijn MayJ geschreven, in onse voorige liberteyten</para>
-
-<fnote ref="1">Die van Formosa, nl. Van der Burch.<lb/>
-</fnote>
-
+ontfanck van onse missive, aen Sijn MayJ geschreven, in onse voorige liberteyten
+</para>
 <pb n="659" tpl="1" vol="01" facs="1_104_0659"/>
 <para>herstelt te worden, sulckx dat Comp.es affairen nae alle apparentie aldaer beter<lb/>
 cours staen te nemen. In Chatigan ginck den handel op den ouden voet weder<lb/>
-voort.</para>
+voort.
+</para>
 <remark>«De Galiasse komt 13 dec. uit Japan<lb/>
 »</remark>
 <para>
@@ -87,12 +94,18 @@ wert U Ed. per Amsterdam gesonden. Onse schepen sijn alweder<lb/>
 15 dagen naer der galliotten vertrecq opgehouden, daervan d’oorsaecke geseyt<lb/>
 wert de Keysers sieckte te wesen. De galliotten hebben uyt Japan gevoert 2 142 364<lb/>
 tayl 6 maes ende 5 coudrins in schuytsilver
-<fref ref="1"/> , geit op bodemerije noch intrest<lb/>
+<note mark="1">Eén thael (thail) = 10 mas = 100 condrin (coudrin).<lb/>
+</note>
+, geit op bodemerije noch intrest<lb/>
 hebben in Japan niet gelicht ende wort gesustineert, desen jaere haer winsten<lb/>
 sober sullen wesen, ten aensien van de Cantonse Chinesen groote middelen op de<lb/>
 voyagie genomen hebben tot swaren interest. Maer wij meenen, deselve maxime<lb/>
 hebben, die bij ons voorgenomen wert, namentlijck dat sij ons, gelijck wij haer,<lb/>
-gaerne daer uyt vaeren souden<fref ref="2"/> . Tot welcken eynde sij hare medegebrachte<lb/>
+gaerne daer uyt vaeren souden
+<note mark="2">De Portugezen waren van dezelfde mening, vgl.
+<emph>Fidalgos,</emph> p. 118.<lb/>
+</note>
+. Tot welcken eynde sij hare medegebrachte<lb/>
 rouwe witte sijde, bestaende uyt 373 picols, gepresenteert hebben te vercoopen<lb/>
 ten prijse, als die in Maccao costen, sulex dat geschapen stondt, den prijs deser<lb/>
 sijde, daervan de Comp.e ruym 1000 picol hadde, op 220 tayl ’t picol soude sijn<lb/>
@@ -113,13 +126,6 @@ Sulex dat desen jaere de Comp.e in Japan sal moeten betaelen ongeveer fl. 204 90
 sijnde den intrest van de voor dato gelichte 150 000 tayl, die oock met
 <super>1/2</super> per cento<lb/>
 meer tot de songuats off 14 february aenstaende geprolongeert hebben, daeronder<lb/>
-
-<fnote ref="1">Eén thael (thail) = 10 mas = 100 condrin (coudrin).<lb/>
-</fnote>
-<fnote ref="2">De Portugezen waren van dezelfde mening, vgl.
-<emph>Fidalgos,</emph> p. 118.<lb/>
-</fnote>
-
 <pb n="660" tpl="1" vol="01" facs="1_104_0660"/>
 begrepen. In Teyouan, daer van 500 000 guldens dry per cento ter maendt belooft<lb/>
 is, sal de schade mede ruym 60 000 gulden aenlangen, dat de gepresupponneerde<lb/>
@@ -128,7 +134,8 @@ off alles sal in roock verdwijnen. Sulckx dat nootsaeckelijck ’t Indisch fons 
 te vergrooten ende ons van dese canckereuse intresten t’ontlasten, off sullen andere<lb/>
 vet ende ons selver mager houden ende can dese saecke niet worden geremedieert<lb/>
 als bij besnijdingh van de vaderlantse retouren off dat ons noch 2 a 3 jaeren 10 a 12<lb/>
-tonnen goudts in contant uyt Nederlandt toegesonden worde.</para>
+tonnen goudts in contant uyt Nederlandt toegesonden worde.
+</para>
 <para>’t Vaderlants retour can niet als met groote prejuditie ende U Ed. ongerief f<lb/>
 vermindert worden. In Teyouan dienen den handel uyt te houden ende alle<lb/>
 getrocken coopmanschappen de cooplieden aff te nemen, daertoe groote capitalen<lb/>
@@ -137,7 +144,8 @@ eysch van contanten te verminderen, maer versoecken bij desen denselven (sonder<
 in consideratie te nemen wat contanten voor a.° 1638 gesonden moght hebben)<lb/>
 ten vollen sonder smaldeelen gesuppleert wordt ende sooveel meer als de constitutie<lb/>
 van de Comp.a sal willen lijden, ’t Is noch beter voor een corten tijt in Nederlant<lb/>
-vijff ten hondert in ’t jaer als hier 24 ende 36 te geven.</para>
+vijff ten hondert in ’t jaer als hier 24 ende 36 te geven.
+</para>
 <para>De here van Firando is overleden, soo is oock gestorven des Comp.es toegedaenen<lb/>
 vrundt, den raetsheer Auwadonne, sone van den rijcxraet Outadonne,<lb/>
 aen welcke persoonen wij in Japan twee goede voorspraecken comen te missen.<lb/>
@@ -148,7 +156,10 @@ baerden off dat die van Nangesacke meer als voor desen haer Comp.es<lb/>
 gelegentheyt aentrecken. Soo bleeff alles gelijck voorleden jaer in staete, de<lb/>
 negotie gelimiteert sonder eenige verlichtingh, de vervolginge der Roomse Christenen<lb/>
 continueert als voren ende wort ons hope gegeven, den Portugees d’een off<lb/>
-d’ander tijt uyt Japan wel mocht geseyt <fref ref="1"/>  worden, dat qualijck connen aennemen,<lb/>
+d’ander tijt uyt Japan wel mocht geseyt
+<note mark="1">Gezet.<lb/>
+</note>
+worden, dat qualijck connen aennemen,<lb/>
 ten aensien dat noch al in faveur van de Portugesen onse schepen 15 ende 20 dagen<lb/>
 naer ’t vertreck der galliotten ophouden, dat voor de Comp.a in dese gelegentheyt<lb/>
 een onlijdelijcke verachteringh causeert. Soo sijn oock de Japanse humeuren soo<lb/>
@@ -156,28 +167,31 @@ teer, dat te beduchten staet, d’een off d’ander tijt metten anderen overhoop
 raecken ende bijaldien hunne mandaten ende wetten niet mitigeren, sal het in<lb/>
 toecomende voor ons in Japan niet alleen onverdraechlijck, maer schadelijck<lb/>
 vallen de negotie te continueren ende daer sal op andere middelen moeten worden<lb/>
-gedacht.</para>
+gedacht.
+</para>
 <para>’t Uytvoeren van coper heeft Sijn MayJ doen verbieden, eenelijck op ’t aengeven<lb/>
 van den muntmeester, die, als hem gevraeght wierde de reden van den<lb/>
 tragen voortganck der nieuwe van Sijne May.ts geordonneerde te maecken casgens,<lb/>
 senes off copergelt, antwoorde, het hem aen coper mancqueerde, ter oorsaecke<lb/>
 tselve bij de vreemdelingen wierde uytgevoert; sulcx dat wij desen jaere niet een<lb/>
 catty coper uyt Japan becomen ende Godt weet, wanneer dit mandaet herroepen<lb/>
-wert.</para>
+wert.
+</para>
 <remark>«Japanse plannen tegen Manilla
 , af gedrukt
 <ref>Bouwstoffen II, p. 334 </ref>»</remark>
-
-<fnote ref="1">Gezet.<lb/>
-</fnote>
-
 <pb n="661" tpl="1" vol="01" facs="1_104_0661"/>
 <para>Wij mogen verhopen, dat dit attentaet sal worden uytgestelt ; soo niet,<lb/>
 sullen de saecke in ’t aenstaende daernaer moeten beleyden, dat schade ende<lb/>
 affronten voorcomen. Maer off diergelijcke assistentie sonder proffijt de Japanse<lb/>
 winsten niet sullen geheel opeten, staet te considereren ende heeft dese saecke sijn<lb/>
 overleggen. U Ed. hebben te vertrouwen deselve, sooveel mogelijck sij, ten minsten<lb/>
-prejuditie van de Comp.a sullen beleyden<fref ref="1"/> . Met Amsterdam sullen op dese gelegentheyt<lb/>
+prejuditie van de Comp.a sullen beleyden
+<note mark="1">Dit is in strijd met wat
+<emph>Christian Century</emph> p. 373 gezegd wordt over de aanmoediging<lb/>
+door de Nederlanders aan de Japanners om Manilla aan te vallen.<lb/>
+</note>
+. Met Amsterdam sullen op dese gelegentheyt<lb/>
 wat breeder wesen ende heeft U Ed. daermede de Japanse pampieren<lb/>
 te verwachten, bij welckers resumptie alle omstandicheden naerder sult vernemen.<lb/>
 </para>
@@ -198,7 +212,8 @@ die van Macao haere goederen op vracht nae Japan te voeren ende van daer<lb/>
 weder naer Macao, Malacca, Goa off Spaengien, dat affsloegen, seggende, geen<lb/>
 galliotten tot overvoer van haere capitaelen mancqueerden. Hoe lange d’Engelsen<lb/>
 voor Macao gelegen ende wat voorders geattenteert hebben, is ons tot heden<lb/>
-onbekent gebleven. In Japan soude haer onthael noch slechter sijn geweest.</para>
+onbekent gebleven. In Japan soude haer onthael noch slechter sijn geweest.
+</para>
 <remark>«Waren, uit Nederland in Japan gekomen, waren slecht verpakt; het schip<lb/>
 Bommel kamt 20 dec. van Tiku; schepen bestemd voor Amboina; gegevens over<lb/>
 Bantam, afgedr.
@@ -216,18 +231,13 @@ ons adviseert, generalij ck over de<lb/>
 heele masse, welcke in alles 24 tonnen<lb/>
 monteert, d’avance boven de 50 per<lb/>
 cento niet sal comen te bedragen, dat<lb/>
-
-<fnote ref="1">Dit is in strijd met wat
-<emph>Christian Century</emph> p. 373 gezegd wordt over de aanmoediging<lb/>
-door de Nederlanders aan de Japanners om Manilla aan te vallen.<lb/>
-</fnote>
-
 <pb n="662" tpl="1" vol="01" facs="1_104_0662"/>
 is 12 tonnen ende bij ons wort gestelt<lb/>
 16 tonnen, diffreert . fl. 400 000. — . —<lb/>
 fl. 670 730. 10. 9<lb/>
 rest guldens 8 581 323. 19. 9<lb/>
 Hier sal noch moeten affgaen ’t retour, dat voornemen<lb/>
-met Amsterdam tot advijs te schicken.</para>
+met Amsterdam tot advijs te schicken.
+</para>
 </body>
 </teiTrim>

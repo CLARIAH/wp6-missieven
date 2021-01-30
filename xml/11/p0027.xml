@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="27"/>
 <meta key="title" value="Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar; Batavia, 31 december 1743"/>
 <meta key="rawdate" value="31 december 1743"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Gustaaf Willem van Imhoff, Pieter Rochus Pasques de Chavonnes, Nicolaas Crul, Daniël Nolthenius, Maurits van Aerden, Jacob Lakeman, Joannes Mattheus Cluysenaar"/>
+
 
 </header>
 <body>
@@ -63,7 +65,6 @@ dagelijkse werkzaamheden van zijn ambt blijven verrichten.</remark>
 <remark>Van Amboina zijn met de Duinenburg, Huis den Eult en de pantjalang Ligor brieven<lb/>
 ontvangen van 26 juni en 27 september 1 743. Deze zijn op 2 december besproken. Op 1 1<lb/>
 en 29 oktober was besloten de Everswaart en Hof niet altijd Winter naar Amboina te stu-</remark>
-
 <pb n="28" tpl="2" vol="11" facs="232_028"/>
 <remark>ren. Door het niet opdagen van de Hof niet altijd Winter is op 26 november een nieuw besluit<lb/>
 genomen. De voor Banda bestemde Nieuwvliet zal nu, na op Banda zijn goederen gelost<lb/>
@@ -83,7 +84,8 @@ enige zijn waarvan men vruchten verwacht. De aanplant wordt goedgekeurd,<lb/>
 - mits nogtans wanneer de Compagnie daarmede mogte overkropt geraken<lb/>
 de inlanders gehouden sullen blijven een gedeelte derselve dan wel de helfte of meerder<lb/>
 uyt te roeyen en er middelerwijlen geene andere in stede van degeene die komen<lb/>
-uyt te sterven sullen mogen aangeplant worden.</para>
+uyt te sterven sullen mogen aangeplant worden.
+</para>
 <remark>«Het bestuur op Amboina heeft bij resolutie van 29 maart 1 743 alle inlandse Ambonezen<lb/>
 verboden specerij perken of sago landen te verplaatsen ofte verpanden, om te voorkomen<lb/>
 dat ze in verval raken. Dit bevel is ook al in 1717 gegeven, maar kennelijk in de vergetelheid<lb/>
@@ -107,7 +109,8 @@ inlanders te animeren is besloten<lb/>
 drayers, ’tzij aan land ofte ter zee, toe te leggen de helfte van het bedragen van ’t vaartuyg<lb/>
 en dies inlading, de specerijen gerekent ten inkoopsprijse en de mansz. daarop gevonden<lb/>
 werdende ten ordinaire prijs der lijfeygenen, nadien deselve voor al haar leven<lb/>
-in de ketting sullen moeten geklonken dan wel als lijfeygenen verkogt werden.</para>
+in de ketting sullen moeten geklonken dan wel als lijfeygenen verkogt werden.
+</para>
 <remark>«Men is ontevreden over het gedrag van de kapitein van de sloep Ida Anna die vorig<lb/>
 jaar via Banda naar Amboina werd gestuurd. Tegen de uitdrukkelijke orders van Batavia in<lb/>
 is hij niet eerst naar Banda gevaren, zogenaamd omdat het schip lekte en er ziekte onder de<lb/>
@@ -116,7 +119,6 @@ krijgt daartoe alsnog de opdracht. De fiscaal moet het onderzoek uitvoeren en de
 naar bevind van zaken behandelen of naar Batavia sturen met de betreffende documenten.<lb/>
 Tevens heeft Batavia zijn ongenoegen laten blijken over de nutteloze reizen van de pantjalangs<lb/>
 Casuaris en Ligor, resp. naar de zuid- en noordkust van Ceram, en over het feit dat</remark>
-
 <pb n="29" tpl="2" vol="11" facs="232_029"/>
 <remark>beide schepen zeer lang onderweg zijn geweest. De afhandeling van de ladingen die de Duinenburg<lb/>
 en Huis den Eult in 1 743 aangevoerd hebben , wordt goedgekeurd. Tevens is<lb/>
@@ -157,7 +159,11 @@ was gebracht door brieven die de inmiddels overleden gouverneur De Jong aan zijn
 Steinmetz had nagelaten , was aanleiding tot het geven van goedkeuring om ze te herstellen<lb/>
 en repareren. In verband met de vernieuwing van het zeehoofd wordt toestemming verleend<lb/>
 de op Buru gekapte cayonany-palen
-<fref ref="1"/>  van 6, 4 en 3 vadem lang tegen
+<note mark="1">Cayonany-palen, van het Maleise kaju, hout, en nani, hoge boom van Celebes en het oosten van<lb/>
+de Archipel, levert een houtsoort die buitengewoon goed bestand is tegen de paalworm en<lb/>
+daarom in zeewater voor allerlei doeleinden te gebruiken is.<lb/>
+</note>
+van 6, 4 en 3 vadem lang tegen
 <special>7j</special> rsd perstuk te<lb/>
 kopen. Als antwoord op het door Amboina voorgelegde ontwerp voor een kruithuis is een<lb/>
 verbeterd plan teruggestuurd, samen met informatie over de Bataviase fabriek Lambertus<lb/>
@@ -167,12 +173,6 @@ toestemming degenen die wegens tekort aan wijn hun rantsoen niet ontvangen hebbe
 te betalen met geld uit de kas van de Compagnie &lt; en dat met 25 percento advans boven<lb/>
 den inkoopsprijs. Tevens zijn de verstrekkingen voorde reis naar Batavia door gouverneur<lb/>
 Jacob de Jong en opperkoopman Van Blokland goedgekeurd. Het verzoek om rijstmaten</remark>
-
-<fnote ref="1">Cayonany-palen, van het Maleise kaju, hout, en nani, hoge boom van Celebes en het oosten van<lb/>
-de Archipel, levert een houtsoort die buitengewoon goed bestand is tegen de paalworm en<lb/>
-daarom in zeewater voor allerlei doeleinden te gebruiken is.<lb/>
-</fnote>
-
 <pb n="30" tpl="2" vol="11" facs="232_030"/>
 <remark>van 80, 75, 40 en 20 Ib, die als slaper gebruikt zouden worden, is afgewezen, omdat men<lb/>
 naar de met de Huis den Eult aangebrachte twee rijstmaten van
@@ -189,13 +189,15 @@ werd besloten<lb/>
 inhouden ieder 400 kannen, mitsgaders niet alleen alle deselve te deser plaatse te laten<lb/>
 eyken door den eykmeester ten overstaan van gecommitteerde schepenen, maar ook<lb/>
 voor den aanstaande te interdiceeren het gebruyk van eenig ongeëykt vaatwerk in ’s<lb/>
-Compagnies maguasijnen, soo hier als op de buytencomptoiren.</para>
+Compagnies maguasijnen, soo hier als op de buytencomptoiren.
+</para>
 <remark>«Tevens werd besloten dat de oostelijke gouvernementen tarwe met 25 % winst mochten<lb/>
 verkopen<lb/>
 »</remark>
 <para>
 - om op dusdanigen wijse de ingesetenen daarmede niet alleen te gerieven,<lb/>
-maar ook een groter omsetting van dat graan daardoor te bewerken.</para>
+maar ook een groter omsetting van dat graan daardoor te bewerken.
+</para>
 <remark>«Gouverneur Steinmetz heeft de kantoren op Buru, Manipa en Earike bezocht. Batavia<lb/>
 had graag gezien dat de aanplant van djatihout op Buru en de indigoplantages er beter<lb/>
 voor hadden gestaan. De verwachting van Steinmetz hierover is niet hoog, gezien de schraalheid<lb/>
@@ -206,7 +208,8 @@ hoofden en voor het personeel. De raden bepalen zelf wie een eed moet afleggen. 
 ‘onbehoorlijkheeden’ te voorkomen stuurt Batavia<lb/>
 »</remark>
 <para>- het formulier van dien eed soowel in de Nederduytse als Maleydse tale, opdat<lb/>
-die menschen daardoor weten mogen wat den inhoud derselve komt te behelsen.</para>
+die menschen daardoor weten mogen wat den inhoud derselve komt te behelsen.
+</para>
 <folio>Fol. 590v.</folio>
 <remark>«Batavia stemt in met de houding van de raad van Amboina tegenover de gezanten<lb/>
 van de vorst van Buton. Het roer en de zeilen van hun schip had men verborgen om een heimelijk<lb/>
@@ -227,7 +230,6 @@ van de Compagnie door enkele borgen, diverse door Amboina aangedragen redenen<lb
 en de jeugdigheid van Hasselbrink heeft Batavia besloten de geseling te laten vallen en de<lb/>
 verbanning naar Buru van zes naar tien jaar te verhogen. Aan de verzachting van dit vonnis<lb/>
 mag Amboina geen consequenties voor andere vonnissen verbinden. Batavia onderstreept</remark>
-
 <pb n="31" tpl="2" vol="11" facs="232_031"/>
 <remark>het belang om goed op de kwaliteiten en het gedrag van personeelsleden die in dienst komen<lb/>
 , te letten. De door de raden op Batavia getrokken wissels t. w. v. 46.280 rsd zijn voldaan.<lb/>
@@ -238,7 +240,8 @@ Het trekken van wissels op oostelijke gouvernementen blijft op de oude voet,<lb/
 wissels ook meer uyt noodsakelijkheyd als om den handel gesteld werden, dog ten aansien<lb/>
 van de reductie van het ligt tot swaar geld bij alle negotieboeken hebben wij haar<lb/>
 het nodige gerecommandeert met toesending van onsen circulairen brieff voorsooverre<lb/>
-het haar rakende is.</para>
+het haar rakende is.
+</para>
 <remark>«Aan het besluit om de onderkoopman en opperhoofd van LarikeJacob Constantijn<lb/>
 Cruijpenning zijn rang en loon te laten behouden tot hij hersteld is en weer dienst kan doen,<lb/>
 kan Batavia zich niet verbinden. Het loon moet alsnog worden stopgezet vanaf het moment<lb/>
@@ -278,7 +281,6 @@ en inkopen van slaven aldaar. De Raad van Justitie van Batavia zal de zaak onder
 de schuldigen straffen. Batavia keurt af dat, op het gerucht dat de Delfland gestrand of verongelukt<lb/>
 zou zijn, de opperofficieren in hechtenis genomen werden en met een speciaal<lb/>
 schip naar Batavia gestuurd, terwijl de overige schepelingen met de Huis te Rensburg, die</remark>
-
 <pb n="32" tpl="2" vol="11" facs="232_032"/>
 <remark>toch naar Batavia ging, meegingen. De orangkaja van Rumbia, waar de Delfland was gestrand,<lb/>
 Layseyn, krijgt een geschenk van
@@ -310,7 +312,7 @@ een andere conclusie voor. Niet de nalatigheid van De Barnewal maar gebrek aan w
 wordt als oorzaak aangemerkt. In februari zal nog wat drank gestuurd worden teneinde de<lb/>
 achterstand in rantsoenen te verminderen. Mocht Batavia zelf tegen die tijd nog niet voorzien<lb/>
 zijn van rantsoenen, dan moet Banda de achterstallige rantsoenen in geld voldoen zoals<lb/>
-het in Batavia gebeurt. Ondanks de lage omzet van tarwe op Banda, nl. 7  à 8 last perjaar<lb/>
+het in Batavia gebeurt. Ondanks de lage omzet van tarwe op Banda, nl. 7 à 8 last perjaar<lb/>
 met 50 a 60% winst, stuurt Batavia, dat een zeergrote voorraad heeft, 12 last die tegen de<lb/>
 meest winstgevende prijs verkocht moet worden. Banda is in het boekjaar 1742/43<lb/>
 f 25.372 meer ten achteren geraakt. De winsten bedroegen
@@ -328,11 +330,12 @@ en tweede verdieping niet goed lijkt. Van de 246 kanonnen zijn er 120 ongeschikt
 reden waarom men om 57 goede kanonnen en 60 a 80 rampaarden heeft gevraagd.<lb/>
 Batavia besluit<lb/>
 »</remark>
-<para>- na ijder gouvernement om de oost af te steeken 25 stucken bequaam ijzerca-</para>
+<para>- na ijder gouvernement om de oost af te steeken 25 stucken bequaam ijzerca-
+</para>
 <para>non van 6 lb. bals ieder, en na derwaards te gelasten om al het onbequaam en defecte<lb/>
 geschut na dese hoofdplaats terug te schikken, nadien wij vermeenen dat zij met het<lb/>
-voorsz. renfort van 25 stucken (dewelke benevens sooveel rampaarden als hier in vol-</para>
-
+voorsz. renfort van 25 stucken (dewelke benevens sooveel rampaarden als hier in vol-
+</para>
 <pb n="33" tpl="2" vol="11" facs="232_033"/>
 <para>doening van haren eysch in voorraad zijn geweest met Oosterhout bereeds versonden<lb/>
 zijn) en de aldaar nog sijnde
@@ -378,21 +381,22 @@ van wissels verandert niets. Banda is gemachtigd<lb/>
 »</remark>
 <para>
 - geld voor geld te accepteeren, nadien de wissels aldaar meer uyt noodsake-<lb/>
-lijkheyt als om den handel gesteld werden.</para>
+lijkheyt als om den handel gesteld werden.
+</para>
 <remark>«Het besluit om de waarschuwing uit 1716 tegen het trekken van netten opnieuw uit te<lb/>
 vaardigen, als gevolg van klachten hierover,
 ; is goedgekeurd. Onderkoopman Jacobus Dadelbeek,<lb/>
 op 24 juli 1 743 veroordeeld ‘ om met afgesz, gagie als een onnut subject en stoorder<lb/>
 der gemeene rust' naar Batavia gestuurd te worden, is aldaar met de Huis te Rensburg aangekomen.<lb/>
 De zaak van de perkenier Christiaan Flegtner is verwezen naarde Raad van Justi-</remark>
-
 <pb n="34" tpl="2" vol="11" facs="232_034"/>
 <remark>tie. Men gaat akkoord met het sturen van opperkoopman Johannes de Jong met afgeschreven<lb/>
 gage naar Batavia ,<lb/>
 »</remark>
 <para>
 - niet alleen om de wille van sijne ontijdige versogte verlossing, maar ook om<lb/>
-sijne geringe bequaamheeden.</para>
+sijne geringe bequaamheeden.
+</para>
 <remark>«Als opvolger is benoemd Cornelis Jan Bogaerd met f 80 per maand. De gage van<lb/>
 predikant Petrus Sebastianus Erkenswijk wordt verhoogd tot f 110 per maand. Zijn krankzinnig<lb/>
 geworden collega Petrus Hobbelt moet naar Batavia teruggestuurd worden. De predikanten<lb/>
@@ -421,7 +425,8 @@ worden voor<lb/>
 »</remark>
 <para>
 - rust en vreede onder de potentaatjes aldaar, voornamentlijk tusschen de ko-<lb/>
-ningjes van Manganitoe, Taboekan en Chiauw.</para>
+ningjes van Manganitoe, Taboekan en Chiauw.
+</para>
 <remark>«Batavia is het niet eens met het bestuur van Ternate dat men door gebrek aan mankracht<lb/>
 en schepen niet in staat was geweest een commissie naar de Sangihe eilanden te sturen<lb/>
 om orde te brengen. Het gouvernement beschikte over voldoende vaartuigen, ook voor<lb/>
@@ -438,8 +443,8 @@ bij Gorontalo te bouwen,<lb/>
 de stroperijen van het Mandarees en ander roofgespuys, alsmede dat door het employeeren<lb/>
 van volk aan den opbouw van dit werk inmiddens het goudgraven niet vertraagt<lb/>
 wierde, dan wel de leverantie van dat mineraal eenige de minste prejuditie quam<lb/>
-te lijden.</para>
-
+te lijden.
+</para>
 <pb n="35" tpl="2" vol="11" facs="232_035"/>
 <remark>«Dakpannen , spijkers , ankers en andere ijzerwaren mogen van Compagnieswege verstrekt<lb/>
 worden. Tevens is goedgekeurd dat te Parigi een post van 12 man onder leiding van<lb/>
@@ -456,13 +461,18 @@ verboden is,<lb/>
 - op poene dat de voorsz. dienaren en ingesetenen daarover na exigentie van<lb/>
 saken aan den lijve gestraft, mitsgaders de gemelde koningjes en rijxgroten afgeset, opgevat<lb/>
 en desnoods in de ketting geslagen, en sodanig herwaarts souden gesonden werden<lb/>
-omme wijders voor haar leven daarinne ad opus publicum<fref ref="2"/>  dienst te doen.</para>
+omme wijders voor haar leven daarinne ad opus publicum
+<note mark="2">Ad opus publicum, voor de publieke werken.<lb/>
+</note>
+dienst te doen.
+</para>
 <remark>«Batavia gaat akkoord met het door het volk van Palopo gedane verzoek<lb/>
 »</remark>
 <para>
 - om nevens andere boghtvolckeren van de bescherminge der Compagnie te<lb/>
 mogen gaudeeren, onder belofte om al het goud dat sij souden komen te graven eenelijk<lb/>
-aan de maatschappij te sullen leveren voor den gefixeerden prijs.</para>
+aan de maatschappij te sullen leveren voor den gefixeerden prijs.
+</para>
 <remark>«Het volk van Palopo, dat bij Parigi had gewoond, was door het geweld van de Mandarezen<lb/>
 gedwongen zich bij de vorsten van Limbunu en Kaïli te vervoegen. Mede door hun<lb/>
 kennis en ervaring in het goudgraven zegde Batavia zijn bescherming toe. Dankzij de nieuwe<lb/>
@@ -494,13 +504,10 @@ selfs om vrije menschen tot slaven te maken, mitsgaders de dienaren van de Compa
 daarvan eygenaars te doen werden, om welke redenen wij tot voorkominge van dien<lb/>
 hebben goedgevonden de ministers aan te schrijven, dat voortaan de gemelde qualiteyt<lb/>
 van hoekum major soude moeten gedempt blijven, mits den althans fungerenden Aris<lb/>
-
-<fnote ref="2">Ad opus publicum, voor de publieke werken.<lb/>
-</fnote>
-
 <pb n="36" tpl="2" vol="11" facs="232_036"/>
 Tollieuw Suppit, in sijn presente aansien en titul, dog egter buyten commando, voor<lb/>
-desselfs leven gelaten wierde.</para>
+desselfs leven gelaten wierde.
+</para>
 <remark>«Batavia geeft opdracht het afgewezen verzoek van christelijke hukums uit Menado<lb/>
 om voor zichzelf op eigen kosten een kerk te bouwen , mits de Compagnie een inlandse leermeester<lb/>
 zou bekostigen , alsnog in te willigen. Een inlandse leermeester kostte slechts 3 rsd<lb/>
@@ -525,7 +532,8 @@ mogelijx voor een civiel bedragen te bemagtigen soude weesen, dog dat men de vog
 en lapis bezoar quam te excuseeren, en desen handel door de onderdanen van<lb/>
 gemeld koningje niet direct in Ternaten, maar eenelijk op Tontolij en Manado soude<lb/>
 moeten gedreven worden, sonder op Tomocalang, Bwool of andere goud uytleverende<lb/>
-plaatsen te mogen aangieren, op poene van confiscatie.</para>
+plaatsen te mogen aangieren, op poene van confiscatie.
+</para>
 <remark>«De vorst van Bolaang, Salomon Manoppo, was naar het hoofdkantoor ontboden<lb/>
 omdat hij een van zijn onderdanen, Mattheus Cacaboel, twee jaar tevoren een moord op<lb/>
 een vrouw had kwijtgescholden en zich nu voor de fiscaal moest verantwoorden. Batavia<lb/>
@@ -541,7 +549,8 @@ Jan Wijnekes naar de Sula eilanden<lb/>
 »</remark>
 <para>- teneynde de Bandase chialoup d’ Olijftak aldaar een lading rijst te doen ingeven,<lb/>
 en wel voornamentlijk om de opkomste der gesamentlijke opperhoofden na het<lb/>
-hoofdcomptoir sooveel mogelijk te faciliteeren.</para>
+hoofdcomptoir sooveel mogelijk te faciliteeren.
+</para>
 <remark>«Het contract tussen de Compagnie en de vorst van Ternate met zijn rijksgroten, in<lb/>
 aanwezigheid van de salahakan en de sengadjTs van Sulabesi gesloten op 4 juli 1 743, wordt<lb/>
 goedgekeurd. Alle rijst en padi van Sulabesi zal tegen 15 rsd per last en nely tegen 6r 4 rsd per<lb/>
@@ -553,7 +562,6 @@ bedienen. De maximale bezetting mag bestaan uit: 1 vaandrig, 1 sergeant, 24 sold
 wie 2 korporaals, 1 chirurgijn en 1 bosschieter. Op Makéan hadden de zaken zich inzoverre<lb/>
 ten goede gekeerd<lb/>
 »</remark>
-
 <pb n="37" tpl="2" vol="11" facs="232_037"/>
 <para>
 - dat de negorij van Moffaquia sig weder het gebied van hunnen wettigen<lb/>
@@ -561,7 +569,8 @@ vorst, den koning van Ternaten, hadde komen te onderwerpen, nadat de ministers o
 het versoek van Sijn Hoogheyd den pro interim senghadje genaamt Cabouw en de verdere<lb/>
 opperhoofden uyt ’s Compagnies tronk, in dewelke sij voornamentlijk door valsche<lb/>
 beschuldigingen van den senghadje van Moffagita waren geset, weder gelargeert<lb/>
-en in hun vorig bewind hadden gesteld.</para>
+en in hun vorig bewind hadden gesteld.
+</para>
 <remark>«Men hoopt dat de andere dorpen Moffacquia zullen volgen
 , hoewel de vorst van
 <special>77-</special><lb/>
@@ -577,7 +586,8 @@ het niet senden van gecommitteerdens om volgens gebruyk de geregtelijke examinat
 van eenige Papoese rovers bij te wonen, en ten vijfden de koele of liever veragtelijke behandelingen<lb/>
 die ’s Compagnies gecommitteerdens, den fiscaal Anthony Everhard Meder<lb/>
 en secretaris van politie Jacob Fredrik Stegman, aan het Tidorse hof waren te beurt<lb/>
-gevallen,</para>
+gevallen,
+</para>
 <remark>«is Batavia met de raden van Ternate tot de conclusie gekomen dat het gedrag van de<lb/>
 vorst van Tidore en zijn rijksgroten niet alleen schadelijk is voorde vorst van Ternate
 , maar<lb/>
@@ -597,7 +607,8 @@ middelen in het werk te stellen, mitsgaders geweld met geweld te keer te gaan,<l
 totdat de gequeste authoriteyt van de Compagnie weder hersteld was, de zaken tot de<lb/>
 termen van de tractaten geredigeerd en de soo hoognodige extirpatiën alomme en<lb/>
 voornamentlijk op Halmaheira na behoren en met faciliteyt konden verrigt en uytgevoerd<lb/>
-werden.</para>
+werden.
+</para>
 <remark>«Ternate beschikt hiervoor over voldoende soldaten en schepen en moet deze naar eigen<lb/>
 goeddunken aanwenden. Het doel moet blijven zoveel mogelijk de vrede te bewaren en<lb/>
 het machtsevenwicht tussen de vorsten van Ternate en Tidore te handhaven. De vorst van<lb/>
@@ -613,7 +624,6 @@ van de vorsten van Ternate
 , Tidore en Batjan wordt voorlopig uitgesteld. Batavia is van<lb/>
 plan na de Binnen wijzend nog een schip te sturen en kan dus
 , samen met de Makassaar Sen-</remark>
-
 <pb n="38" tpl="2" vol="11" facs="232_038"/>
 <remark>kong, het antwoord van Ternate en Tidore op de beschuldigingen afwachten. ‘ Het stropen<lb/>
 en swerven der Papoese rovers op en langs de Ceramse cust’ blijft een probleem. Als de vorst<lb/>
@@ -642,7 +652,8 @@ Kakatoe een inspectiereis te houden rond de specerij -eilanden in de Molukken. D
 </remark>
 <para>
 - om bij ontmoetinge van vreemde en onwettige equipanten deselve in der<lb/>
-minne te vermanen hun buyten het ressort der Moluccos te begeven</para>
+minne te vermanen hun buyten het ressort der Moluccos te begeven
+</para>
 <folio>Fol. 663v-664r.</folio>
 <remark>«moet veranderd worden in<lb/>
 »</remark>
@@ -650,7 +661,8 @@ minne te vermanen hun buyten het ressort der Moluccos te begeven</para>
 der Moluccos voortaan zouden ontmoet en geattrapeerd werden, hetsij gewillig of<lb/>
 onwillig ter examinatie na het hoofdcomptoir, des mogelijk, op te brengen, mitsgaders<lb/>
 daartoe dadelijkheeden van die kragt te gebruyken, dewelke bequaam waren om derselver<lb/>
-navigatie in die contreyen tegen te gaan en te vernietigen.</para>
+navigatie in die contreyen tegen te gaan en te vernietigen.
+</para>
 <remark>«De financiële prikkel wordt gebruikt om de strijd tegen smokkelaars te stimuleren.<lb/>
 De vaart op Java blijft verboden. Gouverneur Marten Lelyveld heeft bezwaar gemaakt tegen<lb/>
 het doodvonnis dat de Raad van Justitie heeft uitgesproken tegen Sineni, afkomstig van Makéan,<lb/>
@@ -666,11 +678,15 @@ zich niet bevoegd<lb/>
 »</remark>
 <para>
 - (gelijk sulx nogtans door hem was gepractiseerd) om met praeteritie van de<lb/>
-
 <pb n="39" tpl="2" vol="11" facs="232_039"/>
-proceduren ad torturam<fref ref="3"/>  tegens Goela over soo een sware en grasserende misdaad,<lb/>
+proceduren ad torturam
+<note mark="3">Met praeteritie van de proceduren ad torturam, met voorbijgaan van de procedures tot de tortuur.<lb/>
+<lb/>
+</note>
+tegens Goela over soo een sware en grasserende misdaad,<lb/>
 waartoe absolut de doodstraffe was staande, ten principalen een minderen eysch op<lb/>
-eenige futiele argumenten gefundeerd uyt te brengen.</para>
+eenige futiele argumenten gefundeerd uyt te brengen.
+</para>
 <remark>«Het was de plicht van de Raad van Justitie geweest de fiscaal de weg te wijzen hoe<lb/>
 Goela tot een bekentenis gebracht had kunnen worden<lb/>
 »</remark>
@@ -684,9 +700,13 @@ excuse konde dienen dat Goela zoowel als Sineni op het aanhoren van des fiscaals
 eysch en conclusie bij weege van antwoord schuld bekend, mitsgaders vergiffenis<lb/>
 en genade versogt zoude hebben, vermits dit voor geen confessie, veel minder voor een<lb/>
 genoegsame confessie konde gehouden werden om daarop een gevangene te konnen<lb/>
-straffen, aangesien de inlanders doorgaans gewoon waren ampon<fref ref="4"/>  te versoeken, waarmede<lb/>
+straffen, aangesien de inlanders doorgaans gewoon waren ampon
+<note mark="4">Ampon, ampun, vergiffenis, genade.<lb/>
+</note>
+te versoeken, waarmede<lb/>
 geen schuldbekentenisse maar simpel een onderdanigheyd en een vergiffenis<lb/>
-van het quaad dat sij souden mogen gedaan hebben door haar betekend wierde.</para>
+van het quaad dat sij souden mogen gedaan hebben door haar betekend wierde.
+</para>
 <remark>«Zou de Raad van Justitie dit toch als een soort bekentenis hebben gezien
 , dan had<lb/>
 Goela op basis hiervan opnieuw gehoord moeten worden
@@ -715,17 +735,11 @@ exigentie van zaken souden vermeenen te behoren, met ordre om ten dien eynde bij
 eerste gelegentheyd niet alleen ged. Goela, maar ook den medegevangene en gecondemneerde<lb/>
 Sineni op een secure wijse herwaarts te senden, met sodanige nadere bewijsen<lb/>
 als men tot opheldering deser, soowel ter beswaringe als ontlastinge van meergemelde<lb/>
-Goela aldaar nog soude konnen inwinnen.</para>
+Goela aldaar nog soude konnen inwinnen.
+</para>
 <remark>«Marten Lelyveld wordt op zijn verzoek ontslag verleend als gouverneur van Ternate<lb/>
 en mag met behoud van rang en gage naar Batavia overkomen
 , na het bestuur overgedragen</remark>
-
-<fnote ref="3">Met praeteritie van de proceduren ad torturam, met voorbijgaan van de procedures tot de tortuur.<lb/>
-<lb/>
-</fnote>
-<fnote ref="4">Ampon, ampun, vergiffenis, genade.<lb/>
-</fnote>
-
 <pb n="40" tpl="2" vol="11" facs="232_040"/>
 <remark>te hebben aan de opperkoopman Gerbrand van Brandwijk van Blokland. Tot zijn komst<lb/>
 kan Lelyveld een memorie opstellen ter informatie voor zijn opvolger en alles in gereedheid<lb/>
@@ -752,7 +766,8 @@ door mot en het lang in de pakhuizen liggen beschadigd zijn. Batavia wil weten<l
 <para>
 - wanneer die goederen, sekerlijk op haren eysch gesonden, aldaar sijn aange-<lb/>
 bragt, om daaruyt te ontwaren of deselve niet sijn verwaarloost of dies bederf door te<lb/>
-lang leggen in stede van terug te senden gecauseert.</para>
+lang leggen in stede van terug te senden gecauseert.
+</para>
 <remark>«Evenmin te spreken was Batavia over de afhandeling van een sokkel raapfoelie. De<lb/>
 sokkel, die op 2 mei 1 740 zorgvuldig in Banda was gemaakt, woog 3 1~4 Ib minder dan op het<lb/>
 bijbehorende briefje stond. Na opening had men er nog eens 20L4 Ib aan stof en vuil uitgehaald.<lb/>
@@ -778,12 +793,12 @@ de waegen regt gaat, de verpagting deser impositie ook wel wederom tot hare vori
 prijs sal reysen, te meer omdat men de ministers op haren voorstel gequalificeert heeft<lb/>
 deselve voortaan niet meer in aug. wanneer de meeste burgers op de vaart zijn, maar<lb/>
 onder uit. december op te veylen, waarnevens wij alhier soowel als in de andere ooster-<lb/>
-
 <pb n="41" tpl="2" vol="11" facs="232_041"/>
 se gouvernementen daar de Compagnie heer van ’t land is en gestabuleerde coloniën<lb/>
 heeft, vastgesteld en geordonneert hebben de betaling van de 20e penning ’s heeren geregtigheyd<lb/>
 van den verkoop van alle vaste goederen tot eenige gemoedkoming der jaarlijxe<lb/>
-lasten.</para>
+lasten.
+</para>
 <remark>«Batavia berispt Makassar over het lang vasthouden van de Binnenwijzend ten behoeve<lb/>
 van de vertrekkende secunde Cornelis Rooseboom , te meer omdat men het schip niet<lb/>
 had volgeladen met sapanhout dat gebruikt werd bij de stuwage in de retourschepen. Het<lb/>
@@ -794,7 +809,8 @@ dan voldoende zijn<lb/>
 »</remark>
 <para>
 - tot den afhaal der suyder- en noorderthiende en tot bekruysiging tegens de<lb/>
-rovers en sluykhandelaars.</para>
+rovers en sluykhandelaars.
+</para>
 <remark>«Vooral de Cerammers maken zich schuldig aan smokkel. Radja Ballanipa, vorst van<lb/>
 Mandar, had toegegeven 300 stuks noten en 3 kannetjes nagels als geschenk van hen te hebben<lb/>
 ontvangen. Om het opbrengen van smokkelaars aan te moedigen kondigt Batavia dezelfde<lb/>
@@ -831,7 +847,6 @@ van een onmondig vorst, waarom wij hebben g’approbeert dat de ministers haar d
 voorgehouden en dese afsetting onwettig genaamt, mitsgaders den gemelde geweese<lb/>
 rijxbestierder Crain Madjennang onder ’s Compagnies protextie genomen hebben, als<lb/>
 het eenigste middel sijnde tot sijn herstelling indertijd, waartoe den gouverneur bij sijn<lb/>
-
 <pb n="42" tpl="2" vol="11" facs="232_042"/>
 aparte missive van den 1
 <super>e</super> october laatstleden zegt den grond gelegt te hebben door een<lb/>
@@ -841,7 +856,8 @@ grootste beschaming opentlijk genoeg bespot wierden, omdat sij sig in dese saak 
 de Boniërs zodanig hadde laten bedotten, waardoor dan ook de assopiatie van Radja<lb/>
 Tello met sijne nu voor de tweede maal gesepareerde gemalinne Aroe Palacca, de moeder<lb/>
 des konings van Goa, ’t eenigste oogmerk door hem hiermede bedoelt genoegsaam<lb/>
-verijdelt was.</para>
+verijdelt was.
+</para>
 <remark>«De raden moeten er attent op zijn dat het machtsevenwicht op Celebes door te grote<lb/>
 gehechtheid van de nieuwe Gowase rijksbestuurder aan het hof van Boni niet gaat overhellen<lb/>
 naar verdrukking van Gowa en de andere bondgenoten. Het doet Batavia deugd<lb/>
@@ -849,14 +865,16 @@ naar verdrukking van Gowa en de andere bondgenoten. Het doet Batavia deugd<lb/>
 <para>
 - dat de meeste uytgewekene Goase rijxgroten door de besorging van dese<lb/>
 Radja Tello bij de Compagnie in submissie gekomen waren, manqueerende nog eenelijk<lb/>
-Crain Barombang, die hij almede daartoe soude tragten te bewegen.</para>
+Crain Barombang, die hij almede daartoe soude tragten te bewegen.
+</para>
 <para>Het getal der bossen padij die op de naam van de koninglijke familie van de vertiening<lb/>
 verschoont werden jaarlijx accresseerende, heeft men de ministers gelast met<lb/>
 het hof te convenieeren over een sekere bepaling daeromtrend te maken, tot voorkominge<lb/>
 niet alleen van inhalige pretentiën der inlandse groten aan dien ooird, maar ook<lb/>
 van indirecte behandeling der dienaren die tot die vertiening g’employeert werden,<lb/>
 waaromtrend wij dan ook onse meening de koninginne en hare broeder Radja Moeda<lb/>
-bij missive hebben te kennen gegeven.</para>
+bij missive hebben te kennen gegeven.
+</para>
 <remark>«Op het verzoek van het hof van Gowa om uitstel van betaling van de eerste termijn<lb/>
 van de oorlogsonkosten en om mindering van het bedrag, heeft de gouverneur geantwoord<lb/>
 dat dit afhangt van de betoonde bereidwilligheid om een deel van de schuld te voldoen. Batavia<lb/>
@@ -885,13 +903,16 @@ haar bloedverwanten quamen besoeken, waren. Het replicq hierop door den gouverne
 met advijs van den jongkoning van Bonij gegeven, dat men namentlijk desselfs<lb/>
 verontschuliging gereserveert hielt, met recommandatie alle sodanige vaartuygen<lb/>
 voortaan in beslag te neemen, heeft ons almede veel te slap toegescheenen en niet be-<lb/>
-
 <pb n="43" tpl="2" vol="11" facs="232_043"/>
 handelt met dien ernst als het gewigt der zaeke vereyschte, en daarom geordonneert dat<lb/>
-indien dese of eenige andere vorst op Celebes gepexeert<fref ref="5"/>  hebbende tegens de regelen<lb/>
+indien dese of eenige andere vorst op Celebes gepexeert
+<note mark="5">Gepexeert, van het Latijnse peccare, zondigen.<lb/>
+</note>
+hebbende tegens de regelen<lb/>
 van het bondgenoodschap en satisfactie te geeven blijft weygeren, alsdan middelen met<lb/>
 de overige bondgenoten te beramen den sodanige na de swaarte der overtredinge te<lb/>
-doen straffen.</para>
+doen straffen.
+</para>
 <para>De Towadjoreesen drie gemeene sendelingen gesonden hebbende vanweegen<lb/>
 den hoofdkoning over de 40 mindere teneynde vrijheyd voor hunne mackers, op Saleyer<lb/>
 aangehouden, te versoeken, item den vrijen handel als voor den oorlog en om hare<lb/>
@@ -909,7 +930,8 @@ gemeenelijk afhing de goede of quade gesteltheyd der overige bondgenoten, waarom
 Sijn E. al ten eerste na het afgaan van dese brief met Radja Moeda middelen soude beramen<lb/>
 om dese saak te brengen tot een goed eynde, en meteene tragten te verhinderen<lb/>
 dat de koninginne van Bonij niet verkoren werd tot vorstinne van Loewoe in stede van<lb/>
-de suster van Aroe Tanette.</para>
+de suster van Aroe Tanette.
+</para>
 <remark>«Het kasteel Rotterdam bevindt zich in goede staat. De aarden schans Schagersvalk is<lb/>
 wegens de vredige toestand , de onbruikbaarheid en de noodzaak om de bezetting te gebruiken<lb/>
 tot versterking van het kasteel geslecht. De schans Valkenburg moet verkleind worden.<lb/>
@@ -927,7 +949,8 @@ nu nog door Batavia goedgekeurd, ‘oneygen gevonden en daarom in het vervolg ve
 evenals het werven van schepelingen aan wal. Het aantal personeelsleden bedroeg 881,<lb/>
 van wie 556 soldaten, en zal naar vermogen worden aangevuld.</remark>
 <para>Ti
-<special>mor</special></para>
+<special>mor</special>
+</para>
 <remark>Brieven ontvangen d.d. 20 mei en 4 september 1 743, gebracht door een burgervaartuig<lb/>
 en de brigantijn Ongehoorzaamheid. Het opperhoofd, koopman Anthony Cornelis<lb/>
 van Oldenbarneveld, genaamd Tulling, is op 30 november 1 742 overleden en is opgevolgd<lb/>
@@ -935,10 +958,6 @@ door de onderkoopman Jan Anthony Meulenbeek,<lb/>
 »</remark>
 <para>
 - welken wij nevens onse missive van den 24e deser per gemelde brigantijn<lb/>
-
-<fnote ref="5">Gepexeert, van het Latijnse peccare, zondigen.<lb/>
-</fnote>
-
 <pb n="44" tpl="2" vol="11" facs="232_044"/>
 hebben derwaarts gesonden teneynde van den boekhouder Brandenburg den ommeslag<lb/>
 aldaar over te neemen en met aanschrijving aan de bediendens om dien bodem na<lb/>
@@ -955,7 +974,8 @@ door dese regeering geëligeerd te sien tot koning van Coepang, op fundament van
 provisioneele aanstellinge reeds ten tijde van het opperhoofd Visscher geschied, en<lb/>
 nopens gemelde radjaas verdere praetensiën ter erlanging van twee negorijen, Bankayta<lb/>
 en Laytabon genaamd, hebben w’ onse dispositie uytgesteld totdat van het nieuw opperhoofd<lb/>
-diendwegens behoorlijk sullen wesen gelucideerd.</para>
+diendwegens behoorlijk sullen wesen gelucideerd.
+</para>
 <remark>«Nicolaas Michiel de Keyster is benoemd tot opvolger van opperchirurgijn Buys voor<lb/>
 f 36 per maand. De naar de Portugezen gedeserteerde Hermanus Witzenburg mag als burger<lb/>
 naar Batavia terugkeren. Timor was in het boekjaar 1 741/42 f 5588 ten achteren geraakt,<lb/>
@@ -971,7 +991,8 @@ van de brigantijn de Ongehoorsaamheyd veel oirsaak heeft gegeven, als daardoor n
 hebbende konnen worden ingenomen de aangebodene cadjang, doordien desen bodem<lb/>
 bereeds desselfs lading in hadde wanneer de Rottineese en Timoreesche regenten<lb/>
 met desen korl quamen verschijnen.<lb/>
-Palembang</para>
+Palembang
+</para>
 <remark>«In antwoord op een vraag van Heren XVII in een brief van 28 augustus 1 742 naar<lb/>
 het aantal stuivers per ducaton dat de Palembangers voor hun peper krijgen, deelt Batavia<lb/>
 mee dat dit 78 stuiver zwaar geld bedraagt. Het wordt elk jaar moeilijker de ducaton door de<lb/>
@@ -989,7 +1010,6 @@ die vorige residenten voor de bouw hebben gemaakt , nl. f 39. 033, omdat men dit
 in Batavia niet meer kan vinden. Tevens vraagt men toelichting op de stelling dat kalk<lb/>
 en stenen net zoveel als brandhout hoeven te kosten. Batavia gaat akkoord met het vernieuwen<lb/>
 van het kledenpakhuis, de gebedszaal en de secretarie. De winsten bedroegen in het</remark>
-
 <pb n="45" tpl="2" vol="11" facs="232_045"/>
 <remark>boekjaar 1741/42 f 5232, d.w.z, f 324 minder dan het vorige jaar ; de lasten bedroegen<lb/>
 f 35.66 1. Goedgekeurd wordt de afschrijving van verstrekkingen aan de Lage Polder en de<lb/>
@@ -1014,7 +1034,8 @@ herwaarts werden gewesen, men deselve wel misschien het terugkeeren uyt de rivie
 beletten en ook sulx aansien soude als een gants verkeerde blijk van vriendschap en onderhouding<lb/>
 der contracten, nadien Zijn Hoogheyd door sijn vaartuygen, die sulk een<lb/>
 vrijen handel als ijmand hebben, hier alles krijgen kan wat de Chineesen direct derwaarts<lb/>
-kunnen brengen.</para>
+kunnen brengen.
+</para>
 <remark>«Het afwijzen van het verzoek van een tandil en 19 moorse matrozen van een verongelukt<lb/>
 schip om in dienst van de Compagnie te gaan varen, wordt afgekeurd. De Compagnie<lb/>
 heeft immers ‘ sulke zeevarende al in dienst en heeft voortdurend gebrek aan mankracht,<lb/>
@@ -1022,7 +1043,8 @@ heeft immers ‘ sulke zeevarende al in dienst en heeft voortdurend gebrek aan m
 <para>
 - dat ook de reeden is waaromme men geen één van al de dienaren die daartoe<lb/>
 versoek hebben gedaan, verlost, maar daarentegen eenige andere op hare instantie mits<lb/>
-tijdsexpiratie in gagie verbeterd heeft.</para>
+tijdsexpiratie in gagie verbeterd heeft.
+</para>
 <remark>«De s Heer Arendskerke is op 2 december 1 743 uit Palembang aangekomen met een<lb/>
 lading t. w. v. f 255. 119, bestaande uit 488. 000 Ib zwarte peper, 25.010 Ib witte peper, 400 Ib<lb/>
 drakebloed, 200 bossen rotan en 375.000 Ib tin uit Bangka. Tevens bracht het schip 51611<lb/>
@@ -1032,7 +1054,8 @@ niet willen accepteren<lb/>
 <para>
 - dewijl eenige der bovenlandse pangerangs aan wien Zijn Hoogheyd dat geld<lb/>
 in presentie onser bediendens aanpresenteerde, absolut verklaard hadden die munt<lb/>
-niet te kennen en dies reeckening niet te verstaan.</para>
+niet te kennen en dies reeckening niet te verstaan.
+</para>
 <remark>«Men is genoodzaakt geweest in te gaan op het aanbod van de sultan om alle voorradige<lb/>
 tin waar men geen geld meer voor had, op krediet te kopen. Dit betrof 2238 pikol tin.<lb/>
 De sultan heeft de onmogelijkheid om ducatons te laten circuleren toegelicht. Als de bovenlanders<lb/>
@@ -1045,7 +1068,6 @@ de bergvolkeren van de pepergebieden is niet een gevolg van hoge koers of het id
 minder waard zijn, maar van gehechtheid aan oude gewoontes, wat vooral speelt bij inlanders<lb/>
 die weinig contact met Europeanen hebben. Zelfs van een verlaging van de koers van<lb/>
 78 zware stuiver per ducaton verwacht men weinig. Er is een grotere aan voer uit Nederland</remark>
-
 <pb n="46" tpl="2" vol="11" facs="232_046"/>
 <remark>van Spaanse realen nodig dan men de laatste jaren heeft ontvangen. De lasten bedroegen in<lb/>
 het boekjaar 1 142/43
@@ -1071,7 +1093,8 @@ is voor f 10.601 naar Djambi verstuurd. Ontvangen met de tandjungpura Kakatoe zi
 92 72 Ib peperen 300 taëlgoud
 , samen ter waarde van f 1 9.068. Het goud is tegen textiel geruild.<lb/>
 </remark>
-<para>SlAM</para>
+<para>SlAM
+</para>
 <remark>Op 13 juli 1 743 had Batavia besloten dat de Berkenrode Ligor moest aandoen om tin<lb/>
 te kopen. Commissaris Abraham Aarnouts kreeg hiertoe 20.000 rsd aan ducatons mee,<lb/>
 »</remark>
@@ -1080,7 +1103,10 @@ te kopen. Commissaris Abraham Aarnouts kreeg hiertoe 20.000 rsd aan ducatons mee
 winst en verlies afgeschrevene ƒ35.179,1,8 ligt geld die in questie zijn te tellen, nu weder<lb/>
 door ons besluyt van den 2 1
 <super>e</super> en 25e junij passato om de voor dat hoff ontbodene<lb/>
-chierpen<fref ref="6"/>  voor hetgeene gelden willen te verkopen, en het minder rendement dan 50<lb/>
+chierpen
+<note mark="6"><emph>Chierp, sjerp.</emph><lb/>
+</note>
+voor hetgeene gelden willen te verkopen, en het minder rendement dan 50<lb/>
 percento dien vorst op reeckening te stellen, nu weder veragtert is ƒ 1 588,7,- ligt geld,<lb/>
 sijnde sooveel de voorsz. chierpen minder dan die bepalinge gehaalt hebben en de<lb/>
 reeckening en het verschil van reeckening met den berquelang en de klangsvolkeren<lb/>
@@ -1088,21 +1114,19 @@ nog even ongedecideert blijft als bij onse voorgaande van den 5e december 1742 o
 dit capittel is gesegt, mitsgaders de schulden der Siammers volgens de contracten voor<lb/>
 een derde in thin moeten voldaan worden, soo is er dog weynig hope dat die menschen<lb/>
 soo redelijk sullen worden om daaraan te voldoen, en dus blijft er niet over om van thin<lb/>
-voorsien te worden dan deselve te kopen nevens andere.</para>
+voorsien te worden dan deselve te kopen nevens andere.
+</para>
 <remark>«De Berkenrode moet het sapanhout dat nog in de pakhuizen ligt mee terugnemen<lb/>
 voor Japan,<lb/>
 »</remark>
 <para>
 - volgens onse voorjarige calculatie tot 3.319.800 lb., na aftrek van de<lb/>
 36 1.663 lb. met Berkenrode jongst aangebragt nog 2.958.137 lb. bedragende een volle<lb/>
-lading.</para>
+lading.
+</para>
 <remark>«Om alles naar wens te laten verlopen heeft men een brief geschreven aan de koning en<lb/>
 phra-klang en geschenken gegeven t.w.v. f 490 en f 354 licht geld. Aangezien uit het rapport<lb/>
 van de vorige reis was gebleken dat de Siamezen weer graag een Compagniesvestiging</remark>
-
-<fnote ref="6"><emph>Chierp, sjerp.</emph><lb/>
-</fnote>
-
 <pb n="47" tpl="2" vol="11" facs="232_047"/>
 <remark>zouden hebben , heeft Aarnouts opdracht gekregen meer aan te dringen op de vereffening<lb/>
 van de schulden en te waarschuwen voor het ongenoegen bij een onredelijke behandeling.<lb/>
@@ -1122,7 +1146,8 @@ de groten in Kanton achterwege gelaten omdat<lb/>
 <para>
 - hare hesitatiën in het accepteeren van onse missives daaruyt voortquamen<lb/>
 dat andere natiën daar traffiqueeren sonder brievewisseling, soodat wij ons ook van die<lb/>
-moeyte hebben gedispenceert.</para>
+moeyte hebben gedispenceert.
+</para>
 <remark>«Men heeft enige verdenking over de verkoop in 1 742 maar kan dit niet hard maken.<lb/>
 Zo heeft men het verkopen van peper voor een prijs die lager was dan de vastgestelde 9 taël<lb/>
 en het verkopen van goederen zoals beschreven in de brief van 5 april 1 743 moeten toelaten,<lb/>
@@ -1138,7 +1163,8 @@ worden om sig met eene, hoewel matige, nogtans ook regtmatige broodwinninge<lb/>
 door het toeleggen van een percento soowel uyt den verkoop als inkoop en een half<lb/>
 percento uyt de contanten bij suynigheyd en overleg te vinden tevreede te houden, boven<lb/>
 het maken van ongeproportioneerde progressen door eene onregtmatige en gevolglijk<lb/>
-strafwaardige behandelinge.</para>
+strafwaardige behandelinge.
+</para>
 <remark>«Batavia is ontevreden over de inkoop van 1 742. Men heeft 10% van de ingekochte<lb/>
 thee laten vergoeden door de supercargas, nl. f 67.358 zwaar geld, omdat men meende dat<lb/>
 dit de Compagnie te veel in rekening was gebracht. Het bezwaar van Heren XVII tegen het<lb/>
@@ -1156,7 +1182,6 @@ te stellen,<lb/>
 »</remark>
 <para>
 - als zijnde, naar de berekening van de Spaanse realen tot 100 wanneer die<lb/>
-
 <pb n="48" tpl="2" vol="11" facs="232_048"/>
 wigtig zijn tegens 72 thailen, welke 100 Spaanse realen hier doorgaans en soo ook in<lb/>
 China, dog ter laastgemelde plaatse nog veeltijds iets meer dan 1 33 rds. courant van 48<lb/>
@@ -1183,7 +1208,8 @@ in den inkoop van goederen voor Europa verscheelt omdat de thee van 10 thailen<l
 het picol thans tot ƒ44,-,- moet aangerekent werden in stede van ƒ40,- die deselve<lb/>
 bevorens bij de factuur maar scheen te kosten, en sooveel de thee daardoor duurder<lb/>
 word als bevoorens, sooveel sullen de afgaande carguasoenen naar China ook meerder<lb/>
-avanceeren als bevorens, hetwelke op hetselfde uytkomt.</para>
+avanceeren als bevorens, hetwelke op hetselfde uytkomt.
+</para>
 <remark>«De supercargas moeten onderzoeken of er winst gemaakt kan worden met een bezending<lb/>
 van Batavia naar een van de westelijke kantoren via China of vice versa, zoals door<lb/>
 Van Imhoff ten tijde van zijn gouverneurschap van Ceylon al was voorgesteld en door andere<lb/>
@@ -1206,9 +1232,9 @@ zal men een kleiner schip nemen,<lb/>
 <para>- terwijl men omtrent Nieuwalcheren dat herwaarts gedestineerd was en Padmos,<lb/>
 dat voor Zeeland soude hebben moeten repatrieeren, de supercarga’s keur van<lb/>
 scheepen gelaten heeft, nadat deselve ginter komende bevonden sullen worden onder<lb/>
-de nodige ordres omtrent het verwisselen van ’t volk en de officiers.</para>
+de nodige ordres omtrent het verwisselen van ’t volk en de officiers.
+</para>
 <remark>«De boot van de Patmos, die op de terugreis verloren was gegaan, is aan de Compag-</remark>
-
 <pb n="49" tpl="2" vol="11" facs="232_049"/>
 <remark>nie vergoed door degenen die besloten hadden de boot te laten slepen en vervolgens te kappen<lb/>
 en te laten slippen. Men was niet voldoende overtuigd van de reden. Het Chinese goud is<lb/>
@@ -1237,7 +1263,8 @@ met voordeel, soo heeft men dit soo duydelijk tot U Ed. Hoogagtb. narigt alhier 
 of het ook van derselver goedvinden mogte zijn dit eens voor de Nederlandse<lb/>
 maatschappije te probeeren, alsoo wij denken dat men thans een tijd beleeft waarin<lb/>
 men niets moet laten voorbijgaan wat maar eenigsints van speculatie is.<lb/>
-Japan</para>
+Japan
+</para>
 <remark>«In 1 742 is de handel op Japan succesvol geweest. Op 25 juni 1 743 zijn de Polanen en<lb/>
 Beukestijn naar Japan vertrokken met een sobere lading t.w.v. f 293.902 lichtgeld. De bezending<lb/>
 volgde zo kort op de komst van Van Imhoff dat hij de instructie voor het personeel<lb/>
@@ -1261,13 +1288,14 @@ nog niet sooverre hersteld was om 1.000.000 of een millioen ponden van die soeti
 op eenmaal voor Japan alleen te fourneeren, en de overige zijn ten deele ook te<lb/>
 vinden in onse, de besoignes precedeerende resolutie van den 23e april deses jaars,<lb/>
 hoewel men met veel moeyte en talmen nog ruym 600.000 lb. poederzuyker en omtrent<lb/>
-ook sooveel sappanhout bij den anderen gekregen heeft.</para>
+ook sooveel sappanhout bij den anderen gekregen heeft.
+</para>
 <para>
 Van de aanbesteeding der porcelijnen na de monsters van anno 1736 voor Ne-<lb/>
-
 <pb n="50" tpl="2" vol="11" facs="232_050"/>
 derland was afgesien om de duurte, en de bediendens gelast eenige weynige aldaar invendibel<lb/>
-leggende lijwaten herwaarts te senden.</para>
+leggende lijwaten herwaarts te senden.
+</para>
 <remark>«De kosten van de hof reis en de geschenken en douceurs voor de Japanse groten zijn<lb/>
 goedgekeurd. Het geelkoper is tegen een veel hogere prijs , nl. f 3,5,- zwaar geld meer per pikol<lb/>
 , dan het roodkoper aangeboden. Met de Anna en de Eendracht zijn monsters gestuurd<lb/>
@@ -1282,7 +1310,8 @@ het vroeg en volledig voldoen aan de eisen<lb/>
 »</remark>
 <para>
 - omdat dit anders een irreprochable exceptie fourneert aan de bediendens,<lb/>
-waarvan zij al meenigmaal gebruyk hebben gemaakt.</para>
+waarvan zij al meenigmaal gebruyk hebben gemaakt.
+</para>
 <remark>«De snelle terugkeer van de Polanen en Beukestijn op 10 december 1 743 doet Batavia<lb/>
 nog enkele opmerkingen toevoegen. De handel is slecht verlopen. Op een kapitaal van<lb/>
 f 265.124 was slechts f 172.233 winst geboekt. In 1742 was dit respectievelijk f 421.645<lb/>
@@ -1296,7 +1325,8 @@ f 101.874 meer dan de lasten. De verachtering in 1 743 t.o.v. 1 742 bedroeg f 10
 fens komt te missen 2000 kisten koper, die dese scheepen minder dan de ordinaire<lb/>
 tienduysent hebben aangebragt, omdat het capitaal dat vernegotieerd wierd naauwlijx<lb/>
 een derde van de bepaalde 240.000 thailen quam te bedragen en selfs niet eens toerijkende<lb/>
-was om meer koper als dat te betalen.</para>
+was om meer koper als dat te betalen.
+</para>
 <remark>«Met veel moeite had Batavia een lading bijeengeschraapt, voornamelijk bestaande<lb/>
 uit sapanhout, suiker en peper ‘ dat juystgeen rijk carguasoen maakt] Het is nodig altijd produkten<lb/>
 voor Japan voorradig te hebben om de uitrusting der schepen, de gevaren van de zee,<lb/>
@@ -1319,7 +1349,6 @@ en maar 5000 kisten koper te vervoeren dan ook maer met één schip in stede<lb/
 van twee behoefde daar ten handel te komen, en soo dat nog te swaar viel en men bij<lb/>
 soo kleynen tax zijne reeckeninge niet konde vinden, dat men dan in ’t geheel ook wel<lb/>
 t’huys blijven konde. Dog vermits de Japanse capittels bij ons onder de apocrijphe ge-<lb/>
-
 <pb n="51" tpl="2" vol="11" facs="232_051"/>
 rekent worden, soo sal ook dit voorname poinct nog eene nadere deliberatie vereysschen<lb/>
 onder de besoignes om te weeten hoedanig men de besendinge in het jaar 1 744<lb/>
@@ -1329,7 +1358,8 @@ aan koper omdat zij een minder bedragen aan koopmansz. aangebragt heeft, in den<
 aanstaanden jare boven den ordinairen tax sal voldaan werden soo de Compagnie na<lb/>
 proportie ook sooveel meer goederen brengt en na die reeckening souden men in het<lb/>
 aanvolgende jaar 1 744 wel 1 2.000 kisten koper moeten hebben, dat alsoo met den anderen<lb/>
-niet seer accordeert.</para>
+niet seer accordeert.
+</para>
 <remark>«Tot slot wordt gemeld<lb/>
 »</remark>
 <para>
@@ -1350,7 +1380,8 @@ schenkagiegoederen, provisiën en andere effecten en<lb/>
 diverse in gebruyk zijnde goederen tot<lb/>
 naar welkers substractie de voorsz. restanten effectief nog<lb/>
 blijven<lb/>
-<folio>Fol. 748 r-v.</folio>Malakka</para>
+<folio>Fol. 748 r-v.</folio>Malakka
+</para>
 <remark>«Ontvangen zijn brieven van 5 januari en 12 februari 1 743. Op 1 5 oktober zijn met de<lb/>
 voor Bengalen bestemde Noordwolfsbergen brieven aangekomen van 1 9 april en 2 juli.<lb/>
 Door het aanhoudende tekort aan zeelieden heeft men niet een speciaal voor Malakka bestemd<lb/>
@@ -1378,8 +1409,8 @@ gecommitteerdens ter onser dispositie.<lb/>
 ƒ 455.989, 3, -<lb/>
 ƒ 93.217,16, 8<lb/>
 / 282, 5, -<lb/>
-ƒ 92.935,11, 8</para>
-
+ƒ 92.935,11, 8
+</para>
 <pb n="52" tpl="2" vol="11" facs="232_052"/>
 <para>Om ’t gouvernement te ontlasten van de aan handen sijnde swavel, thin, masthouten,<lb/>
 onbequaem buskruyt etc., zoude men haar scheepsruymte van Ceylon en Bengalen<lb/>
@@ -1387,11 +1418,13 @@ doen toekomen, maar dat zij om het verbod op de equipagiegoederen den nachoda va
 seeker moors schip geweygert hadden een Malax masthout met twee capitalen advans<lb/>
 over te doen, is na onse opinie verkeerd begrepen, omdat deselve aldaar door het voorgenoemde<lb/>
 gebrek moetende blijven overleggen seer ligt door de witte mieren g’infecteerd,<lb/>
-en geheel onbruykbaar werden.</para>
+en geheel onbruykbaar werden.
+</para>
 <para>Dat van desen jare geen goud om dies duurte was ingekogt hebben wij gepasseert,<lb/>
 en der ministers verandwoording over het minder gehalte van dat metaal in 't voorlede<lb/>
 jaar voor ’tgeen die is gelaten, totdat den verkoop daarvan op Cormandel gedecideert<lb/>
-sal hebben, wiens essay de accuraatst is.</para>
+sal hebben, wiens essay de accuraatst is.
+</para>
 <remark>«De tinhandel verslapte door toegenomen concurrentie van Engelsen, Fransen , Portugezen<lb/>
 en moren waardoor de prijs steeg tot 100 ropia per bahar ongezuiverd tin van 375<lb/>
 Ib , wat bijna 50% meer is dan de Compagniesprijs van 42 rsd. Het voorstel om in de tingebieden<lb/>
@@ -1417,7 +1450,8 @@ sooveel doenlijk te trocqueeren met zuyver thin, alles tot de gefixeerde prijsen
 medeneemende schaal en gewigt, ambeelt, mokers en beytels, om soo min in dies<lb/>
 quant- als qualiteyt bedrogen te werden. Bovendien heeft men de burgers aldaar ook<lb/>
 verloff gegeven de overige thinplaatsen op dienselfden voet te mogen bewaren, mits al<lb/>
-het getrocqueerde thin aan de Compagnie leverende.</para>
+het getrocqueerde thin aan de Compagnie leverende.
+</para>
 <remark>«Het houtgebrek mag men bij gelegenheid met een Compagnies- of burgerschip in Pegu<lb/>
 aanvullen. Tot zolang zal Batavia erin blijven voorzien. Hoewel het ankergeld van zeven<lb/>
 Portugese schepen en een brigantijn, dat f 2055 bedroeg, niet veel was, moet men doorgaan<lb/>
@@ -1432,15 +1466,16 @@ slechts uit ‘8 packen slegte kleeden en eenige kleynigheeden. Het personeel he
 ook verantwoord tegen de beschuldiging van de directeur van Surat, Jan SchreuderJ</remark>
 <para>
 - alsof de zijde patholen clandestin uyt Souratta vervoert wierden na Malacca,<lb/>
-
 <pb n="53" tpl="2" vol="11" facs="232_053"/>
 alwaar de naam derselver, soo dese zeggen, naauwlijx bekend is, maar wel op Atchin,<lb/>
 daar sij dan ook gewoon sijn sig van hare voornaamste carga te ontdoen, behalven dat<lb/>
 de mooren te willen beletten hare eyge goederen uyt haar eyge land te brengen, daar zij<lb/>
-willen na hare gedagten ridecuul is.</para>
+willen na hare gedagten ridecuul is.
+</para>
 <para>Dat de generale verpagtingen onder uit. augustus niet meerder hadden kunnen<lb/>
 rendeeren als rds. 5991,- dat is wederom rds. 316,- minder als ’t jaar tevoren, hebben<lb/>
-wij aangemerkt als een klare blijk van het verval in de colonie.</para>
+wij aangemerkt als een klare blijk van het verval in de colonie.
+</para>
 <para>Dog dat egter de pagt van het hoofdgeld der Chineesen rds. 50 geaugmenteerd<lb/>
 was, heeft ons doen gissen dat veele vagebonden dier natie, het swerven op Java moede,<lb/>
 datheen clandestien zijn afgesakt, waertegens wij haar geordonneert hebben wel op<lb/>
@@ -1449,7 +1484,8 @@ heeft men bij de voorjarige verleende remissie aan de pagters van rds. 470^ gepe
 schoon die penningen eyndelijk uyt vreese voor schandaal waren opgebragt,<lb/>
 met adhortatie nogtans van niemand anders van dit douceur te doen jouisseeren als de<lb/>
 voorgedrage arme lieden, en dat, nu de rust op Java hersteld is, men sijn devoir zal aanwenden<lb/>
-om de impositiën jaarlijx weder tot haar oude prijsen te doen reysen.</para>
+om de impositiën jaarlijx weder tot haar oude prijsen te doen reysen.
+</para>
 <remark>«Het toe- of afnemen van de winst hangt af van de hoeveelheid aangebrachte en verkochte<lb/>
 specerijen. Het dalen van de verkoop van kaneel en kruidnagels met
 ƒ 68.302 betekende<lb/>
@@ -1469,7 +1505,8 @@ sprake was van onwetendheid dan kwaadwilligheid.<lb/>
 genegen sijn een nieuw verband bij de Compagnie aan te gaan, heeft men haar gequalificeerd<lb/>
 de oudste bij de rol afgaande te verlossen en herwaards te senden met de vaartuygen<lb/>
 die in ’t aanstaande voorjaar uyt Bengalen komende Malacca sullen aangieren,<lb/>
-met belofte dat getal soo ras doenlijk van hier wederom te remplaceeren.</para>
+met belofte dat getal soo ras doenlijk van hier wederom te remplaceeren.
+</para>
 <remark>«Kapitein Jacobus Vuijst wordt opgevolgd door kapitein-luitenant Jan Hendrik<lb/>
 Overlander. Vaandrig Pieter Bartelo wordt naar Malakka gestuurd. Gouverneur Rogier de<lb/>
 Laver wordt opgevolgd door opperkoopman en secunde Willem Bernard Albinus, de fiscaal<lb/>
@@ -1481,7 +1518,6 @@ van Justitie zou dan naar bevind van zaken uitspraak doen. Intussen had Batavia 
 brief van 16 november 1742 van Heren XVII ontvangen. De smokkelhandel in opium,<lb/>
 door de beschuldigden in 1738 gepleegd, werd voldoende bewezen geacht om de zaak een<lb/>
 andere wending te geven. Er waren zelfs klachten binnengekomen bij de Engelse gezanten in</remark>
-
 <pb n="54" tpl="2" vol="11" facs="232_054"/>
 <remark>Den Haag. Op 10 november 1 743 had Batavia het nieuwe bestuur geschreven De Laveren<lb/>
 De Rot onmiddellijk te arresteren en de orders die met de voor Bengalen bestemde Batavier<lb/>
@@ -1533,7 +1569,6 @@ tot opperhoofd van Pulau Tjinkuk Lp.v Theodorus Justinus Rheen. Thijmon Pieter<l
 van Herseele is benoemd tot fiscaal. Secretaris van politie Pieter van Baak is aangesteld tot<lb/>
 resident van Airhadji. Assistent Bruno Heijlman volgt hem op als fiscaal. Na het overlijden<lb/>
 van Muller is Van Baak tot opperhoofd benoemd. Men heeft het aantal personeelsleden ver-</remark>
-
 <pb n="55" tpl="2" vol="11" facs="232_055"/>
 <remark>minderd. De Padangse administrateurs en de gezagvoerders van de Slot Kronenburg en<lb/>
 Rijnhuizen zijn op de hoogte gebracht<lb/>
@@ -1544,7 +1579,8 @@ ijser en de 25 percento die men voor de resico van de zee en de winstderving op 
 overgesondene parthij van 49.304 lb. ijzer haar en de administrateurs der ijzermaguasijnen<lb/>
 alhier hadde doen vergoeden, dog thans door laastgemelte aan de Compagnie<lb/>
 alleen voldaan is.<lb/>
-Bengalen</para>
+Bengalen
+</para>
 <remark>«Brieven ontvangen van 4 januari 1 743 met de Ida en van 14 februari met de Zorgwijk<lb/>
 en Hof niet altijd Zomer.<lb/>
 »</remark>
@@ -1555,7 +1591,8 @@ ook empassant Mazuli- en Nagapatnam aan te gieren, teneynde aldaar in te neemen 
 packen die door ’t verval van ’t Hof niet altijd Somer in de Ganges aldaar waeren overgebleven,<lb/>
 daartoe ruymte latende voor 2 a 300 packen; bedragende dies lading buyten<lb/>
 4 packen ofte 2000 pees panomoga voor Nagapatnam ƒ 177.217,15,8, zoo voor ’t patria,<lb/>
-Gamron als dese hoofdplaats.</para>
+Gamron als dese hoofdplaats.
+</para>
 <remark>«De Zorgwijk en Hof niet altijd Zomer waren op 14 februari 1 743 naar Batavia vertrokken<lb/>
 met een lading salpeter, opium, textiel, rijst enz, t.w.v. f 521.536. De Haamstede<lb/>
 was, in gezelschap van de Velsen en Voorduin, op 17 december 1 742 vertrokken en had in<lb/>
@@ -1587,15 +1624,16 @@ behandelt was. Evenwel hadden de bediendens uyt de geleverde schoon niet seer de
 goenijs ten spoedigsten een parthij zacken doen vervaardigen, om ons buyten verlegentheyd<lb/>
 te houden. Het manqueerende aan de g’eyschte 300 potten boter wierd<lb/>
 compleet voldaan, dog rijst van het nieuwe gewasch nog niet te bekomen sijnde, moest<lb/>
-
 <pb n="56" tpl="2" vol="11" facs="232_056"/>
 het gevorderde met dat van het oude voldaan werden, en vreesden in het geheel geen<lb/>
-cadjang of mong om dies duurte te zullen kunnen afsenden.</para>
+cadjang of mong om dies duurte te zullen kunnen afsenden.
+</para>
 <para>Schoon den nawab Aliwerdichan de Marhetta’s totaliter geslagen en met sijn<lb/>
 leeger van Pattena teruggekomen was, ook reeds considerable sommen, uytmakende<lb/>
 een gedeelte van des mogols agterstaande jaarlijxe revenuen, per wissel na Dillij hadden<lb/>
 overgemaakt, was dit alles egter nog niet genoeg om sig te vleyen met een bestendige<lb/>
-ruste.</para>
+ruste.
+</para>
 <remark>«De beroemde reiziger Samuel van der Putten was als passagier meegereisd op de Hof<lb/>
 niet altijd Zomer. De brieven uit Bengalen heeft Batavia beantwoord<lb/>
 »</remark>
@@ -1637,14 +1675,13 @@ ministers geensints bevoegt waren sodanig een contract te sluyten sonder onse ra
 <remark>«Het aannemen van Frangois de Schonamille c.s. had Batavia liever niet gezien, ook al<lb/>
 had het geen ander gevolg dan het overnemen van hun ammunitie. De Schonamille had<lb/>
 men transport moeten verlenen naar Batavia om vervolgens naar Europa gestuurd te wor-</remark>
-
 <pb n="57" tpl="2" vol="11" facs="232_057"/>
 <remark>
 den. Dat men pas bij het naderen van de rebellen gemerkt had dat het buskruit zo slecht was<lb/>
 en gedwongen was bij de Engelsen te kopen , vond Batavia een slechte zaak. Het aangrijpen<lb/>
 van deze gelegenheid om de loge te veranderen in een fort wordt goedgekeurd, mits de kosten<lb/>
 de geraamde 9000 ropia niet veel te boven gaan.<lb/>
- <special>Kasimbazar</special> Heren XVII zijn zeer ontevreden over de bouw van de loge te Kasimbazar. Het<lb/>
+<special>Kasimbazar</special> Heren XVII zijn zeer ontevreden over de bouw van de loge te Kasimbazar. Het<lb/>
 is een sierlijk maar niet te verdedigen gebouw
 ; dat verlaten is zodra de rebellen oprukten. Bij<lb/>
 terugkeer naar dit kantoor bleek niets beschadigd te zijn of vermist te worden. Zelfs het restant<lb/>
@@ -1657,13 +1694,15 @@ vlugt de Compagnie op dubbelde onkosten gejaagt hadde, konde wij geensints appro
 alsoomin als de inhaligheyd van den naib souba dier provintie in het afdwingen<lb/>
 van een vooruytverstrecking van ropia’s 7000 in mindering van het peeskes, op praetext<lb/>
 van daarmede een gedeelte van sijn krijgsvolk te moeten betalen, behalven nog ropia's<lb/>
-500 aan sijn requestmeester om van swaarder afpersing bevreyt te blijven.</para>
+500 aan sijn requestmeester om van swaarder afpersing bevreyt te blijven.
+</para>
 <remark>«De handel heeft zwaar geleden door de inval van de Marathas.<lb/>
- <special>Kasimbazar</special> Batavia neemt geen genoegen met de excuses van het personeel dat de ‘ sobere<lb/>
+<special>Kasimbazar</special> Batavia neemt geen genoegen met de excuses van het personeel dat de ‘ sobere<lb/>
 en duure insaam van zijde’ het gevolg is van het aflopen van het land door rovers, grote sterfte<lb/>
 onder de zijdewormen en sterke concurrentie. Het resultaat was dat<lb/>
 »</remark>
-<para>- de onse van de adapangia dat jaar in ’t geheel hadden moeten afsien, en niet</para>
+<para>- de onse van de adapangia dat jaar in ’t geheel hadden moeten afsien, en niet
+</para>
 <para>meer als 1 8.626 lb. tannij ofte schaars i van de vaderlandse eysch ende lb. 9500 ofte de<lb/>
 helft van die van Japan hadden kunnen bemagtigen, en dat nog wel percento duurder<lb/>
 als anno passato, ofte 9 stuyvers 12 penningen boven de door U Ed. Hoogagtb. bepaalde<lb/>
@@ -1684,21 +1723,23 @@ zijnde, komen wij tot de zuyder- en noordervermunting, waaromtrend wij hebben<lb
 aangemerkt dat 2iï&gt; percento verlies bij versmelting op het bhaar zilver, dat de Compagnie<lb/>
 in ’t vaderland door b’eedigde essayeurs tot 1 1 penningen 20 grein is aangerekent,<lb/>
 ons vrij suspect voorkomt, en niet minder hare duystere en afgebrokene berekening<lb/>
-van 101 schaars ten hondert verloren op de ducatons.</para>
+van 101 schaars ten hondert verloren op de ducatons.
+</para>
 <remark>«Batavia eist opheldering en wil uitgebreid geïnformeerd worden over belangrijke zaken,<lb/>
 zoals de munt. Deze wordt nu zo kort en onduidelijk beschreven<lb/>
 »</remark>
 <para>- dat men dies ongelden selfs met de muntsgeregtigheeden comfundeert, misschien<lb/>
-om een accurate nareeckening moeyelijk of selfs onmogelijk te maken.</para>
+om een accurate nareeckening moeyelijk of selfs onmogelijk te maken.
+</para>
 <para>
 Dat men ook den wisselaar Fatuchent allerley gedaante doet aanneemen, in tijd<lb/>
-
 <pb n="58" tpl="2" vol="11" facs="232_058"/>
 van geldgebrek langer de Compagnie niet willende crediteeren en naderhand van zilver<lb/>
 voorsien sijnde weygerende dat te ontfangen, hebben wij almede sonder remarque<lb/>
 niet kunnen passeeren, en daarom gepersisteerd bij onse voorjarige ordres dat die lust<lb/>
 mogte hebben nog interest te betalen nadat het capitaal den crediteur is aangeboden,<lb/>
-sulx uyt eyge beurse sal moeten vergoeden.</para>
+sulx uyt eyge beurse sal moeten vergoeden.
+</para>
 <remark><special>Patna</special> (Het personeel moet salpeter blijven verzamelen zodat elk retourschip, net als bij de<lb/>
 Engelsen, met 3000 zakken geladen kan worden, min of meer afhankelijk van het charter<lb/>
 Het voor 85. 760 ropia vooruit verstrekken van salpeter vindt Batavia nogal ruim en wordt<lb/>
@@ -1722,7 +1763,8 @@ den tijd’ te wijten is, moet de Compagnie zich hierbij neerleggen,<lb/>
 <para>
 - gelijk ook de afgave der presenten aan den muntsdaroga ter somma van<lb/>
 ƒ 529,13,- uytkoops voor het verwisselen van 180.000 Arcadoese ropijen tegens den<lb/>
-voorjarigen prijs, dat is na ons begrijp met 5ï percento batta.</para>
+voorjarigen prijs, dat is na ons begrijp met 5ï percento batta.
+</para>
 <remark><special>Hooghly</special> (Batavia is beducht voor het ongenoegen van Heren XVII omdat aan de Nederlandse<lb/>
 en Indische eis voor textiel in 1741 slechts voor
 <special>J</special> deel is voldaan en zij juist meer voor<lb/>
@@ -1736,7 +1778,8 @@ totdat dit agterweesen sal verevent zijn, te meer omdat sommige doeken den inkoo
 selfs niet hadden kunnen behalen - . Ook hebben wij haar gerecomman-<lb/>
 deert onse Indiasche eyschen compleet te voldoen in deugsaam goed tot matige prijsen,<lb/>
 gelijk ook de Japanse, Persiaanse en Caabse gevorderde doeken, de laaste direct,<lb/>
-dog buyten de ruymen der scheepen.</para>
+dog buyten de ruymen der scheepen.
+</para>
 <remark>«In de brief van 15 mei 1 743, verstuurd met de Eva Susanna, sprak Bengalen uit in<lb/>
 verlegenheid gebracht te zijn door de duurte van de kapok en dus van de hoge textielprijzen.<lb/>
 Men vreesde verantwoordelijk te worden gehouden voorde lagere winst door de hogere prijs<lb/>
@@ -1746,7 +1789,6 @@ na de rendementen, waarvan men haar de laaste soude toesenden. Daaruit bleek<lb/
 dat op Bengaals textiel niet minstens 20% winst werd gemaakt om het risico der zee, de uitrustingskosten,<lb/>
 rente en averij te betalen. Het was beter een jaar geen textiel in te kopen dan<lb/>
 kapitaal te riskeren zonder winst te behalen. Batavia wil weten waarom Bengaals lont drie-</remark>
-
 <pb n="59" tpl="2" vol="11" facs="232_059"/>
 <remark>maal zo duur is als het Nederlandse. Het personeel wordt gewaarschuwd zich te hoeden voor<lb/>
 schade omdat Batavia van plan is de rekeningen , vooral van Bengaalse scheepsbenodigdheden<lb/>
@@ -1775,13 +1817,18 @@ tot de Bengaalse prijs selve gedebiteerd werdende, heeft men dies transport<lb/>
 kunnen uytwinnen, egter het schip het Hof niet altijd Winter den 10e mey over dat gouvernement<lb/>
 na dese directie gesonden ter inneeming van cayer en andere benodigtheeden<lb/>
 vandaar, de bediendens ter deser occagie recommandeerende de suynigheyd in<lb/>
-het transport der goederen, teneynde expresse reysen uyt te winnen.</para>
+het transport der goederen, teneynde expresse reysen uyt te winnen.
+</para>
 <remark>«De Velsen heeft lang over de reis gedaan en was slecht gestuwd,<lb/>
 »</remark>
 <para>
 - waardoor niet alleen 2000 pees goenijs, tot desselfs lading geprojecteerd,<lb/>
 niet had kunnen inneemen, maar selfs niet volgens verklaring de 100 haar door de<lb/>
-mangie<fref ref="7"/>  of stuurman van het losvaartuyg te laste gebragt.</para>
+mangie
+<note mark="7">Mangie, manjee, stuurman.<lb/>
+</note>
+of stuurman van het losvaartuyg te laste gebragt.
+</para>
 <remark>«Als retour uit Bengalen heeft men de volgende schepen aangelegd: de West hoven<lb/>
 voor Zeeland, de Phoenix en de Lis voor Amsterdam en de Nieuwstad voor Hoorn,<lb/>
 »</remark>
@@ -1793,15 +1840,12 @@ contingent van de eene kamer niet, gelijk dat behoort, aan het eene, en van de a
 aan het andere boort, maar gemesleert door malkanderen afgestuwt werd, te meer omdat<lb/>
 het schip selve met de onderlaag ook maar aan eene kamer kan werden toegewesen;<lb/>
 zullende hiermede continueeren, en gevolgelijk aanstaande jaar een schip over dese directie<lb/>
-na Rotterdam aanleggen, en in ’t volgende een voor Enkhuysen ensz.</para>
+na Rotterdam aanleggen, en in ’t volgende een voor Enkhuysen ensz.
+</para>
 <remark>«Alleen in noodgevallen mag het personeel in Bengalen een wijziging aanbrengen in<lb/>
 de door Batavia tot retour bestemde schepen, zoals bij de Zorgwijk en Velsen was gebeurd.<lb/>
 Mochten die schepen nog niet van een Turkse pas voorzien zijn, dan kunnen ze die bij Kaap<lb/>
 de Goede Hoop verkrijgen. Het toestaan van canasters vorig jaar wordt ditmaal door de</remark>
-
-<fnote ref="7">Mangie, manjee, stuurman.<lb/>
-</fnote>
-
 <pb n="60" tpl="2" vol="11" facs="232_060"/>
 <remark>vingers gezien, doch de bevelen van Heren XVII hierover dienen de komende tijd opgevolgd<lb/>
 te worden. Moorse matrozen mogen niet meer dan twee kisten per acht man meenemen en<lb/>
@@ -1842,7 +1886,8 @@ personeel moet naar Batavia gestuurd worden. Het aantal ambachtslieden, militair
 zeevarenden is eveneens teruggebracht, zoals beschreven in de brief van 6 augustus 1 743.<lb/>
 Tevens heeft Batavia een akte van remissie naar Bengalen gestuurd<lb/>
 »</remark>
-<para>- voor den gewezen Mochasen resident Willem van den Berg, insooverre hij</para>
+<para>- voor den gewezen Mochasen resident Willem van den Berg, insooverre hij
+</para>
 <para>soude kunnen aansprekelijk g’oordeelt werden weegens desertie, om sig alhier op vrije<lb/>
 voeten te komen verantwoorden aangaande sijne administratie. Nog hebben wij successive<lb/>
 derwaarts afgesonden eenige circulaire ordres, waarvan sommige, als het publiceeren<lb/>
@@ -1852,8 +1897,8 @@ over deselve, en het afschaffen van het ligt geld bij de negotieboeken, haar bet
 hebben over geheel India, en sommige op de westerse comptoiren alleen, en gevolgelijk<lb/>
 ook in dese directie hare applicatie vinden, als het stellen van de ropia op 30 stuyvers<lb/>
 swaar geld en het permitteeren van de wissel na Nederland in goede en gangbare<lb/>
-specie tot verantwoording van den aanneemer met 9 percento rabat, als nagenoeg over-</para>
-
+specie tot verantwoording van den aanneemer met 9 percento rabat, als nagenoeg over-
+</para>
 <pb n="61" tpl="2" vol="11" facs="232_061"/>
 <para>eenkomende met de ducaton die alhier tot 72 stuyvers in cassa werd geteld, en dan nog<lb/>
 het openstellen van de wissels der buytencomptoiren onder den anderen met 3 en na<lb/>
@@ -1863,7 +1908,8 @@ uyt te geven tegens 24 stuyvers swaar geld tot betaling der kostgelden en gagië
 dienaren, en gevolgelijk na dese reductie thans sooveel minder soude gegeven, ofwel<lb/>
 het een en ander verhoogt moeten werden tot een al te groote beswaringe voor d’ E.<lb/>
 Compagnie, heeft men de bediendens alhier en in Souratta gequalificeert bij provisie<lb/>
-hierinne de middelweg te houden.</para>
+hierinne de middelweg te houden.
+</para>
 <remark>«Bengalen op nader advies. Batavia heeft met de sloep Eva Susanna brieven ontvangen<lb/>
 van 26 maart , 9 april en 3 mei 1 743. De Magdalena was pas op 27 februari 1 743 in de<lb/>
 Ganges verschenen , de Oosterhout op 2 maart , wegens slechte bezeildheid. Het personeel<lb/>
@@ -1906,11 +1952,11 @@ om zijn vijand onder de ooge te sien, en twee dagen later, dat de Marhettase gen
 nog niet geconjungeert waren en onseeker of sulx geschieden soude, dog dat<lb/>
 door beyde het quart geld gepretendeerd wierd, soodat, schoon den nawab met de eene<lb/>
 al contract mogte sluyten, dog tegens den anderen soude moeten ageeren of toelaten<lb/>
-
 <pb n="62" tpl="2" vol="11" facs="232_062"/>
 dat het gantsche platteland uytgeplundert wierd, soodat daaruyt niet anders op te maken<lb/>
 was als groot gevaar voor ’s Compagnies dienaren en effecten, voornamentlijk op<lb/>
-Cassembasaar en Pattena, tot groot verlet in den handel.</para>
+Cassembasaar en Pattena, tot groot verlet in den handel.
+</para>
 <remark>«Het personeel van Kasimbazar had de goederen van de Compagnie nog niet naar het<lb/>
 hoofdkantoor gestuurd omdat de nawab alle vaartuigen in gebruik had om zijn familie<lb/>
 naar Bagwangola en Decca en om artillerie en bagage naar Katua te vervoeren. Men moet<lb/>
@@ -1928,7 +1974,8 @@ naar Hooghly gestuurd. De loge mag alleen in uiterste nood verlaten worden<lb/>
 possessie in de logie te blijven op belofte van bevordering en besorging sijner vrijheyd,<lb/>
 omdat de ministers sustineeren dat de inlandse regenten alsdan minder voet soude<lb/>
 hebben de Compagnie bij de terugsending der bediendens voor ’t retablissementcomptoir<lb/>
-geld af te perssen.</para>
+geld af te perssen.
+</para>
 <remark>«In de brief van 3 mei werd geschreven dat men<lb/>
 »</remark>
 <para>
@@ -1959,13 +2006,13 @@ Houglij aangekomen, dog haar gedrag suspect voorkomende, waren se in handen van<
 den fiscaal gesteld; maar op de brieven van reclame was geen antwoord gekomen, vermits<lb/>
 het aftrecken van ’t leeger, dat de ministers sustineeren juyst niet geheel uyt Marhetta’s<lb/>
 bestaan te hebben, terwijl de onderhorigen van den jimidaar van Meirpoer on-<lb/>
-
 <pb n="63" tpl="2" vol="11" facs="232_063"/>
 der haar naam maar allesints strafvrij roofden, en dit volk goed Bengaals sprak, en van<lb/>
 schietgeweer, waarmede verscheyde malen op ons volk gevuurt hadden voorsien waren,<lb/>
 meer als de Zuydlanders gewoon zijn, egter waren dese bewijsen niet sufficant genoeg<lb/>
 om over dien regent aan het Moxudabatse hof te klagen, uyt vreese van in ’t ongelijk<lb/>
-gesteld te sullen werden.</para>
+gesteld te sullen werden.
+</para>
 <remark>«De inkoop van zijde was beter geslaagd dan men gedacht had. Men had weliswaar<lb/>
 geen adapangia ingekocht
 , maar<lb/>
@@ -1988,7 +2035,8 @@ geschenken aan de muntsbediendens afgegeven. De contanten uyt deselve sedert 17<
 december geproflueert, bedroegen ropia’s 587.000, waarvan successive na Houglij<lb/>
 versonden waren ropia’s 466.000 en 4900 ropia’s, aldaar aangehouden tot afbetaling<lb/>
 der zijdeleveranciers wegens den vorigen insaam, 75.000 ropia’s tot de nieuwe procure,<lb/>
-en het overige tot de nodige uytgiften g’employeert.</para>
+en het overige tot de nodige uytgiften g’employeert.
+</para>
 <para>Hagie Ameth had wederom geweld gepleegt tot het afpersen van 5000 ropia’s op<lb/>
 pretext van een dankgifte voor de bewesene bescherming en gedane ongelden, ’tgeen<lb/>
 de bediendens eyndelijk nog na het sluyten van de munt met ropia’s 2200 hadden afgemaakt.<lb/>
@@ -2002,7 +2050,8 @@ zoowel als twee oneen canneelolij aan meermelte Hagie Ameth, nevens 1 8 lb.<lb/>
 specerijen in soort, behalven nog aan sijn zoonen
 <emph>2\</emph> cobido’s fluweel en
 <emph>ll</emph> cobido’s<lb/>
-root laken geschonken.</para>
+root laken geschonken.
+</para>
 <para>De gewone hofsongelden ditjaar beliepen ƒ5627,8,8 ofte ƒ68.749,7,- minder<lb/>
 als anno 1740/41, alsoo doenmaals daaronder begrepen was de afgedwongen nesseranie<lb/>
 of welkomstgifte aan den nieuwe souba, bij voorgaande letteren besz. Nog hadden<lb/>
@@ -2015,23 +2064,28 @@ gruys en kragteloose bladeren, en
 <emph>\3~h</emph> lb. bij het openen van een soekel foelij volgens<lb/>
 b’eedigt rapport tekort bevonden, en eyndelijk nog met de hoofdreeckening doen verevenen<lb/>
 de generale lasten deses comptoirs ter somma van ƒ23.761,18,-, ofte<lb/>
-ƒ4890,8,- meerder als anno passato.</para>
-
+ƒ4890,8,- meerder als anno passato.
+</para>
 <pb n="64" tpl="2" vol="11" facs="232_064"/>
 <para>Wijders notificeeren de ministers dat de bediendens alle het zilver uyt de munt<lb/>
 waren magtig geworden tot op ropia’s 3000 na, tot welkers verkrijging sij mede alle hun<lb/>
 devoir soude aanwenden, behoudende de verhaspeling der zijde nogal in een goede<lb/>
-voortgang.</para>
+voortgang.
+</para>
 <remark><special>Patna</special> (De leverantie van salpeter kan alleen gaande gehouden worden door te beloven er<lb/>
 5 % meer voor te betalen. De leveranciers hebben het vorige jaar veel schade geleden en de<lb/>
 Engelsen betalen ook meer, ,<lb/>
 »</remark>
 <para>
-- die ook eenige onser voorkopers tot Sjoppra hadden gedeboseert<fref ref="8"/> , dog door<lb/>
+- die ook eenige onser voorkopers tot Sjoppra hadden gedeboseert
+<note mark="8">Gedeboseert, van het Franse débaucher, tot staking, desertie overhalen.<lb/>
+</note>
+, dog door<lb/>
 de resident weder onder bedwang gebragt voor een spendatie van 340 ropia’s aan eenige<lb/>
 jimidaars. De restanten van dat zilt in de pakhuysen tot Houglij waren nog groot<lb/>
 3.092.063 lb., ofte 20.600 sacken, en te Pattena 470 sacken, uyt 1800 maon ruwe zilt<lb/>
-geproflueert.</para>
+geproflueert.
+</para>
 <remark>«De leveranciers zullen de textiel tegen de prijs van het vorige jaar leveren. De gevraagde<lb/>
 hoeveelheid katju is volledig ingekocht. Bij borax en salmiak is dit niet gelukt. De verkoop<lb/>
 van de naar Patna gestuurde goederen zal nog wel enige tijd op zich laten wachten omdat<lb/>
@@ -2070,18 +2124,16 @@ Ook was het opperhoofd genoodsaakt geworden een visite af te leggen bij den amar
 Abdul Mansoerchan, om van affront bevrijd te blijven, tot groot disrespect van de<lb/>
 Compagnie, sijnde nu met veel distinctie onthaald en door Zijn Excellentie beschonken<lb/>
 met een fraye eerekleet en een carstanjebruyn Turkse hengst ter waarde van ropia’s<lb/>
-
-<fnote ref="8">Gedeboseert, van het Franse débaucher, tot staking, desertie overhalen.<lb/>
-</fnote>
-
 <pb n="65" tpl="2" vol="11" facs="232_065"/>
 600, waartegens dese personeele visite de Compagnie quam te kosten ropia’s 700, 10§<lb/>
 anes, en de contrapresenten, na ’s lands wijse onvermijdelijk ƒ1842,3,8 in- ofte<lb/>
-ƒ2763,5,4 uytkoops.</para>
+ƒ2763,5,4 uytkoops.
+</para>
 <para>De jaarlijxe recognitie voor den duan ten bedrage van ropia’s 5300 had men gepasseert,<lb/>
 als moetende daarvoor indertijd den eed gepresteerd werden, maar met het<lb/>
 restant van ’t peeskes hadden de bediendens gedilayeert op hope van dit servituit bij<lb/>
-het retour van den duan Sientamendas op een beeter voet af te maken.</para>
+het retour van den duan Sientamendas op een beeter voet af te maken.
+</para>
 <remark>«De buitengewone reparaties in het vorige boekjaar van 14.028 ropia zijn door het<lb/>
 opperhoofd Bartholomeus Aukema verantwoord en door Batavia goedgekeurd ', evenals de<lb/>
 reparaties in dit boekjaar van 1678 ropia , waaronder het vernieuwen van de beschoeiing in<lb/>
@@ -2111,7 +2163,8 @@ in gevaar geraakt zijnde van de Marhetta’s, resolveerden se met d’ Francen n
 Compagnies logie te Singia aan de overzijde van Pattena gelegen sig te begeeven, als de<lb/>
 enigste plaats zijnde om met hun bijhebbende militie bestaande slegts in 22 Europeese<lb/>
 en 86 roerschutters eenige tegenstand te bieden, dogh naderhand de afmarsch der<lb/>
-rovers verstaan hebbende hadden zij sig weder na Pattena begeeven.</para>
+rovers verstaan hebbende hadden zij sig weder na Pattena begeeven.
+</para>
 <remark>«De mogol is ernstig ziek , veroorzaakt door een onbetamelijke levenswijsel De verkoop<lb/>
 van handelswaar is voorspoedig verlopen , maar wordt nu belemmerd door de tweede<lb/>
 inval van de M ar at ha s. In de hoop spoedig van de Marathas verlost te zijn heeft men de<lb/>
@@ -2132,12 +2185,12 @@ defecten, onder welke laaste twee in anno 1 739 ingekogte en thans irreparabel b
 weefgetouwen, afgeschreven.<lb/>
 Met het afgeven der ordinaire jaarlijxe geschenken had men soolang getardeert,<lb/>
 totdat men genoegsaam versekert was vooreerst niet genoodsaakt te sullen werden het<lb/>
-
 <pb n="66" tpl="2" vol="11" facs="232_066"/>
 land te quiteeren, bedragende ƒ2527,4,- in- en ƒ 5865,-, 8 uytkoops, ofte iets minder<lb/>
 als anno passato. Daarentegen bedroegen de dherbaarslasten tot Houglij ƒ3103,10,8<lb/>
 ofte ƒ 177,15,- meer als anno 1740/41, veroorsaakt door de extraordinaire sigtgiften,<lb/>
-soo daar als tot Bellasoor uytgegeven.</para>
+soo daar als tot Bellasoor uytgegeven.
+</para>
 <remark>«De reparaties aan de gebouwen bedroegen in 1 741/42
 ƒ 5372 , d.w.z f 150 minder<lb/>
 dan het voorgaande jaar. De reparaties aan de zeil- en roeivaartuigen en de daaraan verstrekte<lb/>
@@ -2152,7 +2205,8 @@ dikwijls gekapt moeten worden.<lb/>
 <para>De lasten van het hoofdcomptoir en Bellazoor monteerden dus ƒ303.641,9,-,<lb/>
 ofte ƒ32.181,6,8 minder als anno 1740/41, welk verschil ten goede oorspronkelijk<lb/>
 was uyt het minder bedragen der reeckening van equipagiën van scheepen en het minder<lb/>
-versenden van een retourbodem desen jare etc.</para>
+versenden van een retourbodem desen jare etc.
+</para>
 <remark>«Hoewel de lasten van Bengalen f 21.414 minder dan in 1740/41 bedroegen, was<lb/>
 men f 89.800 meer ten achteren geraakt omdat de winsten f 111.214 waren teruggelopen,<lb/>
 als gevolg van de slechte handel door de inval van de Marathas. De lasten van Bengalen bedroegen<lb/>
@@ -2172,7 +2226,8 @@ vlag, waarop in generale termen g’antwoord sijnde, was dit soogenaemde irrevoc
 besluyt tot nog toe buyten executie gebleven. Het vervoerde uyt dese directie in ’t boekjaar<lb/>
 1742/43, soo voor Europa als India, beliep een capitaal van ƒ3.603.726,5,8, blijvende<lb/>
 aldaar nog behalven de bovengenoemde parthij salpeeter overleggen 587 volumes<lb/>
-in zoort.</para>
+in zoort.
+</para>
 <remark>«Bengalen op nog nader advies. Per Magdalena en Oosterhout, beladen met salpeter<lb/>
 enz t.w.v. f 627.024, wordt bericht dat de Fortuin en Nieuwvliet behouden zijn aangekomen.<lb/>
 De Oosterhout is op 12 november in Batavia aangekomen, de Magdalena wordt nog<lb/>
@@ -2185,7 +2240,6 @@ voorjaar naar Coromandel gestuurd worden.<lb/>
 De inlandse zaken waren nog niet seer ten goeden verandert, alschoon den<lb/>
 Marhetsen generaal Bellarau weynige dagen na hare laatste advijsen met sijn gantsche<lb/>
 krijgsmagt die provintie ontruymt had; want dien veldheer, sijne gedane beloften om<lb/>
-
 <pb n="67" tpl="2" vol="11" facs="232_067"/>
 het heir van den mede-generaal Ragoe Goetsella soover te verdrijven dat desen jare<lb/>
 niet soude kunnen wederkomen vergeeten hebbende, was men in dieselve maand weder<lb/>
@@ -2193,7 +2247,8 @@ op het onverwagtste overvallen van een leeger van 25.000 man, de pretentie van �
 quart geld vernieuwende, waarvan den nawab de onregtvaardigheyd met de sabel in de<lb/>
 vuyst meende te demonstreeren, dog sonder succes, alsoo de rovers, alles rontom Morsitdabaath<lb/>
 verwoest hebbende, door gebrek van levensmiddelen en den aanvang van<lb/>
-de regentijd weeder waren afgetrocken.</para>
+de regentijd weeder waren afgetrocken.
+</para>
 <remark>«Nawab Aliwerdi Khan, die een groot deel van de inkomsten van de mogol en van zijn<lb/>
 eigen geld aan oorlogen verspild heeft , spaart niemand om zijn financiën op orde te brengen<lb/>
 , zelfs niet zijn broer Hagie Ameth. Men vreest nieuwe onlusten omdat het niet waarschijnlijk<lb/>
@@ -2215,8 +2270,10 @@ ofte eenige van dien niet aan de competiteuren gelevert wierden, ’tgeen alles 
 de ministers, vermits de aanhoudende duurte van het capok, op dit articul ten dienste<lb/>
 van de maatschappij hadden kunnen uytvinden, te wenschen zijnde dat de leverantie<lb/>
 nog maar sooverre als het jongste jaar gebragt werde, te weeten tot ruym i van de gecontracteerde<lb/>
-kleeden.</para>
-<para>Bengalen op nog al nader advies.</para>
+kleeden.
+</para>
+<para>Bengalen op nog al nader advies.
+</para>
 <remark>«Op 12 december zijn de Nieuwvliet en Fortuin in Batavia aangekomen, beladen met<lb/>
 4400 zakken salpeter voorde retourschepen, 225 kisten opium voor verkoop in Batavia en<lb/>
 enkele stukken textiel voor Batavia, Perzië en Japan, te zamen t.w.v. f 477.630. In de brief<lb/>
@@ -2237,7 +2294,6 @@ geraakt, op Bimilipatnam waren ter houw gekomen, alwaar, sooveel van sijn lading
 hebbende als voor medio september heeft kunnen geschieden, met het overige,<lb/>
 vermits de swakheyd van dien kiel en de continueerende stormbuyen, op ordre der<lb/>
 Cormandelse ministers na de Ganges waren geseylt, alwaer het schip reparabel bevon-<lb/>
-
 <pb n="68" tpl="2" vol="11" facs="232_068"/>
 den, dog het gedrag der overheeden soude door den fiscaal met gecommitteerde zeeverstandigen<lb/>
 g’examineert en daarvan per naaste verslag gedaan werden, gelijk thans<lb/>
@@ -2261,7 +2317,8 @@ uyt de laastgemelte bodem in het eerste waren overgescheept, excepto de peeper d
 om dies goede aftrek hadden aangehouden om meteenen te dienen tot transport van<lb/>
 den afgaande gouverneur en raad extraordinair de heer Jacob Mossel na herwaarts, en<lb/>
 van 250 lasten rijst, tot welkers vervoer na Ceylon sij verhoopten dat op de cust wel gelegentheyd<lb/>
-soude voorkomen.</para>
+soude voorkomen.
+</para>
 <remark>«Er is een begin gemaakt met de uitvoering van de opdracht van Batavia aangaande<lb/>
 de koers van munten. Directeur Jan Albert Sichterman heeft er tijdens een vergadering een<lb/>
 verhandeling over gehouden en de raadsleden hebben schriftelijk advies uitgebracht. De geruchten<lb/>
@@ -2279,14 +2336,14 @@ dan nog de scheepen sonder opsigt van gecommitteerdens ontlast werden, kunnende<
 ook de lootsen geen vermindering veelen en omtrend het bepaalde getal van<lb/>
 100 soldaten vermeynen de ministers de menagie wat al te verre gepousseert te sijn,<lb/>
 vooral in dese troeble en dangereuse tijden, versoekende derhalven om nog 25 man ten<lb/>
-minsten.</para>
+minsten.
+</para>
 <remark>«Batavia zal in het voorjaar beslissen.</remark>
 <subhead>CORO MANDEL</subhead>
 <remark>Tot augustus 1 743 heeft men met de schepen Opperdoes , Huis den Eult, Huis te<lb/>
 Rijnsburg, Cornelia en Ida brieven ontvangen van 23 februari, 9 en 27 oktober 1 742 en 6<lb/>
 maart 1 743, afgezien van een brief die op 10 september 1 743 door het personeel van Machilipatnam<lb/>
 met de Hof niet altijd Zomer naar Batavia is gestuurd. Batavia heeft in een brief</remark>
-
 <pb n="69" tpl="2" vol="11" facs="232_069"/>
 <remark>van 26 augustus 1 743 , die met de Sara Jacoba via Ceylon werd gestuurd, geantwoord , evenals<lb/>
 in brieven van 5, 8 en 22 juni en 3 juli 1 743 met de Voorduin , Kerkwijk , Phoenix en<lb/>
@@ -2337,7 +2394,6 @@ van de gemelte bediendens te condemneeren waren tevoren gekomen, dat sij niet ha
 behoren af te wagten, dat door ons de voormelte vermeerdering was gelaten, sooals<lb/>
 thans geschiede, voor reeckening en verantwoordinge der Sadraspatnamse bediendens.<lb/>
 </para>
-
 <pb n="70" tpl="2" vol="11" facs="232_070"/>
 <remark>«Men moet zich hoeden voor prijsstijgingen en streven naar verlaging van de prijs.<lb/>
 Gouverneur-generaal en raden melden dat zij<lb/>
@@ -2358,7 +2414,8 @@ correctie; zijnde door ons verder elucidatie gevordert wat voor papieren de mini
 quamen te ontbreken omtrent de belastingen die bij den patriasen eysch van den jare<lb/>
 1741 met relatie tot haar gouvernement gevonden wierde, uyt hoofde alle de papieren<lb/>
 dewelke daartoe eenige betreckinge hadden, haar bereets nevens ons schrijven van<lb/>
-den 6e september des voorsz. jaars waren toegesonden.</para>
+den 6e september des voorsz. jaars waren toegesonden.
+</para>
 <remark>«Batavia hoopt dat alle onlusten beëindigd zijn en dat men de stadsmuur
 ; waarvan<lb/>
 sinds 6 maart 1 743 driepunten en evenveel gardijnen gesloten waren geweest, heeft kunnen<lb/>
@@ -2372,7 +2429,8 @@ als doenmaals aan de vader, en een gelijke somma als in gemelte tijd aan de vade
 gegeven althans aan de zoon quamen weg te schenken, mitsgaders dat wij daarom vertrouwden<lb/>
 dat sij op de diminutie derselve, en alle andere geschenken, die mede ter<lb/>
 Cormandelse custe van jaar tot jaar aangroeyden, en nu al op ƒ22.895,1,8 uytkoops<lb/>
-geresen waren, het ooge zouden houden.</para>
+geresen waren, het ooge zouden houden.
+</para>
 <remark>«De lasten bedroegen in het boekjaar 1 740/41
 ƒ 503.682
 , d.w.z
@@ -2397,10 +2455,10 @@ de eerste bedraagt pagoden 206 en de andere pagoden 2230, voor dewelke men<lb/>
 ook om afboekinge heeft versogt gehad, hebben wij van de ministers elucidatie gevordert,<lb/>
 en wijders op derselver daartoe gedane voorstel gecondescendeert om bij de pascedullen<lb/>
 naar de overcust te royeeren en voortaan te excuseeren het interdict tegens<lb/>
-
 <pb n="71" tpl="2" vol="11" facs="232_071"/>
 den overbreng van thin na het Cormandelse gouvernement, en sulx tot vermeerderinge<lb/>
-der inkomsten.</para>
+der inkomsten.
+</para>
 <remark>«Batavia wenst duidelijker dan in de brief aan Heren XVII van 9 september 1 742<lb/>
 geïnformeerd te worden over de soorten goederen die particulieren tussen Coromandel en<lb/>
 Ceylon zouden kunnen vervoeren en over de onzekerheden en consequenties die dit voor<lb/>
@@ -2449,7 +2507,6 @@ verzoek van vaandrig Frederik Robertus om in Batavia dienst te mogen doen is afg
 Sergeant Bartholomeus Gevel is bevorderd tot vaandrig. Twee van de als gezagvoerder op<lb/>
 kleine vaartuigen dienstdoende bootslieden mogen aangesteld worden als onderstuurlieden<lb/>
 zonder dat dit leidt tot meer personeel of tot het aanstellen van twee bootslieden op die</remark>
-
 <pb n="72" tpl="2" vol="11" facs="232_072"/>
 <remark>vaartuigen. Muntmeester Willem Thobias Trekman wordt aangesteld tot hoofd van Palicol<lb/>
 i.p.v. de tot hoofd van Bimlipatam verkozen Casparus Lons. Het wordt aan het bestuur<lb/>
@@ -2463,7 +2520,8 @@ pakhuysmeester Hendrik Dubon tenware zij mogten oordeelen dat een van beyde<lb/>
 door den secunde aldaar soude konnen en ook behoren te werden bekleed, als wanneer<lb/>
 zij daarmee de nodige veranderinge konden maken, en door den Palicols fiscaal<lb/>
 Petrus Mattheus benevens zijn presente ampt laten waarnemen den dienst van secunde<lb/>
-met die van pakhuysmeester en cassier aldaar.</para>
+met die van pakhuysmeester en cassier aldaar.
+</para>
 <remark>«Als vaste regel en richtsnoer geeft Batavia<lb/>
 »</remark>
 <para>
@@ -2490,7 +2548,8 @@ politie, die teffens secretaris van de justitie soude moeten zijn;<lb/>
 5 diverse personen ten dienste van de kerk;<lb/>
 6 diverse personen tot de geneeskunde;<lb/>
 10 diverse personen tot de respective ambagten en<lb/>
-24 diverse personen tot de arthillerije.</para>
+24 diverse personen tot de arthillerije.
+</para>
 <remark>«Van de 18 sergeanten en 60 korporaals moeten er resp. 6 en 30 naar Batavia gestuurd<lb/>
 worden. 60 a 70 soldaten moeten naar Ceylon gezonden worden. Het overtollige<lb/>
 personeel en degenen die van de onderhorige kantoren zouden worden opgeroepen en boven<lb/>
@@ -2498,66 +2557,102 @@ het vastgestelde aantal waren moeten naar Batavia gestuurd worden. Het aantal in
 personeelsleden moet gehalveerd worden
 , van 404 naar 202.<lb/>
 »</remark>
-<para>Mazulipatnam</para>
-<para>1 opperkoopman en opperhoofd;</para>
-<para>1 koopman en secunde;</para>
-<para>1 onderkoopman en pakhuysmeester;</para>
-<para>1 boekhouder en gesworen clercq benevens 1 pennist;</para>
-
+<para>Mazulipatnam
+</para>
+<para>1 opperkoopman en opperhoofd;
+</para>
+<para>1 koopman en secunde;
+</para>
+<para>1 onderkoopman en pakhuysmeester;
+</para>
+<para>1 boekhouder en gesworen clercq benevens 1 pennist;
+</para>
 <pb n="73" tpl="2" vol="11" facs="232_073"/>
-<para>1 boekhouder en factuurhouder benevens 1 pennist;</para>
+<para>1 boekhouder en factuurhouder benevens 1 pennist;
+</para>
 <para>1 boekhouder soldijboekhouder benevens 1 pennist, welke laaste ses personen ook<lb/>
 zouden moeten waarneemen alle extraordinaire en ordinaire voorvallende commissiën;<lb/>
 </para>
-<para>1 chirurgijn;</para>
-<para>1 krankbesoeker;</para>
+<para>1 chirurgijn;
+</para>
+<para>1 krankbesoeker;
+</para>
 <para>1 quartiermeester en equipagieopsiender, met 2 Europeese mattroosen, waarvan een<lb/>
 tot den dienst van vlaggeman en<lb/>
-50 inlandse dienaren tot diverse diensten.</para>
-<para>Paliacatta</para>
-<para>1 koopman en opperhoofd;</para>
-<para>1 onderkoopman tot den dienst van secunde, pakhuysmeester, fiscaal en cassier;</para>
-<para>3 pennisten;</para>
-<para>1 chirurgijn;</para>
-<para>1 constabel;</para>
-<para>1 krankbesoeker;</para>
+50 inlandse dienaren tot diverse diensten.
+</para>
+<para>Paliacatta
+</para>
+<para>1 koopman en opperhoofd;
+</para>
+<para>1 onderkoopman tot den dienst van secunde, pakhuysmeester, fiscaal en cassier;
+</para>
+<para>3 pennisten;
+</para>
+<para>1 chirurgijn;
+</para>
+<para>1 constabel;
+</para>
+<para>1 krankbesoeker;
+</para>
 <para>1 mattroos tot vlaggeman en adjunct van den constabel, met<lb/>
-30 inlandse dienaren.</para>
-<para>Palicol</para>
-<para>1 ondercoopman en opperhoofd;</para>
+30 inlandse dienaren.
+</para>
+<para>Palicol
+</para>
+<para>1 ondercoopman en opperhoofd;
+</para>
 <para>1 boekhouder of adsistent, met nog een aanquekeling tot het schrijfwerk en<lb/>
-30 inlandse dienaren.</para>
-<para>Kakinara</para>
-<para>1 ondercoopman en opperhoofd;</para>
+30 inlandse dienaren.
+</para>
+<para>Kakinara
+</para>
+<para>1 ondercoopman en opperhoofd;
+</para>
 <para>3 pennisten en<lb/>
-25 inlandse dienaren.</para>
-<para>Bimilipatnam</para>
-<para>1 onderkoopman en opperhoofd;</para>
+25 inlandse dienaren.
+</para>
+<para>Bimilipatnam
+</para>
+<para>1 onderkoopman en opperhoofd;
+</para>
 <para>3 pennisten en<lb/>
-30 inlandse dienaren.</para>
-<para>Porto Novo</para>
-<para>1 onderkoopman en opperhoofd;</para>
+30 inlandse dienaren.
+</para>
+<para>Porto Novo
+</para>
+<para>1 onderkoopman en opperhoofd;
+</para>
 <para>1 boekhouder als secunde en om teffens waar te neemen de diensten daaraan gehorende;<lb/>
 </para>
-<para>2 pennisten;</para>
+<para>2 pennisten;
+</para>
 <para>1 bosschieter en<lb/>
-30 inlandse dienaren.</para>
-<para>Sadraspatnam</para>
-<para>1 ondercoopman en opperhoofd;</para>
+30 inlandse dienaren.
+</para>
+<para>Sadraspatnam
+</para>
+<para>1 ondercoopman en opperhoofd;
+</para>
 <para>1 boekhouder om den dienst van secunde, pakhuysmeester en hetgeene daar verder<lb/>
-aan gehoord waar te neemen;</para>
-<para>2 pennisten;</para>
-
+aan gehoord waar te neemen;
+</para>
+<para>2 pennisten;
+</para>
 <pb n="74" tpl="2" vol="11" facs="232_074"/>
-<para>1 bosschieter en</para>
+<para>1 bosschieter en
+</para>
 <para>50 inlandse dienaren, mitsgaders op<lb/>
-Tegenepatnam</para>
-<para>1 uyt de pennisten als factoor, met twee inlandse dienaren.</para>
+Tegenepatnam
+</para>
+<para>1 uyt de pennisten als factoor, met twee inlandse dienaren.
+</para>
 <para>Zijnde de ministers voorts ook nog aanbevolen geene militairen of zeevarende<lb/>
 tot de pennedienst te changeeren, of eenige jongelingen daar in dienst aan te neemen,<lb/>
 alsmede dat op de voormelte onderhorige comptoiren daar militie gevonden wierd, sodanigen<lb/>
 getal van deselve soude moeten werden geplaatst als de gelegentheyd van tijd<lb/>
-en zaken soude komen te requireeren.</para>
+en zaken soude komen te requireeren.
+</para>
 <remark>«Op 1 september en 13 november 1 743 heeft Batavia met de Noordwolfsbergen en<lb/>
 Kerkwijk brieven uit Coromandel ontvangen van 4 juli en 8 en 12 oktober 1 743. Batavia<lb/>
 meldt dat volgens de brief van 4 juli<lb/>
@@ -2590,19 +2685,19 @@ Nagapatnam en dorpen vooruyt, alsmede te wille geweest in de uytkeeringe van 108
 pagoden voor de helft van twee verkogte vaartuygen van twee arme Naoerders, en vermeenden<lb/>
 de ministers dat de Compagnie bij dese vreede vrij meer quam te profiteeren<lb/>
 dan off al het aangehaalde onder haar gebleven was, aangesien de vragtolens van neutrale<lb/>
-vrij meer dan tweemaal sooveel quamen te bedragen als aan de barquiers<fref ref="9"/>  wierde<lb/>
+vrij meer dan tweemaal sooveel quamen te bedragen als aan de barquiers
+<note mark="9">Barquier, barkier: champanotty, bestuurder van een sampan bij de parelvisserij op Ceylon.<lb/>
+</note>
+wierde<lb/>
 gerestitueerd, behalven dat den gouverneur van voorsz. Ajengaar ook nog verkregen<lb/>
 hadde een ordre ter restitutie van 220 pagoden, tot Manaar aan de barcquiers verstrekt,<lb/>
 en 250 dito’s van een ’s Compagnies coopman, nevens 25 morgen lands tot uytbreydinge<lb/>
 harer limiten aan de noordzijde, oversulx men na hare stellinge hierdoor voldaen<lb/>
-
-<fnote ref="9">Barquier, barkier: champanotty, bestuurder van een sampan bij de parelvisserij op Ceylon.<lb/>
-</fnote>
-
 <pb n="75" tpl="2" vol="11" facs="232_075"/>
 krijgende alle de ongelden en schade van de Compagnie nevens het verlies dat de dorpelingen<lb/>
 door de woeste Tansjoerse krijgers aan hare woningen hadden geleden, zij<lb/>
-daaromme aan onse aggreatie niet behoefden te twijffelen.</para>
+daaromme aan onse aggreatie niet behoefden te twijffelen.
+</para>
 <remark>«De lasten bedroegen in het boekjaar 1741/42
 ƒ 425.130 , d.w.z,
 ƒ 78.552 minder<lb/>
@@ -2624,7 +2719,8 @@ en Van Zon, sonder iets op hare versoeken te hebben verkregen, weder teruggekome
 en een reeckening hadden overgeleverd, bedragende soo aan geschenken als ongelden<lb/>
 en afgedwonge penningen een somma van pagoden 28.747,18, die zij verder aan ons<lb/>
 komen te versoeken op het generaal te mogen vereffenen.<lb/>
-Ceylon</para>
+Ceylon
+</para>
 <remark>«De originele papieren over Ceylon hebben Batavia nog niet bereikt en men heeft zich<lb/>
 dus moeten behelpen met kopieën , die vele bijlagen missen. Bij het nalopen van de zaken die<lb/>
 de afgelopen vier jaar behandeld zijn is naar voren gekomen dat het eiland verwaarloosd is,<lb/>
@@ -2649,10 +2745,10 @@ excessen van overijverige kerkdienaren. Feit is<lb/>
 - dat er nog aan de g’ordonneerde nieuwe landbeschrijvingen, nog aan de<lb/>
 doorgravinge op Cotta, nog aan die van de Wallawittie Corle, nog omtrent die van<lb/>
 Mantotte, nog in eenige andere dingen de verbeteringe van het land betreffende, iets<lb/>
-het minste in ’t werk gestelt is dat eenig genoegen geven kan.</para>
+het minste in ’t werk gestelt is dat eenig genoegen geven kan.
+</para>
 <remark>«Batavia prijst het plan van gouverneur-generaal Van Imhoff sterk aan, doch laat tevens<lb/>
 de vrijheid om daarin te veranderen of verbeteren zoals men op Ceylon goeddunkt. Het</remark>
-
 <pb n="76" tpl="2" vol="11" facs="232_076"/>
 <remark>gaat slecht met de handel Er wordt weinig areka uit de bovenlanden aangevoerd; in enkele<lb/>
 maanden nauwelijks 300 ammanam. Door ‘ indirecte behandeling was de winst op Tuticorinse<lb/>
@@ -2668,7 +2764,8 @@ Ceylon, mitsgaders om ons niet op te houden met alle hetgeene over eenen soo nad
 duuren inkoop voor de Compagnie tot 45 en 48 rds. als voor de Ceylonse arme<lb/>
 gemeente soo schadelijke verduuring van den rijs tot bij de 60 rds. het last in stede van<lb/>
 circa 40 plusminus waarop men dat koorn geduurende het bestier van den gouverneurgeneraal<lb/>
-althoos heeft kunnen houden, nog wel te seggen soude vallen,</para>
+althoos heeft kunnen houden, nog wel te seggen soude vallen,
+</para>
 <remark>«zullen alleen enkele ‘verdergaande staaltjes behandeld worden. De fanum stond nog<lb/>
 steeds op 6r 4 lichte stuiver, ondanks de uitdrukkelijke order van Batavia van 4 oktober 1 740<lb/>
 de fanum te verlagen tot 6 lichte stuiver en ondanks het verlies dat Ceylon er door leed, zowel<lb/>
@@ -2689,7 +2786,8 @@ nu, mits het afschaffen van ’t ligt geld, insooverre men met de eygen munterij
 sal sijn daaraan eenige cours bij de boeken te geven, gelast hebben 4j stuyvers<lb/>
 swaar geld te neemen waardoor U Ed. Hoogagtb. in ’t vervolg het guinees eerste<lb/>
 zoort op agt en een halve gulden of weynig meer en de tweede soort op wat minder dan<lb/>
-agt guldens sal komen te staan.</para>
+agt guldens sal komen te staan.
+</para>
 <remark>«Batavia maant het bestuur door te gaan met het zelf munten van fanums en heeft<lb/>
 daartoe een partij ongemunt goud gestuurd. Had het bestuur Batavia eerst verzekerd dat de<lb/>
 verhoging van de prijs van olifanten in 1 739 ertoe had geleid dat de kooplieden in 1 740 en<lb/>
@@ -2705,7 +2803,6 @@ van de rechten die de Compagnie toekomen. Zo heeft men een ontvanger van<lb/>
 de nelypacht in het district Matara, die de Compagnie nog 1 00 last nely schuldig was, geholpen<lb/>
 door hem de revenuen van een dorp of stuk land te geven die de Compagnie anders zou<lb/>
 krijgen. De Compagnie betaalde dus uit eigen beurs. Batavia vraagt opheldering. Gegevens</remark>
-
 <pb n="77" tpl="2" vol="11" facs="232_077"/>
 <remark>over lasten en winsten van het boekjaar 1 741/42 zijn Heren XVII rechtstreeks uit Ceylon<lb/>
 gestuurd . Giruwayu Pattu is verpacht voor zes jaar tegen ruim 600 last nely perjaar,
@@ -2726,7 +2823,8 @@ doet met de exploitatie van de chanco s en met de parelvisserij,<lb/>
 »</remark>
 <para>
 - met advis van den Mallabaars commandeur Siersma gedefereert de bepaling<lb/>
-van een bestaanbare prijs op de zaye van Bendoerti, ter Mallabaarse custe vallende.</para>
+van een bestaanbare prijs op de zaye van Bendoerti, ter Mallabaarse custe vallende.
+</para>
 <folio>Fol. 897v.</folio>
 <remark>«Batavia merkt op<lb/>
 »</remark>
@@ -2734,7 +2832,8 @@ van een bestaanbare prijs op de zaye van Bendoerti, ter Mallabaarse custe vallen
 - dat over alle de negotieposten, rakende de uytleveringen der ladingen van<lb/>
 de schepen, item de in- en afschrijvingen bij opneem en transporteeren en wat verder<lb/>
 aan belastingen en ontheffingen voorkomt, ditmaal geen dispositie heeft kunnen vallen,<lb/>
-door ontstentenissen der principale papieren.</para>
+door ontstentenissen der principale papieren.
+</para>
 <remark>«Dominee Fabricius heeft zich niet goed gedragen bij het tegengaan van de ‘ heydensen<lb/>
 afgodendienst' en Batavia heeft hierover op 26 september 1 743 een besluit genomen. Ceylon<lb/>
 moet de brief van Heren XVII van 16 november 1 742 over deze kwestie beantwoorden.<lb/>
@@ -2755,14 +2854,14 @@ blijven hangen, terwijl men inmiddens voor een leur en seur, gelijk men segt, so
 als Gale heeft sien verkopen en afleggen twee kloeke scheepen van 160 voet,<lb/>
 die tot het fundament van die moulje geprojecteert waren, en nu nog even verre gevordert<lb/>
 als over ses of seven jaren, wanneer die zaak door den eerstgetekenden gouverneur-generaal<lb/>
-in propositie wierd gebragt.</para>
+in propositie wierd gebragt.
+</para>
 <remark>«Gouverneur Steijn van Gollenesse moet nu het havenhoofd tot stand brengen en<lb/>
 voorbereidingen treffen zonder nadere orders af te wachten. De retourschepen die in 1 742<lb/>
 van Ceylon vertrokken zijn, zijn veilig bij Kaap de Goede Hoop aangekomen. Over de retourschepen<lb/>
 van 1 743 wordt met de Anna bericht. Negen schepen en de Zaamslag zijn vertrokken<lb/>
 en volgens bericht van 30 september 1 743 zijn de Goidschalxoord en Scheijbeek<lb/>
 ook veilig bij de Kaap aangekomen. Ceylon twijfelde of men aan de drie schepen die men in</remark>
-
 <pb n="78" tpl="2" vol="11" facs="232_078"/>
 <remark>1 743 wilde sturen een vierde zou toevoegen. Bij het tijdstip van vertrek is rekening gehouden<lb/>
 met de orkanen om de zuid. Men mag geen lege schepen meer naar Batavia sturen maar<lb/>
@@ -2771,7 +2870,8 @@ moet , indien er geen lading is, naarde Ganges varen,<lb/>
 <para>
 - ter besparinge van sooveel scheepen als men half volladen jaarlijx van hier<lb/>
 voor Bengale moet employeeren ten afhaal van de retouren uyt die directie, soo voor<lb/>
-Europa als Indiën.</para>
+Europa als Indiën.
+</para>
 <remark>«In september 1 744 moet Ceylon een schip naar Malakka sturen , eveneens om een<lb/>
 schip vanuit Batavia te besparen. De voormalige gouverneur, Bruyninck, heeft 2100 rsd<lb/>
 aan de Compagnie moeten betalen. Dit is het bedrag aan pikols peper die de Opperdoes<lb/>
@@ -2788,7 +2888,8 @@ ongeschikte maaksels en optimmeringe te wijten is. Wij hebben de ministers een m
 bij provisie op het papier toegesonden tot het aanmaken van een beter zoort, en de mallen<lb/>
 belooft te senden, dog of dan met het een of andere de Ceylonse of Cochimse timmerlieden<lb/>
 in staat sullen sijn deselve in dier voegen te maken, is al soo onseker als dat<lb/>
-men hier in staat sal sijn haar daartoe verder de behulpsame hand te bieden.</para>
+men hier in staat sal sijn haar daartoe verder de behulpsame hand te bieden.
+</para>
 <remark>«Batavia verbiedt 'b uyt en de hoogste n oodsa kei ijkh eyd
 ’ m eer dan 30 rsd per last op<lb/>
 Coromandel en 40 rsd per last op Ceylon bij particulieren aan rijst te besteden voor rekening<lb/>
@@ -2806,7 +2907,8 @@ vooral soo men de eerstgenoemde nelij gestampt kan krijgen door de pelmolen, waa
 men nog evenseer in twijffelingen verseert als bevorens, en om een eynde daaraan<lb/>
 te maken jongst positief g’ordonneert is die machine een jaar agter den anderen onophoudelijk<lb/>
 te laten doorpellen, om daar met fundament tot dies aanhouding of afkeuring<lb/>
-te kunnen procedeeren.</para>
+te kunnen procedeeren.
+</para>
 <remark>«De verdachte inkoop van suiker is uitgebreid behandeld in de resolutie van 26 september<lb/>
 1743. Deze inkoop , uit 1742, moet onderscheiden worden van een uit 1741, die<lb/>
 door gouverneur Bruyninck op aanraden van de commandeur van Jajfna, Abraham Dormieux,<lb/>
@@ -2818,11 +2920,11 @@ gaat akkoord met het in dienst nemen van Engelse deserteurs,<lb/>
 »</remark>
 <para>
 - omdat die natie ons, door het debaucheeren van ons volck ter Mallabaarsen<lb/>
-
 <pb n="79" tpl="2" vol="11" facs="232_079"/>
 en Madureeschen custe het vuur soo na aan de voeten legt, dat men naar veele vrugtelose<lb/>
 doleantiën eyndelijk dit het beste middel g’oordeelt heeft om haar met gelijke munt<lb/>
-te betalen.</para>
+te betalen.
+</para>
 <remark>«Over het hof van Kandy en de thevar heeft Batavia enige algemene opmerkingen gemaakt<lb/>
 in de resolutie van 2 9 oktober 1 743. De schipper van de Hof niet altijd Winter die ervan<lb/>
 wordt verdacht Ga/le opzettelijk te zijn voorbijgevaren en op de oostkust van Ceylon zo<lb/>
@@ -2864,7 +2966,8 @@ over geheel India gesteld is geworden, sal moeten geschieden niet voor munt maer
 derselver gehalte, en dus ook niet bij stukken maar bij het gewigt, gerekent sestig sware<lb/>
 stuyvers de reaal swaarte van het gehalte der Spaance realen, en de overige spetie na<lb/>
 proportie volgens een tafel die men daarvan geformeert en haar toegesonden -<lb/>
-heeft.</para>
+heeft.
+</para>
 <remark>«Indien het bestuur van Malabar Spaanse realen ontvangt moeten die naar Batavia<lb/>
 gestuurd worden om de peper uit Bantam en Palembang mee te betalen. De textielhandel<lb/>
 heeft in Travancore stilgestaan door de oorlog en in Madurai of Manapar slechts 58 pakken<lb/>
@@ -2873,7 +2976,6 @@ of 2890 stuks textiel opgeleverd
 klachten uit Malabar over de ‘ hoge berekeninge der Madureese fanums refereert Batavia<lb/>
 aan Ceylon. De beslissing over het voorstel om een directe vaart naar Mokka te openen met<lb/>
 een schip van Ceylon en een jacht van Malabar wordt uitgesteld tot de resultaten van de pas</remark>
-
 <pb n="80" tpl="2" vol="11" facs="232_080"/>
 <remark>gedane kleine bezending bekend zijn. Batavia doet aanbevelingen die door de gouverneur<lb/>
 van Ceylon
@@ -2887,7 +2989,8 @@ van de prijs van peper, \<lb/>
 joods koopman Ezechiël Rabbij hadden gecontracteerd, gelevert wierden, alsdan voor<lb/>
 ieder candijl van 500 lb. te betalen sesthien ducaten, dog voor 2000 candijlen niet meer<lb/>
 als 15 en voor 1000 dito 14 dito en minder dan laastgemelte quantiteyt de voorjarige<lb/>
-prijs van 13 ducaten.</para>
+prijs van 13 ducaten.
+</para>
 <remark>«De verhoging moet zoveel mogelijk verbreid worden. Batavia heeft met deze verhoging<lb/>
 ingestemd omdat
 , gezien de vele klachten van kooplieden over het verlies dat zij bij levering<lb/>
@@ -2897,7 +3000,8 @@ tegen de oude prijs leden ondanks maatregelen van de Compagnie
 <para>
 - een goede quantiteyt peeper meester te werden, daar men bij verkoop nog<lb/>
 wat op profiteeren kan, dan op den ouden prijs staande alles te sien vervallen in de handen<lb/>
-onser competiteuren.</para>
+onser competiteuren.
+</para>
 <remark>«Sinds het besluit was tot 7 mei 1743 3 79.852 lb peper geleverd. Batavia geeft toestemming<lb/>
 om een derde van de verzamelde peper aan de kooplieden ‘ met een capitaal advans<lb/>
 af te staan. Tevens wordt overwogen de Bombarras toe te staan goederen die de Compagnie<lb/>
@@ -2925,7 +3029,8 @@ toegesonden, hebben gepetitioneert, eensdeels om de gecesseerden oorlog met den<
 Trevancoorder, en dat zij het kruyt aldaar selver met stampmolens kunnen vermalen<lb/>
 sonder dat hetselve na het naburig Ceylons gouvernement behoefde overgesonden te<lb/>
 werden, en ten anderen omdat haar restant onder uit. maart deses jaars nog groot geweest<lb/>
-is een montant van 1 64.0645 lb. over de geheele custe.</para>
+is een montant van 1 64.0645 lb. over de geheele custe.
+</para>
 <remark>«R.k.-geestelijken moeten minder stoutmoedig zijn in het prediken tegen de inhoud<lb/>
 van de plakkaten en in het dopen van heidense onderdanen van Malabarse vorsten. Tevens<lb/>
 gelast Batavia<lb/>
@@ -2933,13 +3038,13 @@ gelast Batavia<lb/>
 <para>
 - dat de roomse priesters die in derselver aldaar staande kerken steeds voor<lb/>
 den paus van Romen als het sigtbaar hooft en den koning van Portugaal als den patroon<lb/>
-
 <pb n="81" tpl="2" vol="11" facs="232_081"/>
 der kerken in Indiën bidden, ook in den aanstaande in hare gebeeden zullen hebben in<lb/>
 te sluyten Haar Hoogmogende de Heeren Staten- Generaal der Vereenigde Nederlanden,<lb/>
 U Wel Edele Hoogagtb. en dese regeering, mitsgaders den commandeur en raad<lb/>
 van Cochim, nadien wij sulx ten uyttersten billijk hebben g’oordeelt, uyt hoofde van de<lb/>
-protectie die deselve van de Nederlandse Compagnie komen te genieten.</para>
+protectie die deselve van de Nederlandse Compagnie komen te genieten.
+</para>
 <remark>«Batavia heeft ds. Johannes Scherius naar Malabar gestuurd en belooft assistentie ‘ bij<lb/>
 ontstentenisse van een leeraar ’ zo niet van Batavia dan in ieder geval van Ceylon , om te<lb/>
 voorkomen dat kinderen van personeel van de Compagnie door r.k.-priesters gedoopt worden.<lb/>
@@ -2964,7 +3069,8 @@ kleenigheeden te querelleeren, en daarentegen den koning van Porca, alschoon de<
 overtollige blijken van sijne bewesene kleynagting voor de Compagnie op de eerste<lb/>
 boodschap in een naauwe vriendschap aan te neemen, nademalen wij vermeent hebben<lb/>
 dat de locale kennisse van zijnen predecesseur en Zijn Ed. bekende oplettentheyd<lb/>
-hem behoren te strecken tot een lesse, waarbij hem niet qualijk vinden zal.</para>
+hem behoren te strecken tot een lesse, waarbij hem niet qualijk vinden zal.
+</para>
 <para>
 Den koning van Cochim ’tsedert eenigen tijd wat handelbaarder geworden en<lb/>
 door hem continueel klagtig gevallen, mitsgaders geprotesteert zijnde over het inhouden<lb/>
@@ -2987,7 +3093,6 @@ egter om de wille van het oogschijnelijk nadeel dat in de aanhouding van dat com
 soo door het geweldig gedrag van den koning, als de swarigheeden die de conditiën dewelke<lb/>
 de coopluyden bij het doen van haren naderen eysch hebben gemaakt, verselt<lb/>
 gaan, ongerekent het gevaar dat men ten aansien van de Angrease rovers die dese plaats<lb/>
-
 <pb n="82" tpl="2" vol="11" facs="232_082"/>
 al vrij veel besoeken te wagten heeft, goedgevonden vandaar in ’t geheel op te kramen,<lb/>
 te meer de ministers seggen occasie te hebben om de weynige koopmansz. die aldaar<lb/>
@@ -2995,7 +3100,8 @@ omgeset werden op Cochim aan de man te helpen, en met de coopluyden een conventi
 te sluyten tot het bemagtigen van de voormelte rijst en het benodigt sandelhout voor<lb/>
 den prijse op Canara betaalt werdende, ten minsten met de vragtlonen beswaart, waaraan<lb/>
 wij geene redenen hebbende te twijffelen, ook des te eerder tot voormelte opbrake<lb/>
-sijn overgetreden.</para>
+sijn overgetreden.
+</para>
 <remark>«Batavia wenst niet onnodig en ontijdig gealarmeerd te worden over geruchten van<lb/>
 ‘ quade desseynen door de zamorin tegen de Compagnie. Zoals aangekondigd in de brief<lb/>
 van Malabar aan Heren XVII van 5 november 1 742 , is vrede gesloten met de vorst van Travancore.<lb/>
@@ -3035,7 +3141,6 @@ gaat akkoord met 2% en legt de overige j% ter vergoeding op aan het bestuur van 
 De door de Domburg aangebrachte suiker was, zo bleek uit monsters, ondeugdelijk en vrijwel<lb/>
 onverkoopbaar. Men moet de suiker tegen een zo hoog mogelijke prijs verkopen en van<lb/>
 elke soort Batavia een aparte financiële staat sturen. De schade op de vierde soort moet ver-</remark>
-
 <pb n="83" tpl="2" vol="11" facs="232_083"/>
 <remark>goed worden door de pakhuismeesters van Batavia en de gecommitteerden die de afscheep<lb/>
 hebben bijgewoond. Batavia heeft bedenkingen bij het besluit van 6 maart 1 743<lb/>
@@ -3052,7 +3157,8 @@ en hetwelk ons een grote suspectie heeft gegeven of hieromtrent wel ter goeder t
 gehandelt is, mitsgaders ons ook heeft gepermoveert om het minder rendement van dat<lb/>
 fluweel te stellen op reeckening van voorsz. Pecok, mits behoudende zijn guarand op<lb/>
 meermelte Van der Laar, welkers reecquening wij dan ook al meteenen gelast hebben<lb/>
-van die vergoeding te ontheffen.</para>
+van die vergoeding te ontheffen.
+</para>
 <remark>«De kosten voor timmerwerk en reparaties hebben f 5955 bedragen. Hoewel de nieuwe<lb/>
 stal, het hooipakhuis , het militaire wachthuis en drie sergeantenkamers f 4919 minder<lb/>
 hebben gekost dan het in 1 738 toegekende bedrag , is het nu de tijd niet om nodeloze gebouwen<lb/>
@@ -3064,7 +3170,8 @@ het antwoord op wat vorig j aar geschreven werd over<lb/>
 »</remark>
 <para>
 - de aanreeckening van het gevallen verlies op de als doen vermunte 6714^<lb/>
-marcq marcqrealen, dewijl daaromtrend niet door haar na de ordre gehandelt is.</para>
+marcq marcqrealen, dewijl daaromtrend niet door haar na de ordre gehandelt is.
+</para>
 <para>
 Door de secunde deser directie, Pecok, aan ons overgesonden sijnde een nadere<lb/>
 verandwoording wegens het overwigt van
@@ -3073,7 +3180,8 @@ van ’s Compagnies negotiepakhuysen na de aufugie van Van der Laan op het Japan
 staafkoper ter sijner precautie overgenomen heeft gehad, - , soo hebben wij na<lb/>
 dies lecture goedgevonden die zaak daarbij te laten berusten, ingevalle den voorsz. Pecok<lb/>
 met eede sal kunnen verklaren hieromtrend niet ter quader trouwe gehandelt te<lb/>
-hebben.</para>
+hebben.
+</para>
 <remark>«Batavia is tevreden over de toelichting over de \ zadels van staat \ de karossen van de<lb/>
 Compagnie en de afgifte van geschenken. Zuinigheid blijft echter geboden en het nieuwe<lb/>
 reglement voor
@@ -3093,7 +3201,6 @@ niet meer nodig. Nu was het bestuur van Surat gedwongen de suiker aan te houden 
 de vastgestelde prijs niet geboden werd. Men vreest dat zelfs de geboden prijs niet meer<lb/>
 gehaald zal worden omdat de suiker in de ‘quade mousson nogal sterker aan 't siropen geraakte'.<lb/>
 Het verzoek van Surat om voor bederfelijke waar de markt te mogen volgen wordt</remark>
-
 <pb n="84" tpl="2" vol="11" facs="232_084"/>
 <remark>ingewilligd. De gomlak op stokjes die Batavia in 1 742 heeft gestuurd en nog niet afgezet is,<lb/>
 moet tegen elke prijs verkocht worden omdat er in Batavia ook geen vraag naar is. Over het<lb/>
@@ -3136,7 +3243,8 @@ onderworpen is geweest, dat men daarop in de besoigne weynig staat maken kan,<lb
 hoewel wij het egter aan hunne keure hebben gelaten omme andersints de gequalificeerde<lb/>
 of monsterrolle met de voorgevallene veranderingen effen gestelt sijnde ons te<lb/>
 laten toekomen, terwijl wij de overige reductie omtrent de dienaren in dese directie tot<lb/>
-den aanstaanden jare hebben uytgesteld gelaten.</para>
+den aanstaanden jare hebben uytgesteld gelaten.
+</para>
 <remark>«De overgekomen papieren behorende bij het proces van de voormalige directeur Pieter<lb/>
 Laurens Phoonsen zijn in handen gesteld van de destijds advocaat-fiscaal ad interim Nico<lb/>
 laas Jongsma, alsmede het bericht van fiscaal Abraham Cornelis de la Haye over de verantwoording<lb/>
@@ -3147,7 +3255,6 @@ nalatenschap gevraagd. Mocht de gelegenheid zich voordoen, dan moet Surat de Eng
 met gelijke munt betalen. Batavia keurt goed dat Surat alcatieven en paarden uit Perzië gevraagd<lb/>
 heeft. Surat is buiten zijn boekje gegaan door Perzië een rekening van f 177 te sturen<lb/>
 voorin 1 737 gevraagde en verzonden wijn uit Shiraz, Men had eerst de mening van Batavia</remark>
-
 <pb n="85" tpl="2" vol="11" facs="232_085"/>
 <remark>moeten vragen. Batavia heeft nog geen proef genomen met de goederen die uit Perzië in Surat<lb/>
 aangebracht waren en in een door Surat gestuurde prijscourant vermeld stonden , omdat<lb/>
@@ -3165,7 +3272,11 @@ de Compagnie ook eens onverwagt overkomen mogten, goedgevonden hadde deselve<lb/
 daarvan op een subtile wijse door het afsenden van een briefje met een vaartuyg (dat<lb/>
 quasie om te vissen, en voorsien met een pasce van dien rover in zee ging) te preadverteeren.<lb/>
 </para>
-<folio>Fol. [963a]r-v. <fref ref="10"/> </folio>
+<folio>Fol. [963a]r-v.
+<note mark="10">Tussen fol. 963 en 964 bevindt zich een ongenummerd folio, waarop het getranscribeerde gedeelte<lb/>
+staat.<lb/>
+</note>
+</folio>
 <remark>«Batavia ondersteunt de genomen voorzorg. Het betalen van 100 ropia aan de besteller<lb/>
 van het briefje wordt goedgekeurd, alsmede alles wat Surat tegen de verraden onderneming<lb/>
 van Kanhoji Angria had verricht. Conform de order uit Batavia van vorig jaar had<lb/>
@@ -3199,16 +3310,12 @@ in reeckening te brengen dan tot 50 stuyvers swaar geld, alhoewel men deselve va
 Persiën of geheel Indiën door voor 60 stuyvers swaar geld laat aanneemen, nademalen<lb/>
 sulks dog bijna om het even is als men de verkoopsprijsen daarna bedingen kan en men<lb/>
 hierdoor des te meer staat op die van desen handel sal kunnen maken wanneer zij soo<lb/>
-
-<fnote ref="10">Tussen fol. 963 en 964 bevindt zich een ongenummerd folio, waarop het getranscribeerde gedeelte<lb/>
-staat.<lb/>
-</fnote>
-
 <pb n="86" tpl="2" vol="11" facs="232_086"/>
 goedkoop contanten daarvoor kunnen ontfangen, dat den tijd kan leeren en in het vervolg<lb/>
 ook wel doen egualiseeren met de overige comptoiren van negotie in die quartieren.<lb/>
 <lb/>
-Perzie</para>
+Perzie
+</para>
 <remark>«Op 2 mei 1 743 is met de Cornelia een brief van het bestuur van Perzië van 3 1 oktober<lb/>
 1742 ontvangen. De Horssen is met koopwaar en benodigdheden t.w.v
 ƒ 233.999<lb/>
@@ -3259,7 +3366,6 @@ vergoed werden het geheele minwigt van 5^ percento op de Hollandse en 6f* ten<lb
 hondert op de Bengaalse booter, dewelke sij hadden konnen goedvinden, schoon geen<lb/>
 minderheyd op boter mag werden vergunt, de voornoemde scheepsoverheeden van de<lb/>
 Cornelia te valideeren, met en benevens de te veel geconcedeerde M percento op de<lb/>
-
 <pb n="87" tpl="2" vol="11" facs="232_087"/>
 benzuin en 1 ten hondert op de aangebragte quantiteyt van 350.000 lb. peper, vermits<lb/>
 ons geen wettige redenen zijn te voren gekomen, waarom de gemelte overheeden juyst<lb/>
@@ -3284,7 +3390,8 @@ alsmede om de in Ridderskerk verblevene 2955 lb. sappanhout, 5000 lb.<lb/>
 spiaulter en 200 pees lange Bengaalse goenijs, met en benevens 1 8.502 lb. peper die sij<lb/>
 sustineerden insgelijx in dien bodem verbleven te sijn, geensints op winst en verlies af<lb/>
 te boeken, gelijk de ministers dat bereets op onse nadere dispositie hadden goedgevonden,<lb/>
-maar integendeel alle deselve te stellen op reecquening van het Persiaanse rijk.</para>
+maar integendeel alle deselve te stellen op reecquening van het Persiaanse rijk.
+</para>
 <folio>Fol. 973v-976v.</folio>
 <remark>«Het bestuur van Perzië moet beknopter gaan schrijven. Dit spaart schrijflonen en<lb/>
 schrijfgerei en voorkomt verwarring. Zo schrijft men eerst dat men geen klachten heeft over<lb/>
@@ -3304,17 +3411,17 @@ Slot Cronenburg en de Ketel voor het rijk derwaarts heeft gesonden gehad, eeneli
 maar was betaald een somma van ƒ 13.338,18,14, uyt hoofde zij tegens onse uytdruckelijke<lb/>
 ordre van den 31e mey des laastgemelte jaars deselve sonder eenige belastinge<lb/>
 hadden afgegeven, en om die reden bij ons nader schrijven van uit. september d’ anno<lb/>
-passato ook gelaten waren voor hare reeckening.</para>
-<folio>Fol. 978ar-987br. <fref ref="11"/> </folio>
+passato ook gelaten waren voor hare reeckening.
+</para>
+<folio>Fol. 978ar-987br.
+<note mark="11"><super>1 1</super> Fol. 978 is dubbel geteld, nl. 978a en 978b.<lb/>
+</note>
+</folio>
 <remark>«Men moet zijn best doen de daarop nog resterende f 41.231 te verkrijgen en de verongelukte<lb/>
 Ridderkerk te laten vergoeden door de Perzische vorst. De waarde van schip en<lb/>
 verloren gegane goederen bedroeg 6 a 7000 thoman ofwel
 ƒ 255.000 a
 ƒ 297.500. Het uit-</remark>
-
-<fnote ref="11"><super>1 1</super> Fol. 978 is dubbel geteld, nl. 978a en 978b.<lb/>
-</fnote>
-
 <pb n="88" tpl="2" vol="11" facs="232_088"/>
 <remark>lenen van de sloep Valk om levensmiddelen naar Band-e Kong te brengen , wat in 1 9 dagen<lb/>
 gebeurd was , tot genoegen van Mohammad Teki Khan , wordt goedgekeurd. Hij had wederom<lb/>
@@ -3348,7 +3455,8 @@ en alvorens dit laastgemelte verschil aan de Compagnie te doen vergoeden, opdat 
 peper na de regte en ware inkoopsprijs effective quame te behalen de 336| percento<lb/>
 waarmede zij hun ten onregte nu quamen op te schikken, en haar wijders nog het geheele<lb/>
 bedragen dier belastinge na dese nadere bereeckeninge tot ƒ 6056,1 1,- bij weege<lb/>
-van boete op te leggen.</para>
+van boete op te leggen.
+</para>
 <remark>«Batavia is tevreden over de \ staat en behandelinge der makelaars'. Men hoeft zich<lb/>
 geen zorgen te maken over het feit dat hiervoor jaarlijks een forse rekening naar Batavia gestuurd<lb/>
 wordt. In het boekjaar 1 741/42 was te Gamron
@@ -3363,11 +3471,11 @@ zijn gegaan met<lb/>
 <para>- den cours der muntspeciën om de west van Indiën te stellen na haar eyge gehalte<lb/>
 en intrinseque waarde, mitsgaders daarbenevens te ordonneeren de ropia door<lb/>
 geheel Indiën te rekenen op 30 sware stuyvers nadat alle andere speciën en het ligt geld<lb/>
-bij ’s Compagnies negotieboeken soude wesen afgeschaft.</para>
+bij ’s Compagnies negotieboeken soude wesen afgeschaft.
+</para>
 <remark>«De brief hierover van 19 juli 1 743 is met de Horssen verstuurd, evenals een bericht<lb/>
 van 10 oktober 1 743 van de opperkooplieden van het kasteel waarin het gewicht, het gehalte<lb/>
 en de waarde van een nieuwe Spaanse reaal en de prijs van zilver als hulp bij het accepte-</remark>
-
 <pb n="89" tpl="2" vol="11" facs="232_089"/>
 <remark>ren van inlandse munten vermeld stonden. Batavia was nog niet in staat een nieuwe essayeur<lb/>
 te sturen Lp.v. de overleden Anthony Knol. Voor koopwaar mogen alleen Spaanse<lb/>
@@ -3414,17 +3522,19 @@ stemt in met het afslaan door het bestuur van Perzië van het verzoek uit Bandar
 een schrijver te krijgen. De afgifte van geschenken wordt goedgekeurd. De stand van zaken<lb/>
 van het kantoor Isfahan en het gedrag van de residenten is zeer bedenkelijk,<lb/>
 »</remark>
-<para>- dewijle deselve door ’s Compagnies benjaan Wissendas met grote moeyte</para>
+<para>- dewijle deselve door ’s Compagnies benjaan Wissendas met grote moeyte
+</para>
 <para>van buyten geld tot de dagelijkse guastos laten fourneeren, en bovendien twee wissels,<lb/>
 te zamen groot ƒ7270,1,-, op de ministers hadden getrocken, omme daaruyt te vinden<lb/>
 de betalinge van een caffilha met drooge tafelfruytagies etc., dewelke door haar na<lb/>
 Gamron was gesonden, nietjegenstaande zij vandaar tot Spahan ontfangen hadden een<lb/>
 caffilha met diverse coopmanschappen ten bedrage van ƒ 25.008,3,8, sonder eenige de<lb/>
-minste kennisse te geven of door hun in den tijd van 8 maanden geen pond of stuk van</para>
-
+minste kennisse te geven of door hun in den tijd van 8 maanden geen pond of stuk van
+</para>
 <pb n="90" tpl="2" vol="11" facs="232_090"/>
 <para>sooveele coopmanschappen hadden konnen werden verkogt, om daaruyt de nodige<lb/>
-guastos goed te maken.</para>
+guastos goed te maken.
+</para>
 <remark>«Het bestuur van Perzië zal de zaak onderzoeken en heeft de residenten tot nader order<lb/>
 verboden wissels te trekken. Goedgekeurd wordt<lb/>
 »</remark>
@@ -3456,7 +3566,8 @@ het ook bovendien ten hoogsten te vreesen was, dat bij aankomste van den Persisc
 koning in die hoofdplaatse, ’s Compagnies bediendens aldaar hun genoodsaakt zouden<lb/>
 vinden, te moeten treden tot het afgeven van seer grote en genoegsaam ondragelijke<lb/>
 geschenken, eyndelijk om die en meer andere redenen heeft goedgevonden gehad<lb/>
-op te breeken.</para>
+op te breeken.
+</para>
 <remark>«De uitvoering hiervan wordt aan het bestuur van Gamron overgelaten. De tolk David<lb/>
 Sahid of een andere bekwame inlander moet in Isfahan blijven om de rechten van de<lb/>
 Compagnie te handhaven en de zaken waar te nemen. Alle goederen moeten altijd volgens<lb/>
@@ -3476,7 +3587,6 @@ welke als 'quade en hoeveel bedragen de 'goede restanten waarop men staat kan ma
 Batavia vraagt deze extra informatie omdat de Perzische papieren zo onduidelijk zijn en er<lb/>
 geen misverstand over mag ontstaan. De vijf Perzische houwers met draagbanden
 , die voor</remark>
-
 <pb n="91" tpl="2" vol="11" facs="232_091"/>
 <remark>vijf kaffers waren gekocht voor f 127, moeten aan de Compagnie vergoed worden omdat er<lb/>
 geen reden was ze te kopen. Eveneens wenst Batavia dat<lb/>
@@ -3491,7 +3601,8 @@ dog door haar almede afgeschrevene 25 lb. vleesch, 1 5 dito’s spek en 1 8| lb.
 men daarentegen gepasseerd het verstrekken van twee vaten zuur geworden bier<lb/>
 voor azijn aan het volk, in onderstellinge dat deselve inderdaad als sodanig en niet om<lb/>
 te drinken waren afgegeven, dewijle door dit laaste niet dan ziekte soude konnen werden<lb/>
-veroorsaakt.</para>
+veroorsaakt.
+</para>
 <remark>«Het verzoek van de tolk Elias Sahid aan de Raad van Justitie van Gamron om verlost<lb/>
 te worden van een belasting van f 5950 betreffende 280 thoman of f 1 1. 900 , aan de wevers<lb/>
 van gouden en zilveren stoffen vooruit verstrekt en na het overlijden van het hoofd van lsfahan,<lb/>
@@ -3504,7 +3615,8 @@ vergoed worden ,<lb/>
 »</remark>
 <para>
 - behoudens haar guarand op den resident Pieter Aalmis, onaangesien desen<lb/>
-laasten daarvoor bereets op reeckening was belast geworden.</para>
+laasten daarvoor bereets op reeckening was belast geworden.
+</para>
 <remark>«Ten tweede moeten particuliere crediteuren op gepaste wijze tevredengesteld worden.<lb/>
 Ten derde moet bekend gemaakt worden dat de Compagnie nooit instaat voor schulden<lb/>
 van het personeel. De edelstenen van Van Leypzig, een diamant, robijn en smaragd, getaxeerd<lb/>
@@ -3524,14 +3636,14 @@ gebruikt worden,<lb/>
 - mits in agt nemende dat buyten ’s Compagnies eyge geldspeciën alle Per-<lb/>
 siaanse en andere munten door haar eenelijk bij het gewigt en na de gehalte van derselver<lb/>
 zilver in cassa wierden geaccepteerd, sulx dat het met een reaal Spaans tegens 60<lb/>
-sware stuyvers gerekend overeenquam.</para>
+sware stuyvers gerekend overeenquam.
+</para>
 <remark>«Wat op 27 september 1 743 besloten is over insolvente boedels moet aan de buitenkantoren<lb/>
 bekend worden gemaakt. Jaarlijks moet aan Heren XVII over land een brief gestuurd<lb/>
 worden waarin vermeld staat welke vaderlandse koopwaar in Perzië het meest gewild<lb/>
 is. Op 5 november 1 743 is de Duif uit Perzië in Batavia aangekomen met een lading<lb/>
 contanten en goederen t.w.v. f 412.549. Het schip bracht een brief van 29 juni waarin Batavia<lb/>
 geen zaken vond die snel een antwoord vereisten. De lasten bedroegen in het boekjaar</remark>
-
 <pb n="92" tpl="2" vol="11" facs="232_092"/>
 <remark>1741/42 f 239.024, de winsten f 201.428, d.w.z, de lasten overtroffen de winsten met<lb/>
 f 37.595. Sindsdien is echter in een periode van 6 maanden te Gamron, Basra en Bandar<lb/>
@@ -3562,7 +3674,8 @@ de 25 pees lakenen en 50 dito’s perpetuanen die men de ministers op den 6e nov
 in minderinge van haren eysch, groot 310 pees lakenen, van hier heeft laten toekomen,<lb/>
 eenelijk nog maar 5 stux schairroode perpetuanen met een gering advans van 33^ percento<lb/>
 schaars hadden konnen werden omgeset.<lb/>
-Java’s Oostkust</para>
+Java’s Oostkust
+</para>
 <remark>«Volgt De Jonge,
 <special>Opkomst</special> IX, p. 429 r. 11-p. 431. Het vervangen van resident Reynierde<lb/>
 Klerk, die vrij oorlogszuchtig was, door resident Gillis Keyseren het sturen van provisioneel<lb/>
@@ -3574,7 +3687,8 @@ regenten en rebellen voorgevallen gevechten zijn van weinig belang<lb/>
 melte regenten door een renfort van Compagnies militie gesouteneerd den vijand hebben<lb/>
 opgeslagen, die men wilde dat onder een goed getal dooden telde twee broeders<lb/>
 van den gewesen Maas Brahim en eenige andere onder haar voorname personagiën.<lb/>
-<folio>Fol. 101</folio>8r.</para>
+<folio>Fol. 101</folio>8r.
+</para>
 <remark>«Over de zoon van Mas Brahim, van wie men zegt dat hij het gezag voert over het district<lb/>
 Pasuruan en de daar rondzwervende rebellen, en over Lue Panjang ontvangt Batavia<lb/>
 zulke tegenstrijdige berichten dat men er geen staat op kan maken. Volgt De Jonge
@@ -3589,11 +3703,11 @@ Wel is waar dat van de princen uyt des soesoehoenangs eygen huys, waarvan er<lb/
 twee nog soo versch of op den 1 5e april deses jaars van het hoff waren gevlugt en andere<lb/>
 sig reeds vroeger aan het swerven hadden begeeven, mitsgaders eenen pangerang Singa<lb/>
 Sarie sig nog in het laaste van may hadde g’absenteerd, buyten een die door een uytge-<lb/>
-
 <pb n="93" tpl="2" vol="11" facs="232_093"/>
 sondene troup Javanen opgebragt dog op onse expresse begeerte door den soesoehoenang<lb/>
 gepardonneerd en in gunst aangenomen is, nog niemand tot op het schrijven van<lb/>
-desen is komen opdagen om de verleende amnestie te amplecteeren.</para>
+desen is komen opdagen om de verleende amnestie te amplecteeren.
+</para>
 <remark>«Batavia wijt dit meer aan het niet kunnen besluiten welke partij te kiezen dan aan<lb/>
 kwaadwilligheid. De inlandse regenten en groten kunnen ervan verzekerd zijn dat eenieder<lb/>
 die de bescherming van de Compagnie wil genieten die inderdaad zal krijgen en niet aan de<lb/>
@@ -3617,7 +3731,8 @@ vrij wat extensie en aangelegentheyd, alsook de uytbreydinge onser limiten omtre
 reeds bij contract van anno 1705 afgestane Samarang, tot zoverre als zig desselfs territoir<lb/>
 extendeerd, mitsgaders dat gedeelte van Madure ’twelk onder den pangerang Tsjacraningrat<lb/>
 gehoord en evensals omtrend Sumanap en Pamacassan bevorens is geschied<lb/>
-thans ook alleen van de Compagnie dependeerd en aan deselve onderworpen is.</para>
+thans ook alleen van de Compagnie dependeerd en aan deselve onderworpen is.
+</para>
 <remark>«Batavia verwacht dat ook het district Tegal spoedig onder het gezag van de Compagnie<lb/>
 zal vallen omdat men het niet waarschijnlijk acht dat de bevolking de vroegere vorst zal<lb/>
 verkiezen boven de Compagnie. De regeringsvorm van de gebieden om de west ligt nog niet<lb/>
@@ -3643,14 +3758,14 @@ men geantwoord dat<lb/>
 »</remark>
 <para>
 - men zijner indertijd ten goeden zal gedenken, gelijk inderdaad ook de inten-<lb/>
-
 <pb n="94" tpl="2" vol="11" facs="232_094"/>
 tie is zoo er geen reden ter contrarie voorkomen, en daarvan heeft men reeds een bewijs<lb/>
 gegeven met onse ordre om de sabandharijen van Toeban en Sidayoe, daar sijn<lb/>
 volk nog huyshoud, en van welk laastgemelte district sijn oudste zoon, die den pangerang<lb/>
 onder pretext van indispositie niet heeft willen permitteeren in persoon met sijne<lb/>
 overige kinderen herwaards te komen, het regentschap in handen heeft, bij provisie<lb/>
-voor dit jaar aan sijne administratie over te laten.</para>
+voor dit jaar aan sijne administratie over te laten.
+</para>
 <remark>«In Sumenep en Pamakasan heerst nog onenigheid tussen de minderjarige regent ,<lb/>
 Raden Tummenggung Tjakranagara , en zijn voogden , Raden Aju en Raden Aria Suranagara.<lb/>
 De regent wil alleen regeren en zijn voogden dwarsbomen dit. Batavia is het eens met<lb/>
@@ -3669,7 +3784,8 @@ sig tot de grensscheydinge hadden konnen bedienen haren oirspronk neemen, het ge
 en eygentlijker was tot die limiten te verkiesen de boorden van de rivier<lb/>
 Soerabaya, wanneer aan desselfs oostkant zoude blijven leggen het halve district Soerabaya,<lb/>
 de landstreeken Djiepang en Wirasaba met het grote dog tans verwoeste landschap<lb/>
-Cadierie.</para>
+Cadierie.
+</para>
 <remark>«Voordat hierover besloten wordt, wordt de terugkeer van commissaris Hugo Verijssel<lb/>
 afgewacht. In ieder geval blijft het gehele gebied van Surabaja onder gezag van de Compagnie<lb/>
 en<lb/>
@@ -3679,7 +3795,8 @@ en<lb/>
 hebben mede niet versuymd bij eene expresse besendinge nader aan te houden op hun<lb/>
 meermaals gedaan versoek teneynde alleen onder ’s Compagnies regeeringe en bescherminge<lb/>
 te sorteeren, ten welken reguarde men hare sendelingen onlangs wel getroost<lb/>
-en met goede hoop heeft gedimitteerd.</para>
+en met goede hoop heeft gedimitteerd.
+</para>
 <remark>«Het verzoek van de regenten is ingewilligd en Batavia hoopt dat er minder onenigheid<lb/>
 in het gebied zal zijn nu de Compagnie er de alleenheerschappij heeft. De sjahbandarijen<lb/>
 langs de kust, die nu ook tot het domein van de Compagnie behoren, zijn voorlopig verpacht<lb/>
@@ -3694,7 +3811,6 @@ vaart op Java, behalve van en naar Batavia, vormt een basis voor de verpachting 
 ook opgenomen als artikel in het vredesverdrag. Batavia matigt de rigoreuze afschaffing<lb/>
 van de voor de Compagnie zeer nadelige overwalse handel en vaart op Javas oostkust. Aan<lb/>
 de ene kant moeten overwalse handelaren worden doorverwezen naar Batavia als de plaats</remark>
-
 <pb n="95" tpl="2" vol="11" facs="232_095"/>
 <remark>waar ze van alles voorzien kunnen worden
 , aan de andere kant moet de handel tussen Batavia<lb/>
@@ -3717,7 +3833,8 @@ prins blijft nog onder ’s Compagnies bescherminge omdat het niet veylig voor h
 soude, vooral nog in sijn land, en zijn verschil met Bonie’s koninginne het nog niet<lb/>
 volkomen bevreedigde Celebes weder opnieuw in rep en roer soude kunnen setten,<lb/>
 zijnde ondertusschen desselfs in den Javasen oorlog aan ons bewesene goede diensten<lb/>
-erkend door een goude gedenkpenning met een ketting.</para>
+erkend door een goude gedenkpenning met een ketting.
+</para>
 <remark>«Te Kartasura zal in 1 744 een versterking gebouwd worden en op de weg tussen Kartasura<lb/>
 en Semarang zullen enkele verschansingen opgeworpen worden. De vesting te Pasuruan<lb/>
 is na diverse reparaties in goede staat gebracht. Ter vervanging van het opperhoofd van<lb/>
@@ -3739,14 +3856,13 @@ handel in rijst blijft opengesteld voorzover het niet in strijd is met het ' pla
 overwalsche vaart'. Batavia heeft geen suiker ontvangen omdat alle suikermolens in de strijd<lb/>
 vernield zijn. Men verwacht dat de suikermolens te Japara, Kudus, Tandjungen Pati spoedig<lb/>
 hersteld zullen zijn omdat de Chinese eigenaars ze weer in bezit wilden nemen, wat op 30<lb/>
-november is toegestaan. Aan hout waren op 23 juli 1 743 te Rembang 26  à 28 scheepsladingen<lb/>
+november is toegestaan. Aan hout waren op 23 juli 1 743 te Rembang 26 à 28 scheepsladingen<lb/>
 voorradig. Drie sloepen en 44 kleinere inlandse vaartuigen die men bij de herovering<lb/>
 van Rembang op stapel en in reparatie vond liggen, zijn naar Batavia gestuurd. De vaartuigen<lb/>
 van maximaal vijf last mogen aan de meestbiedende verkocht worden omdat eraan de<lb/>
 overige schepen nog veel werk is en de kleine schepen kunnen wegrotten voordat men aan ze<lb/>
 toekomt. De negotieboeken van 1741/42 en 1742/43 zijn Batavia nog niet toegestuurd.<lb/>
 Met de soldijboeken loopt men nog verder achter.</remark>
-
 <pb n="96" tpl="2" vol="11" facs="232_096"/>
 <subhead>Cheribon en de Preanger</subhead>
 <remark>Acht grote zeerovers hebben zich in het voorjaar van 1 743 tussen Pamanukan en Indramaju<lb/>
@@ -3775,15 +3891,24 @@ gestuurd. Tussen 1 april en 16 december 1 743 heeft men uit het gebied ontvangen
 <special>3800 pees riemhouten</special><lb/>
 <special>1 100 pees wisserstocken</special><lb/>
 <special>2000 pees piekstocken</special></remark>
-<para>1935 pees balken, lang 30 a 32 voet, dik 10 a 12 duym</para>
-<para>22 1 1 pees huysbalken, lang 24 a 25 voet, dik 10a 12 duym</para>
-<para>4867 pees Jassemse balkjes</para>
-<para>3 1 34 pees halve windboomen</para>
-<para>1448 pees sluytswalpen</para>
-<para>1000 pees musquetladehouten</para>
-<para>1332 pees balken, lang 17 a 18 voet, dik 9 a 1 1 duym</para>
-<para>150 pees pomphouten, en</para>
-<para>80 pees picols tammerinde</para>
+<para>1935 pees balken, lang 30 a 32 voet, dik 10 a 12 duym
+</para>
+<para>22 1 1 pees huysbalken, lang 24 a 25 voet, dik 10a 12 duym
+</para>
+<para>4867 pees Jassemse balkjes
+</para>
+<para>3 1 34 pees halve windboomen
+</para>
+<para>1448 pees sluytswalpen
+</para>
+<para>1000 pees musquetladehouten
+</para>
+<para>1332 pees balken, lang 17 a 18 voet, dik 9 a 1 1 duym
+</para>
+<para>150 pees pomphouten, en
+</para>
+<para>80 pees picols tammerinde
+</para>
 <subhead>Bantam</subhead>
 <remark>«Er heerst rust en vrede. De sultan heeft diverse gezantschappen gestuurd die op 5<lb/>
 april, 29 juli en 14 september ontvangen zijn. Ze hadden geschenken bij zich, zoals de ruwe<lb/>
@@ -3796,10 +3921,10 @@ er zeker van is dat het goederen voor het hof en niet voor de handel zijn,<lb/>
 <para>
 - om hetwelke te onderscheyden den koning op den 10e october passato geschrift<lb/>
 met een zegul herwaards gesonden heeft dat tot een slaper zal moeten dienen<lb/>
-
 <pb n="97" tpl="2" vol="11" facs="232_097"/>
 om daartegens te confronteeren de credentialen, die hij aan sulke fagiëndarissen zal<lb/>
-medegeven.</para>
+medegeven.
+</para>
 <remark>«De peperleverantie is in 1 743 redelijk geweest. Sinds het vertrek van de theeschepen<lb/>
 Leeuwerik en Hof van Delft begin april, is met de Nieuwerkerk, Herstelden
 ; Concordia en de<lb/>
@@ -3848,7 +3973,6 @@ Franschen, onder de materie van Chormandel bij dienselfden brief aangehaalt, sul
 de ministers in loco best kunnen b’antwoorden. Het ongelijk, dat zij ons met haar nieuw<lb/>
 en onwettig etablissement op Carcal hebben aangedaan, is U Ed. Hoogagtb. reeds ten<lb/>
 vollen bekend; en hare openbare collusiën met onsen gedeclareerden vijand op Malla-<lb/>
-
 <pb n="98" tpl="2" vol="11" facs="232_098"/>
 baar kunnen onder meer andere bewijsen ook duydelijk genoeg blijken uyt de nevensleggende<lb/>
 translaten [van] gewisselde ola’s tusschen Ragia Trevancoor en sekeren mr.<lb/>
@@ -3856,7 +3980,8 @@ Signard op Mahé, mitsgaders uyt het gedrag van mr. De la Bourdonnoye met sijn e
 waarop dien Trevancoorsen vorst niet tevergeefs soo stout geworden is, als men<lb/>
 aanmerkt sijne sterke instantie op hetgeene bij articul 20 van de vreede jongst met hem<lb/>
 gesloten bedongen is, soodat indien klagen wat helpen konde, het sekerlijk onse beurt<lb/>
-soude sijn om over de verre uytsiende desseyn deser natie te doleeren.</para>
+soude sijn om over de verre uytsiende desseyn deser natie te doleeren.
+</para>
 <remark>«Een directe vaart tussen Coromandel en Europa is nog niet nodig omdat er in één<lb/>
 jaar slechts een halve scheepslading goederen voor Europa bijeengebracht wordt. Ook al<lb/>
 zou de hoeveelheid goederen stijgen
@@ -3877,7 +4002,8 @@ men sonder merkelijk tijdversuym Chormandel kan laten aanlopen, soodat indien<lb
 het daaraan alleen manqueerde de swarigheyd niet groot wesen soude, soodra de Compagnie<lb/>
 scheepen heeft die nevens andere wat spoedig overweg komen kunnen, want<lb/>
 dat word noodsakelijk daarbij vereyscht om de retouren vroeg in Nederland te hebben,<lb/>
-over welken boeg men het ook begrijpt.</para>
+over welken boeg men het ook begrijpt.
+</para>
 <remark>«Heren XVII hebben Batavia overgelaten het ‘ valideeren van nog 7j percento aan de<lb/>
 ministers die in anno 1 740 belast zijn. Batavia is verheugd over de toestemming om weer<lb/>
 bestelkasjes te mogen sturen. Aan elk retourschip mag één kist met 20 kasjes meegegeven<lb/>
@@ -3899,10 +4025,10 @@ nog eygen interest soude gebleken hebben, volgens de extensie die diendwegen<lb/
 gegeven is bij de resolutie van den 1 9e aug. 1 740, waarbij hij, borg stellende, uyt zijn<lb/>
 arrest ontslagen en weder employabel verklaart is, om even dese redenen alsmede omdat<lb/>
 hij een bequaam subject was tot eene directie waartoe men doenmaals alle ministers<lb/>
-niet even capabel oordeelde.</para>
+niet even capabel oordeelde.
+</para>
 <remark>«Over het tekort in de kas
 , waarvan twee verschillende personen verschillende sleutels</remark>
-
 <pb n="99" tpl="2" vol="11" facs="232_099"/>
 <remark>hebben zoals dat voor Isfahan vereist wordt , kan Batavia alleen zeggen dat beide personen<lb/>
 ervan moeten weten en schuldig moeten zijn. Over het opnieuw veilen van de in 1 740 ten tijde<lb/>
@@ -3956,11 +4082,11 @@ om dies wille, en ten regte, geene veranderinge andermaal konden maken in<lb/>
 den thans gerecipieerden cours van
 <emph>2\</emph> stuyvers voor ieder wigtige dubbelde stuyver.<lb/>
 Maar aangesien U Ed. Hoogagtb. ’tsedert 3 jaren niet meer dan ƒ 1 77.000,- aan kleyn-<lb/>
-
 <pb n="100" tpl="2" vol="11" facs="232_100"/>
 geld op onse successive eysschen hebben voldaan, daar zij bevorens in 3 jaren volgens<lb/>
 derselver eygene calculatie wel vijftien ton aan de muntspetie gesonden hadde, soo is<lb/>
-het ook niet te verwonderen dat wij thans gebrek lijden.</para>
+het ook niet te verwonderen dat wij thans gebrek lijden.
+</para>
 <remark>«Heren XVII moeten Batavia spoedig van payement voorzien om te voorkomen dat<lb/>
 de Compagnie in grote verlegenheid gebracht wordt. Het payement rouleert eerst lange tijd<lb/>
 voor
@@ -4003,16 +4129,16 @@ en besnoeyen somtijds ses, agt en meer percento’s te ligt zijn, dat ook al in 
 van ducatons na Bengale, die hier in cassa ontfangen waren, is ontdekt; en<lb/>
 dan soude men inderdaad gelijk hebben, en U Ed. Hoogagtb. sullen dat met weynigen<lb/>
 begrijpen, als men de eere heeft haar te demonstreeren, dat de reaal of het negende gedeelte<lb/>
-van een mark ruym tot negenensestig stuyvers haar<fref ref="12"/>  geld alhier souden moeten<lb/>
+van een mark ruym tot negenensestig stuyvers haar
+<note mark="12"><ref>Lett. haar, moet zijn zwaar. </ref>
+</note>
+geld alhier souden moeten<lb/>
 werden ingewisseld, als het silver van elf penningen vier greyn was of gelijkstandig met<lb/>
 dat van de ducatons, om soo hoog in prijs te sijn als 78 stuyvers swaar geld voor een ducaton<lb/>
 of 2 1
 <emph>fe</emph> percento boven de vaderlandse prijs, waarvoor men meent vijfentwintig<lb/>
 guldens en sestien stuyvers het mark van het genoemde essay, en sestig stuyvers swaar<lb/>
 geld voor de reaal, van tien penningen twaalff greyn, berekent naar vierensestig stuy-<lb/>
-
-<fnote ref="12"><ref>Lett. haar, moet zijn zwaar. </ref></fnote>
-
 <pb n="101" tpl="2" vol="11" facs="232_101"/>
 vers schaars voor datselfde gewigt aan silver van elf penningen en vier greyn, soodat het<lb/>
 inderdaad vijff stuyvers ruym op de negenensestig of seven en een vijfde percento ruym<lb/>
@@ -4055,7 +4181,10 @@ in desen niet absoluut admissibel is, en daarom soude die reeckening vooral niet
 uytkomen met oude wigtige Hollandsche ducatons, waarvan sesthien pees 2g marcq of<lb/>
 19 realen komen uyt te maken, welke sestien ducatons, tegens agtenseventig stuyvers<lb/>
 swaar geld ingewisseld, de reaal zilver soude doen kosten vijffensestig en dertien negentiende<lb/>
-sware stuyvers, verschillende alsoo maar ... stuyvers<fref ref="13"/>  schaars op de reaal of<lb/>
+sware stuyvers, verschillende alsoo maar ... stuyvers
+<note mark="13">Het aantal stuivers wordt niet genoemd.<lb/>
+</note>
+schaars op de reaal of<lb/>
 18 stuyvers op het markt met het bovengenoemde zilver als het volgens de genomene<lb/>
 resolutie Bengale aangerekent was, sijnde 3£ percento en als men sonder onderscheyd<lb/>
 de soorten en sonder computatie van het gewigt der ducatons tot de vorige klare bereeckeninge<lb/>
@@ -4064,10 +4193,6 @@ en om het met een woord te seggen, wanneer de ducatons sooals men die supponeere
 moet wigtig en goed van alloy sijn, op die munt niet meer dan 15 percento en gevolgelijk<lb/>
 ook niet meer verliest als op de voorsz. zilverwerken in Bengale bij vermuntinge<lb/>
 verloren zijn, volgens hetgeene bij die beschrijvinge van den 1 0e jan. 1741 werd g’avan-<lb/>
-
-<fnote ref="13">Het aantal stuivers wordt niet genoemd.<lb/>
-</fnote>
-
 <pb n="102" tpl="2" vol="11" facs="232_102"/>
 ceert, maar integendeel soude de Compagnie nog aan de slegtste koop zijn met de opwisselinge<lb/>
 van sulk zilver voor 60 stuyvers de reaal, als men de reeckening opmaakte tegens<lb/>
@@ -4076,7 +4201,8 @@ dewelke men hier daarvan vind wel 1 1 penningen 6 greyn essayeurs en gevolgelijk
 sij anders wigtig sijn ruym, soowel 78 sware stuyvers het stuk waard sijn als sulk zilver<lb/>
 dat sooveel verliest en minder van gehalte is 60 stuyvers de reaal, dan aangesien de<lb/>
 Compagnie in desen wel niet behandelt is sooals het konde en behoorde, dog aan de<lb/>
-andere kant ook niet gesegt kan worden dat deselve daarbij schade geleden heeft.</para>
+andere kant ook niet gesegt kan worden dat deselve daarbij schade geleden heeft.
+</para>
 <remark>«De voormalige pakhuismeester Vollenhove heeft het verschil tussen de inkoopsprijs<lb/>
 en de lagere verkoopsprijs van in 1 740 opgeslagen , slechte partijen thee moeten betalen. Heren<lb/>
 XVII waren evenmin te spreken over de in 1737 en 1 738 ingekochte thee , die te slecht<lb/>
@@ -4117,7 +4243,6 @@ ze verstuurd zijn. Dit kan dikwijls niet anders omdat de papieren niet altijd in
 overkomen en degeen die Eet opmaken der besoignes tot sijn departement heeft' het vaak<lb/>
 druk heeft met andere zaken. De papieren van de overleden Nicolaas van Berendregt over<lb/>
 Compagnieszaken zijn van zijn executeurs overgenomen. Ook de papieren van Adriaan</remark>
-
 <pb n="103" tpl="2" vol="11" facs="232_103"/>
 <remark>Valckenier zijn naar de secretarie overgebracht
 , uitgezonderd de papieren die hij voor zijn<lb/>
@@ -4186,7 +4311,6 @@ een en ander aan toegevoegd. Hierbij is er rekening mee gehouden dat noch aan la
 op de schepen reden tot klagen moest zijn. Tevens probeerde men de praktijken om de Compagnie<lb/>
 te benadelen zoveel mogelijk te verhinderen. De belastingen
 , die Heren XVII voor re-</remark>
-
 <pb n="104" tpl="2" vol="11" facs="232_104"/>
 <remark>kening van de overleden schipper Pieter Alkmaar wilden laten , zijn grotendeels ingekomen.<lb/>
 Aan het slepende geschil tussen de baas en de boekhouder van de wapenkamer
@@ -4208,7 +4332,8 @@ en niet verre gesogte conjectures sig selfs ten genoege ontwaren, dog niet soo<l
 gemakkelijk in het licht stellen en ten genoege van een ander probeeren kan, waardoor<lb/>
 men veele gepasseerde zaken wel met regret en ergernisse komt aan te sien, dog ook<lb/>
 daarbij laten en ongemerkt passeeren moet, gelijk onder anderen eenen seer suspecten<lb/>
-inkoop van houtwerken ’tsedert den jare 1737 gedaan.</para>
+inkoop van houtwerken ’tsedert den jare 1737 gedaan.
+</para>
 <remark>«Het onderzoek hiernaar heeft uitgewezen dat men er niets aan kan doen omdat de<lb/>
 partijen hout, gebruikt voor reparatie en nieuwe gebouwen, op ‘ onnaspeurlijke rekeningen<lb/>
 zijn afgeschreven. Aan de eis van contanten is dit jaar vrijwel volledig voldaan. Java heeft in<lb/>
@@ -4237,13 +4362,13 @@ op den 29e november jongstleeden in Rade van India goedgevonden is deselve<lb/>
 volgens den teneur van het 23e articul van den nieuwen articulbrief als ipso jure geconfisqueert<lb/>
 te rekenen, op welken voet deselve dan ook in de stad publicq verkogt sijnde<lb/>
 voor ’s Compagnies rekening daarvan geproflueert is een important bedragen van wel<lb/>
-ƒ 402.614,-,- swaar geld.</para>
+ƒ 402.614,-,- swaar geld.
+</para>
 <remark>«Het is bedoeld als les voor particulieren die alleen tegen betaling van bepaalde rechten<lb/>
 voor eigen rekening textiel mogen halen.<lb/>
 »</remark>
 <para>
 Vermits dese aanhalingen op fundament van die articulen sonder forme of feguur<lb/>
-
 <pb n="105" tpl="2" vol="11" facs="232_105"/>
 van proces sijn geschiet, soo is het ook om even die reden dat men den waterfiscaal, mr.<lb/>
 Jan Henrik van Panhuys, tenminsten sooveel het eerste kleyne partijtje aangaat, bij resolutie<lb/>
@@ -4252,7 +4377,8 @@ geval, van sooveel meer importantie, heeft hij sig tot op het schrijven van dese
 g’addresseert, hoewel hij vermeent dat hem, al was het ook maar ingevolge U Ed.<lb/>
 Hoogagtb. genereuse belofte over den thans g’eradiceerden amphioen, bij missive van<lb/>
 den 28e september 1 74 1 te vinden, wel iets daarvan soude competeren, dat wij vooralsnog<lb/>
-aan sijne plaatse laten sullen.</para>
+aan sijne plaatse laten sullen.
+</para>
 <remark>«Batavia hoopt dat de nieuwe regels voor de scheepvaart deze ten goede zullen komen.<lb/>
 De verbeterde manier van belading heeft ertoe geleid dat de schepen voor China veel meer<lb/>
 goederen hebben kunnen innemen dan vroeger
@@ -4295,10 +4421,12 @@ redelijk te kunnen verdedigen heeft men vier bataljons infanterie nodig, zonder 
 de dagelijks aankomende en vertrekkende recruten en een cavalerie-eenheid, beide gebruikt<lb/>
 als lijfwacht en voor plotselinge expedities, te rekenen.<lb/>
 »</remark>
-
 <pb n="106" tpl="2" vol="11" facs="232_106"/>
 <para>Als men verder gaat en de battaillons van 6 compagnieën a 130 koppen primo<lb/>
-plan<fref ref="14"/>  ieder als sterk genoeg om wel gadegeslagen te werden komt te rekenen, dan sal<lb/>
+plan
+<note mark="14"><ref>Primo plan, volgens het eerste plan. </ref>
+</note>
+ieder als sterk genoeg om wel gadegeslagen te werden komt te rekenen, dan sal<lb/>
 bij confrontatie der guarnisoenen in de oostersche provintiën selfs van den ouden tijd<lb/>
 en de importantie van die posten in dese tijd U Ed. Hoogagtb. kunnen blijken dat die<lb/>
 quartieren ieder nodig hebben een geheel battaillon, om gerust te sijn dat alles en daaronder<lb/>
@@ -4317,7 +4445,8 @@ om in Indiën een guarnisoen te hebben daar men wat staat op maken kan, in stede
 de geproponeerde vier regimenten wel 15 battaillons sal requireeren van 780 koppen<lb/>
 ieder, of 1 1.700 man infanterie, sonder het corps van de lijfwagt en een of twee andere<lb/>
 esquadrons dragonders te rekenen, met welkers erectie men soo hier als op Java besig<lb/>
-is.</para>
+is.
+</para>
 <remark>«Dat zijn vorige gissing lager was, nl. 10.000 man, schrijft Van Imhoff toe aan het op<lb/>
 een afstand maken van een berekening, aan het dagelijks op het hart gedrukt worden van de<lb/>
 slechte staat waarin de Compagnie verkeert en aan het feit dat het aantal in de loop der tijd<lb/>
@@ -4343,9 +4472,6 @@ bevelhebber was geweest. Saijer is bevorderd tot kolonel over de lijfwachteenhei
 is tot vast eskadron, en tot commandant van de troepen in Indiëmetde rang van brigadier.<lb/>
 Luitenant-kolonel Smits is naar Java gestuurd en kapitein Hohendorf naar Kartasura,<lb/>
 beiden op verzoek van de susuhunan. Ritmeester Duval is naar Semarang vertrokken</remark>
-
-<fnote ref="14"><ref>Primo plan, volgens het eerste plan. </ref></fnote>
-
 <pb n="107" tpl="2" vol="11" facs="232_107"/>
 <remark>om er een eskadron dragonders op te richten. Batavia had graag de drie beloofde majoors<lb/>
 voorhanden gehad, één of twee om de garnizoenen in de oostelijke provincies te inspecteren<lb/>
@@ -4396,7 +4522,6 @@ van enkele sluizen kan er altijd voldoende water in de stad blijven. De haven ka
 diepte gehouden worden door de stroom die de bank voor de rivier door het meegenomen<lb/>
 afval doet verzanden in twee armen te splitsen, nl. ten oosten en ten westen van de stad. Als<lb/>
 waterleiding wordt voorgesteld een aquaduct met drie stenen buizen, die te Bantam gebak-</remark>
-
 <pb n="108" tpl="2" vol="11" facs="232_108"/>
 <remark>ken kunnen worden
 , aan te leggen met een lengte van 251 roeden. Het aquaduct loopt van<lb/>
@@ -4436,7 +4561,8 @@ eene met het front naar de openblijvende middelplaats, met enige opene toegangen
 deselve, en de andere naar de Grote Revier, de Jonkersgragt, de steeg langs het Portugeesche<lb/>
 kerkhoff en de Amsterdamsche gragt, en die blocken vervolgens af te sonderen<lb/>
 voor alle degeene die lijwaten en andere droge wharen verkopen met exclusie van alle<lb/>
-andere elders in de stad op te regtene winkels.</para>
+andere elders in de stad op te regtene winkels.
+</para>
 <remark>«Het bleek dat velen het een te kostbaar plan vonden. Een deel van de grond is in percelen<lb/>
 geveild 'sonder eene graagte tot het bieden. Het project is enkele maanden uitgesteld en<lb/>
 intussen probeert men het plan aan de wensen van de burgerij aan te passen. Op 20 januari<lb/>
@@ -4447,7 +4573,8 @@ intussen probeert men het plan aan de wensen van de burgerij aan te passen. Op 2
 gevoegt daaraan heeft g’accrocheerd en door de bij resolutie van de wederopveylinge<lb/>
 gegevene licentie en privilegie dat eenieder van deselve en op geen andere plaats in de<lb/>
 stad tot vier volwassene Chineesen toe sullen mogen wonen, nogal iets afwerpen sullen<lb/>
-dat de Compagnie soulageeren kan in hare tegenwoordige gesteldheyd.</para>
+dat de Compagnie soulageeren kan in hare tegenwoordige gesteldheyd.
+</para>
 <remark>«Personeel van de Compagnie
 , werkzaam bij de militie, artillerie
 , werf en ambachten
@@ -4455,7 +4582,6 @@ dat de Compagnie soulageeren kan in hare tegenwoordige gesteldheyd.</para>
 dat verzocht heeft vrij te worden
 , moet bij ontslag uit de dienst twee maanden gage betalen<lb/>
 aan het fonds van de groep waaronder hij valt. Dit fonds zal gebruikt gaan worden voor het</remark>
-
 <pb n="109" tpl="2" vol="11" facs="232_109"/>
 <remark>onderhoud van arme weduwen van dergelijke lieden. Dit wordt in de toekomst van belang.<lb/>
 De burgerij is namelijk sinds de komst van Van Imhoff al met 117 mensen die vrij zijn geworden<lb/>
@@ -4481,7 +4607,8 @@ dan ook afgewezen. Het verhuren volgens de nieuwe methode heeft de huur doen sti
 [ rds.] tot 45 het picol eerste en de overige soorten na proportie, mitsgaders ten opsigte<lb/>
 van de bovenlanders van 30 tot 40 de eerste en van 23 tot 30 de tweede soort te verhogen,<lb/>
 om te sien of dat den aanbreng en leverantie wat vermeerderen sal, tot een compleeter<lb/>
-voldoening van U Ed. Hoogagtb. eysschen.</para>
+voldoening van U Ed. Hoogagtb. eysschen.
+</para>
 <remark>«Men is van plan de prijs van koffie te verlagen
 , wellicht met een halve stuiver. Het formulier<lb/>
 met de zuiveringseed is naar de onderhorige kantoren gestuurd. Inlandse hoofden<lb/>
@@ -4523,7 +4650,6 @@ te zien gegeven van 115 in augustus
 tot 6 7 in december. Ziekte en sterfte zijn in 1 743 niet sterk toegenomen
 , uitgezonderd de<lb/>
 kinderpokken waaraan aan het einde van het jaar enkele kinderen en lijfeigenen zijn gestor-</remark>
-
 <pb n="110" tpl="2" vol="11" facs="232_110"/>
 <remark>ven. Men denkt dat de resolutie van 3 1 mei 1 743 ook heeft bijgedragen aan de verbetering<lb/>
 van de gezondheid van de zeevarenden ,<lb/>
@@ -4539,7 +4665,8 @@ dien voet gecontinueert aan denselfden leverantier, hoewel men meer dan eens soo
 in het particulier in de hal moet geven, waardoor dan en door de ontnomene occasie<lb/>
 om het kostgeld ’tsoek te brengen, mitsgaders den gebrek lijdende buyk weder met allerlije<lb/>
 schadelijke vuyligheyd op te vullen, wij ons verbeelden dat het zeevarende volk<lb/>
-alhier groot soulaas reeds toegebragt is.</para>
+alhier groot soulaas reeds toegebragt is.
+</para>
 <remark>«Er zou nog meer verbeterd kunnen worden als men zich door het sturen van de benodigde<lb/>
 zeevarenden strikt kon houden aan het artikel van de nieuwe orders voor de zeedienst<lb/>
 over ‘ het pressen van volk van 't eene schip op het andere. De gebouwen
@@ -4559,7 +4686,8 @@ groep burgers heeft een schip gekocht om daarmee naar Manilla te varen.<lb/>
 andere coopmanschappen waarmede men anders soude hebben moeten sitten<lb/>
 blijven, omdat de ordinaire contanten uyt die quartieren niet waren opgedaagd door de<lb/>
 vreese voor de Engelsen, wegens den oorlog tusschen die natie en Spanjen, welken bodem<lb/>
-men vervolgens van pasce en zeebrief heeft voorsien.</para>
+men vervolgens van pasce en zeebrief heeft voorsien.
+</para>
 <remark>«Op 16 augustus 1 743 is de vaart op de oostelijke provincies opengesteld waarbij is<lb/>
 bepaald dat geen tussengelegen plaatsen mogen worden aangedaan op straffe van confiscatie.<lb/>
 Deze straf geldt ook voor de verboden vaart van en naar andere plaatsen op Java dan<lb/>
@@ -4576,7 +4704,6 @@ dan worden de schepen gevisiteerd op dezelfde manier als Nederlandse schepen in 
 havens. Het Engelse oorlogsschip Feversham heeft de Kleverskerke op een seer rude en hautaine'<lb/>
 manier gevisiteerd. Dit is echter niet het gebruikelijke gedrag in Indië} althans in die<lb/>
 gebieden waar men eikaars vriendschap zoekt. Zo hebben de Engelsen de uit Malabar te-</remark>
-
 <pb n="111" tpl="2" vol="11" facs="232_111"/>
 <remark>rugkerende en in zeer slechte staat verkerende Wapen van Hoorn met een van hun schepen<lb/>
 naar Benkulen geloodst en daar zeer goed verzorgd. Ze hebben zelfs tien soldaten meegegeven<lb/>
@@ -4605,7 +4732,8 @@ met vorige goede tijden, wanneer dat articul op 25 a 30.000 rds. jaarlijx liep, 
 dus na de gesteldheyd der tijden nogal passabel is. Wij hebben bij resolutie van den 1 2e<lb/>
 deser nodig g’oordeelt dit middel ook te introduceeren op de comptoiren daar de<lb/>
 Compagnie als heer van ’t land geseten is, en bij provisie met de oostersche provintiën<lb/>
-een begin te maken.</para>
+een begin te maken.
+</para>
 <remark>«Het zegelgeld bedroeg slechts 4934 rsd of f 1 1.843. De presidenten van de twee hoge<lb/>
 rechtbanken in Batavia hebben opdracht gekregen na te gaan of het zegelrecht niet meer<lb/>
 kan opleveren. Maurits van Aerden en Jacob Lakeman hebben hierop opheldering gevraagd<lb/>
@@ -4629,7 +4757,6 @@ van
 eindelijk weer eens de lasten gaan overtreffen, wat in de J8e eeuw nog slechts eenmaal was<lb/>
 gebeurd. Gemiddeld kende Batavia een verlies van ruim 11 ton per jaar. Op 31 augustus<lb/>
 1 743 overtroffen de winsten de lasten al meer dan ooit tevoren, nl. met f 143.2 14 licht geld,</remark>
-
 <pb n="112" tpl="2" vol="11" facs="232_112"/>
 <remark>door de grote verkoop in juni en juli waarvan de winsten
 ƒ 1. 133.223 beliepen. Dit dankt<lb/>
@@ -4639,7 +4766,8 @@ men vooral aan de hoge prijs van opium en aan het weer opbloeien van de kolonie.
 vorige jaar minder veragtert was dan het boekjaar 1740/41, dit jaar de geheele nog<lb/>
 overblijvende veragteringe van 1741/42 tot ƒ 1.323.381,13,2 te hebben gesurpasseert<lb/>
 met ƒ 1 43.2 1 4,3,-, en dat maakt een verschil ten goede van ƒ 1 .466.595, 1 6,2, alles ligt<lb/>
-geld.</para>
+geld.
+</para>
 <remark>«De financiële staat van Azië
 , uitgezonderd Semarang , Ternate en Perzië, opgemaakt<lb/>
 volgens de boeken van 1 741/42 , vertoont een tekort van 27 ton lichtgeld. Het tekort is in<lb/>
@@ -4658,7 +4786,8 @@ door eene vermeerderinge van ƒ 2.226.8 1 5,3,6f ƒ48.751 .937,2, 1 In, groot<lb
 sig vertoont, dog aan reële of levendige effecten (men rekent de bovenvermelte drie<lb/>
 comptoiren hieronder niet omdat men derselver levendige of reële effecten door ontstentenisse<lb/>
 der boeken niet computeeren kan), niet meer importeert dan<lb/>
-ƒ22.949.976,9,10, binnen weynig jaren geconsumeert kunnen werden.</para>
+ƒ22.949.976,9,10, binnen weynig jaren geconsumeert kunnen werden.
+</para>
 <remark>«Werden tot dan toe de overzichten van de verpachtingen, de inkomsten van Ja ka tra<lb/>
 en de financiële staat van Batavia en van Azië beknopt in de missiven opgenomen, vanaf<lb/>
 deze missive worden ze als bijlagen toegevoegd. Overtollig personeel heeft de kosten voor de<lb/>
@@ -4683,7 +4812,6 @@ Die van de gewezen gezaghebber op Java, Bartholomeus Visscher
 ; loopt nog. Het vergt veel<lb/>
 tijd om gegevens te vergaren. Kapitein Roelof Blok die door de admiraliteit van het Noorderkwartier<lb/>
 tot kapitein-ter-zee was bevorderd, heeft deze rang ook bij de Compagnie gekre-</remark>
-
 <pb n="113" tpl="2" vol="11" facs="232_113"/>
 <remark>gen. Ook Mattheus Feris du Rietz heeft deze rang gekregen wegens zijn verdiensten in de oorlog.<lb/>
 De schepen van de eerste bezending hebben wat gesukkeld door de vroeg doorgekomen<lb/>
@@ -4718,7 +4846,8 @@ wordt de bezending eind februari 1 744 afgesloten,<lb/>
 komt dat er geen de minste tussenposinge overschiet, terwijl men met de maand<lb/>
 april alweder aan ’t werk moet voor Japan, China, de westercomptoiren, en daaronder<lb/>
 ook Persiën, en dan sal de thee van het directe schip volgen met de eerste besending in<lb/>
-september aanstaande.</para>
+september aanstaande.
+</para>
 <remark>«Uit het gewicht dat de 17 schepen, exclusief de Anna, vervoeren, blijkt dat de nieuwe<lb/>
 manier van belading sterk verschilt met de vroegere. De in totaal 28 schepen van dit retour<lb/>
 vervoeren net zo veel als vroeger 3 5 of 36 schepen. Er worden 40 wissels met deze bezending<lb/>
@@ -4736,7 +4865,6 @@ de Huis te Rensburg f 139.005 , Hartenlust
 voor Delft de Arnestijn f 101. 722 en de Hartenlust f 688; voor Rotterdam de Polanen<lb/>
 f 96.229 en de Hartenlust f 688 ; voor Hoorn de Huis ter Duine
 ƒ 1 321 en de Hartenlust</remark>
-
 <pb n="114" tpl="2" vol="11" facs="232_114"/>
 <remark>f 688 ; voor Enkhuizen de Huis ter Duine f 98. 9 76 en de Hartenlust f 688. De wissels t. w. v.<lb/>
 f 332.55 7 betreffen o.a. f 28.800 aanAnthony Patras te Den Haag; f 33.230 door Anthonia<lb/>

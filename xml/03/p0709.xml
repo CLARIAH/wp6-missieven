@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="709"/>
 <meta key="title" value="Maetsuycker, Verburch, Pit, Overtwater, Van Hoorn; Batavia, 30 november 1669"/>
 <meta key="rawdate" value="30 november 1669"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Pieter van Hoorn"/>
 
+
 </header>
 <body>
 <pb n="709" tpl="1" vol="03" facs="3_125_0709"/>
@@ -26,13 +28,13 @@ PIETER OVERTWATER EN PIETER VAN HOORN, BATAVIA 30 nov.<lb/>
 Jane Margaret; de tradalen, in Zuid-Celebes gesloten, gaan in druk mee<lb/>
 »</remark>
 <para>Onse intentie ofte meyninge noyt geweest sijnde, dat landt
-<fref ref="1"/>  tot soodanigen<lb/>
+<note mark="1">Zuid-Celebes.<lb/>
+</note>
+tot soodanigen<lb/>
 verwoestinge te brengen, als eyndelijck door haer obstinate boosheyt heeft moeten<lb/>
-geschieden.</para>
+geschieden.
+</para>
 <remark>«Goede handel in J apan<lb/>
 »</remark>
-
-<fnote ref="1">Zuid-Celebes.<lb/>
-</fnote>
 </body>
 </teiTrim>

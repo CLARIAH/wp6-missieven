@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="48"/>
 <meta key="title" value="Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee, Van Dam; Batavia, 20 januari 1699"/>
 <meta key="rawdate" value="20 januari 1699"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joannes Cops, Manuel Bornezee, Wybrand Lycochthon, Thomas van Rhee, Jacob van Dam"/>
+
 
 </header>
 <body>
@@ -45,7 +47,8 @@ timmerlieden a 12 st. per dag, ook aangevraagd 4 constabels, enige landmeters en
 <para>
 - 23 huystimmerlieden, 8 scheepstimmerlieden, 3 coperslagers, 5 grof-<lb/>
 smits, 7 slootemakers, 2 drayers, 1 geelgieter, 1 wagemaker, 2 kuypers, 7 metselaars,<lb/>
-2 lademakers, 1 rademaker.</para>
+2 lademakers, 1 rademaker.
+</para>
 <remark>«Het jachtje Bekestein zal eind jan. naar patrio volgen; de handel in Bengalen<lb/>
 gaat moeilijk door de schraapzucht der regenten, de concurrentie der Engelsen en de<lb/>
 gevreesde erfopvolgingsstrijd ; 4 Franse schepen kwamen met Père Tachard als ambassadeur<lb/>
@@ -55,10 +58,13 @@ moest worden geleend; binnen kwam een<lb/>
 »</remark>
 <para>
 - versoek des Zultans
-<fref ref="1"/>  om ’s Comp.8 hulpe om die van Succadana,<lb/>
+<note mark="1">Van Bantam.<lb/>
+</note>
+om ’s Comp.8 hulpe om die van Succadana,<lb/>
 gelegen op het eyland Borneo, over hare gepleegde vijandlijke actiën tegens de<lb/>
 volkeren van Landak, een plaats op het gem. eyland Borneo, niet verre van<lb/>
-Succadana, en sijne pretense onderdanen te gaan straffen.</para>
+Succadana, en sijne pretense onderdanen te gaan straffen.
+</para>
 <remark>«De Susuhunan vraagt te Japara hulp tegen Surapati, die zich zou hebben meester<lb/>
 gemaakt van Madiun en die Kartasura zou willen aanvallen; het eerste is wegens het<lb/>
 belang van Bantam voor de V.O.C. toegestaan, terwijl aangaande het tweede de Susuhunan<lb/>
@@ -68,20 +74,20 @@ Ningpo en 2 van Canton, nog 6 en 2 van de eerste twee plaatsen verwacht men, men
 vreest echter, dat na de vaart van 4 Engelse schepen naar Amoy en 2 naar Canton men<lb/>
 weinig wollen manufacturen en peper aan hen zal kunnen verkopen; de Chinezen<lb/>
 brachten weinig zijde mee, meest grof porselein en eetwaren; men vreest voor voort-</remark>
-
-<fnote ref="1">Van Bantam.<lb/>
-</fnote>
-
 <pb n="49" tpl="1" vol="06" facs="6_159_0049"/>
 <remark>zetting der Engelse vaart op China, ook de Fransen zonden een kloek schip naar<lb/>
 Canton,<lb/>
 »</remark>
 <para>
-- zijnde met dien bodem, na dat<fref ref="1"/>  wij door de overgecome Chinesen<lb/>
+- zijnde met dien bodem, na dat
+<note mark="1">In de zin van naardat, zoals.<lb/>
+</note>
+wij door de overgecome Chinesen<lb/>
 sijn berigt, aldaar als ambassadeur van den Conink van Vrankrijk aan den Keyser<lb/>
 van China met een seer aansienlijk geschenk verscheenen seker pater ofte geestelijk<lb/>
 persoon, die voor desen vele jaren in China geresideerd soude hebben en bij den<lb/>
-Keyser in agtinge soude zijn.</para>
+Keyser in agtinge soude zijn.
+</para>
 <remark>«29 nov. kwam te Batavia de William and Richard
 , kapitein Isaac Rogers op<lb/>
 weg naar Bandjarmasin om peper in te kopen,<lb/>
@@ -91,7 +97,8 @@ weg naar Bandjarmasin om peper in te kopen,<lb/>
 soeken sig nae de Oosterprovintien te begeven om aldaar specerij e te becomen,<lb/>
 gelijk dat het voorleden jaar den capitain Eterington met sijn scheepje de Resolution<lb/>
 gedaan heeft, ’twelk immer soo duyster te raden, als op het voorgeven der<lb/>
-Engelsen weynig staat te maken is.</para>
+Engelsen weynig staat te maken is.
+</para>
 <remark>«Meer retourschepen aangevraagd wegens de grote pepervoorraad, nl. 6748745
 &amp;<lb/>
 met inbegrip van de 2175000
@@ -106,7 +113,12 @@ ontvangt in verband mei de vertrekdata der schepen van daar
 <para>
 Des nagts tusschen den 4e en 5e deser heeft men alhier, de kloeke tusschen<lb/>
 half twee en twee uuren, gehad een aardbevinge
-<fref ref="2"/> , soo swaar en sterk, dat niet<lb/>
+<note mark="2">Deze aardbeving veroorzaakte aardstortingen in het bergland en daardoor een zeer<lb/>
+hinderlijke verstopping van de Tji Liwung, vgl.
+<emph>Oud Batavia,</emph> § 472. Zowel voor het scheepsverkeer<lb/>
+bij de stad als voor de gezondheidstoestand waren de gevolgen ernstig.<lb/>
+</note>
+, soo swaar en sterk, dat niet<lb/>
 bekend is diergel. ooyt alhier gebeurd ofte voorgevallen zij, hebbende de beweging<lb/>
 met sware stoten en schuddingen op die tijd ruym een half quartier uurs geduurd,<lb/>
 ook het aardrijk geduurende de voorsz. nagt omtrent drij en vijf uuren wel weder<lb/>
@@ -119,20 +131,11 @@ derselver daken seer beschadigd sijn; hebbende, buyten eenige ellendelijk versee
 28 menschen het leven daarbij verloren, dog binnen het casteel is het, Gode<lb/>
 zij dank, nog sonder ongelucken en buyten naamwaardige schade aan de gebouwen<lb/>
 afgelopen. Alleen is tegensover hetselve aan het puntje Grimbergen
-<fref ref="3"/>  een gedeelte<lb/>
-
-<fnote ref="1">In de zin van naardat, zoals.<lb/>
-</fnote>
-<fnote ref="2">Deze aardbeving veroorzaakte aardstortingen in het bergland en daardoor een zeer<lb/>
-hinderlijke verstopping van de Tji Liwung, vgl.
-<emph>Oud Batavia,</emph> § 472. Zowel voor het scheepsverkeer<lb/>
-bij de stad als voor de gezondheidstoestand waren de gevolgen ernstig.<lb/>
-</fnote>
-<fnote ref="3">Anders dan men uit de tekst zou opmaken, ligt de punt Grimbergen wel aan de<lb/>
+<note mark="3">Anders dan men uit de tekst zou opmaken, ligt de punt Grimbergen wel aan de<lb/>
 westkant van de Grote Rivier (daarom „tegenover1’), maar verder naar het zuiden, waar de<lb/>
 rivier een hoek maakt met de stadsbuitengracht nabij het hospitaal.<lb/>
-</fnote>
-
+</note>
+een gedeelte<lb/>
 <pb n="50" tpl="1" vol="06" facs="6_159_0050"/>
 van de noordermuur terneder gestort en gevallen op het plat van een daaronder<lb/>
 staand pakhuys, ’twelk daardoor mede eenigsints beschadigd is geraakt. Het<lb/>
@@ -160,13 +163,19 @@ scheepen geen kleene verhindering en arbeyd toebrengd; sijnde de voorsz. swarigh
 omtrent de revier veroorsaakt (soo men meend, want wij weten niet, of de<lb/>
 berigten, die ons daarvan nog sijn toegecomen, al vast gaan) door het neerstorten<lb/>
 van eenige afhangende heuvelen van de bergen Pangerrano
-<fref ref="1"/>  ofte den Blaauwen<lb/>
+<note mark="1">De 3019 meter hoge Gunung (= berg) Pangrango ligt op 6°47/ Z.B. en 106°57' O.L.<lb/>
+</note>
+ofte den Blaauwen<lb/>
 Berg en den berg Salack
-<fref ref="2"/> , sijnde beyde agter Batavia gelegen en degene, waaruyt<lb/>
+<note mark="2">De 2211 meter hoge Salak ligt op 6°44' Z.B. en 106°42' O.L. De vulkaan had niet,<lb/>
+zoals men vroeger vermoedde, begin 1699 een hevige uitbarsting.<lb/>
+</note>
+, sijnde beyde agter Batavia gelegen en degene, waaruyt<lb/>
 de Grote Revier deser plaatse als ook de Tangerangse revier, die even als de eerste<lb/>
 ontstelt is, haren oorspronk hebben. Om nu de gem. Grote Revier te suyveren van<lb/>
 het voorsz. hout is reeds ordre en een getal van 3000 coppen uyt de inlandse<lb/>
-natiën aan den arbeyd gestelt.</para>
+natiën aan den arbeyd gestelt.
+</para>
 <remark>«Voor 12753 rsd. aan wissels werd op patria getrokken; de nu vertrekkende<lb/>
 fluiten Huis te Nieuwburg en Dieren hebben cargasoen van
 ƒ 350414, vnl. textiel,<lb/>
@@ -177,11 +186,5 @@ peper, waard
 nog aan zou blijven, hij herhaalt zijn verzoek wegens toenemende zwakte
 <lb/>
 »</remark>
-
-<fnote ref="1">De 3019 meter hoge Gunung (= berg) Pangrango ligt op 6°47/ Z.B. en 106°57' O.L.<lb/>
-</fnote>
-<fnote ref="2">De 2211 meter hoge Salak ligt op 6°44' Z.B. en 106°42' O.L. De vulkaan had niet,<lb/>
-zoals men vroeger vermoedde, begin 1699 een hevige uitbarsting.<lb/>
-</fnote>
 </body>
 </teiTrim>

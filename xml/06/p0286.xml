@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="286"/>
 <meta key="title" value="Van Outhoorn, Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel; Batavia, 14 maart 1704"/>
 <meta key="rawdate" value="14 maart 1704"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Willem van Outhoorn, Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Joannes Cops, Manuel Bornezee, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Adam van Rijn, Adriaan van der Stel"/>
 
+
 </header>
 <body>
 <pb n="286" tpl="1" vol="06" facs="6_159_0286"/>
@@ -23,7 +25,11 @@ CHRISTOFFEL VAN SWOLL, HERMAN DE WILDE, ABRAHAM DOUGLAS,<lb/>
 ADAM VAN RIJN EN ADRIAAN VAN DER STEL, BATAVIA 14<lb/>
 maart 1704.</head>
 <folio>Kol. Arch. 1563,fol. 2180-2183, copie 1573, fol. 493-496 </folio>
-<para><fref ref="1"/> .</para>
+<para>
+<note mark="1">Gebruik is gemaakt van de beter leesbare copie.<lb/>
+</note>
+.
+</para>
 <remark>«Verzonden met de Engelse Gloucester en Union; de Noordgouw kwam 6 maart<lb/>
 om de hoek van Bantam; de Nederland kwam uit Perzië met een brief van 20 aug.;<lb/>
 5 retourschepen vertrokken 25 dec. van Galle<lb/>
@@ -33,14 +39,12 @@ sijn opstand tegen den nieuwen Soesoehoenang sijn intentie beswaarlijk sal berei
 de wij le hij reets met sijn bij hebbende macht na het district van Ceribon soude<lb/>
 sijn geweken, tenware dat die van Bagaleen en Madion aan de andere kant, over<lb/>
 het reets aangedaan quaad tractement aan de hare misnoegt en de laatste reets op<lb/>
-de been geraakt zijnde, hem incommodeerden en de handen vol werk geven.</para>
+de been geraakt zijnde, hem incommodeerden en de handen vol werk geven.
+</para>
 <remark>«Jacob van Dam overleed 9 maart
 , Adam van Rijn volgt hem voorlopig op als<lb/>
 president van de Raad van Justitie; De Wilde is de jongste raad-ordinaris ; de Kattendijk<lb/>
 kwam 29 febr. van de Kaap<lb/>
 »</remark>
-
-<fnote ref="1">Gebruik is gemaakt van de beter leesbare copie.<lb/>
-</fnote>
 </body>
 </teiTrim>

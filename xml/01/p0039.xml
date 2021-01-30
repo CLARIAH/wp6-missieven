@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="39"/>
 <meta key="title" value="Both; Bantam, 10 november 1614"/>
 <meta key="rawdate" value="10 november 1614"/>
@@ -14,13 +15,15 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Pieter Both"/>
 
+
 </header>
 <body>
 <pb n="39" tpl="1" vol="01" facs="1_104_0039"/>
 <head>XXII. PIETER BOTH, BANTAM 10 november 1614.</head>
 <folio>969,fol. 41.</folio>
 <para>Ick hebbe in sommige van mijne brieven geperticulariseert het contra, sal in<lb/>
-desen perticulariseren het pro.</para>
+desen perticulariseren het pro.
+</para>
 <para>Principaliter, van eenen Jan Pietersz. Coen van Hoorn, uytgevaren voor<lb/>
 commandeur over de twee schepen de Geünieerde Provintien ende de Hope, ende<lb/>
 van ons voor mijn vertreck uyt de Moluques door sijn grote ervarentheyt ende<lb/>
@@ -28,24 +31,33 @@ capasité medegenomen omme te bededen de plaetsen alhier, ten respecte ons<lb/>
 gerelateert was de impotentie ende insuffisantie van Matheo Coteels. In effect,<lb/>
 wij hebben op ons arrivement alhier bevonden niet alleen den voorsz. Coteels<lb/>
 overleden, maar oock het groot disordre ende confusie op dese twee plaetsen
-<fref ref="1"/> ,<lb/>
+<note mark="1">Bantam en Jakatra.
+</note>
+,<lb/>
 tot dien eynde den voorsz. Coen alhier geauthoriseert als president, directeur- ende<lb/>
-boeckhouder-generaell van alle de comptoiren in Indien.</para>
+boeckhouder-generaell van alle de comptoiren in Indien.
+</para>
 <para>Ende onlancx ons gepasseert zijnde de veranderinge, gepasseert in de Moluques,<lb/>
 hebbe met advijs van mijnen presenten raedt alhier den voornoemden Coen<lb/>
 geëligeert als raedt van Indien, in plaetse van den erentfesten capiteyn Appolonius<lb/>
 Schotte zaliger omme ons in alle occurentien te dienen ende met meerder authoriteyt<lb/>
-te remedieren, tgunt gepasseert is in de Moluques ende op andere plaetsen.</para>
+te remedieren, tgunt gepasseert is in de Moluques ende op andere plaetsen.
+</para>
 <para>Desen Coen is een persoon zeer wel ervaren in den coophandell, alsmede in<lb/>
 saecken van state, seer eerlij ck ende modest van leven, altijdts laboureus, sonder<lb/>
 eenigen tijdt te verliesen, alsoo dat ick mij versekere, dat hier noyt niemant en is<lb/>
 geweest, die sijn cloeckheyt gejjasseert heeft, noch comen en sall, gelijck U Ed.<lb/>
 sullen connen speuren uyt sijne missiven
-<fref ref="2"/> . Wij hebben hem ten fijne voorsz. geaugmenteert<lb/>
-zijn salaris tot hondert ende vijftich guldens ter maendt.</para>
+<note mark="2">Alle uitgegeven in
+<emph>Coen.</emph>
+</note>
+. Wij hebben hem ten fijne voorsz. geaugmenteert<lb/>
+zijn salaris tot hondert ende vijftich guldens ter maendt.
+</para>
 <para>Den heer Gouverneur- Ceneraell Reynst heeft in desen voorsz. vrundt een<lb/>
 sonderlinge goet behagen. Het ware te wenschen, noch eenige andere diergelijeke<lb/>
-hier waren.</para>
+hier waren.
+</para>
 <para>
 Ick hadde voor mij genomen, in cas dat den heer Gouverneur- Ceneraell<lb/>
 Reynst alhier niet en ware gearri veert voor den eersten januarij toecomende, op<lb/>
@@ -55,9 +67,5 @@ geenderley manieren vacant te wesen. Dan nu, Godt heb loff, den heer Generaell<l
 voorsz. is noch in tijdts alhier wel gecomen omme hem van alles in amplissima<lb/>
 forma den staet ende standt in ’t generaell ende in ’t perticuïier te informeren.
 </para>
-
-<fnote ref="1">Bantam en Jakatra.</fnote>
-<fnote ref="2">Alle uitgegeven in
-<emph>Coen.</emph></fnote>
 </body>
 </teiTrim>

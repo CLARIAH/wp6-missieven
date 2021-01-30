@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="736"/>
 <meta key="title" value="Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Nieustadt, Van Wijngaerden; Batavia, 3 november 1695"/>
 <meta key="rawdate" value="3 november 1695"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Isaac de Saint-martin, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joannes Cops, Manuel Bornezee, Wybrand Lycochthon, Joachim Nieustadt, Willem van Wijngaerden"/>
+
 
 </header>
 <body>
@@ -28,7 +30,9 @@ WUNGAERDEN, BATAVIA, 3 nov. 1695.</head>
 mei, Oosterland en Pampus op 11 en 25 juni, Handboog, Stad van Ceulen, Gent,<lb/>
 Bekensteyn, Voetboog, Purmer, Voorschoten, Sir Jansland en Waelstroom op 1, 2, 3,<lb/>
 20, 21, 24 en 31 juli
-<fref ref="1"/> , Oostersteyn, V osseiiboscli, Vegt en Sivaeg op 15, 17, 30 en 31<lb/>
+<note mark="1">Op deze weinig duidelijke wijze is het in de brief opgegeven.<lb/>
+</note>
+, Oostersteyn, V osseiiboscli, Vegt en Sivaeg op 15, 17, 30 en 31<lb/>
 aug., de Eykelenburg 12 oct.; het aantal uitgezonden en gearriveerde V.O.C. dienaren<lb/>
 is niet ingevuld; het laatstgenoemde fregat bracht nadere berichten van 26 febr. tot<lb/>
 17 maart mee over toerustingen in Frankrijk, die tot stopzetting van de afzending der<lb/>
@@ -47,41 +51,45 @@ den 12 daeraen tot versterking van ’t getal, aldaer onder den vice-command.r<l
 Willem Burggraef gepost.1, bestaende in Domburg, Honsholredijk, Oost-Souburg<lb/>
 en Schoondijke, direct van hier afgesonden en over Persia na Suratte onder de<lb/>
 vlagge van den commanderend schipper Bruyn Jansz. van Scheeve
-<fref ref="2"/>  Nederlant,<lb/>
+<note mark="2">Bruyn Jansz van Scheeve repatrieerde als schipper begin 1688, als schipper op de<lb/>
+Bantam in 1691, later werd hij voor het hier bedoelde werk gebruikt.<lb/>
+</note>
+Nederlant,<lb/>
 Beyeren, Oosterland, Sion, Reygersdael ende Pampes den 19 July, meteen beladen<lb/>
-sijnde met de coopmansz. voor beyde die directien.</para>
+sijnde met de coopmansz. voor beyde die directien.
+</para>
 <para>Voorts nog met den command. scliipper Herman Voet
-<fref ref="3"/>  den 13. aug.0 daeraen<lb/>
+<note mark="3">Herman Voet repatrieerde als stuurman in 1683, in 1693 als commandeur van een<lb/>
+deel van de retourvloot, 1697 vice-commandeur van de schepen van oorlog by Ceylon, 1698<lb/>
+naar patria verlost.<lb/>
+</note>
+den 13. aug.0 daeraen<lb/>
 de schepen de Stad Ceulen, de Gent, de Purmer, Java, Silversteyn en de Voetboog<lb/>
 na Ceylon om aldaer onder de vlagge van den command.r Paulus Huntum, die wij<lb/>
 gissen, Goudesteyn, Saemslag, de Schelde en Brandenburg bij sig sal hebben, te<lb/>
-sorteren.</para>
+sorteren.
+</para>
 <remark>«De Eykelenburg wordt nu ter overbrenging van deze berichten naar patria<lb/>
 gezonden; 23 febr. tot 14 maart werden nog drie kleine schepen naar Amboina gezonden,<lb/>
 vier kwamen er van 26 mei tot 24 sept. van daar met 1056321
 ü? kruidnagelen; als de<lb/>
 retourschepen hun lading in hebben, zal te Batavia daarvan niet minder dan 6691038</remark>
-
-<fnote ref="1">Op deze weinig duidelijke wijze is het in de brief opgegeven.<lb/>
-</fnote>
-<fnote ref="2">Bruyn Jansz van Scheeve repatrieerde als schipper begin 1688, als schipper op de<lb/>
-Bantam in 1691, later werd hij voor het hier bedoelde werk gebruikt.<lb/>
-</fnote>
-<fnote ref="3">Herman Voet repatrieerde als stuurman in 1683, in 1693 als commandeur van een<lb/>
-deel van de retourvloot, 1697 vice-commandeur van de schepen van oorlog by Ceylon, 1698<lb/>
-naar patria verlost.<lb/>
-</fnote>
-
 <pb n="737" tpl="1" vol="05" facs="5_150_0737"/>
 <remark><ref>&lt;t£ </ref>in de pakhuizen blijven , mogelijk kunnen lagere verkoopprijzen in Europa grotere<lb/>
 verkoop bewerken, in het oosten is dat niet het geval; brieven van 6 nov. 1694 tot<lb/>
 2 sept. van daar ontvangen<lb/>
 »</remark>
-<para>Brandende den berg aldaer <fref ref="1"/>  nog al even sterk en heeft de rook en menigvuldige<lb/>
+<para>Brandende den berg aldaer
+<note mark="1">Die van Banda, de Gunung Api.<lb/>
+</note>
+nog al even sterk en heeft de rook en menigvuldige<lb/>
 sware asche daeruyt sulk een verdervelijkheyt in de boomen veroorsaekt, dat<lb/>
 de meeste op het eylant Neira daervan sijn uytgegaen en aen de binnekust van ’t<lb/>
 Hooge Land
-<fref ref="2"/>  seer veele ook beschadigt sijn geworden.</para>
+<note mark="2">= Lonthoir.<lb/>
+</note>
+seer veele ook beschadigt sijn geworden.
+</para>
 <remark>«Twee schepen, 9 juni en 19 oct. aankomend, brachten maar 49629
 ® foelie en<lb/>
 275591
@@ -95,7 +103,9 @@ zeer vriéndelijk, waarna
 »</remark>
 <para>
 - des gouvern.rs
-<fref ref="3"/>  voorstelling aen alle de bondgenoten en de renova-<lb/>
+<note mark="3">Isa∪c van Thije.<lb/>
+</note>
+voorstelling aen alle de bondgenoten en de renova-<lb/>
 tiën van derselver eeden van getrouwigheden met alle uytterl.e tekenen van<lb/>
 genegentheyt ende een bijsondere pragt aen de kant van die van ’t Bonyse hof op<lb/>
 14e september pass.0 volbragt is geworden. De dispositie, gevallen tussen onsen<lb/>
@@ -104,7 +114,9 @@ over Radja Bima, die als schuldig aen de bewuste moort van sijne moeye, de<lb/>
 Coninginne van Dompo, volgens ’t oordeel van Radja Bone en de bontgenoten op<lb/>
 Macassar na Batavia gebannen ende op den 21e september met de fluyt Croonenburg<lb/>
 hier verschenen is ende wiens gemalinne
-<fref ref="4"/>  op den 20e aug.° aen de gecomm.<lb/>
+<note mark="4">Zij hertrouwde in aug. 1699 met Karaëng Manampang, Vorst van Sanrabono.<lb/>
+</note>
+op den 20e aug.° aen de gecomm.<lb/>
 hofgrooten van Radja Goa, haren oom, overgelevert is, alsoo men bij het Macassarse<lb/>
 hof geoordeelt had, dat het huwel. tusschen die beyde door dit vonnis in effecte en<lb/>
 na ’t exempel van andre voor desen gebanne princen vernietigd was ende dierhalven<lb/>
@@ -112,7 +124,8 @@ versoek gedaen had, dat sij aen hares vaders broeder Radja Goa mogt toegesonden<
 werden, heeft soodanigen vollen vergenoeging aen de Radjas Bonys ende<lb/>
 Goa, mitsg.re verheuging aen alle andere grooten ende kleyne gegeven, dat deselve<lb/>
 niet hebben konnen nalaten daerover de sensibelste expressiën ende betuygingen<lb/>
-te doen.</para>
+te doen.
+</para>
 <remark>«Had men dit niet gedaan, dan hadden de beide voornaamste Vorsten zich verwijderd,<lb/>
 Radja Gowa vestigde zich weer in zijn land, het overlijden van Radja Boni kan<lb/>
 binnen niet lange tijd verwacht worden<lb/>
@@ -122,16 +135,6 @@ Radja Tambora, mede verdagt geweest sijnde aen de voorgem. moort, heeft<lb/>
 in ’t laeste van ’t verleden jaer het geheele eyland van Sumbawa op sijn hoornen<lb/>
 genomen, de landen van Bima, Dompo, Core ende Pekat genoegsaem geheel ende<lb/>
 al te vuur en te swaert vernielt, soodat men den resid.1 Nootnagel in maert laest-<lb/>
-
-<fnote ref="1">Die van Banda, de Gunung Api.<lb/>
-</fnote>
-<fnote ref="2">= Lonthoir.<lb/>
-</fnote>
-<fnote ref="3">Isa∪c van Thije.<lb/>
-</fnote>
-<fnote ref="4">Zij hertrouwde in aug. 1699 met Karaëng Manampang, Vorst van Sanrabono.<lb/>
-</fnote>
-
 <pb n="738" tpl="1" vol="05" facs="5_150_0738"/>
 leden wederom van Macasser na Bima afgesonden heeft met 26 soldaten om een<lb/>
 pagger op te regten tot adsistentie der verjaegde bontgenoten ende om haer aldaer<lb/>
@@ -141,7 +144,8 @@ Tambora met 2000 mannen op den 22e juny met het aenbreken van den dag<lb/>
 bestormt ende alsoo ook d’E. Comp. den oorlog aengedaen, dog wierd, hoe furieus<lb/>
 den storm ook aenging, met verlies van ongevaer 200 dooden ende 500 gequesten<lb/>
 af geslagen, sonderdat er van onse Europeanen meer dan 2 gesneuvelt sijn ende<lb/>
-1 swaerlijk gequest, soomede maer 1 onder de Bimanesen gewond.</para>
+1 swaerlijk gequest, soomede maer 1 onder de Bimanesen gewond.
+</para>
 <remark>«2 juni werden nog 100 man onder een luitenant derwaarts gezonden<lb/>
 »</remark>
 <para>
@@ -155,7 +159,10 @@ dat eyland te velde getrocken sijnde, heeft hij sig in plaets van dien geretiree
 sekere klip Lahalou ende deselve versterkt. Den optrek nu is den 3 aug.° geschied<lb/>
 onder den lieutenant Joan Eduart van der Schure met 122 Europeanen en 4000<lb/>
 inlanders tot tusschen Core ende Cambo
-<fref ref="1"/> , alwaer ’t gros halte gehouden ende een<lb/>
+<note mark="1">De plaatsjes, bij deze veldtocht aangedaan, zijn bij de vulkanische uitbarsting van<lb/>
+de Tambora in 1815 te gronde gegaan.<lb/>
+</note>
+, alwaer ’t gros halte gehouden ende een<lb/>
 pagger van pallissaden opgeworpen heeft, omdat de siekte en sterfte onder ons<lb/>
 volk begon te regneren, dog den vendrig Pieter Pietersz, met een troup verder<lb/>
 opwaerts na de grensen Tambora gesonden sijnde, heeft na eenige voorgegane<lb/>
@@ -175,27 +182,28 @@ Bone toesegging van een spoedige hulpe soo van hem als eenige andere Celebese<lb
 bondgenoten gedaen sijnde, heeft sulx 2 dagen na de gem. voorstell. ofte op den<lb/>
 16e september soo verre effect gesorteert, dat de aengestelde krijgsoversten der<lb/>
 Bouginesen Arou Tassiada
-<fref ref="2"/>  ende Anrou Gouro Toudj ornaat van den gouverneur<lb/>
+<note mark="2">Ook in
+<emph>Transcriptie</emph> wordt deze persoon in dit verband vermeld.<lb/>
+</note>
+ende Anrou Gouro Toudj ornaat van den gouverneur<lb/>
 afscheyd genomen hebben ende den 17e dito ’smorgens vroeg na de zuydkant van<lb/>
 Celebes, 1000 koppen sterk, gemarcheert zijn om van daer na ’t eyland Sumbawa<lb/>
-
-<fnote ref="1">De plaatsjes, bij deze veldtocht aangedaan, zijn bij de vulkanische uitbarsting van<lb/>
-de Tambora in 1815 te gronde gegaan.<lb/>
-</fnote>
-<fnote ref="2">Ook in
-<emph>Transcriptie</emph> wordt deze persoon in dit verband vermeld.<lb/>
-</fnote>
-
 <pb n="739" tpl="1" vol="05" facs="5_150_0739"/>
 over te steeken ende soude de resterende Bougise hulptroepen met nog eenige van<lb/>
 d’andere bondgenoten in ’t laeste der gem. maend zeptember mede derwaerts gaen,<lb/>
 soodat men hoopen mag, dat het (onder Godes hulpe) met den Tamborees niet lang<lb/>
 sal duren, voornamentl. indien men sijne vaert. in sijne zeeplaetsen Catoupan
-<fref ref="1"/> <lb/>
+<note mark="1">Katupa, plaats aan de noordoosthoek van het schiereiland Tambora op 11 8° 13' O.L.<lb/>
+</note>
+<lb/>
 en Caloncon
-<fref ref="2"/>  (volgens de recommandatie des gouverneurs aen dese 2 vertrocken<lb/>
+<note mark="2">Kalungkung was een min of meer zelfstandig onderdeel van Tambora, vgl. dl. IV,<lb/>
+p. 337 ; het is in 1815 totaal verwoest en sedert niet weer tot enige bloei gekomen.<lb/>
+</note>
+(volgens de recommandatie des gouverneurs aen dese 2 vertrocken<lb/>
 Bougyse krijgsoversten) konde ruïneren ende hem alsoo het oversteken na Baty of<lb/>
-andere plaetsen beletten.</para>
+andere plaetsen beletten.
+</para>
 <remark>«De Croonenburg bracht carg. van f. 12625 naar Timor, ze kon door de troebelen<lb/>
 geen sapanhout van Bima mee terugbrengen, maar bracht 37 pïkól sandelhout en 16<lb/>
 slaven uit Timor op 21 sept. te Batavia aan; brieven werden van daar ontvangen van<lb/>
@@ -207,14 +215,17 @@ met haren aenhang, onder haer sorterende, Comp.8 bontgenoten komen infesteren,<l
 daer den capt. moor Fran^is Hornay in ’t gesag gesuccedeert is en daerin door den<lb/>
 Vice-Roy van Goa bevestigt is geworden, het sijne genoegsaem schijnt toe te contribueren,<lb/>
 hebbende aen onsen resident een trotsen en moedigen
-<fref ref="3"/>  brief over die<lb/>
+<note mark="3">Overmoedig, brutaal.<lb/>
+</note>
+brief over die<lb/>
 saek ges.z, rontuyt verklarende, dat d’E. Comp. aldaer geen verder regt of jurisdictie<lb/>
 heeft als over ’tgeene met het canon van haer fortresse op Coepan bereykan kan<lb/>
 en de rest sijn Con.k eygen is, waerom ook eenige toepassen en Amacon.8 van sijn<lb/>
 aenhang de plantagien der Taybeners en Coepanesen, met onse licentie in de landstreke<lb/>
 Fatome, van outs onder het district van Coepan gehoort hebbende, geruïneert,<lb/>
 de huysjes der lant bouwers verbrant en hun opgemaekte paggertje omverre<lb/>
-geworpen en meer andere baldadigheden aengeregt hebben.</para>
+geworpen en meer andere baldadigheden aengeregt hebben.
+</para>
 <remark>«Er zijn dit jaar minder klachten over pepersmokkelarij door Sultan en groten<lb/>
 van Palembang; 31 aug. was van daar in een jaar ontvangen 1689822 zwarte en<lb/>
 205244 witte peper, waartoe derwaarts en naar Djambi carg. van f. 230149 werd<lb/>
@@ -222,22 +233,14 @@ gezonden<lb/>
 »</remark>
 <para>Houdende ’t den Conink, hoewel oud en bijna afgeleeft, nogal gaende en<lb/>
 staende sonder de reg. aen sijn zoon, den Pangéran Area, over te geven, hoewel hij<lb/>
-genoegsaem de meeste saken dirigeert.</para>
+genoegsaem de meeste saken dirigeert.
+</para>
 <remark>«De tot commandeur der Westkust benoemde Bolton stierf op de reis naar Batavia,<lb/>
 Sibens volgde hem in Palembang op; Pangéran Pringabaja wil geen contact met de<lb/>
 V.O.C., als zijn vader, de oude Sultan Ingalaga, niet naar Djambi wordt teruggezonden;<lb/>
 om de véle huiden in Siam te kunnen laden werden twee fluiten, nl. de Oosthuizen<lb/>
 en Princeland, begin mei derwaarts gezonden met bovendien een lading van f. 233876<lb/>
 voor Japan; voor het afhalen van sapanliout en tin waren 22 aug. en 14 sept. alleen de</remark>
-
-<fnote ref="1">Katupa, plaats aan de noordoosthoek van het schiereiland Tambora op 11 8° 13' O.L.<lb/>
-</fnote>
-<fnote ref="2">Kalungkung was een min of meer zelfstandig onderdeel van Tambora, vgl. dl. IV,<lb/>
-p. 337 ; het is in 1815 totaal verwoest en sedert niet weer tot enige bloei gekomen.<lb/>
-</fnote>
-<fnote ref="3">Overmoedig, brutaal.<lb/>
-</fnote>
-
 <pb n="740" tpl="1" vol="05" facs="5_150_0740"/>
 <remark>kleine schepen Bombaya en Swaeg beschikbaar, de 4 schepen hadden carg. van f. 121008<lb/>
 voor Siam aan boord, de geschenken aan den Koning en berkelang bedroegen f. 26148<lb/>
@@ -284,22 +287,21 @@ vnl. 2118 pak textiel<lb/>
 Het op dese Cust rondsomme nog al vrij verward staet, houdende de troepen<lb/>
 van den Mogol het zuydergedeelte van Cormandel nog al in gestadige beroerten,<lb/>
 pretenderende desselfs gouvern.r tot Waldaoer
-<fref ref="1"/>  ook reecq. van de inkomsten der<lb/>
+<note mark="1">Waldore, plaats op 12° N.B. on 79°38' O.L.<lb/>
+</note>
+ook reecq. van de inkomsten der<lb/>
 stad en dorpen tot Poedechery, tot welken eynde hij de wegen en toegangen na<lb/>
 onse jurisdictie beset houd, dat wij hebben gelast tegen te gaen en gemelten gouvern.r<lb/>
 beleeft te ontmoeten en denselven met een kleyn geschenk, waerom het<lb/>
 welligt te doen is, tevrede te stellen. Om de noord tot Bimelepatnam is een genera-<lb/>
-
-<fnote ref="1">Waldore, plaats op 12° N.B. on 79°38' O.L.<lb/>
-</fnote>
-
 <pb n="741" tpl="1" vol="05" facs="5_150_0741"/>
 len opstant der Radjas en visiadoors tegen den serlasker, hebbende desel ve veele<lb/>
 onredel. petitie van d’onse, ald.r residerende, ministers gedaen, dog den omslag is<lb/>
 ter goeder tijt geligt en sijn alle ’s Comp.8 effecten hare roofsieke handen ontvoerd<lb/>
 en tot Masulip. gesegoureert geworden. De rij steelt is langs Cormandel seer sober<lb/>
 geslaegt, sulx de nely tot Nagapatn. al tot 13 f pag. het last gesteygert was, waeruyt<lb/>
-buyten t wij ff el een groote hongersnood te volgen staed.</para>
+buyten t wij ff el een groote hongersnood te volgen staed.
+</para>
 <remark>«De kooplieden uit Golconda komen nog niet te Masulipatam inkopen; mandamenten<lb/>
 voor tolvrijheid zouden op komst zijn, maar een geschenk van 15000 ropia aan<lb/>
 den rijkskanselier en van 12500 aan anderen is daarvoor nodig, de Hoge Reg. acht dat<lb/>
@@ -340,21 +342,27 @@ rsd. 9412 in afkortinge van onse pretensie, tesamen beloopende 22857, behalven<l
 een geroofde eliphant voor den Sammorijn, die sij reets weder had overgegeven,<lb/>
 waermede alle verdere geschillen souden blijven opgeschort tot de wederomkomste<lb/>
 van gem. onse commissar.8, die daerop alle de militie weder terug na Coutchin had<lb/>
-doen keren.</para>
+doen keren.
+</para>
 <para>
 Den Sammorijn om de noort mede eenige schadel. bewegingen middlerwijlen<lb/>
 had gemaekt, apparent met gedagten om de Konink van Coutchin een gevoelige<lb/>
-
 <pb n="742" tpl="1" vol="05" facs="5_150_0742"/>
 neep te geven, terwijl d’E. Comp. om de zuyt belemmert was met de Coninginne<lb/>
 van Atingen, dog die furie was mede voor het grootste gedeelte terneder gelegt<lb/>
 door de schiel. terugkomste van onse militie en de verschijning van den commissaris<lb/>
 d’Roo
-<fref ref="1"/>  op Panny, alwaer den Sammorijn sijn hof hout, hebbende dien Vorst met<lb/>
+<note mark="1">Paulus de Roo was in 1676 kassier te Suratte, 1680 onderkoopman, 1685 fiskaal in<lb/>
+koopmansrang, 1689 te Batavia boekhouder-generaal, 1690 secretaris van de Hoge Regering,<lb/>
+1694 commissaris naar Malabar en Suratte, waarna hij gouverneur van Ceylon zou worden; hij<lb/>
+stierf evenwel in aug. 1695 te Suratte.<lb/>
+</note>
+op Panny, alwaer den Sammorijn sijn hof hout, hebbende dien Vorst met<lb/>
 heel veel genoegen uyt handen van onsen commiss. ontfangen ons geschenk en hij<lb/>
 niet alleen, maer alle de Vorsten om de noort bij hanttastinge en diere beloften<lb/>
 toesegging gedaen, dat sij tot wederomkomste van meergem. onsen commissaris<lb/>
-souden blijven stilsitten en geen hostiliteyten tegen den anderen plegen.</para>
+souden blijven stilsitten en geen hostiliteyten tegen den anderen plegen.
+</para>
 <remark>«De Roo vertrok 18 maart met de Hof van Ilpendam en de Spierdijk en vernam<lb/>
 voor Calicut van den Engelsen gezaghebber Burmiston over het reeds genoemde Franse<lb/>
 schip, terwijl 3 andere naar Suratte doorvoeren
@@ -364,10 +372,13 @@ schip, terwijl 3 andere naar Suratte doorvoeren
 dag ten getale van 17 st.x op de rheede van Mangaloor verscheenen waren, in<lb/>
 gevegt geraekt, dog haer ontlopen was. Daegs na het voorn, gevegt 5 kloeke Europ.<lb/>
 schepen, voerende éen daeraf de vitte vlag
-<fref ref="2"/>  van de grootste steng, op Mangaloor<lb/>
+<note mark="2">Bedoeld is de Franse vlag met de leliën van de Bourbons.<lb/>
+</note>
+van de grootste steng, op Mangaloor<lb/>
 verschenen waren en daerontrent 2 a 3 dagen hadden gesworven, voorts had men<lb/>
 op den 17e, 19e en 20e daeraen tot Barssaloor 3 gelijke bodems en dan weder 2<lb/>
-ditos 2 &amp; 3 dagen daeraen sien kruijsen.</para>
+ditos 2 &amp; 3 dagen daeraen sien kruijsen.
+</para>
 <remark>«De laatste bleken echter op Europese wijze getuigde schepen met Engelse<lb/>
 officieren uit Bengalen te zijn; De Roo kon slechts tot Bombay komen en ging van daar<lb/>
 met het jacht van den Engelsen gouverneur naar Daman, 8 mijl van Suratte gelegen;<lb/>
@@ -391,16 +402,8 @@ gezonden<lb/>
 <para>Den Coning van Persia Sulimoon den 29e julij 1694 was overleden en in sijn<lb/>
 plaets den 7e aug.° weder was aen- en op den troon gestelt desselfs oudste soon,<lb/>
 gen.1 Sultan Hossin, die men segt, dat den ouderdom van 22 a 23 jaren soude<lb/>
-bereyken en van een seer goeden en genereusen inborst sijn.</para>
-
-<fnote ref="1">Paulus de Roo was in 1676 kassier te Suratte, 1680 onderkoopman, 1685 fiskaal in<lb/>
-koopmansrang, 1689 te Batavia boekhouder-generaal, 1690 secretaris van de Hoge Regering,<lb/>
-1694 commissaris naar Malabar en Suratte, waarna hij gouverneur van Ceylon zou worden; hij<lb/>
-stierf evenwel in aug. 1695 te Suratte.<lb/>
-</fnote>
-<fnote ref="2">Bedoeld is de Franse vlag met de leliën van de Bourbons.<lb/>
-</fnote>
-
+bereyken en van een seer goeden en genereusen inborst sijn.
+</para>
 <pb n="743" tpl="1" vol="05" facs="5_150_0743"/>
 <remark>«Het verwerven der mandamenten voor de vrije handel is daardoor weer vertraagd ,<lb/>
 nu hoopt men op het spoedig af komen daarvan en 2 thoman afslag per carga zijde door<lb/>
@@ -420,7 +423,8 @@ realen inkopen<lb/>
 <para>In de maend januarij hadden de Arabieren van Masquetta een landing of<lb/>
 invagie op Congo gedaen, onder voorgeven sij van daer de Portugesen, hare vijanden,<lb/>
 wilden vandaen hebben, waerover den Persiaen de gedagten wel heeft om dat<lb/>
-te revengeren.</para>
+te revengeren.
+</para>
 <remark>«De V.O.C. was gevraagd enige schepen hiertoe te verschaffen, wat afgeslagen<lb/>
 was met een beroep op de oorlog met Frankrijk; de Standvastigheid werd 22 febr.<lb/>
 uitgezonden met carg. van f. 37596 voor de Kaap en f. 4541 voor Mauritius, waar<lb/>
@@ -434,22 +438,22 @@ De Balemboangers tegens die van Baly, sijnde met hunne landen over malkanderen<l
 gelegen, continuel. in verwijderinge leven en dat er van de een d’ander,<lb/>
 besonder van de laeste, nu en dan al eenige in de kaers vliegen. De correspondentie<lb/>
 tusschen ons en die volkeren is sedert het omcomen van den Pangérang ofte<lb/>
-Prince Matsjanagara <fref ref="1"/>  t’eenemael opgehouden.<lb/>
+Prince Matsjanagara
+<note mark="1">Pangeran Adipati Matjanagara was do tweede zoon van den in 1691 gestorven Vorst<lb/>
+van Balambangan. Hij kwam met enige hulp van de V.O.C. tegen zijn ouderen broeder op de<lb/>
+troon, maar sneuvelde weldra in de strijd tegen een derden broeder.<lb/>
+</note>
+t’eenemael opgehouden.<lb/>
 Blijvende het dien booswigt1
-<fref ref="2"/>  in de landen van Cadiry en Madion, soo wij menen,<lb/>
-met de Javanen in een goed verstant nog al gaende houden.</para>
+<note mark="2">Surapati.<lb/>
+</note>
+in de landen van Cadiry en Madion, soo wij menen,<lb/>
+met de Javanen in een goed verstant nog al gaende houden.
+</para>
 <remark>«Naar Japara werden gezonden de commandeur Salomon Lesage en de kapitein<lb/>
 Meynart de Roy, Dortsman is teruggeroepen; rijst is er duur en moeilijk verkrijgbaar,<lb/>
 het vervoer naar andere gebieden dan Batavia is verboden, waar men 34 rsd. het last<lb/>
 betaalt, sedert 1 oct. werd 430 last ontvangen, te Japara is men gelast ze voor 30 rsd.</remark>
-
-<fnote ref="1">Pangeran Adipati Matjanagara was do tweede zoon van den in 1691 gestorven Vorst<lb/>
-van Balambangan. Hij kwam met enige hulp van de V.O.C. tegen zijn ouderen broeder op de<lb/>
-troon, maar sneuvelde weldra in de strijd tegen een derden broeder.<lb/>
-</fnote>
-<fnote ref="2">Surapati.<lb/>
-</fnote>
-
 <pb n="744" tpl="1" vol="05" facs="5_150_0744"/>
 <remark>in te kopen, te Batavia is 740 last in voorraad; in Tegal is de hoitikapperij van belang ,<lb/>
 getracht zal worden het als vlot naar Batavia te zenden; de 2e en 3e Prins van Cheribon<lb/>
@@ -461,12 +465,18 @@ mogelijk, zoals in Coromandel en Suratte; den Koning van Bantam is verzocht
 <lb/>
 »</remark>
 <para>
-- sijne hoofden op Seringe<fref ref="1"/>  en verder in de straet Sunda te vallen<lb/>
+- sijne hoofden op Seringe
+<note mark="1">Tjaringin, vgl. dl. IV, p. 704, noot 1.<lb/>
+</note>
+en verder in de straet Sunda te vallen<lb/>
 ordonneren gestadig eenige bequame vaertuygen in zee tot aen het Princeneylant<lb/>
 af en aen te houden om, bijaldien meer als óen schip tegelijk hun aldaer quamen<lb/>
 op te doen, na Bantam en vervolgens van daer aen ons op het spoedigste daervan<lb/>
 kennis te doen toekomen
-<fref ref="2"/> .</para>
+<note mark="2">Men vreesde voor de komst van een Franse vloot.<lb/>
+</note>
+.
+</para>
 <remark>«31 aug. was in een jaar van Bantam ontvangen 32223 pikol zwarte en 75 witte<lb/>
 peper, waarvoor derivaarts in geld f. 457022 werd gezonden, benevens f. 36322 aan<lb/>
 provisiën voor het garnizoen; ook daar is de indigobereiding in opkomst, men zegt<lb/>
@@ -491,7 +501,10 @@ tegen f. 143497 lasten, de gelden op interest liepen er op tot f. 1614000 tegen 
 »</remark>
 <para>
 - er een Coningsschip, gen.d de Gansaway
-<fref ref="3"/>  en een van den voomaem<lb/>
+<note mark="3">Dit schip wordt
+<emph>Beschrijvinge</emph> II, III, p. 54 Gandsisaway genoemd.<lb/>
+</note>
+en een van den voomaem<lb/>
 Moors coopman Abdul Gafoer door de roovers (van Mogha komende) waren aengetast<lb/>
 en na tegenweer en ’t becomen van diverse dooden en gequesten ’t hadden<lb/>
 moeten opgeven, uyt welke eerst gem. roovers souden genomen hebben 2000000<lb/>
@@ -499,15 +512,6 @@ ropyen en uyt het laeste 100000 ropias, met welke daet d’Engelsen beschuldigt<
 werden, alsoo de Mooren daervan eenige gekent en nog jongst in Souratta gesien<lb/>
 hadden, buytendat was aldaer - in het smalschip der Engelsen, met laeke-<lb/>
 nen en contanten aengecoomen, een cas met Moorse gelden bevonden van net<lb/>
-
-<fnote ref="1">Tjaringin, vgl. dl. IV, p. 704, noot 1.<lb/>
-</fnote>
-<fnote ref="2">Men vreesde voor de komst van een Franse vloot.<lb/>
-</fnote>
-<fnote ref="3">Dit schip wordt
-<emph>Beschrijvinge</emph> II, III, p. 54 Gandsisaway genoemd.<lb/>
-</fnote>
-
 <pb n="745" tpl="1" vol="05" facs="5_150_0745"/>
 soodanigen inhoud, als den Moors coopman Abdul Gaf fur bevorens hadde opgegeven,<lb/>
 dat uyt sijn schip door de roovers was genomen, alle hetgeene soo grooten verbittering<lb/>
@@ -523,7 +527,8 @@ spoedig quamen te resolveren en haer met de versogte twee schepen te versien, da
 sij dan den handel souden verbieden en ook geene onser aldaer sijnde schepen laten<lb/>
 vertrecken, hebbende de reden, die de onse van onschuldinge bijbragten en dat niet<lb/>
 vermogens waren dienthalven te disponeren sonder onse speciale ordre, weinig<lb/>
-mogen helpen.</para>
+mogen helpen.
+</para>
 <remark>«De Hoge Regering hoopt het zo goed mogelijk te excuseren , maar vreest, dat 2<lb/>
 van de Perziëvaarders aan den gouverneur zullen moeten worden beschikbaar gesteld;<lb/>
 de Fransen beweerden, dat er 6 schepen van hen te Suratte zouden komen, zij zonden<lb/>

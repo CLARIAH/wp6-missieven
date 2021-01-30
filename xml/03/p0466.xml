@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="466"/>
 <meta key="title" value="Maetsuycker, Hartsinck, Verburch, Van Goens, Pit, Overtwater, Van den Brouck, Thijsz, Van Hoorn, Cops; Batavia, 4 augustus 1664"/>
 <meta key="rawdate" value="4 augustus 1664"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Joan Thijsz, Pieter van Hoorn, Jacob Cops"/>
+
 
 </header>
 <body>
@@ -31,23 +33,43 @@ grote nageloogst op Amboina, waar 460 man in garnizoen zijn<lb/>
 jacht in juny een voyage naa de Manillias te ondernemen; warende te wenschen,<lb/>
 hij aldaar door de Spangniaarden in handel wierden geadmitteert om alsoo in<lb/>
 tijden en wijlen tot het stabilieren van een proffitable negotie met die vrunden te<lb/>
-konnen geraaken.</para>
+konnen geraaken.
+</para>
 <remark>«De Durgerdam komt 13 juni met lading waard f. 102908.9.3 van Makassar,<lb/>
 vgl.
 <ref>Daghregisters, p. 238 </ref>»</remark>
 <para>.... weesende eene sijner schoepen
-<fref ref="1"/> , groot 130 &amp; 140 lasten, van Maccau met<lb/>
+<note mark="1">NI. van Vieira.<lb/>
+</note>
+, groot 130 &amp; 140 lasten, van Maccau met<lb/>
 speauter, muscus, goudt, gouddraad, zijdestoffen, cooper en radix China soo voor<lb/>
 eygen als andere coopluyden reeckeninge op Maccassar gearri veert, over welcke<lb/>
 handel den commissaris Cauw
-<fref ref="2"/>  wel ernstigh ontrent den Coninck heeft gedoleert,<lb/>
+<note mark="2">Mr. Jacob Cau kwam 1656 als onderkoopman uit en steeg snel in rang, in 1660 was<lb/>
+hij tweede commissaris naar Makassar, in 1661 bestemd Coyet als gouverneur van Formosa op<lb/>
+te volgen, kwam hij er pas na de overgave aan en keerde hij naar Batavia terug, 1663 weer<lb/>
+commissaris naar Makassar, 1664 commandeur ter Westkust, hij repatrieerde in 1668 als<lb/>
+commandeur van de retourvloot.<lb/>
+</note>
+wel ernstigh ontrent den Coninck heeft gedoleert,<lb/>
 maar echter niet konnen verwerven, haar den handel voor dat maal ontseght is<lb/>
-geworden.</para>
+geworden.
+</para>
 <para>Den ouden Pangeran Ratou is aldaar
-<fref ref="3"/>  van sijnen staat affgeset en in sijn<lb/>
+<note mark="3">NI. Pangeran Ratu van Bandjarmasin, eigenlijk geheten Riajat-ullah. De bedoelde<lb/>
+plaats is Martapura. Hij kwam 1642 of 1643 aan het bewind en werd in 1663 afgezet;
+<emph>Bandjar¬</emph><lb/>
+<emph>masin,</emph> p. 189 is niet geheel juist.<lb/>
+</note>
+van sijnen staat affgeset en in sijn<lb/>
 plaats weder ingelaaten den Pangeran Souria Nata, welcke veranderinge d’ E.<lb/>
 Comp.e schaadelijk zijn
-<fref ref="4"/> .</para>
+<note mark="4">Bijzonderheden hierover in
+<emph>Corpus,</emph> II, p. 285-286. Pangeran Suria Nata kwam 1663<lb/>
+op de troon en woonde te Bandjarmasin.<lb/>
+</note>
+.
+</para>
 <remark>«De lading der twee schepen , genoemd
 <ref>Daghregisters 26 </ref>apr. 1664, p. 140, was<lb/>
 638 baal zijde, 8971942
@@ -59,25 +81,6 @@ naar Bengalen; hei Tonkinse goud gaf in Coromandel 23 % winst; het blijft nodig,
 dat Heren XVII jaarlijks f. 500000 aan ongemunt goud en ducaten zenden; bevordering<lb/>
 van de spijkermakerij in Coromandel<lb/>
 »</remark>
-
-<fnote ref="1">NI. van Vieira.<lb/>
-</fnote>
-<fnote ref="2">Mr. Jacob Cau kwam 1656 als onderkoopman uit en steeg snel in rang, in 1660 was<lb/>
-hij tweede commissaris naar Makassar, in 1661 bestemd Coyet als gouverneur van Formosa op<lb/>
-te volgen, kwam hij er pas na de overgave aan en keerde hij naar Batavia terug, 1663 weer<lb/>
-commissaris naar Makassar, 1664 commandeur ter Westkust, hij repatrieerde in 1668 als<lb/>
-commandeur van de retourvloot.<lb/>
-</fnote>
-<fnote ref="3">NI. Pangeran Ratu van Bandjarmasin, eigenlijk geheten Riajat-ullah. De bedoelde<lb/>
-plaats is Martapura. Hij kwam 1642 of 1643 aan het bewind en werd in 1663 afgezet;
-<emph>Bandjar¬</emph><lb/>
-<emph>masin,</emph> p. 189 is niet geheel juist.<lb/>
-</fnote>
-<fnote ref="4">Bijzonderheden hierover in
-<emph>Corpus,</emph> II, p. 285-286. Pangeran Suria Nata kwam 1663<lb/>
-op de troon en woonde te Bandjarmasin.<lb/>
-</fnote>
-
 <pb n="467" tpl="1" vol="03" facs="3_125_0467"/>
 <para>
 Dat Nagapatam d’E.Comp.e tot noch maar voor een extraordinaren last is geweest<lb/>
@@ -101,7 +104,8 @@ op Japara en Macassar geweest, sulcx dat het blijck zij, haar met die smalle<lb/
 negotie en overwinste nochal weeten te redden, sonderdat se tzedert weder op den<lb/>
 rooff zijn ujdgeweest, waartoe haar oock een goet zeecapit.n gebreeckt, alsoo<lb/>
 schipper Simon Jansz. eyndel. van haar is affgeraackt en sich onder Comp.8<lb/>
-jurisdictie heeft begeven.</para>
+jurisdictie heeft begeven.
+</para>
 <remark>«Naar patria zal dit jaar 500000
 ® kaneel worden gexonden; in 1665 zal 600000<lb/>
 gereed gemaakt worden; verwijzing naar de memorie door Van Qoens aan Hustaert<lb/>

@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="414"/>
 <meta key="title" value="Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn; Batavia, 5 augustus 1706"/>
 <meta key="rawdate" value="5 augustus 1706"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan van Hoorn, Abraham van Riebeeck, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Pieter de Vos, Bernard Phoonsen, Adam van Rijn, Hendrik Zwaardecroon, Henrick Becker, Cornelis Chasteleyn"/>
 
+
 </header>
 <body>
 <pb n="414" tpl="1" vol="06" facs="6_159_0414"/>
@@ -22,7 +24,11 @@ VAN SWOLL, HERMAN DE WILDE, ABRAHAM DOUGLAS, PIETER DE<lb/>
 VOS, BERNARD PHOONSEN, ADAM VAN RIJN, HENDRIK ZWAARDECROON,<lb/>
 HENRICK BECKER EN CORNELIS CHASTELEIN, BATAVIA<lb/>
 5 augustus 1706
-<fref ref="1"/> .</head>
+<note mark="1">Comans was door Heren XVII ontslagen, De Haan was slechts geassumeerd in Rade<lb/>
+van Indië en werd door de Heren niet als raad extra-ordinair benoemd, hij maakte dus geen<lb/>
+deel meer uit van de Hoge Regering.<lb/>
+</note>
+.</head>
 <folio>Kol. Arch. 1608,fol. 9-10.</folio>
 <remark>«Verzonden met het Engelse schip
 ,, Feterstori
@@ -31,13 +37,16 @@ HENRICK BECKER EN CORNELIS CHASTELEIN, BATAVIA<lb/>
 <para>
 - waarin ©ede ook overvaart den bekenden capitain William Dampier<lb/>
 van sijn verloore reyse nevens stux
-<fref ref="2"/>  van sijn volk en twee door hem gevangen<lb/>
+<note mark="2">Niet ingevuld.<lb/>
+</note>
+van sijn volk en twee door hem gevangen<lb/>
 genomen Spanjaarden, soodanig hij met deselve den 30e december des voorleeden<lb/>
 jaars eyndelijk in Ternaten verschenen en vervolgens op den 26e julij jongstleden<lb/>
 met den verlosten Ternaatsen gouverneur Pieter Roselaar per ’t schip den Eenhoorn<lb/>
 hier aangekomen is, staande nog agt van sijn resteerend volk op hun instantie<lb/>
 met onse retourscheepen te volgen, alsoo die met hem, Dampier, niet hebben<lb/>
-willen vaaren.</para>
+willen vaaren.
+</para>
 <remark>«Uit patria kwamen 17 juni de Herstelde Leeuw, 28 juli de Limburg, 30 juli de<lb/>
 Grimmestein; Meyndert de Boer kwam 10 juni mei zijn vloot via Cochin terug,<lb/>
 »</remark>
@@ -45,7 +54,8 @@ Grimmestein; Meyndert de Boer kwam 10 juni mei zijn vloot via Cochin terug,<lb/>
 - dog met een vrugteloose verrigtinge, alsoo de onsen bij den nieuwen<lb/>
 Souratsen gouverneur Amanetchan tot geen gehoor ofte eenige satisfactie hadden<lb/>
 konnen komen en alsoo met veel sieken den 20e maart dese jaars uyt die<lb/>
-Souratse bestelling onverrigter saaken hadden moeten opbreeken.</para>
+Souratse bestelling onverrigter saaken hadden moeten opbreeken.
+</para>
 <remark>«Een nieuwe expeditie onder den visitaleur -generaal J oan Grootenhuys en Pieter<lb/>
 Bemard van Breen als secunde is in voorbereiding; uit Bengalen kwamen aan Jacob<lb/>
 Pelgrom en de opperkooplieden Dirk Wilree en Alexander Urwijn met de Schoonewal,<lb/>
@@ -55,12 +65,5 @@ opperhoofd Ferdinand de Groot naar Japan; Cleur werd mei de Sion naar Siam<lb/>
 gezonden om na te gaan, of men daar tot rustiger handel zou kunnen komen; brieven<lb/>
 uit patria van 22 aug. tot 28 oct. werden ontvangen<lb/>
 »</remark>
-
-<fnote ref="1">Comans was door Heren XVII ontslagen, De Haan was slechts geassumeerd in Rade<lb/>
-van Indië en werd door de Heren niet als raad extra-ordinair benoemd, hij maakte dus geen<lb/>
-deel meer uit van de Hoge Regering.<lb/>
-</fnote>
-<fnote ref="2">Niet ingevuld.<lb/>
-</fnote>
 </body>
 </teiTrim>

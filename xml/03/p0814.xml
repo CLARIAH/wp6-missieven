@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="814"/>
 <meta key="title" value="Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn; Batavia, 20 februari 1672"/>
 <meta key="rawdate" value="20 februari 1672"/>
@@ -14,13 +15,16 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Pieter van Hoorn"/>
 
+
 </header>
 <body>
 <pb n="814" tpl="1" vol="03" facs="3_125_0814"/>
 <head>LIX. JOAN MAETSU YKER , NICOLAES VERBURCH, LAURENS PIT,<lb/>
 P1ETER OVERTWATER, CORNELIS SPEELMAN EN PIETER VAN<lb/>
 HOORN, BATAVIA 20 febr. 1672
-<fref ref="1"/> </head>
+<note mark="1">Boven is bijgeschreven: Ontfangen uit Engelandt, septemb. 1672.
+</note>
+</head>
 <folio>1169,fol. 417-421.</folio>
 <remark>«Verzonden met het Engelse schip Phenix, te vgl. mei
 <emph>Dagh registers,</emph> p. 32-52;<lb/>
@@ -29,6 +33,5 @@ de Bonaventura had tijdelijk bij Karimun vastgezeten ; Hendrick IJsbrandtsz. ver
 van MaUikka met 2 vaartuigen , carg. f. 50000, vnt. textiel, naar Indragiri; te Malakka<lb/>
 passeerden geen Portugezen uit Macao<lb/>
 »</remark>
-<fnote ref="1">Boven is bijgeschreven: Ontfangen uit Engelandt, septemb. 1672.</fnote>
 </body>
 </teiTrim>

@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="598"/>
 <meta key="title" value="Hurdt, Camphuys, Pit, Schaghen, Van Hoorn; Batavia, 24 december 1683"/>
 <meta key="rawdate" value="24 december 1683"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Anthonio Hurdt, Joannes Camphuys, Marten Pit, Nicolaas Schaghen, Joan van Hoorn"/>
+
 
 </header>
 <body>
@@ -34,7 +36,8 @@ jaar en ’t saysoen alweder vrij verre genoegh verloopen waare, ons te addresse
 aan den eersten raat en Directeur- Generaal d’ H.r Balthazar Bort om te hooren<lb/>
 ende te vernemen, off wij van zijn E. op de voorgenome tekennenge vingen en<lb/>
 vragen eenige ware reden van verligtinge ontrent onse beswaarnissen souden<lb/>
-konnen te weten komen.</para>
+konnen te weten komen.
+</para>
 <para>
 - Dogh daardoor en daarmede niet alleen van een sober berigt en<lb/>
 onderigt gedient, maar oock naar verloop van nog veele dagen geenige nader<lb/>
@@ -43,14 +46,26 @@ onse begonne devoiren eenigksints nader te vervolgen. Dogh zijn buyten verwagtin
 in dien deele al weder merckelijck verset en op den 2.e deser mettet subijt<lb/>
 toebrengen van het concept der inleydinge van de nu overgaande Generale Missive<lb/>
 aan Uw WelEd.e8
-<fref ref="1"/>  soo verre geobrueert
-<fref ref="2"/> , dat te rade wierden ons daarop soodanigh<lb/>
+<note mark="1">Nr. IX, van 31 dec. 1683.<lb/>
+</note>
+soo verre geobrueert
+<note mark="2">Geobrueert, vernietigd.<lb/>
+</note>
+, dat te rade wierden ons daarop soodanigh<lb/>
 nader te verclaren en vervolgens uyt de onverwagte bescheyden en door de<lb/>
 mont van den e. secretaris Jacob van Dam
-<fref ref="3"/>  te onttrecken en te praeca veren
-<fref ref="4"/> <lb/>
+<note mark="3">Mr. Jacob van Dam, 1661 onderkoopman en bgw. lid van de Raad van Justitie, aug.<lb/>
+1664 gewoon lid, juni 1673 secr. van schepenen, aug. 1682 secretaris van de Hoge Regering,<lb/>
+aug. 1684 buiten gage en bediening gesteld ,oct. 1691 vice-president van de Raad van Justitie,<lb/>
+sept. 1698 extraord. raad van Indië, gestorven 1704.<lb/>
+</note>
+te onttrecken en te praeca veren
+<note mark="4">Praecaveren, voorbehoud nemen, zich in acht nemen.<lb/>
+</note>
+<lb/>
 wegens eenige (buyten raatspleginge) opgestelde poincten en expressiën in saaken<lb/>
-van geen geringh belangh.</para>
+van geen geringh belangh.
+</para>
 <remark>«De raden bedoelden slechts het tijdige vertrek der schepen te bevorderen; Speelman<lb/>
 en Bort trekken zich ook in andere zaken niets van hun opmerkingen aan, hierover<lb/>
 willen de raden later schrijven; volgt het, zij het, in gemoderniseerde taal en verkort,<lb/>
@@ -67,19 +82,6 @@ van dien Raad Daniël Heyns; men verzoekt Heren
 - dat het ons ten besten geduyt en niet qualijck af genomen mogte<lb/>
 worden, indien wij ons genootsaakt vonden het teeckenen van de gemte resolutiën<lb/>
 off wel een gedeelte daarvan, als se eyndelijck eens voor den dagh zullen komen,<lb/>
-
-<fnote ref="1">Nr. IX, van 31 dec. 1683.<lb/>
-</fnote>
-<fnote ref="2">Geobrueert, vernietigd.<lb/>
-</fnote>
-<fnote ref="3">Mr. Jacob van Dam, 1661 onderkoopman en bgw. lid van de Raad van Justitie, aug.<lb/>
-1664 gewoon lid, juni 1673 secr. van schepenen, aug. 1682 secretaris van de Hoge Regering,<lb/>
-aug. 1684 buiten gage en bediening gesteld ,oct. 1691 vice-president van de Raad van Justitie,<lb/>
-sept. 1698 extraord. raad van Indië, gestorven 1704.<lb/>
-</fnote>
-<fnote ref="4">Praecaveren, voorbehoud nemen, zich in acht nemen.<lb/>
-</fnote>
-
 <pb n="599" tpl="1" vol="04" facs="4_134_0599"/>
 te excuseren, willende geerne bekennen onse geheugenisse sooveel niet te connen<lb/>
 toebetrouwen, dat wij met gerustheyt zouden mogen verclaren ende met onse<lb/>
@@ -89,6 +91,7 @@ zijnde wij buytendien oock niet buyten reden bedugt, dat verscheyde stellingen<l
 in de afgesondene brieven, die wij om rust en vreede te houden mede hebben onderteeckent,<lb/>
 ons voor formele arresten en genomen resolutiën zullen worden aangereekent,<lb/>
 schoon daarvan noyt in vergaderingh gesprooken ofte op gedelibereert<lb/>
-is geworden.</para>
+is geworden.
+</para>
 </body>
 </teiTrim>

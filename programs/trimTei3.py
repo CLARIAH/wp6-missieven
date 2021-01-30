@@ -15,7 +15,6 @@ from lib import (
 )
 
 corpusPre = None
-trimVolume = None
 trimDocBefore = None
 trimDocPrep = None
 trimDocPost = None

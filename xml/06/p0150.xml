@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="150"/>
 <meta key="title" value="Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam, Van Swoll; Batavia, 17 februari 1701"/>
 <meta key="rawdate" value="17 februari 1701"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Joannes Cops, Manuel Bornezee, Thomas van Rhee, Jacob van Dam, Christoffel van Swoll"/>
+
 
 </header>
 <body>
@@ -62,14 +64,13 @@ Engelse schip Bomeo op weg naar Bandjarmasin<lb/>
 <para>De Coningen van Sweeden en Denemarken ij der een vloot scheepen ter zee<lb/>
 hadden gebragt sonder evenwel daarmede tegen malkanderen in actie geweest<lb/>
 te sijn
-<fref ref="1"/> .</para>
-
-<fnote ref="1">De Zeemogendheden zonden op verzoek van Karei XII een vloot naar de Oostzee ter<lb/>
+<note mark="1">De Zeemogendheden zonden op verzoek van Karei XII een vloot naar de Oostzee ter<lb/>
 handhaving van het evenwicht, dit gaf hem de gelegenheid op Seeland te landen en Kopenhagen<lb/>
 aan te vallen. Met behulp der Zeemogendheden kwam in aug. 1700 een vrede tot stand;<lb/>
 het hier vermelde betreft de aanloop tot deze gebeurtenissen.<lb/>
-</fnote>
-
+</note>
+.
+</para>
 <pb n="151" tpl="1" vol="06" facs="6_159_0151"/>
 <remark>«Sapanhout werd in Bima besteld; ter kust van Madura was 31 aug. in eenjaar<lb/>
 voor f. 496051 textiel gekocht; daar Malabar de eis aan peper van Ceylon voor patria<lb/>
@@ -80,7 +81,8 @@ wel niet zal leveren , ml men van Batavia 600000
 <para>Den 4e november des voorleden jaars voor Gale verscheenen waren drie vremde<lb/>
 schepen en dienselven dag ’s Comp.8 werelose chialoup den Lastdrager omtrent<lb/>
 Billigam ook had ontmoet twee schepen en van het eene vijandig was aangetast en<lb/>
-mishandelt.</para>
+mishandelt.
+</para>
 <remark>«Order s hierover uit patria aangevraagd; Van Schenkenberg is niet genegen naar<lb/>
 Malabar te gaan en vraagt ontslag; brieven van 14 nov. van Zwaardecroon uit Suratte<lb/>
 ontvangen; gunstige handelsresultaten aldaar, maar kruidnagelen waren er tegen de<lb/>
@@ -90,11 +92,16 @@ met de verkoop van laken aan Armenische kooplieden, monsters daarvan gaan Tiaar<
 patria<lb/>
 »</remark>
 <para>Het ongeluckig blijven der twee bodems
-<fref ref="1"/>  op haar terugreyse naa Souratta<lb/>
+<note mark="1">Wijk op Zee en Matroos, van Mokka komend.<lb/>
+</note>
+op haar terugreyse naa Souratta<lb/>
 een weynig besuyde de Caab St. Joan voor een Portugese plaats, genaamt Tarapoer1<lb/>
-<fref ref="2"/> , op den 19e en 20e september des verleden jaars met bequaam weer, daar<lb/>
+<note mark="2">Tarapur, plaats ter westkust van India op 19°49' N.B.<lb/>
+</note>
+, op den 19e en 20e september des verleden jaars met bequaam weer, daar<lb/>
 alle de Moorsse Mochas- en Jeddasvaarders behouden weder in dese directie zijn<lb/>
-g’arriveert.</para>
+g’arriveert.
+</para>
 <remark>«Vermoedelijk ligt de schuld bij de scheepsopperhoofden; alle contanten op 22493<lb/>
 rsd. na werden door de bemoeiing van Zwaardecroon opgevist, het wrak van de door het<lb/>
 scheepspersoneel in brand gestoken W ijk op Zee is voor 50 rsd. verkocht, op 4 man na<lb/>
@@ -107,7 +114,8 @@ voor de intrekking van de te Suratte afgedwongen acte men o.a.<lb/>
 - een expressen ben j aan met name Sonderdas ten hoove opgesonden<lb/>
 heeft met verscheyde rariteyten, costende ropia 5379, daaronder gerekent 1500<lb/>
 ropia tot guastos op de weg, behalven dat er reets aan den Souratsen gouverneur,<lb/>
-desselfs soon en andere Moorsse regenten was uytgegeven ropia 26250.</para>
+desselfs soon en andere Moorsse regenten was uytgegeven ropia 26250.
+</para>
 <remark>«De Oosthuisen kwam 14 febr. uit Siam met carg. vanf. 41471, vnl. sapanhout en<lb/>
 tin en een brief van 28 dec.; de Belois vertrok 4 juli met lading van daar ad f. 33921<lb/>
 naar Japan, de twee andere schepen kunnen met sapanhout weldra uit Siam worden<lb/>
@@ -116,24 +124,20 @@ sapanhout achterstallig<lb/>
 »</remark>
 <para>
 Het geheele Siamse rijk bedorven was, hetgene niet te verwonderen is, aan-<lb/>
-
-<fnote ref="1">Wijk op Zee en Matroos, van Mokka komend.<lb/>
-</fnote>
-<fnote ref="2">Tarapur, plaats ter westkust van India op 19°49' N.B.<lb/>
-</fnote>
-
 <pb n="152" tpl="1" vol="06" facs="6_159_0152"/>
 gesien den Coning alle sijne voornaamste hooft- en rijxbestierders had doen ombrengen,<lb/>
 uyt hare bedieningen verstooten, hunne goederen geconfisqueert en<lb/>
 andere jonge ende in ’t bestier der rijxsaken t’eenemael onervare ministers in der-<lb/>
-selver plaatse aangestelt hadde, -</para>
+selver plaatse aangestelt hadde, -
+</para>
 <remark>«wat ook voor de V.O.C. zaken zeer lastig is<lb/>
 »</remark>
 <para>Den Coning hadt sig door al dit gedoente niettemin soo gevreest gemaekt, dat<lb/>
 hij nu meer als bevorens wiert ontsien en niet te dugten hadde, hij soo ligt uyt sijn<lb/>
 rijk gestoten soude werden, sulkx dat ook onse residenten, daardoor gereassureert,<lb/>
 geen swarigtheyt voor ’s Comp.8 loge en effecten aldaar maakten of gedagten<lb/>
-hadden, dat daaraan eenig ongemack, ge welt of overlast stonde te geschieden.</para>
+hadden, dat daaraan eenig ongemack, ge welt of overlast stonde te geschieden.
+</para>
 <remark>«Evenwel is handel er vrijwel onmogelijk, een eis werd door het hof ook niet<lb/>
 ingediend; het schijnt, dat men er terug wil komen van het plan koopwaar van ’s<lb/>
 Koningswege met V.O.C. schepen te verzenden om daaruit de uitgaven van het personeel<lb/>
@@ -143,7 +147,8 @@ in andere landen te betalen, men wil nu weer, dat de V.O.C. in Coromandel voor<l
 <para>
 - twee modellen, als eene van hout en eene van thin om na deselve<lb/>
 vier stux hoeden, namentlijk twee sneeuwwitte en twee purperroode, gemaekt te<lb/>
-werden.</para>
+werden.
+</para>
 <remark>«Voor de geschenken belooft de Koning tin en sapanhout te leveren; een Engels<lb/>
 scheepje, waaraan men als betaling voor textiel tin opdrong, vertrok malcontent; een<lb/>
 Frans scheepje, vermoedelijk er gekomen om te zien, of men er weer vaste voet kon<lb/>

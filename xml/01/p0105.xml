@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="105"/>
 <meta key="title" value="Coen, Sonck; Schip Nieuw Hollandia ter Rede van Banda-Neira , 6 mei 1621"/>
 <meta key="rawdate" value="6 mei 1621"/>
@@ -14,12 +15,14 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Jan Pietersz Coen Dr, Martinus Sonck"/>
 
+
 </header>
 <body>
 <pb n="105" tpl="1" vol="01" facs="1_104_0105"/>
 <head>XII. JAN PIETERSZ. COEN EN DR. MARTINUS SONCK, SCHIP NIEUW<lb/>
 HOLLANDIA TER REDE VAN BANDA NEIRA 6 mei 1621.</head>
 <para><emph>(Afgedrukt</emph> Coen
-<emph>I, p.</emph> 625-639.</para>
+<emph>I, p.</emph> 625-639.
+</para>
 </body>
 </teiTrim>

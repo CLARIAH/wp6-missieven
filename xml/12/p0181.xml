@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="181"/>
 <meta key="title" value="Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Loten, Van Gollenesse, Van de Velde; Batavia, 18 januari 1752"/>
 <meta key="rawdate" value="18 januari 1752"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Jacob Mossel, Joannes Mattheus Cluysenaar, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Joan Gideon Loten, Julius Valentijn Steijn van Gollenesse, Pieter van de Velde"/>
 
+
 </header>
 <body>
 <pb n="181" tpl="2" vol="12" facs="257_181"/>
@@ -24,7 +26,12 @@
 <para>- zijn alhier aangekomen een derdewaak, een bootsman en dertig mindere zeevarende<lb/>
 van het China’s retourschip Geldermalsen, welke met de boot en schuyt ten eylande<lb/>
 Edam waren ter houw gekomen, tot ons sensibel leetwesen medebrengende de fatale tijding<lb/>
-dat dien bodem, den 3de dezer maand<fref ref="1"/>  des middaags met een noordewind, bramzeilscoelte<lb/>
+dat dien bodem, den 3de dezer maand
+<note mark="1">DAS
+<ref>III, 403, noemt 18 januari 1752 als datum van de schipbreuk, de elektronische versie van </ref>DAS
+<ref>10 januari 1752. Volgens de missive verging de Geldermalsen in de nacht van 3 op 4 januari 1752</ref>.<lb/>
+</note>
+des middaags met een noordewind, bramzeilscoelte<lb/>
 en goed weder op de noorderbreedte van 55 minuten gekomen sijnde, den<lb/>
 schipper Jan Diderik Morel des na de middags, vermits zij het zoogenaamde Ruyge<lb/>
 eyland N.W. van den bodem bevonden, g’ ordonneert hadde om zuyd te stuuren, sustineerende<lb/>
@@ -49,18 +56,13 @@ zijnde, eenige van het volk overboord gesprongen en geswommen waren na de boot e
 schuyt, waarvan d’ eerste allenskens van het schip weggedreven was, sijnde op het laast<lb/>
 daarvan niets als de kruyssteng meer te sien geweest soodat met d’ overige manschappen<lb/>
 en eene kostbaare lading, bestaande in ƒ 714.963,2,8 aan retouren voor ’t vaderland, buyten<lb/>
-ƒ 68.000,-,- aan goud voor India, is te gronde gegaan.</para>
+ƒ 68.000,-,- aan goud voor India, is te gronde gegaan.
+</para>
 <remark>«De Hoge Regering stuurt Heren XVII een verslag van de schipbreuk zoals door de<lb/>
 geredde derdewaak en bootsman gegeven. De advocaat- fiscaal heeft opdracht gekregen<lb/>
 de zaak nauwkeurig te onderzoeken. Men is van plan het verlies voor Zeeland te vergoeden<lb/>
 met een naschip.<lb/>
 »</remark>
-
-<fnote ref="1">DAS
-<ref>III, 403, noemt 18 januari 1752 als datum van de schipbreuk, de elektronische versie van </ref>DAS
-<ref>10 januari 1752. Volgens de missive verging de Geldermalsen in de nacht van 3 op 4 januari 1752</ref>.<lb/>
-</fnote>
-
 <pb n="182" tpl="2" vol="12" facs="257_182"/>
 <para>
 Ondertusschen noodzaakt ons de sorgelijke gesteldheyd van den handel in Japan, door<lb/>
@@ -68,7 +70,8 @@ de insupportable dwingelandij der Nangasackise regenten, volgens de ontfangene a
 sen met het schip Elswout op den 12e courant - , de precautie te gebruyken, hier nog<lb/>
 bij te voegen een nadere petitie van tien maal hondertduyzend ponden Zweeds koper,
 \<lb/>
-in munt of platen en ^ gaarkoper.</para>
+in munt of platen en ^ gaarkoper.
+</para>
 <remark>«Als de zaken zich ten goede keren en de maatregel overbodig blijkt te zijn , kan het<lb/>
 koper toch binnen 3 jaar verkocht worden.<lb/>
 »</remark>
@@ -78,6 +81,7 @@ Langewijk op den 13e naar Bengale voortgedepecheert, maar het schip Pasgeld, dat
 met Elswoud uyt Japan direct herwaards is vertrocken en waarop zig het afgegane opperhoofd<lb/>
 Van Suchtelen bevind, is alhier nog niet opgedaagd, zijnde volgens rapport der<lb/>
 schepelingen van laatsgenoemde bodem door tegenwind genoodsaakt geweest weeder<lb/>
-onder de wal te loopen.</para>
+onder de wal te loopen.
+</para>
 </body>
 </teiTrim>

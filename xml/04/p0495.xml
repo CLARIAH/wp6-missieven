@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="495"/>
 <meta key="title" value="Gouverneur-generaal, Raden; Batavia, 12 november 1682"/>
 <meta key="rawdate" value="12 november 1682"/>
@@ -14,10 +15,15 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Gouverneur-generaal, Raden"/>
 
+
 </header>
 <body>
 <pb n="495" tpl="1" vol="04" facs="4_134_0495"/>
-<head>VI. GOUVERNEUR-GENERAAL EN RADEN, BATAVIA 12 nov. 1682. <fref ref="1"/> </head>
+<head>VI. GOUVERNEUR-GENERAAL EN RADEN, BATAVIA 12 nov. 1682.
+<note mark="1">Deze brief is niet ondertekend, de Raad bestond uit dezelfde personen als bij do<lb/>
+vorige missive.<lb/>
+</note>
+</head>
 <folio>1252,fol. 346-351.</folio>
 <remark>«Vgl.
 <ref>Daghregisters 1682, p. 1174-1303</ref>; goede notenoogst op Banda verwacht;<lb/>
@@ -25,19 +31,16 @@ Padtbrugge vertrok 2 sept. van Temate; contract met Batjan , ajgedrukt
 <ref>Corpus 111, </ref>nr. GD LX<lb/>
 »</remark>
 <para>Zijnde de sterkte der rebellen in de lantstreeke van Tangaran
-<fref ref="2"/> , daar sij<lb/>
+<note mark="2">Tangerang, plaats bewesten Batavia aan de Tjisadane op 106°38' O.L., ze werd in<lb/>
+1684 door Bantam aan de V.O.C. afgestaan.<lb/>
+</note>
+, daar sij<lb/>
 haar al vrij wat vastgemaakt hebben, onder de e. capiteyn Hartsink rondsomme<lb/>
 beset, soodat se naar alle apparentie niet boven nog een dag off twee sullen connen<lb/>
-houden.</para>
+houden.
+</para>
 <remark>«Cheribon levert voortreffelijk hout; het overlijden van den zwaar zieken Camphwys<lb/>
 verwacht<lb/>
 »</remark>
-
-<fnote ref="1">Deze brief is niet ondertekend, de Raad bestond uit dezelfde personen als bij do<lb/>
-vorige missive.<lb/>
-</fnote>
-<fnote ref="2">Tangerang, plaats bewesten Batavia aan de Tjisadane op 106°38' O.L., ze werd in<lb/>
-1684 door Bantam aan de V.O.C. afgestaan.<lb/>
-</fnote>
 </body>
 </teiTrim>

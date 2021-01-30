@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="3"/>
 <meta key="title" value="De Haan, Huysman, Hasselaar, Blom, Durven, Vuyst, Gabry, Dubbeldekop, Van der Schuer; Batavia, 22 oktober 1725"/>
 <meta key="rawdate" value="22 oktober 1725"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Wybrand Blom, Diderik Durven, Petrus Vuyst, Pieter Gabry, Jacob Willem Dubbeldekop, Joan Everard van der Schuer"/>
+
 
 </header>
 <body>
@@ -32,8 +34,12 @@ men vernam, dat<lb/>
 »</remark>
 <para>
 - het nieuwe Zeeuwse schip ’t Slot ter Hooge - tegens eene der Canarise ey-<lb/>
-landen, genaamd Porto Sanco<fref ref="1"/> , soude verseyld en zo ook in Noorwegen masteloos<lb/>
-ingevallen wesen het Delfs schip Delfland.</para>
+landen, genaamd Porto Sanco
+<note mark="1">Porto Santo, eiland benoordoosten Madeira op 34° N.B. en ruim 16° W.L.<lb/>
+</note>
+, soude verseyld en zo ook in Noorwegen masteloos<lb/>
+ingevallen wesen het Delfs schip Delfland.
+</para>
 <remark>«Op 9 juni kwam uit Amboina de Blij dorp met Gabry, slechts 255 bahar of<lb/>
 140.261
 &amp; kruidnagelen en een brief van 23 mei, men rekent voor 1726 op een betere<lb/>
@@ -49,9 +55,13 @@ ziekten voorkomen, waaraan 111 V.O.C. dienaren tussen 10 aug. 1724 en 6 mei stie
 waaronder de secunde Jacob Comans en ds. Frangois Hartog, men verwacht er<lb/>
 een geringe oogst wegens de vele wind en regen<lb/>
 »</remark>
-<para>Een Portugees vaartuyg met 15 coppen van Groot Timor op Weissir<fref ref="2"/>  was aangeweest<lb/>
+<para>Een Portugees vaartuyg met 15 coppen van Groot Timor op Weissir
+<note mark="2">Wesiri, dorp ter noordkust van Wetar op 126°37' O.L.<lb/>
+</note>
+was aangeweest<lb/>
 onder pretext van arembayen te willen koopen, dog dese liefhebbers waren<lb/>
-door de inlanders tot twee malen toe onder een soort van bedreyging afgewesen.</para>
+door de inlanders tot twee malen toe onder een soort van bedreyging afgewesen.
+</para>
 <folio>Fol. 19v.</folio>
 <remark>«2 aug. kwam van Ter na te via Bi ma de Kiefhoek met 3000 pikol sapanhout en<lb/>
 een brief van Cloeck en raad van 12 juni<lb/>
@@ -64,22 +74,28 @@ ook de stoutmoedigheyd gehad heeft van sig met 2 corr-corren op het eyland Terna
 even benoorden het fortje Terlucco te vertoonen met aanbieding van hem te willen<lb/>
 onderwerpen aan d’E. Comp. ofte den Coning van Ternaten, die met dat volkje<lb/>
 niet vrij schijnd van jalousie, hetwelke tusschen Sijn Hoogh.1 en den Tidoresen Vorst<lb/>
-juyst het beste verstant niet kan verwekken.</para>
-
-<fnote ref="1">Porto Santo, eiland benoordoosten Madeira op 34° N.B. en ruim 16° W.L.<lb/>
-</fnote>
-<fnote ref="2">Wesiri, dorp ter noordkust van Wetar op 126°37' O.L.<lb/>
-</fnote>
-
+juyst het beste verstant niet kan verwekken.
+</para>
 <pb n="4" tpl="2" vol="08" facs="193_004"/>
 <remark>«Zij bleven er 6 dagen , de Kiefhoek bracht ook de afgezette raadsleden over,<lb/>
 27 mei kwam van Makassar de Huis ter Boede met cargasoen van f. 19.414 , vnl. 180<lb/>
 last rijst en een brief van Gobius en raad van 15 mei<lb/>
 »</remark>
-<para>De zoon van den Sopingsen Coning<fref ref="4"/> , genaamd Ande-Ande<fref ref="5"/>  of anders prins<lb/>
+<para>De zoon van den Sopingsen Coning
+<note mark="4">Bedoeld wordt de in 1720 afgezette Vorst van Boni, die eveneens de titel Aru Palakka<lb/>
+droeg.<lb/>
+</note>
+, genaamd Ande-Ande
+<note mark="5">Ande-Ande Mohammad Jusuf was 24 jan. 1713 geboren.<lb/>
+</note>
+of anders prins<lb/>
 Rotterdam, was besneden en gehonoreerd met den titul van Aroe Palacca, hetwelke<lb/>
 de bedientens vernemen van speculatie te zijn, aangesien het wel eenig aspect scheynd<lb/>
-te hebben tot de Bonyse kroonssuccessie na het exempel van a.° 1706⌊<fref ref="6"/> ⌋ - .</para>
+te hebben tot de Bonyse kroonssuccessie na het exempel van a.° 1706⌊
+<note mark="6">Vgl. dl. VI, p. 422.<lb/>
+</note>
+⌋ - .
+</para>
 <para>In het rijk van Loeboe waren weder eenige nieuwe onlusten ontstaan, dog de<lb/>
 man van de Bonyse Coninginne, genaemd Aroe Djelling, was met partij volkeren derwaarts<lb/>
 getoogen om de oproermakers tot rust te brengen of te straffen, maer met het<lb/>
@@ -87,7 +103,8 @@ overwalsche rijk van Sumbawa was het nog erger gestelt, vermits desselvs Kooning
 Amas Madina, door zijne onbesuysheyd sig in een oorlog tegens de Balijers op Salamparang<lb/>
 in weerwil van den goeden raad onser ministers en zijne staatsdienaaren<lb/>
 gewikkeld hebbende, nevens wel 1000 zijner onderdanen ongelukkig was gesneuveld,<lb/>
-terwijl de rest zijner trawanten haar door de vlugt hadden gesalveerd.</para>
+terwijl de rest zijner trawanten haar door de vlugt hadden gesalveerd.
+</para>
 <remark>«Het personeel zal de overwalse koninkjes naar Makassar laten komen om hen<lb/>
 onderling te verzoenen; naar Palembang vertrok 21 juni de Bel vliet met Justus van<lb/>
 Breda, die er de 24 maart gestorven Henric Bruining als opperhoofd opvolgt, en<lb/>
@@ -101,8 +118,12 @@ Den usurpateur Pangerang Adepatty Anum - sig ophield in de gebergtens ofte<lb/>
 op den weg na Bancaoeloe, werwaerts den Sultan 4 sijner voornaamste pangerangs<lb/>
 met een goet getal manschap gedetacheerd had op denselven in handen te krijgen, ’t<lb/>
 welke nog van geen andere vrugt is geweest, als dat dien vlugteling nog verder uyt<lb/>
-het rijk was geweeken door den weg van Manna<fref ref="7"/>  tusschen Lampon en Bankahoeloe,<lb/>
-sonderdat men wist, waar hij beland was.</para>
+het rijk was geweeken door den weg van Manna
+<note mark="7">Mana, plaats ter Westkust van Sumatra op 4,/2° Z.B.<lb/>
+</note>
+tusschen Lampon en Bankahoeloe,<lb/>
+sonderdat men wist, waar hij beland was.
+</para>
 <remark>«Naar Djambi voeren 21 juni de losboot Bergwerker en de sloep Pat na, het blijft<lb/>
 nog in slechte staat onder de vierhoofdige regering der prinsen, al doet de rijksbestuurder<lb/>
 Raden Demang zijn best. Pangeran Dipati Surianagara vertrok derwaarts,<lb/>
@@ -117,17 +138,6 @@ Woerden en Wapen van Hoorn vertrokken 15 mei met carg. van f. 571.735, het opper
 Jan de Hartog, de secunde Jan de Roode en 5 hengsten, men hoopt op toezending<lb/>
 van daar van meer staaf koper , dat men ook van Rio Delagoa denkt te krijgen<lb/>
 zomede goud; de Amazone vertrok 5 juli naar Malakka met carg. van f. 101.114, 8</remark>
-
-<fnote ref="4">Bedoeld wordt de in 1720 afgezette Vorst van Boni, die eveneens de titel Aru Palakka<lb/>
-droeg.<lb/>
-</fnote>
-<fnote ref="5">Ande-Ande Mohammad Jusuf was 24 jan. 1713 geboren.<lb/>
-</fnote>
-<fnote ref="6">Vgl. dl. VI, p. 422.<lb/>
-</fnote>
-<fnote ref="7">Mana, plaats ter Westkust van Sumatra op 4,/2° Z.B.<lb/>
-</fnote>
-
 <pb n="5" tpl="2" vol="08" facs="193_005"/>
 <remark>mei ontving men met de brigantijn Hoop een brief van de Westkust van 5 april en<lb/>
 car gasoen van f. 83.206; de Radja van Baros blijft in geschil met Rambi; echter<lb/>
@@ -135,13 +145,20 @@ car gasoen van f. 83.206; de Radja van Baros blijft in geschil met Rambi; echter
 <para>
 - scheenen de inlanders in ’t generaal alle ontsag voor d’E. Comp. en haare<lb/>
 dienaren afgelegt te hebben en langs hoe meer blijken gaven van haare stoutmoedigheyd,<lb/>
-overzulks zijn de bedientens op haer versoek geadsisteerd met 70<fref ref="8"/>  Bougineesen,<lb/>
+overzulks zijn de bedientens op haer versoek geadsisteerd met 70
+<note mark="8">In G.M. nr II is sprake van 80 Boeginezen.<lb/>
+</note>
+Bougineesen,<lb/>
 die sij alleen in staet oordeelen om dat weerbarstige volk in den teugel te houden,<lb/>
-behalven dat sij ook gequalificeerd sijn om den Radja Joan<fref ref="9"/> , zone van den datoh<lb/>
+behalven dat sij ook gequalificeerd sijn om den Radja Joan
+<note mark="9">Djohan.<lb/>
+</note>
+, zone van den datoh<lb/>
 bandara, die gesegt werd een quaat instrument aldaar te wesen, op te ligten en herwaard<lb/>
 te senden, als het sal konnen geschieden sonder opschudding onder den inlander<lb/>
 te verwekken en sijne dimotie van die cust waarlijk nodig zij, dog anders niet.<lb/>
-<folio>Fol. 38r</folio><super>v</super>.</para>
+<folio>Fol. 38r</folio><super>v</super>.
+</para>
 <remark>«31 mei vertrok de Cats met 2 ton aan zilver en voor de Westkust car gasoen van<lb/>
 f. 100.559 , inh. textiel naar Bengalen via Padang, waarheen 31 juli de Koning Karei<lb/>
 vertrok , 4 sept. het fregat Arend en de Hoop, Arend van Broyel volgt er wijlen Adriaan<lb/>
@@ -164,8 +181,12 @@ Van Cloon van 27 jan., waarin hij om militie vraagt o.a. wegens<lb/>
 »</remark>
 <para>
 - de gerugte afkomst van den uytgeweken rijxbestierder Nezamulmolk - ,<lb/>
-[ook] bekend onder de naam van Kielielchan off Siglischan<fref ref="10"/>  met intentie om de rijken<lb/>
-van Golconda en Carnatica te incorporeeren.</para>
+[ook] bekend onder de naam van Kielielchan off Siglischan
+<note mark="10">Chin Qilich Khan, naar zijn grootvader Qilich Khan.<lb/>
+</note>
+met intentie om de rijken<lb/>
+van Golconda en Carnatica te incorporeeren.
+</para>
 <remark>Men zond 24 aug. met de Zuiderbeek 200 soldaten naar Tuticorin, voor de helft<lb/>
 bestemd voor Coromandel, 6 aug. vernam men met de Tienhoven die carg. van<lb/>
 f. 256.277 aanbracht en een brief van 31 mei<lb/>
@@ -175,18 +196,11 @@ f. 256.277 aanbracht en een brief van 31 mei<lb/>
 gevaren, welke Zuyder- en Noorder-Cormandel hadden boven ’t hoofd gehangen, ten<lb/>
 eenemaal waren verdweenen, aangesien genoemden rijxcancelier door de landstrecke<lb/>
 Orixa was opgetrokken na Bengale*
-<fref ref="11"/> .</para>
+<note mark="11">Een onjuist bericht.<lb/>
+</note>
+.
+</para>
 <remark>«Nizam-ul-Mulk verleende een gunstig parwanna tot voortzetting van de handel</remark>
-
-<fnote ref="8">In G.M. nr II is sprake van 80 Boeginezen.<lb/>
-</fnote>
-<fnote ref="9">Djohan.<lb/>
-</fnote>
-<fnote ref="10">Chin Qilich Khan, naar zijn grootvader Qilich Khan.<lb/>
-</fnote>
-<fnote ref="11">Een onjuist bericht.<lb/>
-</fnote>
-
 <pb n="6" tpl="2" vol="08" facs="193_006"/>
 <remark>te Masulipatam , nadat hij met f. 5261 inkoops, f. 7334 uitkoops beschonken was,<lb/>
 vgl.
@@ -205,7 +219,8 @@ van parels voor de Vorst van Kandi<lb/>
 <para>Den Theuwerheer was den 18cn april deses jaars gestorven en door den zone van<lb/>
 zijnen voorzaat gesuccedeerd, dog desen nieuwen boschheer was in het Marruase rijk<lb/>
 nog niet vast gezeteld, wijl nog te strijden hadde met verscheyde malcontenten, die<lb/>
-haar tegen denselven hadden opgeworpen en seer veel beroertens verwekten.</para>
+haar tegen denselven hadden opgeworpen en seer veel beroertens verwekten.
+</para>
 <remark>«De Theodora bracht 1627 baal kaneel aan; kwaadaardige koortsen en rode loop<lb/>
 heersten bij de kaneelschillers; 20 juli vertrokken de retourschepen Castricum, Meyenberg,<lb/>
 Kersenhof en Samaritaan onder Andries Pijl naar Ceylon met salpeter, suiker<lb/>
@@ -234,12 +249,12 @@ van Innemaka met een stenen muur<lb/>
 <para>Den verwarden staat van het rijk van Gousouratta, alwaar den handel door het<lb/>
 gestadig swerven en stroopen van Sewa’s rooftroepen en de uyt wijking van den rijxcancelier<lb/>
 Nezamulmolk ten eenemaal was gestremt en ook geen van ’s Comp.s coopmansz.<lb/>
-waren omgeseth of verkogt.</para>
+waren omgeseth of verkogt.
+</para>
 <remark>«22 aug. ontving men met de Herstelde Leeuw en Vaderland Getrouw, brieven<lb/>
 uit Suratte van 20 en 23 mei en car gasoen van f. 143.035, ze vertrokken pas 27 mei,<lb/>
 dus onverantwoord laat, daar na 20 april stormen te verwachten zijn, ze stonden<lb/>
 daardoor bij Goa aan een orkaan bloot, die enige schade aanrichtte, dit late vertrek</remark>
-
 <pb n="7" tpl="2" vol="08" facs="193_007"/>
 <remark>wordt wederom streng verboden; het personeel moet bij bedreiging van de landzijde<lb/>
 de schepen direct naar Batavia zenden en ze in geen geval Bombay laten aandoen;<lb/>
@@ -257,7 +272,8 @@ ingenomen en dien rebelligen hoop dus onder haren opgeworpen Vorst Mamoetchan<lb
 genoegsaam in ’t geheel meester geworden van het magtige rijk der lafhertige Persianen,<lb/>
 die men tot herwinninge van hetselve niet eens siet te voorschijn komen en ook<lb/>
 tot nog toe geen de alderminste beterschap vernomen werd omtrent de geruïneerde<lb/>
-en gestremde negotie in dat getur beerde land.</para>
+en gestremde negotie in dat getur beerde land.
+</para>
 <remark>«Maar Mahmudkhan schijnt de orde te herstellen, 10 okt. vertrok de Loenderveen<lb/>
 naar Perzië met cagasoen van f. 99.264; volgt over Java’s Oostkust
 <special>Opkomst</special><lb/>
@@ -288,11 +304,11 @@ aan U Ed. Hoogagtb. te willen afleggen sijnen verschuldigden dank voor<lb/>
 de ongemeene en weergadeloose goedheyd, waardoor U Ed. Hoogagtb. hem op een<lb/>
 honorable en reputatieuse wijse hebben gelieven te ontslaan, mitsgaders aan Zijn Ed.<lb/>
 keuse te laten desselvs verblijf of vertrek in of uyt dese landen, waarvan het eerste<lb/>
-door Zijne Edelth.'is geamplecteerd.</para>
+door Zijne Edelth.'is geamplecteerd.
+</para>
 <remark>«Hij zendt 1 7 kanasters met Chinees porselein naar patrio; Wybrant Blom werd<lb/>
 raad-ordinair, Joan Everhard van der Schuer raad-extraordinair van Indië, evenals<lb/>
 Hertenberg, die gouverneur van Ceylon blijft, De Haan verzorgt de beschrijving van</remark>
-
 <pb n="8" tpl="2" vol="08" facs="193_008"/>
 <remark>de Oostkust , Cheribon, Bantam en Batavia; reglement op het kooi - of slaap goed,<lb/>
 <special>Plakaatboek</special> IV, p. 179-180 , 16 oct. 1724; de weduwe van Oets vertrekt met twee verwanten<lb/>

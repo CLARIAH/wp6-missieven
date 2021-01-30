@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="492"/>
 <meta key="title" value="Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent; Batavia, 8 januari 1682"/>
 <meta key="rawdate" value="8 januari 1682"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joannes Camphuys, Frederik Bent"/>
+
 
 </header>
 <body>
@@ -27,16 +29,17 @@ van Namrud , die te Masir sneuvelden, waren 500 vrouwen, die medestreden ;<lb/>
 men verzekert, dat
 <lb/>
 »</remark>
-<para>- gedurende desen ganschen oorlog <fref ref="1"/>  hoe zeer wij ook getergt zijn geworden,<lb/>
+<para>- gedurende desen ganschen oorlog
+<note mark="1">Bedoeld wordt gedurende de gehele expeditie, die sinds 1677 tot herstel van den<lb/>
+rechtmatigen Susuhunan was uitgezonden.<lb/>
+</note>
+hoe zeer wij ook getergt zijn geworden,<lb/>
 so veel zagtmoedigheyt en genade geoeffent is, dat wij mogen zeggen onszelven<lb/>
 daarmede benadeelt en al te veel barmhertigheyt gebruykt te hebben,<lb/>
 waardoor sommige belhamels nu en dan geschiappeert en weder in de rujTnte geraekt<lb/>
-zijn om quaat te doen.</para>
+zijn om quaat te doen.
+</para>
 <remark>«Er is maar 3000 picol peper in voorraad voor de laatste retourschepen<lb/>
 »</remark>
-
-<fnote ref="1">Bedoeld wordt gedurende de gehele expeditie, die sinds 1677 tot herstel van den<lb/>
-rechtmatigen Susuhunan was uitgezonden.<lb/>
-</fnote>
 </body>
 </teiTrim>

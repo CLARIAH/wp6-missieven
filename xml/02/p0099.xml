@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="99"/>
 <meta key="title" value="Van Diemen, Caen, Van der Lijn; Batavia, 31 januari 1640"/>
 <meta key="rawdate" value="31 januari 1640"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Anthonio Caen, Cornelis van der Lijn"/>
 
+
 </header>
 <body>
 <pb n="99" tpl="1" vol="02" facs="2_112_0099"/>
@@ -26,19 +28,26 @@ DER LIJN, BATAVIA 31 januari 1640.</head>
 <para>
 Slaven ende rijs waren in Araccan wel te genaecken tot civilen prijs, doch de<lb/>
 provisie van ’t contant was schaers ende wilde den Coningh tot geit leenen niet<lb/>
-verstaen. Satigan <fref ref="1"/>  wierd van de Mogollen gedreyght, des hadde den Araccander<lb/>
+verstaen. Satigan
+<note mark="1">Satigan = Chittagong, vgl. dl. I, p. 185.<lb/>
+</note>
+wierd van de Mogollen gedreyght, des hadde den Araccander<lb/>
 sijn armaden te water ende te lande derwaerts geschickt, sulx voor die tijt in<lb/>
-Satigan niet te negotiëren viel .</para>
+Satigan niet te negotiëren viel .
+</para>
 <remark>«De Nassau komt uit patria; schepen naar diverse kwartieren vertrokken<lb/>
 »</remark>
 <para>
 Tot een preuve ende dat ons uyt China meer is toegebraght, als den presenten<lb/>
 vertier lijdt, senden per Nassauw ses kaskens met 298 catty atal1
-<fref ref="2"/>  ofte fijnen gelen<lb/>
+<note mark="2">Atal, Javaans woord voor gele kleiaarde, die als verfstof werd gebruikt.<lb/>
+</note>
+ofte fijnen gelen<lb/>
 oecker, costende 23 realen ’t picol China. Bijaldien de behoorlijcke advance daervan<lb/>
 getrocken wert, sullen op U Ed. bevindingh ende antwoorde meerder parthije<lb/>
 connen beschicken, des neen ende geen voordeel renderende, can terugge worden<lb/>
-gesonden .</para>
+gesonden .
+</para>
 <remark>«Waarde der Indische effecten fl. 9514329.1. IS<lb/>
 »</remark>
 <para>
@@ -63,12 +72,6 @@ als die van Macao jaerlijekx hebben gefourneert tot sustent van d’oorloge<lb/>
 tegen den Tartar. De seeckerheyt van d’een ende d’ander moet sich eerlangh<lb/>
 openbaren. Ende souden geruster in dese tardance wesen, ingevalle de gouverneur<lb/>
 Van der Burch ons niet aengesz. hadde geresolveert te sijn de rouwe sijde voor<lb/>
-
-<fnote ref="1">Satigan = Chittagong, vgl. dl. I, p. 185.<lb/>
-</fnote>
-<fnote ref="2">Atal, Javaans woord voor gele kleiaarde, die als verfstof werd gebruikt.<lb/>
-</fnote>
-
 <pb n="100" tpl="1" vol="02" facs="2_112_0100"/>
 ’t patria herwaerts te schicken, soo tijtelijck in Tayouan paresseerde, onaengesien<lb/>
 wat spade viel ende reeekeningh maeckte, de retourschepen moghten vertrocken<lb/>
@@ -78,7 +81,8 @@ saecke al wat verseth staen ende blijven voornemens U Ed. ’t succes per een fl
 met peper geladen, aen te cundigen ende die in Ierlant te doen havenen omme<lb/>
 U Ed. d’advijsen over landt spoedigh toe te brengen ende voorts ordre op de fluyts<lb/>
 vertreck te stellen, daerop verdacht gelieft te wesen; geen advijs vernemende,<lb/>
-mooght staet maecken, alles wel is.</para>
+mooght staet maecken, alles wel is.
+</para>
 <remark>«Het cargasoen der 10 thuisvarende schepen is fl. 2823114.5.1 waard<lb/>
 »</remark>
 </body>

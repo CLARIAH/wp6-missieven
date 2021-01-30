@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="author" value="Thedens, Nolthenius, Pasques de Chavonnes, Lakeman, Guillot, Van Spreekens, Van Berendregt, Cluysenaar, Van Aerden, Crul"/>
 <meta key="authorFull" value="Joannes Thedens, Daniël Nolthenius, Pieter Rochus Pasques de Chavonnes, Jacob Lakeman, Elias Guillot, Thomas van Spreekens, Nicolaas van Berendregt, Joannes Mattheus Cluysenaar, Maurits van Aerden, Nicolaas Crul"/>
 <meta key="day" value="17"/>
@@ -13,6 +14,7 @@
 <meta key="year" value="1742"/>
 <meta key="pid" value=""/>
 <meta key="status" value=""/>
+
 
 </header>
 <body>
@@ -37,7 +39,10 @@ De Madurese pangeran Adipati Tjakraningrat heeft<lb/>
 - aan het provisioneel Sourabaays opperhoofd De Klerk, op sijne bij missive<lb/>
 aan Zijn Hoogheyt gedane vrage of desselfs optogt na Cartasoura op haar requisit<lb/>
 geschiedde, gerepliceert heeft niet voornemens te sijn om met sijn leeger na gemelde<lb/>
-hofplaats te trekken, maar eenelijk de grensen van Djipan bewesten Awie<fref ref="1"/>  te willen<lb/>
+hofplaats te trekken, maar eenelijk de grensen van Djipan bewesten Awie
+<note mark="1"><emph>Awie, Ngawi.</emph><lb/>
+</note>
+te willen<lb/>
 besetten dewijl de daar verblijf houdende vijanden sig aan hem overgegeven hadden.<lb/>
 Daarbenevens aan gemelde De Klerk communiceerende dat hij, uyt hoofde de<lb/>
 tommongongs Mankoe Joeda, Mankoe Prodja en Natta Joeda met eenige Chineesen<lb/>
@@ -56,10 +61,6 @@ aan den commissaris c.s. overgewesen sijnde, soo heeft hij sig dierwegens ook aa
 deselve g’addresseert met een brief, waarbij hun, behalven het vorenstaande, word te<lb/>
 kennen gegeven dat den radeen Soeradiredja en de ingabeys Sinarmangala en Djaijasoedira<lb/>
 met 1900 man na het dorp Alang bewesten Awie gesonden hadden, die onder<lb/>
-
-<fnote ref="1"><emph>Awie, Ngawi.</emph><lb/>
-</fnote>
-
 <pb n="998" tpl="2" vol="10" facs="250_0998"/>
 Gods zeegen in staat waren Cartasoera in te neemen indien zij daarin maar geliefden<lb/>
 te bewilligen, hetwelk door hun b’antwoord is met te betuygen dat zij in een zaak van<lb/>
@@ -110,7 +111,6 @@ den keyzer vervolgens tegengehouden hadden in het binnenmarcheeren na sijne hofp
 dog dat dit laaste hun, soo uyt aanmerking van het trouwe bondgenoodschap<lb/>
 tusschen d’ E. Compagnie en den pangerang, als omdat d’ E. Compagnie den soesoehoenang<lb/>
 assisteerde met geloofwaardig voorkomende, dede aspireeren om van de<lb/>
-
 <pb n="999" tpl="2" vol="10" facs="250_0999"/>
 waarheyd dienaangaande nader onderrigt te mogen worden, onder aanhaling van niet<lb/>
 te twijffelen of sij sonder den keyzer possessie van sijne hofplaats geven vermits sij<lb/>
@@ -161,10 +161,10 @@ was langer aan de oostkant van Java verblijf te houden, so versoekt den vorst on
 instantig om hulpe en smeekt dat de hem bewesene gunst dog niet ten halven mogte<lb/>
 werden afgebroken, met verklaring dat hij sig voor sulke weldaden ten eenenmaal aan<lb/>
 d’ E. Compagnie onderwerpen en sodanig een nieuw contract sluyten wilden als men<lb/>
-
 <pb n="1000" tpl="2" vol="10" facs="250_1000"/>
 soude konnen goed te vinden, sonder sig iets het geringste, tot een voet hout ja tot een<lb/>
-blad incluys, op Java te sullen toeëygenen.</para>
+blad incluys, op Java te sullen toeëygenen.
+</para>
 <remark>«De lading van de vier schepen bestond uit 480 last rijst, kostende f 45.802 en hout -<lb/>
 werk. De Noordwolfsbergen, Leeuwerik, Westkapelle, Opperdoes, Slot Kronenburg en Kerkwijk<lb/>
 zijn er nog. De Nieuwerkerk bracht 45 militairen en 107 zeevarenden; op de uitreis<lb/>

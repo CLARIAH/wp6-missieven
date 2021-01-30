@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="302"/>
 <meta key="title" value="Van Diemen; in het Schip Deventer nabij de zuidpunt van Afrika, 5 juni 1631"/>
 <meta key="rawdate" value="5 juni 1631"/>
@@ -14,20 +15,22 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen"/>
 
+
 </header>
 <body>
 <pb n="302" tpl="1" vol="01" facs="1_104_0302"/>
 <head>III. ANTONIO VAN DIEMEN, IN HET SCHIP DEVENTER NABIJ DE<lb/>
-ZUIDPUNT VAN AFRIKA 5 juni 1631 <fref ref="1"/> .</head>
+ZUIDPUNT VAN AFRIKA 5 juni 1631
+<note mark="1">Daar de retourvloot begin maart 1631 diende te vertrekken en Specx zijn generale<lb/>
+missive niet gereed had, sloot hij het begin (ons nr. II) op 7 maart af, terwijl hij aan Van Diemen<lb/>
+opdroeg de brief gedurende de reis naar patria af te maken, waartoe hem de nodige stukken<lb/>
+werden meegegeven. Van Diemen’s brief van 5 juni 1631 dient dus als een generale missive<lb/>
+beschouwd te worden.
+</note>
+.</head>
 <folio>1011,fol. 1-64.</folio>
 <para>(Af gedrukt
 <ref>Indisch Verslag^.</ref>
 </para>
-
-<fnote ref="1">Daar de retourvloot begin maart 1631 diende te vertrekken en Specx zijn generale<lb/>
-missive niet gereed had, sloot hij het begin (ons nr. II) op 7 maart af, terwijl hij aan Van Diemen<lb/>
-opdroeg de brief gedurende de reis naar patria af te maken, waartoe hem de nodige stukken<lb/>
-werden meegegeven. Van Diemen’s brief van 5 juni 1631 dient dus als een generale missive<lb/>
-beschouwd te worden.</fnote>
 </body>
 </teiTrim>

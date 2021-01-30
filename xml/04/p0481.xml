@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="481"/>
 <meta key="title" value="Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent; Batavia, 4 november 1681"/>
 <meta key="rawdate" value="4 november 1681"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Ryckloff van Goens, Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joannes Camphuys, Frederik Bent"/>
+
 
 </header>
 <body>
@@ -32,7 +34,8 @@ wel vernoegt, schuyvende zijne losse en ongebonden actiën ende offentien, d’E
 Comp.e aangedaan, op den quaden raad zijner raden. Hij is in Rade van India<lb/>
 niet gehoort, dat welligt vooreerst niet nodig zal wesen, ten ware daertoe gelegentheyt<lb/>
 vereyschte ende werdt middelerwijl naer gelegentheydt van zaeken wel getracteert<lb/>
-ende nog wat seperaat gehouden.</para>
+ende nog wat seperaat gehouden.
+</para>
 <remark>«In het gouvernement Amboina is het rustig; het sandelhout, t.a.p. p. 617 vermeld,<lb/>
 was gekocht van Anthonio de Hornaya 8 rsd. het picol; op Roti zijn, vgl. t.a.p. p.<lb/>
 616 enige honderden inwoners omgebracht; in Mataram
@@ -41,9 +44,15 @@ was gekocht van Anthonio de Hornaya 8 rsd. het picol; op Roti zijn, vgl. t.a.p. 
 <para>
 - houdende sich den Pangiran Pougar nu weder in Bagaleen en Nam-<lb/>
 roet
-<fref ref="1"/>  op geen vaste plaats en met seer groot wantrouwen van den een op den<lb/>
+<note mark="1">Namrud, Balisch avonturier, die in de oorlogen in Mataram opkwam en door huwelijk<lb/>
+verwant raakte met Pangeran Puger, met wien hij een tijd samenwerkte. Nadat dit in vijandschap<lb/>
+was veranderd en Puger zich met den Susuhunan had verzoend, sneuvelde Namrud in<lb/>
+dec. 1681 in een bloedige slag tegen Couper.<lb/>
+</note>
+op geen vaste plaats en met seer groot wantrouwen van den een op den<lb/>
 anderen, hebbende elckanderen al eens met de wapenen aangetast ende Namroet<lb/>
-eenige gequalificeerde vrouwen van Pougar, so men zegt, onder zijn magt bekomen.</para>
+eenige gequalificeerde vrouwen van Pougar, so men zegt, onder zijn magt bekomen.
+</para>
 <folio>Fol. 145r.</folio>
 <remark>«Tekort aan zware touwen; de lading van de Pulau Run, vgl. t.a.p. p. 627 ,<lb/>
 wordt hier als f. 230 126.8.3 opgegeven; in Malakka is niet genoeg textiel voor de<lb/>
@@ -52,11 +61,5 @@ voor
 /. 15 000 aan goud mee; de lichamelijk zwakke berghopman Olits wil na inspectie<lb/>
 van de mijn bij Salida weer naar patria terugkeren<lb/>
 »</remark>
-
-<fnote ref="1">Namrud, Balisch avonturier, die in de oorlogen in Mataram opkwam en door huwelijk<lb/>
-verwant raakte met Pangeran Puger, met wien hij een tijd samenwerkte. Nadat dit in vijandschap<lb/>
-was veranderd en Puger zich met den Susuhunan had verzoend, sneuvelde Namrud in<lb/>
-dec. 1681 in een bloedige slag tegen Couper.<lb/>
-</fnote>
 </body>
 </teiTrim>

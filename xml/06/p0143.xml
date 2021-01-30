@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="143"/>
 <meta key="title" value="Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam, Van Swoll; Batavia, 22 december 1700"/>
 <meta key="rawdate" value="22 december 1700"/>
@@ -14,13 +15,18 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Joannes Cops, Manuel Bornezee, Thomas van Rhee, Jacob van Dam, Christoffel van Swoll"/>
 
+
 </header>
 <body>
 <pb n="143" tpl="1" vol="06" facs="6_159_0143"/>
 <head>XXX. WILLEM VAN OUTHOORN, JOAN VAN HOORN, LAURENS PIJL,<lb/>
 DIRK DE HAAS, ABRAHAM VAN RIEBEECK, JOANNES COPS, MANUEL<lb/>
 BORNEZEE, THOMAS VAN RHEE, JACOB VAN DAM EN CHRISTOFFEL<lb/>
-VAN SWOLL, BATAVIA 22 december 1700 <fref ref="1"/> .</head>
+VAN SWOLL, BATAVIA 22 december 1700
+<note mark="1">Eigenlijk is dit slechts een „geleibriefje” voor de Kamer Amsterdam, maar in nr.<lb/>
+XXXI wordt er naar verwezen als ware het de voorafgaande Generale Missive.<lb/>
+</note>
+.</head>
 <folio>Kol. Arch. 1622,fol. 1124-1129 copie.</folio>
 <remark>«De Vosmeer vertrok 20 dec ., nu volgt de Reygersdaal; Pieter de Vos kwam<lb/>
 14 dec. met de Donkervliet uit Japan; 8 dec. kwam de Generale Vrede uit patria,<lb/>
@@ -33,9 +39,5 @@ f. 405021; verschillende dranken uit patria waren slecht gestuwd, zodat er grote
 „leccage” ivas; het tekort van wijlen Jeronimus Brons, administrateur van Japara,<lb/>
 van 1279 rsd. wordt slechts gedekt door f. 1186 hem toekomende gage<lb/>
 »</remark>
-
-<fnote ref="1">Eigenlijk is dit slechts een „geleibriefje” voor de Kamer Amsterdam, maar in nr.<lb/>
-XXXI wordt er naar verwezen als ware het de voorafgaande Generale Missive.<lb/>
-</fnote>
 </body>
 </teiTrim>

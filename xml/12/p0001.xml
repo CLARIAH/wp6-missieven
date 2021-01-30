@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="1"/>
 <meta key="title" value="Mossel, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Huyghens, Loten; Batavia, 1 december 1750"/>
 <meta key="rawdate" value="1 december 1750"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Jacob Mossel, Joannes Mattheus Cluysenaar, Daniël Overbeek, Arend van Broyel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Jan Huyghens, Joan Gideon Loten"/>
+
 
 </header>
 <body>
@@ -53,14 +55,14 @@ meer aanhang doende bekomen, en daarbij de koninginne-regentesse van binnen sleg
 gedient en als verraden werdende, so zijn door dese en andere manquementen twee uytvallen,<lb/>
 die van onse zijde gedaan wierden, beyde mislukt en den moet der rebellen daardoor<lb/>
 so hooglijk toegenomen, dat men zig genoodsaakt gevonden heeft te treeden tot de<lb/>
-resolutie die uyt veele quaaden het beste toescheen, en vermeit werd bij secreet besluyt</para>
-
+resolutie die uyt veele quaaden het beste toescheen, en vermeit werd bij secreet besluyt
+</para>
 <pb n="2" tpl="2" vol="12" facs="257_002"/>
 <para>van 23 en brief na Bantam van 24 november waaraan ons versoeken te mogen referee-ren, om de secretesse nog te beter te bewaren.
 </para>
-<folio>Fol. 101r-v. <fref ref="1"/> </folio>
-
-<fnote ref="1">Fol. 101 komt tweemaal voor.<lb/>
-</fnote>
+<folio>Fol. 101r-v.
+<note mark="1">Fol. 101 komt tweemaal voor.<lb/>
+</note>
+</folio>
 </body>
 </teiTrim>

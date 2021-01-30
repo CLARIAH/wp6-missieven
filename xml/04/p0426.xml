@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="426"/>
 <meta key="title" value="Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent; Batavia, 13 februari 1681"/>
 <meta key="rawdate" value="13 februari 1681"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Ryckloff van Goens, Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joannes Camphuys, Frederik Bent"/>
+
 
 </header>
 <body>
@@ -36,20 +38,30 @@ effecten over; zij zijn van mening, als zou de gouverneur
 - al te naauw bepaalt - wesen in ’t reguard van de negotie<lb/>
 der vreemde handelaars en dat deselve daardoor van Malacca achterbleven en de<lb/>
 omleggende vreemde plaatsen als Atchin, Tanassery, Queda, Oedjang Salangh en<lb/>
-Johore met de beste buyt des handels doorgingen en in florisance toenamen.</para>
+Johore met de beste buyt des handels doorgingen en in florisance toenamen.
+</para>
 <remark>«Wegens de oorlog tussen Palembang en Djambi werden in Djambi een jacht,<lb/>
 twee oorlogsvaartuigen en 58 a 60 militairen aangevraagd; Laurens Pit jr.
 <lb/>
 »</remark>
 <para>
 - sich in persoon daar beneden
-<fref ref="1"/>  niet hadt vertrouwt te laten neder-<lb/>
+<note mark="1">In de mijn te Salida.<lb/>
+</note>
+niet hadt vertrouwt te laten neder-<lb/>
 sincken, vermits de soobere gestalte der materialen, daarbij zulx moeste geschieden.<lb/>
 Niettemin was alles boven in de mijn en de nieuwe graveryen der berghmeesters<lb/>
 Bilandre
-<fref ref="2"/>  en Achterbergh
-<fref ref="3"/>  t’sijner aanwesen door expresse gecommitteerde<lb/>
-besichticht.</para>
+<note mark="2">Fran^is Bilandre, een Waal, kwam in 1679 als bergmeester uit, diende ter Westkust<lb/>
+en repatrieerde april 1681.<lb/>
+</note>
+en Achterbergh
+<note mark="3">Jacob Achterbergh, een Duitser, kwam ook in 1679 als bergmeester uit en diende ten<lb/>
+Westkust, hij repatrieerde in nov. 1681.<lb/>
+</note>
+t’sijner aanwesen door expresse gecommitteerde<lb/>
+besichticht.
+</para>
 <remark>«Vgl.
 <ref>Daghregisters 1681, p. 24-25</ref>; in de mijn werken 40 Europeanen en<lb/>
 134 slaven onder luitenant Jan de Graaf f, resp. 37 en 46 onder Bilandre, die nu bij<lb/>
@@ -58,30 +70,23 @@ toe behoren<lb/>
 »</remark>
 <para>Over ’t verplaatsen van ’t hooftcomptoir der Westcust van Padangh nae<lb/>
 P10 Chinco off Sillida waren den commissaris
-<fref ref="4"/>  en raat nogh niet gereet haar<lb/>
+<note mark="4">Laurens Pit. jr.<lb/>
+</note>
+en raat nogh niet gereet haar<lb/>
 eygentlijk te verklaren, maar op Sillida niet wel mogel. geoordeelt om de rontsom<lb/>
-leggende bergen als anders voor een Europesche vyand sich te connen vast maken.</para>
+leggende bergen als anders voor een Europesche vyand sich te connen vast maken.
+</para>
 <folio>Fol. 649v.</folio>
 <remark>«Vrees, dat de uit Siam verwachte V oorsichtigheyt in de bocht van Sangora is<lb/>
 vervallen, daar ze al vijf weken over tijd is; de geschenken van den Koning en den<lb/>
 berkelang van Siam waren geringer dan vroeger; de tinprijs daalde van 15 taël of<lb/>
 37 rsd. tot 13 taël of 33% rsd. de bahar van 354®<lb/>
 »</remark>
-
-<fnote ref="1">In de mijn te Salida.<lb/>
-</fnote>
-<fnote ref="2">Fran^is Bilandre, een Waal, kwam in 1679 als bergmeester uit, diende ter Westkust<lb/>
-en repatrieerde april 1681.<lb/>
-</fnote>
-<fnote ref="3">Jacob Achterbergh, een Duitser, kwam ook in 1679 als bergmeester uit en diende ten<lb/>
-Westkust, hij repatrieerde in nov. 1681.<lb/>
-</fnote>
-<fnote ref="4">Laurens Pit. jr.<lb/>
-</fnote>
-
 <pb n="427" tpl="1" vol="04" facs="4_134_0427"/>
 <para>Van de
-<fref ref="1"/>  gesonde ambachtslieden stont den steenhouwer en goutsmit hun<lb/>
+<note mark="1">Naar Siam, op verzoek der groten.
+</note>
+gesonde ambachtslieden stont den steenhouwer en goutsmit hun<lb/>
 al weder niet aan en waren deselve daarom gelargeert en terughgesonden en vermeende<lb/>
 d’e. Faa, dat sij nu de novo nader versoek om andere in plaats zouden<lb/>
 doen, gel. ook geschiet is, maar meteenen, dat men zulx wel eens souw cunnen<lb/>
@@ -101,7 +106,8 @@ weinig te verkopen valt, bijv. geen textiel<lb/>
 »</remark>
 <para>
 Zoo lange wij ’t fijne gout aldaar tot 16 rd.8 de tayl off rujun IJ reaal swaarte<lb/>
-connen negotiëren, - dit den alderseekersten handel is.</para>
+connen negotiëren, - dit den alderseekersten handel is.
+</para>
 <remark>«Men heeft ter Westkust alleen van De Graaf f goede verwachtingen voor<lb/>
 het mijnwerk; het cargasoen van de Pulau Run, vgl.
 <ref>Daghregisters, p. 87, </ref>wordt<lb/>
@@ -110,7 +116,8 @@ hier als f. 93 093 opgegeven<lb/>
 <para>
 Het altoos veel lichter zal wesen Ternaten uyt Amboina als Amboina uyt<lb/>
 Ternaten te restaureren off tot Comp.8 ooghmerk te beschermen ende de noodige<lb/>
-gehoor saamhevt der onderdanen van d’Comp.e aldaar wel te bewaren.</para>
+gehoor saamhevt der onderdanen van d’Comp.e aldaar wel te bewaren.
+</para>
 <folio>Foll 664r.</folio>
 <remark>«Willem van Zijl blijft nog een jaar provisioneel gezaghebber van Banda; vier<lb/>
 predikanten vertrokken naar de Specerij -Eilanden; contract met Cheribon,
@@ -119,24 +126,24 @@ verpacht<lb/>
 »</remark>
 <para>
 -1
-<fref ref="2"/>  tot affschrik van andere degeene, die men in handen krijght, met<lb/>
+<note mark="2">Het weglopen uit de dienst van de V.O.C.
+</note>
+tot affschrik van andere degeene, die men in handen krijght, met<lb/>
 swaare straffen, zelff tot de doot toe, te executeren nae bevindinge van zaaken,<lb/>
 alsoo dit weghloopen anders meer en meer, na ’t schijnt, staat door te breken,<lb/>
-gel. nogh dagelijx geschiet.</para>
+gel. nogh dagelijx geschiet.
+</para>
 <para>
 De brieven, die zoowel door den ouden als jongen Bantamsen Sulthan nu<lb/>
 mettet schip de Nathanaël aan den Conink van Engelant gesz., door d’Engelsen<lb/>
 zelve ten meerendeele zouden zijn geconcipieert en vervult met klachten en
-
-<fnote ref="1">Naar Siam, op verzoek der groten.</fnote>
-<fnote ref="2">Het weglopen uit de dienst van de V.O.C.</fnote>
-
 <pb n="428" tpl="1" vol="04" facs="4_134_0428"/>
 doeleancen, dat wij de Javaanse Oostcust voor een ijder geslooten hielden en niemant<lb/>
 aldaar ter negotie wilden admitteren en de Bantammers veel smaatheden<lb/>
 en dreygementen van oorlogh gedurigh aandeden (’twelk alles t’eenemaal onwaarachtigh<lb/>
 is), zoo zouden se eenige schepen, volk en ammuniënten ter adsistentie<lb/>
-uyt Engelant versocht hebben.</para>
+uyt Engelant versocht hebben.
+</para>
 <remark>«Te Batavia is voor 78 528 rsd. aan wissels op patria getrokken
 , w.o. voor<lb/>
 60 366 van wijlen Hendrik Terhorst<lb/>

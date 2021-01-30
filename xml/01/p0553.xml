@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="553"/>
 <meta key="title" value="Van Diemen, Lucasz, Gijsels, Van der Burch; Batavia, 2 februari 1636"/>
 <meta key="rawdate" value="2 februari 1636"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Philips Lucasz, Artus Gijsels, Jan van der Burch"/>
 
+
 </header>
 <body>
 <pb n="553" tpl="1" vol="01" facs="1_104_0553"/>
@@ -25,7 +27,9 @@ JAN VAN DER BURCH, BATAVIA 2 februari 1636.</head>
 berichten over het vaarwater van Malakka , vgl. ibid. 8 januari, p. 2-4<lb/>
 »</remark>
 <para>Tsedert is ons gemelde tijdinge*
-<fref ref="1"/>  geconfir meert door drie verscheyde jonckgiens,<lb/>
+<note mark="1">NI. van de aanwezigheid van wel honderd Javaanse vaartuigen nabij Palembang.<lb/>
+</note>
+geconfir meert door drie verscheyde jonckgiens,<lb/>
 uyt Palumbangh alhier aengecomen, dat niet alleen hondert, maer omtrent<lb/>
 twee hondert Javaense vaertuygen aldaer waeren ingecomen met ongeveer 2 a<lb/>
 drie hondert lasten rijs, d’ reste suyckeren, loocq, ajuyn etc., dat oock meest alle<lb/>
@@ -41,18 +45,25 @@ groote dierte ende schaersiteyt veroorsaeckt. Soo moet Java dit jaer oock missen
 alhier in de Javaense soortering cleeden heeft veroorsaeckt, dat ons magasijn<lb/>
 geheel van deselve ontbloot is ende blijven oock daeromme mede te genegener<lb/>
 onse macht voor Malacca te continueeren omme Batavia’s progres daerdoor te<lb/>
-voorderen, schoon d’Engelsen ons den buyt off Portugeese goederen ontvoeren.</para>
+voorderen, schoon d’Engelsen ons den buyt off Portugeese goederen ontvoeren.
+</para>
 <para>De Coninginne van Patanij heeft gesanten in Palumbangh gesonden; hun<lb/>
 versoeck is geweest omme partij e rijs van daer uyt te voeren, twelck men verstaet<lb/>
 den gesant geconsenteert te sijn, daerentegen d’ coopluyden, die naer Batavia<lb/>
-tendeeren, ’t uytvoeren des rijs stryetelijek verbooden.</para>
+tendeeren, ’t uytvoeren des rijs stryetelijek verbooden.
+</para>
 <para>Soo was oock van Quinam sonder onse passé aldaer aengecomen een joneke<lb/>
 met Chineese waeren, die de Javaenen tegen haeren rijs gereuylt ende gecocht<lb/>
 hebben, dat almede voor de traffieque in Batavia naedeelich is, oversulex oock<lb/>
 geresolveert blijven tegen halff off ultimo meert aenstaende soo op die van Patany<lb/>
 als de Quinamse joneke buyten de Palumbanse revier te doen cruycen ende, die<lb/>
 becomende, voor goede buyt aen te slaen
-<fref ref="2"/> .</para>
+<note mark="2">Dit voornemen werd op 22 maart 1636 uitgevoerd; vgl.
+<emph>Daghregisters</emph> op die datum,<lb/>
+p. 45.<lb/>
+</note>
+.
+</para>
 <remark>«Zending van een schip naar de Molukken , vgl.
 <ref>Daghregisters, 20 </ref>jan. 1636,<lb/>
 p. 10 en naar Amboina, ibid. 24 jan., p. 10-12; opdracht aan Pool tot ontdekking<lb/>
@@ -60,19 +71,12 @@ van het Zuidland, ibid., 20 febr. p. 28<lb/>
 »</remark>
 <para>De ondecking door ’t canael bij Maba in de Zuydtzee omme dan voorts te<lb/>
 comen bij noorden Mooro, Clebes ende Borneo tot Batavia sullen door gebreck van<lb/>
-bequaeme jachten tot naerder ende beter gelegentheyt moeten uytstellen.</para>
+bequaeme jachten tot naerder ende beter gelegentheyt moeten uytstellen.
+</para>
 <remark>«Zending van schepen naar Coromandel, vgl.
 <ref>Daghregisters, 14 febr</ref>. p. 25-26;<lb/>
 aankomst van de Wassenaar uit Japan, ibid. 30 jan. p. 13-15, vanaf p. 14 r. 8<lb/>
 letterlijk gelijk<lb/>
 »</remark>
-
-<fnote ref="1">NI. van de aanwezigheid van wel honderd Javaanse vaartuigen nabij Palembang.<lb/>
-</fnote>
-<fnote ref="2">Dit voornemen werd op 22 maart 1636 uitgevoerd; vgl.
-<emph>Daghregisters</emph> op die datum,<lb/>
- 
- p. 45.<lb/>
- </fnote>
 </body>
 </teiTrim>

@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="101"/>
 <meta key="title" value="Van Diemen, Van der Lijn; Batavia, 9 september 1640"/>
 <meta key="rawdate" value="9 september 1640"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Cornelis van der Lijn"/>
+
 
 </header>
 <body>
@@ -40,8 +42,11 @@ Courten verleent, belooffde in te trecken. Wij vertrouwen, den hoogen peperprijs
 in Europa veele nae India te varen animeert, dat vertrouwen, niet langh duyren,<lb/>
 denzelven hier te lande rijsen ende in Europa dalen sal. Den peper- ende Guseratsen<lb/>
 handel sober proffijten gevende, zal bij d’enterloopers
-<fref ref="1"/>  cleene voordeelen uyt<lb/>
-India te trecken ende ingevolge licht van de banck te schuyven sijn.</para>
+<note mark="1">Interlopers, niet tot de Engelse Compagnie behorende schepen, indringers.<lb/>
+</note>
+cleene voordeelen uyt<lb/>
+India te trecken ende ingevolge licht van de banck te schuyven sijn.
+</para>
 <para>Armagon hebben d’Engelsche verlaten ende plaets op Madrespatnam, een<lb/>
 halff mij lt jen bij noorden S.* Thomé, begrepen, alwaer fortificatie ondernomen,<lb/>
 ’t fondament van een gardijn gegraven ende een punt omtrent ses voeten boogh<lb/>
@@ -57,22 +62,25 @@ behouden bleven. Geen disputen off questiën van emporto zijn t’zedert onse<lb
 laetste met d’Engelse natie voorgevallen, als dat de schepen ende jachten van de<lb/>
 Oude en de Nieuwe Compagnie ontrent Goa sijn gevisiteert, daerinne soo discreet<lb/>
 is gehandelt, dat met reden niet doleeren connen ; echter meenen, hun force ende<lb/>
-ongelijck geschiet, dat den tijt wel slijten zal.</para>
+ongelijck geschiet, dat den tijt wel slijten zal.
+</para>
 <para>
 Van de Nieuwe off Courtens equipagie zijn, voor zooveel ons bekent is, geen<lb/>
 andere schepen in India als de jachten Planter ende den Tomassin, die nae Atchin<lb/>
 tendeerden, sijnde den Talbot op de Custe van India voor Ragepour door eygen<lb/>
 vier verbrant ende den Willem, geladen met peper, nae Engelant keerende, heeft<lb/>
 ons eylandt Mauritius aengedaen, alwaer den 26en mey in de Noortwesterhaven<lb/>
-
-<fnote ref="1">Interlopers, niet tot de Engelse Compagnie behorende schepen, indringers.<lb/>
-</fnote>
-
 <pb n="102" tpl="1" vol="02" facs="2_112_0102"/>
 is comen anckeren ende verwinteren omme in goet saysoen op Engelandt te<lb/>
-comen.</para>
+comen.
+</para>
 <para>
-Met den president Aron Baker <fref ref="1"/>  tot Bantam (zijnde desselffs voorsaet George<lb/>
+Met den president Aron Baker
+<note mark="1">Aron Baker was van mei 1641 tot eind 1642 Engels president te Bantam, repatrieerde<lb/>
+en trad dec. 1645 tot 1648 en ook van 1650 tot 1652 weer als zodanig op, vervolgens in dezelfde<lb/>
+rang te Madras, van waar hij begin 1655 repatrieerde.<lb/>
+</note>
+tot Bantam (zijnde desselffs voorsaet George<lb/>
 Muschamps, een eerlij ck persoon, in mey passado overleden) wert goede correspondentie<lb/>
 gehouden; met d’arrivé van hare schepen vernemen niet, ordre becomen<lb/>
 hun op d’een off d’ander gelegentheyt tegen ons te formaliseren, insinuatiën noch<lb/>
@@ -86,7 +94,10 @@ daer onverrichter saecken den llen ende 14en mey passato de fluyte Ruttem<lb/>
 met Waterlant herwaerts gekeert onder pretext geen peper in voorraedt te wesen,<lb/>
 parsisterende Compagnies schade ende hare schulden met peper te willen voldoen,<lb/>
 mits daermede alles moest vergeten ende vergeven blijven1
-<fref ref="2"/> . U Ed. hebben te<lb/>
+<note mark="2">Vgl.
+<emph>Borneo,</emph> p. 92.<lb/>
+</note>
+. U Ed. hebben te<lb/>
 vertrouwen, d’enorme acte van dese rampsalige Martapouresen om geenige schijn<lb/>
 van saecken zullen ongestraft laten, maer dewijle tselve noch niet gelegen compt<lb/>
 ende d’Engelse ons ondertusschen den peper tot civilen prijse onthalen souden,<lb/>
@@ -101,7 +112,8 @@ geldende ende aen de contractanten in Batavia wort ’t loot tot 6J realen gelev
 mits dat 14 000 pitgens voor een reael geven, twelck een merckelijck verschil is<lb/>
 van 15 realen, gelijck in den jare ’3 6 noch vercocht wierd. Verhoopen, d’Engelse<lb/>
 hierdoor uyt ’t overbrenghen des loots sullen scheyden ende ’tzelve t’sijner tijt<lb/>
-te doen rijsen .</para>
+te doen rijsen .
+</para>
 <remark>«Overlijden van Adam Westerwolt , Cornelis Symonsz. van der Veer, Philips<lb/>
 Lucasz., Joan van Broecum, Jan van der Burch en anderen<lb/>
 »</remark>
@@ -114,23 +126,18 @@ Zoo is mede de gemeensaemheyt ende de hoovaerdije (daer veele in India<lb/>
 gebreck van hebben) den welstant Uwes staets ten hooghsten contrarie; couragieuse,<lb/>
 stemmige luyden, in de melitie, policie ende coophandel ervaren, sijn uwen<lb/>
 stant ten hooghsten noodigh. Vier van dese qualiteyten sijn genoegh India wel<lb/>
-
-<fnote ref="1">Aron Baker was van mei 1641 tot eind 1642 Engels president te Bantam, repatrieerde<lb/>
-en trad dec. 1645 tot 1648 en ook van 1650 tot 1652 weer als zodanig op, vervolgens in dezelfde<lb/>
-rang te Madras, van waar hij begin 1655 repatrieerde.<lb/>
-</fnote>
-<fnote ref="2">Vgl.
-<emph>Borneo,</emph> p. 92.<lb/>
-</fnote>
-
 <pb n="103" tpl="1" vol="02" facs="2_112_0103"/>
 te gouverneren. U Ed. connen de presente Indise gelegentheden sulcx niet pondereren,<lb/>
 off is inderdaet grooter t’estimeren, weshalven mannen tot derselver<lb/>
 directie vereysschen; moeten inloggen tegen Engelse, Deenen, Spaengiaerden ende<lb/>
-Portugesen, mitsgaders Mooren ende heydenen, dat cloeckers<fref ref="1"/>  zijn ende wel<lb/>
+Portugesen, mitsgaders Mooren ende heydenen, dat cloeckers
+<note mark="1">Cloeckers, slimmerds.<lb/>
+</note>
+zijn ende wel<lb/>
 weten ’t vossenvel, als de leeuwenhuyt niet helpen can, a propos te gebruycken;<lb/>
 dusverre hebben goet gedacht ons t’eslargeren op de qualiteyten van d’Indise<lb/>
-administrateurs, U Ed. dienaeren.</para>
+administrateurs, U Ed. dienaeren.
+</para>
 <remark>«Zending van Wollébrant Geleynsz, naar Perzi'è, vgl.
 <ref>Zeemogendheid II 158</ref>;<lb/>
 van Croocq naar Suratte, vgl. ibid. p. 151; handel in Coromandel; blokkade van Goa,<lb/>
@@ -148,12 +155,19 @@ Vice-Rey Antonio Telles adviseert) tegen dese maent meenen gereet te crijgen.<lb
 Daerbij hebben uyt Lixboa volgens d’advijsen van Zeelandt te verwachten een<lb/>
 gallioen, jacht ende caracque, die verhoopen, in onse handen zullen vervallen,<lb/>
 bijaldien na Goa tendeeren ende, zoo in Mosambicque verwinteren, willen daer<lb/>
-mede op letten.</para>
+mede op letten.
+</para>
 <remark>«Tien regels uitgelaten<lb/>
 »</remark>
 <para>Den coopman Pieter Paets op Wingurla (in wiens doen geen contentement<lb/>
 connen nemen) hebben door den oppercoopman Claes Cornelisz. Blocq
-<fref ref="2"/> , jonghst<lb/>
+<note mark="2">Nicolaes Cornelisz. Blocq kwam 1634 als onderkoopman uit, was opperhoofd te<lb/>
+Petapuli en 1636-1639 te Palicol, waarna hij repatrieerde; hij kwam 1640 weer uit als opperkoopman,<lb/>
+diende korte tijd te Wingurla, daarna weer ter Kust van Coromandel; 1642, ’43, ’44<lb/>
+was hij commandeur of ondercommandeur op de vloot voor Goa; in 1645 werd hij naar Ispahan<lb/>
+gezonden, waar hij aug. 1645 gedurende een hof re is stierf.<lb/>
+</note>
+, jonghst<lb/>
 met Nieuw Zeelandt als oppercoopman uytgecomen ende voor desen op de Coromandelse<lb/>
 Custe gelegen, doen verlossen. . . . Zeer worden Compagnies saecken<lb/>
 door ’t slecht beleyt van hare dienaren veracht ert. Paets heeft een merckelijcke<lb/>
@@ -165,17 +179,8 @@ voordeel, dewijle onse gelden van coopmanschappen sijn geprocedeert, als d’Eng
 die voor contant, uyt Engelandt gebraght, betalen; slecht overlegh, verhoopen,<lb/>
 na desen beter sal gaen; 23 pagoden
 <emph>k</emph> 4 gulden ijder compt te wesen 6f stuyvers<lb/>
-’t zonder oncosten.</para>
-
-<fnote ref="1">Cloeckers, slimmerds.<lb/>
-</fnote>
-<fnote ref="2">Nicolaes Cornelisz. Blocq kwam 1634 als onderkoopman uit, was opperhoofd te<lb/>
-Petapuli en 1636-1639 te Palicol, waarna hij repatrieerde; hij kwam 1640 weer uit als opperkoopman,<lb/>
-diende korte tijd te Wingurla, daarna weer ter Kust van Coromandel; 1642, ’43, ’44<lb/>
-was hij commandeur of ondercommandeur op de vloot voor Goa; in 1645 werd hij naar Ispahan<lb/>
-gezonden, waar hij aug. 1645 gedurende een hof re is stierf.<lb/>
-</fnote>
-
+’t zonder oncosten.
+</para>
 <pb n="104" tpl="1" vol="02" facs="2_112_0104"/>
 <remark>«Gegevens over Ceylon, afgedrukt
 <ref>Ceilon, </ref>bijlage V, p. 8-10; onderneming tegen<lb/>
@@ -192,8 +197,15 @@ veel neerstigheyt is desen man per een gelia primo july passato bij nacht onder<
 de wal uyt Malacca nae Macao vertrocken. Insgelijcx hebben ook seker ad vijs, die<lb/>
 van Macao voornamen twee navetten met exquise zijdestoffen nae Japan te largeren<lb/>
 onder pretext van haren debit te voldoen de continuatie van Japan te<lb/>
-solliciteren<fref ref="1"/> . Eenige sijn van opinie, dat onverhoort sullen worden affgewesen,<lb/>
-andere, dat met schepen ende goederen wel moghten worden verbrant. . . .</para>
+solliciteren
+<note mark="1">Zie over deze reis
+<emph>Fidalgos,</emph> p. 121 en
+<emph>Christian Century,</emph> p. 384 vlg. ; er is daar slechts<lb/>
+sprake van één schip, waarvan bijna alle opvarenden in Japan ter dood werden gebracht.<lb/>
+</note>
+. Eenige sijn van opinie, dat onverhoort sullen worden affgewesen,<lb/>
+andere, dat met schepen ende goederen wel moghten worden verbrant. . . .
+</para>
 <remark>«Schepen uit verschillende kwartieren gekomen<lb/>
 »</remark>
 <para>Uyt Macassar wort ons geadviseert, de pretendenten van ’t sandelhout, anno<lb/>
@@ -201,7 +213,8 @@ andere, dat met schepen ende goederen wel moghten worden verbrant. . . .</para>
 hebben genomen, aen den coopman Kerckringh gerestitueert ende behouden laten<lb/>
 in voornemen nader besendingh over dese pretentie herwaerts te doen. Ondertusschen<lb/>
 is Compagnies volck ende middelen aldaer ongemolesteert gebleven. Wij sijn<lb/>
-niet voornemens meer uyt te payen, als genoten hebben.</para>
+niet voornemens meer uyt te payen, als genoten hebben.
+</para>
 <remark>«Schepen uit Thaiwan gekomen<lb/>
 »</remark>
 <para>
@@ -216,23 +229,19 @@ placcate verboden, hebben aengenomen omme de coopluyden t’ontlasten ende<lb/>
 middelen te supediteren ’t geëyschte uyt China te brengen, twelck naderhant<lb/>
 treffelijck gevolght is. Ondertusschen heeft den cloecken Chinees dese saecke sulcx<lb/>
 weten te dirigeren, dat d’occasie, in ons voordeel gebooren, als zij
-<fref ref="2"/>  d’uytsettingh<lb/>
+<note mark="2">Als zij, versta: zoals daar is, onder andere; de zin loopt ook verder zeer stroef.<lb/>
+</note>
+d’uytsettingh<lb/>
 der Portugesen van Japan, de troublen ende slechte negotie in Manilha (derwaerts<lb/>
 geen joncken tendeeren), invoegen noodtsaeckelijkc alle Chinese coopmanschappen,<lb/>
 zoo maer gepatienteert ende ’t sluyten des handels niet aengetrocken ware,<lb/>
 ons hadden moeten tot civilenprijse toevloeyen, t’sijnen voordeel heeft gewent, sich<lb/>
 van sijne slechte coopmanschappen alvooren ontlast ende de rouwe zijde in prijs<lb/>
-
-<fnote ref="1">Zie over deze reis
-<emph>Fidalgos,</emph> p. 121 en
-<emph>Christian Century,</emph> p. 384 vlg. ; er is daar slechts<lb/>
-sprake van één schip, waarvan bijna alle opvarenden in Japan ter dood werden gebracht.<lb/>
-</fnote>
-<fnote ref="2">Als zij, versta: zoals daar is, onder andere; de zin loopt ook verder zeer stroef.<lb/>
-</fnote>
-
 <pb n="105" tpl="1" vol="02" facs="2_112_0105"/>
-gesteygert. Gemelten Equan hadde in tijt<fref ref="1"/> , de joncken wierden opgehouden,<lb/>
+gesteygert. Gemelten Equan hadde in tijt
+<note mark="1">Bedoeld: in de tijd dat.<lb/>
+</note>
+, de joncken wierden opgehouden,<lb/>
 d’onse doen voordragen, bijaldien jaerlijcx voor sijn reeckeningh vrachtvrij nae<lb/>
 Japan wilden voeren aen coopmanschappen 40 a 45 000 tayl, maeckte sich sterck<lb/>
 den Chinees uyt China de traffycq op Japan te verhinderen ende ons nae eysch<lb/>
@@ -242,7 +251,8 @@ Chinesen contrarie Conings placcaten zij ende Equan, admiraal der Chinese zee,<l
 tselve voorcomen can, heeft de saecke sijn bedeneken. Maer selver een groot<lb/>
 participant in desen verboden handel wesende, is te beduchten, sijn woort niet<lb/>
 presteren sal ende ondertusschen ’t mes van twee canten doen snijden, ’t Is altijt<lb/>
-sulex, dat het in Tayouan eer aen capitael als coopmanschappen zal manqueren.</para>
+sulex, dat het in Tayouan eer aen capitael als coopmanschappen zal manqueren.
+</para>
 <remark>«Gevaren van het Chinese vaarwater; schepen naar Thaiwan
 , J apan en Cambodja<lb/>
 gezonden
@@ -250,7 +260,8 @@ gezonden
 »</remark>
 <para>Van China sijn tot Batavia geweest seven joncken, met groove waeren geladen,<lb/>
 die alle met contentement zijn vertrocken, uytvoerende omtrent 6000 picols peper,<lb/>
-sandel, calituyrshout met diversche andere waren.</para>
+sandel, calituyrshout met diversche andere waren.
+</para>
 <para>Uyt d’Amboinse provintiën becomen gewenschte tijdingh; met 742 000 ft<lb/>
 giroffelnagelen tot betalingh van dit groot gewasch sijn alle coopmanschappen,<lb/>
 getrocken ende ongetrocken, voort geraeckt ende d’oncosten met de winst op<lb/>
@@ -259,46 +270,53 @@ geheel andere ploy, de quimelaha Louhoe wort verlaten, Hittoe verdeelt, Lissidy<
 ende Loehoe blijven onsen staet getrouw ende veele andere dorpen op Ceram,<lb/>
 Manipes ende Kelangh door onse jachten beseth, de frequentatie der vreemdelingen<lb/>
 deminueert dagelijcx, sulex dat infalibelijck onsen wil van dat gewest in corte<lb/>
-sullen erlangen. Den gouverneur Ottens genoeght<fref ref="2"/>  niet wel, hem sijne faute<lb/>
+sullen erlangen. Den gouverneur Ottens genoeght
+<note mark="2">Genoeght: bevalt.<lb/>
+</note>
+niet wel, hem sijne faute<lb/>
 aenwijsen; item dat van U Ed. voor een dronekert g’estimeert wort, neempt voor<lb/>
 sijn verlossingh te versoecken. ’t Is vreemt, de luyden zoo waenwijs zijn, dat<lb/>
 meenen, niet behooren gerepremendeert te worden, een oudt Amboins gebreck;<lb/>
 ondertusschen bekent in sijne brieven, door ’t in ’t werek stellen van onse gegeven<lb/>
-ordre de saecke sich geheel tot beterschap ende redres neygen.</para>
+ordre de saecke sich geheel tot beterschap ende redres neygen.
+</para>
 <para>Van Tarnate het oude, den Coningh Hamsia is met d’heere Caen zeer vernoeght,<lb/>
 heeft het met de Nederlander en recht voor, zoo seyt; ’t sal sich daer mede<lb/>
 wel redden. Te veel estime is van dit volxken gemaeckt ende Compagnies macht<lb/>
 te cleyn g’estimeert om tegen deselve te canten, simulate redenen
-<fref ref="3"/>  maecken bij<lb/>
+<note mark="3">Simulate redenen ; hier : in tegenstelling tot krachtig optreden met praatjes aankomen.<lb/>
+</note>
+maecken bij<lb/>
 dit volck verachteringh ende worden trotser. Tidor blijft onder twee Coningen<lb/>
 verdeelt, de Spaengaert hout het met den sone van den g’ executeerden G’noralamma<lb/>
-<fref ref="4"/>  ende den Tarnataen soude Gorantales partij e gaerne maincteneren.</para>
+<note mark="4">G’noralamma = Ngarolamo, vgl. dl. I, p. 536.<lb/>
+</note>
+ende den Tarnataen soude Gorantales partij e gaerne maincteneren.
+</para>
 <para>
 Gheen Spaense schepen sijn in Molucco van Manilha verschenen, haer secours<lb/>
 heeft bestaen uyt twee galeyen ende 12 jonekjens, daer Heemskerck en die van<lb/>
 Macquian ende Batsian 6 stux van verovert hebben. Naderhandt is een expres-<lb/>
-
-<fnote ref="1">Bedoeld: in de tijd dat.<lb/>
-</fnote>
-<fnote ref="2">Genoeght: bevalt.<lb/>
-</fnote>
-<fnote ref="3">Simulate redenen ; hier : in tegenstelling tot krachtig optreden met praatjes aankomen.<lb/>
-</fnote>
-<fnote ref="4">G’noralamma = Ngarolamo, vgl. dl. I, p. 536.<lb/>
-</fnote>
-
 <pb n="106" tpl="1" vol="02" facs="2_112_0106"/>
-advijs uyt Manilha gecomen, die quade tijdingh bracht, ’t Finael <fref ref="1"/>  heeft niet te<lb/>
+advijs uyt Manilha gecomen, die quade tijdingh bracht, ’t Finael
+<note mark="1">’t Finael; hier: het rechte, de bedoeling.<lb/>
+</note>
+heeft niet te<lb/>
 rechten connen geweten worden, maer ’t is buyten twijffel d’opositie der Chinesen<lb/>
 ende Japangers, die omtrent 200 Spaengaerden gemassacreert ende Manilha<lb/>
-benouwt hebben, gelijck hier over China ende Tayouan vernomen wort.</para>
+benouwt hebben, gelijck hier over China ende Tayouan vernomen wort.
+</para>
 <para>Heemskercken heeft ons 63679 Cö Moluckse nagelen gebracht; dagelijcx<lb/>
 verwachten met Hollandia meerder partij e ende nader ad vijsen. Tot retour hebben<lb/>
-U Ed. te verwachten ongeveer 800 000 ® nagelen.</para>
+U Ed. te verwachten ongeveer 800 000 ® nagelen.
+</para>
 <remark>«Berichten van Banda en Arakan; schepen naar Sumatra’s Westkust vertrokken<lb/>
 »</remark>
 <para>Op 16 meert1
-<fref ref="2"/>  ’t schip den Witten Oliphant wel onverwacht maer zoo a<lb/>
+<note mark="2">.... kwam uit Europa
+....<lb/>
+</note>
+’t schip den Witten Oliphant wel onverwacht maer zoo a<lb/>
 propos, alsoff tselve uyt den hemel ware geschickt, sijnde in die tijt bijna buyten<lb/>
 raedt, destituyt van cleeden, coopmanschappen ende contanten, zulcx dat ons<lb/>
 de medegebraghte rijxdaelders dienden tot opcoop van ruym 8000 picols peper,<lb/>
@@ -314,7 +332,8 @@ sagen dit verhaelde onweer tegemoet, welck silver in croonen meenden vermundt<lb
 te hebben, gelijck U Ed. g’adviseert is, doch dit missende, heeft ons den Almogenden<lb/>
 onverwachte middelen verschaft. Sijnen name sij gepresen ende U Ed.<lb/>
 versocht te willen continueren in september twee schepen herwaerts te schicken,<lb/>
-dat wel belooft is, maer voor desen geen effect gesorteert heeft.</para>
+dat wel belooft is, maer voor desen geen effect gesorteert heeft.
+</para>
 <remark>«Aankomst van andere schepen uit patria; de Sayer en de Neptunus mélden
 ,<lb/>
 dat
@@ -323,32 +342,25 @@ dat
 <para>
 .... den 13en juny passato aen de . . . Cabo g’arriveert was ’t Deens<lb/>
 schip de Sonne, nu de Reformatie genoempt, daerop commandeerde Claes Ruyter
-<fref ref="3"/> <lb/>
+<note mark="3">Claes Ruyter was in Deense dienst al eerder in Bengalen geweest, toen hij in oct.<lb/>
+1640 met de Gulden Son of Reformatie voor Masulipatam kwam, waar hij wegens schulden<lb/>
+der Denen enige tijd werd aangehouden. In april 1641 was hij voor Bantam, van waar hij in<lb/>
+aug. naar Coromandel terugvoer. Hij repatrieerde maart 1643 met hetzelfde schip.<lb/>
+</note>
+<lb/>
 ende schipper Willem Larsen
-<fref ref="4"/> , beyde voor desen in India geweest. Seven maenden<lb/>
+<note mark="4">Willem Larsen ken ik verder niet.<lb/>
+</note>
+, beyde voor desen in India geweest. Seven maenden<lb/>
 waren van Coppenhaven geseylt in compagnie van de Christiaenshaven
-<fref ref="5"/> , die van<lb/>
+<note mark="5">De Christianshavn was te Teneriffe voor reparaties aangelopen en daar vastgehouden .<lb/>
+</note>
+, die van<lb/>
 hun versteecken was, met resolutie denselven aldaer noch in te wachten, sulex den<lb/>
 20en d.°, als d’onse de Cabo verlieten, dese Reformatie daer bleeff tardeeren. Van<lb/>
 hare ladingh ende contanten hebben d’onse niet vernemen connen, eenelijck dat<lb/>
 met groote partije goede wijnen gecargeert waren; achten, den Portugees daermede<lb/>
 dienen willen ende in Manilha vercoopen. Den gouverneur Gardenijs ende d’opper-<lb/>
-
-<fnote ref="1">’t Finael; hier: het rechte, de bedoeling.<lb/>
-</fnote>
-<fnote ref="2">.... kwam uit Europa
-....<lb/>
-</fnote>
-<fnote ref="3">Claes Ruyter was in Deense dienst al eerder in Bengalen geweest, toen hij in oct.<lb/>
-1640 met de Gulden Son of Reformatie voor Masulipatam kwam, waar hij wegens schulden<lb/>
-der Denen enige tijd werd aangehouden. In april 1641 was hij voor Bantam, van waar hij in<lb/>
-aug. naar Coromandel terugvoer. Hij repatrieerde maart 1643 met hetzelfde schip.<lb/>
-</fnote>
-<fnote ref="4">Willem Larsen ken ik verder niet.<lb/>
-</fnote>
-<fnote ref="5">De Christianshavn was te Teneriffe voor reparaties aangelopen en daar vastgehouden .<lb/>
-</fnote>
-
 <pb n="107" tpl="1" vol="02" facs="2_112_0107"/>
 coopluyden van Siam als Cambodja sijn van hare verschijningh gepreadverteert ;<lb/>
 verhoopen, ons geen voordeel sullen affsien; bijaldien geen groot capitael medebrengen,<lb/>
@@ -361,7 +373,8 @@ op de Custe tot de compste deser schepen verbleven was, als wanneer licht de<lb/
 reste van Christiaenshavens last vinden souden. Maer presumeren, nae Parsia omme<lb/>
 sijn suyckeren te venten voor d’arrivé van de hare sal vertrocken sijn. ’t Is zulcx,<lb/>
 . . . geen groot capitael medebrengen, haer consumeren ende ingevolge de reeders<lb/>
-den lust omme d’equipagie te seconderen vergaen sullen.</para>
+den lust omme d’equipagie te seconderen vergaen sullen.
+</para>
 <para>’t Conde wel gebeuren, dese Deense schepen de Compagnie grooten buyt<lb/>
 toebraghten, want ’t is seecker, stouter ende vrijmoediger den vijant ten dienste<lb/>
 sullen staen als wel die van de Engelse Compagnie, edoch maecken geen swaerigheyt<lb/>
@@ -369,14 +382,17 @@ onse vijanden goederen te lichten ende aen te slaen, item haer van Colombo<lb/>
 als Goa te doen vertrecken, mitsgaders, gelijck hun aen Cabo hebben laten verluyden,<lb/>
 naer Tarnaten omme nagelen van de Spaengiaerden te handelen tendeeren,<lb/>
 alwaer wij Compagnies recht meenen te bewaeren, haer ende alle andere natiën<lb/>
-van daer te drijven. . . .</para>
+van daer te drijven. . . .
+</para>
 <remark>«Volk en contanten van de bij Siërra Leone vergane Hoff aangebracht
 , ter waarde<lb/>
 van fl. 112 905.2.14, terwijl voor fl. 12151.2.2. is vermist<lb/>
 »</remark>
 <para>
 Met admiratie
-<fref ref="1"/>  hebben den schepe Eredrick Henrick onvertimmert (twelck<lb/>
+<note mark="1">Met admiratie, hier: met verwondering.
+</note>
+hebben den schepe Eredrick Henrick onvertimmert (twelck<lb/>
 nochtans ten hooghsten noodigh was) weder herwaerts sien keeren. Wij connen<lb/>
 niet bedeneken, wat Haer Ed. daermede voorhebben, want behalve de masten<lb/>
 onbequaem sijn, zoo is ’t aff- ende uytgevaren, indien een jaer overblijft; hier is<lb/>
@@ -398,13 +414,15 @@ genootsaeckt worden tselve alhier ontij digh om ’t ijserwerek te vercoopen. Ho
 het ons te goede, sulex hier voorcomende, souden den nonchelanten door den<lb/>
 fiscael doen causeren. Insgelijcx gaet het met ’t schoone retourschip Zutphen, wiens<lb/>
 groote mast uytgeseth hebben, dat wonder zij, ’t schip daermede door zee geraeckt
-
-<fnote ref="1">Met admiratie, hier: met verwondering.</fnote>
-
 <pb n="108" tpl="1" vol="02" facs="2_112_0108"/>
 is. Wat middel hier hebben diergelijeke schepen te vermasten, geven U Ed. te<lb/>
-bedeneken, echter sullen ons redden ende wert voor ’t patria affgeladen. . . .</para>
-<para>’t Galjot ’t quelpeert<fref ref="1"/>  heeft nevens de groote schepen zee gebouwt, sal<lb/>
+bedeneken, echter sullen ons redden ende wert voor ’t patria affgeladen. . . .
+</para>
+<para>’t Galjot ’t quelpeert
+<note mark="1">Een quelpeert is een klein snelzeilend adviesjacht, geschikt voor ondiepe wateren;<lb/>
+het hier bedoelde was de Brack, in 1640 uit Nederland te Batavia gekomen.<lb/>
+</note>
+heeft nevens de groote schepen zee gebouwt, sal<lb/>
 goeden dienst op ’t canael van Tayouan doen; weshalven versoecken noch twee<lb/>
 ofte drie diergelijeke maer niet van cleender charter omme te meer goederen door<lb/>
 ’t canael aen de schepen, die onder ’t noorder riff leggen, te connen brengen. Drie<lb/>
@@ -415,7 +433,8 @@ goetmaecken. Zoo die becomen, sullen met voordeel gebruyckt worden in Bengala,<l
 de Parsise Golpho als langs de custe van Soffala, daer noch wel wat te doen is.<lb/>
 Dit fregat ende Limmen . . . senden nae Punto de Gale omme de custe van Ceylon,<lb/>
 onder den Portugees zorterende, t’inf ecteren alsmede omtrent Comorin te cruyssen<lb/>
-ende onse besettingh op Ceylon te seconderen.</para>
+ende onse besettingh op Ceylon te seconderen.
+</para>
 <remark>«Ontvangen goederen; schepen bestemd voor patria; schip van Mauritius gekomen
 ,<lb/>
 vgl.
@@ -435,10 +454,7 @@ des sons ongeraden. Soo U Ed. conden resolveren dese kereke met een orgel ende<l
 propere copere croonen te bedeneken, zal aengenaem wesen; is een cruyskerck;<lb/>
 d’Almogenden geve, in dezelve door de predicatie ende ’t gehoor sijns Heyligen<lb/>
 Woorts veele blinde zielen, heydenen ende Mooren mogen worden bekeert ende<lb/>
-tot de schaepscoye Christi gevoeght, amen.</para>
-
-<fnote ref="1">Een quelpeert is een klein snelzeilend adviesjacht, geschikt voor ondiepe wateren;<lb/>
-het hier bedoelde was de Brack, in 1640 uit Nederland te Batavia gekomen.<lb/>
-</fnote>
+tot de schaepscoye Christi gevoeght, amen.
+</para>
 </body>
 </teiTrim>

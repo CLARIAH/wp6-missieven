@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="230"/>
 <meta key="title" value="Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers; Batavia, 9 januari 1644"/>
 <meta key="rawdate" value="9 januari 1644"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Cornelis van der Lijn, Joan Maetsuycker, Justus Schouten, Salomon Sweers"/>
+
 
 </header>
 <body>
@@ -29,21 +31,29 @@ Atchin, twelck oock niet te beteren staet, totdat wij off den Portugees de Moore
 ’t frequenteren der zee verhinderen, twelck van ons sonder groot misnoegen der<lb/>
 Atchinse Coninghinne niet wel wil vallen ende, sooveel ons aengaet, tselve voor een<lb/>
 tijt dienen te gedoogen. De Portugesen met ons in vreede sijnde, sullen daer haest<lb/>
-ordre op stellen ende uyt der Mooren middelen trachten capitael te maecken.</para>
+ordre op stellen ende uyt der Mooren middelen trachten capitael te maecken.
+</para>
 <para>Des Coninghinnes gerechtigheyt van de genegotieerde peper in Ticco als<lb/>
 Priaman ende ’t weynige, tot Indrapoura boven het tolvrij schip aldaer ingenomen,<lb/>
 comen tsamen te bedragen ƒ 25 643.11.5, dat alle tegen des Coninghinnes debet<lb/>
 (procederende over coop van juweelen a.° 1642) gerescontreert ende op ’t comptoir<lb/>
 Atchin affgesz. blijft ende onse realen in spetie off rijxdaelders doet strecken. Wij<lb/>
 maken staet, dat van Ticco, Celida, Indrapoura, Lamajuta
-<fref ref="1"/> , Cillebar, Bancoele<lb/>
-ende Manacq<fref ref="2"/>  noch ontrent 150 lasten peper in Batavia gebracht sal werden,<lb/>
+<note mark="1">Lamanjuta, Mandjuta, plaats aan de gelijknamige rivier in het noorden van de residentie<lb/>
+Benkulen op 2£° Z.B. Thans van geen belang, doch destijds uitvoerplaats van peper.<lb/>
+</note>
+, Cillebar, Bancoele<lb/>
+ende Manacq
+<note mark="2">Manacq, Manna of Manak, kustplaats in Benkulen op 4£° Z.B.<lb/>
+</note>
+noch ontrent 150 lasten peper in Batavia gebracht sal werden,<lb/>
 item groote quantité van Palimbangh, Jamby, Patany ende Benjarmassingh, sulx<lb/>
 de j oneken uyt China te comen hun competentie van peper staen t’ erlangen ende<lb/>
 ’t ons omme Tayouan, Parsia als Mocha te versien aen die spetie tegen mey tot<lb/>
 augusti niet manqueren sal, onaengesien ruym 600 lasten daertoe noodigh sullen<lb/>
 wesen. Present sijn onse magasijnen niet alleen van peper maer alle coopmansz.,<lb/>
-voor Europa dienstigh, ledigh, dat in veele jaren niet gebeurt is.</para>
+voor Europa dienstigh, ledigh, dat in veele jaren niet gebeurt is.
+</para>
 <remark>«Schip uit Siam verwacht; een schip van daar , bestemd naar Malakka, te Batavia<lb/>
 aangekomen<lb/>
 »</remark>
@@ -51,23 +61,19 @@ aangekomen<lb/>
 Conings joneke met 110 lasten d.° omtrent de n[oort]h[oeck] van Banca verongeluckt,<lb/>
 ’t volck gesalveert ende hier seer armelijck met hun boot off champan<lb/>
 aengelant. Noch een joneke stont te volgen ende seyt ons den oppercoopman Van<lb/>
-Tzum<fref ref="3"/>  toe desen jare dit mousson van daer te bestellen 800 lasten.</para>
+Tzum
+<note mark="3">Reynier van Tzum kwam 1629 als assistent uit en werd al spoedig in Siam geplaatst;<lb/>
+1637 onderkoopman, later koopman, van 1641 tot 1643 als opperkoopman opperhoofd aldaar.<lb/>
+In 1644 maakte hij als commissaris nogmaals een reis van Batavia derwaarts; 1645-1646<lb/>
+opperhoofd in Japan, waarna hij repatrieerde als vice-commandeur van de retourvloot.<lb/>
+</note>
+toe desen jare dit mousson van daer te bestellen 800 lasten.
+</para>
 <remark>«De thans naar patria vertrekkende Leeuwarden heeft een last
 , waard fl 257747.<lb/>
 8.14; het Indische fonds blijft fl 9762041.3.15; het retour over 1643 is in totaal waard<lb/>
 fl 207066610.5, w.v. aan peper fl 677280.12.13, aan kruidnagelen fl 236374.4.-, aan<lb/>
 indigo Biana fl 270677.8-, aan poedersuiker fl 158852.5-, aan diamanten 100708<lb/>
 »</remark>
-
-<fnote ref="1">Lamanjuta, Mandjuta, plaats aan de gelijknamige rivier in het noorden van de residentie<lb/>
-Benkulen op 2£° Z.B. Thans van geen belang, doch destijds uitvoerplaats van peper.<lb/>
-</fnote>
-<fnote ref="2">Manacq, Manna of Manak, kustplaats in Benkulen op 4£° Z.B.<lb/>
-</fnote>
-<fnote ref="3">Reynier van Tzum kwam 1629 als assistent uit en werd al spoedig in Siam geplaatst;<lb/>
-1637 onderkoopman, later koopman, van 1641 tot 1643 als opperkoopman opperhoofd aldaar.<lb/>
-In 1644 maakte hij als commissaris nogmaals een reis van Batavia derwaarts; 1645-1646<lb/>
-opperhoofd in Japan, waarna hij repatrieerde als vice-commandeur van de retourvloot.<lb/>
-</fnote>
 </body>
 </teiTrim>

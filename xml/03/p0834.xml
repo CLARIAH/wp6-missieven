@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="834"/>
 <meta key="title" value="Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn; Batavia, 13 december 1672"/>
 <meta key="rawdate" value="13 december 1672"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Pieter van Hoorn"/>
+
 
 </header>
 <body>
@@ -28,15 +30,15 @@ er 60% winst gemaakt ; men moet er evenals de Chinezen nu aan den gouverneur van
 Nagasaki verkopen, die met 50% winst doorverkoopt; vgl. ibid., p. 445-446<lb/>
 »</remark>
 <para>d’Engelsen waeren daer
-<fref ref="1"/>  met haer scheepjen geweest, waeren gelicentieert<lb/>
+<note mark="1">In Tonkin.<lb/>
+</note>
+met haer scheepjen geweest, waeren gelicentieert<lb/>
 te handelen en te woonen omlaegh bij alle de vreemdelingen, behalven onse natie<lb/>
 alleen. Sij hadde haere goederen bij provisie aen landt gebraght, waeren gints in<lb/>
 ’t leste van junij verscheenen, maer en hadden tot het vertreck van d’onse van<lb/>
 daer niets vercoght, soo door de veelvoudige vexatien, als omdat se haere goederen<lb/>
 te hoogh op geldt hielden en hadde haer scheepien in ’t eerste van september<lb/>
-ledigh naer Tajoan versonden.</para>
-
-<fnote ref="1">In Tonkin.<lb/>
-</fnote>
+ledigh naer Tajoan versonden.
+</para>
 </body>
 </teiTrim>

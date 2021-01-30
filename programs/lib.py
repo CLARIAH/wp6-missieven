@@ -29,8 +29,10 @@ SOURCE_DIR = f"{REPO_DIR}/_local"
 
 DECL_PATH = f"{REPO_DIR}/yaml"
 META_DECL_FILE = f"{DECL_PATH}/meta.yaml"
+META_DECL_FILE06 = f"{DECL_PATH}/meta06.yaml"
 
 META_DECL = readYaml(META_DECL_FILE)
+META_DECL06 = readYaml(META_DECL_FILE06)
 
 VERSION_SRC = META_DECL["versionSrc"]
 VERSION_TF = META_DECL["versionTf"]
@@ -41,7 +43,7 @@ CHANGE_DIR = f"{REPO_DIR}/change"
 REPORT_DIR = f"{REPO_DIR}/trimreport"
 XML_DIR = f"{REPO_DIR}/xml"
 
-LAST_STAGE = 3
+LAST_STAGE = 4
 
 TF_DIR = f"{REPO_DIR}/tf"
 OUT_DIR = f"{TF_DIR}/{VERSION_TF}"
@@ -422,6 +424,9 @@ def trim(
 
     if corpusPost:
         corpusPost(info)
+
+
+BODY_RE = re.compile(r"""<body[^>]*>(.*?)</body>""", re.S)
 
 
 BODY_RE = re.compile(r"""<body[^>]*>(.*?)</body>""", re.S)

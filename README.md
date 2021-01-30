@@ -17,6 +17,12 @@ Status
 
 This is **work in progress!**
 
+*   2021-01-27 A new TF version (0.7) has been delivered.
+    This  version as a major encoding difference: whereas in version 0.6 footnote material ended
+    up in the values of a feature, now footnotes are treated like text material.
+    That means: the words in footnotes occupy slots, the footnotes themselves are nodes.
+    As a consequence, footnotes and the words in it can be annotated, e.g. with named entities.
+    This is a reuqirement for the kind of processing that Sophie Arnoult is currently devising.
 *   2020-12-07 A new TF version (0.6) has been delivered.
     Fixed some folio references.
     Also: a simple data export has been made: a csv file with all the words, and for each

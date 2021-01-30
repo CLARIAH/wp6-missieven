@@ -7,15 +7,19 @@ The version number of the TEI set is used in the
 [tfFromTrim](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromTrim.py)
 conversion.
 
-Possibly we create several TF data versions out of a single source version.
+We have created several TF data versions out of a single source version.
 The TF-App `missieven` states the TEI source version and TF version used in its metadata
 in its
-[config.yaml](https://github.com/annotation/app-missieven/blob/master/code/config.yaml)
+[config.yaml](https://github.com/annotation/app-missieven/blob/master/code/config.yaml).
+That will be the latest available version.
+
+There has been an encoding modification concerning footnotes from version 0.6 to version 0.7.
+See [transcription06](transcription06.md) for details on the previous encoding.
 
 The TEI source has been cleaned and the result is captured in a set of simplified, TEI-like XML files,
 in this repo.
 For an overview of the element usage in those files, see
-[elementsOut.tsv](https://github.com/Dans-labs/clariah-gm/blob/master/trimreport3/elementsOut.tsv).
+[elementsOut.tsv](https://github.com/Dans-labs/clariah-gm/blob/master/trimreport4/elementsOut.tsv).
 
 Here is a short explanation
 
@@ -37,7 +41,7 @@ und | underlined text
 sub | subscript text
 super | superscript text
 special | text with special typography for whatever reason
-fref, fnote | footnote marks and bodies, with `ref` attribute containing the footnote number
+note | footnote bodies, moved into the main text, with `mark` attribute containing the footnote number
 folio | reference to original folio
 
 This XML has been converted rather straightforwardly into Text-Fabric, which is a graph of annotated
@@ -54,14 +58,17 @@ A complete account is in
 
 ## Text
 
-The running, unmarked text is original letter text, written between 1610 and 1761
+The text consists of three types of text:
 
-The italic paragraphs, usually but not always between brackets, are editorial comments,
+**original** The running, unmarked text is original letter text, written between 1610 and 1761.
+
+**editorial** The italic paragraphs, usually but not always between brackets, are editorial comments,
 written between 1960 and 2007.
 
-### Footnotes
+**footnotes** At the bottom of the text there is explanatory text that targets words in the
+running text, both original text and editorial text.
 
-Both types of text are annotated with footnotes.
+### Footnotes
 
 There are two kind of footnotes: 
 
@@ -75,22 +82,23 @@ This dataset does not make the distinction between original footnotes and editor
 
 There is some complexity in the footnote numbering:
 
-1. sometimes the numbering skips a position
-2. in the lower volumes, the numbering is by page, in the higher volumes by letter
-3. a footnote text can be referenced by multiple footnote reference with the same number
+1. sometimes the numbering skips a position;
+2. in the lower volumes, the numbering is by page, in the higher volumes by letter;
+3. a footnote text can be referenced by multiple footnote reference with the same number;
 
 In the case of multiple references, we have duplicated the footnote text into as many copies,
 so that we can maintain a 1-1 correspondence between references and footnotes.
 In such cases, we have adapted the numbering.
 
 In the dataset, the footnote numbers are not important any more, because the footnote bodies
-have become features that annotate the words where the corresponding footnote marks occur.
+have moved into the running text at the exact position of their corresponding references.
 Yet we have retained the footnote number in the footnote body.
 Because of the remapping of multiple references, the footnote number you see in the dataset may be
 one or more off w.r.t. the footnote number you see in the original.
 
 If there are multiple footnotes to the same word, we concatenate
-the material of the footnotes (including their marks), separated by a double newline.
+the material of the footnotes (including their marks).
+However, this does not occur in this corpus/
 
 ## Nodes
 
@@ -138,15 +146,18 @@ Only the original letter contents and the editorial remarks are stored word by w
 The footnotes are stored one by one, as values of the feature `fnote`, see below.
 
 Next to the `trans` and `punc` features, there are the `transo`, `punco` and `transr`, `puncr` 
-feature pairs. They contain the same information as `trans` and `punc`, but only for those words
-that are original text resp. editorial text, and they are empty outside their textual scope.
+and `transn` and `puncn` feature pairs.
+They contain the same information as `trans` and `punc`, but only for those words
+that are original text resp. editorial text, resp. footnote text,
+and they are empty outside their textual scope.
 
 The dataset defines text formats (in the *otext* feature) that make use of these features:
 
 ```
 @fmt:text-orig-full={trans}{punc}
-@fmt:text-orig-remark={transr}{puncr}
 @fmt:text-orig-source={transo}{punco}
+@fmt:text-orig-remark={transr}{puncr}
+@fmt:text-orig-note={transn}{puncn}
 ```
 
 By choosing a text format you can selectively show original text only, editorial text only,
@@ -155,29 +166,52 @@ or all text.
 **Note**
 Folio references also show up when selecting editorial text.
 
-When words have received special formatting, it is stored in flag features.
+There are flag features to indicate which text type words have: `isremark`, `isnote`, `isorig`, `isfolio`.
+
+**Note**
+All words in the original letters have `isorig=1`, i.e. the word feature `isorig` has value 1 for these words.
+
+When words have received special formatting, it is also stored in flag features.
 These features have the value 1 if the word has that formatting, and are undefined for words
 not having the feature.
+All these flag features have a name that starts with `is`: `isemph`, `issub`, `isund`, etc.
 
 All **word** features:
 
 feature | type | description
 --- | --- | ---
-emph | 1 or absent | whether the word is set in emphatic typography
-fnote | string | footnotes associated with this word, including their marks, separated by double new lines if their are multiple ones
-folio | 1 or absent | whether the word is part of a folio reference
+isemph | 1 or absent | whether the word is set in emphatic typography
+isfolio | 1 or absent | whether the word is part of a folio reference
+isnote | 1 or absent | whether the word is part of a footnote
+isorig | 1 or absent | whether the word is part of a the original text of the letters
+isref | 1 or absent | whether the word belongs to a reference
+isremark | 1 or absent | whether the word belongs to editorial content
+issub | 1 or absent | whether the word is in subscript, possibly the numerator of a fraction
+issuper | 1 or absent | whether the word is in superscript, possibly the numerator of a fraction
+isspecial | 1 or absent | whether the word has special typography or a strange value (possibly OCR effects)
+isund | 1 or absent | whether the word is underlined, possibly the total amount in a calculation
 punc | string | punctuation and or white space after the word
 punco | string | as `punc`, but only for original letter content
 puncr | string | as `punc`, but only for editorial content
-ref | 1 or absent | whether the word belongs to a reference
-remark | 1 or absent | whether the word belongs to editorial content
-sub | 1 or absent | whether the word is in subscript, possibly the numerator of a fraction
-super | 1 or absent | whether the word is in superscript, possibly the numerator of a fraction
-special | 1 or absent | whether the word has special typography or a strange value (possibly OCR effects)
+puncn | string | as `punc`, but only for footnote content
 trans | string | the value of the word
 transo | string | as `trans`, but only for original letter content
 transr | string | as `trans`, but only for editorial content
-und | 1 or absent | whether the word is underlined, possibly the total amount in a calculation
+transn | string | as `trans`, but only for footnote content
+
+### node type `note`
+
+These are footnotes.
+They have a mark that roughly corresponds to the footnote mark on the printed page.
+Their words are slots that have been inserted just after the location of the footnote mark.
+
+**Note**
+All words in a `note` have `isnote=1`, i.e. the word feature `isfolio` has value 1 for these words.
+
+feature | type | description
+--- | --- | ---
+mark | int | the footnote mark
+note | edge feature | from a slot node that corresponds with the position preceding a footnote mark to a footnote node
 
 ### node type `volume`
 
@@ -258,7 +292,7 @@ The chunks of editorial text.
 This node type has no features, it only serves to group the editorial remarks.
 
 **Note**
-All words in a `remark` have `remark=`, i.e. the word feature `remark` has value 1 for these words.
+All words in a `remark` have `isremark=1`, i.e. the word feature `isremark` has value 1 for these words.
 
 Note also that that the contents of words in remarks are stored in the word features
 `trans` and `transr`, but not in `transo`. 
@@ -270,7 +304,7 @@ The folio references.
 This node type has no features, it only serves to group the words of the folio references.
 
 **Note**
-All words in a `folio` have `folio=`, i.e. the word feature `folio` has value 1 for these words.
+All words in a `folio` have `isfolio=1`, i.e. the word feature `isfolio` has value 1 for these words.
 
 Note also that that the contents of words in folio references are stored in the word features
 `trans` and `transr`, but not in `transo`. 

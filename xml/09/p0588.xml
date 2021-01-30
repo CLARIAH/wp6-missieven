@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="author" value="Van Cloon, Blom, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Pielat, Schaghen, Patras, Thedens, Coyett, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen"/>
 <meta key="authorFull" value="Dirk van Cloon, Wijbrant Blom, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Jacob Christiaan Pielat, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett, Gustaaf Willem van Imhoff, Elias de Haeze, Isaac van Schinne, Herman van Suchtelen"/>
 <meta key="day" value="6"/>
@@ -13,6 +14,7 @@
 <meta key="year" value="1734"/>
 <meta key="pid" value=""/>
 <meta key="status" value=""/>
+
 
 </header>
 <body>
@@ -68,7 +70,6 @@ Ib foelie, waarde
 <subhead>Ternate</subhead>
 <remark>Elias de Haeze door Heren XVII benoemd tot extra-ordinaris Raad van Indië; Paulus<lb/>
 Rauwenhof, gouverneur der Molukken, is uit zijn ambt ontzet en naar Batavia geroepen.</remark>
-
 <pb n="589" tpl="2" vol="09" facs="205_589"/>
 <remark>De Haeze in september als Raad geïnstalleerd. De commissaris Bernard heeft nog niet alle<lb/>
 Molukse zaken kunnen afwikkelen. Twee kooplieden naar Gorontalo , Limbotto, Pangi en<lb/>
@@ -93,7 +94,8 @@ zake teruggekeerd van Bima, geen goed hout verkrijgbaar<lb/>
 »</remark>
 <para>Den slegten uytval der besending, ten versoeke van de Cajelise gesanten na dat land<lb/>
 gedaan, om hetzelve onder de bescherming der E. Compagnie te brengen, hetwelk door<lb/>
-den tegenstand der Mandaresen niet heeft willen gelucken.</para>
+den tegenstand der Mandaresen niet heeft willen gelucken.
+</para>
 <remark>«Op 7 augustus is de berghopman Nathaniël Steinmetz met de Haften te Batavia aangekomen<lb/>
 en met de Windhond doorgezonden. Lading Windhond Bengaalse kleden t.w.v.<lb/>
 ƒ 17.925.</remark>
@@ -120,7 +122,6 @@ Met de Noorderkwartier voor
 Djambi. Er is 44.500 Ib Bangka-tin in voorraad, en 250 pikol witte peper. De sultan heeft<lb/>
 beloofd de pepercultuur krachtig te bevorderen. Hij heeft 3000 Spaanse realen van zijn<lb/>
 schuld af gelost. 10 pikol buskruit verkocht.</remark>
-
 <pb n="590" tpl="2" vol="09" facs="205_590"/>
 <subhead>Djambi</subhead>
 <remark>Jan Dernies resident te Djambi. De sloep Nagelwangse, de tandjungpura Goudmijn<lb/>
@@ -131,7 +132,8 @@ onderhoud van de pangeran Adipati Tjakranagara nog
 zijn verpande goud- en zilverwerk niet eerder terugkrijgen dan na betaling van 1139 Spaanse<lb/>
 realen. Zijn brieven zullen niet worden beantwoord voordat de doorhem toegezegde gezanten<lb/>
 zijn aangekomen.</remark>
-<para>SlAM</para>
+<para>SlAM
+</para>
 <remark>Op 31 juli de Jacoba met goederen en koopwaar t.w.v.
 ƒ 43.208 naar Siam, op 22<lb/>
 augustus de Ter Horst met een lading van
@@ -178,7 +180,6 @@ de klacht van patria over de late aankomst van de Bengaalse retouren is besloten
 personeel te gelasten zo spoedig mogelijk de aanwezige kleden in twee schepen te<lb/>
 laden,<lb/>
 »</remark>
-
 <pb n="591" tpl="2" vol="09" facs="205_591"/>
 <para>
 - mitsgaders met het naspring in de aanstaande maand october nog uyt de Ganges<lb/>
@@ -186,11 +187,16 @@ na de hoogte van Sunda’s engte te senden, onder de wimpel van den oudsten schi
 op een der eerste herwaarts comende scheepen; die op de voorsz. hoogte gecomen zijnde,<lb/>
 den breeden raad sal moeten beleggen, en daar in kennisse geeven van den staat der<lb/>
 voormelte 2 kielen; dewelke daartoe in staat geoordeelt werdende, hunne reysen zullen<lb/>
-moeten vervolgen na Cabo de Goede Hoop.</para>
+moeten vervolgen na Cabo de Goede Hoop.
+</para>
 <remark>«Deze bodems zijn extra bewapend. De Alsem, 130 voet lang, voert i.p.v. 22 stukken<lb/>
 geschut en 2700 Ib buskruit 26 stukken en 3300 Ib. De Slot Kronenburg, van 110 voet met<lb/>
 14 stukken en 1700 Ib, voert nu 22 stukken en 2200 Ib buskruit. Elk is bemand met 80<lb/>
-zeevarenden en 15 militairen, bij versterf in Bengalen of in Straat Sunda aan te vullen.<fref ref="1"/>  Op<lb/>
+zeevarenden en 15 militairen, bij versterf in Bengalen of in Straat Sunda aan te vullen.
+<note mark="1"><emph>DAS</emph> III, 325, noemt voor Alsem 74 zeevarenden en 15 soldaten, en voor de Slot Kronenburg in<lb/>
+totaal 76 man.<lb/>
+</note>
+Op<lb/>
 18 juni Jan Albert Sichterman directeur van Bengalen i.p. v. de overleden Rogier Beerenaard.</remark>
 <subhead>COROMANDEL</subhead>
 <remark>Op 12 mei daar naar toe de Castricum en de Wolphaartsdijk, met o.a. 450 last rijst ,<lb/>
@@ -202,7 +208,10 @@ gember, 240 blokken en 6000 vloerstenen van arduin; waarde
 ƒ 311.745. De gewezen gouverneur<lb/>
 Pla kwam over. De prijzen van kleden zijn gestegen. Hoge prijs graan en katoen<lb/>
 door de voortdurende droogte. Machilipatnam en Bimlipatam hebben 17602 last nely naar<lb/>
-Nagapattinam gezonden, en daar 34.250 mediten<fref ref="2"/>  ingekocht tegen 1100 pardau.</remark>
+Nagapattinam gezonden, en daar 34.250 mediten
+<note mark="2">Medite, maat.<lb/>
+</note>
+ingekocht tegen 1100 pardau.</remark>
 <subhead>Ceylon</subhead>
 <remark>Op 26 juli aankomst Duinbeek met 667 balen fijne kaneel, waarde totale lading<lb/>
 f 18.470. De gravetten nog steeds gesloten. Op 12 mei zijn de Sleewijk en Slot Kronenburg<lb/>
@@ -227,13 +236,6 @@ worden betaald ter voldoening van de schuld van de koopman Sundradas Wistnadas e
 voor de goederen van de gestrande Borssele. Ondanks de onrust in Malabar is Ceylon<lb/>
 voorzien van een pepervoorraad voor twee jaar van 1.931.874 Ib. De loge te Ponnani is<lb/>
 voltooid. Nog geen begin met de bouw van een stenen pakhuis te Pesa en het leveren van</remark>
-
-<fnote ref="1"><emph>DAS</emph> III, 325, noemt voor Alsem 74 zeevarenden en 15 soldaten, en voor de Slot Kronenburg in<lb/>
-totaal 76 man.<lb/>
-</fnote>
-<fnote ref="2">Medite, maat.<lb/>
-</fnote>
-
 <pb n="592" tpl="2" vol="09" facs="205_592"/>
 <remark>de afgesproken peper. Op 12 april een vreemd schip in de Modderbaai , waarvan 16 bemanningsleden<lb/>
 gevangen zijn genomen<lb/>
@@ -254,7 +256,8 @@ plaats, voor en al eer onse ministers kennisse hadden gekregen dat het eene Swee
 bodem was, weshalven se hun vorige ordres aan de overheeden der even gemelte scheepen<lb/>
 renoveerden, en haar na het in ’t gesigt gecomen schip deeden zeylen, dog vermits dien<lb/>
 vreemdeling haar niet afwagte, maar de facto op hare aannadering terug keerde en uyt<lb/>
-het gesigt geraekte.</para>
+het gesigt geraekte.
+</para>
 <remark>«20 juli ontslag commandeur Adriaan Maten. Vervangen door Julius Valentijn Steijn<lb/>
 van Gollenesse.</remark>
 <subhead>Surat</subhead>
@@ -270,7 +273,8 @@ met
 Den Engelsen president mr. Henry Lauther met een esquader scheepen dier natie<lb/>
 ter rheede van Souratta gekomen was, en na den inlander een groote schrick veroorsaekt<lb/>
 te hebben eenige pretensie de Mooren hadde voorgehouden en daar omtrent - satisfac¬<lb/>
-tie bekomen.</para>
+tie bekomen.
+</para>
 <remark>«Ahmadabad heeft het meest te lijden van de twisten. Met de Wapen van Hoorn en ’s<lb/>
 Heer Arendskerke f 232.160 aan kleden voor Batavia en Ceylon verzonden. Met de Everswaart<lb/>
 en de Maria Adriana voor
@@ -286,7 +290,6 @@ De Valkenisse en de Noordwijkerhout naar Perzië gezonden.</remark>
 <subhead>Kaap de Goede Hoop</subhead>
 <remark>Met de Hazenburg vandaar aangekomen o.a. 200 last tarwe, 4 last rogge, 6917 Ib<lb/>
 ivoor. Met de Maria Adriana, Vis, Haften, Noordwijkerhout en Purmerlust o.a. 192 last</remark>
-
 <pb n="593" tpl="2" vol="09" facs="205_593"/>
 <remark>tarwe, 13.825 Ib ivoor. Totale waarde f 40.213. Adriaan van der Graaf, schipper van de<lb/>
 verongelukte Blijdorp, naar Batavia gestuurd. De schipper van de Alsem overleden; hij<lb/>
@@ -296,7 +299,8 @@ zou worden vervolgd omdat<lb/>
 - hij zijnen opperstuurman Jan Tilman (dien hij gedeporteerd hadde) tot weynig<lb/>
 tijds voor zijn dood agter op de campainje in de boeyen geslooten gehouden, en aan alle<lb/>
 injuriën van de lugt bloot gesteld, mitsgaders dus zoude hebben laten sterven, en bovendien<lb/>
-het nodige aan de sieken binnen boort onhouden [had].</para>
+het nodige aan de sieken binnen boort onhouden [had].
+</para>
 <remark>«De Delfland op 11 april naar Madagascar, met geld en goederen t.w.v. f 29.637 voor<lb/>
 inkoop van slaven.</remark>
 <subhead>Java’s Oostkust</subhead>
@@ -325,7 +329,8 @@ peper geleverd. Bericht dat<lb/>
 op Lampong ijder van 20 a 30 negorijen, beginnende van Sillebaar tot aan Lampong<lb/>
 Samanka, sig aan d’Engelsen hebben onderworpen, en aan deselve bereeds een goede<lb/>
 quantiteyt peper geleverd, die aldaar bewaard wierd door een zergeant en 20 Boegineese<lb/>
-zoldaten.</para>
+zoldaten.
+</para>
 <remark>«Twijfel of de door de sultan toege zegde verlaging van 21 tot 11% overwicht inderdaad<lb/>
 wordt toegepast. De sultan verklaart de trage leverantie door zijn wens alleen rijpe en droge<lb/>
 peper te leveren. Hij hoopt over vier jaar meer dan ooit te leveren, uit een aantal op zijn<lb/>
@@ -336,7 +341,6 @@ gezaghebber van Bantam met
 <remark>Joan Paul Schaghen door Heren XVII benoemd tot ordinair Raad van Indië, Herman<lb/>
 van Bayen, Herman van Suchtelen, Elias de Haeze en mr. Isaac van Schinne tot extraordinaire<lb/>
 Raden. Van Suchtelen en Van Schinne hebben op 23 juli de eed afgelegd, zij komen</remark>
-
 <pb n="594" tpl="2" vol="09" facs="205_594"/>
 <remark>in rang na Van Bayen. De Haeze is geïnstalleerd op 3 september, hij volgt op Van Suchtelen.<lb/>
 Schaghen is de rang verleend boven Pielat. Deze heeft verzocht zijn plaats te mogen behouden<lb/>
@@ -369,7 +373,8 @@ heer Raad ordinaris Wijbrand Blom, boven den nieuw verkooren heer directeur-gene
 Adriaan Oostwalt, dog ’s daags daaraan, door gemelde heer Blom uyt eygen beweginge<lb/>
 met toestemminge van de verdere leeden daarvan gedesisteerd, en overgelaten aan gemelte<lb/>
 heer Oostwalt, dewelke ingevolge vandien zijn zitplaats genomen heeft in de eerste<lb/>
-stoel naast den Gouverneur-Generaal.</para>
+stoel naast den Gouverneur-Generaal.
+</para>
 <remark>«Een nadere uitleg van Blom, Valckenier en Schaghen over het voorstel van de G.-G.<lb/>
 gaat over. Op 25 juli 1734 is Cornelis van Gaasbeek tot Thienhoven, president van de Raad<lb/>
 van Justitie, overleden. In juli is aan mr. Gerard Gerlach zitting verleend in de Raad van<lb/>
@@ -383,15 +388,14 @@ met dat van Ceylon, teneinde<lb/>
 »</remark>
 <para>
 - bij ontmoetinge van vijandelijke kielen in cas van eenige rupture tusschen den<lb/>
-Nederlandschen staat en eenige Europeese mogendheden<fref ref="3"/>  daartegen bestand te wesen,<lb/>
+Nederlandschen staat en eenige Europeese mogendheden
+<note mark="3">Hier wordt waarschijnlijk gedoeld op de Poolse Successieoorlog (1733-1735); de Republiek wist<lb/>
+hierin neutraal te blijven.<lb/>
+</note>
+daartegen bestand te wesen,<lb/>
 ter welker occasie al meteenen verstaan is alle de retourschepen met meerder geschut<lb/>
 dan ordinair, en dus een schip van 160 voet, met 38 in steede van 32, een dito van 145<lb/>
 met 36 in plaats van 28, en een schip van 130 voeten met 36 voor 22 stucken kanon te<lb/>
-
-<fnote ref="3">Hier wordt waarschijnlijk gedoeld op de Poolse Successieoorlog (1733-1735); de Republiek wist<lb/>
-hierin neutraal te blijven.<lb/>
-</fnote>
-
 <pb n="595" tpl="2" vol="09" facs="205_595"/>
 monteeren, en na die proportie daarnevens met andere scheeps- en oorlogsbehoeften te<lb/>
 voorsien, uytgesondert manschap, ter saké wij ons niet in staat bevinden voormelte bodems<lb/>
@@ -402,7 +406,8 @@ om de thans afgaande retour, en andere in lading leggende scheepen voor Mallabaa
 Persia en Mocha, met haar gewoon getal te voorsien gelijk de eerstgenoemde almede niet<lb/>
 verder sullen konnen strecken dan ter suppletie dergeenen, die na expiratie van tijd na<lb/>
 Nederland verlost zijn, mitsgaders tot matige adsistentie van de meestbehoeftigste buytencomptoiren<lb/>
-van India.</para>
+van India.
+</para>
 <remark>«Commandeur van de eerste retourvloot is De Witte van Schooien. Personalia. Pielat<lb/>
 zal met de tweede vloot terugkeren , die in totaal uit 12 bodems zal bestaan. De twee Bengaalse<lb/>
 retourschepen moeten zich bij De Witte aansluiten. Ingekocht 16.250 Ib parelmoerschelpen<lb/>
@@ -416,7 +421,8 @@ Verdere lading 265.000 Ib kruidnagels , verdeeld als volgt:<lb/>
 »</remark>
 <para>100. 000 lb voor de Kamer tot Amsterdam, 65.000 lb voor de Kamer tot Zeeland,<lb/>
 20.000 lb voor de Kamer tot Delft, 30.000 lb voor de Kamer tot Rotterdam, 20.000 lb<lb/>
-voor de Kamer tot Hoorn, en 30.000 lb voor de Kamer tot Enkhuysen.</para>
+voor de Kamer tot Hoorn, en 30.000 lb voor de Kamer tot Enkhuysen.
+</para>
 <remark>«De Witte van Schooten en Pielat is toegestaan twee Japanse comptoiren met lakwerken<lb/>
 en porcelein mee te nemen. Ze mogen naast de gewone goederen twee maal zoveel volume<lb/>
 meenemen als de 36 canasters toegestaan aan de gerepatrieerde secretaris Godefridus Bogaart<lb/>
@@ -429,7 +435,8 @@ Herstelling. Voor de tweede bezending zijn aangewezen<lb/>
 <para>
 - voor Amsterdam Duynbeek en Castricum, voor Zeeland Wickenburg, voor<lb/>
 Delft Westerbeek, voor Rotterdam Papenburg, voor Hoorn Kerkwijk, en voor Enkhuysen<lb/>
-Schuytwijk.</para>
+Schuytwijk.
+</para>
 <remark>«Daarna zullen in februari of maart nog twee schepen volgen met thee of grove doeken.<lb/>
 Vanwege de grote vraag naar kruit is een vierde kruitmolen in werking gesteld. Verzoek<lb/>
 om kruit uit patria, ,,in dese dangereuse
@@ -443,7 +450,6 @@ van de Kasteel van Woerden en de Knappenhof is besloten tien schepen vooraf te d
 af zeilen. De Nederlandse manufacturen zijn verkocht met 53U% verlies, en barnsteen met<lb/>
 38,ls%. 604.810 rsd aan wissels gekocht, o.a. door Johanna Pelgrom, weduwe van de<lb/>
 directeur-generaal Anthony Huysman, 360.000 rsd uit de boedel van Jacobus Sadelijn. Joan</remark>
-
 <pb n="596" tpl="2" vol="09" facs="205_596"/>
 <remark>Franqois de Witte van Schooten maakt aan zichzelf bij terugkeer 144.000 rsd over.De waarde van de lading van de vier retourschepen bedraagt ƒ 2.533.029, namelijkƒ 77.359 Coromandelse kleden; ƒ 92.793 van Surat; f 109.072 Kirmanse wol; ƒ 1.157.744Bengaalse goederen; en ƒ 1 .096.060 uit Batavia, o.a. thee, koffie, tin, suiker en sapanhout) .Nu volgt het bedragen van ider bodems inlading, als voor Amsterdam»</remark>
 <table n="144">

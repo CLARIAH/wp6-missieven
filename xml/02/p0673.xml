@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="673"/>
 <meta key="title" value="Maetsuycker, Hartsinck, Verburch, Steur, Van den Bogaerde; Batavia, 19 januari 1654"/>
 <meta key="rawdate" value="19 januari 1654"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Dirck Jansz Steur, Gaspar van den Bogaerde"/>
 
+
 </header>
 <body>
 <pb n="673" tpl="1" vol="02" facs="2_112_0673"/>
@@ -26,7 +28,6 @@ DIRCK JANSZ. STEUR EN GASPAR VAN DEN BOGAERDE, BATAVIA<lb/>
 ƒ 2974809; ze is resp. 17 april en 6 mei van<lb/>
 de Kaap vertrokken; uit patria zijn aangekomen . .
 .<lb/>
- 
 <table n="38">
 <row n="38" row="1">
 <cell n="38" row="1" col="1"></cell>
@@ -149,14 +150,16 @@ de Kaap vertrokken; uit patria zijn aangekomen . .
 <cell n="38" row="15" col="6">— ;</cell>
 </row>
 </table>
- van dit laatste schip zijn bovendien vele zieken aan land gezet; de Rode Vos kwam 2<lb/>
+van dit laatste schip zijn bovendien vele zieken aan land gezet; de Rode Vos kwam 2<lb/>
 juni aan de Kaap en bleef daar, van waar de Swarte Vos naar Gamron is gevaren;<lb/>
 nog 11 schepen worden verwacht; daar zoveel schepen laat aankwamen, is de retourvloot,<lb/>
 van slechts 5 schepen, te laat klaar<lb/>
 »</remark>
 <para>Hier te lande en hebben, voor sooveel ons tot noch toe bekent is, die van<lb/>
 voorsz. natie
-<fref ref="1"/>  ons noch de minste afbreuck niet gedaen, maer hebben wij in plaets<lb/>
+<note mark="1">NI. de Engelsen.<lb/>
+</note>
+ons noch de minste afbreuck niet gedaen, maer hebben wij in plaets<lb/>
 van dien reede 5 schepen van haer genomen, namentlijck hier omtrent Batavia het<lb/>
 schip de Duyf, comende van Macassar na Bantam, met een cargasoentje, dat bij<lb/>
 vercoop uytgebracht heeft de somme van ƒ 29 920.6.4 . . . ende in Golpho van<lb/>
@@ -166,14 +169,11 @@ toebehooren, hoewel sij vrij meerder daerbij comen te verliesen, connende (soo h
 schijnt) soo naeuwen toesicht in diergelijcken occasie niet genomen werden, of<lb/>
 weten haer de perticuliere ministers daerbij te verrij eken voornamentlijck bij<lb/>
 veroveringe van comptanten ende andere clenicheden, die licht te ver duy ster en<lb/>
-sijn, gelijck deselve schepen veel ingehad hebben.</para>
+sijn, gelijck deselve schepen veel ingehad hebben.
+</para>
 <remark>«Gegevens Amboina, vgl.
 <ref>Ambonse Historie, p. 40-62, </ref><ref>Daghregisters, 16 mei 1653, p. 65-69, 24 juli, p. 104-105, </ref><ref>Valentijn II, </ref>Ambonsche Zaalcen, p. 182-189,<lb/>
 plan van De Vlaming op Manipa rijst door 2000 Chinezen te doen planten; de Hoge</remark>
-
-<fnote ref="1">NI. de Engelsen.<lb/>
-</fnote>
-
 <pb n="674" tpl="1" vol="02" facs="2_112_0674"/>
 <remark>Regering meent, dat geen Chinezen daartoe bereid zijn; vertrek van De Vlaming naar<lb/>
 Amboina, vgl.
@@ -191,24 +191,42 @@ weinig verwacht; toen De Vlaming uit Amboina vertrok, bleven er 745 koppen, w.v.
 met den Coninck Mandarsaha, geaccompagneert van den Coninck van Bachan,<lb/>
 doentertijt op Maleye aen het casteel zijnde, met het jacht de Zeemeeuw ende ’t<lb/>
 gallot Onrust mitsgaders de Tarnataense na vale macht, sterck ongeveer 600 coppen,<lb/>
-daeronder 150 soldaten, derwaerts<fref ref="1"/>  geruckt sijn ende eerst Dodingo . . mitsgaders<lb/>
+daeronder 150 soldaten, derwaerts
+<note mark="1">NI. naar Halmaheira.<lb/>
+</note>
+geruckt sijn ende eerst Dodingo . . mitsgaders<lb/>
 6 dagen daerna Gilolo selffs tot gehoorsaemheyt gereduceert hebben, sijnde<lb/>
 den Coninck Quitchil Callematte met sijn broeder Manilha ende de gantse Temataense<lb/>
-overheyt der rebellen aldaer - uytgesondert den cap.n laut Quitchil Saidi<fref ref="2"/> <lb/>
+overheyt der rebellen aldaer - uytgesondert den cap.n laut Quitchil Saidi
+<note mark="2">Ketjil Saidi, de kapitan laut van Temate, was een der voornaamste tegenstanders<lb/>
+van Mandarsjah. Na het verlopen van de opstand in de Molukken vluchtte hij naar Ceram,<lb/>
+waar hij 1655 sneuvelde.<lb/>
+</note>
+<lb/>
 ende hoccum Tomagola
-<fref ref="3"/> , die, Callemattas voornemen, soo het schijnt, vermerct<lb/>
+<note mark="3">Tomagola was de naam van de aanzienlijke Temataanse familie, waaruit steeds de<lb/>
+stadhouders voor de Ambonse kwartieren werden gekozen. Hier is een lid van deze familie<lb/>
+bedoeld.<lb/>
+</note>
+, die, Callemattas voornemen, soo het schijnt, vermerct<lb/>
 hebbende, haer eenige dagen tevooren na Sabou gesalveert hadden - vrijwillich<lb/>
 aen het jacht de Zeemeeuw verschenen, den Coninck Mandarsaha ende den e.<lb/>
 gouverneur te voet vallen ende om genade bidden, overleverende de vasticheyt op<lb/>
 Gilolo ende haren dienst aenbiedende om die van Sabou, Gommaknorra, Laloda
-<fref ref="4"/> ,<lb/>
+<note mark="4">Laloda, ten rechte Loloda, district in het westen van Noord-Halmaheira, ongeveer<lb/>
+op 1°45/ N.B. en 127£° O.L. met gelijknamige hoofdplaats.<lb/>
+</note>
+,<lb/>
 Talafoe
-<fref ref="5"/> , Xula ende Tacomy mede tot gehoorsaemheyt te brengen, waerop dan<lb/>
+<note mark="5">Talafoe, misschien is bedoeld het dorp Talapau aan de westkust van Makéan.<lb/>
+</note>
+, Xula ende Tacomy mede tot gehoorsaemheyt te brengen, waerop dan<lb/>
 oock aenstonts goetgevonden is mette gantse macht des volgenden daegs over<lb/>
 landt na Sabou te marcheren op hope om den voors. cap.tn laut en de hoccom<lb/>
 levendich in handen te becomen. Doch viel op deselve tijt een seer vehemenben<lb/>
 regen, gelijck voort ettelijcke dagen achter den ander, waerdoor de wegen onbruyckbaer<lb/>
-ende dat exploict nagelaten ende gestaeckt wierd.</para>
+ende dat exploict nagelaten ende gestaeckt wierd.
+</para>
 <remark>«Ook een latere poging mislukt; vervolg gegevens Molukken,
 <ref>Valentijn I, </ref>Molukse<lb/>
 Zaaken, p. 303-305<lb/>
@@ -216,36 +234,19 @@ Zaaken, p. 303-305<lb/>
 <para>
 . .
 .
-<fref ref="6"/>  van den gouverneur van Gammelamma, Francisco d’Esteibar, dat hij<lb/>
+<note mark="6">Bericht.<lb/>
+</note>
+van den gouverneur van Gammelamma, Francisco d’Esteibar, dat hij<lb/>
 geen schuit aen des Conings
-<fref ref="7"/>  doen en heeft, hem menichmalen vermaent hebbende<lb/>
+<note mark="7">Die van Tidore.<lb/>
+</note>
+doen en heeft, hem menichmalen vermaent hebbende<lb/>
 daervan
-<fref ref="8"/>  te desisteren, maer dat naer hem niet meer en begeerde te luysteren<lb/>
+<note mark="8">NL van het vijandig optreden tegen Temate.<lb/>
+</note>
+te desisteren, maer dat naer hem niet meer en begeerde te luysteren<lb/>
 nochte oock, tot verscheyden malen ontbooden sijnde, aen Gammelamma te<lb/>
 verschijnen, hetwelck sij dan oock soo qualij ck genomen hadden, dat sij naderhand!<lb/>
-
-<fnote ref="1">NI. naar Halmaheira.<lb/>
-</fnote>
-<fnote ref="2">Ketjil Saidi, de kapitan laut van Temate, was een der voornaamste tegenstanders<lb/>
-van Mandarsjah. Na het verlopen van de opstand in de Molukken vluchtte hij naar Ceram,<lb/>
-waar hij 1655 sneuvelde.<lb/>
-</fnote>
-<fnote ref="3">Tomagola was de naam van de aanzienlijke Temataanse familie, waaruit steeds de<lb/>
-stadhouders voor de Ambonse kwartieren werden gekozen. Hier is een lid van deze familie<lb/>
-bedoeld.<lb/>
-</fnote>
-<fnote ref="4">Laloda, ten rechte Loloda, district in het westen van Noord-Halmaheira, ongeveer<lb/>
-op 1°45/ N.B. en 127£° O.L. met gelijknamige hoofdplaats.<lb/>
-</fnote>
-<fnote ref="5">Talafoe, misschien is bedoeld het dorp Talapau aan de westkust van Makéan.<lb/>
-</fnote>
-<fnote ref="6">Bericht.<lb/>
-</fnote>
-<fnote ref="7">Die van Tidore.<lb/>
-</fnote>
-<fnote ref="8">NL van het vijandig optreden tegen Temate.<lb/>
-</fnote>
-
 <pb n="675" tpl="1" vol="02" facs="2_112_0675"/>
 desselffs brieven niet meer en hadden willen beantwoorden, ja, dat sij, tegen dat<lb/>
 hij van sijn tocht, na Weda gedaen, soude terughcomen, omtrent Gammacnora<lb/>
@@ -267,13 +268,16 @@ dwanck te houden, doch apparent om tegen ons in defentie te wesen, nadien sij we
 connen afmeten, dat wij ons metten Coninc Mandarsaha tegen Tydor sullen voegen<lb/>
 ende haer consequentelijck mede in ’t spel trecken, bij denselven geïnteresseert<lb/>
 sijnde ende de nagelen van desselffs landt den Coninck van Castella
-<fref ref="1"/>  voor een<lb/>
+<note mark="1">Castella, Castilië, Spanje.<lb/>
+</note>
+voor een<lb/>
 derde toebehoorende, die sij wel gissingh maeken, wij mede sullen trachten te<lb/>
 extirperen. ... In mart voorleden waren 12 joncken van Manilha . . . voor<lb/>
 Gammalamma verschenen met alderhande provisiën ende noodlij ckheden mitsgaders<lb/>
 50 nieuwe soldaten, dat een sober ontset is, veroorsaeckt, omdat noch al<lb/>
 geen schepen uyt Nova-Spanga in Manilha aengecomen waren, sijnde nu vier jaren<lb/>
-achter den ander.</para>
+achter den ander.
+</para>
 <remark>«De strijd met Tidore
 <ref>, Valentijn I, </ref>Molukse Zaaken
 , p. 305-306 en II, Ambonsche<lb/>
@@ -283,7 +287,9 @@ Zaaken, p. 189-190<lb/>
 Ondertusschen hadden gouverneur Jacob Hustaerd metten Coninck Mandarsaha,<lb/>
 20 vaertuygen ende 100 soldaten weder een preuve op Sabou gedaen van de<lb/>
 zeecant, nadien sij
-<fref ref="2"/>  het tusschen haer ende Gilolo soodanich met voet- ende<lb/>
+<note mark="2">NI. de rebellen.<lb/>
+</note>
+het tusschen haer ende Gilolo soodanich met voet- ende<lb/>
 buyckangels hadden beset, datter geen doorcomen en was, ende op een tweesprong,<lb/>
 een stuck de rivier opwaerts, een batterij van den vijandt verovert met een stuck<lb/>
 van 7 ® ijser, in plaets van welcke sij weder een baricade hebben opgeworpen aen<lb/>
@@ -292,18 +298,12 @@ ende 50 Tarnatanen nevens een vaertuygh beset gelaten, waermede den<lb/>
 vijandt te water genoechsaem geblocqueert is ende wort aen de andere zijde Gilolo<lb/>
 mede noch met 10 Nederlanders ende goet getal Ternatanen ingehouden onder het<lb/>
 gesach van den onder coningh van Gilolo
-<fref ref="3"/> , opdat den vijandt daer niet weder en<lb/>
+<note mark="3">Een aan Mandarsjah getrouw hoofd.<lb/>
+</note>
+, opdat den vijandt daer niet weder en<lb/>
 come nestelen, een bequame ende sagourijcke plaets sijnde, van waer Ternate meest<lb/>
 plach gespijst te worden. Naderhandt is Gammacnorra, 4 mijlen van Sabou<lb/>
 gelegen, aen de ander sij de mede door d’onse overrompelt, vele der rebellen doot-<lb/>
-
-<fnote ref="1">Castella, Castilië, Spanje.<lb/>
-</fnote>
-<fnote ref="2">NI. de rebellen.<lb/>
-</fnote>
-<fnote ref="3">Een aan Mandarsjah getrouw hoofd.<lb/>
-</fnote>
-
 <pb n="676" tpl="1" vol="02" facs="2_112_0676"/>
 geslagen ende de vordere weder in genade aengenomen, uytgesondert den sengadie,<lb/>
 die ontcomen ende na langh swerven in ’t bosch met hondert coppen binnen Sabou<lb/>
@@ -312,7 +312,8 @@ selffs mede afgecomen, versoeckende in genade aengenomen te mogen worden, dat<lb
 haer vergundt wierd. Doch den sengadie van Loloda is corts daeraen mette verschijninge<lb/>
 van den cap.tn laut Saidi met een goet deel van sijn volck wederom<lb/>
 afgevallen ende totte rebellen overgegaen, waeruyt blijct, hoe wijnich staet op dat<lb/>
-volck te maken sij .</para>
+volck te maken sij .
+</para>
 <remark>«Tocht van Cos naar de Papoese eilanden,
 <ref>Valentijn 7, </ref>Molukse Zaken, p. 307308,<lb/>
 <ref>Nieuw-Guinea I, p. 66-67</ref>; grote sterfte op Makéan; Majo afgelopen,
@@ -326,14 +327,20 @@ inwoonders zijn, oock veel nagelbomen gevonden worden, daer ons lieten voorstaen
 hij wel toe te disponeren soude sijn geweest, hetwelck nu mettet terughcomen van<lb/>
 den meesten hoop der rebellen een ander aensien heeft, soodat wij genootsaeckt<lb/>
 zullen worden, tenminsten vooreerst ende totdat sien werwaers hen de saacken<lb/>
-met Tidor sullen neygen, het casteel Orangie op Maleye noch in te houden.</para>
+met Tidor sullen neygen, het casteel Orangie op Maleye noch in te houden.
+</para>
 <remark>«Voorstel dit kasteel te verkleinen en dat op Batjan, Barneveld, op te geven<lb/>
 »</remark>
 <para>Eenelijck hebben den e. De Vlamingh gequalificeert om, des geraden dunckende,<lb/>
 het fort Callelaboca
-<fref ref="1"/> , op Ternate leggende tegenover een Spaense vastichheyt,<lb/>
+<note mark="1">Callelaboca en Siobbe waren versterkingen, vermoedelijk noordelijk van Takome op<lb/>
+het eiland Ternate, waarvan de juiste ligging reeds
+<emph>Valentijn</emph> niet bekend was ; I, Moluccos, p. 13.<lb/>
+</note>
+, op Ternate leggende tegenover een Spaense vastichheyt,<lb/>
 genaemt Siobbe, te mogen afwerpen ende verlaten, alsoo hetselve van<lb/>
-velen geoordeelt wort aldaer onnut te wesen.</para>
+velen geoordeelt wort aldaer onnut te wesen.
+</para>
 <remark>«Zending van een fluit naar Menado, afgedr.
 <ref>Minahassa, p. 14</ref>; ook van Mindanao<lb/>
 rijst te halen; het jacht Delfshaven is bij Majo vergaan; de van Ternate komende<lb/>
@@ -351,17 +358,12 @@ ende administrateur van ’t rijck geweest zijnde, noch groote authoriteyt behou
 heeft, dewelcke, soo het schijnt, ongeern overgeven sou, wordende wellicht door die<lb/>
 van Macassar daerin gestijft, soodat wij niet sonder reden voor denselven Coninck<lb/>
 becommert sijn, soo om de passagie, die wij jaerlicx gints ende weder door ende<lb/>
-
-<fnote ref="1">Callelaboca en Siobbe waren versterkingen, vermoedelijk noordelijk van Takome op<lb/>
-het eiland Ternate, waarvan de juiste ligging reeds
-<emph>Valentijn</emph> niet bekend was ; I, Moluccos, p. 13.<lb/>
-</fnote>
-
 <pb n="677" tpl="1" vol="02" facs="2_112_0677"/>
 om zijn landt hebben, alsoock omdat de Butonners ons in Amboina, Banda ende<lb/>
 Ternate seer schadelijck souden connen sijn, bijaldien onse vijanden quamen te<lb/>
 worden, een seer volckrijck landt zijnde ende die al vele vaertuygen souden connen<lb/>
-uytmaeken.</para>
+uytmaeken.
+</para>
 <remark>«Contacten met Buton, vgl.
 <ref>Daghregisters 16 mei 1653, p. 68 </ref>en
 <ref>Valentijn II, </ref>Ambonsche Zaaken, p. 189, 192; De Vlaming .
@@ -381,7 +383,8 @@ te vesten, gevende voor, dat van meningh is sijne onderdanen voortaen tot het ri
 planten te houden om ons jaerlicx eenige scheepsladingen rijs te connen beschicken,<lb/>
 dat een goede saeke zoude sijn, maer vresen, dat hij niet machtich sal wesen hetselve<lb/>
 uyt te voeren, wes dan oock het stichten van een logie aldaer vooreerst noch sullen<lb/>
-uytstellen.</para>
+uytstellen.
+</para>
 <remark>«Brieven van dezen Koning, vgl.
 <ref>Daghregisters, 1653, p. 81 </ref>en 135; zending van<lb/>
 Hustaert naar Makassar, ibid., 16 mei, p. 65-68; andere berichten van daar, 24 juli,<lb/>
@@ -400,14 +403,14 @@ nadien Macassar een gelegen plaets is ende van vele landen ende rij eken gefrequ
 wort, die wij daer bij vrede niet connen van daen houden, selffs niet de<lb/>
 Portugesen ofte andere vijanden, nadien sij altijt sullen connen seggen, het Conincxofte<lb/>
 princenschepen ende -goederen sijn, gelijck met Francisco Viera rede gebleecken<lb/>
-is.</para>
+is.
+</para>
 <remark>«In dit jaar is daartoe nog mogelijkheid; De Vlaming meent, . . .<lb/>
 »</remark>
 <para>
 . . . dat het de Comp.e dienstich soude wesen op Bouton, wiens Coninck ons<lb/>
 seer genegen is, een cleene vasticheyt te begrijpen ende met guarnisoen beset te<lb/>
 houden om de jachten, langs de cust van Macassar cruyssende, tot een rende-vous<lb/>
-
 <pb n="678" tpl="1" vol="02" facs="2_112_0678"/>
 ende ververschplaets te dienen. Ende nadien Macassar in manieren voorsz. met<lb/>
 ernst aengetast wordende, wij desel ve alsdan in de oosterse eylanden niet te vresen<lb/>
@@ -421,7 +424,8 @@ wesen, op Buton voorsz. tec bequamer plaets daertoe uyt te soecken ende af te<lb
 sien een goede, hechte baricade op te werpen ende deselve met gerequireert getal<lb/>
 crijghsvolck beset te laten, mitsgaders in hetselve vaerwater sooveel jachten ende<lb/>
 chaloupen over te laten blijven, als om Macassar wel te benaeuwen geoordeelt<lb/>
-sullen worden noodich te wesen.</para>
+sullen worden noodich te wesen.
+</para>
 <remark>«Koopman Buys is te Makassar wel bejegend en heeft er f. 21248. 11. 3 op verkoop<lb/>
 van textiel gewonnen; scheepvaart aldaar
 <ref>, Daghregisters, 24 juli 1653, p. 106-107</ref>;<lb/>
@@ -439,7 +443,9 @@ forten zijn in goede staat<lb/>
 »</remark>
 <para>
 Soo is den cap.tn Fredrick Gommersdorp eenige dagen daeraa wederom derwaerts<lb/>
-<fref ref="1"/>  gesonden mette . . . chaloupen ende 30 cloeke Nederlandse soldaten,<lb/>
+<note mark="1">NI. naar Damar.<lb/>
+</note>
+gesonden mette . . . chaloupen ende 30 cloeke Nederlandse soldaten,<lb/>
 die den 9 november daeraenvolgende weder op Neira terughgecomen is, hebbende<lb/>
 de fortresse op Damme wel gerepareert ende in behoorlijcke defentie mitsgaders<lb/>
 met 54 coppen beset gelaten ; doch is deselve fortresse naderhandt tusschen 8 ende<lb/>
@@ -451,17 +457,14 @@ altesamen gemassacreert te worden; door welck pericul dan geprickelt sijnde, zij
 handt aen ’t werck geslagen ende hetselve soodanich beneersticht hebben, dat sij<lb/>
 deselve fortresse binnen den tijt van 14 dagen weder opgemaect ende voltoyt<lb/>
 gecregen hebben, 20 voeten breeder ende in beter defensie als oyt tevooren, waerin<lb/>
-den coopman Josua Braconier sijn wackerheyt getoont heeft.</para>
+den coopman Josua Braconier sijn wackerheyt getoont heeft.
+</para>
 <remark>«Er is nog geen stenen redoute<lb/>
 »</remark>
 <para>
 . . . naderhandt is den e. De Vlamingh . . . , in de Xulaëse eylanden sijnde,<lb/>
 voorgecomen ende bekent geworden, hoe dat die van genoemde eylanden van oude<lb/>
 tijden altijt sterck op de voorsz. oosterse gewesten gevaren hebben, hen generende<lb/>
-
-<fnote ref="1">NI. naar Damar.<lb/>
-</fnote>
-
 <pb n="679" tpl="1" vol="02" facs="2_112_0679"/>
 met het rooven van menschen, die sij dan, thnyscomende, met goet voordeel wisten<lb/>
 te vercoopen, versoeckende, hen hetselve nu wederom mochte worden toegestaen,<lb/>
@@ -471,7 +474,8 @@ behoort te vergunnen, mits dat altijt eenige Nederlanders op hare vaertuygen<lb/
 sullen moeten voeren om op haer doen te letten, opdat sij onder dien deckmantel<lb/>
 geen specerijen mochten comen van daer te halen, als wanneer ons niet van noode<lb/>
 soude wesen eenich Nederlands guarnisoen in deselve eylanden te houden, nadien<lb/>
-wij door middel van deselve rovers haer sullen connen in dwanck houden.</para>
+wij door middel van deselve rovers haer sullen connen in dwanck houden.
+</para>
 <remark>«Daarom wordt af gezien van een redoute in steen; Braconier is van daar in juni<lb/>
 te Banda gekomen, toen was alles in Damar in goede orde; met de dorpen Babar en<lb/>
 Ilhy was een bestand gesloten, de handel daarmee hervat<lb/>
@@ -479,13 +483,18 @@ Ilhy was een bestand gesloten, de handel daarmee hervat<lb/>
 <para>Gemelte Braconier was met [de] . . . gallot naderhandt wederom naer Damme<lb/>
 vertrocken over Goram om te onderstaen, of aldaer oock pertije lijfeygenen te<lb/>
 benaken mochten zijn, daer hope toe was, omdat eenigen tijt tevooren 60 stucx van<lb/>
-daer gebracht waren.</para>
+daer gebracht waren.
+</para>
 <remark>«Hij zal door onderkoopman Carel Majoor worden opgevolgd<lb/>
 »</remark>
 <para>De cap.tn Gommersdorp . . . was voorleden jaer mede op Goram voorsz.<lb/>
 geweest ende aldaer bejegent van een vaertuygh, thuysbehorende aen de cust van<lb/>
 Nova-Guinea om de noordoost aen een plaets, genaemt Ounigh
-<fref ref="1"/> , eenige 15 of 20<lb/>
+<note mark="1">Bedoeld is Onin; de schrijver van deze brief zal het woord in het concept niet hebben<lb/>
+kunnen lezen; het is een landstreek op Nieuw-Guinea bezuiden de Maccluergolf op ongeveer<lb/>
+2°50' Z.B. en 135°20/ O.L.<lb/>
+</note>
+, eenige 15 of 20<lb/>
 mijlen noordelijcker gelegen, als deselve cust oyt van ons ontdect is, alwaer menichte<lb/>
 lijfeygenen te crijgen souden wesen, die sij op Goram comen brengen ende aldaer<lb/>
 tegen deden, bijlen ende swaerden verruylen tot ongeveer de waerde van 25 of 30<lb/>
@@ -497,7 +506,8 @@ gesonde lijfeygenen op Goram voorsz. verschenen was op hope den voors. cap.tn<lb
 aldaer te vinden, dat gemist zijnde, deselve slaven aen andere vercocht had, van<lb/>
 dewelcke naderhandt 12 stucx in Banda waren te coop gebracht, hetwelck een saké<lb/>
 van consideratie zijnde, den gouverneur in Banda dien handel geern vervolcht had,<lb/>
-maer is daerin verhindert door het achterblijven van de voorsz. nieuwe chaloup.</para>
+maer is daerin verhindert door het achterblijven van de voorsz. nieuwe chaloup.
+</para>
 <folio>Fol. 63r-v.</folio>
 <remark>«Iets andere gegevens afgedr.
 <ref>Nieuw-Guinea, p. 68-69</ref>; deze slaven zijn geschikt<lb/>
@@ -508,17 +518,17 @@ jonk uit Amboina met rijst ter zuidoostkust van Geram ontmoet<lb/>
 Na ’t seggen der voors. Xulaësen, daer den e. De Vlamingh van schrijft,<lb/>
 souden achter Damme noch groote menichte eylanden gelegen sijn, waeronder<lb/>
 eenige van groote als het eylandt Bouro ende grooter, lijfeygenen, wasch, schild-<lb/>
-
-<fnote ref="1">Bedoeld is Onin; de schrijver van deze brief zal het woord in het concept niet hebben<lb/>
-kunnen lezen; het is een landstreek op Nieuw-Guinea bezuiden de Maccluergolf op ongeveer<lb/>
-2°50' Z.B. en 135°20/ O.L.<lb/>
-</fnote>
-
 <pb n="680" tpl="1" vol="02" facs="2_112_0680"/>
-padshoom etc. uytgevende, die jaerlicx door de Macassaren bevaren worden<fref ref="1"/> <lb/>
+padshoom etc. uytgevende, die jaerlicx door de Macassaren bevaren worden
+<note mark="1">Hier moet wel de noordkust van Australië bedoeld zijn, wat dan een 120 jaar ouder<lb/>
+contact van de Makassaren daarmee zou betekenen dan dat vermeld in
+<emph>Prauwvaart,</emph> p. 248.<lb/>
+</note>
+<lb/>
 ende wel van noode was, door ons mede wierden ondersoclit, alsoo eenige onder<lb/>
 deselve noten uytgeven ende misschien andere coopmansz., die ons dienstich ofte<lb/>
-schadelijck souden connen wesen.</para>
+schadelijck souden connen wesen.
+</para>
 <remark>«Te Banda zijn weinig burgers geschikt voor de diverse bestuurscolleges<lb/>
 »</remark>
 <para>Den borger schijnt van tijt tot tijt in die eylanden te verarmen ende af te<lb/>
@@ -530,12 +540,15 @@ souden. Wij willen ganschelijck verhoopen, dat de Arracansvaerders getal slaven<
 sullen aenbrengen, van welck haer zullen deelachtich maken, sooveel wij hier sullen<lb/>
 connen missen, sijnde self zoodanich om lijfeygenen benoodicht, dat de meeste<lb/>
 wercken door gehuyrt volck moeten gemaect worden, hetwelck onse maendelijcke<lb/>
-oncosten dan zeer doet vergrooten.</para>
+oncosten dan zeer doet vergrooten.
+</para>
 <remark>«Sommige 'perken worden daardoor niet onderhouden
 . . .<lb/>
 »</remark>
 <para>. . . om waerin te voorsien zijn e.
-<fref ref="2"/>  voorslaet, dat dienstich soude wesen, dat<lb/>
+<note mark="2">NI. Weyns.<lb/>
+</note>
+voorslaet, dat dienstich soude wesen, dat<lb/>
 eenige honderden Chinesen of andere inlandtse natiën geanimeert -wierden na<lb/>
 Banda te gaen om haer aldaer terneder te slaen, aen welcke soodanige vacerende<lb/>
 parcken souden connen werden vercocht, mits dat de Comp.e de penningen daertoe<lb/>
@@ -551,7 +564,12 @@ te generen, als metselen, timmeren, smeden, thuynen etc., nadien op het gemelte<
 eylandt weynich nooteboomen zijn ende die der sijn, bij d’eygenaers wel gecultiveert<lb/>
 connen worden ; mitsgaders 40 op Lonthoir ende Poulo Ay, daer deselve mede<lb/>
 mettertijt aen cleene parcken ofte thuynen souden connen geraken ende haer<lb/>
-ondertusschen met andere hantneringh erneren<fref ref="3"/> .</para>
+ondertusschen met andere hantneringh erneren
+<note mark="3">Vgl.
+<emph>Beschrijving e,</emph> II, I, p. 1 93, waar wordt vermeld, dat geen Chinees hiervoor voelde.<lb/>
+</note>
+.
+</para>
 <para>
 Op het eylandt Ay en gebreect niet dan alleen versch water, sijnde andersints<lb/>
 sonderlingh plaisant ende vruchtbaer, gevende jaerlicx doorgaens weynich min<lb/>
@@ -559,30 +577,25 @@ dan 300 sockels foeille ende wel 30 000 catty notenmuscaten in soorte, door omtr
 1000 zielen bewoont, soo dienaren, vrije als slaven. Meer Nederlanders souden<lb/>
 daer gevoet connen werden, oock wel lust hebben derwaerts te gaen, tenware het<lb/>
 voorsz. ge breek van water ende dat het aldaer dickmael in 6 ende 7 maenden ende<lb/>
-
-<fnote ref="1">Hier moet wel de noordkust van Australië bedoeld zijn, wat dan een 120 jaar ouder<lb/>
-contact van de Makassaren daarmee zou betekenen dan dat vermeld in
-<emph>Prauwvaart,</emph> p. 248.<lb/>
-</fnote>
-<fnote ref="2">NI. Weyns.<lb/>
-</fnote>
-<fnote ref="3">Vgl.
-<emph>Beschrijving e,</emph> II, I, p. 1 93, waar wordt vermeld, dat geen Chinees hiervoor voelde.<lb/>
-</fnote>
-
 <pb n="681" tpl="1" vol="02" facs="2_112_0681"/>
 langer niet en regent, ja menichmael gebeurt, dat op Neira ende het groote landt<lb/>
 sware slaehregens vallen ende dat eylandt daer niet een druppel van crijgt, hetwelck<lb/>
 een straffe Godes schijnt te wesen, alswanneer sij haer drinck- ende ander coockwater,<lb/>
 soo voor menschen als vee, moeten halen van het groote landt . . . uyt de<lb/>
-revier Commer<fref ref="1"/> , wel 3 mijlen verre, daer veel moeyten ende oncosten voor den<lb/>
+revier Commer
+<note mark="1">Komber, ongeveer in het midden van de noordkust van Lonthoir, was vroeger de<lb/>
+naam van een dorp, in 1654 van een perk. Men vond er een riviertje en nabij de kust een put,<lb/>
+die beide in tijden van droogte werden gebruikt om er water te halen.<lb/>
+</note>
+, wel 3 mijlen verre, daer veel moeyten ende oncosten voor den<lb/>
 burger alsoock de Comp.e aen vast is. Daer sijn 4 groote ende cleyne waterbacken,<lb/>
 houdende tesamen 800 leggers water, maer deselve en connen bij tijt van soodanigen<lb/>
 droogte weynich tegenhouden, soodat wel noodich waer, dat noch eenige groote<lb/>
 backen ofte tancken aldaer conden werden gemaect, daer van tijt tot tijt clinckert<lb/>
 ende cement toe sijn vorderende, maer wij en connen niet wel soo veel bestellen,<lb/>
 dat hetselve werck eens can bij der handt genomen werden, nadien den clinckert,<lb/>
-die uyt het vaderlandt comt, hier doorgaens wel vereyscht wordt.</para>
+die uyt het vaderlandt comt, hier doorgaens wel vereyscht wordt.
+</para>
 <remark>«Vrees, dat aardbevingen die bakken zullen vernielen; op Run gedistilleerd te<lb/>
 branden uit sap van saguweerbomen, wat jaarlijks 2000 realen kan opleveren; anders<lb/>
 ware Run, liefst aan Chinezen
@@ -595,7 +608,8 @@ weduwe van den overleden gouverneur daer op haer vertreck noch 14 duysent<lb/>
 realen aen uytstaende schulden heeft moeten laten staen ende qualijek raet siet,<lb/>
 hoe deselve noch eyndelijck van de lieden te becomen, of tenware de Comp.e hare<lb/>
 hypoteecquen wilde aennemen ende het geit uytschieten, gelijck zij geern sach<lb/>
-ende den gouverneur t’haren voordele, soo het schijnt, voorslaet.</para>
+ende den gouverneur t’haren voordele, soo het schijnt, voorslaet.
+</para>
 <remark>«Hierop wordt niet ingegaan
 <lb/>
 »</remark>
@@ -606,7 +620,8 @@ bijna t’eenemael in oncosten van lijfeygenen moeten worden besteet, invoegen d
 wij qualick middel sien om hetselve te remediëren, te min omdat met de lage<lb/>
 valuatie het geit reehtevoort meer als voor desen weghgevoeH wort, sonderdat het<lb/>
 oyt wederom tot ons keert, hetwelck dan noodsaeckelijck schaersheyt van geit<lb/>
-geven moet.</para>
+geven moet.
+</para>
 <remark>«Op Banda zijn maar 149 militairen, w.o. 56 zieken, voor vier kastelen en acht<lb/>
 redouten, omdat De Vlaming er 120 vandaan haalde; de versterkingen
 . . .<lb/>
@@ -617,17 +632,12 @@ beletten, die, als ons souden willen afbreuck doen, de castelen ende forten niet
 eens en souden moeyen ofte soecken, maer, deselve voorbij gaende ofte latende<lb/>
 leggen, de landen trachten te vasteren ende de notenboomen uyt te roeyen,<lb/>
 hetwelck haer dan door de voorsz. fortificatiën niet en soude connen werden<lb/>
-
-<fnote ref="1">Komber, ongeveer in het midden van de noordkust van Lonthoir, was vroeger de<lb/>
-naam van een dorp, in 1654 van een perk. Men vond er een riviertje en nabij de kust een put,<lb/>
-die beide in tijden van droogte werden gebruikt om er water te halen.<lb/>
-</fnote>
-
 <pb n="682" tpl="1" vol="02" facs="2_112_0682"/>
 verhindert ende waermede sij ons echter een inestimabile schade souden connen<lb/>
 doen ende Banda onnut maken, want wat voordeel souden de castelen en de forten<lb/>
 connen geven sonder genot der specerijen, om welcke deselve daer gesticht sijn,<lb/>
-daer vooral sorge voor gedragen dient.</para>
+daer vooral sorge voor gedragen dient.
+</para>
 <remark>«Er kan echter slechts op 4 plaatsen aan de zuidkust geland worden zonder uit<lb/>
 versterkingen beschoten te worden; de drie oostelijke gouvernementen kunnen elkaar<lb/>
 met troepen en levensmiddelen bijstaan, althans zo lang ze, zoals nu onder De Vlaming,<lb/>
@@ -647,7 +657,8 @@ persoon sal connen worden bedient, gelijck dat eylandt tot noch toe niet meer da
 een coopman tot hooft gehad heeft ; welck eminent hooft sijn residentie dan soude<lb/>
 moeten houden ter plaetse, daer het de meeste gevaer ende den grootsten ommeslach<lb/>
 soude wesen, mits alle jaren de andere provintiën mede tenminsten eens<lb/>
-visiterende ende op alles de vereyschte ordre stellende.</para>
+visiterende ende op alles de vereyschte ordre stellende.
+</para>
 <remark>«Beslissing van Heren X VII gevraagd; alleen ds. Ringius is op Banda; daar was<lb/>
 eind aug. 210 last rijst; thans is de Sandyck met 100 last rijst en andere levensmiddelen,<lb/>
 waard tesamen f. 18315.19.12 daarheen gezonden; de uitgaven waren er in een jaar<lb/>
@@ -671,11 +682,11 @@ ende van de geleverde macis afgetrocken wort, verso eckende in faveur<lb/>
 derselve arme ingesetenen daer bij te mogen continueren, dat wij hen dan, hoewel<lb/>
 ongeem, toegestaen hebben met recommandatie, dat scherpe toesicht sal worden<lb/>
 genomen, dat de Comp.e ofte de voorsz. leveranciers daer bij niet en mogen werden<lb/>
-
 <pb n="683" tpl="1" vol="02" facs="2_112_0683"/>
 vercort. De noten worden maer tweemael in ’t jaer ontfangen, maer op deselve<lb/>
 moet oock van tijt tot tij ü rijs geadvanceert worden, niet alleen aen arme, maer<lb/>
-selffs aen redelijcke gestelde lieden.</para>
+selffs aen redelijcke gestelde lieden.
+</para>
 <remark>«Zending van schepen naar Solor, vgl.
 <ref>Daghregisters, 8 </ref>jan. 1653, p. 2-3; men<lb/>
 onderschat er de macht van den vijand; 2 juli komt kapitein Johan Burgers met 2<lb/>
@@ -688,7 +699,11 @@ bosschieters ende 7 soldaten, die mette chaloup Solor aen Congas, een plaets gel
 op het eylandt Ende, eenige mijlen van Larentucca, gesonden waren om eenige<lb/>
 houtwercken te hacken, soo als besich waren het gecapte hout uyt het bos na strand<lb/>
 te slepen, van de Portugesen ofte hare creaturen, door eenen Eranscisco Camera
-<fref ref="1"/> ,<lb/>
+<note mark="1">Francisco Camera, ten rechte Francisco Carneiro de Siqueira, was commandant van<lb/>
+de Portugese troepen in het Timorse ; wegens twist met de Dominicanen te Larantuka vestigde<lb/>
+hij zich te Konga, waar hij niet lang na 1653 stierf.<lb/>
+</note>
+,<lb/>
 op Congas voorsz. woonachtich, uytgemaeckt, overvallen ende 17 van deselve<lb/>
 gevangen genomen sijn geworden, zijnde de twee andere in ’t bosch hare handen<lb/>
 ontcomen, dewelcke naderhandt weder aen de fortresse terecht gecomen sijn,<lb/>
@@ -697,7 +712,9 @@ ondertusschen bij het boschvolck in groote armoede onthouden. d’Onse, aen de<l
 fortresse Henricus van het voorsz. ongeluck verstaen hebbende, hebben hen dan<lb/>
 mede in postuir van defensie ende offensie gestelt ende, met het jacht het Gevonden<lb/>
 Lam na Coupan, op Timor gelegen, overstekende, van daer uyt het dorp Ammaby
-<fref ref="2"/> <lb/>
+<note mark="2">Amabi, thans niet meer als zodanig bestaand zelfbesturend landschapje nabij Kupang.<lb/>
+</note>
+<lb/>
 weghgenomen de paep, aldaer residerende, mitsgaders van Coupan ons volck, dat<lb/>
 sedert eenigen tijt aldaer geplaest was geweest uyt vrese van d’een of d’ander tijt<lb/>
 mede van de Portugesen overvallen te worden, alsoo gants niet tot haer defensie<lb/>
@@ -720,18 +737,13 @@ grooten honger en de commer, die geduirende de gevauckenisse hebben geleden.<lb/
 Voort worden . . . bericht, hoe die van Lamahala, . . . sijnde bontgenoten van<lb/>
 de Comp.e, maer altijt meer gemeenschap mette Portugesen als mette onse houdende,<lb/>
 in augusto voorleden jaers sonder daertoe pascedel van ’t opperhooft<lb/>
-
-<fnote ref="1">Francisco Camera, ten rechte Francisco Carneiro de Siqueira, was commandant van<lb/>
-de Portugese troepen in het Timorse ; wegens twist met de Dominicanen te Larantuka vestigde<lb/>
-hij zich te Konga, waar hij niet lang na 1653 stierf.<lb/>
-</fnote>
-<fnote ref="2">Amabi, thans niet meer als zodanig bestaand zelfbesturend landschapje nabij Kupang.<lb/>
-</fnote>
-
 <pb n="684" tpl="1" vol="02" facs="2_112_0684"/>
 Terhorst begeert te hebben weder uyt ende aen ’t eylandt Roti geweest waren ende<lb/>
 aldaer in de negrije Corbaffa
-<fref ref="1"/> , mede onderdanen van de Comp.e zijnde, welcker<lb/>
+<note mark="1">Corbaffa, Kor(o)bafo, thans niet meer bestaand landschapje, ongeveer in het midden<lb/>
+van de noordkust van Roti.<lb/>
+</note>
+, mede onderdanen van de Comp.e zijnde, welcker<lb/>
 inwoonderen tegen malckander twistich ende verdeelt waren, hem mette sterckste<lb/>
 per tij e voegende, de andere overvallen ende 18 of 20 gevangens van daer gebracht<lb/>
 hadden. Ende alhoewel voornoemde opperhooft, daer kennisse van becomen<lb/>
@@ -744,7 +756,11 @@ gecomen zijnde ende hetselve trachtende te beletten, soo en hadden sij haer niet
 ontsien een onser chaloupen, tot dien eynde expres uytgesonden, vijantlijcken aen<lb/>
 te tasten ende, eenigen tijt daerna tijdinge van den oorlogh becomen hebbende,<lb/>
 opentlijck contract van neutraliteyt mette Portugesen te maeken, deselve tot<lb/>
-bevestinge van hetselve ter handt stellende 2 lijfeygenen met 19 patholen<fref ref="2"/> , mits<lb/>
+bevestinge van hetselve ter handt stellende 2 lijfeygenen met 19 patholen
+<note mark="2">Pathole, patola, meest zijden, soms ook katoenen doek; hier vermoedelijk het laatste<lb/>
+en geweven door de vrouwen van het bewuste gebied.<lb/>
+</note>
+, mits<lb/>
 dat de Portugesen hetselve met een wedergeschenck van eliphants tanden souden<lb/>
 recompenseren. Ende alhoewel het voorsz. contract naderhandt wederom tot niet<lb/>
 gelopen is, vermits de Portugesen aen hare zijde in gebreecke waren gebleven de<lb/>
@@ -764,7 +780,8 @@ opgenomen hadden ende de vrouwen en de kinderen met sack ende pack in ’t<lb/>
 gebergte gevlucht waren uyt vrese van welverdiende straffe ; soodat den sengadie<lb/>
 ofte bevelhebber eyndelijck afgecomen ende aen de fortresse verschenen was om<lb/>
 hem het gevoelen van den landtraet te submit beren ende middelen te beramen om<lb/>
-de andere ongehoorsame te corrigeren ende tot ruste te brengen.</para>
+de andere ongehoorsame te corrigeren ende tot ruste te brengen.
+</para>
 <remark>«De reparatie van het kasteel Solor vordert slecht; Burgers heeft Kupang weer<lb/>
 bezet,<lb/>
 »</remark>
@@ -773,19 +790,15 @@ bezet,<lb/>
 de buytencust van Tymor willen om sandel te halen, plegen aen te comen om<lb/>
 drinckwater, alsoo in het gantse district daeromtrent anders geen goet drinckwater<lb/>
 en is, moetende deselve vaertuygen bovendien om niet van de wal versteecken te<lb/>
-
-<fnote ref="1">Corbaffa, Kor(o)bafo, thans niet meer bestaand landschapje, ongeveer in het midden<lb/>
-van de noordkust van Roti.<lb/>
-</fnote>
-<fnote ref="2">Pathole, patola, meest zijden, soms ook katoenen doek; hier vermoedelijk het laatste<lb/>
-en geweven door de vrouwen van het bewuste gebied.<lb/>
-</fnote>
-
 <pb n="685" tpl="1" vol="02" facs="2_112_0685"/>
 worden tusschen het eylandt Semau
-<fref ref="1"/>  ende Tymor passeren, welcke engte, wanneer<lb/>
+<note mark="1">Semau, eiland ten westen van de zuidwestpunt van Timor op ongeveer 10°10' Z.B.<lb/>
+en 123°24' O.L.<lb/>
+</note>
+ende Tymor passeren, welcke engte, wanneer<lb/>
 Coupan in besit hebben, seer licht sullen connen beset houden ende de passagie<lb/>
-beletten.</para>
+beletten.
+</para>
 <remark>«De Portugezen wilden er reeds een kerk bouwen; Burgers meent , dat bij blijvende<lb/>
 bezetting van Kupang het kasteel op Solor geslecht kan worden;<lb/>
 »</remark>
@@ -797,7 +810,9 @@ sijde sullen moeten stellen ende U Ed. advis ende gevoelen hierop ondertusschen 
 ’t gemoet sien. Mettet op werpen van geroerde fortificatie op Coupan de cap.tn<lb/>
 Johan Burgers dan ongeveer een maent met de geheele macht toegebracht hebbende,<lb/>
 daer de Radja Ammapona
-<fref ref="2"/>  mede sijn debvoir niet weynich toe gedaen<lb/>
+<note mark="2">Versta: de Vorst van Amapona, het gebied, waarin Kupang ligt.<lb/>
+</note>
+mede sijn debvoir niet weynich toe gedaen<lb/>
 heeft ende, deselve met een competent guarnisoentje beset gelaten hebbende, was<lb/>
 voort mette vloot na Solor overgesteecken ende eenige dagen daerna na Congas<lb/>
 . . ., welcke plaetse op 13 maert sonder eenige tegenstandt afgeloopen, in de<lb/>
@@ -816,27 +831,21 @@ voors. cap.tn mettet jacht de Vleermuys ende eenich cleyn vaertuygh weder na<lb/
 Timor verseylt om de aengevangen fortificatie op Coupan voort op te maeken ende<lb/>
 te voltrecken, waermede besich sijnde, den Radja Ammapona, geadsisteert met 25<lb/>
 Nederlanders, een tocht na een plaets, genaemt Ammabessi
-<fref ref="3"/> , eenige mijlen van<lb/>
+<note mark="3">Amabesi, zoals in de tekst is aangegeven, een dorp 10 km ten westen van Kupang.<lb/>
+</note>
+, eenige mijlen van<lb/>
 Coupan om de west gelegen, gedaen heeft om deselve tot gehoorsaemheyt ende<lb/>
 alliantie te reduceren, gelijck deselve, de voorsz. macht siende, na eenige gehouden<lb/>
 raedpleginge oock gedaen hebben met onderlinge belofte van malckander tegen<lb/>
 den Portugees te adsisteren, doende die van Amabessi tot bevestinge van haren<lb/>
 eet, mettet slachten van een buffel gedaen, op staende voet 18 Portugese zwarten,<lb/>
 die doentertijt daer gevonden wierden, dootslaen ende de coppen afclincken, met<lb/>
-welcke de Coupanesen in triumph weder thuysquamen.</para>
+welcke de Coupanesen in triumph weder thuysquamen.
+</para>
 <remark>f De Portugese paters hebben grote invloed; verdere gegevens afgedrukt
 <ref>Daghregis- </ref><ref>ters 2 juni 1653 p. 93</ref>; er liggen in dit ressort 131 koppen, die van de schepen inbegrepen;<lb/>
 in de 14 maanden, eindigend 30 april, is er uitgegeven
 /. 21106.18.11 en gewonnen</remark>
-
-<fnote ref="1">Semau, eiland ten westen van de zuidwestpunt van Timor op ongeveer 10°10' Z.B.<lb/>
-en 123°24' O.L.<lb/>
-</fnote>
-<fnote ref="2">Versta: de Vorst van Amapona, het gebied, waarin Kupang ligt.<lb/>
-</fnote>
-<fnote ref="3">Amabesi, zoals in de tekst is aangegeven, een dorp 10 km ten westen van Kupang.<lb/>
-</fnote>
-
 <pb n="686" tpl="1" vol="02" facs="2_112_0686"/>
 <remark>/. 16267. 7. 4; er is aan ivoor (1835 katti), sandelhout en was voor f. 22397.1.10<lb/>
 ontvangen; latere berichten uit Solor, vgl.
@@ -847,7 +856,8 @@ schip van Solor waren er nog maar 108 koppen,<lb/>
 <para>. . . dat ten aensien van de nootsaeckelij ckheyt aldaer weynich, maer van de<lb/>
 proffijten, die de Comp.e van die eylanden treckt ofte in corten te trecken staet,<lb/>
 veel is. Doch wij en connen die arme onderdanen ende bontgenoten niet abandoneren<lb/>
-ende tot een proye der vijanden laten.</para>
+ende tot een proye der vijanden laten.
+</para>
 <remark>«11 maart komt de Overschie van Djambi met 369550 katti peper, kostende met de<lb/>
 tolrechten f. 55943.7.11; de onkosten bedroegen er in een jaar f. 15548; de peper komt<lb/>
 er dus veel duurder, dan die te Batavia a 5 realen het picol wordt gekocht; vgl.
@@ -875,7 +885,8 @@ schulden sijn op 12 199 realen gecomen ende daeronder 2260 realen, daer gants<lb
 geen hope van en is ; maer van de andre schijnt noch cans te wesen, dat mettertijt<lb/>
 noch in sullen comen of tenminsten het meeste van deselve. Daer leyt rechtevoort<lb/>
 in Jamby gereet over de 11 513 picol soo gesuyverden als onsuyveren peper, boven<lb/>
-noch omtrent 200 picol lichte.</para>
+noch omtrent 200 picol lichte.
+</para>
 <remark>«Misschien zal men er toch het kantoor continueren, totdat die van Djambi gewend<lb/>
 zijn zelf de peper naar Batavia te brengen; er wordt in Djambi weinig rijst geplant<lb/>
 »</remark>
@@ -883,8 +894,8 @@ zijn zelf de peper naar Batavia te brengen; er wordt in Djambi weinig rijst gepl
 eenelijck, soo de onse schrijven, tot onderhoudinge van oude vrundtschap ende<lb/>
 alliantie sonder meer, blijvende Jamby nevens Palembangh noch onder de gehoorsaemheyt<lb/>
 van den Sousouhounan Mataram, maer en sijn dit jaer geen van beyde<lb/>
-ten hove geweest.</para>
-
+ten hove geweest.
+</para>
 <pb n="687" tpl="1" vol="02" facs="2_112_0687"/>
 <remark>«De handelswinst was er f. 54605.11.10 en de onkosten f. 15548.12.-; Nolpe<lb/>
 heeft er 2200 realen moeten opnemen; de loge is er bouwvallig ; schepen van Malakka<lb/>
@@ -895,7 +906,9 @@ hebben met Compagniesschepen kleden van Coromandel mogen halen; dit zal niet wee
 geschieden<lb/>
 »</remark>
 <para>Wij moeten rechtevoort van denselven
-<fref ref="1"/>  al wat meer wercks maeken om de<lb/>
+<note mark="1">De Vorst van Johore.<lb/>
+</note>
+al wat meer wercks maeken om de<lb/>
 saecken van Perah ende Achin, uyt vrese dat hij sich bij deselve wel voegen mocht,<lb/>
 sterck van vaertuygen ende zeevolck sijnde, die ons seer veel afbreuck ende schade<lb/>
 sou den connen doen, daer wij al eenich bedeneken van hebben. Van Malacca hebben<lb/>
@@ -903,7 +916,8 @@ wij seeckere tijdingh, dat denselven zijne afgesanten met expres vaertuygh naer<
 Achin gehad heeft, hetwelck nochtans de . . . gesanten, die hier geweest zijn, bij<lb/>
 discours daerna gevraecht sijnde, expressel. hebben ontkent ende verclaert geen<lb/>
 de allerminste correspondentie tusschen haren Coninck ende die van Achin te<lb/>
-wesen, hetwelck ons dan met reden suspect is.</para>
+wesen, hetwelck ons dan met reden suspect is.
+</para>
 <remark>«Er zijn geen schepen naar Sumatra’s Westkust gevaren, oorlog met Atjeh niet<lb/>
 ongewenst,<lb/>
 »</remark>
@@ -915,7 +929,9 @@ mettertijt de Comp.e wel onnut soude worden ende meer tot last als tot dienst<lb
 zoude strecken, om welck te stutten de Comp.e niet licht bequamer middel ofte<lb/>
 beter recht voorcomen sal als het . . . onmenschelijck faict, door die van Perah<lb/>
 aen de onse begaen ende bij die van Achin geapprobeert, immer gepatrocineert
-<fref ref="2"/> <lb/>
+<note mark="2">Gepatrocineert; verdedigd, beschermd.<lb/>
+</note>
+<lb/>
 ende gedefendeert. Want dat wij sonder metteselve croone te breken ende in<lb/>
 openbaren oorlogh te comen de Guseratse, Clinghse, Bengaelse ende andere<lb/>
 coopluyden souden vermenen te verbieden op Achin te varen onder voorwerp van<lb/>
@@ -924,7 +940,8 @@ en sien wij niet, hoe staende gehouden ofte de voorsz. natiën wijsgemaect sal<l
 connen werden, gelijck rede gebleecken zij, wat onlusten daeruyt geresen ende<lb/>
 ontstaen zijn, soodat wij genootsaect zijn geworden om metteselve landen daerom<lb/>
 in geen verder verwijderingh te geraeken dat concept te laten varen ende de vaert<lb/>
-op Achin weder open te stellen.</para>
+op Achin weder open te stellen.
+</para>
 <remark>«De macht is slechts voldoende Atjeh' s haven te blokkeren; koopman De Salengre<lb/>
 méldt, dat Atjeh galeien bewapent voor hulp aan Perak; dit is echter weer gestaakt; De<lb/>
 S. is met den boekhouder van een jacht ten hove van Atjeh wél ontvangen; de Vorstin<lb/>
@@ -934,15 +951,10 @@ betreurt het niet verschijnen van schepen van de Compagnie ter Westkust<lb/>
 . . . souden met het . . . jacht de Kivit geern hare gesanten naer Batavia<lb/>
 gesonden hebben om de geresene onlusten terneder te leggen ende de oude vrundtschap<lb/>
 te vernieuwen, bijaldien de opperhoofden daer ettelijeke dagen naer hadde<lb/>
-
-<fnote ref="1">De Vorst van Johore.<lb/>
-</fnote>
-<fnote ref="2">Gepatrocineert; verdedigd, beschermd.<lb/>
-</fnote>
-
 <pb n="688" tpl="1" vol="02" facs="2_112_0688"/>
 willen wachten, dat niet geraden conden vinden, uyt vrese dat middelerwijle<lb/>
-ontdect souden sijn geworden niet van Zeylon, maer van Malacca te comen.</para>
+ontdect souden sijn geworden niet van Zeylon, maer van Malacca te comen.
+</para>
 <remark>«Het bezetten bij oorlog van de rede van Atjeh is voordeliger dan de toestand van<lb/>
 vrede
 , . . .<lb/>
@@ -960,7 +972,8 @@ en soude sulcx evenwel omtrent de voorsz. vreemde natiën soodanigen cracht niet
 hebben, dan als zij onse wapenen eenigen tijt voor Achin sullen hebben gesien ende<lb/>
 ons recht van oorlogh vermerct. Eenelijck sijn wij beducht, dat den handel, op die<lb/>
 wijse van Achin gediverteert wordende, na Tannasserije sal worden getrocken, een<lb/>
-plaets sijnde, die seer wel gelegen is.</para>
+plaets sijnde, die seer wel gelegen is.
+</para>
 <remark>«Het staat onder Siam
 , dat ons slecht behandelt en ware ook te blokkeren,<lb/>
 »</remark>
@@ -975,20 +988,21 @@ rechten ende staende te houden oordelen noodich te wesen, dat wij onse tanden<lb
 . . . eens wëder laten sien, daer het jegenwoordich den rechten tijt toe is, dewijl<lb/>
 wij niet alleen met de Portugesen, maer oock met de Engelsen in oorlogh geraect<lb/>
 sijn, die anders in vrede mette voordelen van onse wapenen plagen door te gaen<lb/>
-ende waerop haer deselve natiën dan oock plagen te verlaten.</para>
+ende waerop haer deselve natiën dan oock plagen te verlaten.
+</para>
 <remark>«Engels jacht in Atjeh,
 <ref>Daghregisters, 12 april, p. 39 </ref>»</remark>
 <para>Besij den het voorsz. Engels jacht waren vele andere Moorse schepen van<lb/>
 diverse quartieren dit jaer in Achin geweest ende weder vertrocken, hoewel noch<lb/>
 vele om onse voor desen gedane dreygementen wederhouden werden derwaerts<lb/>
-te equiperen.</para>
+te equiperen.
+</para>
 <remark>«Gebeurtenissen aan het hof van Atjeh,
 <ref>Daghregisters, p. 39-40</ref>; De Salengre<lb/>
 heeft er wat tin en benzoë gekocht; de peper komt ter Westkust op 8\ reaal te staan;<lb/>
 de Engelsen durven er niet te komen wegens de oorlog met Nederland; de Vorst van<lb/>
 Kedah heeft op een brief van den Gouv. Gen. niet geantwoord,<lb/>
 »</remark>
-
 <pb n="689" tpl="1" vol="02" facs="2_112_0689"/>
 <para>. . . heeft echter den resident Pieter Britsen toesegginge gedaan van alle den<lb/>
 tin, in sijn landt vallende, aen de Comp.e te sullen leveren, hetwelck een goede<lb/>
@@ -997,7 +1011,9 @@ maect noch pretensie op de Comp.e wegen eenich geschut, dat op sijn jacht zoude<
 geweest sijn ende bij ons noyt gesien en is, mitsgaders van noch 1500 realen, die<lb/>
 hem onbetaelt zouden sijn gebleven wegen oude schuit. Ende eenen orangcaya<lb/>
 besar
-<fref ref="1"/>  aldaer eyscht 304 realen wegen een sijner vaertuygen, dat door d’onse van<lb/>
+<note mark="1">Orangkaja besar, maleise titel, letterlijk rijkeman grote, van een grote van Kedah.<lb/>
+</note>
+aldaer eyscht 304 realen wegen een sijner vaertuygen, dat door d’onse van<lb/>
 de besettinge voor Perah aengehaelt zoude sijn, daer niemant mede kennisse van<lb/>
 heeft, zijnde niet dan opgeraepte actiën, daer sij ons mede soecken te quellen, door<lb/>
 het voorsz. welgelucte attentaet, soo het schijnt, moedich ende stout geworden<lb/>
@@ -1011,7 +1027,8 @@ van noodlij ckheden doen, ingevalle het hun door onse besettinge niet en<lb/>
 wierde verhindert, die evenwel soo naeu niet en connen toesien, of sluypen noch<lb/>
 altemet eenige vaertuygen met sout ende andere clenicheden, daer meest om<lb/>
 benoodicht sijn, door, de cust, die beset gehouden moet werden, niet min dan 22<lb/>
-mijlen breet sijnde.</para>
+mijlen breet sijnde.
+</para>
 <remark>«Die van Kedah willen een landweg naar Perak maken, welk plan wel niet zal<lb/>
 worden volvoerd; de blokkade van Perak is kostbaar; uit Kedah is 124 picol tin verkregen;<lb/>
 zending van Michiél Curre naar Tavey, in Zuid-Pegu,<lb/>
@@ -1020,13 +1037,16 @@ zending van Michiél Curre naar Tavey, in Zuid-Pegu,<lb/>
 willen vergunnen, of wij moesten hen daertoe brieven van den Coninck van Pegu<lb/>
 toonen, sonder wiens consent sij gene vremdelingen en vermochten te admitteren,<lb/>
 soodat sij den brief, door den . . . gouverneur
-<fref ref="2"/>  aen haer geschreven, ongelesen<lb/>
+<note mark="2">Die van Malakka.<lb/>
+</note>
+aen haer geschreven, ongelesen<lb/>
 terugh gesonden, maer de bij gevoegde presenten evenwel behouden hebben, waeraen<lb/>
 haer vilen aert te sien is. Wij hebben naderhandt door d’onse in Pegu aen den<lb/>
 Coninck om op gem. plaets te mogen varen doen versoecken, maer mede niet<lb/>
 geobtineert, sijnde, soo wij nu verstaen, al over eenige jaren afgeslagen, de wetten<lb/>
 des rijcx, soo het schijnt, niet toelatende op eenige plaetsen anders te handelen als<lb/>
-in Siriangh ende Ava, soodat die besendinge voort gestaeckt blijft.</para>
+in Siriangh ende Ava, soodat die besendinge voort gestaeckt blijft.
+</para>
 <remark>«Curre is ook te Tenasserim niet ten handel toegelaten, hoewel alle andere volken<lb/>
 daar toegang hébben; vergunning is nu aan den Koning van Siam gevraagd; het jacht<lb/>
 van Bort, 26 maart met cargasoen van
@@ -1036,12 +1056,6 @@ komt 4 aug. te Malakka terug met 138 bahar tin; 300 id. staan te volgen, te L. w
 1 Chinese jonk en die nog wél door storm verschenen, maar Peguanen, Japanners en<lb/>
 Portugezen uit Siam waren er talrijk ; zij verkochten tin uit Siam aan Chinezen<lb/>
 »</remark>
-
-<fnote ref="1">Orangkaja besar, maleise titel, letterlijk rijkeman grote, van een grote van Kedah.<lb/>
-</fnote>
-<fnote ref="2">Die van Malakka.<lb/>
-</fnote>
-
 <pb n="690" tpl="1" vol="02" facs="2_112_0690"/>
 <para>O ja Sabartiban bleeff daer noch al wachten na het secours, dat den Coninck<lb/>
 van Siam van ons heeft gevordert, om ’t achterbhjven van hetwelck hij seer tegen<lb/>
@@ -1058,9 +1072,13 @@ vooruyt na Ligor opgetrocken is ende sonder ons de couragie niet sal hebben den<
 Sangorees aen te tasten, maer eyndelijck met schande weder na Siam sal moeten<lb/>
 keeren, dat dan ongetwijffelt groote verbitteringh tegen de Comp.e in hem veroorsaken<lb/>
 zal. Hij had eens de mine gemaect, of hij den vijandt hadde willen<lb/>
-nadercomen, maer was na weynich dagen optochts<fref ref="1"/>  weder binnen Ligor gecomen<lb/>
+nadercomen, maer was na weynich dagen optochts
+<note mark="1">Optocht, in de zin van opmars.<lb/>
+</note>
+weder binnen Ligor gecomen<lb/>
 sonder den vijandt eens gesien te hebben ofte omtrent Sangora geweest<lb/>
-te sijn.</para>
+te sijn.
+</para>
 <para>Zijn volck verliep dagelijcx zeer, soodat van de 12 duysent man, die daer<lb/>
 aenge bracht had, qualijck meer 6 duysent coppen conde monsteren, ontstaende<lb/>
 door gebreck ende hongersnoot, omdat hij de packhuysen geslooten ende den rijs<lb/>
@@ -1081,17 +1099,14 @@ Coninck van Siam geleent, als wanneer bereyt was de gewonelijcke goude ende<lb/>
 silvere bloemen van homagie te senden ende hem weder onder de croone van Siam<lb/>
 te submitteren, daertoe passagie ende vxijgeleyde voor de sijne versoeckende, die<lb/>
 Bort meent, dat hem niet geweygert sal worden, maer dat sij hem van de eliphanten<lb/>
-ende den rijs niet veel te willen sullen wesen.</para>
+ende den rijs niet veel te willen sullen wesen.
+</para>
 <remark>«Mogelijk doet Kedah dit uit vrees voor ons; onze tinhandel in Udjung Selang<lb/>
 betekent weinig; 11 nov. meldt Bort nog ruim 307 bahar in Ligor gereed te hebben; de<lb/>
 nieuwe Siamese gouverneur O ja Gecry koopt er nu alles met dwang op, zodat Bort heeft<lb/>
 te klagen wegens het overtreden van de verleende vergunning; textiel is er slecht verkoopbaar,<lb/>
 daar men er weeft<lb/>
 »</remark>
-
-<fnote ref="1">Optocht, in de zin van opmars.<lb/>
-</fnote>
-
 <pb n="691" tpl="1" vol="02" facs="2_112_0691"/>
 <para>Oja Sabartiban . . . had tegen Sangora niet uytgerecht, maer een rond jaer<lb/>
 in Ligor vruchteloos doorgebracht. Gelijck hij tevooren . . . een landttocht hadde<lb/>
@@ -1099,7 +1114,8 @@ gedaen, soo was hij naderhandt oock eens met de armade te zee geweest, maer<lb/>
 sonder Sangora te sien na 10 dagen weder in Ligor terughgecomen, invoegen dat<lb/>
 hij eyndelijck op 24 september voorleden door ordre des Conings mette gantse<lb/>
 crijgsmacht opgebroocken ende na Siam vertrocken sij, weynich eere in Ligor<lb/>
-behaelt hebbende.</para>
+behaelt hebbende.
+</para>
 <remark>«Oja Oecry moet een vergelijk met Sangora bewerken<lb/>
 »</remark>
 <para>. . . meent . . . Bort, dat de Oja Sangora de vrede mede geem amplecteren<lb/>
@@ -1107,7 +1123,8 @@ ende hem de croone van Siam weder submitteren sal, mits ongehouden blijvende<lb/
 oyt persoonelijck ten hove te verschijnen. Voorsz. nieuwe gouverneur, die met<lb/>
 groote eere afgecomen ende met een goude croone op sijn hooft binnen Ligor<lb/>
 ingehaelt was, heeft aen den resident Bort eenige cleenicheden opgegeven, die wij<lb/>
-met gelegentheyt na Malacca sullen schicken.</para>
+met gelegentheyt na Malacca sullen schicken.
+</para>
 <remark>«De tin voor de Compagnie te Ligor is naar Malakka gestuurd; Bort van L.<lb/>
 vertrokken , Jan Sacharias blijft er met fl. 9621 — goederen en enig personeel; de Salm<lb/>
 komt 22 dec. uit Malakka met cargasoen van fl. 37673.5.11, vnl. peper, vgl.
@@ -1121,7 +1138,8 @@ Malakka gebracht<lb/>
 21 packen lijnwaten, alwaer corts tevooren een onser dienaren aen de logie seer<lb/>
 schandelijck vermoort was; ende of wel den Sulthan debvoir scheen te doen om<lb/>
 den misdadiger in handen te crijgen ende te straffen, soo wiert evenwel aen desselffs<lb/>
-goede meyninge ten hoogsten gewijffelt.</para>
+goede meyninge ten hoogsten gewijffelt.
+</para>
 <remark>«Van Malakka is in ’ 53 336640
 ® tin verzonden, voor meer dan de helft naar<lb/>
 Perzië en Suratte, de rest meest naar Batavia, voorts naar Bengalen; er is te M. nog<lb/>
@@ -1139,10 +1157,10 @@ en landsinkomsten f. 141760.6.3; berichten 22 juli uit Arakan ontvangen, vgl.<lb
 ... sij selve seer totteselve vrede genegen sijn geweest, soodat, ingevalle wij<lb/>
 haer niet en hadden geprevenieert, zij daerom eerlangh selff besendinge aen ons<lb/>
 gedaen souden hebben, hetwelck meer respect voor de Comp.e soude sijn geweest;<lb/>
-
 <pb n="692" tpl="1" vol="02" facs="2_112_0692"/>
 doch de quaetwillicheyt van den Sousouhounangh ende de dierte van den rijs op<lb/>
-Batavia heeft ons genootdruct dat werek te verhaesten.</para>
+Batavia heeft ons genootdruct dat werek te verhaesten.
+</para>
 <remark>«Zending van schepen naar AraJcan,
 <ref>Daghregisters, 31 aug </ref>., p. 122, met cargasoen<lb/>
 van f. 22776.12.10; de Leeuwarden komt 26 febr. van Siam, ibid., p. 18-19; 22 maart<lb/>
@@ -1181,18 +1199,16 @@ des Conincx als van sijne zijde, over landt na Tannassarije mochten werden<lb/>
 gesonden om ter plaetse na de waerheyt van saecken te vernemen, hetwelck hem<lb/>
 den Coninck heeft ingewillicht ende is daertoe van onse zijde af gesonden den<lb/>
 ondercoopman Hugo van Cuylenburgh
-<fref ref="1"/> . Onderentusschen had den voorsz.<lb/>
+<note mark="1">Hugo (van) Cu(y)lenburgh kwam 1642 als assistent uit, was 1650 onderkoopman in<lb/>
+Siam, sinds 1652 in het Timorse; in 1662 sloot hij een contract met de Vorsten van Roti; 1666<lb/>
+was hij in koopmansrang op de vloot van Speelman naar Makassar.<lb/>
+</note>
+. Onderentusschen had den voorsz.<lb/>
 resident Westerwolt verscheyden malen sijn dachten over de quade ende onrede -<lb/>
 lijeke tractementen gedaen, maer en was daerbij niet geobtineert, dan dat op<lb/>
 seeckeren tijt ten hove geroepen ende voor vier gecommitteerde o jas ofte raden<lb/>
 gehoort was op seeckere voorgestelde pointen, op welcke op staende voet moeste<lb/>
 antwoorden ende d’antwoort van woort tot woort bij geschrifte gestelt worden om<lb/>
-
-<fnote ref="1">Hugo (van) Cu(y)lenburgh kwam 1642 als assistent uit, was 1650 onderkoopman in<lb/>
-Siam, sinds 1652 in het Timorse; in 1662 sloot hij een contract met de Vorsten van Roti; 1666<lb/>
-was hij in koopmansrang op de vloot van Speelman naar Makassar.<lb/>
-</fnote>
-
 <pb n="693" tpl="1" vol="02" facs="2_112_0693"/>
 den Coninck te vertoonen, die daerna sat en wachtede ende middelerwijle tot<lb/>
 diverse malen liet vragen, of deselve noch niet gestelt en ware, soodat gen. resident<lb/>
@@ -1201,7 +1217,8 @@ was. Haer voorstellingen waren ten principalen aengaende het versochte secours<l
 tegen Sangora, voorgevende om onsentwille met de Castellanen in oorlogh gecomen<lb/>
 te sijn ende bij deselve vele duysenden schade geleden te hebben ende dat wij Sijn<lb/>
 May.* alsnu weygerden met eenige schepen ende volck tegen sijne rebellen te<lb/>
-adsisteren.</para>
+adsisteren.
+</para>
 <remark>«Herhaling der Siamse klachten<lb/>
 »</remark>
 <para>Bijaldien hij, Westerwold, genegen was uyt Siam te vertrecken ende metten<lb/>
@@ -1219,7 +1236,8 @@ van de natie streckende; uyt alle welcke versmadelijcke proceduren gemelten<lb/>
 Westerwolt een besluyt maecte, dat ingevalle het langh verwachte secoers desen<lb/>
 jare niet conde gesonden werden, wij in Siam voort uyt souden hebben ende dat<lb/>
 dien volgende dat jaer het Japans cargasoen geringh te wesen stond, ingevalle al<lb/>
-niet verhindert en wierden hetselve af te schepen ende te versenden.</para>
+niet verhindert en wierden hetselve af te schepen ende te versenden.
+</para>
 <remark>«Er zijn door de oorlogen met Portugal en Engeland hiervoor geen schepen<lb/>
 beschikbaar; ook is het tegen Compagnie' s maxime; zending van de Gecroonde Liefde<lb/>
 op 21 mei naar Siam,
@@ -1243,31 +1261,39 @@ genodicht weder te comen negotiëren als voor desen ende alle deselve coopmansch
 ende waren te versamelen sijn als in Siam om ons van te connen dienen.<lb/>
 De sabandaer, hetselve verstaen hebbende, toont sich daerover gealtereert ende<lb/>
 loopt eens gangs na de berckelangh, denselven het voorsz. secreet tegen gedane<lb/>
-
 <pb n="694" tpl="1" vol="02" facs="2_112_0694"/>
 belofte bekentmaeckende ende die voort aen den Coninck, bij wien daermede, naer<lb/>
 het schijnt, sooveel teweegh is gebracht, dat wij van die tijt af voortaen beter<lb/>
 tractement hebben genoten ende niet meer soo gehoont ofte geïn jureert zijn<lb/>
-geworden.</para>
+geworden.
+</para>
 <remark>«Vrees van Siam voor vijandelijk optreden onzerzijds ,<lb/>
 »</remark>
 <para>. . . hebbende ons sedert gen. tijt niet alleen onbecommerden handel in sijn<lb/>
 rijck vergunt ende geen quellingen meer aengedaen, maer bovendien onse voorsz.<lb/>
 onaengename brief seer vrundel. beantwoort ende daemevens gesonden tot geschenck<lb/>
-een bouget <fref ref="1"/>  ofte pinanghdoos van enckel gout, wegende met sijn toebehooren<lb/>
+een bouget
+<note mark="1">Bougette, reistasje, grote beurs, hier voor pinang.<lb/>
+</note>
+ofte pinanghdoos van enckel gout, wegende met sijn toebehooren<lb/>
 ongeveer 109 realen in gewicht, nevens 2 zijdequitasollen
-<fref ref="2"/> , welcker stocken<lb/>
+<note mark="2">Quitasol, statieregen- of zonnescherm.<lb/>
+</note>
+, welcker stocken<lb/>
 met silver beslagen sijn, hetwelck Westerwold schrijft een gants ongemene eere te<lb/>
 sijn, die hij niet licht gewent zij aen yemant te doen. Hem, Westerwold, had hij<lb/>
 bovendien met een diergel. pinanghdoos van silver tot sijn gebruyck beschoncken<lb/>
 ende daertoe vereert met de titul van oloangh ritisacon, dat mede al wat te seggen<lb/>
-is. Een gantsch schielijcke ende onverwachte veranderingh!</para>
+is. Een gantsch schielijcke ende onverwachte veranderingh!
+</para>
 <remark>«De Koning roept zijn troepen van voor Ligor terug, omdat men zonder Nederlandse<lb/>
 hulp niets vermag<lb/>
 »</remark>
 <para>Echter heeft de May.1, soo het schijnt, aen de eere willen blijven ende de schuit<lb/>
 op den voorsz. o ja
-<fref ref="3"/>  ende sijne subalterne officieren doen werpen, hebbende<lb/>
+<note mark="3">NI. Sabertiban.<lb/>
+</note>
+ende sijne subalterne officieren doen werpen, hebbende<lb/>
 denselven op sijn wedercomste in Siam seer wredelijck in de ijsers, al tevooren tot<lb/>
 dien eynde gereet gemaect, doen sluyten nevens alle de mandorijns en de andere<lb/>
 grooten, die met hem na Ligor geweest waren ende eenige dagen onder den<lb/>
@@ -1275,7 +1301,8 @@ blaeuwen hemel laten sitten, totdat door ’t voorbidden van des Conincx soonen 
 andere, uytgesondert 9 man van de voornaemste, gelargeert ende hem toegestaen<lb/>
 ware geworden de voorsz. cluysters af ende nevens hem neder te leggen ende<lb/>
 presumeert Westerwold, dat hij eerlangh t’eenemael gepardonneert ende weder in<lb/>
-sijn oude digniteyt herstelt sal worden.</para>
+sijn oude digniteyt herstelt sal worden.
+</para>
 <remark>«Brief van den Koning, afgedrukt
 <ref>Daghregisters, 18 dec. p. 164-165</ref>; 6 Chinese<lb/>
 jonken uit Japan zijn in Siam geweest, die hertevellen uitvoerden, als bestond ’s Compagnies<lb/>
@@ -1284,7 +1311,8 @@ monopolie niet,<lb/>
 <para>. . . totdat sij daermede vertrocken, als wanneer voorsz. resident de fluyt de<lb/>
 Lieffde voomt. nevens haer liet in zee gaen ende, buyten gecomen sijnde, de visite<lb/>
 doen; die uyt vijf van deselve gelicht heeft het voorsz. getal van 26 366 stucx<lb/>
-hertevellen.</para>
+hertevellen.
+</para>
 <remark>«De Chinezen zullen daarover klagen, waarom Westerwolt
 . . .<lb/>
 »</remark>
@@ -1292,19 +1320,14 @@ hertevellen.</para>
 de Coninginne tot dien eynde met de
 <emph>5</emph> zoonen des Conincx met geschencken<lb/>
 verobligeert had hem tegen deselve te patrocineren ende voor te staen, met welcker<lb/>
-
-<fnote ref="1">Bougette, reistasje, grote beurs, hier voor pinang.<lb/>
-</fnote>
-<fnote ref="2">Quitasol, statieregen- of zonnescherm.<lb/>
-</fnote>
-<fnote ref="3">NI. Sabertiban.<lb/>
-</fnote>
-
 <pb n="695" tpl="1" vol="02" facs="2_112_0695"/>
 hulp hij sich gerust hield, te meer omdat hij den oya Rapasip
-<fref ref="1"/> , die boven gesecht<lb/>
+<note mark="1">Oja Rapasip, blijkbaar dezelfde persoon als Oloangh Tip van p. 692.<lb/>
+</note>
+, die boven gesecht<lb/>
 hebben altijt Comp.8 vijandt geweest te sijn, mede gewonnen ende op sijn sijde<lb/>
-gecregen had.</para>
+gecregen had.
+</para>
 <remark>«Misschien zullen voortaan de Chinezen wegblijven; aan Japanse interventie<lb/>
 zullen wij ons niet storen, in Siam is door 2 fluitschepen 35000 taël Japans schuitzilver<lb/>
 gebracht; 15000, waard f. 42750-, zullen nog volgen<lb/>
@@ -1318,7 +1341,9 @@ dat de geruchten ende het schrijven der gouverneurs van het cruyssen van<lb/>
 vijanden gesmeedt om ons daerdoor buyten alle gunst ende credit te stellen, geen<lb/>
 ander fundament hebbende, soo wij geloven, als dat het jacht de Macreel, . . .<lb/>
 van Tavay
-<fref ref="2"/>  comende, daer mede aengeweest sij ende handel versocht heeft sonder<lb/>
+<note mark="2">Tavay, stad ter westkust van Achter-Indië op ruim 14° N.B. en 98°12' O.L.<lb/>
+</note>
+comende, daer mede aengeweest sij ende handel versocht heeft sonder<lb/>
 eenige de alderminste schijn van hostiliteyt te laten blij eken ofte van sich te geven.<lb/>
 Aengaende denselven handel heeft voorsz. resident naderhandt volgens onse last<lb/>
 versoeck te hove gedaen ende tra ofte brieven van licentie g’obtineert, die met<lb/>
@@ -1330,26 +1355,23 @@ Malacca na Bengale gebracht connen worden als deselve soovele mijlen Weegs over<
 landt te voeren, zijnde nae ’t rapport van voorsz. Cuylenburgh een seer moeyelijcken<lb/>
 wegh, op dewelcke doorgaens vele elephanten comen te sterven door ongemack,<lb/>
 gebreck van water ende voeragie; echter sullen van deselve negotie uyt<lb/>
-Malacca een preuve laten nemen.</para>
+Malacca een preuve laten nemen.
+</para>
 <remark>«Een jacht voor de Compagnie wordt in Siam gebouwd<lb/>
 »</remark>
 <para>De Coninck had ondertusschen mede 2 jachten op de Nederlandse wijse te<lb/>
 bouwen gelast ende op stapel staende, tot welcker eene van ons zeyl, treyl ende<lb/>
 alle toerustinge versoeckt, daer wij weynich van menen te senden ende sullen het<lb/>
 maeken van diergelijeke jachten in Siam, om verscheyden redenen voor de Comp.e<lb/>
-ondienstich zijnde, in toecomende staken.</para>
+ondienstich zijnde, in toecomende staken.
+</para>
 <para>Daer sijn desen jare gesanten van de Mataram in Siam geweest met geschenck<lb/>
 van 2 crissen, 2 piecken, 2 oliphantshaecken, 2 picol peper ende 2 deden, die 24<lb/>
 augusti weder waren terughgekeert, geaccompagneert met een vaertuyg ende<lb/>
 gesanten van den Coninck mitsgaders een brief, in ’t gout gegraveert, nevens 2<lb/>
 picol eliphantstanden ende 40 stucx deden. Tot wat eynde dese besendinge over<lb/>
-ende weder streckende sij, is ons tot noch toe onbekent.</para>
-
-<fnote ref="1">Oja Rapasip, blijkbaar dezelfde persoon als Oloangh Tip van p. 692.<lb/>
-</fnote>
-<fnote ref="2">Tavay, stad ter westkust van Achter-Indië op ruim 14° N.B. en 98°12' O.L.<lb/>
-</fnote>
-
+ende weder streckende sij, is ons tot noch toe onbekent.
+</para>
 <pb n="696" tpl="1" vol="02" facs="2_112_0696"/>
 <remark>«Volgens Westerwolt is deze zending van geen politiek belang ; W. definitief tot<lb/>
 opperhoofd in Siam benoemd; twee vaartuigen uit Johore zijn in Siam aangehouden,<lb/>
@@ -1357,7 +1379,11 @@ verdacht van spionnage en slecht behandeld, . . .<lb/>
 »</remark>
 <para>. . . waerdoor deselve, soo het schijnt, geïrriteert sijnde, in ’t uyt drijven van<lb/>
 de rivier twee Siamse vaertnygen aengesnoert ende medegenomen hebben. Ende is<lb/>
-hetselve affront in Johor soo qualijck genomen, dat eenige saletters<fref ref="1"/>  na Siam<lb/>
+hetselve affront in Johor soo qualijck genomen, dat eenige saletters
+<note mark="1">Saletters. Wellicht is hier bedoeld selatters. Het maleise woord selat betekent straat<lb/>
+en wel in het bijzonder die van Singapore. Selatters zijn dus schepen van die straat.
+</note>
+na Siam<lb/>
 uytgemaect hebben om haer te revengeren; op welcke, nadat al ettelijcke praeuwen<lb/>
 genomen hadden, den Siammer roeyvaertuvgh afgesonden heeft, maer waren voor<lb/>
 derselver comste alweder vertrocken ; vindende onderwege in plaetse van deselve<lb/>
@@ -1367,7 +1393,8 @@ omcingelende met 34 fregats, jegens welcke den Borneor hem ter defensie stelt en
 een van deselve vermeestert, waermet oock weghgecomen soude zijn, t[en]ware in<lb/>
 ’t uytdrijven aen de grondt geraect waren ende daermede, soo het schijnt, van<lb/>
 uytcomst despererende, malckander om niet levendich in der vijanden handen te<lb/>
-vallen gecrist ofte geponj ar deert hadden.</para>
+vallen gecrist ofte geponj ar deert hadden.
+</para>
 <remark>«In Siam bedroegen de uitgaven in een jaar f. 34036.0.4, terwijl bovendien er in<lb/>
 de handel f. 2053.7.5 is verloren; te Bantam kwam het Engelse jacht Duif uit Cambodja<lb/>
 met een jacht van den Koning van C.<lb/>
@@ -1377,7 +1404,11 @@ expressen ambassadr. van gemelten Coninck verschenen, die eenige geschencken<lb/
 met een brief, in een gout doosken beslooten, door d’Engelsen uyt sijnen naem aen<lb/>
 den Sultan tot Bantam hadde doen overleveren; oock is den Engelsen agent<lb/>
 Skinner
-<fref ref="2"/>  van geseyden ambassadeur uyt den naem van sijn Coninck met 20 picol<lb/>
+<note mark="2">Frederick Skinner was sinds 1652 Engels agent te Bantam; beschuldigd van knoeierij<lb/>
+moest hij in 1656 aftreden, maar in 1658 werd hij hersteld, waarna hij tot 1662 aanbleef. Met<lb/>
+de Nederlanders lag hij veel overhoop.
+</note>
+van geseyden ambassadeur uyt den naem van sijn Coninck met 20 picol<lb/>
 wasch ende 20 d.os benjuin vereert in recompense (soo men secht) van 20 stucken<lb/>
 canon ende 2000 cogels, die door den president Backer voor desen aen den voornoemden<lb/>
 Coninck sijn vereert, twelck het verrichten van gedachten expressen tot<lb/>
@@ -1385,7 +1416,8 @@ nader alliantie met die tot Bantam zij geweest ende wellicht ten principale door
 inductie van de Engelsen is geschiedt. Voornoemden agent was seer misnoegt, dat<lb/>
 se 5 personen aen de May.1 om sijn jacht door zee te brengen hadden moeten lenen,<lb/>
 te meer de Cambodiërs tegens haren danck de princevlagge ophielden sonder de<lb/>
-Engelse vlagge daerbij te gedoogen.</para>
+Engelse vlagge daerbij te gedoogen.
+</para>
 <remark>«De handel der Engelsen met Cambodja is van weinig belang<lb/>
 »</remark>
 <para>Welck Cambodias jacht dan na verrichtinge van sijne affairen tot Bantam<lb/>
@@ -1393,20 +1425,17 @@ alhier mede verschenen is, gecargeert met 90 lasten rijs, 70 a 80 picols benjuwi
 ende 200 d.os Japans staeffcooper nevens twee gesanten, genaemt Brachenanie<lb/>
 ende Manjock Bot Menradi Mettery, die ons overhandicht hebben een brief sonder<lb/>
 segel ofte signature ende een geschenck van 10 picol benjuwin ende 5 d.° wasch,
-
-<fnote ref="1">Saletters. Wellicht is hier bedoeld selatters. Het maleise woord selat betekent straat<lb/>
-en wel in het bijzonder die van Singapore. Selatters zijn dus schepen van die straat.</fnote>
-<fnote ref="2">Frederick Skinner was sinds 1652 Engels agent te Bantam; beschuldigd van knoeierij<lb/>
-moest hij in 1656 aftreden, maar in 1658 werd hij hersteld, waarna hij tot 1662 aanbleef. Met<lb/>
-de Nederlanders lag hij veel overhoop.</fnote>
-
 <pb n="697" tpl="1" vol="02" facs="2_112_0697"/>
 van de May.* van Cambodia, soo sij seyden, aen ons gesonden, dicterende onder<lb/>
 andere complimentos, hoe dat hem aengenaem sij geweest uyt den brief, door<lb/>
 radja Loya voorleden jaer van hier uyt onsen name aen oya Ockelhon geschreven
-<fref ref="1"/> ,<lb/>
+<note mark="1">Vermoedelijk de brief van 22 juli 1653, bedoeld in
+<emph>Borneo,</emph> p. 338.<lb/>
+</note>
+,<lb/>
 te vernemen, dat wij genegen waren tot den vrede ende om wederom in Cambodia<lb/>
-te handelen.</para>
+te handelen.
+</para>
 <remark>«De gezanten waren niet gemachtigd te onderhandelen; daarom is den Koning<lb/>
 gevraagd een gevolmachtigde te zenden; de vrijburger Bastiaen Bouillon is derwaarts<lb/>
 vertrokken , vgl.
@@ -1415,7 +1444,8 @@ vertrokken , vgl.
 <para>’t Schijnt, dat dese trouwlose Coninck over de onbehoorlijcke proceduren, aen<lb/>
 vijf aldaer gelaten Nederlanders begaen, al eenichsints berouw begint te toonen<lb/>
 ende dat sijn eygen consciëntie (zoo hij der anders een heeft) hem daerover comt<lb/>
-beschuldigen.</para>
+beschuldigen.
+</para>
 <remark>«Vgl. hiervoor de brieven van het hoofd der Japanners, afgedr.
 <ref>Daghregisters, 22 maart, p. 28-32</ref>; de daar genoemde koopman Hendrick is H. Baron; te goeder tijd<lb/>
 zal tegen Quinam worden geageerd; 2 schepen 17 augustus 1652 met car gasoen van<lb/>
@@ -1440,7 +1470,8 @@ sobere winsten al ten dele gebleecken heeft ; want het seecker gaet, dat de Coni
 veel min de prins en de andere grooten, in ’t minste geen verandering daerin doen<lb/>
 sullen, alsoo se door dat middel haer cassen vol silver trecken en groote schatten<lb/>
 silver in plaetse van casjes, daer ten principalen hare incomsten uyt bestaen,<lb/>
-vergaderen ende ’t silver, soo doende, in weynich estime brengen.</para>
+vergaderen ende ’t silver, soo doende, in weynich estime brengen.
+</para>
 <remark>«De Keyser beveelt daarom aan vanaf de schepen te handelen en niet voor<lb/>
 16 februari<lb/>
 »</remark>
@@ -1448,11 +1479,6 @@ vergaderen ende ’t silver, soo doende, in weynich estime brengen.</para>
 . . . om door mancquement van zilver in den verloopen tijt, terwijl de schepen<lb/>
 gaen en keren, de negotie van de copere munt soolangh te doen ophouden, alsoo<lb/>
 sulcx met Comp.8 aenbrengende silver (daervan gemeenelijck partij e onder de<lb/>
-
-<fnote ref="1">Vermoedelijk de brief van 22 juli 1653, bedoeld in
-<emph>Borneo,</emph> p. 338.<lb/>
-</fnote>
-
 <pb n="698" tpl="1" vol="02" facs="2_112_0698"/>
 coopluyden op leverantie van coopmanschappen gedestribueert wort) eerst geschieden<lb/>
 moet, als deselve op geseyden tijt wederom verschijnen, waerdoor dan<lb/>
@@ -1478,7 +1504,8 @@ becommeringe van haren handel op de neus krijgen ende mogelijck wel, soo sij<lb/
 groote schulden onder de leveranciers laten, genoodsaect sijn uyt Tonckin te vertrecken;<lb/>
 hoewel oock andersints Comp.8 capitael sonder schulden onder den coopman<lb/>
 na te laten soo wel als nu ende voor desen ten principalen soude connen<lb/>
-getrocqueert ende omgeset worden.</para>
+getrocqueert ende omgeset worden.
+</para>
 <remark>«Blijven wij vroeg komen en de Chinezen ook , dan moet men met voorschotten<lb/>
 werken:<lb/>
 »</remark>
@@ -1494,7 +1521,8 @@ maenden daermede connen excuseren, mitsgaders de May.* en de grooten daerdoor<lb
 inscherpen ende doen geloven, dat onse winsten è, présent sober waren vallende<lb/>
 ende wij dienvolgende met weynich capitael daer nu soo laet verschenen met<lb/>
 vertrouwen, dat sij door dit voorgeven te minder zilver op leverantie van zijde<lb/>
-souden nemen.</para>
+souden nemen.
+</para>
 <remark>«Zending van de Campen naar Tonkin,
 <ref>Daghregisters, 27 mei 1653, p. 73</ref>; in T.<lb/>
 is nu een kapitaal van
@@ -1502,7 +1530,6 @@ is nu een kapitaal van
 volgens latere berichten gaat de handel er zeer slecht o.a. wegens de casgenskwestie en<lb/>
 de hoge waterstanden, ook omdat 5 Chinese jonken er over de 400000 taël Japans<lb/>
 zilver brachten, wat alle inkoopsprijzen 20°/o deed stijgen; begin aug. was er maar voor</remark>
-
 <pb n="699" tpl="1" vol="02" facs="2_112_0699"/>
 <remark>f. 373964.13.6 aan goederen voor Japan opgekocht; onderkoopman Michiel Baly<lb/>
 blijft er met 13 ondergeschikten en kapitaal van f. 206488.3.8, waarvan f. 124590.14.2<lb/>
@@ -1514,7 +1541,8 @@ hare gierige claeuwen crijgende, daermede omspringen, even of het roofgoet ware,
 twelck al met patiëntie ende goede oogen moet aengesien werden, doordien in dat<lb/>
 rijck de gerechticht. geen plaets en heeft ende de deuren van justitie voor ons<lb/>
 geslooten of immers niet wel te genaecken zijn, dat voorwaer te beclagen ende voor<lb/>
-de Comp.e onlijdelijck zij.</para>
+de Comp.e onlijdelijck zij.
+</para>
 <remark>«Een vrij groot bedrag aan vorderingen heeft De Keyser vergeten te boeken<lb/>
 »</remark>
 <para>Wij remarqueren desgelijcx, hoe ’t voorleden jaer ter eerster aencomen van<lb/>
@@ -1547,11 +1575,11 @@ Chinesen om comptant te becomen in plaetse van de Comp.e gelevert hebben. Oock<l
 heeft de Comp.e ter eerster instantie en noch eenige jaren vervolgens noyt een<lb/>
 stuyver dan aen de grooten des rijcx op leverantie van sijde uytgekeert en echter,<lb/>
 nietjegenstaende 3 a 4 Chinese handeljoncken nevens de Comp.e in Tonkin negotiërden,<lb/>
-’t aengebrachte capitael a contento beter als nu getrocqueert.</para>
+’t aengebrachte capitael a contento beter als nu getrocqueert.
+</para>
 <remark>«Voortaan daarom geen dgl. voorschotten meer te geven; De Keyser is te royaal<lb/>
 geweest met geschenken: . . .<lb/>
 »</remark>
-
 <pb n="700" tpl="1" vol="02" facs="2_112_0700"/>
 <para>. . . sijnde sooverre gecomen, datter nauüjcx een capado in beyde de hoven is,<lb/>
 of hij en laet hem voorstaen, van de Comp.e behoort beschoncken te worden. Maer<lb/>
@@ -1578,8 +1606,11 @@ verseeckert houden, steets na de schepen mochte affgesonden werden ende<lb/>
 soo voorts; welcke acten wij houden van quaden consequentie, doordien het de<lb/>
 opperhoofden, naer hem comende, in tijden ende wijlen wel besueren mochten, ten<lb/>
 respecte de onredelijcke begeerschut
-<fref ref="1"/>  deser natie soo groot sij, dat lichtelijck actie<lb/>
-in der voegen vinden souden.</para>
+<note mark="1">Begeerschut, zonderling woord voor begeerte naar geschut.<lb/>
+</note>
+deser natie soo groot sij, dat lichtelijck actie<lb/>
+in der voegen vinden souden.
+</para>
 <remark>«De Keyser daarom vervangen door Louis Isaacksz. Baf f art<lb/>
 »</remark>
 <para>
@@ -1601,10 +1632,6 @@ dewelcke, onaengesien in ’t vooraengehaelde versoeckschrift, door s.r Keyser a
 de May.1 opgedragen, voor een heylich ende oprecht man, dien het niet om geit<lb/>
 noch goet te doen zij, wert gerenomeert, evenwel nochtans het contrarie betoont.<lb/>
 Want nu hij sich bevint door gemelte Keysers toedoen ende versoeck tot een voor-<lb/>
-
-<fnote ref="1">Begeerschut, zonderling woord voor begeerte naar geschut.<lb/>
-</fnote>
-
 <pb n="701" tpl="1" vol="02" facs="2_112_0701"/>
 drager van de Comp.e bevesticht te wesen, geeft hij sijn schrapend en winsuchtich<lb/>
 gemoet genoegsaem te kennen, doordien hij op ’t vertreck der schepen de onse pr.<lb/>
@@ -1648,21 +1675,20 @@ tracht dan sijn casse hoe langs soo meer te vullen, blijft hetselve schadelijck<
 instrument voor de Comp.e, dat hij over lange jaren al geweest is; want na den<lb/>
 val van sijnen grooten Christoffel, den geëxecuteerden capado Ongsjatulee, op<lb/>
 welcken
-<fref ref="1"/>  tot sijnen staet mede vrij begon te hellen, heeft hij sich sedert soodanich<lb/>
+<note mark="1">Hier is iets uitgevallen, mogelijk is bedoeld: op welcks doot sijnen staet enz.<lb/>
+</note>
+tot sijnen staet mede vrij begon te hellen, heeft hij sich sedert soodanich<lb/>
 in de gunst soo van den jongen Coninck, den capado Ongsjadee als meer andere<lb/>
 grooten weten in te wickelen, dat hij doorgaens als haren negotiërende factoor wort<lb/>
 gebruyct, sulcx dat het vermoeden is, hij niet alleen een aenrader zij geweest om<lb/>
 de voorn. 42 packen zijde met Comp.s schip na Japan te senden, maer selffs oock<lb/>
-
-<fnote ref="1">Hier is iets uitgevallen, mogelijk is bedoeld: op welcks doot sijnen staet enz.<lb/>
-</fnote>
-
 <pb n="702" tpl="1" vol="02" facs="2_112_0702"/>
 daerin geherideert hebbe; besij den dat hij, 50 000 tailen, soo men secht, rijck<lb/>
 zijnde, sijne persoonagie met d.° capitael soodanich in ’t opcoopen van de nateeltzijde<lb/>
 weet te spelen, die hij dan aen dengenen, die daer meest voor geven wil,<lb/>
 (twelck gemeenelijck de Chinesen zijn) vercoopt, dat de Comp.e daermede dwers in<lb/>
-de wegh leyt, twelck alsoo met patiëntie ende goede oogen moet aengesien werden.</para>
+de wegh leyt, twelck alsoo met patiëntie ende goede oogen moet aengesien werden.
+</para>
 <folio>Fol. 152r-154v.</folio>
 <remark>«Van de 5 Chinese jonken waren er één van I-kwaris broeder, twee van Cozinga;<lb/>
 ook is er een Portugese navet uit Macao gekomen en een jonk van den Spanjaard<lb/>
@@ -1673,24 +1699,37 @@ Vergas, de „Spaanse Brabander
 uytwesens de retoer weder in Tonckin gecomen, alsoo hij verwitticht was, dat eenige<lb/>
 Spanjaerden in Cambodia met hem een galge meenden te ver eieren, doordien hij<lb/>
 4 Spanjaerden vervoert
-<fref ref="1"/>  ende een Spaense piloot op seecker eylandt aengeset<lb/>
+<note mark="1">Vervoert, in de zin van weggevoerd.<lb/>
+</note>
+ende een Spaense piloot op seecker eylandt aengeset<lb/>
 hadde. Zijne terughgebrachte zijde heeft hij aen de Chinesen met 30 per cento<lb/>
 advance vercocht ende de muscus met . . . Vergas
-<fref ref="2"/>  (mits genietende 100 realen<lb/>
+<note mark="2">Vergas, op de Philippijnen wonend Spaans koopman, die vaak ten handel kwam in<lb/>
+Tonkin.<lb/>
+</note>
+(mits genietende 100 realen<lb/>
 voor ’t catty) naer Manilha, alwaer 170 realen rendeert, gerisiqueert. Gedachte<lb/>
 Riseymond onne heeft vooraengehaelde stuckgoederen onder opsicht van sijn eygen<lb/>
 volck per d.° Vergas’ jonek naer Manilha gesonden in meninge, soo daer goede<lb/>
 voordelen vallen, dien handel te vervolgen. En om seecker te gaan, ten aensien hem<lb/>
 bekent sij, dat het met de vredenstractaten strijdich is, dat de Spanjaerden op<lb/>
 Tonckin navigeren
-<fref ref="3"/> , heeft hij eenige van de voornaemste gelubde daerin een<lb/>
+<note mark="3">Bij de vrede van Munster was bepaald, dat de Spanjaarden zich hadden te houden<lb/>
+aan de vaarroutes, die zij in Azië reeds frequenteerden „sonder hun verder te moghen extenderen”.<lb/>
+<lb/>
+</note>
+, heeft hij eenige van de voornaemste gelubde daerin een<lb/>
 weynich laten herideren, gevende het den naem, dat Ongsjadingh
-<fref ref="4"/> , zoone van<lb/>
+<note mark="4">Ongsjadingh zou merkwaardigerwijze een zoon zijn van den capado (eunuch)<lb/>
+Ongjadee; een aangenomen zoon waarschijnlijk.<lb/>
+</note>
+, zoone van<lb/>
 Comp.s voordrager Ongsjadee, hooft der joneke zij om sich in tijde ende wijle<lb/>
 tegens ’t gemelte tractaet daermede te behelpen, daerbij hare monopoliën ende<lb/>
 listicheden connen afgemeten worden. Deze voorverhaelde lieden sijn eygentlijck<lb/>
 de contramineurs, die de Comp.e dit jaer in haere te doene negotie in de wegh sijn<lb/>
-geweest.</para>
+geweest.
+</para>
 <remark>«Er is in Tonkin van 1 oct. 1652 tot 20 aug. 1653 uitgegeven f. 67460.14- en<lb/>
 maar f. 3314.19.7 in de handel gewonnen; sedert is de Bruynvis ter rede van Tonkin<lb/>
 gelaten o.a. met het oog op het gevaar voor de loge, zo de oude Koning sterft en zeker<lb/>
@@ -1702,20 +1741,6 @@ gewonnen
 cargasoen van f. 149750 uit Thaiwan naar T., waarbij misschien nog voor een ton uit<lb/>
 Canton komt; zending van Schedel naar Canton, vgl.
 <ref>Daghregisters, 9 mei 1653, p. 51-63</ref>; deze zending heeft f. 14514.15.12 gekost, waarvan f. 10546.1- aan geschen-</remark>
-
-<fnote ref="1">Vervoert, in de zin van weggevoerd.<lb/>
-</fnote>
-<fnote ref="2">Vergas, op de Philippijnen wonend Spaans koopman, die vaak ten handel kwam in<lb/>
-Tonkin.<lb/>
-</fnote>
-<fnote ref="3">Bij de vrede van Munster was bepaald, dat de Spanjaarden zich hadden te houden<lb/>
-aan de vaarroutes, die zij in Azië reeds frequenteerden „sonder hun verder te moghen extenderen”.<lb/>
-<lb/>
-</fnote>
-<fnote ref="4">Ongsjadingh zou merkwaardigerwijze een zoon zijn van den capado (eunuch)<lb/>
-Ongjadee; een aangenomen zoon waarschijnlijk.<lb/>
-</fnote>
-
 <pb n="703" tpl="1" vol="02" facs="2_112_0703"/>
 <remark>ken; vooral de geschoren Chinezen hebben zich onvriendelijk gedragen , anders dan de<lb/>
 Tataren; zij verhoogden ook de tol met een kwart; de prijs van zijde en van goud was in<lb/>
@@ -1738,7 +1763,8 @@ bij pertinente notitie, sooveel als beyde de jachten bequamelijck bergen<lb/>
 conden, daeruyt gelicht, te weten 169 corven met aguilhout, 6 vierkante kistjens<lb/>
 d.os, 74 stroye balen en pertije losse peper, mitsgaders 26 stux koehuyden ende de<lb/>
 reste, van groot volumen ende cleyn valeur wesende, daerin gelaten ende deselve<lb/>
-sonder eenige vordere aen te doene molest gelargeert ende laten voltrecken.</para>
+sonder eenige vordere aen te doene molest gelargeert ende laten voltrecken.
+</para>
 <remark>«De tweede reis naar Canton kostte f. 4677.14.8; Schedel schat de kosten van een<lb/>
 ambassade naar Peking op 1 d 1% ton, waarom ze voorlopig is uitgesteld , o.a. omdat<lb/>
 het burgerlijk bestuur meer bij de geschoren Chinezen, ons vijandig, dan bij de Tataren<lb/>
@@ -1764,8 +1790,8 @@ uytsonden om 2000 of 2500 man te velt te connen brengen, wanneer ons met Godes<l
 hulp suffi£ant genoech souden bevinden Macao te attacqueren ende doordien in<lb/>
 lange geen secours en hebben becomen ende present vrij onmachtich sijn, soo can<lb/>
 de saacke geen langh uytstel leyden, maer dient hoe eer hoe liever in hare onmacht<lb/>
-bij der handt genomen.</para>
-
+bij der handt genomen.
+</para>
 <pb n="704" tpl="1" vol="02" facs="2_112_0704"/>
 <remark>«Komst van een galjoot uit Formosa,
 Daghregisters, 29 maart 1653, p. 33 en van<lb/>
@@ -1797,7 +1823,8 @@ te Batavia aan Chinezen wordt verkocht voor 8 rsd.<lb/>
 <para>Godt verlene in de vertiering maer continuatie ende dat ons de Chinesen geen<lb/>
 slimme trecken spelen en de peper van andere quartieren, daer denselven beter<lb/>
 coop dan hier is, comen te halen, dat echter door alle middelen volgens oude<lb/>
-costume sullen trachten voor te comen.</para>
+costume sullen trachten voor te comen.
+</para>
 <para>Den toevoer van Chinese waren daer volcht pr.sent noch. niet of gants weynich<lb/>
 op. Mogen hopen, soo de contractatie van de vrede tusschen den Tartar en Cocksinja,<lb/>
 Iquans soon, daer in Tayouan veel van gerucht wort, a contento wedersijts<lb/>
@@ -1807,22 +1834,21 @@ blijven, waerdoor egene coopluyden met coopmanschappen connen afcomen,<lb/>
 meldende de missive van den hr. Cesar, te hopen sij, tselve in corten haest beteren<lb/>
 sal, ten respecte in de onderhandelinge den Grooten Tartar Cocksinja . . . het<lb/>
 oppergesach van de provintiën Iiockseo
-<fref ref="1"/>  ende Sincheu soude aengeboden hebben.<lb/>
-<folio>Fol. 199r—</folio><super>v</super>.</para>
+<note mark="1">Hockseo; Fu Tsjou is de naam van een stad ter kust van China op 26° N.B. (niet 25,<lb/>
+zoals dl. I, p. 271 is vermeld). Met Sincheu is wel bedoeld Chung-tso-so, een oude naam voor<lb/>
+Amoy ; vgl.
+<emph>South China ,</emph> het kaartje van p. XX. Het woord provincie is hier te begrijpen in de<lb/>
+zin van landstreek.<lb/>
+</note>
+ende Sincheu soude aengeboden hebben.<lb/>
+<folio>Fol. 199r—</folio><super>v</super>.
+</para>
 <remark>«Coxinga is bereid met de Compagnie te handelen met 10 door hem uit te rusten<lb/>
 jonken; de handel der Thaiwanse burgers en Chinezen met Manilla ligt stil, daar er in<lb/>
 drie jaar geen schip uit Mexico kwam; in Thaiwan is in de handel gewonnen f.<lb/>
 381930.15.-; de landsinkomsten waren er f. 285770.8.12; de onkosten daarentegen<lb/>
 f. 328784.2.7; er blijft een kapitaal van f. 1608950.16.2, waronder 9100 realen van<lb/>
 achten kwade schuld; de verpachting der dorpen en visserijen heeft slechts 26715</remark>
-
-<fnote ref="1">Hockseo; Fu Tsjou is de naam van een stad ter kust van China op 26° N.B. (niet 25,<lb/>
-zoals dl. I, p. 271 is vermeld). Met Sincheu is wel bedoeld Chung-tso-so, een oude naam voor<lb/>
-Amoy ; vgl.
-<emph>South China ,</emph> het kaartje van p. XX. Het woord provincie is hier te begrijpen in de<lb/>
-zin van landstreek.<lb/>
-</fnote>
-
 <pb n="705" tpl="1" vol="02" facs="2_112_0705"/>
 <remark>realen opgebracht, 10000 minder dan in 1652, doordat het hertevlees in prijs daalde en<lb/>
 een deel van het gebied vier maanden lang voor de jacht werd gesloten; het hoofdgeld der<lb/>
@@ -1844,14 +1870,18 @@ alwaer oock alles tot contentement der inhabitanten is afgegaen, desgelijcx in<l
 de gewesten van Tamsuy ende Quelangh, alwaer volgens aenschrijvens van ’t<lb/>
 opperhooft Keerdekoe sonderlinge van geen ongenuchten gehoort wort, eenelijck<lb/>
 dat de twee Pinnor avaners, die de moort aen de tolcken Claes Ravensteyn ende<lb/>
-Roeloff Laarschien<fref ref="1"/>  hebben begaen, in handen van d’onse sijn vervallen en<lb/>
+Roeloff Laarschien
+<note mark="1">Laarschien; op p. 608 komt deze naam voor als Laersche.<lb/>
+</note>
+hebben begaen, in handen van d’onse sijn vervallen en<lb/>
 metten swaerde geëxcuteert, mitsgaders de hoofden tot een afschrick van andere<lb/>
 voor de redout op staecken gestelt ; waerop verders gevolcht is, dat eenige uyt den<lb/>
 naem van het dorpsvolck, naerdat deselve door ’t onthouden van zout en ijser in<lb/>
 groote necessiteyt van genoemde specie, die se niet missen connen, zijn geraect,<lb/>
 met gevouwen handen ende gebogen kniën onder beloften diergelijcke moorddadicheden<lb/>
 in eeuwicheyt niet meer te sullen plegen wederom in genade onder<lb/>
-Comp.8 gehoorsaemheyt sijn opgenomen.</para>
+Comp.8 gehoorsaemheyt sijn opgenomen.
+</para>
 <remark>«25 aug. zijn twee vaartuigen met cargasoen van
 /. 18503.10.2 van Thaiwan naar<lb/>
 Tamsui gezonden en met 30 soldaten; Keerdekoe is er wegens fraude vervangen door<lb/>
@@ -1872,10 +1902,6 @@ ende dan hunne macht tot verder verwijderinge onwederstandelijck werden sal.<lb/
 Om sulcx intijts voor te comen heeft d’hr. gouverneur Verburgh op ’t voordragen<lb/>
 van den politijc Joannes Olario in de maent may voorleden met 25 Duytse coppen<lb/>
 ende eenige inwoonderen een assault op het dorp Vongarit, dat wel het beste te<lb/>
-
-<fnote ref="1">Laarschien; op p. 608 komt deze naam voor als Laersche.<lb/>
-</fnote>
-
 <pb n="706" tpl="1" vol="02" facs="2_112_0706"/>
 genaecken was, voorgenomen met intentie hetselve tot afschrick van andere in de<lb/>
 assche te leggen en t’eenemael te verdestrueren. Maer de rebellen, van d’onse hare<lb/>
@@ -1888,7 +1914,8 @@ sooveel het gebergte aengaet, van ’s Comp.8 gehoorsaemheyt afgesneden, alsoo d
 zuydse inwoonderen van soo een wrevelmoedigen ende wederspamiigen aert sijn,<lb/>
 dat het vooral nodich sal wesen om die in devotie te houden, altemet eens met een<lb/>
 propere crijgsmacht besocht werden, waertoe de maenden december ende januarv<lb/>
-om de soldaten te preserveren gesontst zijn.</para>
+om de soldaten te preserveren gesontst zijn.
+</para>
 <remark>«De Formosanen dienen goed behandeld om hen niet met de Chinezen te doen<lb/>
 rebelleren; Verburgh meent , dat het gevaar . . .<lb/>
 »</remark>
@@ -1902,15 +1929,19 @@ nimmermeer yets goets te verwachten zij, maer eer se andere leerden, beter selfs
 mochten gebracht worden tot soodanige deugden, als in een Christen worden<lb/>
 vereyscht; dat dan gemenelijck de onnosele inwoonders, die sij travailleren en<lb/>
 extorqueren, besueren moeten, wonder sijnde, dat zij hetselve verdragen connen<lb/>
-ende dat sulex niet tot een quaet eynde uytberst.</para>
+ende dat sulex niet tot een quaet eynde uytberst.
+</para>
 <remark>«De Chinezen zijn er rustig; voor het volgend jaar wordt 13500 picol suiker<lb/>
 verwacht; 1334 morgen zijn met suikerriet , 3731 met rijst beplant<lb/>
 »</remark>
 <para>Tot accommodatie van den landman is PutmansjDolder
-<fref ref="1"/> , sijnde wel den<lb/>
+<note mark="1">Putmanspolder, zo genoemd naar gouverneur Putmans, dl. I, p. 254.<lb/>
+</note>
+, sijnde wel den<lb/>
 vruchtbaersten zaeyacker op geheel Formosa, tot coste van de stadt met eenen<lb/>
 nieuwen wegh, die soowel in den regen- als droogen tijt met karren can gebruyckt<lb/>
-worden, gemaect, streckende tot bij sonder gerief en contentement van den landman.</para>
+worden, gemaect, streckende tot bij sonder gerief en contentement van den landman.
+</para>
 <folio>Fol. 206v.</folio>
 <remark>«De suiker inkoopsprijs is nog niet verlaagd; Albert Hoogland wordt, als eerste,<lb/>
 landdrost voor het platteland van Formosa ; eens per week zal hij vierschaar spannen<lb/>
@@ -1921,10 +1952,6 @@ zal een fort voor 40 d 50 koppen worden opgericht; voor Formosa waren in plaats 
 500 maar 250 nieuwe soldaten beschikbaar, zodat er maar 910 zijn, overal verspreid,<lb/>
 waaronder 35 provisionele schoolmeesters<lb/>
 »</remark>
-
-<fnote ref="1">Putmanspolder, zo genoemd naar gouverneur Putmans, dl. I, p. 254.<lb/>
-</fnote>
-
 <pb n="707" tpl="1" vol="02" facs="2_112_0707"/>
 <para>. . . nietjegenstaende het stricte verbodt, dat niemant op verbeurte van jonck,<lb/>
 ingeladen goederen ende comptanten eenich silvergelt uyt Tayoan mach vervoeren,<lb/>
@@ -1935,11 +1962,20 @@ subsidie ende verstreckinge aen ’t volck op verdiende maendgelden te doen,<lb/
 werdende derhalven genootdruct eenige afgesette munt, aldaer noch in voorraet<lb/>
 sijnde, wederom cours te doen nemen, als namentlijck de rijcxmuntdaelders tot<lb/>
 51 stuyvers, de 28-stuyversstucken tot 30 stuyvers ende de flabben
-<fref ref="1"/>  tot 4 stuyvers<lb/>
+<note mark="1">Flab, o.a. te Groningen en Deventer geslagen munt ter waarde van vier stuiver.<lb/>
+</note>
+tot 4 stuyvers<lb/>
 ij der ; dat naer alle apparentie maer wejmich duyr hebben sal, want soodra en<lb/>
 valt de voorsz. munt in handen van de Chinesen niet, of zal almede vervoert worden,<lb/>
 ten respecte sij op ij der rijcxdaelder ten minsten 7 stuyvers ende op de 28en naer<lb/>
-advenant in China weten te winnen<fref ref="2"/> .</para>
+advenant in China weten te winnen
+<note mark="2">Voor de moeilijkheden, die de op last van Heren XVII ingevoerde ordre op de<lb/>
+valuatie gaf, zie men de brief van Maetsuyker en raden aan de Kamer Amsterdam van 19 jan.<lb/>
+1654, afgedr.
+<emph>Opkomst</emph> VI, p. 36-38.<lb/>
+</note>
+.
+</para>
 <remark>«Heren XVII verzocht de muntaangelegenheid nader te overwegen; een brief uit<lb/>
 Thaiwan van 17 nov. bevestigt de toename van de handel op Formosa; er is f. 1063579.<lb/>
 18- aan goud voor Coromandel; de eis van F. is voor 1654 f. 878440, vnl. contanten<lb/>
@@ -1972,15 +2008,6 @@ begroetingen van de groote landsheeren ende meer andere sijne voornaemste<lb/>
 onderdanen te connen ontfangen ende deselve eenige dagen na den anderen<lb/>
 audiëntie te geven. In welcken tijt dan, te weten op den 12 february, d’onse oock<lb/>
 de gewoone eerbiedinge met overleveringe der geschencken gedaen hebben ende de<lb/>
-
-<fnote ref="1">Flab, o.a. te Groningen en Deventer geslagen munt ter waarde van vier stuiver.<lb/>
-</fnote>
-<fnote ref="2">Voor de moeilijkheden, die de op last van Heren XVII ingevoerde ordre op de<lb/>
-valuatie gaf, zie men de brief van Maetsuyker en raden aan de Kamer Amsterdam van 19 jan.<lb/>
-1654, afgedr.
-<emph>Opkomst</emph> VI, p. 36-38.<lb/>
-</fnote>
-
 <pb n="708" tpl="1" vol="02" facs="2_112_0708"/>
 volgende dagen desgelijcx aen de raden ende andere heeren van het rijck, van<lb/>
 welcke sijn e. niemand thuys vond als alleen Ando Ockiosamma, die hem voor<lb/>
@@ -2016,7 +2043,10 @@ somwijlen heeft soecken te bevorderen. Vragen na staetssaecken zijn ten hove son
 niet voorgevallen, alleenelijck onderstondt Sickingodonne off de Comp.e<lb/>
 noch met de Portugesen in oorlogh continueerde, daer naer de waerheyt op<lb/>
 geantwoort is en zijn e. wel te bevallen scheen, recommanderende de onse verder<lb/>
-in de jegenwoordicheyt van den Nangasackise gouverneur Joffiedonne <fref ref="1"/>  tot<lb/>
+in de jegenwoordicheyt van den Nangasackise gouverneur Joffiedonne
+<note mark="1">Joffiedonne, gouverneur van Nagasaki, stierf in 1660.<lb/>
+</note>
+tot<lb/>
 desselffs contemplatie, vermits een nieuwelingh in dat ampt is, des Keysers bevelen<lb/>
 sorghvuldich te betrachten en als buytenslandts iets tot nadeel van ’t Japanse rijck<lb/>
 vernamen, sulcx vóór andere vremdelingen aen de gouverneurs van Nangasacki<lb/>
@@ -2024,20 +2054,20 @@ bekent souden maeken, als wanneer des May.ts gunst geduersaem over de Hollanders
 soude blijven, waerop naer eysch is gerepliceert. Wijders heeft gen. Coyet ende<lb/>
 desselffs gevolch geduerende haer aenwesen in Jedo, soo van den gouverneur<lb/>
 voornt. ende sijne confraters, Kiemondonnes
-<fref ref="2"/>  zonen, als alle anderen grooten van<lb/>
+<note mark="2">Kiemondonne was eveneens gouverneur van Nagasaki geweest.<lb/>
+</note>
+zonen, als alle anderen grooten van<lb/>
 Jedo soodanige courtoisie ende vrundelijcke bejegeninge genoten, als yemandt voor<lb/>
 eere soude connen estimeren. Ende nadat nu licentie hadden becomen ende alles<lb/>
 tot de wederomreyse was geprepareert, sijn sij met al hun gevolch den 22 february<lb/>
-
-<fnote ref="1">Joffiedonne, gouverneur van Nagasaki, stierf in 1660.<lb/>
-</fnote>
-<fnote ref="2">Kiemondonne was eveneens gouverneur van Nagasaki geweest.<lb/>
-</fnote>
-
 <pb n="709" tpl="1" vol="02" facs="2_112_0709"/>
 uyt Jedo vertrocken ende sonder eenige merckwaerdige voorvallen ofte rescontres<lb/>
 op de afreyse te ontmoeten den 23 martij voorspoedich in Nangasacki aengecomen<lb/>
-<fref ref="1"/> .</para>
+<note mark="1">Van Dam geeft een samenvatting van deze hofreis,
+<emph>Beschrijvinge</emph> II, I, p. 400.<lb/>
+</note>
+.
+</para>
 <remark>«In Nagasaki zijn in aug. en sept. 5 Compagniesschepen aangekomen met carga -<lb/>
 soen van f. 917388.15.11; Gabriel Happart volgt Coyet op; aan hem is f. 67799.14.3<lb/>
 getransporteerd; de handel is in Japan pas 2 oct. begonnen; de pancadoprijzen voor de<lb/>
@@ -2057,31 +2087,29 @@ diergelijcke lasten niet meer moeyelijck te vallen: want het haer niet genoech e
 sulcx in het derwaerts gaen te doen, maer oock in ’t wederkeeren en geschiet het<lb/>
 niet minder met hare belemmeringe van kisten en cassen. Wij sullen in toecomende<lb/>
 ordonneren, dat dit servituyt ende lastich pack van Comp.8 hals, sooveel doenlijck<lb/>
-zij, geschooven werde.</para>
+zij, geschooven werde.
+</para>
 <remark>«De waren uit Thaiwan gaven in Japan 90 a 100% winst; rariteiten uit Nederland<lb/>
 gewenst<lb/>
 »</remark>
 <para>De vaert op Canton1
-<fref ref="2"/>  om aldaer negotie te stabileren gevalt de grooten in<lb/>
+<note mark="2">NI. die van de Nederlanders.<lb/>
+</note>
+om aldaer negotie te stabileren gevalt de grooten in<lb/>
 Japan besonder wel, eensdeels om ’t verwachten van goede zijde stuckwercken, als<lb/>
 ten anderen omdat de Portugesen van Macao door de Comp.e grooten afbreuck<lb/>
 staen te lijden, hopende, dat sij eyndelijck noch t’eenemael verdreven sullen<lb/>
-worden, twelck langh haeren wensch is geweest.</para>
+worden, twelck langh haeren wensch is geweest.
+</para>
 <remark>«Een ambassadeur aan den nieuwen Sjogoen is nodig<lb/>
 »</remark>
 <para>Toecomende jaer staet mede een ambassadeur uyt Coerea (dat alle drie jaren<lb/>
-maer eens geschiet) aen ’t keyserlijcke hoff in Jedo te verschijnen.</para>
+maer eens geschiet) aen ’t keyserlijcke hoff in Jedo te verschijnen.
+</para>
 <remark>«Klachten van de Chinezen, wier hertevellen door Vólckerius in Siam zijn gelicht,<lb/>
 worden in Nagasaki niet ernstig genomen, daar de Koning van Siam de Nederlanders<lb/>
 voor die vellen octrooi gaf<lb/>
 »</remark>
-
-<fnote ref="1">Van Dam geeft een samenvatting van deze hofreis,
-<emph>Beschrijvinge</emph> II, I, p. 400.<lb/>
-</fnote>
-<fnote ref="2">NI. die van de Nederlanders.<lb/>
-</fnote>
-
 <pb n="710" tpl="1" vol="02" facs="2_112_0710"/>
 <para>Echter heeft dese daet aen velen misnoegen ende aen de onse smadelijcke<lb/>
 bejegeningen, alsof wij rovers waren, alsoock spader beginselen om tot den handel<lb/>
@@ -2112,13 +2140,15 @@ wij ons de superbe Japanse mandamenten t’eenemael willen onderwerpen, sonder<l
 molestie moeten laten passeren ende repasseren, dat verdrietich valt ende naer ons<lb/>
 gevoelen met den oorlogh niet en quadreert. Evenwel om in ’t Japanse rijck vredich<lb/>
 te negotiëren, soo sullen wij hare onwettige ordren tsij met wille of onwillen<lb/>
-moeten gehoorsamen; of tenware U Ed. het anders begrepen.</para>
+moeten gehoorsamen; of tenware U Ed. het anders begrepen.
+</para>
 <remark>«Bijzonderheden over de handel in Japan<lb/>
 »</remark>
 <para>Hartsteen hebben sij voorleden jaer, omdat tot het maeken van de Christenkercken<lb/>
 gebruyct wierd, soo sij seyden, niet willen laeten uytvoeren, maer wort nu<lb/>
 wederom te coop gepresenteert ; barnsteen heeft noyt in Japan aftreek gehadt,<lb/>
-echter sijnder eenige cleyne coralen voor Tonckin geprojecteert.</para>
+echter sijnder eenige cleyne coralen voor Tonckin geprojecteert.
+</para>
 <remark>«Vervolg gegevens handel in Japan ; tussen 11 nov. 1652 en 16 sept. 1653 zijn in<lb/>
 NagasaJci 51 Chinese jonken gekomen; in Coromandel is de mirdjumlah verontwaardigd<lb/>
 over het aanhalen van zijn scheepje Nasareth; zijn dreigementen
@@ -2131,8 +2161,8 @@ volgens last van Heren X VII
 »</remark>
 <para>. . . secreet te laten vernemen, of de Denen gequalificeert ende genegen<lb/>
 waeren haer fort Dansburgh op Trangebaere aen de Comp.e te vercoopen ende<lb/>
-tot wat prijs tselve hun uytterl. afstaende mocht wesen.</para>
-
+tot wat prijs tselve hun uytterl. afstaende mocht wesen.
+</para>
 <pb n="711" tpl="1" vol="02" facs="2_112_0711"/>
 <remark>«29 aug. is met de Sandyck - vgl.
 <ref>Daghregisters, p. 121-122 - v</ref>ernomen
@@ -2141,11 +2171,14 @@ inkoop van kleedjes gewoon doorgaat en . . .<lb/>
 »</remark>
 <para>.
 . . dat sijn hooch.*, over vooraengetoogen interest
-<fref ref="1"/>  met 15 125 pagoden a 2<lb/>
+<note mark="1">NI. voor het door den mirdjumla aan de V.O.C. geleende bedrag.<lb/>
+</note>
+met 15 125 pagoden a 2<lb/>
 per cento vernoecht ende betaelt wesende, eyndelijck uyt liberale gunste (misschien<lb/>
 sijn consiëntie van groote onredelijckheyt overtuygt voelende) de Comp.e 4000 oude<lb/>
 pagoden voor een vierde part van voorsz. intrest hadde quytgescholden ende die<lb/>
-reeckeninge met goet genoegen vereffent.</para>
+reeckeninge met goet genoegen vereffent.
+</para>
 <remark>«... . waarop Pit weer 40.000 pagoden d 1\ p.m. leent; de mirdjumla weigert<lb/>
 echter de verering, het jacht enz. te ontvangen; hij heeft geantwoord, . . .<lb/>
 »</remark>
@@ -2159,20 +2192,32 @@ om ’t sijne op d’een of d’ander wijse weder te krijgen, ’t Is te beclage
 Comp.e ^ yele
 <sub>SOo</sub> qualijck gedient wert, als in ’t nemen van voorsz. Moorsch jacht<lb/>
 Nasareth gebleecken heeft, hebbende den schipper Dirck Donnet1
-<fref ref="2"/>  tegens onse<lb/>
+<note mark="2">Dirck Donnet, schipper, is mij verder niet bekend.<lb/>
+De argumentatie van Stapel,
+<emph>Beschrijvinge</emph> II, II, p. 127, dat deze beschuldiging onjuist<lb/>
+zou zijn, is weinig steekhoudend.<lb/>
+</note>
+tegens onse<lb/>
 expresse ordre sich onder andere exorbitantie soodanich vergrepen, als met<lb/>
 gelooffwaerdige getuygen in rechte is bewesen, dat hij met sijn officieren had<lb/>
 gepart
-<fref ref="3"/>  51 J r.a swaerte gout en 900 realen, alsoock hier ter reede ende aen landt<lb/>
+<note mark="3">Gepart, gedeeld.<lb/>
+</note>
+51 J r.a swaerte gout en 900 realen, alsoock hier ter reede ende aen landt<lb/>
 goet getal goude masen aen sijn varent volck ende eenige soldaten om hun dachten<lb/>
 te weren tot buyt heeft uytgedeelt, consequent voor hem selven goede pertie<lb/>
-behouden moet hebben.</para>
+behouden moet hebben.
+</para>
 <remark>«De mirdjumla moet tevreden worden gesteld<lb/>
 »</remark>
 <para>
 Den heer chanchanna, veltoversten des Conincx van Visiapour, in maert<lb/>
 voorleden de stercte Pennegonde verovert hebbende, hadden aen den heer miersumela<lb/>
-doen versoecken passagie omme door Narnewaron<fref ref="4"/>  naer de Sinsierse<lb/>
+doen versoecken passagie omme door Narnewaron
+<note mark="4">Narnewaron, Naranavaram, landstreek aan een gelijknamige rivier, die bij Paleacatte<lb/>
+in zee valt.<lb/>
+</note>
+naer de Sinsierse<lb/>
 landen te trecken, maer niets geobtineert, alsoo den miersumela door heymelijcke<lb/>
 lagen tracht chanchanna het landt te doen quiteren, daertoe den Neyck van Meysioer<lb/>
 sterck assisterende, die d’heer c[h]anchanna dapper plaecht ende vele stercten<lb/>
@@ -2180,26 +2225,16 @@ wederom heeft afgenomen, oock den wegh naer Sensier, daerinne de Visiapourse<lb/
 van de gentiven naeuw belegert sijn, t’eenemael beleth. Ondertusschen is den<lb/>
 Coninck van Carnatica op de belooffde hulpe van mirsumela met 2000 soldaten,<lb/>
 meest edelluyden, door ’t landt van Meysioer in sijn oude hof Veloer gecomen,<lb/>
-
-<fnote ref="1">NI. voor het door den mirdjumla aan de V.O.C. geleende bedrag.<lb/>
-</fnote>
-<fnote ref="2">Dirck Donnet, schipper, is mij verder niet bekend.<lb/>
- 
- De argumentatie van Stapel,
-<emph>Beschrijvinge</emph> II, II, p. 127, dat deze beschuldiging onjuist<lb/>
-zou zijn, is weinig steekhoudend.<lb/>
- </fnote>
-<fnote ref="3">Gepart, gedeeld.<lb/>
-</fnote>
-<fnote ref="4">Narnewaron, Naranavaram, landstreek aan een gelijknamige rivier, die bij Paleacatte<lb/>
-in zee valt.<lb/>
-</fnote>
-
 <pb n="712" tpl="1" vol="02" facs="2_112_0712"/>
 alwaer, versamelt hebbende een leger van 15 000 mannen, meest alle de Sungierse<lb/>
 landen beslaet, over welcke vremde handelingh chanchanna den miersumela dapper<lb/>
 dreygt van hem op ’t lijf te vallen; doch heeft miersumela door wijs beleyt sich<lb/>
-voordachtelijck gelegert in ’t landt van Matlananteragie <fref ref="1"/>  tusschen de bergen,<lb/>
+voordachtelijck gelegert in ’t landt van Matlananteragie
+<note mark="1">Matlananteragie, mij niet duidelijk. Wel ken ik uit
+<emph>Zeemogendheid</emph> II, p. 400 een Vorst<lb/>
+in Carnatica, die Anantaradja heette. Mogelijk is hij bedoeld.<lb/>
+</note>
+tusschen de bergen,<lb/>
 daer maer twee toegangen sijn ende de Visiapoerse crijgsmaeht hem niet en kan<lb/>
 beschadigen. In somma, vele omstandicheden getuygen, dat den hr. mirsumela<lb/>
 door den Carnatischen Coninck tracht de Visiapoerders uyt Sinsiers stercke vestingh<lb/>
@@ -2211,7 +2246,8 @@ gebeuren, wanneer ’t Visiapourse leger met 20 000 ruyters onder een ander groo
 overste van den Coninck opnieuw nabij gecomen om d’heer chanchanna in sijn<lb/>
 commando te vervangen sal versterct wesen ; soo soude den goetaerdigen Carnatischen<lb/>
 Coninck in groot lijden vallen, daerop weynich schijnt verdacht te wresen,<lb/>
-als op de belooffde assistentie van miersumela te veel staed is maekende.</para>
+als op de belooffde assistentie van miersumela te veel staed is maekende.
+</para>
 <remark>«Kans op langdurige oorlog en slechte handel
 , al komen de bestelde doeken wel<lb/>
 binnen , mede omdat de Vorsten er groot voordeel bij hebben, dat de Compagnie jaarlijks<lb/>
@@ -2227,10 +2263,20 @@ daerover voorsz. Neyck almede misnoegen hebben gegeven, maer heeft hem door<lb/>
 vrundelijcke brieven op den grooten ommeslach van Comp.8 nodiger besendingh<lb/>
 tot beter occasie laten geseggen; insgelijcx, den grootgebieder in de grootste<lb/>
 provintie van Madre1
-<fref ref="2"/>  ofte van de landen omtrent Pambanaer
-<fref ref="3"/>  ons sijne adsistentie<lb/>
+<note mark="2">Madre = Madura, dl. I, p. 337.<lb/>
+</note>
+ofte van de landen omtrent Pambanaer
+<note mark="3">Pambanaer vind ik slechts als de naam van een plaats aan de westpunt van het<lb/>
+eiland Rameswaram, een deel van de verbinding tussen India en Ceylon, die wij als Adam’s<lb/>
+Bridge kermen.<lb/>
+</note>
+ons sijne adsistentie<lb/>
 met 2000 koppen ende 40 cloecke vaertuygen tegens de Portugesen op<lb/>
-Manaer, Jaffenampatam<fref ref="4"/> , Toutecouryn etc. aengeboden hebbende, is in der<lb/>
+Manaer, Jaffenampatam
+<note mark="4">Jafnapatam, sterke Portugese vesting in het noorden van Ceylon op 9°40' N.B. en<lb/>
+80° O.L. Sinds 22 juni 1658 Nederlands.<lb/>
+</note>
+, Toutecouryn etc. aengeboden hebbende, is in der<lb/>
 minne, om redenen verhaelt, mede uytgestelt geworden tot in augusti op ’t lest van<lb/>
 ’t mousson. De jachten Drommedaris en Nasareth van Ceylon ter reede Carcal<lb/>
 gecomen ende onse coopluyden gewaerschout wesende, hoe twee rijsscheepjes met<lb/>
@@ -2239,38 +2285,36 @@ Colombo te bevaeren, hadden alle debvoir gedaan om derwaerts te geraeken, maer<l
 door felle tegenwint en -stroom wierden genootsaect onverrichter saeke voor<lb/>
 Negapatam te keren. Middelerwijl den gouverneur Laurens Pit geordonneert<lb/>
 hebbende dito jachten tussen Manaer ende Negapatam te cruyssen tot medio<lb/>
-
-<fnote ref="1">Matlananteragie, mij niet duidelijk. Wel ken ik uit
-<emph>Zeemogendheid</emph> II, p. 400 een Vorst<lb/>
-in Carnatica, die Anantaradja heette. Mogelijk is hij bedoeld.<lb/>
-</fnote>
-<fnote ref="2">Madre = Madura, dl. I, p. 337.<lb/>
-</fnote>
-<fnote ref="3">Pambanaer vind ik slechts als de naam van een plaats aan de westpunt van het<lb/>
-eiland Rameswaram, een deel van de verbinding tussen India en Ceylon, die wij als Adam’s<lb/>
-Bridge kermen.<lb/>
-</fnote>
-<fnote ref="4">Jafnapatam, sterke Portugese vesting in het noorden van Ceylon op 9°40' N.B. en<lb/>
-80° O.L. Sinds 22 juni 1658 Nederlands.<lb/>
-</fnote>
-
 <pb n="713" tpl="1" vol="02" facs="2_112_0713"/>
-september, soo was den coopman Pieter van Bart <fref ref="1"/>  met 16 Nederlandse soldaten<lb/>
+september, soo was den coopman Pieter van Bart
+<note mark="1">Pieter van Bart kwam 1641 als assistent uit, later boekhouder, 1646 onderkoopman,<lb/>
+1649 koopman, dienend op verschillende plaatsen in Coromandel, vnl. te Karikal, waar hij<lb/>
+oct. 1655 stierf.<lb/>
+</note>
+met 16 Nederlandse soldaten<lb/>
 uyt Carcal op den Drommedaris mede overgegaen en 17 augusti met voorsz. 2<lb/>
 jachten naer d’eylanden van Jaffenampatam overgesteecken, ontmoetende 4 mijlen<lb/>
 boven deselve omtrent Punte de Pedro
-<fref ref="2"/>  drij Portugese fregats, die naerjaeghden<lb/>
+<note mark="2">Punte de Pedro, Pedro Point; de noordpunt van Ceylon.<lb/>
+</note>
+drij Portugese fregats, die naerjaeghden<lb/>
 tot aen de plaetse, genaemt Parritti Torre
-<fref ref="3"/> , daer een stenen kerck staet, alwaer de<lb/>
+<note mark="3">Parritti Torre, mij niet bekende plaats.<lb/>
+</note>
+, daer een stenen kerck staet, alwaer de<lb/>
 Portugesen, d’achterstevens van dito fregats met touwen aen de gront wel vast<lb/>
 gemaect hebbende, ons volck de steven boden, dies met canon wel 300 schooten<lb/>
 met dobbel scherp daer heftich opgedaan wiert, totdat vermeynden, alle ’t volck<lb/>
 daeruyt de vlucht hadden genomen, sulcx schipper Matteus Leverij
-<fref ref="4"/>  door al te<lb/>
+<note mark="4">Matteus Leverij, schipper, is mij verder niet bekend.<lb/>
+</note>
+door al te<lb/>
 grooten stoutmoedicheyt sich pr. sijn schepprau, gemant met 15 matrosen ende<lb/>
 soldaten, van Nasareth transporteerde aen den Drommedaris, persuaderende<lb/>
 schipper Jan Hoochsaet
-<fref ref="5"/>  insgelijcx neffens hem te landen omme niet alleen de<lb/>
+<note mark="5">Jan Hoochsaet, schipper, was zeker 1649 als zodanig reeds in dienst.<lb/>
+</note>
+insgelijcx neffens hem te landen omme niet alleen de<lb/>
 fregats af te halen, maer, kans siende, oock de kerck te demolieren, daer nochtans<lb/>
 hun bij instructie van den gouverneur expres was verbooden genige landttochten<lb/>
 ofte yets hasardeus te ondernemen, die desniettegenstaende mede onvoorsichtich<lb/>
@@ -2281,11 +2325,16 @@ guarnisoen leggende, siende d’onse met soo clene schuytges comen, stelden haer
 seer bedect soodanich in postuere, dat met d’eerste losbrandingh beyde de voornoemde<lb/>
 schippers sijn getroffen, waerdoor de schuyten terstont onclaer ende buyten<lb/>
 diffentie raeckten, werdende met schieten ende vierpotten
-<super>6 <fref ref="6"/> </super> sterck vervolcht, tot<lb/>
+<super>6
+<note mark="6">Vierpotten. vuurpotten, zwermpotten, potten met naar alle kanten springende<lb/>
+vuurpijlen.<lb/>
+</note>
+</super> sterck vervolcht, tot<lb/>
 meest allegader deerlijck gequest aen boort keerden, sijnde schipper Hoogsaet met<lb/>
 2 soldaten aenstondts doot gebleven ende schipper Leverey drie uyren daerna aen<lb/>
 boort Godsalich gestorven, besij den dien 16 swaerlick gewont bevonden, met<lb/>
-welcke nederlaegh terugh naer Trangebaere seylden.</para>
+welcke nederlaegh terugh naer Trangebaere seylden.
+</para>
 <remark>«Aan de andere zijde sneuvelden 65 personen; drie jachten tussen St. Thomas en<lb/>
 Manaar in de maanden januari tot september zouden veel uitgehaald hebben; voor<lb/>
 Trankebar is een vrijburgerscheepje door de Portugezen genomen; de Denen
@@ -2300,24 +2349,6 @@ besettingh in de fortresse, die bijnaer tot een proye voor haere vijanden legt, 
 dat d’Engelsen mede hun oogh op ’t fort Dansburgh hebben geslagen, soo was den<lb/>
 gouvemr. te rade geworden de Deense vrunden tot assistentie op Comp.8 costen<lb/>
 aen te bieden 12 Nederlandtse soldaten, mits dat onse residenten van Carcal met<lb/>
-
-<fnote ref="1">Pieter van Bart kwam 1641 als assistent uit, later boekhouder, 1646 onderkoopman,<lb/>
-1649 koopman, dienend op verschillende plaatsen in Coromandel, vnl. te Karikal, waar hij<lb/>
-oct. 1655 stierf.<lb/>
-</fnote>
-<fnote ref="2">Punte de Pedro, Pedro Point; de noordpunt van Ceylon.<lb/>
-</fnote>
-<fnote ref="3">Parritti Torre, mij niet bekende plaats.<lb/>
-</fnote>
-<fnote ref="4">Matteus Leverij, schipper, is mij verder niet bekend.<lb/>
-</fnote>
-<fnote ref="5">Jan Hoochsaet, schipper, was zeker 1649 als zodanig reeds in dienst.<lb/>
-</fnote>
-<fnote ref="6">Vierpotten. vuurpotten, zwermpotten, potten met naar alle kanten springende<lb/>
- 
- vuurpijlen.<lb/>
- </fnote>
-
 <pb n="714" tpl="1" vol="02" facs="2_112_0714"/>
 ’s Comp.8 comptanten in ’t casteel behoorlijcke woonplaetse gegeven wierde, ter<lb/>
 tijt de landen derwaerts over in beter postuer geraecte, twelck bij het Deense<lb/>
@@ -2338,10 +2369,17 @@ sulcx naer dato twee Deense jachten, de Liefde en de St. Paul, met redelijck<lb/
 goet capitael, d’een naer d’ander omtrent Toutecouryn en Manaer vervallen<lb/>
 wesende, van eenige Portugese fregats sijn aengehaelt ende in arrest genomen; of<lb/>
 dit desaister de Denen naer een goede presentatie sal doen luysteren, staet ons<lb/>
-haest te vernemen.</para>
-<para>Chinnana Chitty Maleye is ’t gouverno van Tegenampatam, Porto Novo <fref ref="1"/> <lb/>
+haest te vernemen.
+</para>
+<para>Chinnana Chitty Maleye is ’t gouverno van Tegenampatam, Porto Novo
+<note mark="1">Porto Novo, sinds ongeveer 1575 door de Portugezen bezochte plaats ter Kust van<lb/>
+Coromandel, op 11°30' N.B. en 79°48' O.L.<lb/>
+</note>
+<lb/>
 ende Alenbrue ontrocken, daerin weder Moorse regenten
-<fref ref="2"/>  sijn gestelt, die onderstaen<lb/>
+<note mark="2">Chinnanna was nl. een Hindoe.<lb/>
+</note>
+sijn gestelt, die onderstaen<lb/>
 hadden de vrijheyt van onsen handel te besnoeyen, begerende niet alleen<lb/>
 dobbelen tol, maer wilden oock alle de packen in ’t afschepen weder opendoen ende<lb/>
 naersien, om welck schandelijck servituyt niet subject te wesen d’onse genootsaect<lb/>
@@ -2350,35 +2388,29 @@ dat apparent door instigatie van Maleye zal geschiet sijn, gemerct hij sulcx doo
 een ander garen sach in treyn gebracht, alsoo sterck aspireert dito gouvernos<lb/>
 wederom in pacht te becomen. Ondertussen den coopman Govert Crakouw daerover<lb/>
 bij den heer Moradellibeeck
-<fref ref="3"/> , grootgouverneur van die landen, heftich<lb/>
+<note mark="3">Moradellibeeck ; Murad Alibeg, was de bestuurder van Gingi namens den Koning van<lb/>
+Bijapur, zeker sedert mei 1651.<lb/>
+</note>
+, grootgouverneur van die landen, heftich<lb/>
 gedoleert hebbende, had sijn e. opnieus stricte ordre gegeven aen de Moorse<lb/>
 auweldaers
-<fref ref="4"/> , dat se ons de negotie vrij ende liber souden laten vervolgen op den<lb/>
+<note mark="4">Auweldaer, havildar, hoogste stedelijke autoriteit, gouverneur van een stad.<lb/>
+</note>
+, dat se ons de negotie vrij ende liber souden laten vervolgen op den<lb/>
 voet, gel. door d’heer chanchanna bij expres firman de Hollanders was vergunt
-<fref ref="5"/> ,<lb/>
+<note mark="5">Op 17 mei 1651, vgl.
+<emph>Corpus</emph> H, nr. CC.<lb/>
+</note>
+,<lb/>
 twelck voorsz. heer Moradalibeeck onder andere saeken door een expres afgesant<lb/>
 naer Paliacatte den gouverneur Laurens Pit heeft laten bekentmaeken. ’t Schijnt,<lb/>
 de Mooren temet yets fingeren om ons te quellen en te sien, hoeverre hunne quade<lb/>
-proceduyren souden ingewillicht werden.</para>
+proceduyren souden ingewillicht werden.
+</para>
 <remark>«Daar de arbeid er goedkoop is, is te Narsapur een galjoot van 40 last gebouwd<lb/>
 voor slechts f. 4500 en te Bimlipatam een jacht voor
 /. 7682; nog twee dgl. vaartuigen<lb/>
 te maken; Van der Meyden heeft abusievelijk 75000 nagelen voor slechts 9 pagoden</remark>
-
-<fnote ref="1">Porto Novo, sinds ongeveer 1575 door de Portugezen bezochte plaats ter Kust van<lb/>
-Coromandel, op 11°30' N.B. en 79°48' O.L.<lb/>
-</fnote>
-<fnote ref="2">Chinnanna was nl. een Hindoe.<lb/>
-</fnote>
-<fnote ref="3">Moradellibeeck ; Murad Alibeg, was de bestuurder van Gingi namens den Koning van<lb/>
-Bijapur, zeker sedert mei 1651.<lb/>
-</fnote>
-<fnote ref="4">Auweldaer, havildar, hoogste stedelijke autoriteit, gouverneur van een stad.<lb/>
-</fnote>
-<fnote ref="5">Op 17 mei 1651, vgl.
-<emph>Corpus</emph> H, nr. CC.<lb/>
-</fnote>
-
 <pb n="715" tpl="1" vol="02" facs="2_112_0715"/>
 <remark>aan den mirdjumla aangeboden , terwijl de Gouv. Gen. de 'prijs op 12 pag. stelde en de<lb/>
 mirdjumla ze voor 18 verhoopt; levering zal niet plaats hebben tenzij tegen 12 pag.,<lb/>
@@ -2388,7 +2420,8 @@ gestelt hebben, als sijnde anno 1651 in ’t vaderlandt vercocht tot 6 gld. het<
 ende wanneer die op Cormandel tegen 2£ gulden ofte in Souratte tot 43 stuyvers<lb/>
 ’t ® uytwegen, soo souden ongetwijffelt d’Engelsen alle den foelij voor redelijcke<lb/>
 winst de Mooren connen afhandich maeken ende in Europa noch goede advance<lb/>
-bevaren.</para>
+bevaren.
+</para>
 <remark>«De kledenopkoop in Masulipatam, Petapuli, Palicol en Datcheron gaat goed;<lb/>
 van Thaiwan is in 1653 f. 778630.3.12 aan cargasoen, vnl. goud, naar Paleacatte<lb/>
 gebracht, van Batavia slechts
@@ -2406,7 +2439,11 @@ f. 190907. -.6, terwijl het vorige jaar er nadeel was geleden; het jacht Goede H
 f. 8948.11.13<lb/>
 »</remark>
 <para>Den Engelsen capteyn Broeckhoven
-<fref ref="1"/>  pr. hun schip de Liefde, met een<lb/>
+<note mark="1">Broeckhoven ; John Brookhaven maakte als scheepskapitein enige reizen naar India,<lb/>
+laatstelijk eind 1651, later, zeker tot 1679, had hij een belangrijke functie bij de E.I.C. te<lb/>
+Londen.<lb/>
+</note>
+pr. hun schip de Liefde, met een<lb/>
 treffelijck retoer van suyker, zijde, deden en salpeter volladen, op 22 jan. 1653<lb/>
 van Madrespatam na Europa verseylt sijnde met last, soo men rucht, d’eylanden<lb/>
 Barbados aen te loopen ende aldaer ’t merendeel sijner cargo te vercoopen, soo<lb/>
@@ -2415,30 +2452,26 @@ februarij van Maslupatam met goet cargasoen mede naer Pegu vertrocken, die ons<l
 jacht de Goede Hoop, van daer comende, omtrent 8 mijlen buyten Siriangs revier<lb/>
 verspraecken ende vredich vaeren lieten, daer sij andersints gemackel. mede<lb/>
 hadden connen doorgaen, soo haer den oorlogh tusschen Engelandt ende Neerlandt<lb/>
-waer bekent geweest.</para>
+waer bekent geweest.
+</para>
 <remark>«17 maart was aan Pit die oorlog bekend<lb/>
 »</remark>
 <para>
 Den president Ar on Backer, uyt Persia desen oorlogh met het verlies sijner<lb/>
 schepen wijs wordende, had ’t Engels fort St. Jorgie tot Madrespatam1
-<fref ref="2"/> , omtrent<lb/>
+<note mark="2">Het fort St. George was gesticht in 1644.<lb/>
+</note>
+, omtrent<lb/>
 4 mijlen van Paliacatte gelegen, dapper laten verstercken ende aen de zeekant<lb/>
 beneden den barm der puncten met pallesaden ende sooden een suffigant werck<lb/>
 gemaect om waterpas met 8 è, 10 stucken t’see te connen schieten tot bevrijdingh<lb/>
 van haere schepen, ’t Schijnt, d’Engelse voor een torn op ’t fort groote vTees<lb/>
-
-<fnote ref="1">Broeckhoven ; John Brookhaven maakte als scheepskapitein enige reizen naar India,<lb/>
-laatstelijk eind 1651, later, zeker tot 1679, had hij een belangrijke functie bij de E.I.C. te<lb/>
-Londen.<lb/>
-</fnote>
-<fnote ref="2">Het fort St. George was gesticht in 1644.<lb/>
-</fnote>
-
 <pb n="716" tpl="1" vol="02" facs="2_112_0716"/>
 hebben, dat echter noch te vroech is. Hun jacht de Robijn is voor 800 pagoden aen<lb/>
 de Mooren vercocht, met welck volck ’t jacht de Bonit, in juny uyt Peguw gecomen,<lb/>
 weder sterck gemant hebben, dat 25 september, onder ’t Engels fort geanckert,<lb/>
-noch vruchteloos bleeff leggen.</para>
+noch vruchteloos bleeff leggen.
+</para>
 <remark>«Zij hebben geen geld voor de handel; de Hoorn heeft in Pegu met lading van<lb/>
 f. 94241.4.2 een ton winst gemaakt en is 10 maart 1653 met lading van f. 71867 in<lb/>
 Paleacatte teruggekomen; te Siriang blijft kapitaal van f. 459459, wat te veel is, daar<lb/>
@@ -2461,7 +2494,8 @@ den toeganck tot de robijnmijne op lijfstraffe heeft verbooden, welcke mijne,<lb
 soo gerucht wort, ingestort ende meest onbruyckelijck soude vervallen wesen, die<lb/>
 dan door excessive oncosten met verloop van tijt verlangsaem uytgegraven sal<lb/>
 werden, waerdoor ongetwijffelt de robijnen in prijs te verdieren staen, alsoo daer<lb/>
-te lande in groote extime werden gehouden.</para>
+te lande in groote extime werden gehouden.
+</para>
 <remark>«Er zal nu in Pegu goud opgekocht worden, hoewel dat 35 d 36% verlies geeft;<lb/>
 de Nederlanders zijn er zeer in faveur<lb/>
 »</remark>
@@ -2481,12 +2515,12 @@ aen deselve ende andere ongeveer 100 000 gulden in goederen op tijt ter vente<lb
 vertrout hebben om pr. wissel voor 6 gulden een Maslupatamse pagood over 12<lb/>
 maenden op de Cust of in Bengale te betalen; de rest van merekelijeke pertije root<lb/>
 gaeren ende deden blijft hun aen de handt, die zijluyden trachten in troucque van<lb/>
-
 <pb n="717" tpl="1" vol="02" facs="2_112_0717"/>
 robijnen quijt te worden, maer toont hem niemant daertoe genegen, twelcke noch<lb/>
 alles ten besten geluckende, dat niet apparent is, soo sullen d’Engelse met de<lb/>
 negotie sobere winsten bevaeren ende den Peguwsen handel welhaest moede<lb/>
-werden.</para>
+werden.
+</para>
 <remark>«Naar Bengalen is voor f. 379462.3.10 lading gebracht
 , meest Japans en Gantons<lb/>
 zilver; er resteerde van 1652 fl. 256000, plus 31 maart 1653 f. 92954.3.7 aan winsten
@@ -2499,7 +2533,10 @@ schepen is er 250000
 »</remark>
 <para>
 Den commissaris Johan Verpoorten, tot de visite van ons comptoir in Ougly<lb/>
-gecomen wesende, was door den gouverneur Sjaffer<fref ref="1"/>  seer molest gevallen om<lb/>
+gecomen wesende, was door den gouverneur Sjaffer
+<note mark="1">Sjaffer, Mirza Ja’afar, de gouverneur van Hugli.<lb/>
+</note>
+seer molest gevallen om<lb/>
 passen voor de Moorse schepen, tenderende na Queda, Atchin, Colombo ende<lb/>
 Coutchin, dat telckens met goede reden op sijn onvermogen excuseerde, echter<lb/>
 naer veel geleden affronten wiert genootsaect twee passen te verlenen voor ’s<lb/>
@@ -2530,16 +2567,12 @@ regeringh ende het tractement, aen de Hollanders bewesen, sich grondich t’info
 ende daervan rapport te doen. Onderwijlen arriveert d.° Sjaffer op 20 mart<lb/>
 tegelijck met onsen commissaris in Ragiemahol ende wiert door den gouverneur<lb/>
 Melckbeeck 18 maert uyt Pipely gevolcht, die sijnen foucedaer, genaemt Alibeeck
-<fref ref="2"/> ,<lb/>
+<note mark="2">Alibeeck, Alibeg, de fausdar van Malikbeg.<lb/>
+</note>
+,<lb/>
 bevel liet bij openbaren tromslach uyt te roepen ende verbieden, dat geen Moorse<lb/>
 pions, dienaers noch coulijs op lijfstraffe de Hollanders dienen souden tot groote<lb/>
 verachteringh in ’t rafineren der salpeter; middelertijt den commissaris ten hove<lb/>
-
-<fnote ref="1">Sjaffer, Mirza Ja’afar, de gouverneur van Hugli.<lb/>
-</fnote>
-<fnote ref="2">Alibeeck, Alibeg, de fausdar van Malikbeg.<lb/>
-</fnote>
-
 <pb n="718" tpl="1" vol="02" facs="2_112_0718"/>
 debvoir deed om de gunst van den liertogh Samsaudaulo ende andere grooten te<lb/>
 vercrijgen, d’een na d’ander, uytgesondert den liertogh Nawassischan, na hunne<lb/>
@@ -2575,33 +2608,32 @@ bestaen te dagen, waerdoor de Hollanders betoonden overal meester te willen sijn
 soodat ingevalle den prins d’onse telckens tegens de gestelde gouverneurs geneygt<lb/>
 was de handt te bieden, gelijck reets een nieuwen regent tot Ougly, genaemt<lb/>
 Mametbeeck Abbacous
-<fref ref="1"/> , omdat Borchorst
-<fref ref="2"/>  ende Santvoort
-<fref ref="3"/>  op des commissaris<lb/>
-bevel voorsz. plaets verlieten, in stede van Sjaffer gestelt waer, die d’onse weder<lb/>
-ingeroepen ende vrundelijck terugge gehaelt hadde, soo soudet hooge loopen<fref ref="4"/> ,<lb/>
-dat hun gelovige de handels
-<fref ref="5"/>  ontrocken
-<fref ref="6"/> , eerlangh in onse handen zoude comen<lb/>
-te geraeken; daerom oordeelde beter d’onse intijts te betoomen ende neffens<lb/>
-
-<fnote ref="1">Mametbeeck Abbacous, Mahmudbeg Abakus, gouverneur van Hugli.<lb/>
-</fnote>
-<fnote ref="2">Jacob Borchorst kwam 1643 als assistent uit, werd 1646 onderkoopman, sinds 1652<lb/>
+<note mark="1">Mametbeeck Abbacous, Mahmudbeg Abakus, gouverneur van Hugli.<lb/>
+</note>
+, omdat Borchorst
+<note mark="2">Jacob Borchorst kwam 1643 als assistent uit, werd 1646 onderkoopman, sinds 1652<lb/>
 te Pipeli, 1653 koopman op Ceylon.<lb/>
-</fnote>
-<fnote ref="3">Frangois Santvoort kwam 1642 als assistent uit, was zeker sinds 1650 in Bengalen,<lb/>
+</note>
+ende Santvoort
+<note mark="3">Frangois Santvoort kwam 1642 als assistent uit, was zeker sinds 1650 in Bengalen,<lb/>
 1652 onderkoopman; hij raakte gedurende de successieoorlog in Hindustan te Dacca 1659<lb/>
 in de gevangenis, maar werd spoedig door een andere partij bevrijd, 1662 koopman, 1671 in<lb/>
 opperkoopmansrang secunde te Malakka.<lb/>
-</fnote>
-<fnote ref="4">Soo soudet hooge loopen ; zo zou het er op uitlopen.<lb/>
-</fnote>
-<fnote ref="5">Bandel, nevenvorm van bandar, haven.<lb/>
-</fnote>
-<fnote ref="6">Hier is iets uitgevallen, bijv. en die.<lb/>
-</fnote>
-
+</note>
+op des commissaris<lb/>
+bevel voorsz. plaets verlieten, in stede van Sjaffer gestelt waer, die d’onse weder<lb/>
+ingeroepen ende vrundelijck terugge gehaelt hadde, soo soudet hooge loopen
+<note mark="4">Soo soudet hooge loopen ; zo zou het er op uitlopen.<lb/>
+</note>
+,<lb/>
+dat hun gelovige de handels
+<note mark="5">Bandel, nevenvorm van bandar, haven.<lb/>
+</note>
+ontrocken
+<note mark="6">Hier is iets uitgevallen, bijv. en die.<lb/>
+</note>
+, eerlangh in onse handen zoude comen<lb/>
+te geraeken; daerom oordeelde beter d’onse intijts te betoomen ende neffens<lb/>
 <pb n="719" tpl="1" vol="02" facs="2_112_0719"/>
 andere tol af te nemen, als onbetamelijck zijnde, wij daervan exempt bleven,<lb/>
 sustinerende, bijaldien sijn hoochJ des commissaris’ versoeck van tolvrijheyt<lb/>
@@ -2639,7 +2671,10 @@ zoude. Over welcke uytspraeke Melckbeeck, den prins bedanckende, versocht,<lb/>
 bevel mocht gegeven worden om de Hollanders tollen af te vorderen, waertoe den<lb/>
 hertoch Nawassischan aenstondts last verkreegh ende Melckbeeck geordonneert<lb/>
 wiert, dat hij hem des anderendaegs schriftelijck soude verbinden om voor ’t<lb/>
-nemen der schepen ende ’t bederven van de bandels te caveren<fref ref="1"/> . Boor twelcke<lb/>
+nemen der schepen ende ’t bederven van de bandels te caveren
+<note mark="1">Caveren, instaan voor, zich borgstellen voor.<lb/>
+</note>
+. Boor twelcke<lb/>
 den commissaris verhindert is geworden om sijn hooch.1 in persoon te mogen<lb/>
 spreecken ende gedrongen wiert onverrichter saeken van ’t hoff naer Cassimabasaer<lb/>
 te vertrecken, daertoe Melckbeeck, geassisteert met seecker Portugees,<lb/>
@@ -2649,10 +2684,6 @@ Portugees met diverse oliphanten genomen souden hebben; welcke leugen door<lb/>
 den hertogh Nawassischan gesterct ende gevoet sijnde, versocht den Portugees door<lb/>
 ’s princen bevel 120 000 ropia tot vergoedingh van den commissaris te becomen,<lb/>
 waertoe sijn hoochJ aensienelijcke persoonen committeerde om pertijen in dat<lb/>
-
-<fnote ref="1">Caveren, instaan voor, zich borgstellen voor.<lb/>
-</fnote>
-
 <pb n="720" tpl="1" vol="02" facs="2_112_0720"/>
 geschil tegens malckanderen te hooren. Dienvolgens bijeengecomen wesende,<lb/>
 onderstond dien Lusitaen sijn vals voorgeven met gefingeerde brieven, door<lb/>
@@ -2669,9 +2700,16 @@ met ’s princen name, Alibeeck in Pipely door schrickelijck gewelt aenvangende,
 braken de galderij van ’t huys tegens protest eerst af tot groote alteratie van alle<lb/>
 Moorse coopluyden, die noch met smeeckende woorden onder een vereeringh van<lb/>
 400 ropias den voortganck afbaden tot nader beschijt van den prins. Verpoorten,<lb/>
-door d’opperhoofden Elbinck ende Van Hammen<fref ref="1"/>  sulcx geadviseert zijnde,<lb/>
+door d’opperhoofden Elbinck ende Van Hammen
+<note mark="1">Jan van Hammen kwam 1647 als koopman uit en diende zeker sinds 1652 te Pipeli;<lb/>
+1661 wordt hij te Tiku vermeld; hij repatrieerde in 1662.<lb/>
+</note>
+sulcx geadviseert zijnde,<lb/>
 doleert daerover met brieven aen sijn hoochJ ende gaf last aen den ondercoopman<lb/>
-Dirck van Santen<fref ref="2"/> , resident ten hove, dat bijaldien vernam, ’t voorsz. quaet<lb/>
+Dirck van Santen
+<note mark="2">Van den onderkoopman Dirck van Santen is mij verder niets bekend.<lb/>
+</note>
+, resident ten hove, dat bijaldien vernam, ’t voorsz. quaet<lb/>
 bedrijf bij Melckbeeck op eygen authoriteyt was ondernomen, ernstelijck aen den<lb/>
 prins redres te versoecken ofte andersints bij non obtenue licentie om met alle<lb/>
 Comp.8 ommeslach in der minne te mogen vertrecken, protesterende onschuldich<lb/>
@@ -2698,13 +2736,6 @@ tenwaere jaerlicx een schip op Coutchin vermocht te senden, waervan als wegens<l
 andere voorgestelde plaetsen expresse acte begeerde, des neen mocht Van Santen<lb/>
 onverrichter saeken vertrecken en d’Comp.e bij continuatie in sijne landen allerwegen<lb/>
 nevens andere coopluyden gerechticht. betalen, gelijck bevoorens 12£ ten<lb/>
-
-<fnote ref="1">Jan van Hammen kwam 1647 als koopman uit en diende zeker sinds 1652 te Pipeli;<lb/>
-1661 wordt hij te Tiku vermeld; hij repatrieerde in 1662.<lb/>
-</fnote>
-<fnote ref="2">Van den onderkoopman Dirck van Santen is mij verder niets bekend.<lb/>
-</fnote>
-
 <pb n="721" tpl="1" vol="02" facs="2_112_0721"/>
 hondert van alle uytgaende ende aengebrachte coopmansz. tot Pipely geordonneert<lb/>
 hadde, waerin den commissaris schrijft, Van Santen soo onvoorsichtich is geweest,<lb/>
@@ -2724,7 +2755,12 @@ soodat van de qnantiteyt, die daerboven negotiëren, de gewoonelijeke gerechtich
 sal moeten betaelt werden, belopende naer Verpoortens calculatie omtrent 4 ten<lb/>
 hondert van Cassimabasaer tot in Ougly ende hoewel tselve in ’t firman van den<lb/>
 prins niet en heeft gebleecken, soo was nochtans aen de regeringh van Moradabath1
-<super>* <fref ref="1"/> </super><lb/>
+<super>*
+<note mark="1">Stad, later meer bekend als Murshidabad, waar de administratie van Bengalen was<lb/>
+gevestigd; aan de Ganges even benoorden Kasimbazar. Ik vermoed althans, dat die stad met<lb/>
+dit Muradabad wordt bedoeld, destijds heette ze Muxadabad.
+</note>
+</super><lb/>
 gelast daerop te letten ; of nu die limiten alleen op Cassimabasaer ofte in ’t generael<lb/>
 op alle plaetsen wert verstaen, was noch onseecker. Des oock den commissaris<lb/>
 sustineert door ’t breecken van Melckbeexs beloften aen sijn woort niet te sijn<lb/>
@@ -2751,11 +2787,6 @@ hebbende dierhalven de krijgers van de omleggende plaetsen ontbooden om bij noot
 in tegenweer te sijn, begrootende ’t getal op 3000 coppen, daeraff omtrent 300<lb/>
 wierden vernomen, dat Melckbeeck ontstelde ende omsichtich maecte, wanneer<lb/>
 verstondt, den commissaris hem geliet van te willen vertrecken om de onredelijeke
-
-<fnote ref="1">Stad, later meer bekend als Murshidabad, waar de administratie van Bengalen was<lb/>
-gevestigd; aan de Ganges even benoorden Kasimbazar. Ik vermoed althans, dat die stad met<lb/>
-dit Muradabad wordt bedoeld, destijds heette ze Muxadabad.</fnote>
-
 <pb n="722" tpl="1" vol="02" facs="2_112_0722"/>
 proceduiren, door d.° Alibeecq omtrent de Comp.e getoont, bijaldien daerin geen<lb/>
 beterschap quam te vernemen, sulcx Melkbeeck den commissaris alle hulp ende<lb/>
@@ -2773,11 +2804,18 @@ wiert den prince van alle onverdraeghlijcke extorsiën,injuriën ende gewelden, 
 tsedert sijn aenwesen meer ende meer waren vergroot, te informeren, redres in de<lb/>
 verlopen saecken ende een generalen liberen handel te versoecken ofte dat bij<lb/>
 wey geringe van sulcx na gedane protestatie genootsaeckt soude wesen Comp.8<lb/>
-garant te soeken<fref ref="1"/> , daer ende met soodanige middelen als te rade sal vinden,<lb/>
+garant te soeken
+<note mark="1">Garant te soeken, trachten zich te dekken door goederen van de tegenpartij desnoods<lb/>
+met de sterke hand onder zich te krijgen.<lb/>
+</note>
+, daer ende met soodanige middelen als te rade sal vinden,<lb/>
 wanneer dan vooreerst met ’t arresteren van haere schepen, seven in ’t getal, tot<lb/>
 diverse voyagies geprepareert wordende, denct te beginnen ende vooral met die<lb/>
 van Melckbeeck of tenware onderwijl andere ordre uyt Batavia erlangde, alsoo<lb/>
-hem voor den eenigsten autheur taxeert van alle ’s Comp.8 travailles<fref ref="2"/>  om sijn<lb/>
+hem voor den eenigsten autheur taxeert van alle ’s Comp.8 travailles
+<note mark="2">Travailles, moeilijkheden, ongevallen.<lb/>
+</note>
+om sijn<lb/>
 vermeten voor de prins contrarie te doen blij eken ende Melckbeeck daerdoor<lb/>
 verhaet te maeken ofte anders sustineert, d’E. Comp.e langs soo meer gequelt ende<lb/>
 vercort sal werden. In somma, den proffijt gevenden zijdehandel van Bengale, die<lb/>
@@ -2785,10 +2823,14 @@ begroot is jaerlicx op 25 tonnen gout, daer wij veel staet op maecten ende tot d
 empleo jongst een treffelijck capitael van 1050 000 gulden aen schuytsilver uyt<lb/>
 Japan na Pipely hebben geordonneert, loopt groot peryckel om vruchteloos uyt te<lb/>
 vallen, soo de Generale Comp.e maer t’eenemael door rupture daeraff niet wert<lb/>
-versteecken. . . .</para>
+versteecken. . . .
+</para>
 <para>
 ’t Coninckhjcke firman voor Bengale
-<fref ref="3"/>  was uyt Agra in Pattena aengecomen<lb/>
+<note mark="3">Niet te vinden in
+<emph>Corpus.</emph><lb/>
+</note>
+was uyt Agra in Pattena aengecomen<lb/>
 ende aen den hertogh Sjafferchan met den tolheer om te approberen vertoont,<lb/>
 twelck naer resumptie diverse defecteus bevonden, alsoo d’E. Comp.e daerbij in<lb/>
 Pattena van tollen niet bleeff geëximeert, maer wel onderwegen van de goederen,<lb/>
@@ -2802,16 +2844,6 @@ door de gedane oncosten met meerder vruchtbaerheyt van sijn hoochJ had<lb/>
 connen geobtineert werden, gelijck van den gouverneur tot Oudagins ’t voorleden<lb/>
 jaer was verkregen allerwegen in sijn landt tolvrij te mogen handelen met exclusie<lb/>
 van de Engelse natie, die oock daerom den opcoop van zijdewaeren ontseyt, welck<lb/>
-
-<fnote ref="1">Garant te soeken, trachten zich te dekken door goederen van de tegenpartij desnoods<lb/>
-met de sterke hand onder zich te krijgen.<lb/>
-</fnote>
-<fnote ref="2">Travailles, moeilijkheden, ongevallen.<lb/>
-</fnote>
-<fnote ref="3">Niet te vinden in
-<emph>Corpus.</emph><lb/>
-</fnote>
-
 <pb n="723" tpl="1" vol="02" facs="2_112_0723"/>
 edel gespin in deugt en civilen prijs de zijde van Cassimabasaer is overtreffende.<lb/>
 Tot Decca sijn d’onse van den hertogh Joan Beeck almede veel gunst bewesen ende<lb/>
@@ -2819,7 +2851,8 @@ was apparent, den aftreek ende vertier onser coopmanschappen in Ougly merekelijc
 sou vergrooten. Vier oliphanten waeren aen den prins voor 20 000 ropia<lb/>
 vereoeht en van d’andere vijf, door de fluyt Hillegaersbergh daer uyt Malacca<lb/>
 gebracht, stont sijn hooch.* mede cooper te werden, maer voor de robijnen wierd<lb/>
-20 ten hondert verlies gebooden.</para>
+20 ten hondert verlies gebooden.
+</para>
 <remark>«Particuliere opkoop van zijde in 1651 door den koopman Louis Junius en andere<lb/>
 knoeierijen in Bengalen ; het opperhoofd Jan van Elbingh op zijn verzoek ontslagen;<lb/>
 de Engelsen hebben weinig gehandeld en moeten 5000 ropia aan tol over vroegere<lb/>
@@ -2833,7 +2866,8 @@ ende Maslupatam tot den ouden prijs van 47 groote pagoden de bhar van 480<lb/>
 ons af te coopen, daertoe ’t voorsz. silver, van Persia gebracht, met miersumela<lb/>
 liquide reeckeningh maeken sal. Ende heeft den gouverneur Laurens Pit gemelte<lb/>
 pertije nagelen sijn hoochJ tot voorigen prijs van 9 pagoden de 24 ® voor dat mael<lb/>
-mede toegestaen t’ontfangen.</para>
+mede toegestaen t’ontfangen.
+</para>
 <remark>«De eis van Coromandel zal worden gezonden, ook wat nagelen aangaat, opdat<lb/>
 men er geen geld zal hebben te lenen tegen hoge rente; de Naik van Tandjore zal de<lb/>
 overdracht van Dansborg aan de Compagnie wel niet goedkeuren, daar hij haar macht<lb/>
@@ -2849,7 +2883,8 @@ heeft haer, soo het schijnt, aen couragie ontbroocken om het voorsz. ontset, dat
 wel wisten, niet langh achter conde blijven, af te wachten, maar hebben het op den<lb/>
 7 januarij, als wanneer noch niet meer dan een doode ende een gequeste hadden<lb/>
 becomen, slechtelijck overgegeven, sooals het ontset van Caletuyre geen ure gaens<lb/>
-van daer en was.</para>
+van daer en was.
+</para>
 <remark>«De Aziaten onder de gevangenen zijn later ontsnapt, van de Nederlanders maar<lb/>
 55 meer in leven; Van Kittensteyn, sedert overleden, is als gouverneur opgevolgd door<lb/>
 Adriaen van der Meyden; gedurende het gunstige seizoen is Colombo aan de zeezijde<lb/>
@@ -2860,13 +2895,13 @@ geblokkeerd
 . . . hebbende middelerwijle een Portugees navet, hetwelck bij donekere<lb/>
 nacht vermeende te eschapperen, aengeslagen met 3 papen, 25 andere Portugesen<lb/>
 ende 30 swarten mitsgaders 106 bharen caneel, die de Comp.e is goetgedaen. Maer<lb/>
-
 <pb n="724" tpl="1" vol="02" facs="2_112_0724"/>
 soo haest en waren deselve jachten in ’t begin van mey, als wanneer het aldaer niet<lb/>
 wel langer te houden is, niet opgebroocken, of sij cregen een goet ontset binnen,<lb/>
 namentlijck 2 jachten ende 12 fregats met victualie ende volck, waerdoor sij het<lb/>
 voort machtich sijn geworden tegen ons uyt te houden, te meer omdat wij gants<lb/>
-onvermogens sijn geweest eenich secours van crijghsvolck derwaerts uyt te setten.</para>
+onvermogens sijn geweest eenich secours van crijghsvolck derwaerts uyt te setten.
+</para>
 <folio>Fol. 267r.</folio>
 <remark>«Wel is voor f. 51754.7.8 aan 'proviand naar Geylon gezonden
 , maar bij gebrek<lb/>
@@ -2878,7 +2913,8 @@ Portugesen in ’t velt gelegen soo na bij den anderen, datter maer een rivier t
 haer beyde geweest is, doch en hebben malckander echter geen leet gedaen ofte<lb/>
 sonderlingh eenige hostiliteyt bewesen, ja, heeft den Coninck eyndelijck, het<lb/>
 aldaer door gebreck van victualie niet langer connende houden ende, sijn volck<lb/>
-verlopende, met deselve stilstant van wapenen gemaect.</para>
+verlopende, met deselve stilstant van wapenen gemaect.
+</para>
 <remark>«Wel konden de Portugezen daardoor weinig tegen ons ondernemen<lb/>
 »</remark>
 <para>. . . mette verschijninge van de jongste vier jachten sijn sij na beneden gesact<lb/>
@@ -2887,7 +2923,8 @@ uyt vrese, soo het schijnt, door onse macht van de stadt afgesneden te mogen<lb/
 werden; waerop de coningse dan aenstondts de landen, die sij verlaten hebben,<lb/>
 weder hebben geoccupeert ende ingenomen, waerdoor dan deselve voortaen sullen<lb/>
 versteecken wesen van het onderhout, dat sij uyt deselve plegen te trecken ende<lb/>
-waermet haer soo lange onderhouden hebben.</para>
+waermet haer soo lange onderhouden hebben.
+</para>
 <remark>«Weinig samenwerking tussen Nederlanders en Singalezen; de Koning
 . . .<lb/>
 »</remark>
@@ -2905,11 +2942,11 @@ toe tegen d’onse vrundel. ende beleeft, gelijck uyt de brieven, die over ende 
 sijn gewisselt, blijct, hebbende onder anderen den gouverneur Jacob van Kittesteyn<lb/>
 vereert met een schoon borst juweel, met verschej^den gesteenten beset,<lb/>
 ende 2 elephanten, daeronder eene met tanden, met sijn thuygh ende cieraet<lb/>
-omhangen, waervan wij het juweel zijn e. hebben laten behouden.</para>
+omhangen, waervan wij het juweel zijn e. hebben laten behouden.
+</para>
 <remark>«De Koning vraagt restitutie van Negombo en afbraak van Colombo na de<lb/>
 verovering<lb/>
 »</remark>
-
 <pb n="725" tpl="1" vol="02" facs="2_112_0725"/>
 <para>Colombo is een groote ende volckrijcke stadt, omme welcke in gehoorsaemheyt<lb/>
 ende tegen vijanden van buyten in defensie te houden een groot guarnisoen sal<lb/>
@@ -2929,21 +2966,30 @@ weynich tevooren 80 soldaten van Jaffanapatnam ingecomen waren, en wierden sij<l
 het fort geen meester, niet meer dan een enge toeganck hebbende ende hebben<lb/>
 naderhandt ofte weynich tijt geleden noch bij nacht overrompelt des vijandts<lb/>
 Wacht aen de rivier van Mutuael
-<fref ref="1"/> , dicht onder de stadt gelegen, ende aldaer 8<lb/>
+<note mark="1">Rivier van Mutuael. Mutwal, plaats aan de mond van de rivier de Kelani, even<lb/>
+benoorden Colombo.<lb/>
+</note>
+, dicht onder de stadt gelegen, ende aldaer 8<lb/>
 Portugesen dootgeslagen ende een gevangen nevens al haer geweer opgebracht,<lb/>
 waerdoor de Portugesen, geïrriteert zijnde, een pertie van 300 coppen naNegombo<lb/>
-gesonden hadden, die daer dicht onder de fortresse op het eylandt Pitavan<fref ref="2"/> , cort<lb/>
+gesonden hadden, die daer dicht onder de fortresse op het eylandt Pitavan
+<note mark="2">Pitavan of Pitipana is de naam van het schiereiland, dat de lagune bezuiden Negombo<lb/>
+bijna geheel van de zee afsluit.<lb/>
+</note>
+, cort<lb/>
 tusschen deselve ende Mutael voorsz., getal clappusboomen onder de voet gecapt<lb/>
 ende van daer bij nacht oock een aenslach op het buytenwerck van de voorsz.<lb/>
 fortresse, tot bescherminge der ingesetenen eenige maenden tevooren opgeworpen,<lb/>
 gemaeckt hadden; maer vonden d’onse soodanich op hoede, dat vruchteloos weder<lb/>
-terugh sijn gekeert.</para>
+terugh sijn gekeert.
+</para>
 <remark>«Herhaling hiervan verwacht<lb/>
 »</remark>
 <para>In september voorleden hebben sij van Tutueurin wederom 10 fregats ende 2<lb/>
 jachten binnen gecregen met eenich volck ende ontset van rijs ende andere noodlij<lb/>
 ckheden, maer voor sooveel duysenden sal hetselve niet lang connen strecken,<lb/>
-ingevalle voortaen uyt de omleggende landen geen toevoer en becomen.</para>
+ingevalle voortaen uyt de omleggende landen geen toevoer en becomen.
+</para>
 <remark>«Sedert is Colombo aan de zeezijde weer met jachten geblokkeerd; met wat meer<lb/>
 troepen is de oorlog snel tot een eind te brengen
 <lb/>
@@ -2956,28 +3002,26 @@ van deselve tusschen Caleture ende gemelte stadt doen insinueren tot ons uyt te<
 comen, of dat als vijanden souden werden getracteert, dat bij eenige nagecomen, bij<lb/>
 andere niet geacht is. Waerop d’onse dan partijen uytgesonden hebben om de<lb/>
 wederspannige op te vangen, die al goet getal van deselve hebben opgebracht,<lb/>
-
-<fnote ref="1">Rivier van Mutuael. Mutwal, plaats aan de mond van de rivier de Kelani, even<lb/>
-benoorden Colombo.<lb/>
-</fnote>
-<fnote ref="2">Pitavan of Pitipana is de naam van het schiereiland, dat de lagune bezuiden Negombo<lb/>
-bijna geheel van de zee afsluit.<lb/>
-</fnote>
-
 <pb n="726" tpl="1" vol="02" facs="2_112_0726"/>
 wordende om een schrick in de andere te maecken aen de meestbiedende tot lijfeygenen<lb/>
 vercocht, een derde ten behoeve van dengenen, die se opbrengt ende twee<lb/>
 derden voor de Comp.e, die daerbij al 2294 realen hadde geproff iteert ; doch worden<lb/>
 de Zingalesen vercocht onder conditie, dat van het eylandt niet mogen werden<lb/>
 vervoert, als wanneer van de hare altijt wederom sullen connen worden geredimeert<lb/>
-<fref ref="1"/> . De gewesen dessave Marcus Cassel heeft hem soodanich verloopen, dat<lb/>
+<note mark="1">Geredimeert, losgekocht.<lb/>
+</note>
+. De gewesen dessave Marcus Cassel heeft hem soodanich verloopen, dat<lb/>
 van het voorsz. ampt gedegradeert ende buyten dienst van de Comp.e geset is ende<lb/>
 weder in desselfs plaets tot dessave van Mature gestelt den coopman Sij brandt<lb/>
 Groes
-<fref ref="2"/> , die wij verhoopen, dat hem beter comporteren sal, sijnde een ampt van<lb/>
+<note mark="2">Sybrandt Groes kwam 1649 als koopman uit, 1650 te Negombo, 1651 te Gale, 1652<lb/>
+dessave; hij sneuvelde 26 maart 1654.<lb/>
+</note>
+, die wij verhoopen, dat hem beter comporteren sal, sijnde een ampt van<lb/>
 importantie ten aenschouw van de landen en de regeringe, onder hetselve behoorende,<lb/>
 om welcke wel te bestieren ende d’ingesetenen in goede gehoorsaemheyt te<lb/>
-houden verstandt ende wijsheyt gerequireert wort.</para>
+houden verstandt ende wijsheyt gerequireert wort.
+</para>
 <remark>«Hij heeft de olifantenjacht bevorderd, waardoor er nu 44 voorhanden zijn;<lb/>
 Manamperie, het hoofd der jagers, is door Groes gevangen genomen wegens knoeierij
 <lb/>
@@ -3000,22 +3044,17 @@ ende hetselve binnen Gale gebracht hebben. Doch wij en geloven niet, dat dit een
 reële coop geweest, maer eenelijck gefingeert zij om de Portugesen door dat middel<lb/>
 onder haere vleugelen te beschermen ende met hare goederen door zee te brengen<lb/>
 ende dat hetselve schip het schip sij van eenen Jan Gomes, in Bengale woonachtich,<lb/>
-. . .</para>
+. . .
+</para>
 <remark>«Hoop op de vangst van meer olifanten en op de komst van meer kopers; er is te<lb/>
 veel kaneel in de pakhuizen, waarom last is gegeven de chalias voor ander werk te<lb/>
 gebruiken,<lb/>
 »</remark>
 <para>. . . hetwelck sij daer anders schijnen verstaen te hebben, hebbende de gemelte<lb/>
 chalea’s te sijner tijt wederom doen opnemen ende beschrijven om te leveren 1000<lb/>
-bharen ofte 480 000 caneel, die reede meest voldaen ende in de schuyren was.</para>
+bharen ofte 480 000 caneel, die reede meest voldaen ende in de schuyren was.
+</para>
 <folio>Fol. 277r.</folio>
-
-<fnote ref="1">Geredimeert, losgekocht.<lb/>
-</fnote>
-<fnote ref="2">Sybrandt Groes kwam 1649 als koopman uit, 1650 te Negombo, 1651 te Gale, 1652<lb/>
-dessave; hij sneuvelde 26 maart 1654.<lb/>
-</fnote>
-
 <pb n="727" tpl="1" vol="02" facs="2_112_0727"/>
 <remark>«Dit kan in geen jaar verkocht worden; er zijn één predikant te Negombo, twee te<lb/>
 Gale; Jan van der Laen commandeert in Negombo; op Ceylon zijn 1190 koppen,<lb/>
@@ -3030,14 +3069,18 @@ ontvangen; zending van SerooskercJcen naar de kust van Malabar, vgl.
 <ref>Rijcklof, p. 84-85 </ref>»</remark>
 <para>.
 . . d’onse schrijven, dat de . . . her togh
-<fref ref="1"/>  eenichsints bij den Coninck en de<lb/>
+<note mark="1">Nl. „Fettegam”.<lb/>
+</note>
+eenichsints bij den Coninck en de<lb/>
 grooten des rijcx om onsentwille zoude in disgratie sijn geraect ende hem verscheyden<lb/>
 plaetsen, aen de zee gelegen, zijn afgenomen, dat apparent geschiet is om ons<lb/>
 alle occasie te benemen de zeehavens te infesteren ende haren handel te verhinderen.<lb/>
 Na ’t jongste schrijven sou gemelte Fettegam d’onse door andere persoonen<lb/>
 alweder aengesocht hebben om na Wingurla te willen keren ende dat hij sijn<lb/>
 pretensiën zoude laten varen, te weten nu hij door de voorsz. cooplieden1
-<fref ref="2"/>  genoechsaem<lb/>
+<note mark="2">Bedoeld zijn de inheemse makelaars, met wie de V.O.C. in relatie stond.<lb/>
+</note>
+genoechsaem<lb/>
 betaelt is, daer d’onse dan oock niet na hebben willen hooren, soolangh<lb/>
 hij self daerover aen haer niet en schrijft. Men rucht oock, dat de Portugesen in<lb/>
 Goa aen den Visiapoursen Coninck seer emstel. versocht souden hebben om in onse<lb/>
@@ -3055,10 +3098,13 @@ Coninck eenige maenden voorleden met 2 elephanten vereert heeft, soo wij menen<l
 om desselffs gunst t’haerwaerts te conserveren, opdat zich met ons niet mochte<lb/>
 conjungeren om Goa aen te tasten, gel. daervan voor desen wel gesproocken is.<lb/>
 Ondertusschen onthouden haer de onse in . . . Achera
-<fref ref="3"/>  in een publicque plaets,<lb/>
+<note mark="3">Achera Salse, plaats ter westkust van India op ongeveer 16° N.B.<lb/>
+</note>
+in een publicque plaets,<lb/>
 tot herberge van reysende lieden gedestineert, arm ende slecht genoech, tot onse<lb/>
 ordre om alsdan, des geraden geacht wordende, aldaer weder een nieuwe logie te<lb/>
-stichten.</para>
+stichten.
+</para>
 <remark>«Klachten van de Wingurlase kooplieden over Bacherach en zending van Van<lb/>
 Goens; vgl.
 <ref>Rijcklof, p. 85-87</ref>; op het kleine cargasoentje van 1652 is in Wingurla<lb/>
@@ -3066,14 +3112,6 @@ gewonnen 97 \%, nl. in 13 maanden f. 35094 tegen f. 27332 aan kosten; er blijft<
 f. 64058, w.o. f. 49008 aan vorderingen; volgens schrijven van Bacherach
 . . .<lb/>
 »</remark>
-
-<fnote ref="1">Nl. „Fettegam”.<lb/>
-</fnote>
-<fnote ref="2">Bedoeld zijn de inheemse makelaars, met wie de V.O.C. in relatie stond.<lb/>
-</fnote>
-<fnote ref="3">Achera Salse, plaats ter westkust van India op ongeveer 16° N.B.<lb/>
-</fnote>
-
 <pb n="728" tpl="1" vol="02" facs="2_112_0728"/>
 <para>. . . hadden de Portugesen in augusto voorleden in Goa 5 gailloens ende<lb/>
 ettelijcke fregats ende pataches, van welcke zij eenige tegen de comste van onse<lb/>
@@ -3094,7 +3132,9 @@ een patache uyt Portugael zijn aengelandt met veel volek ende geit. Het patache<
 had in Bombain veel siecken aen landt gegeven ende zijn cargasoen gelost, als<lb/>
 wanneer mede na Goa verseylt was. ... In february voorleden was uyt Goa in<lb/>
 Wingurla bij d’onse verschenen een Portugees, genaemt Joan d’Abreu de Lima
-<fref ref="1"/> ,<lb/>
+<note mark="1">Joao d’Abreu de Lima, mij verder niet bekend.<lb/>
+</note>
+,<lb/>
 voorgevende van eenige groote conspirateurs gecommitteert te sijn om mettet<lb/>
 opperhooft te handelen om onder eenige conditiën aen ons te leveren de stadt Goa<lb/>
 met alle de castelen ende forten, daeraen behoorende, hetselve in maniere wetende<lb/>
@@ -3113,7 +3153,8 @@ gesonden ende alhier terechtgestelt te worden, nadien bij ontkennen bleef persis
 ende tot geen confessie en conde werden gebracht. Van het doen der Engelsen<lb/>
 in Ragiabach ofte daeromtrent en melden de voorsz. brieven niet sonders, dan dat<lb/>
 sij in Daman om acht galloens versocht zouden hebben om tegen ons te gebruyken,<lb/>
-die haer af geslagen waren.</para>
+die haer af geslagen waren.
+</para>
 <remark>«Berichten uit Suratte, vgl.
 <ref>Daghregisters, 11 </ref>aug. 1653, p. 116-117 ; er is te<lb/>
 weinig kapitaal heen gezonden om de schulden te kunnen af betalen, waarom het koper<lb/>
@@ -3123,16 +3164,13 @@ een reis naar Mokka; de Groot- Mogól staat zijn onderdanen niet toe vrachtgoede
 met Compagniesschepen naar Perzië te zenden, zo lang zijn eigen schepen niet volladen<lb/>
 zijn,<lb/>
 »</remark>
-
-<fnote ref="1">Joao d’Abreu de Lima, mij verder niet bekend.<lb/>
-</fnote>
-
 <pb n="729" tpl="1" vol="02" facs="2_112_0729"/>
 <para>. . . hebbende de outste zoone des Conincx mede twee schepen tot dien<lb/>
 eynde laten maken, invoegen dat sij in aenstaende alle de vrachten rijckelijck sullen<lb/>
 connen weghslepen ende voor ons niet sal overschieten. Die van de Engelse natie<lb/>
 hadden mede langen tijt 8 ende 9 schepen in de chom van Sualy gehadt op hoope<lb/>
-eenige ladinge te becomen, dat mede vruchteloos geweest is.</para>
+eenige ladinge te becomen, dat mede vruchteloos geweest is.
+</para>
 <remark>«Compagnies schepen van Suratte naar Perzië en Basra gezonden; in het laatste<lb/>
 kan 100% op koffie van Mokka gewonnen worden; de goederen te Suratte
 , die voor<lb/>
@@ -3150,7 +3188,8 @@ Moorse rijck geladen schepen, bestaende haere cargasoenen ten principalen uyt<lb
 slechte marct geweest sijn, ontstaen, doordien weynich cooplieden afgecomen ende<lb/>
 daerentegen vele vremde negotianten met groote quantiteyt coopmanschappen<lb/>
 daer aengelandt waren. Oock was den cauwa van 35 tot 50 realen de bhar van<lb/>
-393§ SÊ gesteygert, veroorsaect door het soober gewas.</para>
+393§ SÊ gesteygert, veroorsaect door het soober gewas.
+</para>
 <remark>«Indien het
 ,, medicinael
 ” koffie goedkoper wordt
@@ -3164,8 +3203,12 @@ komend
 niet derven nemen, maer mettet voorsz. jacht de Zeehors haven gecoosen in<lb/>
 Bombain, alwaer hetselve wel 3 mijlen de rivier opgehaelt hebben, sijnde het<lb/>
 opperhooft van daer over landt in Suratte aengecomen, hebbende haere comptanten<lb/>
-ende bougagie <fref ref="1"/>  in Mocha in Moorse schepen gescheept ende soo bedeetelijck<lb/>
-na Suratte gesonden, dat haer tot groote cleynachtinge was streckende.</para>
+ende bougagie
+<note mark="1">Bougagie, wel een verschrijving voor bagagio.<lb/>
+</note>
+in Mocha in Moorse schepen gescheept ende soo bedeetelijck<lb/>
+na Suratte gesonden, dat haer tot groote cleynachtinge was streckende.
+</para>
 <remark>«Pieter de Bie naar Sindh gezonden ,<lb/>
 »</remark>
 <para>. . . die aldaer van den hertogh Mogolchan ende den sabandar vrundelijck<lb/>
@@ -3179,11 +3222,8 @@ gegeven was ; invoegen dat het sich laet aensien, dat wij mettertijt goede voord
 van daer te ontmoeten staen, voornamentlijck bijaldien bij continuatie van den<lb/>
 oorlogh met Engelandt die natie, die overal seer tegen ons woelen, van daer conde<lb/>
 werden gehouden. Deselve hebben daer oock voor desen jaerlicx pertije geraffineerden<lb/>
-salpeter voor Europa genegotieert.</para>
-
-<fnote ref="1">Bougagie, wel een verschrijving voor bagagio.<lb/>
-</fnote>
-
+salpeter voor Europa genegotieert.
+</para>
 <pb n="730" tpl="1" vol="02" facs="2_112_0730"/>
 <remark>«De Bie zendt daarvan een monster; aan Mogolkhan is een verering geschonken;<lb/>
 in Ahmadabad, Baroda en Broach was in de handel weinig te doen; bezending naar<lb/>
@@ -3220,17 +3260,23 @@ te wesen ende lagh bovendien in de Zuratse rivier, alwaer door het schip Schieda
 ingejaecht was, het jacht de Valck, dat mettet leste schrijven gereet lagh om uyt te<lb/>
 loopen, maer het volck muyteneerden ende begeerden niet in zee te gaen. . . .<lb/>
 Re Zeehors was in Bombain genoechsaem afgelecht
-<fref ref="1"/> . In january voorleden hebben<lb/>
+<note mark="1">Afgelecht, onttakeld.<lb/>
+</note>
+. In january voorleden hebben<lb/>
 sij van Suratte na Engelandt geretourneert haer schip de Smirne Marchand,<lb/>
 geladen met een rijck cargasoen van Guseratse ende Sindise lijwaten, salpeter,<lb/>
 indigo, cattoene garen, Persiaense zijde, cardamom, caneel, diamanten, muscus<lb/>
 ende amber; de quantiteyt van elcx was onbekent. Ren president Jeremias<lb/>
 Blackman
-<fref ref="2"/>  sat mede met over de 200 000 gulden op interest beswaert ende wiert<lb/>
+<note mark="2">Jeremy Blackman was zeker sinds 1644 als scheepskapitein in dienst van de E.I.C, ;<lb/>
+van 1652 tot 1655 president te Suratte; hij stierf voor 1660.<lb/>
+</note>
+sat mede met over de 200 000 gulden op interest beswaert ende wiert<lb/>
 tot die tijt toe van sijne crediteuren noch beleef delijck bejegent, haer verlatende<lb/>
 op het secours, dat sij in september hadden te verwachten, gevende ondertusschen<lb/>
 voor apparent om deselve crediteuren daermede te verblinden, dat sij alle den<lb/>
-salpeter willen aenslaen, die te coop sal worden gepresenteert.</para>
+salpeter willen aenslaen, die te coop sal worden gepresenteert.
+</para>
 <remark>«Uit Thaiwan is in twee schepen voor Suratte cargasoen gezonden van slechts<lb/>
 f.
 <emph>23013.5.6,</emph> vnl. koper en thee; dit jaar zal alle Japans zilver naar Bengalen gaan
@@ -3244,14 +3290,8 @@ belegeren, bijaldien wij hem ter zee wilden adsisteren, daer denselven op geantw
 heeft geen ordre toe te hebben, maer daerover na Batavia te sullen schrijven.<lb/>
 Off hetselve den gem. Vorst ernst sij , sal den tijt nader openbaren ende meent de<lb/>
 maeckelaer Wiersia Wora, dat, sulcx geschiedende, wij daerdoor wellicht van den<lb/>
-gantsen tol van Suratte ende Brochea souden werden geliberteert.</para>
-
-<fnote ref="1">Afgelecht, onttakeld.<lb/>
-</fnote>
-<fnote ref="2">Jeremy Blackman was zeker sinds 1644 als scheepskapitein in dienst van de E.I.C, ;<lb/>
-van 1652 tot 1655 president te Suratte; hij stierf voor 1660.<lb/>
-</fnote>
-
+gantsen tol van Suratte ende Brochea souden werden geliberteert.
+</para>
 <pb n="731" tpl="1" vol="02" facs="2_112_0731"/>
 <remark>«In Suratte en onderhorige kantoren is in het jaar, eindigend 31 mei, gewonnen<lb/>
 f. 359730.13.9, de onkosten bedroegen f. 161999.18.-; er blijft een kapitaal van<lb/>
@@ -3297,15 +3337,13 @@ onderwijl op 14 dito noch ter rheede gecomen ’t jacht de Leonoreth, welcke aen
 om nevens de Reebock weder t’ seyl te gaen vaerdich gemaect wordende,<lb/>
 heeft sijn e. goetgevonden op de despeche van de Reyger . . . t’ordonneren, dat<lb/>
 tusschen de Caep de Jasques ende Mousandon
-<fref ref="1"/>  zoude blyven cruyssen, tottertijt<lb/>
+<note mark="1">Mousandon, Musandim, eiland aan de zuidzijde van de ingang van de Perzische Golf<lb/>
+op 26°25' N.B. en 56£° O.L.<lb/>
+</note>
+zoude blyven cruyssen, tottertijt<lb/>
 en wyle d’Engelse Reebock ende Leonoreth nevens ’t jacht Concordia daer soude<lb/>
 comen te verschynen, welcke Engelse haer tot vertreck seer spoedigende, heeft den<lb/>
 directeur naderhandt goetgedacht om alle quade bedenekinge voor te comen ’t<lb/>
-
-<fnote ref="1">Mousandon, Musandim, eiland aan de zuidzijde van de ingang van de Perzische Golf<lb/>
-op 26°25' N.B. en 56£° O.L.<lb/>
-</fnote>
-
 <pb n="732" tpl="1" vol="02" facs="2_112_0732"/>
 jacht Concordia mede vooraf te laten seylen met voorgevingh, ’tselve na Batavia<lb/>
 stondt te vertrecken, gelijck op 18 dito geschiet is, volgende op 23 de gemelte<lb/>
@@ -3351,16 +3389,17 @@ achten. Wegens ’tgene soo in de contanten als opgesnedene packen te corte bevo
 wert, moeten de cooplieden met den anderen wegens ’t verlies in concurrentie<lb/>
 comen, daermede haer sonder veel tegensporrelingh te maecken hebben laten<lb/>
 contenteren, passerende daerenboven noch quitantien, daermede d’E. Comp.ie van<lb/>
-alle namaningh bevrijt blijft.</para>
+alle namaningh bevrijt blijft.
+</para>
 <para>
 Middelerwyle sijn uyt de twee veroverde schepen d’Engelse goederen gelost<lb/>
 ende bij vente van deselve uyt de Robock, nu Utrecht genaemt, geprocedeert<lb/>
 /. 49804.8.- ende uyt de Leonoreth, nu Zijdworm, /. 665. Van de contanten, welcke<lb/>
 daer in redelycke quantiteyt, na gesecht wert, in geweest sijn, sijn vele tsoeck<lb/>
-
 <pb n="733" tpl="1" vol="02" facs="2_112_0733"/>
 geraect ende weynich, wat scherpe enqueste by den directeur daertoe aengewent<lb/>
-sijn, naderhandt uytgevonden geworden.</para>
+sijn, naderhandt uytgevonden geworden.
+</para>
 <para>Insgelijcx heeft den directeur alle devoir in ’t werck gestelt om onse schepen,<lb/>
 in der haest weder gerepareert sijnde, onder seyl te doen gaen om in de engte<lb/>
 tusschen Jasques ende Mousandon op noch eenige te verwachtene Engelse te<lb/>
@@ -3388,7 +3427,10 @@ Engelse schepen, sijnde /. 50469.8—, geaddeert sijnde, comt te bedragen /. 363
 13.-, waerby comende, ’tgene van de 12 packen, in Concordia by d’Engelse in<lb/>
 Suratte gescheept, welcke bij den directeur voor goede prinse sijn verclaert,<lb/>
 gecomen is, sijnde /. 4192.12.-, als van 4 packen by deselve op Maslupatnam in de<lb/>
-fluyt de Salm geladen ter somma van ƒ. 4561.12.-, alsmede ’tgene op twee dotysackens<fref ref="1"/> <lb/>
+fluyt de Salm geladen ter somma van ƒ. 4561.12.-, alsmede ’tgene op twee dotysackens
+<note mark="1">Doty, ruw paklinnen, jute.<lb/>
+</note>
+<lb/>
 met peerlen d’Engelse in contant aen diverse Mooren gedisbourseert<lb/>
 hebben, sijnde /. 45319.4.- om gelycke somma weder in Suratte by behouden varen<lb/>
 t’ontfangen, welcke cooplieden by derselver restitutie soodanige somma aen d’onse<lb/>
@@ -3397,7 +3439,8 @@ gesamentlijck te monteren comt een somma van /. 417446.11.-, waerby gestelt<lb/>
 sijnde, tgene bij vercoop van ’t veroverde jacht Bon Jesus, nu ’t Wapen van<lb/>
 Amsterdam gesecht, gecomen is, sijnde . . . /. 16272.17.8, met den andere te<lb/>
 beloopen comt, tgene by veroveringh der voorgementioneerde schepen voor d’E.<lb/>
-Comp.ie geconquesteert is een capitale somme van /. 433718.18.8, . . .</para>
+Comp.ie geconquesteert is een capitale somme van /. 433718.18.8, . . .
+</para>
 <para>
 Met d’Engelse gevangenen, als weynich van slooten ende boyen versien sijnde,<lb/>
 is den directeur niet weynich verlegen geweest, als niet menschelijck achtende<lb/>
@@ -3406,10 +3449,6 @@ deselve te bevaren door de veroveringh van schepen gants ontbloot sijnde, heeft<
 goet gedacht sestich derselver op ’t veroverde Portugees jacht te stellen, latende<lb/>
 acht matrosen tot een loose wacht by deselve verblyven ende geseyde jacht<lb/>
 weynich buyten de reede te laten afdryven, waerop na weynich dagen een groot<lb/>
-
-<fnote ref="1">Doty, ruw paklinnen, jute.<lb/>
-</fnote>
-
 <pb n="734" tpl="1" vol="02" facs="2_112_0734"/>
 onweder ontstaen, ’t jacht door ’t breecken van de cabel, hoewel op 10 vadems met<lb/>
 reekettings beslagen was, gaende geraect ende aen den Persiaensen oever geset,<lb/>
@@ -3427,13 +3466,21 @@ ende sijn contanten met verscheyden Mooren na Suratte versonden, sulcx dat in<lb
 alles nu doen blyken, dat haren handel uyt den sin setten, niet weynich opblasende<lb/>
 op haer te verwachtene secours, wanneer haer geledene verlies wel sullen repareren.<lb/>
 In Gamron is op 4 april passado den sulthan Thomas Coulibeeck
-<fref ref="1"/> , gouverneur<lb/>
+<note mark="1">Thomas Coulibeeck, Tahmasp Kulibeg, de gouverneur van Gamron, die als zodanig<lb/>
+de ambtstitel sultan had.<lb/>
+</note>
+, gouverneur<lb/>
 dier plaetse, van een hete coortse overleden, sijnde in desselffs leven altoos een<lb/>
 oprecht vrundt ende favoryt van de E. Comp.le geweest, gelijck oock in effecte<lb/>
 in verscheyden gelegentheden heeft doen blycken. Tot desselffs successie wiert<lb/>
 provisioneel gestelt Gauwer Aga
-<fref ref="2"/> , een favoryt van Ewasbeeck
-<fref ref="3"/> , gouverneur in<lb/>
+<note mark="2">Gauwer Aga, Djohar Aga, was ondergouverneur van Bandar Kong geweest.<lb/>
+</note>
+, een favoryt van Ewasbeeck
+<note mark="3">Ewasbeeck, Ehvasbeg, de gouverneur van de provincie Lar, een veel hogere autoriteit<lb/>
+dan de sultan van Gamron.<lb/>
+</note>
+, gouverneur in<lb/>
 Lhaar, welcke geduerende dese ontstaene Engelse troubelen, onaengesien een<lb/>
 loshoofdich ende een persoon van een seer gedebaucheert leven is, d’E. Comp.ie<lb/>
 veel faveur ende accommodatie bewesen heeft ende deselve voor de quade aenslagen<lb/>
@@ -3455,17 +3502,8 @@ mede instantelijck, dat met eenige boecken, welcke, uyt onse off latijnse tale i
 arabise overgeset, by ons mochte in wesen sijn, vereert mocht werden, daermede<lb/>
 groote dienst hem soude geschieden, wy versoecken synentwegen, sijn curieusheyt<lb/>
 in die clenicheden voldaen mach werden, opdat dien heer meer ende meer aen ons<lb/>
-moogen verbinden.</para>
-
-<fnote ref="1">Thomas Coulibeeck, Tahmasp Kulibeg, de gouverneur van Gamron, die als zodanig<lb/>
-de ambtstitel sultan had.<lb/>
-</fnote>
-<fnote ref="2">Gauwer Aga, Djohar Aga, was ondergouverneur van Bandar Kong geweest.<lb/>
-</fnote>
-<fnote ref="3">Ewasbeeck, Ehvasbeg, de gouverneur van de provincie Lar, een veel hogere autoriteit<lb/>
-dan de sultan van Gamron.<lb/>
-</fnote>
-
+moogen verbinden.
+</para>
 <pb n="735" tpl="1" vol="02" facs="2_112_0735"/>
 <remark>«Bij aankomst van de Reyger op 15 jan. te Gamron was daar nog aan waren<lb/>
 f. 17131.3.8; er zijn maar zeer weinig kooplieden uit het binnenland gekomen; de helft<lb/>
@@ -3483,17 +3521,22 @@ in Espahan geordonneert t’ontfangen, waervan jegenwoordich vermits de remissie
 des May.ts van 200 balen syde ongeveer 200 000 gulden sijn overschietende, welcke<lb/>
 sijn e. aen de Espahanse residenten geordonneert heeft in ducaten op te wisselen<lb/>
 ende op het secreetste, alsoo jegens Conincx ordre is strydende, na Gamron af te<lb/>
-senden. . . .</para>
+senden. . . .
+</para>
 <para>Incoop van peerlen is desen jare bij den directeur niet gedaen, alsoo van die<lb/>
 clenicheden de cooplieden in Gamron niet wel afstandt willen doen ende deselve<lb/>
 vrij hoogh op gelde sijn houdende, oversulcx te rade is geworden jegens ultimo<lb/>
 september selffs in persoon een keer na Congo, sijnde maer drie dachreysens van<lb/>
 Gamron, te doen, alwaer verhoopt seer goede soorteringe ten redelycken pryse voor<lb/>
-d’E. Comp.ie te bemachtigen, de becomene peerlen<fref ref="1"/>  . . . blijft den directeur noch<lb/>
+d’E. Comp.ie te bemachtigen, de becomene peerlen
+<note mark="1">In de zakjes, waarvan p. 733 sprake was.<lb/>
+</note>
+. . . blijft den directeur noch<lb/>
 beslooten by sich behouden, tottertijt verneemt, wat de eygenaers op haer dachten<lb/>
 ten hove geobtineert sullen hebben, wanneer deselve openen ende de geëyste<lb/>
 sorteringe om nae ’t vaderlandt versonden te worden herwaerts aen sal laten<lb/>
-comen.</para>
+comen.
+</para>
 <remark>«Gegevens Philip Angel, vgl.
 <ref>Cunaeus, p. XL, XLII </ref>en
 <ref>Landsverzameling, p. 47-48</ref>; 19 sept. 2 jachten met cargasoen van f. 123199.16.14 naar Perzië gezonden;<lb/>
@@ -3504,7 +3547,8 @@ gegevens Mauritius, vgl.
 sijnde om door ons eygen volck met voordeel bemachticht te worden. Soo wort oock<lb/>
 gevreest, dat het rijsgewas daer oock niet sal beschieten om de menichte ratten,<lb/>
 daer het landt mede geplaecht is, die alle aerdvruchten afeeten ende verderven,<lb/>
-sonder dat men daer tot noch toe remedie heeft connen uyt vinden.</para>
+sonder dat men daer tot noch toe remedie heeft connen uyt vinden.
+</para>
 <remark>«Vervolg Mauritius, zelfde plaats van de
 <ref>Daghregisters; </ref>er is in een jaar<lb/>
 f. 13829.5- uitgegeven en in de handel gewonnen f. 2189.4.2; gegevens Batavia, afgedr.<lb/>
@@ -3520,17 +3564,14 @@ is sedert nog veel rijst uit Mataram aangevoerd<lb/>
 <para>
 De oorlogspreparaten van den Sousouhounangh, op wien hij het dan gemunt<lb/>
 heeft, schijnen in roock te verdwijnen, hebbende langen tijt voorgegeven, dat in<lb/>
-
-<fnote ref="1">In de zakjes, waarvan p. 733 sprake was.<lb/>
-</fnote>
-
 <pb n="736" tpl="1" vol="02" facs="2_112_0736"/>
 persoon aen de zeekant wilde comen, waertoe al huysen ende logiementen gereet<lb/>
 sijn geweest, maer sonder gevolch. Hij sach geern, dat wij van hem adsistentie van<lb/>
 volck tegen onse vijanden wilden eysschen, hetwelck hij soude houden voor een<lb/>
 vast teecken van onse confidentie, vrundtschap ende alliantie, daer wij niet toe<lb/>
 comen moogen, alsoo hij daer voorseecker ons nadeel met voorheeft. Ondertusschen<lb/>
-blijft onse residentie noch op Japara continueren doch met cleynen ommeslach.</para>
+blijft onse residentie noch op Japara continueren doch met cleynen ommeslach.
+</para>
 <folio>Fol. 331v-332r.</folio>
 <remark>«Verhouding tot Bantam, afgedr.
 <ref>Opkomst VI, p. 41-42</ref>; er is daar in geen jaar<lb/>
@@ -3552,7 +3593,12 @@ gemaect ende U Ed. aengecondicht, aen de zeecant van de stadt langs de wal ofte<
 muyr tusschen de puncten Zeeburgh ende Cuylenburgh, daer de sampans ende<lb/>
 vaertuygen seer dicht onder connen comen, een lanck bequaem packhuys doen<lb/>
 trecken van 2 verdiepingen hoogh, dat reede ongeveer half voltoyt is ende seer<lb/>
-groote quantiteyt peper ende andere coopmanschappen sal connen bergen<fref ref="1"/> .</para>
+groote quantiteyt peper ende andere coopmanschappen sal connen bergen
+<note mark="1">Zie hiervoor nader
+<emph>Oud Batavia,</emph> § 697-698.<lb/>
+</note>
+.
+</para>
 <folio>Fol. 337r-v.</folio>
 <remark>«Vernieuwing van de huizen aan de oostkant van het kasteel; de ontworpen haven<lb/>
 is nog niet uitgevoerd; gegevens over Onrust; id. Latijnse school, afgedr.
@@ -3568,17 +3614,13 @@ te wesen, dat daerbij gebleven werde, omdat daerdoor dickmael vele onfatsoenelij
 ende quade huwelijcken connen werden tegengehouden, die anders jongelieden,<lb/>
 dickmael van goeden huyse sijnde, door lossicheyt ende onbedachtsaemheyt<lb/>
 met vuyle verkens ende hoeren zouden willen aengaen
-<super>2 <fref ref="2"/> </super>.</para>
-
-<fnote ref="1">Zie hiervoor nader
-<emph>Oud Batavia,</emph> § 697-698.<lb/>
-</fnote>
-<fnote ref="2">Zie hiervoor het gedeelte van de Statuten van Batavia, dat is afgedrukt
+<super>2
+<note mark="2">Zie hiervoor het gedeelte van de Statuten van Batavia, dat is afgedrukt
 <emph>Plakaatboek</emph><lb/>
- 
- I, p. 541.<lb/>
- </fnote>
-
+I, p. 541.<lb/>
+</note>
+</super>.
+</para>
 <pb n="737" tpl="1" vol="02" facs="2_112_0737"/>
 <remark>«Cultures , afgedr.
 <ref>Opkomst VI p. 43</ref>; door droogte leed de suikercultuur; van<lb/>
@@ -3586,7 +3628,7 @@ met vuyle verkens ende hoeren zouden willen aengaen
 waren f. 587535.14-, de landsinkomsten f. 263538.7 .2; kosten van het ziekenhuis;<lb/>
 regeling van de betaling van verpleegkosten , vgl.
 <ref>Plakaatboek II, 21 </ref>fébr. 1653,<lb/>
- p. 180-181<lb/>
+p. 180-181<lb/>
 »</remark>
 <para>
 Pmo. januari] hebben wij de incomsten ende gerechticheden van Batavia<lb/>
@@ -3594,11 +3636,16 @@ weder aen de meestbiedende verpacht, hebbende gegolden als volcht :<lb/>
 De vismarct ende ’t slachten van verckens ende ander tam vee ... r.a 600<lb/>
 Het handelen aen de schepen . „ 350<lb/>
 De cledepasser . ,, 100<lb/>
-De gerechticheyt van de Javaense vissers <fref ref="1"/>  . ,, 240<lb/>
+De gerechticheyt van de Javaense vissers
+<note mark="1">Iets lager is met een andere hand bijgeschreven: per maent, wat op al deze bedragen<lb/>
+slaat.<lb/>
+</note>
+. ,, 240<lb/>
 De clappusboomen . „ 330<lb/>
 Het overvaren van de Groote Revier . „ 420<lb/>
 De waegh . „ 480<lb/>
-Het toppen der Chinesen . „ 1560</para>
+Het toppen der Chinesen . „ 1560
+</para>
 <remark>«De tolrechten zijn voor de helft bij wijze van proef verpacht; vgl.
 <ref>Plakaatboek II, 30 dec. 1653 p. 187</ref>; men wil zo nagaan, of dan knoeierij wordt voorkomen; de pacht<lb/>
 brengt 27000 realen op, wat tot dusverre het totaal van de invoerrechten opleverde;<lb/>
@@ -3614,7 +3661,8 @@ ook kleinigheden van patria worden aangevoerd ;<lb/>
 nadien de particulieren soodanich niet sullen connen worden waergenomen, of<lb/>
 zullen noch al ’t een en ’t ander aenbrengen ende aen de ingesetenen vertieren, als<lb/>
 wanneer des Comp.8 in de packhuysen sal leggen verderven ende niet na getaelt<lb/>
-worden.</para>
+worden.
+</para>
 <remark>«Veel gunstigs in deze verwacht van de tolrechten; wissels op patria zullen slechts<lb/>
 worden uitgegeven tegen contante betaling en beëdigde verklaring, dat het geld den<lb/>
 betaler zelf toebehoort; vaste goederen moeten bij vertrek uit Batavia verkocht; op last<lb/>
@@ -3629,17 +3677,12 @@ bequaemheyt meest sal inclineren. U Ed. seggen met recht, dat het getal van<lb/>
 cooplieden, ondercooplieden ende adsistenten in India veel te groot is ende dat den<lb/>
 dienst met veel minder wel soude connen waergenomen worden, dat wij met U Ed.<lb/>
 mede soo verstaen, te weten ingevalle deselve altsamen even bequaem waren, daer<lb/>
-
-<fnote ref="1">Iets lager is met een andere hand bijgeschreven: per maent, wat op al deze bedragen<lb/>
- 
- slaat.<lb/>
- </fnote>
-
 <pb n="738" tpl="1" vol="02" facs="2_112_0738"/>
 het dickmael vrij aen hapert, sonderdat sij evenwel daerom als t’eenemael onbequaem<lb/>
 connen werden verstooten. Oock soo dienen altijts eenige persoonen soo<lb/>
 hier als op de comptoiren van India hoven het noodige getal over te schieten om bij<lb/>
-versterf, vertreck of ander incident niet verlegen te vallen.</para>
+versterf, vertreck of ander incident niet verlegen te vallen.
+</para>
 <remark>«Door de late aankomst van de schepen uit patria en het vele slechte weer is de<lb/>
 retourvloot niet op 1 dec. gereed geweest; 31 dec. kwam uit patria de Prins Willem met<lb/>
 263 koppen, w.o. 82 soldaten, 6 doden; er gaan nu drie schepen voor Amsterdam,<lb/>
@@ -3660,7 +3703,8 @@ gelevert hadden, maenden hebben moeten naeloopen, eer haer betalinge hebben<lb/>
 connen becomen tot groot disrespect van de Comp.e ende haer gerenomeert credit<lb/>
 ende dat nietjegenstaende doorgaens een groote somme gelts van particulieren,<lb/>
 burger ende ministers a deposito hebben gehadt, bedragende rechtevoort noch al<lb/>
-niet min dan ƒ 267 338 tot 3 quart ten hondert ’s maendts.</para>
+niet min dan ƒ 267 338 tot 3 quart ten hondert ’s maendts.
+</para>
 <remark>«Het laatstelijk uit patria ontvangen geld is voor de buitenkantoren nodig;<lb/>
 slotopmerkingen
 <lb/>

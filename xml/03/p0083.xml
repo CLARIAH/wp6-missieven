@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="83"/>
 <meta key="title" value="Maetsuycker, Hartsinck, Cunaeus, Verburch, Steur; Batavia, 31 juli 1656"/>
 <meta key="rawdate" value="31 juli 1656"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Nicolaes Verburch, Dirck Jansz Steur"/>
+
 
 </header>
 <body>
@@ -48,12 +50,17 @@ de Comp.e hare t’achterheyt te betalen
 sijn metteselve stadt verovert, daeronder die van ’t schip de Maecht<lb/>
 van Enckhuysen, dat den vijandt gedurende de belegeringe meest gesloopt ende<lb/>
 het hout gebruyckt heeft1
-<fref ref="1"/>  ; hebbende groote ellende uytgestaen, soodat de onse,<lb/>
+<note mark="1">Het schip was bij een aanval op het kasteel onklaar geworden en aan de wal gedreven,<lb/>
+zie
+<emph>Rijcklof,</emph> p. 50.<lb/>
+</note>
+; hebbende groote ellende uytgestaen, soodat de onse,<lb/>
 daer binnencomende, de straten overal vol dooden hebben gevonden, van honger<lb/>
 ende gebreck gestorven; jae, een inlandtse vrouwe wort geseyt haer eygen kindt<lb/>
 gegeten te hebben. Na de veroveringh sijn noch 3 vaertuygen met rijs ende andere<lb/>
 nootlijckheden, tot ontset comende, in onse handen gevallen ende wierden noch<lb/>
-andere verwacht, soo se middelerwijle van ’t overgaen geen advertentie crijgen.</para>
+andere verwacht, soo se middelerwijle van ’t overgaen geen advertentie crijgen.
+</para>
 <folio>Fol. 105V-106V.</folio>
 <remark>«Aankomst van schepen van diverse streken; De Vlaming heeft voor Amarasi<lb/>
 op Timor échec geleden, verliezende 36 man<lb/>
@@ -63,14 +70,8 @@ gants weynich ofte geen adsistentie tegen hare vijanden en bieden, soo is te twi
 of sij al meriteren, dat tot harer beschermingh daer sooveel volck tot laste<lb/>
 van de Comp.e langer gehouden werde ende of wij niet beter souden connen opbreken<lb/>
 ende verhuysen, daer ons mede nader op sullen beraden, de lasten daer<lb/>
-swaer ende de voordeelen daerentegen weynich sijnde.</para>
-
-<fnote ref="1">Het schip was bij een aanval op het kasteel onklaar geworden en aan de wal gedreven,<lb/>
- 
- zie
-<emph>Rijcklof,</emph> p. 50.<lb/>
- </fnote>
-
+swaer ende de voordeelen daerentegen weynich sijnde.
+</para>
 <pb n="84" tpl="1" vol="03" facs="3_125_0084"/>
 <remark>«A I gezonden schepen
 <lb/>
@@ -86,6 +87,7 @@ geschut hadden connen dwingen ende de Javaense desperate verwoetheyt haer<lb/>
 genoech bekent is. De stadt hebben wij van deselve natie gesuyvert ende haer<lb/>
 buyten de muyren doen logeren, alsoo het een moortdadich ende trouloos volck is,<lb/>
 dat groote gerustheyt geeft ende waerin ons den dienst der wijckmeesteren seer<lb/>
-te stade is gekomen.</para>
+te stade is gekomen.
+</para>
 </body>
 </teiTrim>

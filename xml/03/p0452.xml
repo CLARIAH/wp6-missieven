@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="452"/>
 <meta key="title" value="Maetsuycker, Hartsinck, Verburch, Steur, Thijsz; Batavia, 29 januari 1663"/>
 <meta key="rawdate" value="29 januari 1663"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Carel Hartsinck, Nicolaes Verburch, Dirck Jansz Steur, Joan Thijsz"/>
+
 
 </header>
 <body>
@@ -32,12 +34,15 @@ daar er nog voor twee jaar voorraad is<lb/>
 »</remark>
 <para>In cas de oorlogh tegen de Portugesen te cesseren comt . . . ., soo meenen wij,<lb/>
 dat de negotie daer vooreerst noch wel met sal waergenomen connen worden
-<fref ref="1"/> ,<lb/>
+<note mark="1">NI. met de op dat ogenblik aanwezige schepen.<lb/>
+</note>
+,<lb/>
 alsoo ’t getal groot is ende gissingh maecken, dat, dewijl Coxin doot ende sijn regeringe<lb/>
 genoegsaem gedissolveert is, tot het besleghten van de saecken om de noort<lb/>
 soo grooten getal swaere scheepen voortaen niet sal van noode wesen, als daer<lb/>
 present is militerende, die dan in plaetse van dien tot den handel sullen connen<lb/>
-worden gebruyckt.</para>
+worden gebruyckt.
+</para>
 <remark>«Het aantal te Batavia voor pairia aangevraagde wissels neemt af, .. . .<lb/>
 »</remark>
 <para>.... omdat de luyden meer ende meer sullen practiseren op middelen om te<lb/>
@@ -47,12 +52,10 @@ de Engelsen tot Bantam ende andere plaetsen treffelijcke voordelen sullen<lb/>
 weten te doen. Waerom wij niet connen naelaeten U Ed. andermael op het eerbiedigste<lb/>
 in bedeneken te geven, off niet alsoo dienstigh voor de Compag.e en sal<lb/>
 sijn, dat in ’t stuck van de voorsz. wissels wat moderatie werde gebruyckt; wij<lb/>
-meenen jae.</para>
+meenen jae.
+</para>
 <remark>«Op 31 dec. 1662 bedroeg het Compagnieskapitaal in het Oosten in reële effecten<lb/>
 f. 9956715.7.10; na 26 dec. is nog voor 7404 rsd. aan wissels op patria getrokken<lb/>
 »</remark>
-
-<fnote ref="1">NI. met de op dat ogenblik aanwezige schepen.<lb/>
-</fnote>
 </body>
 </teiTrim>

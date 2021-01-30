@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="583"/>
 <meta key="title" value="Reniers, Maetsuycker, Demmer, Hartsinck, De Vlaming van Oudtshoorn, Caesar, Versteghen; Batavia, 5 februari 1652"/>
 <meta key="rawdate" value="5 februari 1652"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Carel Reniers, Joan Maetsuycker, Gerard Demmer, Carel Hartsinck, Aernout de Vlaming van Oudtshoorn, Cornelis Caesar, Willem Versteghen"/>
+
 
 </header>
 <body>
@@ -36,7 +38,10 @@ Batavia; zij hebben bijna het leven verloren, vgl.
 <ref>Quinam, p. 113-114 </ref>»</remark>
 <para>
 Daer wort gepresumeert ende heeft groote waerschijnelijcheyt, dat den<lb/>
-Coningh voorgehat heeft het jacht<fref ref="1"/>  af te loopen ende het volck doot te slaen,<lb/>
+Coningh voorgehat heeft het jacht
+<note mark="1">NI. dat van Verstegen.<lb/>
+</note>
+af te loopen ende het volck doot te slaen,<lb/>
 sich meester maeckende van hetselve ende d’ingelade goederen, hetwelck, als hem<lb/>
 ontstaen was, sijnde d’h.r Verstegen vroeger, so het schijnt, als hij gegist had,<lb/>
 vertrocken, so heeft hij, met een groten spijt ingenomen sijnde, hetselve op de verblevene<lb/>
@@ -47,7 +52,9 @@ dorsten kicken, maer mosten alles geduldich verdragen ende de boose menschen<lb/
 noch geschencken toegeven om in geen meerder swaricheyt te vervallen en heeft de<lb/>
 Coninck de laeckenen ende perpetuanen, bij den e. Verstegen aldaer gelaten, na<lb/>
 hem genomen, deselve priserende
-<fref ref="2"/>  ende betalende na sijn welgevallen, daer oock<lb/>
+<note mark="2">Priserende, schattende, de waarde bepalende.<lb/>
+</note>
+ende betalende na sijn welgevallen, daer oock<lb/>
 geen reden tegen mochten helpen, waeruyt de groote brutaliteyt ende onbeschaemtheyt<lb/>
 van die natie af te meten is ; tot justificatie van haer doen niet anders<lb/>
 inbrengende, als dat sij met andere natiën mede op die wijse plegen te handelen.<lb/>
@@ -65,17 +72,11 @@ al meest één natie sijnde ende mede cleyne discretie gebruyckende, daer<lb/>
 te sijner tijt bij ruymte van schepen ende volck op gelet wort, also wij met U Ed.<lb/>
 van gevoelen sijn beter te sijn stilgeseten als ijts bij der hand te nemen, dat met geen<lb/>
 respect connen uytvoeren, gelijck daer voor desen is geschiet, daer sij apparent noch<lb/>
-
-<fnote ref="1">NI. dat van Verstegen.<lb/>
-</fnote>
-<fnote ref="2">Priserende, schattende, de waarde bepalende.<lb/>
-</fnote>
-
 <pb n="584" tpl="1" vol="02" facs="2_112_0584"/>
-al moedich ende stout op sijn. De mestice barbier <fref ref="1"/> J aldaer voor desen gevangen,is daer alsnu weder verbleven, niet afgecomen sijnde, als d’andere vertrocken, diewij dan vresen, beswaerlijck uyt hare handen sal geraecken, te meer dewijl wij deQuinammers alhier, die op de getroffen vrede rede waren vrijgelaten, weder inslavernij e hebben doen nemen.( Verwachting , dat de schepen 7 of 8 febr. naar Amboina kunnen vertrekken) .
+al moedich ende stout op sijn. De mestice barbier
+<note mark="1">Geheten Jacob Discordt.<lb/>
+</note>
+J aldaer voor desen gevangen,is daer alsnu weder verbleven, niet afgecomen sijnde, als d’andere vertrocken, diewij dan vresen, beswaerlijck uyt hare handen sal geraecken, te meer dewijl wij deQuinammers alhier, die op de getroffen vrede rede waren vrijgelaten, weder inslavernij e hebben doen nemen.( Verwachting , dat de schepen 7 of 8 febr. naar Amboina kunnen vertrekken) .
 </para>
-
-<fnote ref="1">Geheten Jacob Discordt.<lb/>
-</fnote>
 </body>
 </teiTrim>

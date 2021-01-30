@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="135"/>
 <meta key="title" value="Van Diemen, Van der Lijn; Batavia, 31 januari 1641"/>
 <meta key="rawdate" value="31 januari 1641"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Cornelis van der Lijn"/>
+
 
 </header>
 <body>
@@ -33,24 +35,35 @@ soowel als den Portugees thollen betalen, vertrouwen, hun wel hoeden sullen ons<
 den handel in Guseratte te verbieden ende ’t landt te ruymen. Den tijt leert het<lb/>
 gevolgh ende sal U Ed. over Engelandt verwittight worden. Den Amadabatsen<lb/>
 gouverneur bestondt mede eenige nieuwe thollen te voorderen, ’t schijnt, de<lb/>
-Mooren ons trachten te scheeren, sooveel connen.</para>
+Mooren ons trachten te scheeren, sooveel connen.
+</para>
 <remark>«Weinig succesvolle reis naar Mokka<lb/>
 »</remark>
-<para>Den ondercoopman Nicolaes la Gouche<fref ref="1"/>  adviseert dato 15 september ao.<lb/>
+<para>Den ondercoopman Nicolaes la Gouche
+<note mark="1">De onderkoopman Nicolaes Lagouche wordt nog in juli 1641 in Perzië vermeld.<lb/>
+</note>
+adviseert dato 15 september ao.<lb/>
 passato uyt Gamron de goederen, uyt ’t Vliegend’ Hert van Mocha becomen, te<lb/>
 bedragen fl 24014.4.12, dat alle coopmanschappen op slechten prijs waren, de<lb/>
 cauw niet meer als 25
 <emph>k</emph> 26 larijnen de 30 15 halen mochte ende deselve meende<lb/>
 op te senden, de candysuyckeren hadden in Spahan weynigh meer, met d’oncosten<lb/>
 gecargeert
-<fref ref="2"/> , als in Gamron gerendeert, maer d’Agrase cleeden waeren door den<lb/>
-anderen in Spahan met 50. p.r cento advance gebeneficieert.</para>
+<note mark="2">Gecargeert, medeberekend, opgeteld.<lb/>
+</note>
+, als in Gamron gerendeert, maer d’Agrase cleeden waeren door den<lb/>
+anderen in Spahan met 50. p.r cento advance gebeneficieert.
+</para>
 <para>Den oppercoopman Oostende adviseert uyt Spahan dato 9 augusti van den<lb/>
 Coningh gecontracteert te hebben 300 carga zijde legia tot 50 toman de carga,<lb/>
 twee hondert carga in twee maenden nae dato te betalen ende de 100 resterende<lb/>
 op 21 meert aenstaende, item gelicentieert te wesen 100 carga van particuliere te<lb/>
-coopen sonder eenige tollen ofte raderyen<fref ref="3"/>  te betalen, ’t welck d’onse een<lb/>
-advantagieus contract estimeren.</para>
+coopen sonder eenige tollen ofte raderyen
+<note mark="3">Raderijen, perzisch rahdari, tolrecht op het vervoer te land, tolkantoor.<lb/>
+</note>
+te betalen, ’t welck d’onse een<lb/>
+advantagieus contract estimeren.
+</para>
 <remark>«Berichten over Djambi en Sumatrd’s Westkust; idem van Arakan; vgl.
 <ref>Dagh¬ </ref><ref>registers 24 </ref>jan. 1641, p. 167-170; lading van de fluit Heemstee, die deze brief overbrengt;<lb/>
 herhaling van de eis aan goederen uit patria; het in ’ 40 gezonden retour is<lb/>
@@ -66,14 +79,6 @@ Japanderen nemen meer toe als aff ende is ons verboden geen goudt meer uyt Japan
 te mogen voeren, geen rundtvlees te eeten. Men beschuldight ons, d’inhabitanten<lb/>
 van Formosa Christenen maecken ende tselve met den Portugees gemeen hebben ;<lb/>
 onrecht ende gewelt wert ons aengedaen, hebbende moeten vergoeden 2123 tayls<lb/>
-
-<fnote ref="1">De onderkoopman Nicolaes Lagouche wordt nog in juli 1641 in Perzië vermeld.<lb/>
-</fnote>
-<fnote ref="2">Gecargeert, medeberekend, opgeteld.<lb/>
-</fnote>
-<fnote ref="3">Raderijen, perzisch rahdari, tolrecht op het vervoer te land, tolkantoor.<lb/>
-</fnote>
-
 <pb n="136" tpl="1" vol="02" facs="2_112_0136"/>
 over pretentie van calimbacq ende rochevellen, die sustineren, aen den coopman<lb/>
 Duycker in Quinangh g’intregeert sijn omme tot Nangasacque te bestellen, twelck<lb/>
@@ -86,8 +91,13 @@ Nangasacque sijn extraordinaris tegen de Compagnie ingenomen, ter oorsaecke<lb/>
 hun laeten voorstaen, den Portugees door ons toedoen uyt Japan is geseyt, daer<lb/>
 groote voordeelen van getrocken hebben, ’t Geeft ons groot bedeneken, Fesedonne<lb/>
 sijn geit almede voordert ende ’t credit aldaer uyt is, voor desen nam seer qualijck,<lb/>
-als sijn penningen wilden affleggen<fref ref="1"/> 
-<fref ref="2"/> . Soo waeren op ’t vertreck van de Meerman<lb/>
+als sijn penningen wilden affleggen
+<note mark="1">Calimbacq, kalambak; hieronder wordt zowel de hars van een aloë als de wortel van<lb/>
+de Chinese rabarber verstaan; beide worden als medicijn gebruikt.<lb/>
+</note>
+<note mark="2">Afleggen, terugbetalen.<lb/>
+</note>
+. Soo waeren op ’t vertreck van de Meerman<lb/>
 de novo twee commissarisen tot Firando aengelandt, gantsch qualijck genoegende,<lb/>
 ’t affbreecken van de voordere packhuysen volgens ordre niet voortgingh ende<lb/>
 dat datelijck souden beginnen etc., daerop den president d’heer van Firando<lb/>
@@ -105,15 +115,10 @@ uyt Japan niet seggen sullen, maer nader limitatie ende quellagie hebben<lb/>
 te verwachten, ’t Is seecker, bijaldien den Chinesen toevoer continueert, de<lb/>
 proffijten d’oncosten, moeyten ende travailliën niet meriteren sullen. Edoch<lb/>
 mogen verhopen, eens beteren, den Chinees Japan ontseyt ende Nangasacque,<lb/>
-gelijck de geruchten gaen, gedestrueert sal werden.</para>
+gelijck de geruchten gaen, gedestrueert sal werden.
+</para>
 <remark>«In Indië aanwezige Com'pagnieswaarden fl. 8318496.6.8, zodat in 1640 maar<lb/>
 een ton overgehouden is<lb/>
 »</remark>
-
-<fnote ref="1">Calimbacq, kalambak; hieronder wordt zowel de hars van een aloë als de wortel van<lb/>
-de Chinese rabarber verstaan; beide worden als medicijn gebruikt.<lb/>
-</fnote>
-<fnote ref="2">Afleggen, terugbetalen.<lb/>
-</fnote>
 </body>
 </teiTrim>

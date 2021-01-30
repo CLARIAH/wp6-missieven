@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="679"/>
 <meta key="title" value="Camphuys, Hurdt, Van Outhoorn, Pit, Schaghen, Van Hoorn; Batavia, 19 februari 1684"/>
 <meta key="rawdate" value="19 februari 1684"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joannes Camphuys, Anthonio Hurdt, Willem van Outhoorn, Marten Pit, Nicolaas Schaghen, Joan van Hoorn"/>
+
 
 </header>
 <body>
@@ -46,7 +48,10 @@ hebben wij de gemelte Sijn Ed.te gemagtighde, waaronder den e. secretaris Jacob<
 van Dam éen ende in rang ook de eerste is, seer ernstigh gerecommand.rt na de<lb/>
 voorn, origionele Comp.8 brieven nauwkeurig ondersoek te doen, gelijk zij verklaren<lb/>
 dat ook is geschiet, dog sonderdat se tot nog toe gevonden ofte te voorschijn gekomen<lb/>
-sijn. Den gem. e. secretaris Jacob van Dam heeft eenige dagen na <fref ref="1"/>  ’t<lb/>
+sijn. Den gem. e. secretaris Jacob van Dam heeft eenige dagen na
+<note mark="1"><emph>Er</emph> staat: in.<lb/>
+</note>
+’t<lb/>
 overlijden van de Heer Generaal Speelman z.g. aan ons verthoond ende overgegeven<lb/>
 de minuyt-no tulen van resolutiën, die het voorleede jaar 1683 souden<lb/>
 genomen sijn, gesamentlijk tot een boek bij malkanderen genaayt ende die wij in<lb/>
@@ -54,11 +59,9 @@ het nablaaden hier en daar niet soodanig bevonden hebben, dat wij ons daarmeede<
 souden konnen conformeren, gelijk wij ook niet geloven, dat gemelte sec.8 Van Dam<lb/>
 met eede soude konnen verklaren, dat deselve na sijn e.8 opstellinge on verandert<lb/>
 sijn gebleven en dat alle de saacken zoodanigh, alse daarin aangetekent en vervath<lb/>
-staan, waarlijk in Raade van India sijn vastgestelt ende geresolveert.</para>
+staan, waarlijk in Raade van India sijn vastgestelt ende geresolveert.
+</para>
 <remark>«Hierop zal later worden teruggekomen<lb/>
 »</remark>
-
-<fnote ref="1"><emph>Er</emph> staat: in.<lb/>
-</fnote>
 </body>
 </teiTrim>

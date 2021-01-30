@@ -58,6 +58,8 @@ PAGE_OFFSETS = {
     "13": 11,
 }
 
+NOTE = "note"
+
 # TF CONFIGURATION
 
 slotType = "word"
@@ -75,6 +77,8 @@ generic = {
     project
     researcher
     converters
+    sourceFormat
+    descriptionTf
 """.strip().split()
 }
 
@@ -82,6 +86,7 @@ otext = {
     "fmt:text-orig-full": "{trans}{punc}",
     "fmt:text-orig-source": "{transo}{punco}",
     "fmt:text-orig-remark": "{transr}{puncr}",
+    "fmt:text-orig-note": "{transn}{puncn}",
     "sectionFeatures": "n,n,n",
     "sectionTypes": "volume,page,line",
     "structureFeatures": "n,title,n",
@@ -96,10 +101,16 @@ intFeatures = set(
         row
         col
         day
+        mark
         month
         year
-        remark
-        folio
+        isref
+        isremark
+        isfolio
+        isnote
+        isspecial
+        issub
+        issuper
     """.strip().split()
 )
 
@@ -117,10 +128,6 @@ featureMeta = {
         "description": "day part of the date of the letter",
         "format": "numeral between 1 and 31 inclusive",
     },
-    "emph": {
-        "description": "whether a word is emphasized by typography",
-        "format": "integer 1 or absent",
-    },
     "facs": {
         "description": (
             "url part of the corresponding online facsimile page;"
@@ -128,19 +135,70 @@ featureMeta = {
             " See also the tpl feature"
         )
     },
-    "fnote": {
-        "description": "all footnotes at that position",
-        "format": "string with mark down formatting, separated by newlines",
+    "isemph": {
+        "description": "whether a word is emphasized by typography",
+        "format": "integer 1 or absent",
     },
-    "folio": {
+    "isfolio": {
         "description": "a folio reference",
         "format": "integer 1 or absent",
+    },
+    "isorig": {
+        "description": "whether a word belongs to original text",
+        "format": "integer 1 or absent",
+    },
+    "isnote": {
+        "description": "whether a word belongs to footnote text",
+        "format": "integer 1 or absent",
+    },
+    "isref": {
+        "description": "whether a word belongs to the text of reference",
+        "format": "integer 1 or absent",
+    },
+    "isremark": {
+        "description": "whether a word belongs to the text of editorial remarks",
+        "format": "integer 1 or absent",
+    },
+    "issub": {
+        "description": (
+            "whether a word has subscript typography"
+            " possibly indicating the denominator of a fraction"
+        ),
+        "format": "integer 1 or absent",
+    },
+    "issuper": {
+        "description": (
+            "whether a word has superscript typography"
+            " possibly indicating the numerator of a fraction"
+        ),
+        "format": "integer 1 or absent",
+    },
+    "isspecial": {
+        "description": (
+            "whether a word has special typography"
+            " possibly with OCR mistakes as well"
+        ),
+        "format": "integer 1 or absent",
+    },
+    "isund": {
+        "description": "whether a word is underlined by typography",
+        "format": "integer 1 or absent",
+    },
+    "mark": {
+        "description": (
+            "footnote mark (not necessarily the same as shown on the printed page"
+        ),
+        "format": "integer",
     },
     "month": {
         "description": "month part of the date of the letter",
         "format": "numeral between 1 and 12 inclusive",
     },
     "n": {"description": "number of a volume, letter, page, para, line, table"},
+    "note": {
+        "description": "edge between a word and the footnotes associated with it",
+        "format": "no values",
+    },
     "page": {
         "description": "number of the first page of this letter in this volume",
         "format": "numeral (at most 4 digits)",
@@ -160,17 +218,13 @@ featureMeta = {
         "description": "punctuation and/or whitespace following a word,"
         "up to the next word, remark text only"
     },
+    "puncn": {
+        "description": "punctuation and/or whitespace following a word,"
+        "up to the next word, footnote text only"
+    },
     "rawdate": {
         "description": "the date the letter was sent",
         "format": "informal Dutch date notation",
-    },
-    "ref": {
-        "description": "whether a word belongs to the text of reference",
-        "format": "integer 1 or absent",
-    },
-    "remark": {
-        "description": "whether a word belongs to the text of editorial remarks",
-        "format": "integer 1 or absent",
     },
     "rest": {
         "description": "unidentified metadata of the letter",
@@ -184,30 +238,9 @@ featureMeta = {
         ),
         "format": "roman numeral (capitalized)",
     },
-    "special": {
-        "description": (
-            "whether a word has special typography"
-            " possibly with OCR mistakes as well"
-        ),
-        "format": "integer 1 or absent",
-    },
     "status": {
         "description": "status of the letter, e.g. secret, copy",
         "format": "keyword",
-    },
-    "sub": {
-        "description": (
-            "whether a word has subscript typography"
-            " possibly indicating the denominator of a fraction"
-        ),
-        "format": "integer 1 or absent",
-    },
-    "super": {
-        "description": (
-            "whether a word has superscript typography"
-            " possibly indicating the numerator of a fraction"
-        ),
-        "format": "integer 1 or absent",
     },
     "title": {
         "description": "title of the letter",
@@ -232,10 +265,7 @@ featureMeta = {
     "trans": {"description": "transcription of a word"},
     "transo": {"description": "transcription of a word, only for original text"},
     "transr": {"description": "transcription of a word, only for remark text"},
-    "und": {
-        "description": "whether a word is underlined by typography",
-        "format": "integer 1 or absent",
-    },
+    "transn": {"description": "transcription of a word, only for footnote text"},
     "vol": {"description": "volume number", "format": "positive integer"},
     "year": {
         "description": "year part of the date of the letter",
@@ -296,19 +326,6 @@ def director(cv):
     volumes = getVolumes(SRC)
 
     cur = {}
-    notes = dict(
-        marks={},
-        markOrder=[],
-        bodies={},
-        bodyOrder=[],
-        totalMarks=0,
-        totalBodies=0,
-        ambiguousMarks={},
-        ambiguousBodies={},
-        unresolvedMarks={},
-        unresolvedBodies={},
-        unmarkedBodies={},
-    )
 
     for vol in volumes:
         if givenVol is not None and vol not in givenVol:
@@ -332,15 +349,12 @@ def director(cv):
             with open(f"{thisSrcDir}/{name}.xml") as fh:
                 text = fh.read()
                 root = ET.fromstring(text)
-            walkLetter(cv, doc, root, cur, notes)
+            walkLetter(cv, doc, root, cur)
 
         cv.terminate(cur["volume"])
         cur["volume"] = None
 
     print("\rdone" + " " * 70)
-
-    if not reportNotes(notes):
-        cv.stop("because of unreolved notes")
 
     # delete meta data of unused features
 
@@ -359,24 +373,22 @@ def director(cv):
 # WALKERS
 
 
-def walkLetter(cv, doc, root, cur, notes):
+def walkLetter(cv, doc, root, cur):
     cur["letter"] = cv.node("letter")
     cur["ln"] = 0
     cur["p"] = 0
-    cur["fn"] = None
 
     for child in root:
         if child.tag == "header":
             collectMeta(cv, child, cur)
         if child.tag == "body":
-            walkNode(cv, doc, child, cur, notes)
+            walkNode(cv, doc, child, cur)
 
     curLine = cur.get("line", None)
     if curLine:
         linkIfEmpty(cv, curLine)
         cv.terminate(curLine)
         cur["line"] = None
-    doNotes(cv, cur, notes)
     curPage = cur.get("page", None)
     if curPage:
         linkIfEmpty(cv, curPage)
@@ -394,7 +406,6 @@ TEXT_ATTRIBUTES = """
     sub
     super
     und
-    ref
 """.strip().split()
 
 TRANSPARENT_ELEMENTS = set(
@@ -429,6 +440,7 @@ BREAKS = set(
 
 COMMENT_ELEMENTS = set(
     """
+    note
     folio
     remark
 """.strip().split()
@@ -438,6 +450,7 @@ DO_TEXT_ELEMENTS = set(
     """
     cell
     emph
+    note
     folio
     head
     para
@@ -454,8 +467,8 @@ DO_TEXT_ELEMENTS = set(
 DO_TAIL_ELEMENTS = set(
     """
     emph
+    note
     folio
-    fref
     lb
     para
     pb
@@ -479,7 +492,7 @@ def linkIfEmpty(cv, node):
         cv.feature(emptySlot, trans="", punc="")
 
 
-def walkNode(cv, doc, node, cur, notes):
+def walkNode(cv, doc, node, cur):
     """Handle all elements in the XML file.
 
     """
@@ -495,12 +508,10 @@ def walkNode(cv, doc, node, cur, notes):
 
     if tag in BREAKS:
         curLine = cur.get("line", None)
-        curFn = cur.get("fn", None)
         if curLine:
             linkIfEmpty(cv, curLine)
             cv.terminate(curLine)
         if tag == "pb":
-            doNotes(cv, cur, notes)
             curPage = cur.get("page", None)
             if curPage:
                 linkIfEmpty(cv, curPage)
@@ -508,14 +519,11 @@ def walkNode(cv, doc, node, cur, notes):
             cur["page"] = cv.node("page")
             cv.feature(cur["page"], **featsFromAtts(atts))
             cur["pg"] = f"{cur['vol']:>02}:p{atts['n']:>04}"
-            if not curFn:
-                cur["ln"] = 1
+            cur["ln"] = 1
         elif tag == "lb":
-            if not curFn:
-                cur["ln"] += 1
-        if not curFn:
-            cur["line"] = cv.node("line")
-            cv.feature(cur["line"], n=cur["ln"])
+            cur["ln"] += 1
+        cur["line"] = cv.node("line")
+        cv.feature(cur["line"], n=cur["ln"])
 
     elif tag in NODE_ELEMENTS:
         curNode = cv.node(tag)
@@ -532,27 +540,12 @@ def walkNode(cv, doc, node, cur, notes):
         cur[f"is_{tag}"] = 1
         if atts:
             cv.feature(curNode, **featsFromAtts(atts))
+        if tag == NOTE:
+            # edge feature between word that has footnote and its footnote(s)
+            cv.edge(cur["word"], curNode, note=None)
 
     elif tag in TEXT_ATTRIBUTES:
         cur[tag] = 1
-
-    elif tag == "fref":
-        notes["marks"].setdefault(atts.get("ref", ""), []).append(
-            (cur["word"], cur["ln"])
-        )
-        notes["totalMarks"] += 1
-
-    elif tag == "fnote":
-        bodies = notes["bodies"]
-        fref = atts.get("ref", "")
-        notes["totalBodies"] += 1
-        if fref in bodies:
-            curPg = cur.get("pg", None)
-            notes["ambiguousBodies"].setdefault(fref, {})[curPg] = len(bodies)
-        else:
-            bodies[fref] = []
-        bodies[fref].append(node.text or "")
-        cur["fn"] = bodies[fref]
 
     elif tag in TRANSPARENT_ELEMENTS:
         pass
@@ -564,39 +557,34 @@ def walkNode(cv, doc, node, cur, notes):
         addText(cv, node.text, cur)
 
     for child in node:
-        walkNode(cv, doc, child, cur, notes)
+        walkNode(cv, doc, child, cur)
 
     curNode = cur.get(tag, None)
 
     if tag in NODE_ELEMENTS:
         if curNode:
             linkIfEmpty(cv, curNode)
-            cv.terminate(cur[tag])
+            cv.terminate(curNode)
             cur[tag] = None
 
     elif tag in COMMENT_ELEMENTS:
-        if cur.get(tag, None):
+        if curNode:
             linkIfEmpty(cv, curNode)
-            cv.terminate(cur[tag])
+            cv.terminate(curNode)
             cur[tag] = None
         cur[f"is_{tag}"] = None
 
     elif tag in TEXT_ATTRIBUTES:
         cur[tag] = None
 
-    elif tag == "fnote":
-        cur["fn"] = None
-
     if tag in ADD_LB_ELEMENTS:
         curLine = cur.get("line", None)
-        curFn = cur.get("fn", None)
         if curLine:
             linkIfEmpty(cv, curLine)
             cv.terminate(curLine)
-        if not curFn:
-            cur["ln"] += 1
-            cur["line"] = cv.node("line")
-            cv.feature(cur["line"], n=cur["ln"])
+        cur["ln"] += 1
+        cur["line"] = cv.node("line")
+        cv.feature(cur["line"], n=cur["ln"])
 
     if tag in DO_TAIL_ELEMENTS:
         addText(cv, node.tail, cur)
@@ -647,148 +635,61 @@ WORD_RE = re.compile(
     """,
     re.S | re.X,
 )
+PUNC_RE = re.compile(
+    fr"""
+        ^
+        ([{NON_WORD_CHAR}]+)
+        $
+    """,
+    re.S | re.X,
+)
 
 
 def addText(cv, text, cur):
     if text:
-        dest = cur["fn"]
-        if dest is not None:
-            dest.append(text)
-        else:
-            for match in WORD_RE.finditer(text):
-                (trans, punc) = match.group(1, 2)
-                trans = trans.strip("«»")
-                if punc:
-                    punc = WHITE_RE.sub(" ", punc)
-                    punc = punc.replace("\n", " ")
-                curWord = cv.slot()
-                cur["word"] = curWord
-                cv.feature(curWord, trans=trans, punc=punc)
-                for tag in TEXT_ATTRIBUTES:
-                    if cur.get(tag, None):
-                        cv.feature(curWord, **{tag: 1})
-                isComment = False
-                for tag in COMMENT_ELEMENTS:
-                    if cur.get(f"is_{tag}", None):
-                        isComment = True
-                        cv.feature(curWord, **{tag: 1})
-                if isComment:
-                    cv.feature(curWord, transr=trans, puncr=punc)
-                else:
-                    cv.feature(curWord, transo=trans, punco=punc)
+        # check first if there is only punctuation and white space
+        # in that case: one slot
+        match = PUNC_RE.match(text)
+        if match:
+            punc = match.group(1)
+            punc = WHITE_RE.sub(" ", punc)
+            punc = punc.replace("\n", " ")
+            curWord = cv.slot()
+            cur["word"] = curWord
+            cv.feature(curWord, trans="", punc=punc)
+            return
 
+        # if there is a mixture between word characters and the rest
+        # group them in pieces consisting of word characters with trailing
+        # punctuation and white space
+        for match in WORD_RE.finditer(text):
+            (trans, punc) = match.group(1, 2)
+            trans = trans.strip("«»")
+            if punc:
+                punc = WHITE_RE.sub(" ", punc)
+                punc = punc.replace("\n", " ")
+            curWord = cv.slot()
+            cur["word"] = curWord
+            cv.feature(curWord, trans=trans, punc=punc)
 
-def doNotes(cv, cur, notes):
-    if "word" not in cur:
-        return
+            for tag in TEXT_ATTRIBUTES:
+                if cur.get(tag, None):
+                    cv.feature(curWord, **{f"is{tag}": 1})
 
-    markInfo = notes["marks"]
-    markOrder = notes["markOrder"]
-    bodyInfo = notes["bodies"]
-    bodyOrder = notes["bodyOrder"]
+            isComment = False
 
-    curPg = cur.get("pg", None)
+            for tag in COMMENT_ELEMENTS:
+                if cur.get(f"is_{tag}", None):
+                    cv.feature(curWord, **{f"is{tag}": 1})
+                    if tag == NOTE:
+                        cv.feature(curWord, transn=trans, puncn=punc)
+                    else:
+                        cv.feature(curWord, transr=trans, puncr=punc)
+                    isComment = True
 
-    wordNotes = collections.defaultdict(list)
-
-    # for (word, noteTexts) in wordNotes.items():
-    #    cv.feature(word, fnote="\n\n".join(noteTexts))
-
-    for (mark, occs) in markInfo.items():
-        bodiesText = "".join(bodyInfo[mark]).rstrip("\n") if mark in bodyInfo else ""
-        for (word, line) in occs:
-            wordNotes[word].append(f"{mark}. {bodiesText}")
-
-        if len(occs) > 1:
-            notes["ambiguousMarks"].setdefault(mark, {})[curPg] = occs
-        if mark not in bodyInfo:
-            notes["unresolvedMarks"].setdefault(mark, {})[curPg] = occs
-
-    word = cur["word"]
-    for (mark, bodies) in bodyInfo.items():
-        if mark == "":
-            notes["unmarkedBodies"][curPg] = len(bodies)
-        if mark not in markInfo:
-            notes["unresolvedBodies"].setdefault(mark, {})[curPg] = len(bodies)
-            bodiesText = "\n\n".join(bodies)
-            markRep = mark if mark else "??"
-            wordNotes[word].append(f"{markRep}. {bodiesText}")
-
-    for (word, texts) in wordNotes.items():
-        cv.feature(word, fnote="\n\n".join(texts))
-
-    markInfo.clear()
-    markOrder.clear()
-
-    bodyInfo.clear()
-    bodyOrder.clear()
-
-
-def reportNotes(notes):
-    markAmb = notes["ambiguousMarks"]
-    nMarkAmb = 0
-    if markAmb:
-        nMarkAmb = sum(
-            sum(len(occs) for occs in pages.values()) for pages in markAmb.values()
-        )
-        print(f"{nMarkAmb:>5} AMBIGUOUS REFERENCES TO FOOTNOTES:")
-        for (mark, pages) in sorted(markAmb.items()):
-            print(f"\t{mark})")
-            for (page, occs) in sorted(pages.items()):
-                occsRep = ", ".join(str(occ[1]) for occ in occs)
-                print(f"\t\t{page}: {occsRep}")
-
-    bodyUnmarked = notes["unmarkedBodies"]
-    nBodyUnmarked = 0
-    if bodyUnmarked:
-        nBodyUnmarked = sum(bodyUnmarked.values())
-        print(f"{nBodyUnmarked:>5} FOOTNOTE BODIES WITHOUT REFERENCE:")
-        for (page, n) in sorted(bodyUnmarked.items()):
-            print(f"\t{page}: {n:>3} x")
-
-    bodyAmb = notes["ambiguousBodies"]
-    nBodyAmb = 0
-    if bodyAmb:
-        nBodyAmb = sum(sum(pages.values()) for pages in bodyAmb.values())
-        print(f"{nBodyAmb:>5} AMBIGUOUS REFERENCES IN FOOTNOTE BODIES:")
-        for (mark, pages) in sorted(bodyAmb.items()):
-            print(f"\t{mark})")
-            for (page, n) in sorted(pages.items()):
-                print(f"\t\t{page}: {n:>3} x")
-
-    markUnres = notes["unresolvedMarks"]
-    nMarkUnres = 0
-    if markUnres:
-        nMarkUnres = sum(
-            sum(len(occs) for occs in pages.values()) for pages in markUnres.values()
-        )
-        print(f"{nMarkUnres:>5} UNRESOLVED REFERENCES TO FOOTNOTES:")
-        for (mark, pages) in sorted(markUnres.items()):
-            print(f"\t{mark})")
-            for (page, occs) in sorted(pages.items()):
-                occsRep = ", ".join(str(occ[1]) for occ in occs)
-                print(f"\t\t{page}: {occsRep}")
-
-    bodyUnres = notes["unresolvedBodies"]
-    nBodyUnres = 0
-    if bodyUnres:
-        nBodyUnres = sum(sum(pages.values()) for pages in bodyUnres.values())
-        print(f"{nBodyUnres:>5} UNRESOLVED REFERENCES IN FOOTNOTE BODIES:")
-        for (mark, pages) in sorted(bodyUnres.items()):
-            print(f"\t{mark})")
-            for (page, n) in sorted(pages.items()):
-                print(f"\t\t{page}: {n:>3} x")
-
-    print("NOTES SUMMARY")
-    print(f"{notes['totalMarks']:>5} FOOTNOTE REFERENCES")
-    print(f"{notes['totalBodies']:>5} FOOTNOTE BODIES")
-    print(f"{nMarkAmb:>5} AMBIGUOUS REFERENCES TO FOOTNOTES")
-    print(f"{nBodyUnmarked:>5} FOOTNOTE BODIES WITHOUT REFERENCE")
-    print(f"{nBodyAmb:>5} AMBIGUOUS REFERENCES IN FOOTNOTE BODIES")
-    print(f"{nMarkUnres:>5} UNRESOLVED REFERENCES TO FOOTNOTES")
-    print(f"{nBodyUnres:>5} UNRESOLVED REFERENCES IN FOOTNOTE BODIES")
-
-    return not bodyUnres and not markUnres
+            if not isComment:
+                cv.feature(curWord, transo=trans, punco=punc)
+                cv.feature(curWord, isorig=1)
 
 
 # TF LOADING (to test the generated TF)

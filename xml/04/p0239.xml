@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="239"/>
 <meta key="title" value="Van Goens, Speelman, Van Outhoorn, Camphuys, Pits; Batavia, 3 augustus 1678"/>
 <meta key="rawdate" value="3 augustus 1678"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Ryckloff van Goens, Cornelis Speelman, Willem van Outhoorn, Joannes Camphuys, Jacob Pits"/>
 
+
 </header>
 <body>
 <pb n="239" tpl="1" vol="04" facs="4_134_0239"/>
@@ -21,7 +23,11 @@
 OUTHOORN, JOANNES CAMPHUYS EN JACOB PITS, BATAVIA 3 augustus<lb/>
 1678.</head>
 <folio>1212,fol. 699-706, copie 1220, fol. 96-109 </folio>
-<para><fref ref="1"/> .</para>
+<para>
+<note mark="1">Met enige Engelse schepen uit Bantam verzonden.<lb/>
+</note>
+.
+</para>
 <remark>«Vgl.
 <ref>Daghregisters 1678, p. 189-421</ref>; het huurschip St. Andries kwam in<lb/>
 slechte staat uit patria te Batavia en wordX op Onrust gerepareerd; grote sterfte op<lb/>
@@ -31,8 +37,11 @@ Temate; de Koning veroverde Siau,
 <para>
 - waervan hen veele menschen tot het gereformeerde Christendom<lb/>
 hadden begeven, sommige de Machometaense ende heydense en andere de Moorse
-<fref ref="2"/> <lb/>
-religiën verworpen hebbende.</para>
+<note mark="2">Dit is een verschrijving voor: Roomse.<lb/>
+</note>
+<lb/>
+religiën verworpen hebbende.
+</para>
 <remark>«De contanten uit Europa worden naar Coromandel gezonden; gewapend optreden<lb/>
 in Mataram noodzakelijker dan tegen Bantam; Speelman zou graag daarvoor gebruikt<lb/>
 zijn, maar kan als Directeur-Generaal niet van Batavia gemist worden; gegevens over<lb/>
@@ -46,7 +55,8 @@ is niet aanwezig<lb/>
 voor een seer goede visite sal moogen passeren. Sijnde de onkosten niet alleen seer<lb/>
 merckelijck besnoeyt, maer sullen daerenbooven ontrent J part van de pennisten,<lb/>
 die daer te veel zijn, moeten opkoomen, ’twelck de lasten van de Chormandelse<lb/>
-comptoiren seer sal verminderen.</para>
+comptoiren seer sal verminderen.
+</para>
 <remark>«Dergelijke projecten worden voor de andere vestigingen opgemaakt; door het<lb/>
 sluiten van de vrede neemt de areca- en textielhandel in Zuid-India toe; de fortificatie<lb/>
 op Ceylon is gereed; verzoek aan Heren XVII daar geen veranderingen in te voeren, voor<lb/>
@@ -59,21 +69,18 @@ overwogen, of
 <para>
 - haar gagie ten minsten soo lange sal stilstaan, totdat de Comp.e haar<lb/>
 dienst weder mogt nodigh hebben, namentl. uyt diegene, die bequaam zijn en<lb/>
-anders geen.</para>
+anders geen.
+</para>
 <remark>«Velen onbekwamen zijn reeds ontslagen of in de militie opgenomen<lb/>
 »</remark>
 <para>Soo hebben wij oock de burgervaart al soodanigh besnoeyt, dat deselve<lb/>
 U Ed.8 staat niet sullen beschadigen in soodanigen handel, daar se U Ed.e beschadigen<lb/>
-kan.</para>
-
-<fnote ref="1">Met enige Engelse schepen uit Bantam verzonden.<lb/>
-</fnote>
-<fnote ref="2">Dit is een verschrijving voor: Roomse.<lb/>
-</fnote>
-
+kan.
+</para>
 <pb n="240" tpl="1" vol="04" facs="4_134_0240"/>
 <para>De passé van Portonovo op Malacca en Atchin hebben wij reets verbooden,<lb/>
-soomede van de burgervaart van Malacca na de ooster- en andere quartieren.</para>
+soomede van de burgervaart van Malacca na de ooster- en andere quartieren.
+</para>
 <folio>Fol. 704v-705r.</folio>
 <remark>«Daar Van Outhoorn werk genoeg heeft als president van de Raad van Justitie,<lb/>
 is alleen Camphuys beschikbaar als helper van Gouverneur -Generaal en Directeur -<lb/>
@@ -87,7 +94,8 @@ eenige vrijheyt te gebruycken, soo souden wij oordeelen, dat de huurschepen seer
 schadelijck zijn ende datter aan het overblijven van U Ed.e kostelijke retourschepen<lb/>
 merckelijcke intrest geleden wert en dienvolgens de huurschepen liever konde<lb/>
 werden geëxcuseert, al waart, datter aan de eysch in de groote waaren als masten,<lb/>
-smeekoolen, provisie en andere al te minder soude overkomen.</para>
+smeekoolen, provisie en andere al te minder soude overkomen.
+</para>
 <remark>«Compagnies eigen schepen kwamen soms wantoden uit patria<lb/>
 »</remark>
 </body>

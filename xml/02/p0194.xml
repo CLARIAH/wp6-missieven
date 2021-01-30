@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="194"/>
 <meta key="title" value="Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers; Batavia, 23 januari 1643"/>
 <meta key="rawdate" value="23 januari 1643"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Cornelis van der Lijn, Joan Maetsuycker, Justus Schouten, Salomon Sweers"/>
 
+
 </header>
 <body>
 <pb n="194" tpl="1" vol="02" facs="2_112_0194"/>
@@ -26,7 +28,9 @@ brieven<lb/>
 »</remark>
 <para>Om wat motiven den e. Johan van Twist uyt het Malacx gouvemo verlost<lb/>
 hebben, sullen U Ed. uyt ons bovengemelte schrijven
-<fref ref="1"/>  als de pampieren ende<lb/>
+<note mark="1">Brief XX.<lb/>
+</note>
+als de pampieren ende<lb/>
 schriften, daernevens gesonden, connen sien. Naer connen vermercken, laet sich<lb/>
 noch voorstaen grotelijcx verongelijckt te wesen. ’t Schijnt, de verwaende laetdunckentheyt<lb/>
 de menschen niet toelaet haer eygen fauten te kennen, immers niet<lb/>
@@ -56,13 +60,12 @@ Voorsz. missive souden U Ed. nevens desen wel laeten toecomen, doch alsoo niet<l
 sonders ten dienste van de Comp.e contineert, hebben geraetsamer geacht de<lb/>
 voorsz. vuylicheden, streckende tot cleynachtinge ende disrespect van U Ed.<lb/>
 gouverno, geen vreemde handen te vertrouwen, niet twijffelende, off U Ed. sullen<lb/>
-tselve voor aengenaem houden.</para>
+tselve voor aengenaem houden.
+</para>
 <para>Op gisteren comt hier ter rheede een joneke, uyt China geseylt in 23 daegen,<lb/>
 gelaeden met grove ende fijne waeren, ophebbende 500 menschen; is in compagnie<lb/>
 van vier andere, herwaerts tenderende, uytgeloopen, die daegelijx staen te<lb/>
-paresseren, mitsgaders veel leven ende proffijt Batavia sullen toebrengen.</para>
-
-<fnote ref="1">Brief XX.<lb/>
-</fnote>
+paresseren, mitsgaders veel leven ende proffijt Batavia sullen toebrengen.
+</para>
 </body>
 </teiTrim>

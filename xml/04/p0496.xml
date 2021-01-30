@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="496"/>
 <meta key="title" value="Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Schaghen, Van Hoorn; Batavia, 1 en 9 maart 1683"/>
 <meta key="rawdate" value="1 en 9 maart 1683"/>
@@ -13,6 +14,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Cornelis Speelman, Balthasar Bort, Anthonio Hurdt, Willem van Outhoorn, Joannes Camphuys, Nicolaas Schaghen, Joan van Hoorn"/>
 <meta key="month" value="3"/>
+
 
 </header>
 <body>
@@ -33,9 +35,13 @@ de Oosterblocker uit Bengalen; bericht uit Tonkin van
 »</remark>
 <para>
 - des Conings dood
-<fref ref="1"/>  en dat den oudsten zoone al vrij gemackelijcker,<lb/>
+<note mark="1">Trinh Tac van Tonkin stierf in 1682 en werd opgevolgd door Trinh Cón, die tot<lb/>
+1709 regeerde.<lb/>
+</note>
+en dat den oudsten zoone al vrij gemackelijcker,<lb/>
 als men gemeent hadde, tot de successie was geraeckt, vallende over de negotie<lb/>
-niet veel te roemen.</para>
+niet veel te roemen.
+</para>
 <remark>«Uit patria kwamen 23 jan. de Stavenisse, de 27
 <super>e</super> de Vrije Zee, de Oostenburgh<lb/>
 en de Princéland, 9 febr. de Mauritius, de 13e het Wapen van Alckmaer met den<lb/>
@@ -48,17 +54,32 @@ Ternate en de Nederhorst naar Surabaja en Banda; 28 febr. is vernomen
 »</remark>
 <para>
 - de vader
-<fref ref="2"/>  eyndelinge tot diglite bij Bantam op verkregen pardon<lb/>
+<note mark="2">De oude Sultan van Bantam.<lb/>
+</note>
+eyndelinge tot diglite bij Bantam op verkregen pardon<lb/>
 afgekomen en onder genoegsame verseeckering, resterende nogh eenige van de<lb/>
 broeders en oomen, waervan men geen reghte notitie heeft, dogh wij zijn aan dese<lb/>
 kant in het district van Tangaran met eenige inlanders onder den capiteyn Ruys
-<fref ref="3"/> <lb/>
+<note mark="3">Johan Ruys was 1674 assistent, 1679 luitenant, april 1680 tot jan. 1682 ter Westkust,<lb/>
+1682 provisioneel, dec. id. definitief kapitein, dec. 1690 gestorven.<lb/>
+</note>
+<lb/>
 op de been om de vlughtelingen de wegh om de oost over Craoan
-<fref ref="4"/>  naar de naburige<lb/>
+<note mark="4">Krawang.<lb/>
+</note>
+naar de naburige<lb/>
 lantschappen af te snijden en, waar ’t mogelijck, den Maccassaarsen hooftpriesteroff<lb/>
 anders Siëch Isoff5
-<super>* <fref ref="5"/> ,daer</super> de Bantammers bijnaar een afgodt vangemaeckt<lb/>
-hebben, met zijn aanhangh te attrapperen.</para>
+<super>*
+<note mark="5">Sjech Jusuf, Mohammedaans geestelijk leider uit Makassar, die in 1644 hadji werd,<lb/>
+in Bantam huwde hij een dochter van den ouden Sultan en speelde hij als adviseur een belang¬<lb/>
+rijke rol. Toen hij in dec. 1683 in Nederlandse handen viel, werd hij in 1684 naar Ceylon overgebracht<lb/>
+en van daar in 1693 naar de Kaap, waar hij in mei 1699 stierf; zijn graf wordt er,<lb/>
+hoewel zijn lijk in 1704 naar Gowa werd teruggebracht, in hoge ere gehouden.<lb/>
+</note>
+,daer</super> de Bantammers bijnaar een afgodt vangemaeckt<lb/>
+hebben, met zijn aanhangh te attrapperen.
+</para>
 <remark>«6 jan. werd een dankdag gehouden; het bovenstaande is een door den eersten<lb/>
 klerk Frederick van Artzatt ondertekende „authentique copie
 ”, gedateerd 1 maart,<lb/>
@@ -66,33 +87,13 @@ de rest is origineel en door de Hoge Regering ondertekend; de Kemphoom was in<lb
 stilte naar de Lampongs vertrokken zonder de brief mee te nemen; het jacht zal worden<lb/>
 nagezet<lb/>
 »</remark>
-
-<fnote ref="1">Trinh Tac van Tonkin stierf in 1682 en werd opgevolgd door Trinh Cón, die tot<lb/>
-1709 regeerde.<lb/>
-</fnote>
-<fnote ref="2">De oude Sultan van Bantam.<lb/>
-</fnote>
-<fnote ref="3">Johan Ruys was 1674 assistent, 1679 luitenant, april 1680 tot jan. 1682 ter Westkust,<lb/>
-1682 provisioneel, dec. id. definitief kapitein, dec. 1690 gestorven.<lb/>
-</fnote>
-<fnote ref="4">Krawang.<lb/>
-</fnote>
-<fnote ref="5">Sjech Jusuf, Mohammedaans geestelijk leider uit Makassar, die in 1644 hadji werd,<lb/>
- 
- in Bantam huwde hij een dochter van den ouden Sultan en speelde hij als adviseur een belang¬<lb/>
- 
- rijke rol. Toen hij in dec. 1683 in Nederlandse handen viel, werd hij in 1684 naar Ceylon overgebracht<lb/>
-en van daar in 1693 naar de Kaap, waar hij in mei 1699 stierf; zijn graf wordt er,<lb/>
- 
- hoewel zijn lijk in 1704 naar Gowa werd teruggebracht, in hoge ere gehouden.<lb/>
- </fnote>
-
 <pb n="497" tpl="1" vol="04" facs="4_134_0497"/>
 <para>Den capiteyn Robbert Knox, die sig allesints seer dankbaar toont over de<lb/>
 genotene weldaden, soo op Ceylon als hier zedert zijne verlossinge uyt de Candise<lb/>
 gevanckenisse, den Gouv.r Generaal verseeckert heeft, dat hij directelijk naer<lb/>
 Engelant vertreckt en de brief, die Zijn E. hem belieft aan te bevelen, getrouwelijk<lb/>
-zoude bestellen.</para>
+zoude bestellen.
+</para>
 <remark>«9 maart komen het Huys te Cleef en de Kroonvogel met cargasoen van f. 172 145.5<lb/>
 vnl. zijde , uit Tonkin , het Huys te Bergen en het Huis te Grave uit Bengalen met<lb/>
 carg. van

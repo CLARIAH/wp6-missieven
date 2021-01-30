@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="195"/>
 <meta key="title" value="Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers; Batavia, 7 maart 1643"/>
 <meta key="rawdate" value="7 maart 1643"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Cornelis van der Lijn, Joan Maetsuycker, Justus Schouten, Salomon Sweers"/>
+
 
 </header>
 <body>
@@ -39,21 +41,30 @@ dat graen toe te comen, sulcx door Godes genade wel buyten gebreck meenen te<lb/
 blijven. De quartieren innewaerts sijn ten principaelen voor twee jaeren geprovideert.<lb/>
 Wij maecken staet, d’aengetogen joncquen ruym 600 lasten peper sullen<lb/>
 vervoeren, andere 600 d.° lasten hebben voor Mocha, Parsia ende Tayouan<lb/>
-noodigh.</para>
+noodigh.
+</para>
 <remark>«De Koning van Palenibang dringt aan op een verdedigbaar huis van de Compagnie;<lb/>
 vgl.
 <ref>Zeemogendheid II p. 239 </ref>»</remark>
 <para>Als dese ende diergelijcke coninghskens ’t hondepadt kiesen, dienen daer<lb/>
 meerder gesagh over te gebruycken ende andere als den Johorijt off Atchinder de<lb/>
 heerschappije toe te vougen, dat ons licht om doen sal wesen ende, soo eenmael<lb/>
-resolveren diergelijcke exempel te statueeren, sullen veel beter deegh hebben.</para>
+resolveren diergelijcke exempel te statueeren, sullen veel beter deegh hebben.
+</para>
 <folio>Fol. 379*.</folio>
 <remark>«Enige regels uitgeleden<lb/>
 »</remark>
 <para>
 Den 13en passato is van Jamby alhier aengelandt den oppercoopman Henrick<lb/>
 van Gent1
-<super>* * * <fref ref="1"/> </super> per De Rijp ende een gehuyrde joncq, medebrengende 170 lasten<lb/>
+<super>* * *
+<note mark="1">Henrick van Gent, opperkoopman, was sinds juni 1640 hoofd van het kantoor<lb/>
+Djambi, dat hij jan. 1643 lichtte; daarna was hij in het gouvernement Malakka werkzaam,<lb/>
+vooral te water. Hij bezocht in 1644 o.a. Palembang en Djambi, later (zeker 1648) vrijburger,<lb/>
+1653 gezant naar Mataram, 1653 ontvanger -generaal en president van de weeskamer, juli<lb/>
+1654 directeur van Suratto, waar hij juli 1657 stierf.<lb/>
+</note>
+</super> per De Rijp ende een gehuyrde joncq, medebrengende 170 lasten<lb/>
 peper, hebbende (ter oorsaecke den Pangoram contrarie sijn protest geresolveert<lb/>
 bleeff gesanten aen den Mattaram te schicken, item op de pretentie van den<lb/>
 tommagon over ’t aenliaelen van desselffs vaertuygh ende volcq in Molucco doen<lb/>
@@ -61,18 +72,6 @@ inhouden 625 realen van achten, als dat d’onse wil forceren sijne ondersaten<l
 indifferentelijck nae alle quartieren passen te verleenen off de schade, die door<lb/>
 dese weygeringh come t’ontstaen, aen Comp.8 logie, middelen ende volcq verhaelen<lb/>
 sal, mitsgaders andere quade coursen) buyten onse ordre ende verwachtingh, meer<lb/>
-
-<fnote ref="1">Henrick van Gent, opperkoopman, was sinds juni 1640 hoofd van het kantoor<lb/>
- 
- Djambi, dat hij jan. 1643 lichtte; daarna was hij in het gouvernement Malakka werkzaam,<lb/>
- 
- vooral te water. Hij bezocht in 1644 o.a. Palembang en Djambi, later (zeker 1648) vrijburger,<lb/>
- 
- 1653 gezant naar Mataram, 1653 ontvanger -generaal en president van de weeskamer, juli<lb/>
- 
- 1654 directeur van Suratto, waar hij juli 1657 stierf.<lb/>
- </fnote>
-
 <pb n="196" tpl="1" vol="02" facs="2_112_0196"/>
 uyt wr e velmo edigh eyt (soo niet anders connen bemercken), als wel des Comp.8<lb/>
 dienst in desen tijt vereyscht, ’t comptoir met den gantschen ommeslagh aldaer<lb/>
@@ -95,7 +94,8 @@ clachtigh vallen, als wanneer d’occasie wel meenen waer te nemen ende onder<lb
 advantagieuser conditiën als tot nu toe ’t comptoir te restabileeren ; anders uytvallende,<lb/>
 sullen op de gevoeghelijckste wijse moeten bethoonen, dat verongelijckt sijn.<lb/>
 Onderwijle meenen Van Gent dese sijne lichtvaerdige resolutie te doen verantwoorden<lb/>
-nevens andere mesusen, waerover herwaerts geroepen is .</para>
+nevens andere mesusen, waerover herwaerts geroepen is .
+</para>
 <para>Den voorsz. Van Gent heefft op sijn vertreck den Jambinees onse pretentie<lb/>
 tegen dat rijck schrifftelijck g’insinueert ende ’t jacht d’Anna voor de riviere twee<lb/>
 maenden te cruyssen g’ordonneert omme d’entrance van groot vaertuygh te<lb/>
@@ -114,31 +114,50 @@ off oncundtschap van boeckhouden meer is goet doende, als redevabel blijfft,<lb/
 twelck, bevooren hem dit abuys aenwesen, soo beleyden ende vaststelden, dat<lb/>
 naderhant bekende die somme de Comp.e te competeren ende uyt het transport<lb/>
 van den ondercoopman Dorhout
-<fref ref="1"/> , in Jamby vermoort, overgenomen, mitsgaders<lb/>
-’t verhoogen van den vercoop der cleeden ende ’t verdieren des pepers moeste<lb/>
-ontstaen.</para>
-<remark>«Schepen naar de Oosterkwartieren vertrokken<lb/>
-»</remark>
-
-<fnote ref="1">Lourens Jacobsz. Dorhout kwam 1632 als assistent uit, diende te Djambi en was<lb/>
+<note mark="1">Lourens Jacobsz. Dorhout kwam 1632 als assistent uit, diende te Djambi en was<lb/>
 daar 1637 eerste assistent; later onderkoopman geworden te Palembang, werd hij daar dec.<lb/>
 1640 vermoord door een Javaanse amokmaker.<lb/>
-</fnote>
-
+</note>
+, in Jamby vermoort, overgenomen, mitsgaders<lb/>
+’t verhoogen van den vercoop der cleeden ende ’t verdieren des pepers moeste<lb/>
+ontstaen.
+</para>
+<remark>«Schepen naar de Oosterkwartieren vertrokken<lb/>
+»</remark>
 <pb n="197" tpl="1" vol="02" facs="2_112_0197"/>
-<para>Den veltoverste La Motte was van de noort<fref ref="1"/>  gekeert, hebbende Vavouralangh,<lb/>
-Gierim<fref ref="2"/> , Oudt Davole<fref ref="3"/>  met nogh 6 andere rebelledorpen geruïneert ende<lb/>
+<para>Den veltoverste La Motte was van de noort
+<note mark="1">Bedoeld is het noorden van het eiland Formosa.<lb/>
+</note>
+gekeert, hebbende Vavouralangh,<lb/>
+Gierim
+<note mark="2">Girim, plaats ter westkust van Formosa op 23°45' N.B.<lb/>
+</note>
+, Oudt Davole
+<note mark="3">Oudt Davole. Op de kaarten in het Algemeen Rijksarchief van Formosa, meest door<lb/>
+schippers van de V.O.C. gemaakt, rijn maar zelden geografische namen in het binnenland<lb/>
+aangegeven. De moderne kaarten van het eiland geven geheel afwijkende Japanse en Chinese<lb/>
+namen. Het is mij daardoor maar zelden gelukt de ligging van de plaatsen uit onze tekst te<lb/>
+vinden. Bij de niet te identificeren plaatsen op Formosa wordt verder geen noot geplaatst.<lb/>
+</note>
+met nogh 6 andere rebelledorpen geruïneert ende<lb/>
 vrij wat anders als voor desen onder dat brutael geslacht tot exempel van andere<lb/>
 verricht, 11 Chinesen ende 19 Formosanen, moorders van den ondercoopman<lb/>
 Ruttens
-<fref ref="4"/>  ende andere met den swaerde gestrafft. Verder om de noort hebben<lb/>
+<note mark="4">De onderkoopman Hans Ruttens was in 1641 bij een bespreking in Davole vermoord.<lb/>
+</note>
+ende andere met den swaerde gestrafft. Verder om de noort hebben<lb/>
 door oncundtschap van taele ende wegen niet connen doorbreecken, nogh den<lb/>
 wegh nae Tamsiuw weten te vinden, dat met beter opportuniteyt ende in ’t drooge<lb/>
 mousson sal ondersocht worden. Naedat voorsz. veldtoverste vier daegen in<lb/>
 Tayouan gerust hadt ende ’t volcq wat ververscht waeren, is den 18en december<lb/>
 passato met sijn vliegend leeger, bestaende uyt 300 militaire persoonen, nae de<lb/>
 zuydt gemarcheert tot straffe van den rebelligen Loncqiouwsen Vorst
-<fref ref="5"/> .</para>
+<note mark="5">Longkiau was een streek aan de westkust van de zuidelijke landtong van Formosa,<lb/>
+waar goud zou voorkomen. Sinds 1636 stond het onder de V.O.C. , maar het hoofd was een<lb/>
+onrustig element.<lb/>
+</note>
+.
+</para>
 <remark>«Verder gebruik van de krijgsmacht
 , vgl.
 <ref>Quinam p. 93 </ref>»</remark>
@@ -150,13 +169,17 @@ twelck door Godes hulpe soo aensienelijck voornemen in ’t werck te stellen, da
 niet alleen Palimbangh, Jamby ende andere smalle Coningen, maer selffs den<lb/>
 Mattaram hen daeraen sullen spiegelen ende een horreur crijgen van de Nederlanderen<lb/>
 qualijck ende soo schelmachtigh te tracteren, als bij die van Martapoura<lb/>
-ende Quinangh nu ondernomen is.</para>
+ende Quinangh nu ondernomen is.
+</para>
 <remark>«Gouverneur Traudenius uit Thaiwan opgeroepen<lb/>
 »</remark>
 <para>
 De jachten, g’ordonneert omme onder de
 <emph>custe</emph>
-<fref ref="6"/>  van
+<note mark="6">De cursief gedrukte woorden zijn in cijferschrift; de betekenis is er, vermoedelijk in<lb/>
+Nederland, bijgeschreven.<lb/>
+</note>
+van
 <emph>China</emph> op de
 <emph>joncken,</emph><lb/>
 van
@@ -169,41 +192,21 @@ van den oppercoopman Elseracq uytgevallen is. Echter blijven geresolveert de<lb/
 <emph>Japan,</emph> sooveel doenelijck alsmede de vaert uyt<lb/>
 <emph>China</emph> nae
 <emph>Manilha</emph> t’empediëren
-<fref ref="7"/> , alsoo vastelijck vertrouwen, ons daervan geen<lb/>
+<note mark="7">Empediëren, verhinderen.<lb/>
+</note>
+, alsoo vastelijck vertrouwen, ons daervan geen<lb/>
 swaerigheyt te gemoeten staet, emmers niet uyt
 <emph>China</emph> ende, soo de coopluyden,<lb/>
 van
 <emph>China</emph> in Batavia gecomen, mogen gelooven, was bij mandament van de<lb/>
 groote gelast
 <emph>Tayouan</emph> van alle g’eyschte coopmanschappen te provideren, al<lb/>
-
-<fnote ref="1">Bedoeld is het noorden van het eiland Formosa.<lb/>
-</fnote>
-<fnote ref="2">Girim, plaats ter westkust van Formosa op 23°45' N.B.<lb/>
-</fnote>
-<fnote ref="3">Oudt Davole. Op de kaarten in het Algemeen Rijksarchief van Formosa, meest door<lb/>
-schippers van de V.O.C. gemaakt, rijn maar zelden geografische namen in het binnenland<lb/>
-aangegeven. De moderne kaarten van het eiland geven geheel afwijkende Japanse en Chinese<lb/>
-namen. Het is mij daardoor maar zelden gelukt de ligging van de plaatsen uit onze tekst te<lb/>
-vinden. Bij de niet te identificeren plaatsen op Formosa wordt verder geen noot geplaatst.<lb/>
-</fnote>
-<fnote ref="4">De onderkoopman Hans Ruttens was in 1641 bij een bespreking in Davole vermoord.<lb/>
-</fnote>
-<fnote ref="5">Longkiau was een streek aan de westkust van de zuidelijke landtong van Formosa,<lb/>
-waar goud zou voorkomen. Sinds 1636 stond het onder de V.O.C. , maar het hoofd was een<lb/>
-onrustig element.<lb/>
-</fnote>
-<fnote ref="6">De cursief gedrukte woorden zijn in cijferschrift; de betekenis is er, vermoedelijk in<lb/>
-Nederland, bijgeschreven.<lb/>
-</fnote>
-<fnote ref="7">Empediëren, verhinderen.<lb/>
-</fnote>
-
 <pb n="198" tpl="1" vol="02" facs="2_112_0198"/>
 waer ’t met vercortingh van andere quartieren. De waerheyt staet ons in corte<lb/>
 te vernemen. Soo sijnde, vertrouwen, ons
 <emph>cruyssen</emph> hun suspect ende vreesachtigh<lb/>
-maeckt.</para>
+maeckt.
+</para>
 <remark>«Goede handelsvooruitzichten in Siam; conclusie van den advocaat-fiscaal tegen<lb/>
 Van Twist; deze brief gaat over met de Engelse Blessing; de Haen komt uit patria met<lb/>
 lid koppen, 3 sterfgevallen; 8 matrozen uitgeleend aan den Deensen commandeur<lb/>

@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="64"/>
 <meta key="title" value="Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee, Van Dam; Batavia, 2 maart 1699"/>
 <meta key="rawdate" value="2 maart 1699"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Dirk de Haas, Abraham van Riebeeck, Wouter Valckenier, Joannes Cops, Manuel Bornezee, Wybrand Lycochthon, Thomas van Rhee, Jacob van Dam"/>
+
 
 </header>
 <body>
@@ -33,17 +35,17 @@ Vrijburg meldde 3 febr.,<lb/>
 <para>
 - dat dien bodem aan de zuydzijde van dit eylant in de bay van<lb/>
 Mauritius
-<fref ref="1"/>  is vervallen, genoegsaam ten eynde van alle handprovisiën, dog dat op<lb/>
+<note mark="1">De Mauritsbaai aan de zuidkust van Java op ongeveer 108°42' O.L.<lb/>
+</note>
+is vervallen, genoegsaam ten eynde van alle handprovisiën, dog dat op<lb/>
 de geheele reyse niet meer dan 6 man overleden en nog 251 zielen sterk waren. Wij<lb/>
 hebben na Sirrebon geordonneert te besorgen, dat dien bodem door den inlander<lb/>
 voor betaling van het nodige wert voorsien en sullen deselve ook van hier eenige<lb/>
 behoeften bestellen, indien men op ons aanschrijven deselve nodig agten en vorderen<lb/>
 sal, staet makend, dat wij dien bodem niet voor het kenteren van ’t mousson<lb/>
-in ’t begin van april aanstaande alhier sullen konnen hebben.</para>
+in ’t begin van april aanstaande alhier sullen konnen hebben.
+</para>
 <remark>«Deze brief wordt verzonden met het Engelse schip Toscany-Gaüey<lb/>
 »</remark>
-
-<fnote ref="1">De Mauritsbaai aan de zuidkust van Java op ongeveer 108°42' O.L.<lb/>
-</fnote>
 </body>
 </teiTrim>

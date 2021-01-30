@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="177"/>
 <meta key="title" value="Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam, Van Swoll; Batavia, 31 januari 1702"/>
 <meta key="rawdate" value="31 januari 1702"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Willem van Outhoorn, Joan van Hoorn, Laurens Pijl, Abraham van Riebeeck, Joannes Cops, Manuel Bornezee, Jacob van Dam, Christoffel van Swoll"/>
 
+
 </header>
 <body>
 <pb n="177" tpl="1" vol="06" facs="6_159_0177"/>
@@ -21,7 +23,13 @@
 ABRAHAM VAN RIEBEECK, JOANNES COPS, MANUEL BORNEZEE,<lb/>
 JACOB VAN DAM EN CHRISTOFFEL VAN SWOLL, BATAVIA 31 januari<lb/>
 1702.</head>
-<folio>Kol. Arch. 1534,fol. 1201-1286<fref ref="1"/> </folio>
+<folio>Kol. Arch. 1534,fol. 1201-1286
+<note mark="1">Na de Gen. Miss. volgt fol. 1277-1285 oen door den secretaris De Roo ondertekend<lb/>
+relaas over Malakka, dat de met de beschrijving belaste raad van Indië Cops te laat had<lb/>
+ingeleverd om het op de juiste plaats te kunnen opnemen, de inhoud is in onze uitgave verwerkt.<lb/>
+<lb/>
+</note>
+</folio>
 <remark>«In Europa werden specerijen uit onbekende delen van de Specerij -eilanden door<lb/>
 buitenlanders ter markt gebracht; Coyet moet verantwoording afleggen over het bouwen<lb/>
 van gebouwen te Amboina zonder toestemming en zonder zijn raad er voldoende in te<lb/>
@@ -36,9 +44,20 @@ wijlen Van Wijngaarden<lb/>
 »</remark>
 <para>
 - nopende het disteleren van serée
-<fref ref="2"/> , cajoe-poety
-<fref ref="3"/> , coelit-lawan
-<super>4 <fref ref="4"/> </super> en<lb/>
+<note mark="2">Sereh, grassoort (andropogon nardus), waarvan een vluchtige olie wordt gewonnen,<lb/>
+die bij allerlei aandoeningen uitwendig wordt toegepast.<lb/>
+</note>
+, cajoe-poety
+<note mark="3">Kaju putih, maleis: hout wit, dus without, de vooral op Buru voorkomende melaleuca<lb/>
+leucondendrum, waaruit de bekende gelijknamige aromatische, pijnstillende olie wordt<lb/>
+gestookt.<lb/>
+</note>
+, coelit-lawan
+<super>4
+<note mark="4">Kulit lawang, (maleis kulit = huid, bast), een cinnamomumsoort, welks vruchten en<lb/>
+vooral bast als medicijn worden gebruikt, vaak ook tot olie gedistilleerd.<lb/>
+</note>
+</super> en<lb/>
 and’re olieteyten en ten dien regarde geresol veert derwaarts te ordonneren, dat<lb/>
 men de vorige daartegen leggende placaten sal hebben te renoveren en geensins<lb/>
 toelaten, dat iemant eenigen olij, niet alleen van nagelen, foelije en noten, maar ook<lb/>
@@ -46,7 +65,8 @@ van coelit-lawan en massoy of van iets anders, dat na nagelen, noten etc. sweeft
 distillere, dan alleen ’s Comp.8 distillateur, die sulks ook noyt anders dan na voorgaande<lb/>
 raadsbesluyt en ter praesentie van gecommitt. sal vermogen te doen, sonder<lb/>
 nogtans iemant het distilleren van serée ofte cajoe-poety te verhinderen, als geen<lb/>
-reuk der genoemde specerijen van sig gevende.</para>
+reuk der genoemde specerijen van sig gevende.
+</para>
 <remark>«Naar aanleiding van een nota van Heren X VII over de mogelijkheid van aanplant<lb/>
 van muskaatnootbomen in Amboina wordt opgemerkt, dat de Bandas e oogst<lb/>
 daarvan thans weer groter is dan de behoefte, terwijl de noten slecht bewaard kunnen<lb/>
@@ -57,33 +77,21 @@ te Makassar, wat wordt onderzocht; bekend is reeds,<lb/>
 »</remark>
 <para>
 - dat de Bougise Koninginne wed.e Dain Talille tot voorthelping der<lb/>
-
-<fnote ref="1">Na de Gen. Miss. volgt fol. 1277-1285 oen door den secretaris De Roo ondertekend<lb/>
-relaas over Malakka, dat de met de beschrijving belaste raad van Indië Cops te laat had<lb/>
-ingeleverd om het op de juiste plaats te kunnen opnemen, de inhoud is in onze uitgave verwerkt.<lb/>
-<lb/>
-</fnote>
-<fnote ref="2">Sereh, grassoort (andropogon nardus), waarvan een vluchtige olie wordt gewonnen,<lb/>
-die bij allerlei aandoeningen uitwendig wordt toegepast.<lb/>
-</fnote>
-<fnote ref="3">Kaju putih, maleis: hout wit, dus without, de vooral op Buru voorkomende melaleuca<lb/>
-leucondendrum, waaruit de bekende gelijknamige aromatische, pijnstillende olie wordt<lb/>
-gestookt.<lb/>
-</fnote>
-<fnote ref="4">Kulit lawang, (maleis kulit = huid, bast), een cinnamomumsoort, welks vruchten en<lb/>
- 
- vooral bast als medicijn worden gebruikt, vaak ook tot olie gedistilleerd.<lb/>
- </fnote>
-
 <pb n="178" tpl="1" vol="06" facs="6_159_0178"/>
-arme Bougise rijsplanters, welke door die rijskramers getraverseert <fref ref="1"/>  wierden,<lb/>
+arme Bougise rijsplanters, welke door die rijskramers getraverseert
+<note mark="1">Getraverseert, gehinderd, nl. door hun te weinig te betalen.<lb/>
+</note>
+wierden,<lb/>
 verleden jaar even gelijk meermalen voor desen goet gevonden hadde alleenlijk de<lb/>
 Bougyse onderdanen ten eersten hare rijs voor een behoorlijke prijs af te kopen,<lb/>
 welke die Ambonse en Bandase kramers niet genegen waren te betalen en daarom<lb/>
 die arme planters1
-<fref ref="2"/>  so lang lieten nalopen, dat sijluyden, daardoor in meerder<lb/>
+<note mark="2">De niet-Boeginezen.<lb/>
+</note>
+so lang lieten nalopen, dat sijluyden, daardoor in meerder<lb/>
 onkosten van pakhuysen en levensonderhoud vervallende, met schade weder na<lb/>
-hare zaylanden tot Marous moeten reverteren.</para>
+hare zaylanden tot Marous moeten reverteren.
+</para>
 <remark>«Vernomen,<lb/>
 »</remark>
 <para>
@@ -91,7 +99,8 @@ hare zaylanden tot Marous moeten reverteren.</para>
 casteel komende, daar ’s Comp.8 grote schepen aan lossen en laden, daar vandaan<lb/>
 met brandhout en stenen gegoyt wierden, item dat er met ’s Comp.8 schepen ongevaar<lb/>
 100 leggers particuliere gedistilleerde wateren, knijp en arak aangebragt<lb/>
-waren.</para>
+waren.
+</para>
 <remark>«De fiskaal zal hiertegen optreden ; men had er blijkbaar meer daarvan moeten<lb/>
 eisen; de memorie, door Coyet voor Stull opgemaakt, is meer een opgave van wat hij<lb/>
 verrichtte dan een handleiding, hij gaf de toestand der gebouwen ook veel te gunstig op;<lb/>
@@ -119,32 +128,31 @@ voorzien; gouverneur en raad besloten daarom 20 juni<lb/>
 »</remark>
 <para>
 - ’t land op de linkerzijde van de rivier Ackimajora
-<super>3 * <fref ref="3"/> </super> aan die van<lb/>
-
-<fnote ref="1">Getraverseert, gehinderd, nl. door hun te weinig te betalen.<lb/>
-</fnote>
-<fnote ref="2">De niet-Boeginezen.<lb/>
-</fnote>
-<fnote ref="3">Een rivier Akemajora is op Halmaheira niet bekend, wellicht is een van de talrijke<lb/>
- 
- stroompjes, die Ake ( = ternataans, water) Lamo(id. = groot) heten, bedoeld en dan vermoe¬<lb/>
- 
- delijk dat, hetwelk tegenover Makéan in zee valt.<lb/>
- </fnote>
-
+<super>3 *
+<note mark="3">Een rivier Akemajora is op Halmaheira niet bekend, wellicht is een van de talrijke<lb/>
+stroompjes, die Ake ( = ternataans, water) Lamo(id. = groot) heten, bedoeld en dan vermoe¬<lb/>
+delijk dat, hetwelk tegenover Makéan in zee valt.<lb/>
+</note>
+</super> aan die van<lb/>
 <pb n="179" tpl="1" vol="06" facs="6_159_0179"/>
 Tidor en in tegendeel ’tgene aan de regter hand van gemelte sprayt komt, aan die<lb/>
 van Ternaten toe te voegen, onder eenige conditiën, die den Tidorees genoegen, dog<lb/>
 omtrent den Ternataan niet alleen weynig stigting, maar selfs, so men segt, ook<lb/>
 verslagentheyt soude hebben veroorsaakt, welke ten dele weder was gecesseert<lb/>
 door des gouverneurs toesegging van over ’t selve subject in faveur der Ternatanen<lb/>
-aan dese regering te sullen schrijven.</para>
+aan dese regering te sullen schrijven.
+</para>
 <para>Onder dato 20e december des gepasseerde jaars 1700 des naarmiddags de<lb/>
 kloek vier uren voor d’ eerste maal uyt de spitsen top des eylands Tidor een sware<lb/>
 rook is gesien
-<fref ref="1"/> , die tegens den avond in een straal vuurs veranderde en vervolgen[s]<lb/>
+<note mark="1">Uitbarstingen van de vulkaan van Tidore in historische tijd zijn niet bekend.<lb/>
+</note>
+, die tegens den avond in een straal vuurs veranderde en vervolgen[s]<lb/>
 aan de noord westzijde tot de klok ongeveer elf uren in de nagt, als wanneer weder<lb/>
-verdween, waaruyt, als ook het verbranden van des Konings tempel<fref ref="2"/>  op 24<lb/>
+verdween, waaruyt, als ook het verbranden van des Konings tempel
+<note mark="2">Bedoeld is de moskee ter oostkust van het eiland in het dorp Soa Sio.<lb/>
+</note>
+op 24<lb/>
 november 1700 die superstitieuse natie, bijsonderlijk in een tijd, dat de siekte der<lb/>
 kinderpockjes onder ’tselve district almede so sterk d’overhand hadde, niet veel<lb/>
 goeds in opsigte van haar voorspelde, behalven dat buyten den ouden prins Goriame,<lb/>
@@ -158,7 +166,8 @@ vrese van een sware straf te ondergaan hun genootsaakt hadden gevonden naar<lb/>
 Ternaten onder ’t gebied van dien Koning haar te begeven, alwaar hun ook nog<lb/>
 onthouden. Uyt welke koninglijke familie insgelijks waren gestorven een soon en<lb/>
 dogter van den presenten Ternaatsen Conink Caytchily Tolloco, benevens meer<lb/>
-andere rijksgroten.</para>
+andere rijksgroten.
+</para>
 <remark>«De Europeanen hadden er geen last van, wél stierven vrij veel van hun slaven;<lb/>
 nog niet zeker is,<lb/>
 »</remark>
@@ -169,24 +178,20 @@ beurt vallen en waarontrent men segt meer naar ’t gedrag ende de bequaamheyt<l
 als wel op den ouderdom te sullen letten tot wegneming van veele disordres en<lb/>
 confusiën, die zedert de gansch licentieuse en onachtsame regering van ’t gemelte<lb/>
 Conink je, so ontrent de saken van den godsdienst als het bestier ten gemelte<lb/>
-ey lande zijn ingeslopen.</para>
+ey lande zijn ingeslopen.
+</para>
 <remark>«In augustus werd met de Schaapherder weer een bezending naar Mindanao<lb/>
 gedaan; de kruisers ruimen geen vreemde vaartuigen waar; daar sinds 1691 geen<lb/>
 bezending naar Gorontalo en de bocht van Tomini plaatsvond, werden daarheen in<lb/>
 augustus twee onderkooplieden met de Aardenhout gezonden; 9 sept. vertrok naar<lb/>
 Bungku ook kimélaha Tomagola , zo ook<lb/>
 »</remark>
-
-<fnote ref="1">Uitbarstingen van de vulkaan van Tidore in historische tijd zijn niet bekend.<lb/>
-</fnote>
-<fnote ref="2">Bedoeld is de moskee ter oostkust van het eiland in het dorp Soa Sio.<lb/>
-</fnote>
-
 <pb n="180" tpl="1" vol="06" facs="6_159_0180"/>
 <para>
 - met drie korkorre nog naar Bengay sekeren Moors geworden Chinees<lb/>
 soon, gen.1 Tsjamtia, om de tot Manado hoe langer hoe sterker aankomende Bouginesen<lb/>
-van daar te doen verhuysen.</para>
+van daar te doen verhuysen.
+</para>
 <remark>«Volgens ds. Feylingius staat het met hei Christendom op de eilanden benoorden<lb/>
 de Minahassa slecht ; de pacht der dranken bracht begin 1701 te Ternate 3200 rsd. op,<lb/>
 die van de stadsherberg 230, beide perjaar; 31 aug. 1700 waren de lasten er in eenjaar<lb/>
@@ -198,7 +203,8 @@ van Lesage; nagegaan wordt,<lb/>
 <para>
 - of er ook, ongeveer 100 mijlen van de Bandase eylanden af gelegen,<lb/>
 eenige eylanden leggen, waaraan die van Chily uyt de Zuydzee jaarlijx om specerijen<lb/>
-ter markt komen ofte oyt gekomen zijn.</para>
+ter markt komen ofte oyt gekomen zijn.
+</para>
 <remark>«6 jan. vertrok de Matroos naar Makassar om voorlopig daar gebruikt te worden;<lb/>
 100 recrvten zullen derwaarts gaan met de Sirjansland, zo ook 10500 rsd.; de 150 last<lb/>
 rijst van Java’s Oostkust, bestemd voor Amhoina en Banda, zullen aan burgers van<lb/>
@@ -231,19 +237,21 @@ getrouwer bondgenoten op het sensibelste desgouteren, dog de meeste swarigheyt<l
 sal sig opdoen, wanneer die overlevering soude moeten geschieden, waarontrent<lb/>
 wij dan den gouverneur en raad ordonneren sullen de meeste voorsigtigheyt te<lb/>
 adhiberen om geen ontijdige commotie te maken, temeer dewijl het kennelijk is,<lb/>
-
 <pb n="181" tpl="1" vol="06" facs="6_159_0181"/>
 dat den duyvel bequaam is in plaats van éenen bosen paap veel meer andere van<lb/>
 nog slimmer slag uyt te broeyen en niet min seker, dat dog alle Mahumetaanse<lb/>
 volkeren door superstitie in plaats van ware religie geleyd ende gebonden, mitsgaders<lb/>
-tegen de Christenen opgehitst werden.</para>
+tegen de Christenen opgehitst werden.
+</para>
 <remark>«Op het af breken van de versterkingen van Gowa moet voorzichtig worden aangedrongen,<lb/>
 liefst als geschiedde het op aandrang der andere bondgenoten, tegen wie ze<lb/>
 vnl. gemunt zijn<lb/>
 »</remark>
 <para>Ontrent het weder gedane versoek van ’t lantschap Poulong Bankeeng, wel<lb/>
 40 mijlen in zijn omtrek zijnde, hebben de Macassaren altijd seer sub- en obreptjd
-<fref ref="1"/> <lb/>
+<note mark="1">Subreptief, heimelijk; obreptief, bedriegelijk, om de tuin leidend.<lb/>
+</note>
+<lb/>
 ontrent ons gegaan, als hebbende eerst om de negorij Lassam aan de zeekant,<lb/>
 daarna om die van Saladjo in de bovenlanden bezuyde de rivier van Sadrabone<lb/>
 versoek gedaan en daarontrent onse toesegging over 2 &amp; 3 jaren erlangt, hoewel<lb/>
@@ -256,7 +264,8 @@ negorijen gelegen zijn, waaruyt dan ook verleden jaar de Macassaren dese indiffe
 hoewel abusive benaming van ’t gehele district voor de twee daarin leggende<lb/>
 ende maar versogte negrijen gecap teert en in plaats van het reets toegesegde onderstaan<lb/>
 hebben een donatiebrief te versoeken van Polong Bankeeng met desselfs hoge<lb/>
-en lage landen.</para>
+en lage landen.
+</para>
 <remark>«Behalve de 2 genoemde dorpen zullen echter ook aan Qowa worden overgegeven<lb/>
 »</remark>
 <para>
@@ -266,7 +275,8 @@ binnen of aan dat landschap gelegen ofte geërft mogten zijn, bevinden sal van<l
 ’s Comp.8 wegen uyt het onse gecedeert te konnen werden en dat men om alle<lb/>
 erreuren te eviteren ende alle verkeerde uytbreydingen ende al te ruyme interpretatien<lb/>
 af te snijden, welke de Macassaren na haarluyden naturel na desen souden<lb/>
-konnen formeren, daar in loco selfs de leenbrief daarvan sal formeren.</para>
+konnen formeren, daar in loco selfs de leenbrief daarvan sal formeren.
+</para>
 <remark>«Contracten van 18 april 1701 met Vorsten op Sumbawa, af gedrukt
 <ref>Corpus IV, </ref>nr. DCXIV ; Beemink mocht geen „springtogtje" naar Batavia komen maken; op de<lb/>
 droogte de Bril zal een baken geplaatst worden, want een ton aan een ijzeren ketting zou<lb/>
@@ -278,10 +288,6 @@ gezaghebber Anthony Ducam van 11 jan. werd ontvangen; een<lb/>
 »</remark>
 <para>
 - oorlogsexpeditie, waartoe men ’s Comp.8 wegen nevens die van<lb/>
-
-<fnote ref="1">Subreptief, heimelijk; obreptief, bedriegelijk, om de tuin leidend.<lb/>
-</fnote>
-
 <pb n="182" tpl="1" vol="06" facs="6_159_0182"/>
 Padang is getreden tegens die van de negorije Pauw, gesterkt met die van Cottatenga<lb/>
 en onder desel ve den bevorens verjaagden stouten Radja Nangsatty en<lb/>
@@ -296,7 +302,8 @@ gequets[t]en had bekomen, van welke laatste vervolgens nog 6 overleden en veel<l
 andere niet buyten gevaar waren, hebbende den gesaghebber voorsz. actie in persoon<lb/>
 bijgewoont en den luytenant Kerkhoven, die de militie commanderen soude,<lb/>
 al in het begin een sware wonde bekomen, waaraan hij sijn eene been verloren<lb/>
-heeft.</para>
+heeft.
+</para>
 <remark>«De handel staat er nu stil, daar de passen gesloten zijn; te Indrapura door Radja<lb/>
 Ibrahim<lb/>
 »</remark>
@@ -310,7 +317,8 @@ overleden is. Men heeft daarop wel een besending derwaarts gedaan om die moord<l
 te wreken, maar de schuldige hadden hun na het gebergte begeven, sodat die togt<lb/>
 almede vrugteloos afgelopen was en de uytgesondene wedergekeert waren sonder<lb/>
 deselve aangetroffen te hebben, zijnde ook zedert daarvan niemant nog ter gemelte<lb/>
-plaatse weergekeert, maar in het gebergte hun met roven blijven onthouden.</para>
+plaatse weergekeert, maar in het gebergte hun met roven blijven onthouden.
+</para>
 <para>Tot Sillida heeft men ook na het vermoorden van de besettelingen om de zuyd<lb/>
 tot Indrapoura de pagger op sekere nagt beset met voetangels, maar een tijdige<lb/>
 ontdecking heeft veroorsaakt, dat niemant eenige schade daardoor is toegebragt<lb/>
@@ -319,17 +327,18 @@ gelijk geschiet is op Priaman, dan met geen ander nadeel als het verlies van een
 geweiren en huysmeubeltjes, die bij die gelegentheyt t’soek geraakt en gerooft<lb/>
 waren, men heeft de regenten dier plaats wel rekenschap daarvan gevordert, maar<lb/>
 sij hebben haar ignorant gehouden, dog aangenomen de recommandatie van den<lb/>
-gesaghebber om voor het aanstaande daarvoor sorge te dragen.</para>
+gesaghebber om voor het aanstaande daarvoor sorge te dragen.
+</para>
 <remark>«De verstoring van de rust ter Westkust was geheel onverwacht<lb/>
 »</remark>
 <para>Tot Baros was het echter nog in rust gebleven en somede tot Troussang tusschen<lb/>
 den Radja en sijne ponglous, hebbende den eersten ook daarenboven voldaan<lb/>
 een gedeelte van sijn agterstal aan d’E. Comp., ook heeft men de verschillen tusschen<lb/>
 die van Ayer Had je en de Sapouloboabandaars in der minnen weggenomen<lb/>
-en partijen bevredigt.</para>
+en partijen bevredigt.
+</para>
 <remark>«Er kwamen te Padang twee Engelse schepen; 30 juni 1701 waren ter Westkust<lb/>
 276 V.O.C. dienaren, waaronder 146 soldaten, men kon er niet tot aflossing overgaan;</remark>
-
 <pb n="183" tpl="1" vol="06" facs="6_159_0183"/>
 <remark>er zou 30 juni in een jaar netto f. 6000 verloren zijn; er werd zeer weinig goud aangebracht<lb/>
 en dat viü. door vrije handelaars duur opgekocht ; de goudmijn te Salida is<lb/>
@@ -339,7 +348,10 @@ scheepje van den kapitein der Chinezen te Japara Oei PinKo ter Kust van Coromand
 »</remark>
 <para>Oeypinco is een onderdaan van d’E.Comp., even gelijk alle Chinesen langs<lb/>
 Javas Oostkust volgens de overgifte des Sousouhounangs
-<fref ref="1"/> , aan dewelke geen<lb/>
+<note mark="1">Vgl. de acte van 19 oct. 1677,
+<emph>Corpu*</emph> Hl, p. 77.<lb/>
+</note>
+, aan dewelke geen<lb/>
 handel toegelaten werd, dan voor so verre het met ’s Comp.8 intrest en de daarna<lb/>
 gereguleerde ordres overeenkomt, aan hoedanige wij niet weten, dat UEd.Ho.<lb/>
 Achtb. oyt verboden hebben eenige accominodatien te bewijsen, maar wel ontrent<lb/>
@@ -349,12 +361,14 @@ medebrengt hare onderdanen in hare goede gangen te helpen, opdat daaruyt weder<l
 voordeel voor het gemeneboste redundere, dat ook UEd.Ho. Achtb. over ’t point<lb/>
 der zeerovers voor desen met ons van gevoelen zijn geweest, dat men desel ve niet<lb/>
 anders aantasten nogte straffen soude, dan wanneer sijluyden ’s Comp.8 schepen<lb/>
-ofte die van hare onderdanen genomen ofte geinfesteert mogten hebben.</para>
+ofte die van hare onderdanen genomen ofte geinfesteert mogten hebben.
+</para>
 <remark>«Wijlen Laurens Pit vernam van den gouverneur te Madras,<lb/>
 »</remark>
 <para>
 - dat namentl. een Engelsman uyt handen van een Engelsen rover<lb/>
-gesalveert ende op Madras teregt gebragt had een schip van een Comp.8 onderdaan.</para>
+gesalveert ende op Madras teregt gebragt had een schip van een Comp.8 onderdaan.
+</para>
 <folio>Fol. 1243v-1244r.</folio>
 <remark>«Het was daarom goed,<lb/>
 »</remark>
@@ -378,12 +392,8 @@ souden hebben, even gelijk wij alle jaren moeten doen ontrent de Moorse<lb/>
 zeeluyden, welke vermits het deserteren van ’s Comp.8 matrosen in Bengalen en<lb/>
 Souratta meermalen gehuurt moeten werden, ’tenware wij na desen daarvan niet<lb/>
 weder wilden gerieft zijn ofwel over hare praetentiën met de Moorse regters overhoop<lb/>
-raken.</para>
-
-<fnote ref="1">Vgl. de acte van 19 oct. 1677,
-<emph>Corpu*</emph> Hl, p. 77.<lb/>
-</fnote>
-
+raken.
+</para>
 <pb n="184" tpl="1" vol="06" facs="6_159_0184"/>
 <remark>«Volgens opgave van 18 mei 1698 had men terzake f. 12294 kosten , waartegen de<lb/>
 verkochte goederen
@@ -397,7 +407,8 @@ Japara en niet te Semarang leveren, te betalen in Hollands geld,<lb/>
 »</remark>
 <para>
 - waartoe dan een weg van ’t hof na Japara souden laten openkappen<lb/>
-en voor de reysigers bequaam maken.</para>
+en voor de reysigers bequaam maken.
+</para>
 <remark>«Te Tegal zouden de regenten houtwerken laten leveren, ze hadden niets tegen<lb/>
 vernieuwing der houten palissaden te J apara, wederzijds zou men de schuldigen aan<lb/>
 de vechtpartij te Semarang straffen, zij verzochten ook schriftelijk aan de Hoge Regering)<lb/>
@@ -407,7 +418,8 @@ de vechtpartij te Semarang straffen, zij verzochten ook schriftelijk aan de Hoge
 daar en ’t aanstellen van een ander, te weten het hooft van die natie op Japara<lb/>
 in plaats, maar dat in desen tijd voor een a 2 maanden of soveel jaren de<lb/>
 collecten der tollen en ’s Heeren geregtigheyt gelden mogt, werden gelaten aan de<lb/>
-Javanen.</para>
+Javanen.
+</para>
 <remark>«Dit werd af geslagen; de schippers Renning Renningsz. en Hans Hólm van de<lb/>
 verongelukte Wijk op Zee en Matroos werden door de Raad van Justitie veroordeeld<lb/>
 om uit de V.O.C. dienst gezet te worden en tot vergoeding der schade, de laatste, behoeftig,<lb/>
@@ -457,7 +469,6 @@ die de meeste winst beloven, worden ingekocht; over 1699-1700 verloor men netto<
 <emph>f.</emph> 1311546, want het kapitaal bedroeg
 <lb/>
 »</remark>
-
 <pb n="185" tpl="1" vol="06" facs="6_159_0185"/>
 <para>
 - f. 31849612, gevolgelijk meerder dan het restant capitaal van ’t jaar<lb/>
@@ -466,7 +477,8 @@ cargasoenen uyt het vaderlant en de hier gestelde wissels als andere partijen, t
 tot f. 9474676, het genoemde fons soveel hebben doen vergroten boven de<lb/>
 voor jarige versonde retouren tot f. 5316165 en de generale Indische lasten tot<lb/>
 f. 6798303, nadat daartegens wederom zijn goedgedaan de generale Indische winsten<lb/>
-alomme tot f. 5486758.</para>
+alomme tot f. 5486758.
+</para>
 <remark>«Perzië is hierbij niet meegerekend, waar de winst vermoedelijk 4 ton bedroeg;<lb/>
 inmiddels is het aantal aangekomen jonken opgelopen tot vier van Ning-po, twee van<lb/>
 Canton, vier van Amoy en een benevens een jachtje van Tonkin; muscus werd niet<lb/>
@@ -484,7 +496,8 @@ die in de Lampongs niet wil ontvangen;<lb/>
 jonken uyt China alhier, bedragende ten minsten 25 a 30 per cento, soude konnen<lb/>
 pretenderen, waartoe hem geen aanraders en sullen gebreken, gelijk ook niet,<lb/>
 wanneer hem daartoe payement of een ander specie wierd aangeboden, bij welk<lb/>
-geval dan dien korl de Comp. te duur soude komen te staan.</para>
+geval dan dien korl de Comp. te duur soude komen te staan.
+</para>
 <remark>«Op toezending der geëiste realen wordt krachtig aangedrongen, ook met het oog op<lb/>
 Palembang , men zal den Sultan voorlopig deels met koibans betalen, die hij tegen<lb/>
 Mexicaanse realen mag verwisselen, als die uit patria ontvangen zijn; de kruidnagelvoorraad<lb/>
@@ -499,20 +512,20 @@ de van Japan komende Bambeek vertrok 27 dec. van Malakka naar Suratte<lb/>
 »</remark>
 <para>Het vastdrijven en droevig verongelucken van ’t gemelte schip Bambeek op<lb/>
 een droogte of santplaat, gelegen ontrent Cabo Rochado
-<fref ref="1"/>  en Poulo Passelaar,<lb/>
+<note mark="1">Kaap Rachado, kaap ter westkust van Malaya op 2°28' N.B.<lb/>
+</note>
+en Poulo Passelaar,<lb/>
 naaulijks een en een half mijl buyten de wal en van gemelte uythoek noordwest en<lb/>
-noordwest ten westen ongevaar vier mijlen.</para>
+noordwest ten westen ongevaar vier mijlen.
+</para>
 <remark>«Er werd personeel heengezonden, het bleek,<lb/>
 »</remark>
 <para>
 - dat het schip niet alleen van onder aan ’t spil ende de voorkant van<lb/>
-
-<fnote ref="1">Kaap Rachado, kaap ter westkust van Malaya op 2°28' N.B.<lb/>
-</fnote>
-
 <pb n="186" tpl="1" vol="06" facs="6_159_0186"/>
 ’t grote luyk alsook voor aan ’t cabelluyk gebroken was, maar ook selfs de haken<lb/>
-rondom gesprongen waren, -</para>
+rondom gesprongen waren, -
+</para>
 <remark>«zodat dit nieuwe schip niet meer te repareren was
 , de lading kon onder het<lb/>
 oog van den fiskaal Aarnoud van Alsem gelost worden; directeur Pieter de Vos<lb/>
@@ -525,56 +538,56 @@ daar werd weinig textiel verkocht en te Kabun maar weinig tin ontvangen, waarom 
 realen nodig heeft, daar textiel er ongewild is; vernomen,<lb/>
 »</remark>
 <para>- dat ontrent drie- a vierhondert Bougisen hun tot Lingie
-<fref ref="1"/> , een onderhorig<lb/>
+<note mark="1">Linggi of Kuala Linggi, plaats aan een riviermond oostelijk van Kaap Rachado op<lb/>
+2°26' N.B.<lb/>
+</note>
+, een onderhorig<lb/>
 plaatsje van den Johoriet benoorden Malacca en voor aan de rivier Pannagie,<lb/>
 niet verre van Rombouw, daar Comp.s jurisdictie onder dit bestier stuyt, geposteert<lb/>
 lagen en vaste woonplaats schenen te willen nemen, waardoor de daarontrent<lb/>
 gelegen Malijers ende bijsonderlijk die van Battatiga
-<fref ref="2"/>  hun niet weynig voor een<lb/>
+<note mark="2">Batangtiga, dorp hoger aan dezelfde rivier, nl. daar waar ze een zijrivier opneemt,<lb/>
+maleis batang = water, rivierarm, tiga = drie.<lb/>
+</note>
+hun niet weynig voor een<lb/>
 invasie van gemelte roofvogels bekommert en bedugt vonden en oversulks t’samen<lb/>
 op ’t ernstigste versogten tegens dit gedrijgt quaat door de Comp. beschermt en<lb/>
-gesecureert te mogen werden.</para>
+gesecureert te mogen werden.
+</para>
 <remark>«Hierop werd derwaarts de assistent Goutsmit gezonden,<lb/>
 »</remark>
 <para>
 - naar hun aankomst(en) de voorsz. rivier Pannagie eenige racken<lb/>
 verre opvarende, aanstonts door het hooft der gemelte volkeren
-<fref ref="3"/>  benevens agt ètien<lb/>
+<note mark="3">Nl. de Boeginezen.<lb/>
+</note>
+benevens agt ètien<lb/>
 van de sijnen, met een schepvaartuyg voor stroom afkomende, vierden ontmoet<lb/>
 met intentie, so hij van selfs seyde, om sig naar Malacca te begeven ende den<lb/>
 gouverneur wegens sijn aankomst en verblijf ter gemelte plaats kuntschap te doen,<lb/>
 sulks met denselven genootsaakt waren te reverteren en also den 14e daaraan gesamentl.<lb/>
 ter reede van Malacca verschenen, noemde sig denselfen onder een breet<lb/>
 relaas wegens de redenen, die hun hadden gepermoveert haar tot Lingie terneder<lb/>
-te setten, Pagawang Domingo<fref ref="4"/> , dog wegens welke men niet lang daaraan berigt<lb/>
+te setten, Pagawang Domingo
+<note mark="4">Pagawang Domingo, een onwaarschijnlijke naam voor een Boeginees hoofd, misschien<lb/>
+Punggawa (titel voor een bepaald hoofd) Minggu (maleis zondag, een gebruikelijke<lb/>
+naam in het oosten van de Ind. archipel).<lb/>
+</note>
+, dog wegens welke men niet lang daaraan berigt<lb/>
 wesende, dat buyten vrouwen en kinderen tsamen met sijne complice en onderhorige,<lb/>
 wel seshondert man sterk, over het plegen van een moord aan twee Maninkabose<lb/>
 koopluyden uyt Slangor
-<fref ref="5"/>  hadden moeten verhuysen. Was met seker Johors<lb/>
+<note mark="5">Selangor, landschap in Malaya, vnl. ter westkust, zich uitstrekkend van ongeveer<lb/>
+3 tot 4° N.B. en 101 tot 102° O.L.<lb/>
+</note>
+hadden moeten verhuysen. Was met seker Johors<lb/>
 bediende van den dato bandara alsook onse daar in loco zijnde gecommitteerde den<lb/>
 koopman Willem van der Lely
-<fref ref="6"/>  en va[a]ndrager Victor Victorsz., den laatsten sep-<lb/>
-
-<fnote ref="1">Linggi of Kuala Linggi, plaats aan een riviermond oostelijk van Kaap Rachado op<lb/>
-2°26' N.B.<lb/>
-</fnote>
-<fnote ref="2">Batangtiga, dorp hoger aan dezelfde rivier, nl. daar waar ze een zijrivier opneemt,<lb/>
-maleis batang = water, rivierarm, tiga = drie.<lb/>
-</fnote>
-<fnote ref="3">Nl. de Boeginezen.<lb/>
-</fnote>
-<fnote ref="4">Pagawang Domingo, een onwaarschijnlijke naam voor een Boeginees hoofd, misschien<lb/>
-Punggawa (titel voor een bepaald hoofd) Minggu (maleis zondag, een gebruikelijke<lb/>
-naam in het oosten van de Ind. archipel).<lb/>
-</fnote>
-<fnote ref="5">Selangor, landschap in Malaya, vnl. ter westkust, zich uitstrekkend van ongeveer<lb/>
-3 tot 4° N.B. en 101 tot 102° O.L.<lb/>
-</fnote>
-<fnote ref="6">Willem van der Lely kwam als onderkoopman uit, geplaatst op het kantoor van den<lb/>
+<note mark="6">Willem van der Lely kwam als onderkoopman uit, geplaatst op het kantoor van den<lb/>
 visitateur-generaal, 1692 koopmansrang, 1695 sjahbandar te Malakka, aug. 1706 naar Batavia<lb/>
 opgeroepen, mei 1708 schepen aldaar, oct. 1708 schout-bij-nacht van de retourvloot.<lb/>
-</fnote>
-
+</note>
+en va[a]ndrager Victor Victorsz., den laatsten sep-<lb/>
 <pb n="187" tpl="1" vol="06" facs="6_159_0187"/>
 tember tot aflegging van ’t compliment en feelicitatie ontrent den nieuwen Conink<lb/>
 en dato bandara, d’eerste over desselfs verheffing tot de Johorse kroon ende de<lb/>

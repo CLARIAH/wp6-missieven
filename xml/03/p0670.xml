@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="670"/>
 <meta key="title" value="Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Van Hoorn, Ranst; Batavia, 16 februari 1669"/>
 <meta key="rawdate" value="16 februari 1669"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Mattheus van den Brouck, Pieter van Hoorn, Constantin Ranst"/>
+
 
 </header>
 <body>
@@ -30,7 +32,10 @@ verwacht ,<lb/>
 wegh eenigen tijt voor ’t affbrengen van ’t gout genougsaem geslooten geweest<lb/>
 ende dat na alle schijn noch wel lange haddc connen continueren, soo de onse met<lb/>
 den landtraadt
-<fref ref="1"/>  niet te rade waren geworden den Manucabusen Vorst en vordere<lb/>
+<note mark="1">De landraad bestond uit de hoofden van de met de V.O.C. gelieerde dorpen ter<lb/>
+Westkust.<lb/>
+</note>
+niet te rade waren geworden den Manucabusen Vorst en vordere<lb/>
 grooten met een extraordinaire geschenck van 17 a 1800 guldens waerde te doen<lb/>
 begroeten ende versoecken, dat aengetogen tweespalt mochte terneder gelegt<lb/>
 ende sijne vassalen een vrijen toeganck na Padang en Cotatenga werde vergunt,<lb/>
@@ -42,48 +47,53 @@ gout van 20 rijxdaelders waerde, een witte quitasol ende een assagaey tot wederg
 gesonden, vereerende bovendien [het] opperhooft s.r Pits met den<lb/>
 eertijtel van Panglyma Tscheya Radia als een besondere gunste van den Ma.1<lb/>
 tot sijne stadthouder,
-<fref ref="2"/>  sonderdat tot nogh toe eenige incomsten van de benedenlanden<lb/>
-is vorderende, gelijck sulx oock bij contract is beslooten geweest.</para>
+<note mark="2">Zie hiervoor o.a.
+<emph>Corpus,</emph> II, nr. CCCXIX en
+<emph>Westkust,</emph> hoofdstuk VI en VII.<lb/>
+</note>
+sonderdat tot nogh toe eenige incomsten van de benedenlanden<lb/>
+is vorderende, gelijck sulx oock bij contract is beslooten geweest.
+</para>
 <remark>«Moeilijkheden ter Westkust
 , vgl.
 <ref>Westkust, p. 140-142 </ref>»</remark>
 <para>
 Dogh dat alles weder redel. herstelt was ende eenige, ontrent Indrapoera<lb/>
 gelegen, met de wapenen der bontgenoten onder ’t gesag van den grooten gouv.r<lb/>
-Panglyma Radja<fref ref="3"/> , geadsisteert met ’t fluytjen den Santloper ende een chaloupe,<lb/>
+Panglyma Radja
+<note mark="3">Panglima Radja was de titel van de door den Keizer van Minangkabau benoemden<lb/>
+en door de Compagnie bevestigden gouverneur van Padang, die als adviseur bij de ingewikkelde<lb/>
+verhoudingen bij den Nederlandsen commandeur grote invloed had.<lb/>
+</note>
+, geadsisteert met ’t fluytjen den Santloper ende een chaloupe,<lb/>
 daerover gestraft ende uyt hare negerijen naer een cleene wederstant lantwaertin<lb/>
 verjaegt sijn; dat andere, die denselven wegh meenden in te slaen, oock omsichtig<lb/>
 gemaeckt ende van hare quade desseynen wederhouden hadde, hebbende hieronder<lb/>
 den ouden Malphar-Chia
-<fref ref="4"/>  (van Indrapoera verstooten ende welckers soon<lb/>
-Sultan Mamut Cha
-<fref ref="5"/> , die, als de wettigste daertoe sijnde, verleden jaer is bevestigt<lb/>
-geworden) niet weynig sijne rolle gespeelt om alles, waer ’t hem doenelijck<lb/>
-
-<fnote ref="1">De landraad bestond uit de hoofden van de met de V.O.C. gelieerde dorpen ter<lb/>
-Westkust.<lb/>
-</fnote>
-<fnote ref="2">Zie hiervoor o.a.
-<emph>Corpus,</emph> II, nr. CCCXIX en
-<emph>Westkust,</emph> hoofdstuk VI en VII.<lb/>
-</fnote>
-<fnote ref="3">Panglima Radja was de titel van de door den Keizer van Minangkabau benoemden<lb/>
-en door de Compagnie bevestigden gouverneur van Padang, die als adviseur bij de ingewikkelde<lb/>
-verhoudingen bij den Nederlandsen commandeur grote invloed had.<lb/>
-</fnote>
-<fnote ref="4">Malafarsjah was de vader van den Vorst van Indrapura, waar de opvolging langs do<lb/>
+<note mark="4">Malafarsjah was de vader van den Vorst van Indrapura, waar de opvolging langs do<lb/>
 vrouwelijke lijn ging. Herhaaldelijk trachtte hij voor zijn zoon in de plaats te komen.<lb/>
-</fnote>
-<fnote ref="5">Mohammadsjah, zeker sinds 1660 Vorst, met de titel Sultan, van Indrapura. Zie<lb/>
+</note>
+(van Indrapoera verstooten ende welckers soon<lb/>
+Sultan Mamut Cha
+<note mark="5">Mohammadsjah, zeker sinds 1660 Vorst, met de titel Sultan, van Indrapura. Zie<lb/>
 voor hem o.a.
 <emph>Westkust,</emph> p. 105 en 123. In 1684 liet hij de Engelsen in zijn land toe, in 1693 was<lb/>
 hij niet meer aan het bewind.<lb/>
-</fnote>
-
+</note>
+, die, als de wettigste daertoe sijnde, verleden jaer is bevestigt<lb/>
+geworden) niet weynig sijne rolle gespeelt om alles, waer ’t hem doenelijck<lb/>
 <pb n="671" tpl="1" vol="03" facs="3_125_0671"/>
-geweest, in obstant te brengen. Daertegens hout sigh Radja Adil in Majutta <fref ref="1"/> <lb/>
+geweest, in obstant te brengen. Daertegens hout sigh Radja Adil in Majutta
+<note mark="1">Radja Adil was een verwant van den vorige, die te Mandjuta (vgl. dl. II, p. 230,<lb/>
+noot 1) door de Atjehse Koningin als bestuurder was erkend. Nog in 1680 wordt hij daar als<lb/>
+stadhouder van Mohammadsjah vermeld.<lb/>
+</note>
+<lb/>
 noch constant ende aen ’t contract met de Comp.®
-<fref ref="2"/>  getrouw, hebbende in september<lb/>
+<note mark="2">Van 27 juli 1663,
+<emph>Corpus</emph> II, nr. CCLXXV.<lb/>
+</note>
+getrouw, hebbende in september<lb/>
 pass.0 seecker Engels jacht, dat aldaer (komende directelijck uyt Europa)<lb/>
 is aengeweest, niet alleene geen handel vergunt, maer selfs oock geen verversinge<lb/>
 willen laten volgen, daer se ter contrarye op Tndrapoura bij ’t afwesen van Sultan<lb/>
@@ -94,7 +104,8 @@ groot sijn, alsoo van Bantam is geadviseert, dat tselve Engelse fregat, op de<lb
 Westcust sijn boot met den coopman beneffens nogh 5 man verlooren hebbende,<lb/>
 ledigh van daer was gegaen, egter met voorgeven dat, bijaldien sij voorschr. ongeluck<lb/>
 niet hadden gemoet, hare volle peperladinge op voorschr. bej'de plaetsen<lb/>
-souden hebben becomen.</para>
+souden hebben becomen.
+</para>
 <remark>«Zijde, katoenen kousen en koperwerk mogen uit Japan weer worden uitgevoerd<lb/>
 »</remark>
 <para>Onder welck koperwerck de copere munt mede begrepen wort, voor sooveel<lb/>
@@ -104,17 +115,35 @@ comen can, alwaer met geen gout te handelen is en waerop voor desen in dat rijck
 al merckelijcke voordeelen gegaudeert hebben, die nu, soo te vreesen is, als roock<lb/>
 verdwijnen sullen, uyt oorsaeck dat de Chineesen, met haer gout sooveel weegs<lb/>
 niet uytwetende als wel de Comp.e, met de munt
-<fref ref="3"/> , waervan se al sestigh duysent<lb/>
+<note mark="3">Bedoeld: koperen munt.<lb/>
+</note>
+, waervan se al sestigh duysent<lb/>
 gulden hadden aenbesteedt om derwaerts te voeren, dat rijck soodanigh vervullen<lb/>
-sullen, datter geheel geen winst (soo anders geen verlies) in korten op vallen sal.</para>
+sullen, datter geheel geen winst (soo anders geen verlies) in korten op vallen sal.
+</para>
 <folio>Fol. 891r-v.</folio>
 <para>
 (De invoer is er verboden van
 . . . .)<lb/>
-. . . . fulpen<fref ref="4"/> , brocados<fref ref="5"/> , portdesoyen<fref ref="6"/> , uytlants porceleyn, aerde- en koperwerck,<lb/>
+. . . . fulpen
+<note mark="4">Fulp, pluisfluweel.<lb/>
+</note>
+, brocados
+<note mark="5">Brocados, zijden stoffen, met gouddraad doorweven.<lb/>
+</note>
+, portdesoyen
+<note mark="6">Portdesoyen, mij niet nader bekend.<lb/>
+</note>
+, uytlants porceleyn, aerde- en koperwerck,<lb/>
 glasen en glaswerck, daeronder drinckglasen, roomers, keldervlessen begrepen,<lb/>
 eenel. brillen, verrekijkers en leesglasen uytgesondert
-<fref ref="7"/> .</para>
+<note mark="7">Vgl.
+<emph>Beschrijvinge</emph> H, I, p. 437 en
+<emph>Plakaatboék</emph> II, p. 509-512, waar nog vele andere<lb/>
+waren worden opgesomd, waarvan de invoer in Japan verboden was.<lb/>
+</note>
+.
+</para>
 <remark>«Ook de secunde mag maar één jaar in J apan blijven; de goudprijs blijft er laag;<lb/>
 de Duynvliet brengt 516800
 <ref>1È </ref>suiker van Bengalen naar Perzië; de Engelsen hebben<lb/>
@@ -123,28 +152,6 @@ Masulipatam zijn 1600 pak kleden in voorraad, meest voor Pegu en Batavia; Dirck<
 de Hart, opperhoofd aldaar, is 12 dec. gestorven; gebleken is,
 ... .<lb/>
 »</remark>
-
-<fnote ref="1">Radja Adil was een verwant van den vorige, die te Mandjuta (vgl. dl. II, p. 230,<lb/>
-noot 1) door de Atjehse Koningin als bestuurder was erkend. Nog in 1680 wordt hij daar als<lb/>
-stadhouder van Mohammadsjah vermeld.<lb/>
-</fnote>
-<fnote ref="2">Van 27 juli 1663,
-<emph>Corpus</emph> II, nr. CCLXXV.<lb/>
-</fnote>
-<fnote ref="3">Bedoeld: koperen munt.<lb/>
-</fnote>
-<fnote ref="4">Fulp, pluisfluweel.<lb/>
-</fnote>
-<fnote ref="5">Brocados, zijden stoffen, met gouddraad doorweven.<lb/>
-</fnote>
-<fnote ref="6">Portdesoyen, mij niet nader bekend.<lb/>
-</fnote>
-<fnote ref="7">Vgl.
-<emph>Beschrijvinge</emph> H, I, p. 437 en
-<emph>Plakaatboék</emph> II, p. 509-512, waar nog vele andere<lb/>
-waren worden opgesomd, waarvan de invoer in Japan verboden was.<lb/>
-</fnote>
-
 <pb n="672" tpl="1" vol="03" facs="3_125_0672"/>
 <para>.... datter op Sadrempatam eenige onlusten waren geweest, waerdoor de negotie<lb/>
 aldaer eenigen tijt hadde moeten stillestaen, zoodat den gouvem.r aen de<lb/>
@@ -152,19 +159,24 @@ opperhooffden
 .... oock al hadde gelast geen zeebrieven aen de Moorse schepen<lb/>
 te verleenen, voor ende aleer door authoriteyt van ’t hoff wiert gelast den handel<lb/>
 op voorsschr. Sadrespatnam weder open te stellen
-<fref ref="1"/> , dat ons toeschijnt, al wat te<lb/>
+<note mark="1">Vgl.
+<emph>Coromandel,</emph> p. 61.<lb/>
+</note>
+, dat ons toeschijnt, al wat te<lb/>
 voorbarigh is geweest, gemerct, soodanige stribbelinge veelmaels comen voor te<lb/>
 vallen ende vanselfs cort daerop comen te cesseren, gelijck wij uyt een nabrief ken<lb/>
 oock gaeme hebben gesien, dat den toevoer der cleeden aldaer weder was toegestaen<lb/>
 ende de liberteyt om de coopmanschappen landtwaert in te vervoeren<lb/>
-oock stont te volgen.</para>
+oock stont te volgen.
+</para>
 <remark>«Lading der Engelse schepen hij Madras; toename van de Nederlandse handel<lb/>
 te Nagelwanse; de koers van de oude pagoden is opgelopen tot 180 nieuwe voor<lb/>
 de 100<lb/>
 »</remark>
 <para>Den gedreygden oorlogh tusschen den Grooten Mogol ende den Coninck van<lb/>
 Golconda was eyndelijck door ’t uytkeeren van groote somma geit bijgelecht,<lb/>
-soodat ’t Golcondaetsche leger alweder was thuys gecomen.</para>
+soodat ’t Golcondaetsche leger alweder was thuys gecomen.
+</para>
 <remark>«De handel zal nu weer herleven; getracht wordt ropias in betaling te krijgen
 ,<lb/>
 dienstig in Bengalen en geen oude pagoden; op Japanse gouden munten wordl
@@ -181,25 +193,21 @@ ende met doorgeschooten stengen ende gestreecken raes doch ledigh lagh) is<lb/>
 vergaen met 3 Engelse ende 8 inlandtsche bootsgesellen, hebbende het op denselven<lb/>
 dagh ontrent Mazulipatam wel een hart stormweder geweest, waermede<lb/>
 aenge togen Engelse schepen genoegh aff te rijden hadden, maer geen orencaen<lb/>
-gewaeyt.</para>
+gewaeyt.
+</para>
 <para>
 (Uit
 <emph>Wingurla</emph> is vernomen
 , . . . .)<lb/>
 .... dat in de maent september een patache van Mosambique tot Goa was<lb/>
 aengecomen met 140 marken
-<fref ref="2"/>  goudt, behalven dat gesloocken sal sijn, 100 bharen<lb/>
+<note mark="2">Mark, niet overal gelijk goudgewicht, vaak 230,4 gram.<lb/>
+</note>
+goudt, behalven dat gesloocken sal sijn, 100 bharen<lb/>
 eliphantstanden, 500 quintalen ebbenhout en 160 lijffeygenen, mitsgaders voor<lb/>
 tijdingh, dat het gallioen de Theresia, in februarij daer tevooren van Goa na<lb/>
 Portugael gesonden, .... de Caap de Bonne Esperance niet hadde connen te boven<lb/>
 comen, maer door een swaren storm gedwongen was geworden naer voorschr.<lb/>
-
-<fnote ref="1">Vgl.
-<emph>Coromandel,</emph> p. 61.<lb/>
-</fnote>
-<fnote ref="2">Mark, niet overal gelijk goudgewicht, vaak 230,4 gram.<lb/>
-</fnote>
-
 <pb n="673" tpl="1" vol="03" facs="3_125_0673"/>
 <para>Monsambique te keeren om te overwinteren tot de maent jannario deses jaers,wanneer het de reyse stont te hervatten.De Vicerey had een zeemacht uyt gehad om Muscatta te besetten, maer metgeen goet succes, sijnde eenige van deselve teruggecomen met tijding, dat deArabiers vier scheepjes genomen ende de andere van de cust gejaegt ende ver-stroyt hadden.
 </para>

@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="345"/>
 <meta key="title" value="Van Hoorn, Van Riebeeck, Pijl, Van Swoll, Douglas, De Vos, Van Rijn, Van der Stel, Zwaardecroon, Chasteleyn, De Roo, De Haan; Batavia, 24 augustus 1705"/>
 <meta key="rawdate" value="24 augustus 1705"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Christoffel van Swoll, Abraham Douglas, Pieter de Vos, Adam van Rijn, Adriaan van der Stel, Hendrik Zwaardecroon, Cornelis Chasteleyn, Willem de Roo, Mattheus de Haan"/>
+
 
 </header>
 <body>
@@ -29,9 +31,18 @@ juli van Suratte met 10 vaartuigen , 2 gearresteerde Moorse bodems te Cochin lat
 14 juli werd besloten<lb/>
 »</remark>
 <para>- den commandeur Meyndert de Boer nevens den oppercoopman Willem<lb/>
-Zix<fref ref="1"/>  over Persia wederom na Zouratta te expedieeren met de schepen de<lb/>
+Zix
+<note mark="1">Willem Six kwam in 1692 uit als onderkoopman, in 1693 te Suratte, 1701 koopman<lb/>
+en secunde aldaar, 1705 opperkoopman en secunde bij de commissie derwaarts, aug. 1706<lb/>
+visitateur-generaal, nov. 1709 gouverneur van Malakka, juli 1711 naar Batavia opgeroepen en<lb/>
+buiten dienst gesteld, 1712 weer in dienst gesteld te Batavia, juli 1716 weer buiten dienst<lb/>
+wegens zijn weigering als directeur naar Perzië te gaan, maart 1716 raad extra-ordinair van<lb/>
+Indië, sept. 1718 gestorven.<lb/>
+</note>
+over Persia wederom na Zouratta te expedieeren met de schepen de<lb/>
 Lieffde, d’Ellemeet, Rijgersdael, Vosmaar, Coning Carel de Derde en de jagtjes<lb/>
-de Hartloop en ’t Huys te Haan.</para>
+de Hartloop en ’t Huys te Haan.
+</para>
 <remark>«In Perzië volgt Frans Castelijn Wichelman als directeur op; De Vos arresteerde<lb/>
 goederen van Abdul Gafur, vele tonnen gouds waard, meest in Mexicaanse realen;<lb/>
 de Geyn, Carthago en Beverwijck zijn bestemd tot retourschepen van Ceylon, het eerste<lb/>
@@ -54,13 +65,5 @@ de onderlinge twisten in Bengalen zijn van daar opgeroepen Pelgrom en de opperko
 lieden Wilree en Urwijn, De Roo wordt er directeur; Coyet mag als gouverneur van<lb/>
 Amboina aftreden en wordt opgevolgd door Adriaan van der Stel<lb/>
 »</remark>
-
-<fnote ref="1">Willem Six kwam in 1692 uit als onderkoopman, in 1693 te Suratte, 1701 koopman<lb/>
-en secunde aldaar, 1705 opperkoopman en secunde bij de commissie derwaarts, aug. 1706<lb/>
-visitateur-generaal, nov. 1709 gouverneur van Malakka, juli 1711 naar Batavia opgeroepen en<lb/>
-buiten dienst gesteld, 1712 weer in dienst gesteld te Batavia, juli 1716 weer buiten dienst<lb/>
-wegens zijn weigering als directeur naar Perzië te gaan, maart 1716 raad extra-ordinair van<lb/>
-Indië, sept. 1718 gestorven.<lb/>
-</fnote>
 </body>
 </teiTrim>

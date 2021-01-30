@@ -43,14 +43,25 @@ from trimTei3 import (
     corpusPost as c3,
 )
 
-corpusPre = [a0, a1, a2, a3]
-trimVolume = [v0, v1, v2, v3]
-trimDocBefore = [b0, b1, b2, b3]
-trimDocPrep = [d0, d1, d2, d3]
-trimPage = [t0, t1, t2, t3]
-processPage = [p0, p1, p2, p3]
-trimDocPost = [e0, e1, e2, e3]
-corpusPost = [c0, c1, c2, c3]
+from trimTei4 import (
+    corpusPre as a4,
+    trimVolume as v4,
+    trimDocBefore as b4,
+    trimDocPrep as d4,
+    trimPage as t4,
+    processPage as p4,
+    trimDocPost as e4,
+    corpusPost as c4,
+)
+
+corpusPre = [a0, a1, a2, a3, a4]
+trimVolume = [v0, v1, v2, v3, v4]
+trimDocBefore = [b0, b1, b2, b3, b4]
+trimDocPrep = [d0, d1, d2, d3, d4]
+trimPage = [t0, t1, t2, t3, t4]
+processPage = [p0, p1, p2, p3, p4]
+trimDocPost = [e0, e1, e2, e3, e4]
+corpusPost = [c0, c1, c2, c3, c4]
 
 
 HELP = f"""

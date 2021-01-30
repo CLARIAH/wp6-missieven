@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="744"/>
 <meta key="title" value="Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Blom, Sipman; Batavia, 4 december 1724"/>
 <meta key="rawdate" value="4 december 1724"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Hendrik Zwaardecroon, Mattheus de Haan, Anthony Huysman, Cornelis Hasselaar, Laurens Tolling, Diderik Durven, Wijbrant Blom, Joannes Philippus Sipman"/>
 
+
 </header>
 <body>
 <pb n="744" tpl="1" vol="07" facs="7_164_0744"/>
@@ -25,7 +27,13 @@ WIJBRANT BLOM EN JOHANNES PHILIPPUS SIPMAN, BATAVIA 4 december 1724.</head>
 »</remark>
 <para>
 - dat het schip Berkenrode had vuur gevat, oversulx den commandeur en equi¬<lb/>
-pagemeester Michiel Westpalm <fref ref="1"/>  wierd illico na boord gesonden - om alles bij te<lb/>
+pagemeester Michiel Westpalm
+<note mark="1">Michiel Westpalm kwam in 1710 uit als onderstuurman, 1712 opperstuurman, 1716 schippersrang<lb/>
+en onderequipagemeester, 1718 commandeur en opperequipagemeester, 1726 raad-extraordinair<lb/>
+van Indië, 1729 tevens commissaris der mijnwerken, president van weesmeesteren en kolonel der<lb/>
+burgerij, 1730 raad-ordinair, 1732 Directeur-Generaal, aug. 1734 gestorven.<lb/>
+</note>
+wierd illico na boord gesonden - om alles bij te<lb/>
 brengen, wat hem nodig zoude dunken tot demping van dit - ongeval, waarvan men<lb/>
 ook in dienselven nagt, dat is tusschen den 30 november en primo deser volkomen is meester<lb/>
 geworden, hoewel de quaal al vrij verre was doorgeset geweest en niet anders dan het<lb/>
@@ -35,7 +43,8 @@ heefd maar alleen verloren vijf potjes med geconfijte gember benevens het buspoe
 dek moesten gemaakt werden ter inlating van water tot blussing van den brand, die<lb/>
 omtrent de bottelerij was ontstaan en op dese wijse gepreserveerd geworden het onderste<lb/>
 dek, alsoo het vuur daarvan door bovengem. infusie van water wierd afgehouden en eyn-<lb/>
-delijk alles - overwonnen en verbeterd.</para>
+delijk alles - overwonnen en verbeterd.
+</para>
 <remark>«Van Dishoeck, die aan boord was, is met het schip tot 4 dec. opgehouden, de andere schepen<lb/>
 voeren door naar het hoge land van Bantam; men is sinds 1718 zeer tevreden over Westpalm;<lb/>
 2 dec. vernam men uit een brief van 24 nov. uit Semarang, dat de resterende Baliërs zich<lb/>
@@ -46,15 +55,10 @@ was te laat met het inpakken, Ramurasu<lb/>
 <para>
 - opnieuw de dorpen van Palicol en Daatcheron heefd in ’t rumoer gebragt en<lb/>
 gedreygd om alles te sullen vernielen, in cas hem niet wierden opgebragt sijne ordinaire geschenken<lb/>
-voor den tijd van 5 jaren, bij d’onse ingehouden.</para>
+voor den tijd van 5 jaren, bij d’onse ingehouden.
+</para>
 <remark>«De heidense landheren schijnen het Moorse juk van de hals te willen schuiven; de Oostendenaren<lb/>
 zijn met de Moren van Bengalen en Suratte overhoop geraakt<lb/>
 »</remark>
-
-<fnote ref="1">Michiel Westpalm kwam in 1710 uit als onderstuurman, 1712 opperstuurman, 1716 schippersrang<lb/>
-en onderequipagemeester, 1718 commandeur en opperequipagemeester, 1726 raad-extraordinair<lb/>
-van Indië, 1729 tevens commissaris der mijnwerken, president van weesmeesteren en kolonel der<lb/>
-burgerij, 1730 raad-ordinair, 1732 Directeur-Generaal, aug. 1734 gestorven.<lb/>
-</fnote>
 </body>
 </teiTrim>

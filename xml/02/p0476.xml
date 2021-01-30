@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="476"/>
 <meta key="title" value="Reniers, Maetsuycker, Demmer, Cunaeus, Versteghen, De With, Steur; Batavia, 10 februari 1651"/>
 <meta key="rawdate" value="10 februari 1651"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Carel Reniers, Joan Maetsuycker, Gerard Demmer, Joan Cunaeus, Willem Versteghen, Jacob de With, Dirck Jansz Steur"/>
+
 
 </header>
 <body>
@@ -65,10 +67,10 @@ reden seer aan gedubiteert wort, gantsch vuyle practijcken sijn, rechte middelen
 de Comp.e te frauderen, die niemandt sal bij de hant nemen, off sal redenen weeten<lb/>
 waerom. Ende in allen gevalle soo blijct, dat de toepalingh van de mont van de<lb/>
 voorsz. revier Anchiol door Comp.8 gegagieerde dienaren gedaen sij, daer nochtans<lb/>
-
 <pb n="477" tpl="1" vol="02" facs="2_112_0477"/>
 bij het octroy, aen Sijn E. ende cap.n Silvernagel sal.r wegen voorsz. vaert verleent,<lb/>
-expres gestipuleert sij, dat hetselve op haer eygen costen moeste geschieden.</para>
+expres gestipuleert sij, dat hetselve op haer eygen costen moeste geschieden.
+</para>
 <remark>«De advocaat-fiscaal Mr. Jacob de Wilt aan een spasmus gestorven; berichten<lb/>
 van Laurens Pit uit Paleacatte<lb/>
 »</remark>
@@ -108,17 +110,16 @@ onder pretecxt van twee wechgeloopen Nederlanders op te soecken, die dan oock<lb
 bij denselven gevonden waeren, Konings dienst genomen hebbende, om welcke de<lb/>
 miersumela, aengesproocken sijnde, deselve niet geweygert hadt aff te staen ende<lb/>
 over te leveren, mits dat van straffe vrij soude wesen, dat den e. Pit
-<fref ref="1"/>  met den raet</para>
-
-<fnote ref="1">Laurens Pit kwam 1632 als assistent uit, vrijburger eerst te Batavia, later te Banda;<lb/>
+<note mark="1">Laurens Pit kwam 1632 als assistent uit, vrijburger eerst te Batavia, later te Banda;<lb/>
 hij repatrieerde 1638 als onderkoopman en kwam 1641 als opperkoopman uit, lid van de Raad<lb/>
 van Justitie, daarna kassier te Thaiwan, 1642 werkzaam te Paleacatte, vervolgens te Masulipatam,<lb/>
 1650-51 tijdelijk president ter Kust van Coromandel, 1652 tweede gezant naar Golconda,<lb/>
 daarna directeur van Coromandel, 1656 gouverneur en raad extra-ord. van Inië, 1662<lb/>
 raad ord., 1663 naar Batavia en president van de weeskamer, 1665 president van schepenen,<lb/>
 1678 uit Compagniesdienst, 1684 te Batavia gestorven.<lb/>
-</fnote>
-
+</note>
+met den raet
+</para>
 <pb n="478" tpl="1" vol="02" facs="2_112_0478"/>
 <para>hadt ingewillicht te weten van de straffe des doots ende vorder niet om de consequentie<lb/>
 ende dat haer van het woort des mirsumelas niet ten vollen konden verseeckeren,<lb/>
@@ -131,9 +132,14 @@ soolang de Comp.e haer tanden niet laet sien, off tenwaere sij onder malkanderen
 quamen onnenich te worden, daer sich al beginselen van verthonen, willende nae<lb/>
 luyt der voorsz. advijsen den Visiapourder inruyminge hebben van de stercte<lb/>
 Gendecata*
-<fref ref="1"/> , als tot sijn district pertinerende, daer die van Golconda niet toe<lb/>
+<note mark="1">Gendecata, Gendikota, thans vervallen vesting aan de Penniar -rivier op 14°50/ N.B.<lb/>
+en 78°20' O.L. G. was een centrum van goudmijnen en was door den mirdjumla op de Hindoes<lb/>
+veroverd.<lb/>
+</note>
+, als tot sijn district pertinerende, daer die van Golconda niet toe<lb/>
 genegen is, soodat het geschil sooverre gekomen soude wesen, dat rede wedersijts<lb/>
-veltlegers nae genoemde plaetsen in aentocht waren .</para>
+veltlegers nae genoemde plaetsen in aentocht waren .
+</para>
 <para>Gemelte heere mirsumela hout hem seer gegraveert over het aenhaelen van<lb/>
 sijn thin . . . mitsgaders over het weygeren der passen nae Aetcliin etc., alsmede<lb/>
 dat den Heer Generael sijne brieven geen antwoort verweerdicht heeft, hetselve<lb/>
@@ -149,7 +155,8 @@ van 23 caraet hadt gemelte heer aengenomen tegen 68 oude pagoden het ceer van<lb
 daer volgens den jegenwoordigen cours van oude ofte Masulipatnamse ende nieuwe<lb/>
 ofte Paliacatse pagoden ruym 2£ per cento meer op is gehaelt, dan off hetselve<lb/>
 gout tot pagoden hadden doen munten, behalven dat de Paliacatse pagoden daermeede<lb/>
-eenichsints in extime worden gehouden.</para>
+eenichsints in extime worden gehouden.
+</para>
 <para>Des mirsumelas schip . . . was van Gamron noch niet teruchgekomen, echter<lb/>
 deed hij weeder een ander equiperen om dit jaer weder derwarts te navigeren nevens<lb/>
 een nae Atchin hetsij met ofte sonder onse passen, daer mede wel onlusten uyt<lb/>
@@ -157,25 +164,24 @@ mochten rijsen, off tenwaere door den Conincq gestut wiert, die geseght wort sic
 seer vergenoucht te hebben, verstaende, de onse de mirsumela geweygert hadden<lb/>
 sijne coopmanschappen onder die van de Comp.e door Gamrons tholhuys te passeren,<lb/>
 hetselve voor een teecken van trouwe ende oprechticheyt houdende. De<lb/>
-Coninck van Carnatica onthielt hem noch bij de Naick van Misjour<fref ref="2"/>  sonder iets<lb/>
-tot herbouwinge van sijne vervallen staet bij der hant te nemen.</para>
+Coninck van Carnatica onthielt hem noch bij de Naick van Misjour
+<note mark="2">Misjour, Mysore, Hindoevorstendom in Zuid-India, deel van het uit elkaar gevallen<lb/>
+grote Hindoerijk; de gelijknamige hoofdplaats ligt op 12£° N.B. en 76°42' O.L.<lb/>
+</note>
+sonder iets<lb/>
+tot herbouwinge van sijne vervallen staet bij der hant te nemen.
+</para>
 <para>
 De Portugesen in Nagap at nam hadden door de Deenen contschap bekomen<lb/>
 van de resolutie van Haere Ho. Mo. aengaende haer natie in dese landen ende dat<lb/>
 de Comp.e gelast was haer van deselve te revengeren van de schade, de Westindi-<lb/>
-
-<fnote ref="1">Gendecata, Gendikota, thans vervallen vesting aan de Penniar -rivier op 14°50/ N.B.<lb/>
-en 78°20' O.L. G. was een centrum van goudmijnen en was door den mirdjumla op de Hindoes<lb/>
-veroverd.<lb/>
-</fnote>
-<fnote ref="2">Misjour, Mysore, Hindoevorstendom in Zuid-India, deel van het uit elkaar gevallen<lb/>
- 
- grote Hindoerijk; de gelijknamige hoofdplaats ligt op 12£° N.B. en 76°42' O.L.<lb/>
- </fnote>
-
 <pb n="479" tpl="1" vol="02" facs="2_112_0479"/>
 sche Comp.e in Brasil aengedaen
-<fref ref="1"/> , maer desniettemin nae verscheyde quartieren<lb/>
+<note mark="1">De V.O.C. had in 1647 een subsidie van 1£ miljoen gulden aan de W.I.C. moeten<lb/>
+geven voor de verlenging van het octrooi in verband met de oorlogen in Brazilië. Zij kreeg in<lb/>
+1649 vergunning van de Staten-Generaal de schade op de Portugezen te verhalen.<lb/>
+</note>
+, maer desniettemin nae verscheyde quartieren<lb/>
 even sterck als voor desen geëquipeert, namentlijck 3 jachten nae Aetchin, een nae<lb/>
 Tanassary, gelaaden hebbende 80 packen cleeden ende 700 stucx lijffeygenen,<lb/>
 mitsgaders een nae Macassar met 60 packen, dat eenigen tijt voorleden hier<lb/>
@@ -183,23 +189,21 @@ gepasseert is ende, Japara aengedaen hebbende, aldaar ettelijcke packen cleeden<
 gelaaten heeft. Soo het blijct, weten gemelte vrunden noch al lijffeygenen te<lb/>
 krijgen, daar wij seer om benoodicht sijn, doch de middelen, die sij daertoe gebruycken,<lb/>
 sijn niet seer christelijck, latende deselve bij nacht ende ontij den uyt<lb/>
-[da]t<fref ref="2"/>  landt stelen ofte wel openbaerlijck rooven niet sonder kennisse ende<lb/>
+[da]t
+<note mark="2">Of: het.<lb/>
+</note>
+landt stelen ofte wel openbaerlijck rooven niet sonder kennisse ende<lb/>
 toestaen der gouverneurs ende landtregeerders, die daer haer voordeel uyt strijcken,<lb/>
 welcke godtloosheyt ons niet staet nae te volgen, al soude noyt slaven meester<lb/>
-worden.</para>
+worden.
+</para>
 <para>De Engelsche vrunden souden hun jacht de Bonito nae Gamron senden ende<lb/>
 waeren de fluyt de Leeuwinne uyt Bengale verwachtende om van Madrespatnam<lb/>
-rechttoe nae Engelandt geretourneert te werden.</para>
+rechttoe nae Engelandt geretourneert te werden.
+</para>
 <remark>«Gunstige berichten uit Tonkin; verzoek om toezending van rondhout voor masten;<lb/>
 spiegels en satijnen in slechte staat uit patria ontvangen
 <lb/>
 »</remark>
-
-<fnote ref="1">De V.O.C. had in 1647 een subsidie van 1£ miljoen gulden aan de W.I.C. moeten<lb/>
-geven voor de verlenging van het octrooi in verband met de oorlogen in Brazilië. Zij kreeg in<lb/>
-1649 vergunning van de Staten-Generaal de schade op de Portugezen te verhalen.<lb/>
-</fnote>
-<fnote ref="2">Of: het.<lb/>
-</fnote>
 </body>
 </teiTrim>

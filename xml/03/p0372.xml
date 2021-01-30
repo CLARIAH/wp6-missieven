@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="372"/>
 <meta key="title" value="Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur; Batavia, 29 juli 1661"/>
 <meta key="rawdate" value="29 juli 1661"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Carel Hartsinck, Aernout de Vlaming van Oudtshoorn, Nicolaes Verburch, Dirck Jansz Steur"/>
+
 
 </header>
 <body>
@@ -44,15 +46,22 @@ van daar,
 — 171; zending naar Timor op 12<lb/>
 ebr., p. 33<lb/>
 »</remark>
-<para>Ingevalle <fref ref="1"/>  de vrede met Portugal noch niet gesloten en zij, zoo soude onses<lb/>
+<para>Ingevalle
+<note mark="1">De hier volgende passus is in geheimschrift, in Nederland is de betekenis er boven<lb/>
+geschreven.<lb/>
+</note>
+de vrede met Portugal noch niet gesloten en zij, zoo soude onses<lb/>
 oordeels zeer dienstig wesen, dat in dezelve, soo se voortgang staet te nemen, konde<lb/>
 influeren, dat haer de frequentatie van hetzelve eyland moge worden geïnterdiceert,<lb/>
 dewijl se daer doch de alderminste fortificatie ofte vaste bezettinge niet en hebben.<lb/>
 Hetselve zoude de Ned. Oost. Comp.e een groote gerustheyt geven, nadien de<lb/>
 inlanders alsdan wrel aen de hand zouden sijn te houden. Aen Larentuka op Solor
-<fref ref="2"/> ,<lb/>
+<note mark="2">Onjuist, Larantuka ligt op Flores.<lb/>
+</note>
+,<lb/>
 haer hoofdplaets in die gewesten sijnde, is minder gelegen, behalven dat se dan<lb/>
-aldaer ook niet souden konnen subsisteren.</para>
+aldaer ook niet souden konnen subsisteren.
+</para>
 <remark>«Zending naar Palembang, vgl.
 <ref>Daghregisters 26 april, p. 91 </ref>— 92: berichten<lb/>
 uit Djambi<lb/>
@@ -71,13 +80,6 @@ vandaar, ibid., 28 mei, p. 140
 Siam, ibid. 12 april, p. 73 — 75 en 13 juni, p. 181, 183
 — 184; zending derwaarts,<lb/>
 ibid. 26 april, p. 91, 18 juni, p. 190, 22 juni, p. 196; gegevens over Cambodja, schip</remark>
-
-<fnote ref="1">De hier volgende passus is in geheimschrift, in Nederland is de betekenis er boven<lb/>
-geschreven.<lb/>
-</fnote>
-<fnote ref="2">Onjuist, Larantuka ligt op Flores.<lb/>
-</fnote>
-
 <pb n="373" tpl="1" vol="03" facs="3_125_0373"/>
 <remark>en berichten van Tonkin
 , ibid. 7 maart
@@ -98,7 +100,8 @@ is te vreesen, dat de vijand afgelopen ende onder de ingesetenen nae sijn bloetg
 aert al eenige massacre gedaen sal hebben, of ’t en waere deselve ingesetenen<lb/>
 door d’een off d’ander kloeck Nederlander bij malcander geruckt ende deselve<lb/>
 het hooft geboden hadden, gelijck veele meenen, dat haer uyt de bosschen ende<lb/>
-ruygten seer wel om doen soude wesen.</para>
+ruygten seer wel om doen soude wesen.
+</para>
 <remark>«Vervolg gegevens aanval van Coxinga<lb/>
 »</remark>
 <para>
@@ -124,24 +127,23 @@ ende van dewelcke het eene gesprongen is (sonderdat wij evenwel tot noch toe,<lb
 voor sooveel het Japanse vaerwaeter aengaet, daertoe ordre hebben gegeven) om<lb/>
 te onderstaen, hoe dat werck bij haer genomen sal worden ende ons daernae te<lb/>
 reguleren, met hoope dat se de billijckheyt van de saeck sullen insien.
-<fref ref="1"/>  Doch of<lb/>
+<note mark="1">De volgende passus is weer in geheimschrift, de betekenis is er in Nederland boven<lb/>
+geschreven.<lb/>
+</note>
+Doch of<lb/>
 het contrarie mogte gebeuren ende dat en
-<fref ref="2"/>  ons wilden verbieden tegen alle<lb/>
+<note mark="2">Verkeerd geïnterpreteerd, hier staat in geheimschrift : sij.<lb/>
+</note>
+ons wilden verbieden tegen alle<lb/>
 recht en reden onsen gem. zoo onrechtveerdigen vijand in ’t Japanse vaerwater<lb/>
 te beschadigen, zoo verzoecken wij, dat ons met den eersten daerop 300
-<fref ref="3"/>  ordre<lb/>
-
-<fnote ref="1">De volgende passus is weer in geheimschrift, de betekenis is er in Nederland boven<lb/>
-geschreven.<lb/>
-</fnote>
-<fnote ref="2">Verkeerd geïnterpreteerd, hier staat in geheimschrift : sij.<lb/>
-</fnote>
-<fnote ref="3">De betekenis is niet boven dit getal geschreven ; ze is : Uw.<lb/>
-</fnote>
-
+<note mark="3">De betekenis is niet boven dit getal geschreven ; ze is : Uw.<lb/>
+</note>
+ordre<lb/>
 <pb n="374" tpl="1" vol="03" facs="3_125_0374"/>
 mag toekomen, hoe ons in zulken gevalle zullen dragen, alsoo het een poinct van<lb/>
-gewigte is, daer wij onse bekommering grootelijx over hebben.</para>
+gewigte is, daer wij onse bekommering grootelijx over hebben.
+</para>
 <remark>«Schepen en berichten uit Arakan ,
 <ref>Daghregisters 9 maart , p. 55 </ref>— 57, 16 mei,<lb/>
 p. 114

@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="author" value="Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens, Coyett"/>
 <meta key="authorFull" value="Dirk van Cloon, Wijbrant Blom, Joan Everard van der Schuer, Michiel Westpalm, Joan François de Witte, Van Schooten, Herman van Bayen, Adriaan Oostwalt, Adriaan Valckenier, Joan Paul Schaghen, Abraham Patras, Joannes Thedens, Frederik Julius Coyett"/>
 <meta key="day" value="8"/>
@@ -13,6 +14,7 @@
 <meta key="year" value="1732"/>
 <meta key="pid" value=""/>
 <meta key="status" value=""/>
+
 
 </header>
 <body>
@@ -39,7 +41,11 @@ In een brief van 11 september 1732 uit Ternate wordt de sengadji van Patani besc
 leider te zijn van de strooptochten van de Papuase zeerovers en sluikhandel te drijven met de<lb/>
 »</remark>
 <para>
-- swervende Cerammers, Badjes<fref ref="1"/>  en Maccassaren die desen jaere als weleer met<lb/>
+- swervende Cerammers, Badjes
+<note mark="1">Badjes, Badjos of Orang Laut, een voornamelijk op zee levend en door de gehele archipel rondtrekkend<lb/>
+volk.<lb/>
+</note>
+en Maccassaren die desen jaere als weleer met<lb/>
 een groot getal prauwen en omtrent 300 mannen sterk ettelijke tijd bevorens hier en<lb/>
 elders in het vaerwater waren vernomen, die ook tot Patanij soude zijn aangeweest, en<lb/>
 vermeend werden deselve te wesen, die bevorens omtrent Xulla Bessij, Ouba en naderhand<lb/>
@@ -49,7 +55,8 @@ in 1 zergeant, 1 corporaal en 6 schildergasten, sonder de minste reden daertoe<l
 hebben, door een onwederstaanbaar getal zijner onderdanen met de doodsdrijgende bewegingen<lb/>
 te doen overvallen, binden en van daer vervoeren na het naastgelegen territoir<lb/>
 van den koning van Ternaten. Item ’s E. Compagnie’s buscruyt, loot en andere voorhanden<lb/>
-sijnde wijnige effecten doen wegnemen.</para>
+sijnde wijnige effecten doen wegnemen.
+</para>
 <remark>«De sengadji verklaarde<lb/>
 »</remark>
 <para>
@@ -63,12 +70,8 @@ bevoorens volgens zijn zeggen geschiet was, soude hij sig op die concessie nog e
 beraden, met verdere expressie dat’er op Java een stuyver voor een notemuschaet wierd<lb/>
 betaald daer hij van d’E. Compagnie voor de extirpatie nietwes genoot, sonder op de<lb/>
 tegenwerping van geciteerde Arij Sell, dat Tidoors koning sijnen heer en meester de<lb/>
-daervoor bedonge redemptiepenningen trekt, te willen antwoorden.</para>
-
-<fnote ref="1">Badjes, Badjos of Orang Laut, een voornamelijk op zee levend en door de gehele archipel rondtrekkend<lb/>
-volk.<lb/>
-</fnote>
-
+daervoor bedonge redemptiepenningen trekt, te willen antwoorden.
+</para>
 <pb n="426" tpl="2" vol="09" facs="205_426"/>
 <remark>«Het hof van Tidore weigert iets tegen de sengadji te ondernemen. Hierop weigerde<lb/>
 op 18 juli de bevolking van Maba verder aan de extirpatie mee te werken. Het is zelfs zo,<lb/>
@@ -94,11 +97,13 @@ waerna de onse dien sig buyten die actie hadden gehouden, de overige effecten aa
 voormelte Tidoreese gecommitteerdens overgave, sooals s’lagen onder haere opsigt, item<lb/>
 voor reeckening en verandwoording van haeren heer en meester den koning van Tidore<lb/>
 bestaande buyten eenige kleenigheeden in 1285 kannen aracq apij, 9340 lb rijs, 5270 lb<lb/>
-cadjang, 375 lb vleesch met 803 lb speek.</para>
+cadjang, 375 lb vleesch met 803 lb speek.
+</para>
 <para>Middelerwijlen heeft men eenige tijd daaraan tot Ternaten berigt ingekregen, dat<lb/>
 die goederen drie dagen na dies overgave door 6 a zevendhondert Mabaresen waren<lb/>
 geroofd onder voorgeve datse onder de voormelte extirpatie aldaar door de onse ware<lb/>
-gedwongen geweest speek te kooken, te eeten.</para>
+gedwongen geweest speek te kooken, te eeten.
+</para>
 <remark>«Om verdere uitbreiding van het verzet tegen te gaan verzoekt men om 500 Europese<lb/>
 en inlandse soldaten<lb/>
 »</remark>

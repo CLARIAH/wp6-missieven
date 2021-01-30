@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="author" value="Van Imhoff, Cluysenaar, Overbeek, Mossel, Van Broyel, Van der Waeyen, Van der Spar, Huyghens"/>
 <meta key="authorFull" value="Gustaaf Willem van Imhoff, Joannes Mattheus Cluysenaar, Daniël Overbeek, Jacob Mossel, Arend van Broyel, Jacob van der Waeyen, Jurgen van der Spar, Jan Huyghens"/>
 <meta key="day" value="29"/>
@@ -13,6 +14,7 @@
 <meta key="year" value="1750"/>
 <meta key="pid" value=""/>
 <meta key="status" value=""/>
+
 
 </header>
 <body>
@@ -29,7 +31,8 @@ thuisreis aanvaard. Met de Kievitsheuvel en Sloterdijk vormen deze schepen het e
 van het retour van 1750/51. Ze vervoeren voor f 925.541 aan thee op vracht en voor<lb/>
 f 1.092. 717 aan andere goederen,<lb/>
 »</remark>
-<para>- voor de respective kameren verdeelt als volgt:</para>
+<para>- voor de respective kameren verdeelt als volgt:
+</para>
 <table n="207">
 <row n="207" row="1">
 <cell n="207" row="1" col="1">150 voet Akerendam voor Amsterdam</cell>
@@ -116,7 +119,8 @@ volgen sal in januarij nog soude moeten versonden werden het schip d’ Admiraal
 Ruyter voor Amsterdam, één schip voor Zeeland, één voor de Maas, en één voor ’t<lb/>
 Noorderquartier, so men maar buyten de specerijen retouren genoeg aan de hand krijgt<lb/>
 om deselve te volladen, en vooral peper en coffij, waarvan wij bijna geheel gedestitueert<lb/>
-zijn.</para>
+zijn.
+</para>
 <para>Wij hebben ingevolge U Edele Hoogagtb. dispositie over den van Cabo de Goede<lb/>
 Hoop afgelosten gouverneur en raad extraordinaris Swellengrebel Zijn E. het commando<lb/>
 opgedragen over de retourvloot van dit jaar, dog insoverre er na zijn vertrek, dat<lb/>
@@ -128,35 +132,47 @@ teffens ook de survivance van de vlag gegeven in cas den heer Swellengrebel iets
 mogte overgekomen zijn; hebbende den repatrieerende ondercoopman Nagenius<lb/>
 het fiscalaat over de vloot g’obtineerd, dog de benoeming van een secretaris in<lb/>
 de qualiteyt van onderkoopman volgens gebruyk hebben wij aan den heer admiraal<lb/>
-Swellengrebel gedefereert gelaten.</para>
+Swellengrebel gedefereert gelaten.
+</para>
 <para>
 Voorts diend dese nog ten geleyde eener rescriptie op de memorie door de Engelse<lb/>
 compagnie aan het hoff van London gepresenteerd die wij aan U Edele Hoogagtb.<lb/>
 hebben ingerigt, opdat deselve bij het dienen van berigt aan Haar Hoogmogende<lb/>
 daaruyt souden kunnen nemen wat zij denken het convenabelst te zijn. Wij hadden onze<lb/>
 reciproque klagten nog wel kunnen extendeeren tot diverse andere poincten, gelijk<lb/>
-
 <pb n="863" tpl="2" vol="11" facs="232_863"/>
 onder anderen dat men onse natie door toedoen der Engelsche van Atchin kom te weiren,<lb/>
 dat den Engelschen commandeur Lyel met het oorlogschip The Vigilant en een<lb/>
 oorlogschaloup The Swallow actueel in deze zeën van de eene plaats na de andere trekt<lb/>
 met twee chaloupen, The Porto Bello en The Hebby, die circa driehondert kisten amphioen<lb/>
-inhebben, maar over dit laatste wagt men nog nadere informatiën af.</para>
+inhebben, maar over dit laatste wagt men nog nadere informatiën af.
+</para>
 <remark>«De waarde van de retourlading van de acht schepen bedraagt
 ƒ 2.018.258. De lading<lb/>
 bestaat uit:<lb/>
 »</remark>
-<para>Cormandelse coopmanschappen</para>
-<para>80 pees baftas bruyn blaauw</para>
-<para>80 pees baftas gemeen gebleekt</para>
-<para>100 pees bethilles fijne smalle gebleekt</para>
-<para>300 pees bethilles Madrapasse</para>
-<para>100 pees bethilles suprafijn</para>
-<para>100 pees bethilles ijle gebleekte Indiase</para>
-<para>zoort</para>
-<para>500 pees bethilles Ternateries</para>
-<para>1600 pees bethilles neusdoeken met witte</para>
-<para>randen</para>
+<para>Cormandelse coopmanschappen
+</para>
+<para>80 pees baftas bruyn blaauw
+</para>
+<para>80 pees baftas gemeen gebleekt
+</para>
+<para>100 pees bethilles fijne smalle gebleekt
+</para>
+<para>300 pees bethilles Madrapasse
+</para>
+<para>100 pees bethilles suprafijn
+</para>
+<para>100 pees bethilles ijle gebleekte Indiase
+</para>
+<para>zoort
+</para>
+<para>500 pees bethilles Ternateries
+</para>
+<para>1600 pees bethilles neusdoeken met witte
+</para>
+<para>randen
+</para>
 <para>300 pees bethilles gebleekt met bloemen<lb/>
 200 pees bethilles gebleekt sonder bloemen<lb/>
 </para>
@@ -170,7 +186,8 @@ bestaat uit:<lb/>
 1720 pees guinees gemeen gebleekt<lb/>
 920 pees guinees gemeen ruw<lb/>
 40 pees guinees gebleekt oud ’s Compagnie<lb/>
-zoort</para>
+zoort
+</para>
 <para>400 pees gingam taffachelas<lb/>
 400 pees gingam drongam<lb/>
 100 pees gingam onderbroeks gestreepte<lb/>
@@ -353,90 +370,154 @@ De Cormandelse coopmanschappen belopen<lb/>
 <cell n="208" row="33" col="3">8</cell>
 </row>
 </table>
-<para>ƒ 150.287,10, 8</para>
-
+<para>ƒ 150.287,10, 8
+</para>
 <pb n="864" tpl="2" vol="11" facs="232_864"/>
-<para>Bengaalse coopmanschappen</para>
-<para>680 pees amirtjes</para>
-<para>100 pees baftas</para>
-<para>65 pees cassas de nadona</para>
-<para>200 pees cassas Bohaarse</para>
-<para>200 pees dherriabadijs</para>
-<para>1000 pees dongrijs</para>
-<para>520 pees gerrassen</para>
-<para>240 pees guinees lijwaat</para>
-<para>300 pees neusdoeken Kirmisse gemeen</para>
-<para>fijne</para>
+<para>Bengaalse coopmanschappen
+</para>
+<para>680 pees amirtjes
+</para>
+<para>100 pees baftas
+</para>
+<para>65 pees cassas de nadona
+</para>
+<para>200 pees cassas Bohaarse
+</para>
+<para>200 pees dherriabadijs
+</para>
+<para>1000 pees dongrijs
+</para>
+<para>520 pees gerrassen
+</para>
+<para>240 pees guinees lijwaat
+</para>
+<para>300 pees neusdoeken Kirmisse gemeen
+</para>
+<para>fijne
+</para>
 <para>200 pees roemaals gaarne fijne<lb/>
 70 pees roemaals bruyne fijne<lb/>
-480 pees lachorijs</para>
-<para>880 pees salempoeris gemeen gebleekt</para>
-<para>260 pees soesjes</para>
-<para>100 pees therindaans fijne</para>
-<para>698 pees tansjeebs de daatpoer</para>
-<para>720 pees zeyldoek gebleekt</para>
-<para>840 pees zeyldoek ruw</para>
-<para>93.727 lb. salpeter</para>
+480 pees lachorijs
+</para>
+<para>880 pees salempoeris gemeen gebleekt
+</para>
+<para>260 pees soesjes
+</para>
+<para>100 pees therindaans fijne
+</para>
+<para>698 pees tansjeebs de daatpoer
+</para>
+<para>720 pees zeyldoek gebleekt
+</para>
+<para>840 pees zeyldoek ruw
+</para>
+<para>93.727 lb. salpeter
+</para>
 <para>De Bengaalse coopmanschappen monteren<lb/>
 </para>
 <para>Souratse coopmanschappen<lb/>
-8000 pees kannekijns swarte</para>
+8000 pees kannekijns swarte
+</para>
 <para>Tutucorijnse coopmanschappen<lb/>
 330 pees salempoeris gemeen ruw ter<lb/>
-preuve</para>
+preuve
+</para>
 <para>Mallabaarse pondgoederen<lb/>
 600 lb. cardamom cabessa<lb/>
-94 lb. indigo</para>
-<para>De Mallabaarse pondgoederen bedragen</para>
+94 lb. indigo
+</para>
+<para>De Mallabaarse pondgoederen bedragen
+</para>
 <para>Persiaans pondgoed<lb/>
-1098 lb. Kirmans woll</para>
+1098 lb. Kirmans woll
+</para>
 <para>Chineese coopmanschappen<lb/>
 500 pees poisjes damasten van één couleur<lb/>
 </para>
 <para>100 pees poisjes damasten van twee couleurs<lb/>
 </para>
-<para>150 pees meubeldamasten</para>
-<para>100 pees poisjes sattijne gestreepte</para>
-<para>100 pees poisjes sattijnen</para>
-<para>200 pees gorgons effene</para>
-<para>100 pees gorgons met sattijne streepen</para>
-<para>200 pees Pekings met gecouleurde bou-</para>
-<para>quette 8-draats</para>
-<para>ƒ 4.459, -</para>
-<para>ƒ 688, 1, -</para>
-<para>/ 496, 8, -</para>
-<para>ƒ 2.874,19, 8</para>
-<para>ƒ 1.303,15, -</para>
-<para>ƒ 4.619, 8, -</para>
-<para>ƒ 3.390, -, 8</para>
-<para>ƒ 3.302, 8, 8</para>
-<para>ƒ 2.210, 2, -</para>
-<para>ƒ 1.358, 9, -</para>
-<para>/ 498,11, -</para>
-<para>/ 2.417,12, -</para>
-<para>ƒ 6.263, 3, -</para>
-<para>ƒ 4.168, 4, -</para>
-<para>ƒ 2.076,18, -</para>
-<para>ƒ 7.849, 8, -</para>
-<para>ƒ 5.128, 4, -</para>
-<para>ƒ 5.901,14, -</para>
-<para>ƒ 14.996, 6, 8</para>
-<para>ƒ 74.002,12, -</para>
-<para>ƒ 9.643, 7, 8</para>
-<para>ƒ 1.408,19, -</para>
-<para>ƒ 1.252,14, 8</para>
-<para>ƒ 60, 4, -</para>
-<para>ƒ 1.312,18, 8</para>
-<para>ƒ 900, 4, -</para>
-<para>ƒ 19.143, 9, 8</para>
-<para>ƒ 3.652,18, -</para>
-<para>ƒ 6.614,12, 8</para>
-<para>ƒ 3.564,18, -</para>
-<para>ƒ 3.582,14, -</para>
-<para>ƒ 6.390, 4, -</para>
-<para>ƒ 3.643,18, -</para>
-<para>ƒ 8.272, 8, -</para>
-
+<para>150 pees meubeldamasten
+</para>
+<para>100 pees poisjes sattijne gestreepte
+</para>
+<para>100 pees poisjes sattijnen
+</para>
+<para>200 pees gorgons effene
+</para>
+<para>100 pees gorgons met sattijne streepen
+</para>
+<para>200 pees Pekings met gecouleurde bou-
+</para>
+<para>quette 8-draats
+</para>
+<para>ƒ 4.459, -
+</para>
+<para>ƒ 688, 1, -
+</para>
+<para>/ 496, 8, -
+</para>
+<para>ƒ 2.874,19, 8
+</para>
+<para>ƒ 1.303,15, -
+</para>
+<para>ƒ 4.619, 8, -
+</para>
+<para>ƒ 3.390, -, 8
+</para>
+<para>ƒ 3.302, 8, 8
+</para>
+<para>ƒ 2.210, 2, -
+</para>
+<para>ƒ 1.358, 9, -
+</para>
+<para>/ 498,11, -
+</para>
+<para>/ 2.417,12, -
+</para>
+<para>ƒ 6.263, 3, -
+</para>
+<para>ƒ 4.168, 4, -
+</para>
+<para>ƒ 2.076,18, -
+</para>
+<para>ƒ 7.849, 8, -
+</para>
+<para>ƒ 5.128, 4, -
+</para>
+<para>ƒ 5.901,14, -
+</para>
+<para>ƒ 14.996, 6, 8
+</para>
+<para>ƒ 74.002,12, -
+</para>
+<para>ƒ 9.643, 7, 8
+</para>
+<para>ƒ 1.408,19, -
+</para>
+<para>ƒ 1.252,14, 8
+</para>
+<para>ƒ 60, 4, -
+</para>
+<para>ƒ 1.312,18, 8
+</para>
+<para>ƒ 900, 4, -
+</para>
+<para>ƒ 19.143, 9, 8
+</para>
+<para>ƒ 3.652,18, -
+</para>
+<para>ƒ 6.614,12, 8
+</para>
+<para>ƒ 3.564,18, -
+</para>
+<para>ƒ 3.582,14, -
+</para>
+<para>ƒ 6.390, 4, -
+</para>
+<para>ƒ 3.643,18, -
+</para>
+<para>ƒ 8.272, 8, -
+</para>
 <pb n="865" tpl="2" vol="11" facs="232_865"/>
 <table n="209">
 <row n="209" row="1">
@@ -681,8 +762,8 @@ preuve</para>
 </row>
 </table>
 <para>ƒ 101.271, 2,
--</para>
-
+-
+</para>
 <pb n="866" tpl="2" vol="11" facs="232_866"/>
 <table n="210">
 <row n="210" row="1">
@@ -801,38 +882,54 @@ preuve</para>
 <cell n="210" row="23" col="3">3,18, -</cell>
 </row>
 </table>
-
-<para>De Bataviase versaameling rendeert</para>
+<para>De Bataviase versaameling rendeert
+</para>
 <para>Het volgende als tot het rethour niet behoorende<lb/>
 werd hetselve hier eenlijk binneslinies<lb/>
-bekend gesteld, namentlijk:</para>
-<para>54.000 lb. klipsteenen ƒ -, -</para>
-<para>Van de equipagiewerff</para>
-<para>38 pees onbequaame ankers wege 88.344</para>
-<para><special>lb./-</special> -</para>
-<para>Uyt ’t ambagtsquartier</para>
-<para>3 pees aambeelden |</para>
-<para>60 pees dommekragten I</para>
+bekend gesteld, namentlijk:
+</para>
+<para>54.000 lb. klipsteenen ƒ -, -
+</para>
+<para>Van de equipagiewerff
+</para>
+<para>38 pees onbequaame ankers wege 88.344
+</para>
+<para><special>lb./-</special> -
+</para>
+<para>Uyt ’t ambagtsquartier
+</para>
+<para>3 pees aambeelden |
+</para>
+<para>60 pees dommekragten I
+</para>
 <para>20 pees bankschroeven /
-<super>we8en</super> 60.000 lb. ƒ</para>
-<para>4 pees speerhaken</para>
-<para>8 kassen snaphanen en pistoollopen /</para>
+<super>we8en</super> 60.000 lb. ƒ
+</para>
+<para>4 pees speerhaken
+</para>
+<para>8 kassen snaphanen en pistoollopen /
+</para>
 <para>Voor 2 percento Batavia’s ongelden op<lb/>
-ƒ1.978.684,14, -</para>
+ƒ1.978.684,14, -
+</para>
 <para><und>ƒ 1.639.858, -, 8</und><lb/>
-ƒ 1.978.684,14, -</para>
+ƒ 1.978.684,14, -
+</para>
 <para><und>ƒ 39.573,14, -</und><lb/>
-ƒ 2.018.258, 8, -</para>
-
+ƒ 2.018.258, 8, -
+</para>
 <pb n="867" tpl="2" vol="11" facs="232_867"/>
 <para>Nu volgt het bedragen van ieder bodems inlaadingh, namentlijk:<lb/>
-voor reekening der praesidiale kamer Amsterdam</para>
+voor reekening der praesidiale kamer Amsterdam
+</para>
 <para>het schip Akerendam<lb/>
 het schip d’ Liefde<lb/>
-het schip Kievitsheuvel</para>
+het schip Kievitsheuvel
+</para>
 <para>ƒ 267.953,18, 8<lb/>
 ƒ 348.987, -, -<lb/>
-ƒ 273.029, 9, -</para>
+ƒ 273.029, 9, -
+</para>
 <para>
 voor Zeeland<lb/>
 het schip Sloterdijk<lb/>
@@ -841,7 +938,8 @@ het schip de Bevalligheyt<lb/>
 voor Rotterdam<lb/>
 het schip Vosmaar<lb/>
 voor Hoorn<lb/>
-het schip de Jager</para>
+het schip de Jager
+</para>
 <para>
 voor Enckhuysen<lb/>
 het schip Immagonda ƒ 213.160, -, 8<lb/>
@@ -853,6 +951,7 @@ Sommeert als aan de ommesijde<lb/>
 ƒ 204.577,10, -<lb/>
 ƒ 232.845, 1, 8<lb/>
 ƒ 218.260, -, 8<lb/>
-/ 2.018.258, 8, -</para>
+/ 2.018.258, 8, -
+</para>
 </body>
 </teiTrim>

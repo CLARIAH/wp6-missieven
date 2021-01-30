@@ -1,5 +1,5 @@
 versionSrc: "2020-09-10"
-versionTf: "0.6"
+versionTf: "0.7"
 
 name: Generale Missiven
 title: Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
@@ -12,4 +12,5 @@ project: CLARIAH WP6 Use Case 1
 researcher: Lodewijk Petram
 converters: Sophie Arnoult, Jesse de Does (TEI), Dirk Roorda (Text-Fabric)
 sourceFormat: TEI
+descriptionTf: Original text, editorial text and footnotes form three different types of text
 

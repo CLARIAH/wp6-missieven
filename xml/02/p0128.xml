@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="128"/>
 <meta key="title" value="Van Diemen, Van der Lijn; Batavia, 8 januari 1641"/>
 <meta key="rawdate" value="8 januari 1641"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Antonio van Diemen, Cornelis van der Lijn"/>
 
+
 </header>
 <body>
 <pb n="128" tpl="1" vol="02" facs="2_112_0128"/>
@@ -25,7 +27,9 @@
 vertrokken<lb/>
 »</remark>
 <para>.... Voor Haerlems affscheyt
-<fref ref="1"/>  ende noch doende sijnde met de voorder<lb/>
+<note mark="1">Van Masulipatam.<lb/>
+</note>
+ende noch doende sijnde met de voorder<lb/>
 ontladingh van ’t Portugees scheepken, sijn tusschen den 20 ende 21en october van<lb/>
 een vehementen storm uyt den noordoost ende zuytoosten, die tot 23 bleeff<lb/>
 continueren, sulx aengetast, dat Haerlem éen ende Grijpskercken twee anckers<lb/>
@@ -34,9 +38,15 @@ d’Engelse Expeditie ende Hoopwel, ’t Deens jacht de Son met des sercheyls sc
 nae verlies van anckers, touwen ende boots aen ’t doorgaen ende in ’t uytterste<lb/>
 peryckel van te stranden geweest, gelijck oock ten selven tijde van de gelargeerde<lb/>
 Portugesen per thony1
-<fref ref="2"/>  nae SJ Thomé op ’t Petapolise riff seven persoonen<lb/>
+<note mark="2">Thony, klein vaartuigje, vaak van één boomstam gemaakt, gebruikt voor het lossen<lb/>
+van schepen ter Kust van Coromandel.<lb/>
+</note>
+nae SJ Thomé op ’t Petapolise riff seven persoonen<lb/>
 vergaen sijn, de reste van 53 aen lant verstroyt. De prinse
-<fref ref="3"/> , liggende voor een<lb/>
+<note mark="3">Zie voor dit prijsgemaakte schip
+<emph>Daghregisters,</emph> 29 nov. 1640, p. 103.<lb/>
+</note>
+, liggende voor een<lb/>
 ijsere ende twee sware houte anckers, doorgaende, is gestrandt, geborsten ende in<lb/>
 ’t welsant vastgeseth, sulx dat den radix China ende meer andere goederen nadt<lb/>
 geworden sijn, den spiaulter wellicht niet al sal connen geberght worden; is de<lb/>
@@ -54,7 +64,8 @@ althaercleeden, Tonkinse ende flos-sijde, muscus, die maer redelijck oordeelen,<
 schutsels ende ledicanten, mitsgaders wes meer voor Europa raer ende dienstigh<lb/>
 hebben g’oordeelt, wort U Ed. met Haerlem gesonden, onder andere vijff potten<lb/>
 geconfijte radix ende drie d.° gedistilleert water van groenen wortel China, dat bij<lb/>
-de Portugesen in estime ende voor den Vice-Rey gesonden is.</para>
+de Portugesen in estime ende voor den Vice-Rey gesonden is.
+</para>
 <remark>«Bericht van Suratte<lb/>
 »</remark>
 <para>
@@ -63,27 +74,21 @@ affgeleyt, wort den staet aldaer schaerser bevonden, als g’oppinieert ende den
 directeur Barent Pietersen heeft gerapporteert, gaende ’t bedragen der verloopen<lb/>
 rentes verre buyten gissingh, monterende f. 51 000, sulx dat de reeckening van<lb/>
 intrest debeth blijft 48 300 gulden, twelck op d’aenstaende cargasoenen gevonden<lb/>
-
-<fnote ref="1">Van Masulipatam.<lb/>
-</fnote>
-<fnote ref="2">Thony, klein vaartuigje, vaak van één boomstam gemaakt, gebruikt voor het lossen<lb/>
-van schepen ter Kust van Coromandel.<lb/>
-</fnote>
-<fnote ref="3">Zie voor dit prijsgemaakte schip
-<emph>Daghregisters,</emph> 29 nov. 1640, p. 103.<lb/>
-</fnote>
-
 <pb n="129" tpl="1" vol="02" facs="2_112_0129"/>
 off op ’t generael affgeschreven moet worden, ’t Sal een gewenschte saecke wesen,<lb/>
 wanneer dien handel buyten heffingh van penningen uytvoeren, de Compagnie<lb/>
-sal niet alleen groote verlichtingh, maer wij gerustheyt genieten.</para>
+sal niet alleen groote verlichtingh, maer wij gerustheyt genieten.
+</para>
 <para>De novo liepen op intrest in Amadabath a één percento 8000 ropias ende in<lb/>
 Suratte 70 000 mamoudijs, samen ongeveer 45 000 gulden. Daertegen waren naer<lb/>
 Agra geremitteert 50 000 ropias, item in Cambaya, Pattan
-<fref ref="1"/>  als Amadabath op<lb/>
+<note mark="1">Patan, stad in Guzeratte op 22°50/ N.B. en 72° 16' O.L.<lb/>
+</note>
+als Amadabath op<lb/>
 leveringh van sijde patoolen ende chindes uytgeseth 20 250 ropias. Item redelijcke<lb/>
 somme op leveringh van doecken ende schoone partij e segellacq tot verdraeghlijcken<lb/>
-prijse aengeslagen.</para>
+prijse aengeslagen.
+</para>
 <para>In voorraedt hadden in Amadabath 296 packen ofte 1189 man a 36 per<lb/>
 man indigo sirquees, welcke vertrouwen, op onse ordre in Parsia gedebitteert sal<lb/>
 sijn, item 70 packen indigo Biana; aen goede partije tot retour tegen anno aenstaende<lb/>
@@ -93,7 +98,8 @@ merckelijcke somme genootsaeckt sullen wesen te lichten, dat bij behouden overco
 van ’t Tayouanse secours affgedaen wort ende den intrest can sooveel niet<lb/>
 aendragen, als deselve goederen (wachtende, dat eygen middelen bequamen)<lb/>
 dierder souden moeten incoopen. Edoch anno aenstaende sal door Godes genade<lb/>
-tselve niet noodigh wesen, uytwijsende onse calcula in voorige missive.</para>
+tselve niet noodigh wesen, uytwijsende onse calcula in voorige missive.
+</para>
 <remark>«Financiële resultaten in Suratte , winst fl. 155139.10.5; handel der Engelsen<lb/>
 aldaar; Icomst van een schip van voor Malakka, vgl.
 <ref>Daghregisters 11 dec. 1640, p. 121-123, </ref>en
@@ -106,12 +112,19 @@ een caracque, een gallioen, een jacht, gemonteert met 18 stucken ende een carave
 den 8 ende 18en september, mitsgaders bevoorens in mey passato . . .<lb/>
 noch een ander caravelle onder de vlagge van den nieuwen Vice-Rey Conde Juan<lb/>
 da Silva Tello1
-<fref ref="2"/>  in Goa salvo aengelandt sij. Een ander gallioen ofte, soo geseyt<lb/>
+<note mark="2">Joao da Silva Tello de Menezes, conde de Aveiras, Onderkoning van Port. Indië van<lb/>
+1640 tot 1645, verklaarde zich na korte aarzeling voor den Braganza-Koning. In 1651 weer tot<lb/>
+Onderkoning benoemd, stierf hij op reis naar Goa.<lb/>
+</note>
+in Goa salvo aengelandt sij. Een ander gallioen ofte, soo geseyt<lb/>
 wort, patache is op de lenghte van Cabo de Boa Esperance van de vloote versteecken<lb/>
 ende noch achter. God geve, intrum onse aengetogen schepen ter gedestineerde<lb/>
 rende-vous verschijnen ende tselve vijants schip bemachtigen; d.° is,<lb/>
 soo ges. wort, gemant met 4 a 500 coppen, cloeck volck, den capiteyn, genaempt<lb/>
-Pedro d’Amede Cabral<fref ref="3"/> , voor desen capiteyn van Coutchin. Gemelte aengecomen<lb/>
+Pedro d’Amede Cabral
+<note mark="3">Pedro de Almeida Cabral is mij verder niet bekend.<lb/>
+</note>
+, voor desen capiteyn van Coutchin. Gemelte aengecomen<lb/>
 drie schepen hebben in Goa gebraght ongeveer 2200 coppen, soldaten ende<lb/>
 matroosen ende is over dit secours veel triumphe ende blijdschap in Goa geweest,<lb/>
 daertoe groote redenen hadden, want buyten tselve haren staet in India verlooren<lb/>
@@ -119,19 +132,9 @@ was, gelijck hun brieven . . . dicteren. Echter, geen nader secours becomende,<l
 sullen niet notabels verrichten, alsoo extraordinarie door d’oorlogen op Ceylon<lb/>
 ende elders van volck ontbloot sijn ende schrijft seker persoon uyt Goa nae<lb/>
 Malacca, den Vice-Rey aldaer met groote authoriteyt ofte podeer
-<fref ref="4"/>  van den<lb/>
-
-<fnote ref="1">Patan, stad in Guzeratte op 22°50/ N.B. en 72° 16' O.L.<lb/>
-</fnote>
-<fnote ref="2">Joao da Silva Tello de Menezes, conde de Aveiras, Onderkoning van Port. Indië van<lb/>
-1640 tot 1645, verklaarde zich na korte aarzeling voor den Braganza-Koning. In 1651 weer tot<lb/>
-Onderkoning benoemd, stierf hij op reis naar Goa.<lb/>
-</fnote>
-<fnote ref="3">Pedro de Almeida Cabral is mij verder niet bekend.<lb/>
-</fnote>
-<fnote ref="4">Podeer, port. poder, macht.<lb/>
-</fnote>
-
+<note mark="4">Podeer, port. poder, macht.<lb/>
+</note>
+van den<lb/>
 <pb n="130" tpl="1" vol="02" facs="2_112_0130"/>
 Coningh, edoch met weynigh geit ende cleene armada, aengelant was. Den vijandt<lb/>
 geeft voor ende hare brieven melden, dat in mey aenstaende andere vier ofte ses<lb/>
@@ -172,17 +175,15 @@ secondeerden) op d’Indische cust meester ter zee sijn, dat voorwaer in onse co
 groote veranderingh staet te baren. U Ed. examineren hare presente navale<lb/>
 macht in India, deselve met de equipagie, van desen jare herwaerts gedaen, vergrootende,<lb/>
 achtingh gevende,
-<fref ref="1"/>  9 ofte 10 groote schepen tot overvoeren van de<lb/>
+<note mark="1">Hier te verstaan : wij .<lb/>
+</note>
+9 ofte 10 groote schepen tot overvoeren van de<lb/>
 ordinarie vaderlantse retouren affsteecken moeten omme den meulen te doen<lb/>
 gaen, sult dan licht bevinden, hoe sober omme onsen vijandt ’t hooft te bieden<lb/>
 gestelt sijn; laeten ongemoveert progressen te poucheren ende omme U Ed. tselve<lb/>
 naeckter te verthoonen sullen hier specifice in ’t corte stellen, wat middelen<lb/>
 presentelijck hebbben, daermede Uwen grooten ommeslagh moeten waernemen<lb/>
 ende sijn, als te weten:<lb/>
-
-<fnote ref="1">Hier te verstaan : wij .<lb/>
-</fnote>
-
 <pb n="131" tpl="1" vol="02" facs="2_112_0131"/>
 1 oorloghschip Amboina voor Goa; Utrecht is aff, bijaldien éen è, 2 jaren in<lb/>
 Molucco dienst doet, sal veel wesen,<lb/>
@@ -204,10 +205,14 @@ Lieffde op Ceylon, mitsgaders Franicker nae Malacca; de custe van India<lb/>
 vereyscht vijff deser jachten, sulx dat allerwegen te cort comen,<lb/>
 20 fluyten ende noch 4 te verwachten, nevens ’t Spaensch gallioen ;<lb/>
 12 sijn der desen jare nae Siam, Cambodja, Tonkin, Tayouan ende Japan<lb/>
-g’employeert,</para>
-<para>2 in Palimbangh,</para>
-<para>2 op de Westkust van Sumatra nevens Grol,</para>
-<para>2 nae Coromandel versonden,</para>
+g’employeert,
+</para>
+<para>2 in Palimbangh,
+</para>
+<para>2 op de Westkust van Sumatra nevens Grol,
+</para>
+<para>2 nae Coromandel versonden,
+</para>
 <para>
 1 tot den handel van Mocha ende<lb/>
 1 Heemsté, jonghst uyt ’t patria gecomen, gaet nae Banda, welck quartier<lb/>
@@ -215,7 +220,8 @@ ende Amboina met de geretourneerde van Siam, Cambodja, Westcust etc.<lb/>
 versorght worden; de resterende cleene, soo hier opgesette jachten, als van<lb/>
 U Ed. becomen, meriteren geen specificatie, alsoo daer weynigh als omtrent<lb/>
 Malacca, Amboina ende ’t lossen als laden der groote schepen in Suratte<lb/>
-ende elders mede te verrichten sij.</para>
+ende elders mede te verrichten sij.
+</para>
 <remark>«Berichten uit Ceylon, vgl.
 <ref>Ceilon p. 67 </ref>en af gedrukt Bijlage IX, vgl.
 <ref>Zeemogend¬ </ref><ref>heid II p. 131</ref>; uit Siam, vgl.
@@ -238,12 +244,15 @@ meer U Ed. aengeschreven hebben, heeft ons der Engelsche plaetse ofte sulcke<lb/
 gelegentheyt, als ons best gevalt, gegundt, namentlijck aen de zuytzijde desriviers<lb/>
 tegenover de stadt ende bij gesegelde acte toestaen, dat sullen vermogen onse<lb/>
 huysingh te verseeckeren tegen de Portugesen, die van den Mattaram, dieven ende<lb/>
-
 <pb n="132" tpl="1" vol="02" facs="2_112_0132"/>
 wijders sijne ende onse vijanden met acht stucken groff canon, sulx dat genoeghsaem<lb/>
 accordeert, fortificatie in desselfs landt begrijpen op hope sijn rijck door ons<lb/>
 te versekeren, tsij tegen invasie des Mattarams, Bantam (daermede in oorlog is)<lb/>
-off Jamby<fref ref="1"/> . Edoch blijft te beduchten, dese residentie t’sijner tijt almede wel<lb/>
+off Jamby
+<note mark="1">Men vgl. hiervoor
+<emph>Corpus ,</emph> I, p. 348.<lb/>
+</note>
+. Edoch blijft te beduchten, dese residentie t’sijner tijt almede wel<lb/>
 onlust moght veroorsaken, weshalven die saecke wijsselijck sullen overleggen ende<lb/>
 bij alle middelen trachten dese negotie soo te dirigeren, dat, doenelijck sijnde, geen<lb/>
 parmanente residentie in Palimbangh nemen ende echter den peper becomen.<lb/>
@@ -253,18 +262,21 @@ gebraght met deffensive huysingh aldaer te bouwen onder pretext van Palimbanghs<
 beschermingh tegen oppressie van vijanden, ware soo vreempt niet, wat costen<lb/>
 spendeerden. Maer omme de negotie in loco te stabileren, den peper van daer met<lb/>
 cleeden ende realen te trecken is contrarie ’t welvaeren van Compagnies standt in<lb/>
-India ende met peryckel vermenght: exempel aen Benjarmassingh.</para>
+India ende met peryckel vermenght: exempel aen Benjarmassingh.
+</para>
 <para>Soury is met extraordinarie contentement uyt Palimbangh vertrocken,<lb/>
 hebbende veel eere ende faveur van den Coningh als de groote genoten. Bijaldien<lb/>
 Schagen bequaem ware geweest, den Coningh soude ons met een treffelijcken<lb/>
-oliphant hebben begroet, daer t’sijner tijt vaertuygh toe sullen bestellen.</para>
+oliphant hebben begroet, daer t’sijner tijt vaertuygh toe sullen bestellen.
+</para>
 <para>d’ Ambassadeurs van den Mattaram waren in Palimbangh met redelijcke<lb/>
 schenckagie verschenen ende oock magnifyckelijck na de wijse des lants ingehaelt.<lb/>
 Dese schenckagie is van den Mattaram gedaen in recompense van een Parsisch<lb/>
 paert, bij den Palimbanger van ons tot verreeringh becomen ende op ’t begeeren<lb/>
 van den Souchounangh na de stadt Mattaram gesonden, waeruyt evidentelijck<lb/>
 blijckt ’t respect, gemelten Souchounangh in Palimbangh is hebbende ende onse<lb/>
-Parsiaense paerden door andere maeckt te crijgen.</para>
+Parsiaense paerden door andere maeckt te crijgen.
+</para>
 <remark>«Schepen naar Thaiwan en Japan gezonden; berichten van daar, vgl. Daghregisters<lb/>
 <emph>6 dec. 1640, p. 110-120; contract met I-Jcican gesloten, vgl.</emph> Zeemogendheid//,<lb/>
 <folio>p. 308</folio>
@@ -289,30 +301,30 @@ gesonden, te calculeren tot den prijs, als de Chinesen vercocht hebben, daervan 
 notitie is gesonden, als wanneer bevinden op de Chinese coopmanschappen,<lb/>
 welckers incoop bedraeght 51 tonnen, t’advanceren 520 000 guldens, affgetrocken<lb/>
 voor de beschadighde goederen, per de Rijp ende Graft gebraght, 30 000, mits-<lb/>
-
-<fnote ref="1">Men vgl. hiervoor
-<emph>Corpus ,</emph> I, p. 348.<lb/>
-</fnote>
-
 <pb n="133" tpl="1" vol="02" facs="2_112_0133"/>
 a ders ’t verlies op de pelinghs ende gilems, sijnde 70 000 guldens; item op ’t<lb/>
 dubbel Tonkins cargasoen, welcke sijde boven 170 tayl niet halen sal, f. 280 000,<lb/>
 de Europese ende Bataviase waren 100 000 ende op de Siam- ende Cambodjase<lb/>
 cargasoenen 200 000 guldens ; sulx dat de Japanse winsten desen jaren niet hooger<lb/>
 derven begrooten als tot . f. 1 100000,<lb/>
-daer dan moet affgaen voor intrest, ongelden ende schenckagie, dat</para>
+daer dan moet affgaen voor intrest, ongelden ende schenckagie, dat
+</para>
 <para>
 niet minder sal wesen dan . f . 700 000,<lb/>
-sulx nae dese calcula de proffijten in Japan ongeveer sullen wesen f . 400 000.</para>
+sulx nae dese calcula de proffijten in Japan ongeveer sullen wesen f . 400 000.
+</para>
 <para>Wij hadden staet gemaeckt desen jare suyver in Japan geproffiteert te hebben<lb/>
 25 tonnen, dat nu 21 d.° ontschiet ende een grooten slagh sij, doch dit is cours van<lb/>
 negotie ende een misslagh, wij de landen vercroppen, twelck ten principalen<lb/>
 gesien heeft om te bethoonen, dat Japan emmer soowel als den Portugees dienen<lb/>
 connen; derwegen ons g’evertueert
-<fref ref="1"/> , edoch gelijck de saken nu uytvallen, is te<lb/>
+<note mark="1">G’evertueert, ons best gedaan, ons toegelegd op.<lb/>
+</note>
+, edoch gelijck de saken nu uytvallen, is te<lb/>
 grooten empleo gedaen ende sullen die negotie in toecomende (nu sien, waer den<lb/>
 Japander logeert), soodanigh reguleren, dat naer desen op capitael van 20 tonnen<lb/>
-meer advanceren, als voor dato op 40 d.° gedaen hebben.</para>
+meer advanceren, als voor dato op 40 d.° gedaen hebben.
+</para>
 <para>
 Volgens dese calculatie maken staet, in Japan alles vercocht sijnde, aen<lb/>
 capitael sullen hebben ongeveer . tonnen 73,<lb/>
@@ -321,8 +333,10 @@ goudt ende silver geretourneert 10 tonnen, samen . . . tonnen 33,<lb/>
 d’ongelden ende intrestpenningen . . . staen te bedragen<lb/>
 . tonnen 7, ^ tonnen 44,<lb/>
 nae Tonkin achten de novo niet uytsetten sullen boven tonnen 3,<lb/>
-nae Siam ende Cambodja schaers . tonnen 1,</para>
-<para>rest voor Tayouan buyten beswaernisse . tonnen 29.</para>
+nae Siam ende Cambodja schaers . tonnen 1,
+</para>
+<para>rest voor Tayouan buyten beswaernisse . tonnen 29.
+</para>
 <para>Dat vertrouwen, niet minder uytvallen sal ; oock wellicht niet veel meer ende,<lb/>
 gelijck de saken gebakent sien, desen jare aen Chinese waren uyt Tayouan voor<lb/>
 Japan niet boven de twintigh tonnen incoops gevoordert te werden, die ten<lb/>
@@ -342,18 +356,19 @@ dat wij voortaen de negotie buyten belastingh beter gereguleert waernemen ende<l
 . . . met matigh capitael meer voordeel dan met grooter empleo doen sullen. God<lb/>
 geve maer, Japan behouden ende met voordeel frequenteren mogen, daeraen . . .<lb/>
 niet twijffelen, vermits niet connen gelooven, wanneer hunne mandaten patientelijck<lb/>
-nacomen, ons Japan ontseggen sullen.</para>
-
-<fnote ref="1">G’evertueert, ons best gedaan, ons toegelegd op.<lb/>
-</fnote>
-
+nacomen, ons Japan ontseggen sullen.
+</para>
 <pb n="134" tpl="1" vol="02" facs="2_112_0134"/>
 <para>
 Sijn oock van gevoelen, meer werck van ons maecken, als uytterlijck laeten<lb/>
 blijcken ende de Nederlanders liever te vrund als tot vijand’ hebben. Wij verhopen,<lb/>
-het daertoe niet comen sal, maer ’t is seker, soo ons uytseggen <fref ref="1"/> , Japan<lb/>
+het daertoe niet comen sal, maer ’t is seker, soo ons uytseggen
+<note mark="1">Uytseggen, aanzeggen te moeten vertrekken.<lb/>
+</note>
+, Japan<lb/>
 straffe is naeckende ende inlantsen oorloge te verwachten heeft, twelck door ons in<lb/>
-dwangh wert gehouden, hoewel te moedigh sijn tselve te bekennen .</para>
+dwangh wert gehouden, hoewel te moedigh sijn tselve te bekennen .
+</para>
 <remark>«De Heren dienen op de Japanse eis te letten<lb/>
 »</remark>
 <para>’t Coper wort niet toegestaen uyt te voeren, is oock op 20 tayl ’t picol gesteygert,<lb/>
@@ -361,7 +376,8 @@ dat dier sij, wij eysschen 100 000 'ffi plaetcoper van U Ed. ; sal meer voordeel
 in Parsia ende Coromandel als contant renderen ende de landen dienst doen,<lb/>
 weshalven gelieft jaerlijckx 100 000 nae Batavia te senden ende wert U Ed.<lb/>
 vrundelijck ten dienste van de Compagnie versocht onse petitie (daer den Japansen<lb/>
-eysch bij g’annexeert is) in quantité ende qualité te voldoen.</para>
+eysch bij g’annexeert is) in quantité ende qualité te voldoen.
+</para>
 <remark>«Voortzetting berichten Thaiwan en Japan
 , vgl.
 <ref>Daghregisters 31 dec. 1640 , p. 158-159</ref>; opzending negotieboeken; te Batavia fl. 158023.2- meer uitgegeven dan<lb/>
@@ -376,17 +392,15 @@ in contra de generale ongelden, verliesen ende schaden ter zee /. 1 813 623. 3.1
 sulx dit jaer in India meer geproffiteert als gegasteert sij . . /.I 198 529.17. 6,<lb/>
 dat ten aensien van de voorige jaren dapper verscheelt. Wij hadden niet getwijffelt,<lb/>
 dit ware een jaer oyt diergelijcke
-<fref ref="2"/> , maer 1’home propose et Dieu dispose. Als dese<lb/>
+<note mark="2">Oyt diergelycke, zoals nooit te voren.<lb/>
+</note>
+, maer 1’home propose et Dieu dispose. Als dese<lb/>
 winsten ende subsidiën uyt Nederlandt tot de jongst aengewesen effecten gedaen<lb/>
 worden ende ’t retour, dat U Ed. becomen, gedefalcqueert, sal preuve geven,<lb/>
-d’Indische effecten . . . waerdigh blijven fl. 9 488 174.17.2.</para>
+d’Indische effecten . . . waerdigh blijven fl. 9 488 174.17.2.
+</para>
 <remark>«Opzending berichten van overledenen naar patria ; wissels op patria getrokken;<lb/>
 lading der schepen<lb/>
 »</remark>
-
-<fnote ref="1">Uytseggen, aanzeggen te moeten vertrekken.<lb/>
-</fnote>
-<fnote ref="2">Oyt diergelycke, zoals nooit te voren.<lb/>
-</fnote>
 </body>
 </teiTrim>

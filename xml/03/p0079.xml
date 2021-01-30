@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="79"/>
 <meta key="title" value="Maetsuycker, Hartsinck, Cunaeus, Verburch, Steur; Batavia, 18 juli 1656"/>
 <meta key="rawdate" value="18 juli 1656"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Carel Hartsinck, Joan Cunaeus, Nicolaes Verburch, Dirck Jansz Steur"/>
+
 
 </header>
 <body>
@@ -32,25 +34,38 @@ vergaai ter kust van Australië, vgl.
 <ref>Ambonse Historie, II, p. 98-99</ref>; vrede met Makassar, uitvoeriger in brief XII;<lb/>
 »</remark>
 <para>.... is den coopman Jan van Wesenbagen
-<fref ref="1"/> 
+<note mark="1">Jan van Wesenbagen kwam 1642 als assistent uit, 1645 onderkoopman, 1648 koopman,<lb/>
+1649 te Djambi, 1652 te Pipeli, 1655 te Makassar, 1657 commandeur voor Bantam, 1658<lb/>
+vrijburger, 1659 schepen, 1664 commissaris naar Indragiri en Palembang, daarop licentmeester,<lb/>
+1665 gezant naar Makassar, 1666 als commissaris voor de vrede tussen Temate en<lb/>
+Tidore naar de Molukken, 1668 ontvanger en sjahbandar te Batavia, gestorven nov. 1671.<lb/>
+</note>
 ... . daer met een prooper capitaeltje<lb/>
-overgelaaten niet sonder apparentie van een proffitabiler handel.</para>
+overgelaaten niet sonder apparentie van een proffitabiler handel.
+</para>
 <remark>«De Vlaming zal op de terugweg Solor aandoen; diverse gegevens, uitgebreider<lb/>
 vermeld in brief nr. XII<lb/>
 »</remark>
 <para>De nabab Mir Mamet Sahy souw nae ’t schrijven van den gouverneur Pit metten<lb/>
 Golcondasen Coninck verdraagen sijn ende in sijn voorige digniteyten blijven,<lb/>
 maer bij de naader advisen van Maslupatam wort de saecke noch in t wij ff el gestelt.<lb/>
-Ondertusschen deeden die verwerringen in de negotie gantsch geen goet.</para>
+Ondertusschen deeden die verwerringen in de negotie gantsch geen goet.
+</para>
 <remark>«Weinig berichten uit Ceylon, maar . . . .<lb/>
 »</remark>
 <para>.... de heere Gerard Huift
-<super>2 * <fref ref="2"/> </super>, eerste raet ende Directeur- Generael van India,<lb/>
+<super>2 *
+<note mark="2">Gerard Huift, van 1645 tot 1654 secretaris van Amsterdam, kwam daarop als Direc-<lb/>
+teur-Generaal uit en werd 14 aug. 1655 van Batavia naar Ceylon gezonden voor de belegering<lb/>
+van Colombo, waarbij hij 10 april 1656 sneuvelde.<lb/>
+</note>
+</super>, eerste raet ende Directeur- Generael van India,<lb/>
 op 10en april voorleeden, sijnde vier daagen na Amsterdams vertreck, met al te<lb/>
 grooten ijver, soo het schijnt, tot Comp.8 dienst, om de wercken te besichtigen<lb/>
 wat te na onder de muyren des vijants geadvanceert sijnde, met een musquetcogel<lb/>
 tot onser aller groot leetweesen in sijn borst getroffen ende daervan op de plaets<lb/>
-overleeden sij .</para>
+overleeden sij .
+</para>
 <remark>«Mislukte poging tot ontzet van Colombo en bestorming van bolwerk St. Jan,<lb/>
 vgl.
 <ref>Rijcklof, p. 55 </ref>»</remark>
@@ -59,23 +74,15 @@ vgl.
 voorhad haaren staet in India te herstellen, gelijck in Brasil heeft gedaen, deser<lb/>
 werelt sij overleeden, soo gesecht wort aen vergift, hem door sijne vijanden bestelt<lb/>
 ende is in sijn plaets weeder tot Vice-Rey ofte Gouverneur gestelt den geweesen ge-<lb/>
-
-<fnote ref="1">Jan van Wesenbagen kwam 1642 als assistent uit, 1645 onderkoopman, 1648 koopman,<lb/>
-1649 te Djambi, 1652 te Pipeli, 1655 te Makassar, 1657 commandeur voor Bantam, 1658<lb/>
-vrijburger, 1659 schepen, 1664 commissaris naar Indragiri en Palembang, daarop licentmeester,<lb/>
-1665 gezant naar Makassar, 1666 als commissaris voor de vrede tussen Temate en<lb/>
-Tidore naar de Molukken, 1668 ontvanger en sjahbandar te Batavia, gestorven nov. 1671.<lb/>
-</fnote>
-<fnote ref="2">Gerard Huift, van 1645 tot 1654 secretaris van Amsterdam, kwam daarop als Direc-<lb/>
- 
- teur-Generaal uit en werd 14 aug. 1655 van Batavia naar Ceylon gezonden voor de belegering<lb/>
- 
- van Colombo, waarbij hij 10 april 1656 sneuvelde.<lb/>
- </fnote>
-
 <pb n="80" tpl="1" vol="03" facs="3_125_0080"/>
 neral van Seylon, Manuel Massacarenhas Homen
-<fref ref="1"/> , die mette voorname persoonen<lb/>
+<note mark="1">Tegen Manuel Mascarenlias Homem waren, toen hij generaal op Ceylon waa, de<lb/>
+Portugese troepen in verzet gekomen; hij werd in 1655 voorlopig tot Gouv. Gen. gekozen;<lb/>
+toen uit Portugal bericht kwam, dat hij bij het eventuele overlijden van zijn voorganger met<lb/>
+twee anderen samen in commissie zou optreden, werd hij lid van die commissie en bleef dat tot<lb/>
+zijn dood op 25 sept. 1657.<lb/>
+</note>
+, die mette voorname persoonen<lb/>
 aldaer oock groote partijschappen heeft, waerdoor wel seditie mocht ontstaen,<lb/>
 gelijck hem voor deesen op Zeylon is wedervaaren. Een craeck ende galloen hebben<lb/>
 de Portugeesen dit jaer van Goa na Lixboa geretoerneert-, rijck gelaaden met<lb/>
@@ -84,7 +91,8 @@ daermet verscheyde aensienelijke luyden geboeyt overgesonden. Nae tselve<lb/>
 schrijven en soude geen zeevaarent volck in Goa te crijgen weesen om naa Zeylon<lb/>
 te vaaren uyt vreese van onse besettinge, soodat ganschelijck verhoopen, dat naa<lb/>
 de
-.... 22 fregats geen naader secoers afgesonden sal sijn.</para>
+.... 22 fregats geen naader secoers afgesonden sal sijn.
+</para>
 <remark>«Berichten van Suratte, waar de Tortelduyff 28 sept. van Mokka is gekomen<lb/>
 met cargasoen van f. 104811
 , wat slechts f. 11558 winst betekent; berichten uit Thaiwan).<lb/>
@@ -101,7 +109,8 @@ en ’t ander heeft vergroot. Het rijsgewas op Formosa was wel geslaecht ende de
 suykerteelt noch beeter, soodat groote quantiteyt te verwachten hebben ende<lb/>
 ordre is gegeeven sooveel naa China te laaten voeren, als de coopluyden sullen begeeren,<lb/>
 midts betalende den gestelden thol, alsoo den suyker in Europa jegenwoordigh<lb/>
-cleyn voordeel geeft.</para>
+cleyn voordeel geeft.
+</para>
 <remark>«Schepen met lading van f. 470466 naar Thaiwan gezonden; Caesar treedt op<lb/>
 last van Heren XV II af, Coyet volgt hem als president op; naar Japan is lading van<lb/>
 f. 823701 gezonden; Wagenaer volgt er Boucheljon op; vracht van f. 184164.19.15<lb/>
@@ -109,27 +118,20 @@ naar Tonkin gezonden<lb/>
 »</remark>
 <para>.... copie van een briefken, door voorsz. gesanten Pieter de Goyer ende<lb/>
 Jacob Keyser den 25en october daertevooren uyt Cantoun aen hem
-<fref ref="2"/>  gesonden,<lb/>
+<note mark="2">NI. Hendrick Leverey, nog in China gevangen.<lb/>
+</note>
+gesonden,<lb/>
 waerin deselve adviseerden, dat hij, Leverey, met sijn geselschap door ordre der<lb/>
 Tartarische Ondercooningen sonder eenigh randtsoen gelargeert ende derwaerts<lb/>
 geschickt soude worden, voegende ten laetsten deese woorden daerbij : wij hebben<lb/>
 tot heden alle doenelijeke middelen aengewent om ul. in weederantwoort den goeden<lb/>
-toestant van de E. Comp.e alhier te doen verwittigen.</para>
+toestant van de E. Comp.e alhier te doen verwittigen.
+</para>
 <remark>«Oorlog met Bantam uitgebroken<lb/>
 »</remark>
 <para>
 .... hebbende eerst omtrent Bantam twee onser vrije luyden vaerthuygen<lb/>
 overrompelt ende het volck vermoort ende nu sedert den 8en deser maendt haer<lb/>
-
-<fnote ref="1">Tegen Manuel Mascarenlias Homem waren, toen hij generaal op Ceylon waa, de<lb/>
-Portugese troepen in verzet gekomen; hij werd in 1655 voorlopig tot Gouv. Gen. gekozen;<lb/>
-toen uit Portugal bericht kwam, dat hij bij het eventuele overlijden van zijn voorganger met<lb/>
-twee anderen samen in commissie zou optreden, werd hij lid van die commissie en bleef dat tot<lb/>
-zijn dood op 25 sept. 1657.<lb/>
-</fnote>
-<fnote ref="2">NI. Hendrick Leverey, nog in China gevangen.<lb/>
-</fnote>
-
 <pb n="81" tpl="1" vol="03" facs="3_125_0081"/>
 soo te waater als te lande rontom Batavia verthoont, met moorden, branden endo<lb/>
 rooven alle schaade doende, die haer moogelijck is, dat een ellendigh vluchten der<lb/>
@@ -153,10 +155,15 @@ ende sijn rechtevoort besich de rivier van Anchol meede met een diergelijck<lb/>
 werck te verstercken midtsgaaders op de groote cruyswegh bij de waaterplaets<lb/>
 een schans met vier bolwercken te leggen ende meer andere wercken om, is ’t<lb/>
 doenel., daermeede te beletten, dat den vijandt niet ten eersten onder de wallen<lb/>
-van de stadt en advanceere <fref ref="1"/>  ende, soo den Sousouhounangh meede afcomt, gelijck<lb/>
+van de stadt en advanceere
+<note mark="1">Voor deze versterkingen zie men
+<emph>Oud Batavia,</emph> § 238-239.<lb/>
+</note>
+ende, soo den Sousouhounangh meede afcomt, gelijck<lb/>
 vreesen, dat in corten doen sal of tenwaare door de groote sterfte, die in sijn<lb/>
 landt is, wierde verhindert, soo sullen practiseeren, of niet doenelijck en sij de landen<lb/>
-rondom de stadt onder waater te setten, daer meenen cans toe te sijn.</para>
+rondom de stadt onder waater te setten, daer meenen cans toe te sijn.
+</para>
 <remark>«Er is voldoende garnizoen en er liggen 17 schepen voor de stad
 , maar te weinig<lb/>
 kleine vaartuigen ; van de schepen
@@ -176,12 +183,8 @@ al weeten uyt te geraecken. Tot Japara blijft onse residentie noch continueren,<
 doch met weynigh volck ende geen bijsonder capitael, sijnde de comptanten door<lb/>
 de passeerende scheepen bedecktelijck gelicht ende wensten, dat het volck meede<lb/>
 van daer was, gelijck die tot Bantam haer bij nacht hebben geretireert, alsoo<lb/>
-haer leeven niet langer seecker waaren.</para>
-
-<fnote ref="1">Voor deze versterkingen zie men
-<emph>Oud Batavia,</emph> § 238-239.<lb/>
-</fnote>
-
+haer leeven niet langer seecker waaren.
+</para>
 <pb n="82" tpl="1" vol="03" facs="3_125_0082"/>
 <remark>«De Sultan heeft geen brief willen ontvangen<lb/>
 »</remark>
@@ -199,7 +202,8 @@ naaderhandt van daer na Cormandel is verseylt. Het Deens jacht Fredericus is<lb/
 dit jaer meede weeder tot Bantam geweest met partij e lijwaaten ende om haer<lb/>
 schulden, die verleeden jaer daer hebben laaten staen, te innen, maer sijn meede<lb/>
 soo slecht bejegent, dat sonder afscheyt te neemen weeder naa Trangebaare sijn<lb/>
-vertrocken.</para>
+vertrocken.
+</para>
 <remark>«Andere Engelse jachten in Zuid- Azië; Hartzinck wordt Directeur -Generaal<lb/>
 op f. 500
 + 100 realen kostgeld p.m.; vaststelling van muntkoersen, vgl.
@@ -215,7 +219,8 @@ Perzië<lb/>
 verleeden jaer ontfangen, noch 75 carga teegen danck opgedrongen ende doen<lb/>
 aenseggen, dat de Comp.e jaerlijckx de gecontracteerde quantiteyt sal gehouden<lb/>
 weesen te ontfangen, doch de ... . coopman hadt echter hoop, dat hetselve met<lb/>
-een goede schenckagie aen de Cooninck wel af te bidden sal sijn.</para>
+een goede schenckagie aen de Cooninck wel af te bidden sal sijn.
+</para>
 <remark>«Berichten uit Wingurla:<lb/>
 »</remark>
 <para>In Goa was groote sterfte onder het volck ende creegen de soldaten geen betalingh,<lb/>
@@ -224,13 +229,14 @@ ende de ingeseetenen veel overlast doende, sonderdat daerover werden<lb/>
 gecorrigeert. Van nieuw secoers naa Seylon uyt te maecken wierdt noch al gerucht,<lb/>
 maer onseeker ende dewijl het mouson op ’t eynde liep om de cust van India<lb/>
 te bevaaren, soo verhoopen wij gantsch, dat hetselve niet en sal sijn gesonden.<lb/>
-Comp.8 debiteurs in Wingurla, Narsanna ende Kitsanna Wey <fref ref="1"/> , hebben op de<lb/>
+Comp.8 debiteurs in Wingurla, Narsanna ende Kitsanna Wey
+<note mark="1">Zie voor de met deze kooplieden gemaakte afspraak
+<emph>Rijcklof,</emph> p. 104.<lb/>
+</note>
+, hebben op de<lb/>
 coopmanschappen, haer verleeden saysoen toegesonden, wederom 5 ten hondert<lb/>
 van haare schuit afgeleyt ende op de specereyen 12 ten hondert. De residentie in<lb/>
-Wingurla blijft jegenwoordigh noch met 17 gegagieerde mannen beset.</para>
-
-<fnote ref="1">Zie voor de met deze kooplieden gemaakte afspraak
-<emph>Rijcklof,</emph> p. 104.<lb/>
-</fnote>
+Wingurla blijft jegenwoordigh noch met 17 gegagieerde mannen beset.
+</para>
 </body>
 </teiTrim>

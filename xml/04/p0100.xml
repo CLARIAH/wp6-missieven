@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="100"/>
 <meta key="title" value="Maetsuycker, Van Goens, Pit, Overtwater, Speelman, Ranst, Van Hoorn, Abbema; Batavia, 15 februari 1676"/>
 <meta key="rawdate" value="15 februari 1676"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Ryckloff van Goens, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Constantin Ranst, Pieter van Hoorn, Sibrant Abbema"/>
+
 
 </header>
 <body>
@@ -35,23 +37,26 @@ voorige practijcq en gewoonte nu selffs met ernst schijnen te nodigen. Twelck ni
 geschiet uyt eenige begeerte ende affectie tot de blauwoogige Europeërs, daar onse<lb/>
 natie bij de Chinesen voor verdagt is, maar uyt noot ende inclinatie, als voorseyt,<lb/>
 om haar selffs tegen den gevreesden Tartar te verdeedigen en hen van de tollen en<lb/>
-incomsten des handels te dienen.</para>
+incomsten des handels te dienen.
+</para>
 <para>Den eysch, die gedaan werd van 5
-<emph>k</emph> 6 catty Mosco visch glas <fref ref="1"/>  voor den<lb/>
+<emph>k</emph> 6 catty Mosco visch glas
+<note mark="1">Moscovisch glas of Mariaglas, een soort gipsspaath, die gebruikt wordt voor vensters.<lb/>
+</note>
+voor den<lb/>
 geiriteerden rijcxraat Minosamme, sullen wij van hier dese maal connen voldoen,<lb/>
 te wenschen wesende, dat wij de gunste van dien vermogenden heer weder connen<lb/>
-herwinnen.</para>
+herwinnen.
+</para>
 <para>
 De Tayoanse Chinesen - in dat rijck
-<fref ref="2"/>  wat meer dan de andere (van<lb/>
+<note mark="2">NI. Japan.<lb/>
+</note>
+wat meer dan de andere (van<lb/>
 China overcomende) ontsien, dogh echter dese natie soowel als de onse vrijelijck in<lb/>
-haren handel met het waarderen der coopmanschappen gequelt werden.</para>
+haren handel met het waarderen der coopmanschappen gequelt werden.
+</para>
 <remark>«Grotere cargasoenen voor Japan overwogen<lb/>
 »</remark>
-
-<fnote ref="1">Moscovisch glas of Mariaglas, een soort gipsspaath, die gebruikt wordt voor vensters.<lb/>
-</fnote>
-<fnote ref="2">NI. Japan.<lb/>
-</fnote>
 </body>
 </teiTrim>

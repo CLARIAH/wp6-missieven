@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="919"/>
 <meta key="title" value="Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn, Abbema; Batavia, 8 oktober 1674"/>
 <meta key="rawdate" value="8 oktober 1674"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan Maetsuycker, Nicolaes Verburch, Laurens Pit, Pieter Overtwater, Cornelis Speelman, Pieter van Hoorn, Sibrant Abbema"/>
+
 
 </header>
 <body>
@@ -36,14 +38,21 @@ Holsteyn op Sumbawa slaagde slecht,<lb/>
 aldaer gevonden de uytgeweke en tesaam gerotte Macassaren onder Dain Mangappa,<lb/>
 broeder des Conincx van Tello, ende Maparoeba, zone van den Conink van<lb/>
 Biema, die hun in de negrie Oetan
-<fref ref="1"/>  6 mijlen bewesten de baay daer nedergeslagen<lb/>
+<note mark="1">Utan, dorp tor noordkust van Sumbawa op 117°8/ O.L.<lb/>
+</note>
+6 mijlen bewesten de baay daer nedergeslagen<lb/>
 hadden en was Crain Glisson, eene van de sonen des Conincx van Macassar, met<lb/>
 ongeveer 70 hunner vaertuygen ten dienste van den Sambaauwer vertrocken naer<lb/>
 de negrij Ampoan
-<fref ref="2"/> , bogtwaert in gelegen, om deselve weder te herstellen onder<lb/>
+<note mark="2">Ampoan was blijkbaar een aan de Salehbaai gelegen plaats, mij is ze niet nader<lb/>
+bekend.<lb/>
+</note>
+, bogtwaert in gelegen, om deselve weder te herstellen onder<lb/>
 gehoorsaemheyt, also se niet lang tevooren afgevallen en aen de Biemanese zijde<lb/>
 overgeslagen
-<fref ref="3"/>  ware, hebbende het onstumig weder en ’t gevaer van de lager wal<lb/>
+<note mark="3">Overgeslagen, overgegaan.<lb/>
+</note>
+ware, hebbende het onstumig weder en ’t gevaer van de lager wal<lb/>
 in dat zaisoen van ’t jaer niet toegelaten daer iets anders te verregten als den<lb/>
 Coninc ende de regeringe van Sambaauwa te doen insinueren, ten eynde hij dat<lb/>
 wederhoorig volc van zig afdoen, uyt zijn gebiet ontzeggen en voort meteen hem<lb/>
@@ -55,7 +64,8 @@ was aenbevolen, is hem dat misluct, wel ten principale veroorsaect door onversta
 en versuym van den schipper op Saxenburg, denwelcke tegen de expresse ordre<lb/>
 en recommandatie van den capitain snagts, naerdat sij savonts voorgaets van<lb/>
 Biema gecomen waren, het so verre tzee liet overstaen, dat se des anderen daags de<lb/>
-bay niet weder bezeylen conden.</para>
+bay niet weder bezeylen conden.
+</para>
 <remark>«Men kwam op Buton terecht; de schipper is door de Raad van Justitie voor 18<lb/>
 maanden gesuspendeerd en beboet; contract met Sumbawa,
 <ref>Corpus II, </ref>nr. CCCXLV1;<lb/>
@@ -66,27 +76,24 @@ Holsteyn is van M akassar weer derwaarts gezonden
 Blijvende Cronron langh quynen aen sijne quade ziecte, die hem langs hoe<lb/>
 meer onbequaein maeckte zigh selven te helpen, sonder daarom nogtans van zijn<lb/>
 quade natuere te veranderen, continuerende de Mandaresen te voeden in hare<lb/>
-
-<fnote ref="1">Utan, dorp tor noordkust van Sumbawa op 117°8/ O.L.<lb/>
-</fnote>
-<fnote ref="2">Ampoan was blijkbaar een aan de Salehbaai gelegen plaats, mij is ze niet nader<lb/>
-bekend.<lb/>
-</fnote>
-<fnote ref="3">Overgeslagen, overgegaan.<lb/>
-</fnote>
-
 <pb n="920" tpl="1" vol="03" facs="3_125_0920"/>
 hardneckigheyt en daerom lag het voornemen om deselve eens weder opnieuw wat<lb/>
-slagen te geven, waertoe Radja Palacca sig al begonde te prepareren.</para>
+slagen te geven, waertoe Radja Palacca sig al begonde te prepareren.
+</para>
 <para>Blijvende de bondgenoten nog even ijverig aen den aerbeyt van de fortificatiën,<lb/>
 sodat de zuyder landpunct Amboina
-<fref ref="1"/>  heel voltooyt, de poort opgemaect<lb/>
+<note mark="1">Men zie voor Punt Amboina en voor Mandarsjah de plattegrond, bij
+<emph>Valentijn</emph> ,<lb/>
+Makassar, p. 36, het zijn resp. de zuidooster- en de noordoosterpunt van het kasteel Rotterdam.
+</note>
+heel voltooyt, de poort opgemaect<lb/>
 ende de guardijn aen de lantzijde van Amboina tot het noorder bolwerk Mandarsaha<lb/>
 g’absolveert was, zijnde op de laeste punct Mandarsaha ’t canon ooc al geplant<lb/>
 en de borstweder vooreerst met steenen opgezet, totdat het onderste werk wat soude<lb/>
 bestorven wesen. Over ziecte nog sterfte wort niet geclaegt en ijgelijc kan sijn<lb/>
 gerief f van leeftogt goedecoop ende ten overvloede wel krijgen, maer den aftrecq<lb/>
-van cleeden is gering, meest door gebreck van geit.</para>
+van cleeden is gering, meest door gebreck van geit.
+</para>
 <remark>«Bij Timor is vergaan een Portugees schip uit Macao; de Pangeran van Palemhang<lb/>
 blijft de peper monopoliseren, terwijl er te veel textiel wordt aangebracht; de<lb/>
 Johorezen troffen Djarribi in staat van defensie aan
@@ -97,40 +104,42 @@ Johorezen troffen Djarribi in staat van defensie aan
 in te wagten het secoers, dat haer so van de Coning van Manicabo als die van<lb/>
 Indragirij toegezeyt was, ondertusschen de revier beset houdende ende het opende<lb/>
 afgaen der vaertuygen belettende, waerdoor deselve plaets in corte in groote<lb/>
-verlegentheyt soude hebben connen geraeken.</para>
+verlegentheyt soude hebben connen geraeken.
+</para>
 <remark>«29 april vertrokken zij weer,<lb/>
 »</remark>
 <para>.... nadat eenige dagen tevooren met die van Jambij, op haer afgecomen,<lb/>
-slaegs geweest waren ende genoegsaem de nederlage hadden gehad.</para>
+slaegs geweest waren ende genoegsaem de nederlage hadden gehad.
+</para>
 <para>De zoon van de ... . laxamana was 3 dagen daerna bij nagt door een ander<lb/>
 spruyt met 21 vaertuygen weder op de revier gecomen om een roof te halen ende<lb/>
 int wederkeeren bij zijn . . . . e.
-<fref ref="2"/>  aent schip Oostenburg verschenen, uyt wien<lb/>
+<note mark="2">Andries Bogaert.
+</note>
+aent schip Oostenburg verschenen, uyt wien<lb/>
 zijn e. dan verstont, dat hare magt niet geheel nae Johor gekeert, maer tusschen<lb/>
 beyde aen het eylant Bintang
-<fref ref="3"/>  verbleven was, tot wat oogmerc onseker. Op<lb/>
+<note mark="3">Bintan, eiland op ongeveer 1° N.B. en 104£° O.L., dus tussen Sumatra en het Maleise<lb/>
+Schiereiland.
+</note>
+verbleven was, tot wat oogmerc onseker. Op<lb/>
 welcke contschap zijn e. dan ooc voort derwaerts heeft gesonden de boeckhouder<lb/>
 Gerrit Poth
-<fref ref="4"/>  met onse brieven aen de ... . Radja
-<fref ref="5"/>  en de laxamana ende een<lb/>
+<note mark="4">Gerrit Poth, resident te Djambi, werd 1675 onderkoopman, 1677 koopman.
+</note>
+met onse brieven aen de ... . Radja
+<note mark="5">NI. de Radja Muda van Johore.
+</note>
+en de laxamana ende een<lb/>
 schriftel. versoec tot geleyde om met die van Jambij een goede vrede te willen<lb/>
 sluyten ofte, bijaldien daertoe niet mogten gemagtigt zijn, tenminste een stilstant<lb/>
 van wapenen te houden ende bij de Coning te bewerken, dat gesanten nae Batavia<lb/>
 wil zenden met volmagt, gelijck die van Jambij van hare zijde al hadden aengenomen<lb/>
 te sullen doen, om door onse onpartijdige vrundelicke tusschenspraeck een<lb/>
 equitabile
-<fref ref="6"/>  ende bestendige vreede met malcander te treffen tot voorcominge van
-
-<fnote ref="1">Men zie voor Punt Amboina en voor Mandarsjah de plattegrond, bij
-<emph>Valentijn</emph> ,<lb/>
-Makassar, p. 36, het zijn resp. de zuidooster- en de noordoosterpunt van het kasteel Rotterdam.</fnote>
-<fnote ref="2">Andries Bogaert.</fnote>
-<fnote ref="3">Bintan, eiland op ongeveer 1° N.B. en 104£° O.L., dus tussen Sumatra en het Maleise<lb/>
-Schiereiland.</fnote>
-<fnote ref="4">Gerrit Poth, resident te Djambi, werd 1675 onderkoopman, 1677 koopman.</fnote>
-<fnote ref="5">NI. de Radja Muda van Johore.</fnote>
-<fnote ref="6">Equitabile, billijke, rechtvaardige.</fnote>
-
+<note mark="6">Equitabile, billijke, rechtvaardige.
+</note>
+ende bestendige vreede met malcander te treffen tot voorcominge van
 <pb n="921" tpl="1" vol="03" facs="3_125_0921"/>
 meer onnodige bloedstortingen ende ruïne der landen wederzij ts. Na ’t afveerdigen<lb/>
 van welcke brieven zijn e. dan voort met cleyn vaertuyg de revier is opgevaren tot<lb/>
@@ -144,14 +153,17 @@ bescherminge, also vrese hadden, dat de gem. Vorst het daer niet bij soude laten
 ende dat die van Palembang hen dan ooc met deselve soude voegen om Jambij met<lb/>
 een gecombineerde magt op het lijf te vallen ende t’onder te brengen, hoewel die<lb/>
 van Palembang hen anders villen doen gelooven ende dat hen met die geschillen<lb/>
-int minste niet begeren te bemoeyen.</para>
+int minste niet begeren te bemoeyen.
+</para>
 <remark>«In Tonkin worden matige zaken gedaan<lb/>
 »</remark>
 <para>d’Engelse verbleven daer sonder ontset van scheepen en coopmanschappen,<lb/>
 hadden ondertusschen sommige goederen vercogt met een matelijcke winst, maer<lb/>
-de meeste tot haer schade.</para>
+de meeste tot haer schade.
+</para>
 <para>De twee France papen waeren daer nog in soberheyt continuerende en laegen<lb/>
-met de Portugese d.08 tot scheldens toe overhoop.</para>
+met de Portugese d.08 tot scheldens toe overhoop.
+</para>
 <remark>«Toenemende tinkoop in Perak, maar sobere textielhandel in Malakka; in Indragiri<lb/>
 is in een jaar zuiver gewonnen f. 28067.4.11 en 1304 taël goud ingekocht ; wegens<lb/>
 de vrede met Engeland zullen de schepen uit Japan weer over Malakka naar India<lb/>
@@ -163,7 +175,8 @@ Bengalen
 pak textiel voor patria<lb/>
 »</remark>
 <para>Den insaem van cleeden door gebreck van capitael al eenige maenden hadde<lb/>
-stille gestaen ende op credit niet meer was te vergaderen geweest.</para>
+stille gestaen ende op credit niet meer was te vergaderen geweest.
+</para>
 <remark>«De secretaris Leeuwenson is door Van Goens 19 febr. van Cochin over Perzië<lb/>
 naar Nederland gezonden met brieven; 8000 kisten koper uit Japan zullen van Malakka<lb/>
 naar Colombo gaan
@@ -174,17 +187,18 @@ evenveel naar Perzië; op Ceylon zijn . . . .<lb/>
 onse met reputatie verdreven en sijluyden sonder schade aen onse zijde te lijden<lb/>
 met een smertelijk gevoelen schandelijk weghgevlugt, daerenboven de magazijnen<lb/>
 door den Moorsen toevoer uyt Bengale met ruym 1200 lasten rijs, mitsgaders<lb/>
-even soveel uyt Canara, vervult zijnde.</para>
+even soveel uyt Canara, vervult zijnde.
+</para>
 <remark>«Van Goens sr. keerde uit Cochin naar Colombo terug en voer 21 april naar<lb/>
 Trincomale en Negapatam; Kottiyar is weer bezet; te Negapatam zijn elf welverzorgde</remark>
-
 <pb n="922" tpl="1" vol="03" facs="3_125_0922"/>
 <remark>oorlogsschepen met o.a. 200 soldaten uit Ceylon; de goede berichten uit patria zullen<lb/>
 Van Goens bewegen . . . .<lb/>
 »</remark>
 <para>.... om den dapperen La Haaye, so hij hertneckigh bleeff, geen conditiën van<lb/>
 acoord meer aen te bieden, maer denselven met gewelt aen te doen en sodanig te<lb/>
-forceren.</para>
+forceren.
+</para>
 <remark>«Paviljoen is nog voor St. Thomé; 70 Fransen kwamen overlopen en gingen<lb/>
 deels in Compagniesdienst; vergaan van twee schepen aldaar op 1 mei
 , vgl.
@@ -193,20 +207,30 @@ deels in Compagniesdienst; vergaan van twee schepen aldaar op 1 mei
 23 mannen miraculeus van gesalveert en aen land gecomen zijn, ’t ander, geen<lb/>
 uytcompst ziende, setten het tegen de wal, bij welc middel tvolc, canon en andere<lb/>
 gereetschappen nogh geborgen waren, hebbende de Fransen haren Briton in dit<lb/>
-quaat weer met 82 mannen ooc tegen de strand verlooren.</para>
+quaat weer met 82 mannen ooc tegen de strand verlooren.
+</para>
 <remark>«De Fransen hebben nu geen schepen meer,
 . . . .<lb/>
 »</remark>
 <para>.... want in Zouratta hebben sij beyde scheepen door gebrecq, soals die reeden<lb/>
-en zeylden<fref ref="1"/> , aen de Moorse equipanten vercogt en ’t hoecker tot Porto Novo<lb/>
-staad onbequaam op de wal.</para>
+en zeylden
+<note mark="1">Letterlijk: zoals die voor anker lagen en zeilden; sinds het begin van de 17de eeuw<lb/>
+gezegd over een schip, aangaande de staat, waarin het verkeert; ons reilen is een aanpassing<lb/>
+voor het rijm.<lb/>
+</note>
+, aen de Moorse equipanten vercogt en ’t hoecker tot Porto Novo<lb/>
+staad onbequaam op de wal.
+</para>
 <para>Sjerechan Lodey ooc heeft moeten beloven haer de alderminste handreykinge<lb/>
 ofte adsistentie niet meer te sullen doen ende behalven dat viert de stad onder<lb/>
 commando van Heere Sijmense van Wardon
-<fref ref="2"/>  met de jagten Pijl, Rammekens,<lb/>
+<note mark="2">Iieere Sijmensz. van Wardon, schipper.<lb/>
+</note>
+met de jagten Pijl, Rammekens,<lb/>
 Nieuwenhove, Battacaloa, een roeysloep en de bood van Rheenen seer naauw beslooten<lb/>
 en beseth gehouden, terwijle de vloote nog bovenswints en voor Nagapatnam<lb/>
-leggen bleef.</para>
+leggen bleef.
+</para>
 <remark>«Grote verwarring in Madura; de Naik is in oorlog
 . . . .<lb/>
 »</remark>
@@ -215,27 +239,21 @@ daerenboven met eenige beroerte van binnen, zulcx niet alleen tmerendeel van<lb/
 sijne onlangs gedane conquesten hem weder sijn afgenomen, maer wort ooc<lb/>
 selve in sijn erfflanden becommert, onder welcke troubelen nu de intentie schijnt<lb/>
 te leggen om de langh geprojecteerde fortificatie daer
-<fref ref="3"/>  bij der hand te nemen, te<lb/>
+<note mark="3">NI. te Tuticorin.<lb/>
+</note>
+bij der hand te nemen, te<lb/>
 welckeneynde den superintendent eenige militie van den commandeur Van Rheede<lb/>
 hadde gevordert en die daerop van ginder verwagt vierde om dan naer derselver<lb/>
-verschijninge een begin te maeken.</para>
+verschijninge een begin te maeken.
+</para>
 <remark>«De handel ligt er vrijwel stil; de parelbanken van Tuticorin kunnen in 1674<lb/>
 weer bewerkt worden, niet die van Manaar<lb/>
 »</remark>
-
-<fnote ref="1">Letterlijk: zoals die voor anker lagen en zeilden; sinds het begin van de 17de eeuw<lb/>
-gezegd over een schip, aangaande de staat, waarin het verkeert; ons reilen is een aanpassing<lb/>
-voor het rijm.<lb/>
-</fnote>
-<fnote ref="2">Iieere Sijmensz. van Wardon, schipper.<lb/>
-</fnote>
-<fnote ref="3">NI. te Tuticorin.<lb/>
-</fnote>
-
 <pb n="923" tpl="1" vol="03" facs="3_125_0923"/>
 <para>Met den nieuwen Teuver, die sijne zaeken tegen den Madureër weder genogsaem<lb/>
 teenemael herstelt ende denselven ’t verloorene meest afgenomen heeft, waren<lb/>
-wij nu in goed verstant.</para>
+wij nu in goed verstant.
+</para>
 <remark>«Zo oolc met den jongen Naik van Tandjore; de areca van Zuid-Ceylon wordt<lb/>
 met winst te Negapatam verkocht, zo ook in Colombo en Galle; van Suratte werden<lb/>
 30000 zilveren ropias, tegen
@@ -246,7 +264,8 @@ van Sjivadji bemoeilijkt, hoewel hij goede toezeggingen doet<lb/>
 »</remark>
 <para>Den bekenden grooten coopman Polpotneyc, voor desen uyt Wingurla door<lb/>
 de gewelden van Sijwagie geweecken en naer Condewaer de vlugt genomen, heeft<lb/>
-genoegsame aenbiedinge gedaen om met d’E. Comp.e weder in handel te treden.</para>
+genoegsame aenbiedinge gedaen om met d’E. Comp.e weder in handel te treden.
+</para>
 <folio>Fol. 16r.</folio>
 <remark>«Hij schoot de Compagnie aanzienlijke sommen voor; grote verkoop van specerijen<lb/>
 te Suratte; uit Portugal zijn in 1673 te Goa gekomen:<lb/>
@@ -256,7 +275,8 @@ Een groot schip, genaempt S.1 Pedro de Ratis, met 72 stucken gemontecrt,<lb/>
 hebbende 700 coppen int land gebragt.<lb/>
 Een cleen d.°, genaempt Nosa Signora de adjude S.1 Anthonio. Drie schepen van<lb/>
 gemene groote, genaempt Nosa Signora de Cardais, S.* Joan de Ribera ende Bon<lb/>
-Jésus de S.1 Dominga, ider versien met 24 stucken en 400 coppen.</para>
+Jésus de S.1 Dominga, ider versien met 24 stucken en 400 coppen.
+</para>
 <remark>«Twee karvelen en twee schepen vertrokken in oct. 1673 en jan. 1674 weer naar<lb/>
 Lissabon; men staat te Suratte aan allerlei vexatiën bloot; de cargasoenschepen van<lb/>
 1673 uit Batavia kwamen eerst 4 april 1674 voor Suratte, waren 7 maanden onderweg;<lb/>
@@ -271,13 +291,15 @@ en reden strijdende, dat we selfs eenige zijde soude aennemcn, alsser geen schep
 met coopmanschappen van ons nae derwaerts gesonden vierden, so is het verschil,<lb/>
 dat al vrij hevigh gedisputeert was, eyntelijk (dog niet sonder grood misnoegen van<lb/>
 de Persianen) geaccomodeert en ons toegelaten met de aenneminge van 150 cargas<lb/>
-te mogen volstaen, dat nogal tamelijk civil afgelopen is.</para>
+te mogen volstaen, dat nogal tamelijk civil afgelopen is.
+</para>
 <remark>«De fortificatie aan de Kaap vordert goed<lb/>
 »</remark>
 <para>
 Ettelijke maenden herwaerts is hier qualijk regen van den hemel gevallen,<lb/>
 waerdoor de velden verdorren en dagelijx veel bestiael als van honger te sterven<lb/>
-compt tot geen cleyne schade van de eygenaren.</para>
+compt tot geen cleyne schade van de eygenaren.
+</para>
 <folio>Fol]flv.</folio>
 </body>
 </teiTrim>

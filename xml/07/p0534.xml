@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="534"/>
 <meta key="title" value="Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop, Durven, Blom; Batavia, 4 februari 1721"/>
 <meta key="rawdate" value="4 februari 1721"/>
@@ -13,6 +14,7 @@
 <meta key="place" value="Batavia"/>
 <meta key="status" value=""/>
 <meta key="authorFull" value="Hendrik Zwaardecroon, Frans Castelyn, Mattheus de Haan, Samuel Timmerman, Jacob Faes, Joan Cornelis d'Ableing, Anthony Huysman, Laurens Tolling, Cornelis Hasselaar, Joan Adriaan Crudop, Diderik Durven, Wijbrant Blom"/>
+
 
 </header>
 <body>
@@ -44,7 +46,10 @@ die vermist werd geacht, vertrok 21 april van St. Helena naar Nederland; op Ceyl
 ® Malabarse peper in de pakhuizen<lb/>
 »</remark>
 <para>
-Den Sultan Ratoe <fref ref="1"/> , niet langer konnende uytstaan de dwingelandijen van den soogenaamden<lb/>
+Den Sultan Ratoe
+<note mark="1">Van Palembang.<lb/>
+</note>
+, niet langer konnende uytstaan de dwingelandijen van den soogenaamden<lb/>
 Sultan Anum (van wien hij en het gantsche volck geweldadig en listig is g’oppresseerd<lb/>
 geworden) eyndelijck ende ten laatsten een middel heeft uytgevonden op een<lb/>
 heymelijke wijse buyten weten van dien woelgeest aan ons te doen toekomen eene clagt-<lb/>
@@ -52,7 +57,8 @@ brieff, die origineel in stilte alhier is ontvangen op den 21cn januarij - , tot
 aan ons om te worden geassisteerd met een gesant en de noodige ordres, sooals er staat in<lb/>
 de brieff, maar in een andere, - aan den sjabandhar, word oock versoek gedaan om<lb/>
 twee schepen, die den Sultan na allen schijn al soo aangenaam souden wesen als den gesant,<lb/>
-voornamentlijck soo se wat rijckelijck bemand en wel gemonteerd mogten overkomen.</para>
+voornamentlijck soo se wat rijckelijck bemand en wel gemonteerd mogten overkomen.
+</para>
 <folio>Fol. 2332v-2333v.</folio>
 <remark>'s Vorsten vorige brief was op last van Sultan Anom opgesteld, Sultan Ratu schonk een kris<lb/>
 en een , ,goud schotelken"; op 20 jan. had men in Batavia slechts 12929 rsd. in kas, terwijl men<lb/>
@@ -65,10 +71,6 @@ Looten was 2 jan. in goede staat op 16
 * 8
 ' Z.B. en!14' 51' O.L.; Claas Swaan is commandeur<lb/>
 van de drie nu vertrekkende retourschepen met carg. van f. 342889 in de Middelwoud</remark>
-
-<fnote ref="1">Van Palembang.<lb/>
-</fnote>
-
 <pb n="535" tpl="1" vol="07" facs="7_164_0535"/>
 <remark>«Kamer Zeeland), f. 345445 Commerrust (Amsterdam) en f 290051 Noordwaddinksveen<lb/>
 (Delft), vnl. textiel, 1745070
@@ -87,8 +89,13 @@ daarvan nu en dan wel is gedagt, aan verval schijnd te sullen komen door de onma
 greetigheyt der Europese traffiquanten, die alle prijsen van in- en verkoop daardoor bederven<lb/>
 ten voordeele der Chineesen, die buyten hem haaren handel hebben gedreven met 9<lb/>
 diverse Engelse schepen, waarvan er 5 stx. direct na Engeland terug sijn gekeert met 4 bodems<lb/>
-uyt Oostende, genaamd de rEmpératrice, Francisco Xavier <fref ref="1"/> , le Postiljon en la Sirene,<lb/>
-die dusdanig malkanderen wel souden konnen in den grond rijden.</para>
+uyt Oostende, genaamd de rEmpératrice, Francisco Xavier
+<note mark="1">V ermoedelijk het vroeger Nederlandse schip Emerentia, dat door de Oostendese reders werd<lb/>
+gekocht, het vertrok begin 1720 onder Philippe de Moor naar China en was in juni 1721 weer thuis.<lb/>
+</note>
+, le Postiljon en la Sirene,<lb/>
+die dusdanig malkanderen wel souden konnen in den grond rijden.
+</para>
 <remark>«Wegens het ruwe weer kunnen de drie retourschepen eerst nu vertrekken; Wijbrant Blom<lb/>
 kwam 30 jan. met de Beverwaard uit Siam, lading f. 43199, vnl. 101711 tin en 549945<lb/>
 sapanhout; 30 jan. kwamen uit Bengalen de Velserhoofd en Voorburg met carg. van f. 368499;<lb/>
@@ -103,10 +110,12 @@ rsd. aan wissels werd op patria getrokken uit de boedel van wijlen Gouv.-Gen. Va
 sluikvaartuigen ontdekt<lb/>
 »</remark>
 <para>De Engelse besig sijn om sig tot Bancahoeloe weder neder te setten ende dat wel ten<lb/>
-versoeke van den inlander.</para>
+versoeke van den inlander.
+</para>
 <para>Den wederopbouw van het Engels gedistrueerd fort Marlobourg niet sal worden geëntameerd,<lb/>
 voordat berekend sal konnen werden, de winsten grooter sullen wesen dan de<lb/>
-lasten.</para>
+lasten.
+</para>
 <remark>«2 febr. vernam men met de pantjalang Koning van Johore, dat Malakka 31 aug. 1720<lb/>
 in een jaar f. 136371 had uitgegeven tegen f. 88172 aan ontvangsten; de schepen onder Van<lb/>
 Cloon vertoefden er van 7 en 12 nov. tot 15 dec. , omdat<lb/>
@@ -116,15 +125,11 @@ Cloon vertoefden er van 7 en 12 nov. tot 15 dec. , omdat<lb/>
 vermeldende het arrivement van partije zeerovers, die sig uyt West- na Oost-Indiën<lb/>
 hadden begeven om te ontvlugten de straffe, welke haar was rakende, ter oorsake sij hadden<lb/>
 verwurpen alsulcken amnestije, als hun wegens den Coning van Groot-Brittanjen was aan-<lb/>
-
-<fnote ref="1">V ermoedelijk het vroeger Nederlandse schip Emerentia, dat door de Oostendese reders werd<lb/>
-gekocht, het vertrok begin 1720 onder Philippe de Moor naar China en was in juni 1721 weer thuis.<lb/>
-</fnote>
-
 <pb n="536" tpl="1" vol="07" facs="7_164_0536"/>
 geboden geweest en sij daarop overgestoken waren, midsgaders sig gevestigd hadden op het<lb/>
 eyland Mauritius, van waar sij, voortgezeyld sijnde, bereets een rijck geladen Moorsen bodem<lb/>
-hadden weggenomen.</para>
+hadden weggenomen.
+</para>
 <remark>«De tinleverantie te Malakka nam toe; de Generaliteits- en V.O.C. wapens op Dinding,<lb/>
 sinds 1713 niet geïnspecteerd, waren in goede staat<lb/>
 »</remark>

@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="97"/>
 <meta key="title" value="Coen, De Carpentier, Dedel, De Houtman, Jansz; Kasteel Jakatra, 22 januari 1620"/>
 <meta key="rawdate" value="22 januari 1620"/>
@@ -14,13 +15,12 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Jan Pietersz Coen, Pieter de Carpentier, Jacob Dedel, Frederick de Houtman, Willem Jansz"/>
 
+
 </header>
 <body>
 <head>IV. JAN PIETERSZ. COEN, PIETER DE CARPENTIER, JACOB DEDEL,<lb/>
-FREDERICK DE HOUTMAN EN WILLEM JANSZ <fref ref="1"/>  <fref ref="2"/> , KASTEEL JAKATRA 22 januari 1620.</head>
-<remark>«Afgedrukt <ref>Coen I, p. 508-534 </ref>»</remark>
-
-<fnote ref="1">In artikel 32 van de instructie, 3 nov. 1617 door de Staten-Generaal op voorstel van<lb/>
+FREDERICK DE HOUTMAN EN WILLEM JANSZ
+<note mark="1">In artikel 32 van de instructie, 3 nov. 1617 door de Staten-Generaal op voorstel van<lb/>
 de Bewindhebbers vastgesteld (en afgedrukt <ref>Plakaatboek I, p. 28</ref>) wordt bepaald: ,,Zullende<lb/>
 jaarlyeks mode perfectolyck overschrijven den stand van Indië . . . opdat men weten mag, hoe<lb/>
 en met hoedanig succes de zaken, zoo van den handel als oorlog, en bijzonder in het stuk van<lb/>
@@ -42,9 +42,11 @@ Gouverneur-Generael niet eer aennemen, dan tot dat d' Heer Gennerael Reael van s
 ontslagen zy" begin ik de nummering van de brieven van Coen met die van 5 aug. 1619, de<lb/>
 eerste door hem geschreven, nadat hij het ambt officieel aanvaardde. De voorafgaande brieven<lb/>
 vindt men alle in <ref>Coen I</ref>.<lb/>
-</fnote>
-<fnote ref="2">In deze volgorde vindt men de handtekeningen in <ref>Coen I, p. 534</ref>. Daar Houtman<lb/>
+</note>
+<note mark="2">In deze volgorde vindt men de handtekeningen in <ref>Coen I, p. 534</ref>. Daar Houtman<lb/>
 eerste raad van Indië was, zal zijn handtekening wel als tweede onder deze brief staan.<lb/>
-</fnote>
+</note>
+, KASTEEL JAKATRA 22 januari 1620.</head>
+<remark>«Afgedrukt <ref>Coen I, p. 508-534 </ref>»</remark>
 </body>
 </teiTrim>

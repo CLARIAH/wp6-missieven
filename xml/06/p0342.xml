@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="342"/>
 <meta key="title" value="Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, De Haan; Batavia, 6 maart 1705"/>
 <meta key="rawdate" value="6 maart 1705"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Joan van Hoorn, Abraham van Riebeeck, Laurens Pijl, Joannes Cops, Manuel Bornezee, Christoffel van Swoll, Herman de Wilde, Abraham Douglas, Adam van Rijn, Adriaan van der Stel, Hendrik Zwaardecroon, Mattheus de Haan"/>
 
+
 </header>
 <body>
 <pb n="342" tpl="1" vol="06" facs="6_159_0342"/>
@@ -23,7 +25,11 @@ HERMAN DE WILDE, ABRAHAM DOUGLAS, ADAM VAN RIJN, ADRIAAN<lb/>
 VAN DER STEL, HENDRIK ZWAARDECROON EN MATTHEUS DE<lb/>
 HAAN, BATAVIA 6 maart 1705.</head>
 <folio>Kol. Arch. 1576,fol. 2266-2281, copie 1688, fol. 382-395 </folio>
-<para><fref ref="1"/> .</para>
+<para>
+<note mark="1">Gebruik is gemaakt van de beter leesbare copie.<lb/>
+</note>
+.
+</para>
 <remark>«Verzonden met de Taxisboom; de residenten in Golconda Frangois Knobbaart en<lb/>
 Zacheus van Heussen worden opgeroepen, omdat ze zich waarschijnlijk 3000 pagoden<lb/>
 uit de V.O.C. kas toeeigenden; daar Phoonsen gevangen is, moet Goomans het ambt van<lb/>
@@ -40,13 +46,17 @@ laatste slechts klein; er worden er van elke plaats nog 2 of 3 verwacht,
 <para>
 - dogh alle seer kleen en maar wanckans, omdat er op ’t voorstel van<lb/>
 den Tartarischen veldheer over de provintien van Chetchian en Fockien
-<fref ref="2"/>  door<lb/>
+<note mark="2">Fukiën, Chinese provincie, aan zee grenzend en naar het westen tot ongeveer 116°<lb/>
+O.L., naar het noorden tot 28£° en naar het zuiden tot 23£° N.B. lopend.<lb/>
+</note>
+door<lb/>
 expres verbod des Keysers geen grooter vaartuygen als van 18 voeten wijd en 70<lb/>
 voeten lang mogen buytenslands varen en ook niet hooger als met 30
 <emph>k</emph> 40 koppen<lb/>
 bemand, voor dewelcke dan ginder op hun vertrek ook nogh borge moet werden<lb/>
 gesteld en dat, soo men gerugt, om de eyge onderlinge rooverijen der Chineesen ter<lb/>
-zee daardoor te eer te dempen.</para>
+zee daardoor te eer te dempen.
+</para>
 <remark>«Het hof van Siam belette het tijdig af varen van de Sion; 6 febr. vertrok de Vecht<lb/>
 naar Amboina, 1 1 febr. de Eenhoorn mei gouverneur Erberveld naar Makassar, 6 en 24<lb/>
 febr. en 1 maart de Peperboom, Handboog en Leervis Tiaar Ternate, 6 maart de<lb/>
@@ -63,11 +73,5 @@ buiten het V.O.C. territorium; andere rechtszaken konden nog niet worden afgedaa
 enige Engelse scheepjes deden Batavia aan; de weesmeesters trokken een wissel<lb/>
 op Middelburg van 3895 rsd.<lb/>
 »</remark>
-
-<fnote ref="1">Gebruik is gemaakt van de beter leesbare copie.<lb/>
-</fnote>
-<fnote ref="2">Fukiën, Chinese provincie, aan zee grenzend en naar het westen tot ongeveer 116°<lb/>
-O.L., naar het noorden tot 28£° en naar het zuiden tot 23£° N.B. lopend.<lb/>
-</fnote>
 </body>
 </teiTrim>

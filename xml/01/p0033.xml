@@ -1,6 +1,7 @@
 <teiTrim>
 <header>
 
+
 <meta key="page" value="33"/>
 <meta key="title" value="Both; Bantam, 10 november 1614"/>
 <meta key="rawdate" value="10 november 1614"/>
@@ -14,6 +15,7 @@
 <meta key="status" value=""/>
 <meta key="authorFull" value="Pieter Both"/>
 
+
 </header>
 <body>
 <pb n="33" tpl="1" vol="01" facs="1_104_0033"/>
@@ -21,14 +23,19 @@
 <folio>969,fol. 31-37.</folio>
 <para>Desen alleen sal dienen omme U Ed. te verwittigen tgene gepasseert is in de<lb/>
 Moluques tsedert mijn vertreck van aldaer
-<fref ref="1"/> , volgens sekere resolutie ende verscheyden<lb/>
+<note mark="1">3 aug. 1613 vertrok Both naar Java.
+</note>
+, volgens sekere resolutie ende verscheyden<lb/>
 rapporten aen mij gedaen. Den heer vice-gouverneur doctor Laurens<lb/>
 Reael, die hem gedurende den tijdt van mijn presentie met alle vlijt, eerbiedinge,<lb/>
 reverentie ende bequaemheyt was gouvernerende, alsoo dat U Ed. dien tijdt<lb/>
 van hem seer wel gedient was ende ick insonderheyt een seer goet genoegen van<lb/>
 hem hadde, dan soo haest ick hem hadde geexalteert tot het offitie van vicegouverneur<lb/>
-<fref ref="2"/> , speurde terstont seer wel in hem eenige veranderinge, die ick alsdoen<lb/>
-sijn jonckheyt ende animosité was toeschrijvende.</para>
+<note mark="2">D. w. z. gouverneur onder den Gouvemeur-Generaal.
+</note>
+, speurde terstont seer wel in hem eenige veranderinge, die ick alsdoen<lb/>
+sijn jonckheyt ende animosité was toeschrijvende.
+</para>
 <para>Den voorsz. vice-gouverneur, alsmede den heer visitateur Hans de Hase<lb/>
 waren bovenmaten solliciterende mijn vertreck uyt de Moluques, ten respecte wij<lb/>
 van tijdt tot tijdt tijdinge cregen, dat den heer president Coteels tot Bantam sich<lb/>
@@ -37,26 +44,33 @@ sijn insuffisantie tot de regieringe. Dat hij oock swack was van persoon ende<lb
 wel mochte overleden sijn. Dat daeromme onse presentie hoochnodich was tot<lb/>
 Bantam, want van Bantam dependeerde het gehele welvaren van Indien. In<lb/>
 effect, dese redenen sijn warachtich alsoo geweest ende hebben ’t alsoo bevonden,<lb/>
-evenwel soo waren de voorschrevene te actijff in ’t solliciteren van mijn vertreck.</para>
+evenwel soo waren de voorschrevene te actijff in ’t solliciteren van mijn vertreck.
+</para>
 <para>Omme dese ende diergelijcke redenen wil ick U Ed. niet alleen gebeden hebben,<lb/>
 maer oock veradverteert uwen Gouverneur- Generaell, soo zeer als mij gedaen<lb/>
 hebt, niet te binden aen den Raedt. Men behoort, naer mijn advijs, den Gouverneur-<lb/>
 Generaell soo wel te kennen, dat hij mocht van alles vertrout werden ende<lb/>
-dat hij mocht in alle occurrentien seggen : Soo wil ick het ende soo gebiede ick het.</para>
+dat hij mocht in alle occurrentien seggen : Soo wil ick het ende soo gebiede ick het.
+</para>
 <para>Doen ter tijdt daer noch sijnde, had ick wel een weynich suspitie, maer de<lb/>
 redenen waren goet ende suffisant, als voirens verhaelt, maer wat te veell, gelijck<lb/>
-het nu tot mijn groot leetwesen sich geopenbaert heeft.</para>
+het nu tot mijn groot leetwesen sich geopenbaert heeft.
+</para>
 <remark>«Enkele zinnen
 , van weinig belang
 , weggelaten<lb/>
 »</remark>
 <para>
 Eenige dagen hier te voirens
-<fref ref="3"/>  worde ick door Sr Hans de Hase, den directeur,<lb/>
+<note mark="3">Voor Both’s vertrek uit de Molukken.
+</note>
+worde ick door Sr Hans de Hase, den directeur,<lb/>
 veradverteert, dat uyt den Leeuw met Pijlen veel sijdewaren ende fluwelen dagelijcx<lb/>
 werden vercocht onder de soldaten, waeromme wij tween goet vonden eenen<lb/>
 apostato
-<fref ref="4"/>  te committeren alle de zij de waren door een tertia persoon te doen copen<lb/>
+<note mark="4">Hier, een voor een bepaald doel aangewezen persoon.
+</note>
+te committeren alle de zij de waren door een tertia persoon te doen copen<lb/>
 ende met comptant te betalen omme door sulcken middell alle de coopmanschappen<lb/>
 in onsen handen te becomen ende namaels het geit mede. Den incoop<lb/>
 bedroech 405 realen van 8en ende worde alsdoen onse practijcke ontdect, eenige<lb/>
@@ -65,15 +79,11 @@ ick daechs voor mijn vertreck in de vergaderinge op ’t schip Banda, dat<lb/>
 die goederen mosten gecomen sijn uyt handen van de principalen van ’t schip, als<lb/>
 altewell geconditionneert, even off se uyt een botijcka gecomen waren ende derhalven<lb/>
 verbeurt behoorden te maecken ende de pertijen te condemneren in een
-
-<fnote ref="1">3 aug. 1613 vertrok Both naar Java.</fnote>
-<fnote ref="2">D. w. z. gouverneur onder den Gouvemeur-Generaal.</fnote>
-<fnote ref="3">Voor Both’s vertrek uit de Molukken.</fnote>
-<fnote ref="4">Hier, een voor een bepaald doel aangewezen persoon.</fnote>
-
 <pb n="34" tpl="1" vol="01" facs="1_104_0034"/>
 amende. Hierop repliceerde den heer advocaet
-<fref ref="1"/>  met een onverstandicheyt, dat hij<lb/>
+<note mark="1">D. i. Reael.<lb/>
+</note>
+met een onverstandicheyt, dat hij<lb/>
 daer bleeff ende met het volck moste vechten. Men most tegens de matrosen zoo<lb/>
 rigoreuselijck niet procederen. Een antwoort voor mij seer onverwacht, maer wel<lb/>
 aengenaem voor sommige, die daer present waren. Waerop ick hem repliceerde,<lb/>
@@ -89,14 +99,16 @@ goederen door een derdehandt gecocht waren, soo werden se oock door een derdehan
 vercocht, ende soo daer geen tijdt was, bij mij affgedaen te werden ende<lb/>
 datter veel andere saecken te doen waren, alsoo mijn ure genaecte om te vertrecken,<lb/>
 gelijck het daechs daernaer vroech geschiet is, recommandeerde hem ende<lb/>
-den raedt daerop te inquireren ende aff te doen naer behoiren.</para>
+den raedt daerop te inquireren ende aff te doen naer behoiren.
+</para>
 <para>Nu vertrocken sijnde, is den heer advocaet daechs naer mijn vertreck gecomen<lb/>
 op ’t schip den Leeuw met Pijlen, met hem gekomen eenige schippers, sonder dat<lb/>
 aldaer Hans de Hase, raedt van Indien, present was, alwaer in de eerste resolutie,<lb/>
 genomen naer mijn vertreck, geordonneert werde aen den cassier op Maleyen alles<lb/>
 te betalen aen de eygenaers van de goederen van den Leeuw met Pijlen, met<lb/>
 verbotth, dat zij sulcx niet meer en souden doen. Dese subijte resolutie ende verscheyden<lb/>
-rapporten heeft mij alhier niet luttel doen verwonderen.</para>
+rapporten heeft mij alhier niet luttel doen verwonderen.
+</para>
 <remark>«Volgt klacht over het gratiëren door Reael 'persoonlijk van soldaten
 , die op wacht<lb/>
 sliepen
@@ -113,28 +125,25 @@ Van Caerdens bolwerck, waervan, naer alles affgemeten ende gegraven sijnde,<lb/>
 den eersten steen van mij is geleyt in presentie van den Coninck van Ternate ende<lb/>
 den raedt ende oock daertoe selffs metten gehelen adel van Ternate steen hebbe<lb/>
 gedragen ende alsoo in mijnen tijdt tot de borstweringh toe opgemetselt ende<lb/>
-gevult, de meeste helft van de gracht gemaect<fref ref="2"/> . Nu vertrocken sijnde van daer<lb/>
+gevult, de meeste helft van de gracht gemaect
+<note mark="2"><emph>Oudheden,</emph> een werk, dat men met voorzichtigheid dient te raadplegen, weet hiervan<lb/>
+niets.<lb/>
+</note>
+. Nu vertrocken sijnde van daer<lb/>
 ende de borstweringe volmaect, werde dese punct van de gemene matrosen<lb/>
 genoemt Botts punct sonder mijn weten off toedoen. Nu soo is ’t gebeurt, dat een<lb/>
 seecker quidam
-<fref ref="3"/>  soldaet apostato bij nachte aen de poorte geplect heeft een<lb/>
-sekere cartabelle, inhoudende dese woorden:<lb/>
-
-<fnote ref="1">D. i. Reael.<lb/>
-</fnote>
-<fnote ref="2"><emph>Oudheden,</emph> een werk, dat men met voorzichtigheid dient te raadplegen, weet hiervan<lb/>
- 
- niets.<lb/>
- </fnote>
-<fnote ref="3">Een seecker quidam, geringschattend over een persoon, die men niet kan of wil<lb/>
+<note mark="3">Een seecker quidam, geringschattend over een persoon, die men niet kan of wil<lb/>
 noemen.<lb/>
-</fnote>
-
+</note>
+soldaet apostato bij nachte aen de poorte geplect heeft een<lb/>
+sekere cartabelle, inhoudende dese woorden:<lb/>
 <pb n="35" tpl="1" vol="01" facs="1_104_0035"/>
 Totten oorloch ben ick bequaem.<lb/>
 Naer mijnen stichter voer ick den naem.<lb/>
 Ick hoop te wesen noch wijt beroempt,<lb/>
-Puncte Reaell ben ick genoempt.</para>
+Puncte Reaell ben ick genoempt.
+</para>
 <para>Dese cartabelle heeft den vice-gouverneur doen afftrecken ende doen verschrijven<lb/>
 in lettre majuscola ende herplecken, daer die te voiren gestaen hadde,<lb/>
 den voorn, vice-gouverneur met eenige capiteynen daerop gegaen, den wijn<lb/>
@@ -145,57 +154,62 @@ gedroncken, rontomme affgeschoten ende alsoo die punct met zijnen naem gebabtise
 <para>Omme alle dese voorverhaelde redenen heb ick met mijnen raedt alhier de<lb/>
 saecke tot meermalen gecommuniceert ende namaels den breden raedt op mijne<lb/>
 propositie haer ad vijs gehoort
-<fref ref="1"/> , waerop dat eensamentlijck geresolveert is den<lb/>
+<note mark="1">Hieruit blijkt, hoe Both, hoewel hij Gouverneur-Generaal is, nog vasthoudt aan vlootgebruiken.<lb/>
+<lb/>
+</note>
+, waerop dat eensamentlijck geresolveert is den<lb/>
 heer advocaet te schrijven ende te ordonneren alles te herstellen, gelijck als ’t tevoiren<lb/>
 is geweest, den directeur, die daer bij provisie is off van ons derwerts<lb/>
 gesonden sal werden, te ordonneren ende instructie mede te geven omme alles naer<lb/>
 behoiren te dirigeren, even gelijck het is gedaen geweest van den heer Hans de<lb/>
-Hase.</para>
+Hase.
+</para>
 <para>De eerste gemaecte punct op Maleyen, genampt Amsterdam, de twede de<lb/>
 Coninck van Gilolespunct1
-<fref ref="2"/> , de derde de Coninck van Ternatespunct.</para>
+<note mark="2">De vorst van Djailolo was vanouds een der vier Molukse koningen; omstreeks 1600<lb/>
+was hij evenwel niet veel meer dan een vazal van Ternate en daar verblijvend.<lb/>
+</note>
+, de derde de Coninck van Ternatespunct.
+</para>
 <para>Het Casteel op Marieecke de Vereenichde Provintien, de vier puncten genampt<lb/>
 Uutrecht, Enckhuysen, Amersfort, Reaell, als U Ed. alles per de copien<lb/>
-van de resolutie wijders sal connen sien.</para>
+van de resolutie wijders sal connen sien.
+</para>
 <para>Ende alsoo ’t Casteel van Amboyna voor desen geen naem en is gegeven<lb/>
 geweest, is nu bij ons alhier genampt Victoria
-<fref ref="3"/> , als wesende de eerste conqueste<lb/>
-van U Ed. in dese landen.</para>
+<note mark="3"><emph>Oudheden</emph> vermeldt deze naamgeving door Both niet.<lb/>
+</note>
+, als wesende de eerste conqueste<lb/>
+van U Ed. in dese landen.
+</para>
 <para>Den heer advocaet, gepromo veert sijnde tot dit voorsz. offitie, heb ick wel<lb/>
 horen seggen: Ick moet nu de boecken achter de kist smijten ende den degen op<lb/>
 zijde nemen. Hij heeft dit niet alleen gedaen maer mede den coopman, die hij<lb/>
 veracht ende den soldaet in alles boven haer stelt, alsoo dat den coopman nu twee<lb/>
 meesters is hebbende, te weten den heer advocaet voorsz. ende de capiteyns, tot<lb/>
-grote schade ende nadeel van U Ed. saecken aldaer.</para>
+grote schade ende nadeel van U Ed. saecken aldaer.
+</para>
 <para>Ick hadde voor mijn vertreck van de Moluques in mijnen sin, in cas dat daer<lb/>
 geen nieuwen Generaell en quam off in ’t comen overleden soude zijn, desen in<lb/>
 mijnen plaetse te eligeren, hetwelcke nu alleen niet gedaen sal werden, maer oock<lb/>
 leetwezen hebbe hem door mij soo hooch gepromoveert te sijn. In effect, desen man<lb/>
-en dient niet hoger om de redenen voorsz.</para>
-
-<fnote ref="1">Hieruit blijkt, hoe Both, hoewel hij Gouverneur-Generaal is, nog vasthoudt aan vlootgebruiken.<lb/>
-<lb/>
-</fnote>
-<fnote ref="2">De vorst van Djailolo was vanouds een der vier Molukse koningen; omstreeks 1600<lb/>
-was hij evenwel niet veel meer dan een vazal van Ternate en daar verblijvend.<lb/>
-</fnote>
-<fnote ref="3"><emph>Oudheden</emph> vermeldt deze naamgeving door Both niet.<lb/>
-</fnote>
-
+en dient niet hoger om de redenen voorsz.
+</para>
 <pb n="36" tpl="1" vol="01" facs="1_104_0036"/>
 <para>Hij heeft voor sijn vertreck uyt ’t vaderlandt een appolosia gemaect in faveur<lb/>
 van sijn swager den predicant Arminius, alsdoen overleden, welcke oorsaecke hem<lb/>
 beleth heeft tot avanchement aldaer te comen
-<fref ref="1"/> .</para>
-<para>Dese voorsz. procedures is de twede appolosia. Ick ben van sijnen wegen<lb/>
-bedroeft.
-</para>
-
-<fnote ref="1">Hier wordt wel gezinspeeld op de voorrede van de door de weduwe van Arminius en<lb/>
+<note mark="1">Hier wordt wel gezinspeeld op de voorrede van de door de weduwe van Arminius en<lb/>
 haar broeders in 1610 te Leiden uitgegeven
 <emph>Verclaringhe Jacobi Arminii Saliger Ohedachten</emph><lb/>
 <emph>etc.</emph> waarover men leze G. Brandt,
 <emph>Hist. der Reformatie</emph> II, p. 116-117 en J. H. Maronier,<lb/>
-<emph>Jac. Arminius</emph> , Amsterdam 1905, p. 346-347.</fnote>
+<emph>Jac. Arminius</emph> , Amsterdam 1905, p. 346-347.
+</note>
+.
+</para>
+<para>Dese voorsz. procedures is de twede appolosia. Ick ben van sijnen wegen<lb/>
+bedroeft.
+</para>
 </body>
 </teiTrim>
