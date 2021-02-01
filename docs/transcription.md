@@ -112,7 +112,7 @@ The linkage is stored in the *oslots* feature, which is an edge feature: it spec
 each non-slot nodes and the slots that belong to them.
 This feature is hardly ever used directly, because the Text-Fabric API has functions to
 move from containers to containees, the so-called
-[locality](https://annotation.github.io/text-fabric/core/locality.html#tf.core.locality.Locality)
+[locality](https://annotation.github.io/text-fabric/tf/cheatsheet.html#l-locality)
 functions.
 
 ### Hierarchy

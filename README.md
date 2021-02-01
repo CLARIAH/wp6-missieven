@@ -17,7 +17,7 @@ Status
 
 This is **work in progress!**
 
-*   2021-01-27 A new TF version (0.7) has been delivered.
+*   2021-01-30 A new TF version (0.7) has been delivered.
     This  version as a major encoding difference: whereas in version 0.6 footnote material ended
     up in the values of a feature, now footnotes are treated like text material.
     That means: the words in footnotes occupy slots, the footnotes themselves are nodes.
@@ -108,7 +108,7 @@ processable by any tool of their choice.
 
 [Text-Fabric](https://github.com/annotation/text-fabric)
 provides a
-[data model](https://annotation.github.io/text-fabric/about/datamodel.html#gsc.tab=0)
+[data model](https://annotation.github.io/text-fabric/tf/about/datamodel.html)
 that captures the data at the end of the cleaning process just
 before it goes into other tools.
 It also support the integration of subsequent enrichment with the original data.
@@ -121,7 +121,7 @@ Start with the
 [tutorial](https://nbviewer.jupyter.org/github/annotation/tutorials/blob/master/generalmissives/start.ipynb).
 
 See
-[other corpora](https://annotation.github.io/text-fabric/about/corpora.html#gsc.tab=0)
+[other corpora](https://annotation.github.io/text-fabric/tf/about/corpora.html)
 for more experiences with Text-Fabric as a corpus pre-processing tool.
 
 Text-Fabric operates in the ecosystem of Python and its libraries
@@ -165,7 +165,7 @@ title pages, etc.
 There is also an exact correspondence between files and letters.
 
 Then I used the
-[walker module from TF](https://annotation.github.io/text-fabric/convert/walker.html#gsc.tab=0)
+[walker module from TF](https://annotation.github.io/text-fabric/tf/convert/walker.html)
 to turn the simple XML into Text-Fabric.
 See
 [tfFromTrim.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromTrim.py).
