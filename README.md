@@ -17,6 +17,10 @@ Status
 
 This is **work in progress!**
 
+*   2021-05-20 A new TF version (0.8) has been delivered.
+    When multiple letters occur on one page, the words of the first line
+    of some letters are not contained in line nodes.
+    This has been corrected.
 *   2021-01-30 A new TF version (0.7) has been delivered.
     This  version as a major encoding difference: whereas in version 0.6 footnote material ended
     up in the values of a feature, now footnotes are treated like text material.

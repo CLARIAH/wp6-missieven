@@ -15,6 +15,7 @@ from lib import (
     META_DECL,
     WHITE_RE,
     ADD_LB_ELEMENTS,
+    ENSURE_LB_ELEMENTS,
     A2Z,
     parseArgs,
     initTree,
@@ -37,7 +38,7 @@ python3 tfFromTrim.py ["load"] ["loadonly"] [volume] [page] [--help]
 --help: print this text and exit
 
 "load": loads the generated TF; if missing this step is not performed
-"loadOnly": does not generate TF; loads previously generated TF
+"loadonly": does not generate TF; loads previously generated TF
 volume: only process this volume; default: all volumes
 page  : only process letter that starts at this page; default: all letters
 """
@@ -108,6 +109,7 @@ intFeatures = set(
         isremark
         isfolio
         isnote
+        isorig
         isspecial
         issub
         issuper
@@ -506,7 +508,13 @@ def walkNode(cv, doc, node, cur):
             cur[tag] = None
             warnings[f"nested: {tag}"].add(doc)
 
-    if tag in BREAKS:
+    if tag in ENSURE_LB_ELEMENTS:
+        curLine = cur.get("line", None)
+        if not curLine:
+            cur["line"] = cv.node("line")
+            cur["ln"] += 1
+            cv.feature(cur["line"], n=cur["ln"])
+    elif tag in BREAKS:
         curLine = cur.get("line", None)
         if curLine:
             linkIfEmpty(cv, curLine)

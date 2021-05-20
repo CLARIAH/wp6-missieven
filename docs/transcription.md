@@ -108,7 +108,7 @@ There are also node types for other entities, such as volume, letter, page, line
 as listed in the *otype* feature and documented below.
 
 All non-slot nodes have a type and are linked to a subset of slots.
-The linkage is stored in the *oslots* feature, which is an edge feature: it specifies a edges between
+The linkage is stored in the *oslots* feature, which is an edge feature: it specifies an edge between
 each non-slot nodes and the slots that belong to them.
 This feature is hardly ever used directly, because the Text-Fabric API has functions to
 move from containers to containees, the so-called
@@ -142,8 +142,7 @@ All punctuation, including spaces, is stored on the slot of the preceding word,
 in the feature `punc`.
 
 Whitespace will be normalized to single spaces or newlines.
-Only the original letter contents and the editorial remarks are stored word by word.
-The footnotes are stored one by one, as values of the feature `fnote`, see below.
+The original letter contents and the editorial remarks and the footnotes are stored word by word.
 
 Next to the `trans` and `punc` features, there are the `transo`, `punco` and `transr`, `puncr` 
 and `transn` and `puncn` feature pairs.

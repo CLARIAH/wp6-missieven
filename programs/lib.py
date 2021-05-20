@@ -65,6 +65,12 @@ ADD_LB_ELEMENTS = set(
 """.strip().split()
 )
 
+ENSURE_LB_ELEMENTS = set(
+    """
+    head
+""".strip().split()
+)
+
 A2Z = "abcdefghijklmnopqrstuvwxyz"
 
 
