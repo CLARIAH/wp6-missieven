@@ -17,6 +17,9 @@ Status
 
 This is **work in progress!**
 
+*   2021-07-22 Additional data corrections: letters that have no page break elements were
+    not part of a page. That has been remedied (0.9), with the earlier corrections by Sophie on top of it (0.9.1).
+*   2021-06-17 Data corrections by Sophie Arnoult have been applied (0.8.1)
 *   2021-05-20 A new TF version (0.8) has been delivered.
     When multiple letters occur on one page, the words of the first line
     of some letters are not contained in line nodes.

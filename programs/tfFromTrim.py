@@ -353,6 +353,11 @@ def director(cv):
                 root = ET.fromstring(text)
             walkLetter(cv, doc, root, cur)
 
+        curPage = cur.get("page", None)
+        if curPage:
+            linkIfEmpty(cv, curPage)
+            cv.terminate(curPage)
+            cur["page"] = None
         cv.terminate(cur["volume"])
         cur["volume"] = None
 
@@ -392,7 +397,7 @@ def walkLetter(cv, doc, root, cur):
         cv.terminate(curLine)
         cur["line"] = None
     curPage = cur.get("page", None)
-    if curPage:
+    if curPage and False:
         linkIfEmpty(cv, curPage)
         cv.terminate(curPage)
         cur["page"] = None
