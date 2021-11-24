@@ -8,14 +8,11 @@
 # General Missives
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/Nino-cunei/oldassyrian/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/Dans-labs/clariah-gm)
-
 [![DOI](https://zenodo.org/badge/292204502.svg)](https://zenodo.org/badge/latestdoi/292204502)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 
-Status
-------
-
-This is **work in progress!**
+# Status
 
 *   2021-07-22 Additional data corrections: letters that have no page break elements were
     not part of a page. That has been remedied (0.9), with the earlier corrections by Sophie on top of it (0.9.1).
@@ -74,8 +71,7 @@ This is **work in progress!**
     [last tfFromTrim run](log-tfFromTrim.txt)
 *   2020-09-02 Repository created, no content yet, start of conversion coding.
 
-Corpus
-------
+# Corpus
 
 This repo contains a structurally clean version of the data of the *General Missives*.
 
@@ -214,7 +210,7 @@ Jan Niestadt (main author of Blacklab, INT) for helping out with setting up and 
 
 This repo is by
 
-*   [Dirk Roorda](https://pure.knaw.nl/portal/en/persons/dirk-roorda) at
+*   [Dirk Roorda](https://github.com/dirkroorda) at
     [DANS](https://www.dans.knaw.nl)
 
 with the help of the people mentioned above.
