@@ -3,7 +3,7 @@
 @description=numeric value of corrected number-like strings
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2022-01-06T12:36:38Z
+@dateWritten=2022-01-06T12:43:59Z
 
 12000	1151
 374051	670
