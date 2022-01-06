@@ -1,0 +1,41 @@
+@node
+@creator=Dirk Roorda
+@description=identifier of a named entity
+@valueType=str
+@writtenBy=Text-Fabric
+@dateWritten=2020-11-17T08:52:34Z
+
+1048	T11
+T11
+1144	T12
+1146	T1
+1150	T13
+1167	T11
+1196	T15
+1203	T16
+1250	T17
+1255	T2
+1259	T3
+T3
+T4
+1264	T5
+T5
+1271	T6
+1273	T2
+T2
+1289	T7
+1298	T8
+T8
+1314	T9
+1330	T10
+5054871	T11
+5054879	T13
+T11
+5054882	T15
+T16
+5054889	T17
+T2
+T2
+T8
+5054894	T9
+T10

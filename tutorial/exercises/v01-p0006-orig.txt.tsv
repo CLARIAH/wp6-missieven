@@ -1,0 +1,19 @@
+start	end	entityId	entityKind	entityComment
+675	679	T1	Person	
+1181	1189	T2	GPE	Ternate
+1203	1223	T3	Person	
+1215	1223	T4	GPE	
+1240	1254	T5	Organization	
+1293	1300	T6	Person	
+1406	1413	T7	Person	
+1457	1471	T8	Organization	
+1557	1562	T9	GPE	
+1653	1662	T10	GPE	
+58	65	T11	Person	
+663	670	T12	Person	
+697	706	T13	Person	
+794	802	T11	Person	
+965	975	T15	GPE	
+1010	1019	T16	Person	
+1154	1161	T17	GPE	Amboina
+1305	1322	T2	GPE	Ternate

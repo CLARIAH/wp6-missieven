@@ -1,0 +1,38 @@
+.remark {
+  font-size: large;
+  font-style: italic;
+}
+.folio {
+  font-size: small;
+  color: #668866;
+}
+.fmark:after {
+  font-size: small;
+  font-weight: bold;
+  vertical-align: super;
+  color: #ddaa22;
+}
+.note {
+  vertical-align: super;
+  font-size: small;
+  color: #774400;
+}
+.ref {
+  font-size: small;
+  font-weight: bold;
+  color: #666688;
+}
+.emph {
+  font-style: italic;
+}
+.und {
+  text-decoration: underline;
+}
+.super {
+  vertical-align: super;
+}
+.special {
+  font-family: monospace;
+  font-weight: bold;
+  color: #886666;
+}

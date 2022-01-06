@@ -1,0 +1,23 @@
+T1	Person 675 679	Nera
+T2	GPE 1181 1189	Ternnate
+#1	AnnotatorNotes T2	Ternate
+T3	Person 1203 1223	Coninck van Spagnien
+T4	GPE 1215 1223	Spagnien
+T5	Organization 1240 1254	Heeren Staeten
+T6	Person 1293 1300	Coninck
+T7	Person 1406 1413	Coninck
+T8	Organization 1457 1471	Heeren Staeten
+T9	GPE 1557 1562	Banda
+T10	GPE 1653 1662	Engelsche
+T11	Person 58 65	orancay
+T12	Person 663 670	arancay
+T13	Person 697 706	sabandaer
+T14	Person 794 802	orancaye
+T15	GPE 965 975	Hollanders
+T16	Person 1010 1019	Verhoeven
+T17	GPE 1154 1161	Ambojna
+#2	AnnotatorNotes T17	Amboina
+T18	GPE 1305 1310;1311 1322	ditto 24. plaetse
+#3	AnnotatorNotes T18	Ternate
+*	Alias T11 T14
+R1	Geographical_part Arg1:T2 Arg2:T18	
