@@ -121,7 +121,7 @@ The Missieven corpus is an example how that works.
 # Getting started
 
 Start with the
-[tutorial](https://nbviewer.jupyter.org/github/annotation/clariah-gm/blob/master/tutorial/start.ipynb).
+[tutorial](https://nbviewer.jupyter.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb).
 
 See
 [other corpora](https://annotation.github.io/text-fabric/tf/about/corpora.html)
@@ -135,7 +135,7 @@ and is particularly suited to Jupyter notebooks and lab.
 We have generated a search interface for the missieven from the Text-Fabric data.
 
 Just click
-[missieven-search](https://annotation.github.io/clariah-gm-search/)
+[missieven-search](https://CLARIAH.github.io/wp6-gm-search/)
 and off you go.
 
 It is experimental.
@@ -188,7 +188,7 @@ The main concern was to get a correct separation between the kinds of text:
 * footnotes
 * page headers and footers
 
-[trimTei.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei.py)
+[trimTei.py](https://github.com/CLARIAH/wp6-missieven/blob/master/programs/trimTei.py)
 consists of a battery of 4 conversions to clean the incoming TEI ,
 leaving out all bits that do not end up in the final dataset,
 and reorganizing some material to facilitate the conversion to TF.
@@ -202,7 +202,7 @@ Then I used the
 [walker module from TF](https://annotation.github.io/text-fabric/tf/convert/walker.html)
 to turn the simple XML into Text-Fabric.
 See
-[tfFromTrim.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromTrim.py).
+[tfFromTrim.py](https://github.com/CLAARIAH/wp6-missieven/blob/master/programs/tfFromTrim.py).
 
 For details about the features of the end result, see 
 [transcription](docs/transcription.md)
@@ -232,7 +232,7 @@ In this repo we show how to set up a local Blacklab server and front-end and how
 present data into Blacklab.
 
 **This is work in progress**, at this point follow the
-[blacklab install guide for macos](https://github.com/Dans-labs/clariah-gm/blob/master/blacklab/install.md).
+[blacklab install guide for macos](https://github.com/CLARIAH/wp6-missieven/blob/master/blacklab/install.md).
 
 Thanks to Jesse de Does (key user of Blacklab, INT) and
 Jan Niestadt (main author of Blacklab, INT) for helping out with setting up and using Blacklab.
