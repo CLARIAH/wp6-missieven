@@ -21,8 +21,8 @@ def readYaml(fileName):
 # LOCATIONS
 
 BASE = os.path.expanduser("~/github")
-ORG = "Dans-labs"
-REPO = "clariah-gm"
+ORG = "clariah"
+REPO = "wp6-missieven"
 
 REPO_DIR = f"{BASE}/{ORG}/{REPO}"
 SOURCE_DIR = f"{REPO_DIR}/_local"
