@@ -1,0 +1,185 @@
+I     [ 1] 0016 band i   30 line   860
+I     [ 2] 0017 band i   31 line   885
+I     [ 3] 0019 band i   33 line   986
+I     [ 4] 0020 band i   34 line  1075
+I     [ 5] 0028 band i   42 line  1492
+II    [ 1] 0034 band i   48 line  1754
+II    [ 2] 0040 band i   54 line  2104
+II    [ 3] 0049 band i   63 line  2670
+II    [ 4] 0053 band i   67 line  2950
+II    [ 5] 0055 band i   69 line  3067
+II    [ 6] 0060 band i   74 line  3369
+II    [ 7] 0060 band i   74 line  3372
+II    [ 8] 0064 band i   78 line  3555
+II    [ 9] 0064 band i   78 line  3567
+II    [10] 0068 band i   82 line  3844
+II    [11] 0092 band i  106 line  5427
+II    [12] 0097 band i  111 line  6024
+II    [13] 0118 band i  132 line  7746
+II    [14] 0119 band i  133 line  7829
+II    [15] 0119 band i  133 line  7833
+II    [16] 0119 band i  133 line  7842
+II    [17] 0126 band i  140 line  8353
+II    [18] 0140 band i  154 line  9298
+III   [ 1] 0157 band i  171 line 10220
+IV    [ 1] 0181 band i  195 line 11419
+V     [ 1] 0199 band i  213 line 12397
+V     [ 2] 0207 band i  221 line 12890
+V     [ 3] 0208 band i  222 line 12942
+V     [ 4] 0208 band i  222 line 12972
+V     [ 5] 0208 band i  222 line 12982
+V     [ 6] 0211 band i  225 line 13153
+V     [ 7] 0216 band i  230 line 13466
+V     [ 8] 0223 band i  237 line 13948
+V     [ 9] 0232 band i  246 line 14695
+V     [10] 0235 band i  249 line 14892
+V     [11] 0252 band i  266 line 16610
+V     [12] 0257 band i  271 line 16850
+V     [13] 0257 band i  271 line 16876
+V     [14] 0284 band i  298 line 18506
+V     [15] 0286 band i  300 line 18604
+V     [16] 0288 band i  302 line 18805
+VI    [ 1] 0307 band i  321 line 19767
+VII   [ 1] 0315 band i  329 line 20149
+VII   [ 2] 0316 band i  330 line 20178
+VII   [ 3] 0316 band i  330 line 20191
+VII   [ 4] 0324 band i  338 line 20711
+VII   [ 5] 0332 band i  346 line 21174
+VII   [ 6] 0340 band i  354 line 21602
+VII   [ 7] 0346 band i  360 line 21981
+VII   [ 8] 0346 band i  360 line 21987
+VIII  [ 1] 0353 band i  367 line 22299
+VIII  [ 2] 0361 band i  375 line 22809
+VIII  [ 3] 0363 band i  377 line 22906
+VIII  [ 4] 0366 band i  380 line 23076
+VIII  [ 5] 0366 band i  380 line 23117
+VIII  [ 6] 0372 band i  386 line 23487
+VIII  [ 7] 0377 band i  391 line 23756
+VIII  [ 8] 0380 band i  394 line 24043
+VIII  [ 9] 0396 band i  410 line 25244
+VIII  [10] 0403 band i  417 line 25871
+VIII  [11] 0407 band i  421 line 26059
+VIII  [12] 0411 band i  425 line 26267
+VIII  [13] 0415 band i  429 line 26894
+VIII  [14] 0416 band i  430 line 27068
+VIII  [15] 0422 band i  436 line 27638
+VIII  [16] 0423 band i  437 line 27672
+VIII  [17] 0433 band i  447 line 28214
+VIII  [18] 0436 band i  450 line 28384
+VIII  [19] 0439 band i  453 line 28589
+VIII  [20] 0452 band i  466 line 29362
+VIII  [21] 0457 band i  471 line 29695
+VIII  [22] 0458 band i  472 line 29706
+VIII  [23] 0459 band i  473 line 29778
+VIII  [24] 0459 band i  473 line 29808
+VIII  [25] 0461 band i  475 line 29924
+VIII  [26] 0464 band i  478 line 30050
+VIII  [27] 0464 band i  478 line 30078
+VIII  [28] 0465 band i  479 line 30100
+VIII  [29] 0477 band i  491 line 30853
+X     [ 1] 0500 band i  514 line 31985
+X     [ 2] 0508 band i  522 line 32452
+X     [ 3] 0510 band i  524 line 32540
+X     [ 4] 0515 band i  529 line 32808
+X     [ 5] 0523 band i  537 line 33238
+X     [ 6] 0524 band i  538 line 33286
+X     [ 7] 0525 band i  539 line 33331
+X     [ 8] 0528 band i  542 line 33549
+X     [ 9] 0530 band i  544 line 33662
+X     [10] 0533 band i  547 line 33802
+X     [11] 0535 band i  549 line 33887
+XI    [ 1] 0540 band ii  14 line 34195
+XI    [ 2] 0560 band ii  34 line 35375
+XI    [ 3] 0567 band ii  41 line 35713
+XI    [ 4] 0572 band ii  46 line 36093
+XI    [ 5] 0596 band ii  70 line 37675
+XI    [ 6] 0605 band ii  79 line 38166
+XI    [ 7] 0605 band ii  79 line 38187
+XI    [ 8] 0611 band ii  85 line 39274
+XI    [ 9] 0613 band ii  87 line 39360
+XI    [10] 0614 band ii  88 line 39431
+XI    [11] 0615 band ii  89 line 39481
+XI    [12] 0616 band ii  90 line 39530
+XI    [13] 0619 band ii  93 line 39727
+XI    [14] 0626 band ii 100 line 40138
+XI    [15] 0630 band ii 104 line 40372
+XI    [16] 0636 band ii 110 line 40685
+XI    [17] 0639 band ii 113 line 40855
+XI    [18] 0643 band ii 117 line 41109
+XI    [19] 0647 band ii 121 line 41347
+XI    [20] 0657 band ii 131 line 42328
+XI    [21] 0660 band ii 134 line 42490
+XI    [22] 0661 band ii 135 line 42547
+XIII  [ 1] 0695 band ii 169 line 44450
+XIII  [ 2] 0709 band ii 183 line 45238
+XIII  [ 3] 0720 band ii 194 line 45814
+XIII  [ 4] 0724 band ii 198 line 46065
+XIII  [ 5] 0726 band ii 200 line 46150
+XIII  [ 6] 0726 band ii 200 line 46152
+XIII  [ 7] 0729 band ii 203 line 46324
+XIII  [ 8] 0729 band ii 203 line 46332
+XIII  [ 9] 0737 band ii 211 line 46786
+XIII  [10] 0737 band ii 211 line 46793
+XIII  [11] 0741 band ii 215 line 46986
+XIV   [ 1] 0754 band ii 228 line 47623
+XIV   [ 2] 0754 band ii 228 line 47634
+XIV   [ 3] 0755 band ii 229 line 47684
+XIV   [ 4] 0758 band ii 232 line 47849
+XIV   [ 5] 0758 band ii 232 line 47875
+XIV   [ 6] 0759 band ii 233 line 47922
+XIV   [ 7] 0761 band ii 235 line 48004
+XIV   [ 8] 0767 band ii 241 line 48368
+XIV   [ 9] 0767 band ii 241 line 48405
+XIV   [10] 0770 band ii 244 line 48524
+XIV   [11] 0784 band ii 258 line 49472
+XIV   [12] 0787 band ii 261 line 49659
+XIV   [13] 0802 band ii 276 line 50590
+XIV   [14] 0804 band ii 278 line 50723
+XIV   [15] 0804 band ii 278 line 50730
+XIV   [16] 0805 band ii 279 line 50767
+XIV   [17] 0820 band ii 294 line 52217
+XIV   [18] 0822 band ii 296 line 52341
+XIV   [19] 0825 band ii 299 line 52516
+XIV   [20] 0829 band ii 303 line 52726
+XIV   [21] 0831 band ii 305 line 52841
+XIV   [22] 0832 band ii 306 line 52884
+XIV   [23] 0833 band ii 307 line 52961
+XIV   [24] 0834 band ii 308 line 53030
+XIV   [25] 0838 band ii 312 line 53280
+XIV   [26] 0839 band ii 313 line 53348
+XIV   [27] 0843 band ii 317 line 53531
+XIV   [28] 0848 band ii 322 line 53842
+XIV   [29] 0855 band ii 329 line 54300
+XIV   [30] 0862 band ii 336 line 54765
+XIV   [31] 0872 band ii 346 line 55409
+XIV   [32] 0873 band ii 347 line 55626
+XIV   [33] 0874 band ii 348 line 55680
+XIV   [34] 0878 band ii 352 line 55918
+XV    [ 1] 0886 band ii 360 line 56328
+XV    [ 2] 0886 band ii 360 line 56340
+XVI   [ 1] 0929 band ii 403 line 58711
+XVII  [ 1] 0959 band ii 433 line 60384
+XVII  [ 2] 0962 band ii 436 line 60573
+XVII  [ 3] 0964 band ii 438 line 60643
+XVII  [ 4] 0964 band ii 438 line 60657
+XVII  [ 5] 0969 band ii 443 line 61052
+XVII  [ 6] 0973 band ii 447 line 61313
+XVII  [ 7] 0979 band ii 453 line 61747
+XVII  [ 8] 0982 band ii 456 line 61908
+XVII  [ 9] 0987 band ii 461 line 62209
+XVII  [10] 0988 band ii 462 line 62246
+XVII  [11] 0988 band ii 462 line 62287
+XVII  [12] 0993 band ii 467 line 62521
+XVII  [13] 0999 band ii 473 line 63165
+XVII  [14] 1002 band ii 476 line 63341
+XVII  [15] 1005 band ii 479 line 63460
+XVII  [16] 1012 band ii 486 line 63860
+XVII  [17] 1016 band ii 490 line 64077
+XVII  [18] 1020 band ii 494 line 64338
+XVII  [20] 1046 band ii 520 line 65872
+XVII  [21] 1050 band ii 524 line 66149
+XVII  [22] 1054 band ii 528 line 66328
+XVII  [23] 1054 band ii 528 line 66357
+XVII  [24] 1055 band ii 529 line 66387
+XVIII [ 1] 1067 band ii 541 line 67036
+XVIII [ 2] 1074 band ii 548 line 67422
