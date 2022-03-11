@@ -176,10 +176,11 @@ XVII  [15] 1005 band ii 479 line 63460
 XVII  [16] 1012 band ii 486 line 63860
 XVII  [17] 1016 band ii 490 line 64077
 XVII  [18] 1020 band ii 494 line 64338
-XVII  [20] 1046 band ii 520 line 65872
-XVII  [21] 1050 band ii 524 line 66149
-XVII  [22] 1054 band ii 528 line 66328
-XVII  [23] 1054 band ii 528 line 66357
-XVII  [24] 1055 band ii 529 line 66387
-XVIII [ 1] 1067 band ii 541 line 67036
-XVIII [ 2] 1074 band ii 548 line 67422
+XVII  [19] 1023 band ii 497 line 64512
+XVII  [20] 1046 band ii 520 line 65928
+XVII  [21] 1050 band ii 524 line 66205
+XVII  [22] 1054 band ii 528 line 66384
+XVII  [23] 1054 band ii 528 line 66413
+XVII  [24] 1055 band ii 529 line 66443
+XVIII [ 1] 1067 band ii 541 line 67092
+XVIII [ 2] 1074 band ii 548 line 67478

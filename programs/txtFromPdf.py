@@ -284,19 +284,31 @@ def dataFromPdf(export=False):
     pages = []
 
     for subDir in sorted(glob(f"{PDF_DIR}/*")):
+        if not os.path.isdir(subDir):
+            continue
         band = subDir.rsplit("-", 1)[1]
         thisPageInfo = PAGE_INFO[band]
         start = thisPageInfo["start"]
         end = thisPageInfo["end"]
         offset = thisPageInfo["offset"]
         for pdfPath in sorted(glob(f"{subDir}/*.pdf")):
-            pageNum = int(pdfPath.rsplit(".", 1)[0].rsplit("_", 1)[1].lstrip("0"))
-            if pageNum < start or pageNum > end:
+            filePageNum = int(pdfPath.rsplit(".", 1)[0].rsplit("_", 1)[1].lstrip("0"))
+            if filePageNum < start or filePageNum > end:
                 continue
+
+            pageNum = filePageNum + offset
             if os.path.getsize(pdfPath) == 0:
-                print(f"\nSKIP EMPTY {pdfPath}")
-                continue
-            pages.append((band, pageNum, pageNum + offset, pdfPath))
+                textPath = f"{PDF_DIR}/{pageNum}.txt"
+                fmtPath = f"{PDF_DIR}/{pageNum}.fmt"
+                if os.path.exists(textPath) and os.path.exists(fmtPath):
+                    fileSpec = (textPath, fmtPath)
+                    print(f"\nREPLACE EMPTY {pdfPath} by supplied {pageNum}.txt/fmt")
+                else:
+                    print(f"\nSKIP EMPTY {pdfPath}")
+                    continue
+            else:
+                fileSpec = pdfPath
+            pages.append((band, filePageNum, pageNum, fileSpec))
 
     fh = open(FMT_FILE, "w")
     hh = open(HEAD_FILE, "w")
@@ -304,8 +316,19 @@ def dataFromPdf(export=False):
 
     with open(TEXT_FILE, "w") as th:
         mainTitle = True
-        for (band, filePageNum, pageNum, pdfPath) in pages:
+        for (band, filePageNum, pageNum, fileSpec) in pages:
             sys.stderr.write(f"\r{band:>2} {filePageNum:>04} = {pageNum:>04}")
+            if type(fileSpec) is tuple:
+                (textPath, fmtPath) = fileSpec
+                with open(textPath) as ih:
+                    for line in ih:
+                        th.write(line)
+                with open(fmtPath) as ih:
+                    for line in ih:
+                        fh.write(line)
+                continue
+
+            pdfPath = fileSpec
             (pg, headText, texts, fmts, theseNewLines) = readPdf(
                 pageNum, pdfPath, mainTitle=mainTitle, export=export
             )

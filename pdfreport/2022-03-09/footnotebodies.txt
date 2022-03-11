@@ -532,25 +532,27 @@ XVII  1016 band ii 490 lines 64125-64126
 XVII  1020 band ii 494 lines 64374-64375
 	18. Baxos, klippen voor de zuidkust van Ceylon ten oosten van Matara.
 
-GAP BEFORE
-XVII  1046 band ii 520 lines 65881-65882
+XVII  1023 band ii 497 lines 64537-64539
+	19. Attoers; atepattu is een wachter van een dessave; everdoek is ruwe stof ook gebruikt als werk-kleding; wellicht dus het doek gebruikt als werkkleding voor een atepattu. 
+
+XVII  1046 band ii 520 lines 65937-65938
 	20. Bedoeld lijkt tontine of onderlinge levensverzekering.
 
-XVII  1050 band ii 524 lines 66162-66163
+XVII  1050 band ii 524 lines 66218-66219
 	21. Johannis of dubloen, een munt, de zogenaamde Johannis van Portugal.
 
-XVII  1054 band ii 528 lines 66378-66381
+XVII  1054 band ii 528 lines 66434-66437
 	22. Ploeserscagie, modern ploeserskagie; plaats waar ploesers, zekere vaartuigen, op een rek, ka-gie, worden opgeslagen.
 
-XVII  1054 band ii 528 lines 66381-66382
+XVII  1054 band ii 528 lines 66437-66438
 	23. Op Malabarse wijze duidt hier op Maduraise wijze.
 
-XVII  1055 band ii 529 lines 66439-66440
+XVII  1055 band ii 529 lines 66495-66496
 	24. Zie Van der Chijs, N-I plakaatboek 8, p. 171.
 
-XVIII 1067 band ii 541 lines 67058-67059
+XVIII 1067 band ii 541 lines 67114-67115
 	1. Dit getal is niet goed leesbaar.
 
-XVIII 1074 band ii 548 lines 67454-67455
+XVIII 1074 band ii 548 lines 67510-67511
 	2. L’Aventure, dit Engelse schip heette waarschijnlijk Adventure
 

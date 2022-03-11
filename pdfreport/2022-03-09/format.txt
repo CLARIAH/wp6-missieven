@@ -64482,6 +64482,62 @@
 > st=i
 > st=i
 > st=i
+====1023 file=ii 0497
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+  x=194,y=-3,st=sup,s=xsmall
+  x=199,st=i
+> st=i
+> st=i
+> st=i
+> in=>
+> 
+> 
+> 
+  x=173
+  x=174
+> 
+> 
+> 
+> 
+> 
+> 
+> s=small
+> in=>,st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> st=i
+> y=39,s=small
+> in=>,y=0,s=small
+> in=>,y=10,s=small
 ====1024 file=ii 0498
 > st=i
 > st=i
