@@ -14,6 +14,8 @@
 
 # Status
 
+*   2022-04-11 Additional volumes: Volume 14, bands (i) and (ii) are in the process of being converted from
+    textual pdf to Text-Fabric. Most structure has been recognized, but no TF has been generated yet.
 *   2021-07-22 Additional data corrections: letters that have no page break elements were
     not part of a page. That has been remedied (0.9), with the earlier corrections by Sophie on top of it (0.9.1).
 *   2021-06-17 Data corrections by Sophie Arnoult have been applied (0.8.1)

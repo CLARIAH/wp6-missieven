@@ -33,6 +33,8 @@ TEST_DIR = f"{SOURCE_DIR}/test"
 TEXT_DIR = f"{SOURCE_DIR}/text/{PDF_VERSION}"
 TEXT_FILE = f"{PDF_REPORT_DIR}/text.txt"
 FMT_FILE = f"{PDF_REPORT_DIR}/format.txt"
+STRUCT_FILE = f"{PDF_REPORT_DIR}/struct.txt"
+FINE_FILE = f"{PDF_REPORT_DIR}/fine.txt"
 HEAD_FILE = f"{PDF_REPORT_DIR}/head.txt"
 TIT_FILE = f"{PDF_REPORT_DIR}/titles.txt"
 FN_BODY_FILE = f"{PDF_REPORT_DIR}/footnotebodies.txt"
@@ -83,6 +85,12 @@ ENSURE_LB_ELEMENTS = set(
 )
 
 A2Z = "abcdefghijklmnopqrstuvwxyz"
+
+
+def ucFirst(word):
+    if word is None or word == "":
+        return word
+    return f"{word[0].upper()}{word[1:]}"
 
 
 def parseArgs(args):
