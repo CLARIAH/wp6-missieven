@@ -1,12 +1,12 @@
 @node
 @creator=Dirk Roorda
-@dateWritten=2022-05-04T14:15:22Z
+@dateWritten=2022-05-04T14:52:04Z
 @description=kind of a named entity
 @upgraded=‼️ from version 0.4 to 1.0
 @valueType=str
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T14:17:20Z
+@dateWritten=2022-05-04T14:52:35Z
 
 1242	Person
 1252	Person

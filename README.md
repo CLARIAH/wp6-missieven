@@ -3,6 +3,7 @@
 <img src="docs/images/huygenslogo.png" align="right" width="200"/>
 <img src="docs/images/tf.png" align="right" width="200"/>
 <img src="docs/images/dans.png" align="right" width="100"/>
+<img src="docs/images/huc.png" align="right" width="100"/>
 </div>
 
 # General Missives

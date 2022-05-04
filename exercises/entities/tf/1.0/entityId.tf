@@ -1,12 +1,12 @@
 @node
 @creator=Dirk Roorda
-@dateWritten=2022-05-04T14:15:22Z
+@dateWritten=2022-05-04T14:52:04Z
 @description=identifier of a named entity
 @upgraded=‼️ from version 0.4 to 1.0
 @valueType=str
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T14:17:20Z
+@dateWritten=2022-05-04T14:52:35Z
 
 1242	T11
 1252	T11
