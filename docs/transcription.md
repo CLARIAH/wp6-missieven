@@ -1,25 +1,18 @@
 # Source format
 
-The source data for the TF conversion is in 
-[TEI format](https://tei-c.org).
-
-The version number of the TEI set is used in the
-[tfFromTrim](https://github.com/Dans-labs/clariah-gm/blob/master/programs/tfFromTrim.py)
-conversion.
+The source data for the TF conversion of volumes 1-13 is in 
+[TEI format](https://tei-c.org) and the source of volume 14, bands i and ii is in PDF.
 
 We have created several TF data versions out of a single source version.
-The TF-App `missieven` states the TEI source version and TF version used in its metadata
-in its
-[config.yaml](https://github.com/annotation/app-missieven/blob/master/code/config.yaml).
-That will be the latest available version.
 
-There has been an encoding modification concerning footnotes from version 0.6 to version 0.7.
+There has been an encoding modification concerning footnotes
+from version 0.6 to version 0.7.
 See [transcription06](transcription06.md) for details on the previous encoding.
 
-The TEI source has been cleaned and the result is captured in a set of simplified, TEI-like XML files,
-in this repo.
+The TEI source has been cleaned and the result is captured
+in a set of simplified, TEI-like XML files, in this repo.
 For an overview of the element usage in those files, see
-[elementsOut.tsv](https://github.com/Dans-labs/clariah-gm/blob/master/trimreport4/elementsOut.tsv).
+[elementsOut.tsv](https://github.com/CLARIAH/wp6-missieven/blob/master/trimreport4/elementsOut.tsv).
 
 Here is a short explanation
 
@@ -40,20 +33,23 @@ emph | italic text
 und | underlined text
 sub | subscript text
 super | superscript text
+q | fractional number with numerator and denominator
+num | numerator in a fraction (see q-element)
+den | denominator in a fraction (see q-element)
 special | text with special typography for whatever reason
 note | footnote bodies, moved into the main text, with `mark` attribute containing the footnote number
 folio | reference to original folio
 
-This XML has been converted rather straightforwardly into Text-Fabric, which is a graph of annotated
-nodes.
+This XML has been converted rather straightforwardly into Text-Fabric,
+which is a graph of annotated nodes.
 
 ## Metadata
 
-We have compared the given metadata with metadata we distill from the letter heads and resolved
-all disagreements.
+We have compared the given metadata with metadata we distill from
+the letter heads and resolved all disagreements.
 
 A complete account is in 
-[metaDiagnostics.txt](https://github.com/Dans-labs/clariah-gm/blob/master/trimreport2/metaDiagnostics.txt).
+[metaDiagnostics.txt](https://github.com/CLARIAH/wp6-missieven/blob/master/trimreport2/metaDiagnostics.txt).
 
 
 ## Text
@@ -98,7 +94,7 @@ one or more off w.r.t. the footnote number you see in the original.
 
 If there are multiple footnotes to the same word, we concatenate
 the material of the footnotes (including their marks).
-However, this does not occur in this corpus/
+However, this does not occur in this corpus.
 
 ## Nodes
 
@@ -179,14 +175,17 @@ All **word** features:
 
 feature | type | description
 --- | --- | ---
+isden | 1 or absent | whether the word is in the denominator of a fraction
 isemph | 1 or absent | whether the word is set in emphatic typography
 isfolio | 1 or absent | whether the word is part of a folio reference
 isnote | 1 or absent | whether the word is part of a footnote
+isnum | 1 or absent | whether the word is in the numerator of a fraction
 isorig | 1 or absent | whether the word is part of a the original text of the letters
 isref | 1 or absent | whether the word belongs to a reference
 isremark | 1 or absent | whether the word belongs to editorial content
-issub | 1 or absent | whether the word is in subscript, possibly the numerator of a fraction
-issuper | 1 or absent | whether the word is in superscript, possibly the numerator of a fraction
+isq | 1 or absent | whether the word is in a fraction, either as numerator or as denominator
+issub | 1 or absent | whether the word is in subscript
+issuper | 1 or absent | whether the word is in superscript
 isspecial | 1 or absent | whether the word has special typography or a strange value (possibly OCR effects)
 isund | 1 or absent | whether the word is underlined, possibly the total amount in a calculation
 punc | string | punctuation and or white space after the word
@@ -336,6 +335,7 @@ feature | type | description
 col | integer | the number of the column within the row
 n | integer | the number of the table within the whole corpus
 row | integer | the number of the row within the table
+x | integer | the x-offset where the column starts in the original layout of the page
 
 
 ### node type `head`
@@ -344,6 +344,7 @@ The letter heading.
 Each letter has exactly one heading.
 
 This node type has no features, it only serves to group the words of the headings.
+
 
 ### node type `subhead`
 

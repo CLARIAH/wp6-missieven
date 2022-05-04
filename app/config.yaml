@@ -16,16 +16,17 @@ dataDisplay:
     layout-orig:
       method:  layoutOrig
 docs:
-  docPage: transcription
+  docPage: about
   featureBase: 'https://github.com/{org}/{repo}/blob/master/docs/transcription{docExt}'
   featurePage: ''
 interfaceDefaults: {}
 provenanceSpec:
   corpus: 'General Missives Dutch East India Company 1600-1800'
   doi: 10.5281/zenodo.4011801
-  version: 0.9.1
+  version: 1.0
   webBase: http://resources.huygens.knaw.nl/retroboeken/generalemissiven
   webHint: Show this document on Huygens
+  webFeature: weblink
   webUrl: '{webBase}/#page=<2>&source=<1>'
   webOffset:
     2:

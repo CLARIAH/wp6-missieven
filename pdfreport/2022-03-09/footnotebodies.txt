@@ -29,19 +29,19 @@ II    0055 band i   69 lines  3111- 3112
 	5. Deze berekening is onduidelijk; het lijkt dat de schuld op ƒ 37.515 uitkomt.
 
 II    0060 band i   74 lines  3386- 3388
-	6. In een andere hand is dit opgeteld tot 1.049.038 lb.
+	6. In een andere hand is dit opgeteld tot 1.049.038 lb.7 
 
 II    0060 band i   74 lines  3388- 3389
 	7. In de marge staat een optelling: 3.023.663 + 100.000 = 3.123.663.
 
 II    0064 band i   78 lines  3627- 3629
-	8. De luang krai is een ambtsdrager aan het hof van Siam.
+	8. De luang krai is een ambtsdrager aan het hof van Siam.9 
 
 II    0064 band i   78 lines  3629- 3630
 	9. De okluang choduk is een ambtsdrager aan het hof van Siam.
 
 II    0068 band i   82 lines  3872- 3875
-	10. Zie voor dit verdrag 
+	10. Zie voor dit verdrag <ref>Corpus 6, </ref>p. 215-218.
 
 II    0092 band i  106 lines  5433- 5435
 	11. Semien semianna, een aan de zijden open tent waarin een hoge persoon mensen ontvangt; deze radja hield waarschijnlijk hof in zo’n tent.
@@ -53,10 +53,10 @@ II    0118 band i  132 lines  7782- 7784
 	13. Colinjas cordiaal, kalanjus is een gewichtseenheid in Malabar, cordia is aloëhout (Vriendelijke mededeling Dr. Mark de Lannoy).
 
 II    0119 band i  133 lines  7851- 7853
-	14. Muttu en Kunu zijn twee eilanden even bezuiden Cranganur.
+	14. Muttu en Kunu zijn twee eilanden even bezuiden Cranganur.15 
 
 II    0119 band i  133 lines  7853- 7855
-	15. Het Onamfeest valt jaarlijks in februari / maart.
+	15. Het Onamfeest valt jaarlijks in februari / maart.16 
 
 II    0119 band i  133 lines  7855- 7856
 	16. Pappinivattam in de tekst Paponetty genoemd.
@@ -80,10 +80,10 @@ V     0207 band i  221 lines 12920-12922
 	2. Het origineel heeft Calawaut hier geïdenficeerd als het eiland Kalaotoa. Het zou ook Kalao kunnen zijn.
 
 V     0208 band i  222 lines 12984-12986
-	3. Onzeker wat is bedoeld; wellicht het eiland Kalao dan wel Kalaotoa.
+	3. Onzeker wat is bedoeld; wellicht het eiland Kalao dan wel Kalaotoa.4 
 
 V     0208 band i  222 lines 12986-12988
-	4. Ten rechte ƒ 6.656,16,8.
+	4. Ten rechte ƒ 6.656,16,8.5 
 
 V     0208 band i  222 lines 12988-12989
 	5. Ten rechte ƒ 18.068,16,-.
@@ -107,7 +107,7 @@ V     0252 band i  266 lines 16614-16615
 	11. Dit bedrag van ƒ 257.255 is moeilijk te rijmen met dat van ƒ 300.772.
 
 V     0257 band i  271 lines 16896-16898
-	12. Pandanie, een pandy is een sipoy van hoge kaste.
+	12. Pandanie, een pandy is een sipoy van hoge kaste.13 
 
 V     0257 band i  271 lines 16898-16899
 	13. Ten rechte 146.430 cotti meer.
@@ -128,10 +128,10 @@ VII   0315 band i  329 lines 20158-20159
 	1. Er is in de tekst verschil tussen de bedragen.
 
 VII   0316 band i  330 lines 20211-20215
-	2. In de marge staat hier 1
+	2. In de marge staat hier 1e.3 
 
 VII   0316 band i  330 lines 20215-20218
-	3. In de marge staat hier 2
+	3. In de marge staat hier 2e.
 
 VII   0324 band i  338 lines 20755-20756
 	4. Een ongenummerde folio.
@@ -140,10 +140,10 @@ VII   0332 band i  346 lines 21216-21217
 	5. Dit is onduidelijk; wellicht wordt niet 3.500.000 lb, maar 350.000 lb bedoeld.
 
 VII   0340 band i  354 lines 21647-21653
-	6. Camsaayba, waarschijnlijk een verbastering van Khan Sahib. Sahib betekent, evenals khan, heer. In deze jaren betwistten twee plaatselijke machthebbers, Maphuz Khan Sahib en Ysuff Khan, na elkaar Travancore gebied in het oosten, net over de Western Ghats (vancore
+	6. Camsaayba, waarschijnlijk een verbastering van Khan Sahib. Sahib betekent, evenals khan, heer. In deze jaren betwistten twee plaatselijke machthebbers, Maphuz Khan Sahib en Ysuff Khan, na elkaar Travancore gebied in het oosten, net over de Western Ghats (<ref>History of Tra-</ref>vancore, p. 144-145).
 
 VII   0346 band i  360 lines 21990-21992
-	7. Er zijn  twee folio’s 144.
+	7. Er zijn  twee folio’s 144.8 
 
 VII   0346 band i  360 lines 21992-21993
 	8. Deze tegenspraak is onduidelijk
@@ -158,7 +158,7 @@ VIII  0363 band i  377 lines 22939-22940
 	3. Eiland met deze naam onbekend; waarschijnlijk een eiland zuidelijk in Straat Sape.
 
 VIII  0366 band i  380 lines 23128-23130
-	4. Moerbalken, stevige doorlopende en dragende balken.
+	4. Moerbalken, stevige doorlopende en dragende balken.5 
 
 VIII  0366 band i  380 lines 23130-23132
 	5. Dit zou betekenen dat deze uitgaven ƒ 19.577 – ƒ 7204 = ƒ 12.373 hebben bedragen. In de tekst staat echter ƒ 23.452, waarvan de vier onzeker is.
@@ -215,7 +215,7 @@ VIII  0458 band i  472 lines 29757-29758
 	22. Het aantal wordt niet vermeld.
 
 VIII  0459 band i  473 lines 29822-29824
-	23. Jongsten bedoeld lijkt jonken.
+	23. Jongsten bedoeld lijkt jonken.24 
 
 VIII  0459 band i  473 lines 29824-29825
 	24. Dit getal is onduidelijk;  2.086.500 + 589.875 = 2.676.375.
@@ -224,7 +224,7 @@ VIII  0461 band i  475 lines 29929-29931
 	25. Hoewel het niet expliciet wordt vermeld, moet dit wel een vonnis van de Raad van Justitie zijn.
 
 VIII  0464 band i  478 lines 30091-30093
-	26. Verbodsdag, dag voor de eredienst, waarop geen werk mag worden verricht.
+	26. Verbodsdag, dag voor de eredienst, waarop geen werk mag worden verricht.27 
 
 VIII  0464 band i  478 lines 30093-30094
 	27. Informator, leraar, instructeur.
@@ -284,7 +284,7 @@ XI    0596 band ii  70 lines 37755-37756
 	5. Dit aantal is niet duidelijk.
 
 XI    0605 band ii  79 lines 38267-38269
-	6. Hiermee wordt waarschijnlijk op de nawab van Awadh Shuja-ud-daula gedoeld.
+	6. Hiermee wordt waarschijnlijk op de nawab van Awadh Shuja-ud-daula gedoeld.7 
 
 XI    0605 band ii  79 lines 38269-38270
 	7. Golah, opslagplaats meestal voor graan of zout.
@@ -323,7 +323,7 @@ XI    0643 band ii 117 lines 41176-41177
 	18. Dit bedrag is onduidelijk.
 
 XI    0647 band ii 121 lines 41406-41409
-	19. Tenrechte lb 1.052.412, of 2104 
+	19. Tenrechte lb 1.052.412, of 2104 4/5 kandijl.
 
 XI    0657 band ii 131 lines 42402-42403
 	20. Dit bedrag is onduidelijk; het zou ƒ 4343 moeten zijn.
@@ -347,19 +347,19 @@ XIII  0724 band ii 198 lines 46145-46147
 	4. Bengaaij, Banggai oostpunt van Midden-Celebes, of de Banggai eilanden ten zuidoosten daar-van.
 
 XIII  0726 band ii 200 lines 46253-46256
-	5. Datu Jerewe, waarschijnlijk Aqa ad-Din Datu Djarewa in 1765 vorst van Bima (Truhart II, p. 1710).
+	5. Datu Jerewe, waarschijnlijk Aqa ad-Din Datu Djarewa in 1765 vorst van Bima (Truhart II, p. 1710).6 
 
 XIII  0726 band ii 200 lines 46256-46258
 	6. Taliwang, waarschijnlijk Muhammad Galal ad-Din Datu Taliwang II, vorst van Bima 1763-65 (Truhart II, p. 1710).
 
 XIII  0729 band ii 203 lines 46422-46425
-	7. Waarschijnlijk Mir Phulwari Nagm ad-Daula, nawab van Bengalen 1765-66 (Truhart II, p. 1367).
+	7. Waarschijnlijk Mir Phulwari Nagm ad-Daula, nawab van Bengalen 1765-66 (Truhart II, p. 1367).8 
 
 XIII  0729 band ii 203 lines 46425-46426
 	8. Rotaarger, waarschijnlijk Ramgarh tegenover Benares.
 
 XIII  0737 band ii 211 lines 46857-46859
-	9. Statutaire wetten, de Statuten van Batavia.
+	9. Statutaire wetten, de Statuten van Batavia.10 
 
 XIII  0737 band ii 211 lines 46859-46860
 	10. Bedoeld lijkt Paulus Godefridus van der Voort
@@ -368,7 +368,7 @@ XIII  0741 band ii 215 lines 47091-47093
 	11. Druif, een ronde ijzeren schijf waarop een staaf, waaromheen kleine kogels worden gestapeld; dit geheel wordt omwikkeld met zeildoek en een bindtouw.
 
 XIV   0754 band ii 228 lines 47712-47714
-	1. Ten onrechte genummerd 1078.
+	1. Ten onrechte genummerd 1078.2 
 
 XIV   0754 band ii 228 lines 47714-47715
 	2. Ten onrechte genummerd 1079.
@@ -377,7 +377,7 @@ XIV   0755 band ii 229 lines 47770-47771
 	3. In de tekst kippen lond
 
 XIV   0758 band ii 232 lines 47937-47939
-	4. Zeilsteen, magnetisch ijzererts, o.a. gebruikt om goud van zand te reinigen.
+	4. Zeilsteen, magnetisch ijzererts, o.a. gebruikt om goud van zand te reinigen.5 
 
 XIV   0758 band ii 232 lines 47939-47940
 	5. Ten rechte 20 oktober 1765.
@@ -389,7 +389,7 @@ XIV   0761 band ii 235 lines 48110-48111
 	7. Bedoeld lijkt 8 mei 1765.
 
 XIV   0767 band ii 241 lines 48461-48463
-	8. Deze datum is onduidelijk.
+	8. Deze datum is onduidelijk.9 
 
 XIV   0767 band ii 241 lines 48463-48464
 	9. Waarschijnlijk 3 december 1765.
@@ -407,7 +407,7 @@ XIV   0802 band ii 276 lines 50694-50695
 	13. Nummering springt over van 1413 op 1415.
 
 XIV   0804 band ii 278 lines 50805-50807
-	14. Dit jaartal is niet goed leesbaar.
+	14. Dit jaartal is niet goed leesbaar.15 
 
 XIV   0804 band ii 278 lines 50807-50808
 	15. Dit is onduidelijk; bedoeld lijkt na het afsluiten van de generale missive van 20 oktober 1765.
@@ -470,7 +470,7 @@ XIV   0878 band ii 352 lines 55999-56001
 	34. Deze schepen waren via Straat Magellanes en de Stille Occeaan in Azië aangekomen (Clowes, Royal Navy IV, p. 117-119).
 
 XV    0886 band ii 360 lines 56416-56418
-	1. Bang Pla Soi, het huidige Chonburi, is een havenplaats ten oosten van Bangkok.
+	1. Bang Pla Soi, het huidige Chonburi, is een havenplaats ten oosten van Bangkok.2 
 
 XV    0886 band ii 360 lines 56418-56422
 	2. De prins die naar Ceylon was gegaan is Thepphiphit, een halfbroer van de prinsen Uthomp-hon, die in een klooster was ingetreden, en Ekathat, de koning, die aan lepra leed. Uthomphon was enige prins die niet door de Birmezen werd gedood. Hij werd geïnterneerd in Ava. Deze en vorige noot vriendelijke mededeling Dr. Dhiravat na Pombejra te Bangkok.
@@ -485,10 +485,10 @@ XVII  0962 band ii 436 lines 60639-60640
 	2. Spargement, uitstrooiing, gerucht.
 
 XVII  0964 band ii 438 lines 60757-60760
-	3. Pantchina’s, bewoners van Petjinaän, zgn. Chinese kampong, deel van Djambi op de linkeroe-ver van de rivier, waar ook de VOC-logie lag.
+	3. Pantchina’s, bewoners van Petjinaän, zgn. Chinese kampong, deel van Djambi op de linkeroe-ver van de rivier, waar ook de VOC-logie lag.4 
 
 XVII  0964 band ii 438 lines 60760-60764
-	4. Contract met Djambi 21-10-1721 artikel 4: peperprijs 3 Spaanse realen contant en 3</>5/8<r> Spaanse rijksdaalder in textiel of andere koopwaar het pikol van 122</>1/2<r> Hollandse pond (Corpus Diplomaticum IV, p. 532). Contract 16-10-1763 artikel 9: deze prijs bevestigd (Corpus Diplomaticum VI, p. 236).
+	4. Contract met Djambi 21-10-1721 artikel 4: peperprijs 3 Spaanse realen contant en 3 5/8 Spaanse rijksdaalder in textiel of andere koopwaar het pikol van 122 1/2 Hollandse pond (Corpus Diplomaticum IV, p. 532). Contract 16-10-1763 artikel 9: deze prijs bevestigd (Corpus Diplomaticum VI, p. 236).
 
 XVII  0969 band ii 443 lines 61125-61126
 	5. Longies, bedoeld lijkt Linggi.
@@ -506,7 +506,7 @@ XVII  0987 band ii 461 lines 62296-62297
 	9. In GM XIII wordt hij Tissot Grenus genoemd.
 
 XVII  0988 band ii 462 lines 62351-62353
-	10. Surkij, sirky, matten van riet (surkunda) gemaakt.
+	10. Surkij, sirky, matten van riet (surkunda) gemaakt.11 
 
 XVII  0988 band ii 462 lines 62353-62354
 	11. ƒ 35.857 in 1764/65 min ƒ 32.105 in 1763/64 is ƒ 3752.
@@ -542,7 +542,7 @@ XVII  1050 band ii 524 lines 66272-66273
 	21. Johannis of dubloen, een munt, de zogenaamde Johannis van Portugal.
 
 XVII  1054 band ii 528 lines 66488-66491
-	22. Ploeserscagie, modern ploeserskagie; plaats waar ploesers, zekere vaartuigen, op een rek, ka-gie, worden opgeslagen.
+	22. Ploeserscagie, modern ploeserskagie; plaats waar ploesers, zekere vaartuigen, op een rek, ka-gie, worden opgeslagen.23 
 
 XVII  1054 band ii 528 lines 66491-66492
 	23. Op Malabarse wijze duidt hier op Maduraise wijze.

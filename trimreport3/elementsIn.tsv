@@ -27,15 +27,11 @@ meta.key=year	589
 meta.value=x	7069
 note..	12862
 para..	33866
-pb.facs=n_nnn_nnnn	5865
-pb.facs=nnn_nnn	3194
-pb.facs=nnn_nnnn	1090
 pb.n=n	111
 pb.n=nn	1163
 pb.n=nnn	8784
 pb.n=nnnn	91
-pb.tpl=n	10149
-pb.vol=nn	10149
+pb.vol=nn	17
 ref..	4069
 remark..	23744
 row.n=n	62

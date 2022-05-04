@@ -3,7 +3,7 @@
 @description=comment to a named entity
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-01-31T15:28:50Z
+@dateWritten=2022-05-04T14:15:22Z
 
 1250	Amboina
 1255	Ternate

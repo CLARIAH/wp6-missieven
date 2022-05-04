@@ -97,19 +97,22 @@ otext = {
 intFeatures = set(
     """
         n
-        tpl
         vol
         row
         col
+        x
         day
         mark
         month
         year
-        isref
-        isremark
         isfolio
         isnote
         isorig
+        isq
+        isnum
+        isden
+        isref
+        isremark
         isspecial
         issub
         issuper
@@ -130,13 +133,6 @@ featureMeta = {
         "description": "day part of the date of the letter",
         "format": "numeral between 1 and 31 inclusive",
     },
-    "facs": {
-        "description": (
-            "url part of the corresponding online facsimile page;"
-            " the url itself can be constructed using a hard coded template."
-            " See also the tpl feature"
-        )
-    },
     "isemph": {
         "description": "whether a word is emphasized by typography",
         "format": "integer 1 or absent",
@@ -151,6 +147,18 @@ featureMeta = {
     },
     "isnote": {
         "description": "whether a word belongs to footnote text",
+        "format": "integer 1 or absent",
+    },
+    "isq": {
+        "description": "whether a word is a numerical fraction, e.g. 1/4",
+        "format": "integer 1 or absent",
+    },
+    "isnum": {
+        "description": "whether a word is the numerator in fraction, e.g. 1 in 1/4",
+        "format": "integer 1 or absent",
+    },
+    "isden": {
+        "description": "whether a word is the denominator in fraction, e.g. 4 in 1/4",
         "format": "integer 1 or absent",
     },
     "isref": {
@@ -248,31 +256,17 @@ featureMeta = {
         "description": "title of the letter",
         "format": "comma-separated values",
     },
-    "tpl": {
-        "description": (
-            "url template number of the corresponding online facsimile page;"
-            "the url itself can be constructed using this template,"
-            " filled with the contents of the facs attribute."
-        ),
-        "format": (
-            "either 1 or 2:"
-            " template 1 = http://resources.huygens.knaw.nl/"
-            "retroapp/service_generalemissiven/gm_{vol:>02}/"
-            "images/gm_{facs}.tif "
-            " template 2 = http://resources.huygens.knaw.nl/"
-            "retroapp/service_generalemissiven/gm_{vol:>02}/"
-            "images/generale_missiven_gs{facs}.tif"
-        ),
-    },
     "trans": {"description": "transcription of a word"},
     "transo": {"description": "transcription of a word, only for original text"},
     "transr": {"description": "transcription of a word, only for remark text"},
     "transn": {"description": "transcription of a word, only for footnote text"},
     "vol": {"description": "volume number", "format": "positive integer"},
+    "x": {"description": "column offset of a column in a row in a table"},
     "year": {
         "description": "year part of the date of the letter",
         "format": "numeral between 1600 and 1800",
     },
+    "weblink": {"description": "the page-specific part of web links for page nodes"},
 }
 
 # ERROR HANDLING
@@ -409,10 +403,17 @@ TEXT_ATTRIBUTES = """
     emph
     ref
     remark
+    q
+    num
+    den
     special
     sub
     super
     und
+""".strip().split()
+
+SURROUND_SPACE = """
+    q
 """.strip().split()
 
 TRANSPARENT_ELEMENTS = set(
@@ -463,6 +464,9 @@ DO_TEXT_ELEMENTS = set(
     para
     ref
     remark
+    q
+    num
+    den
     special
     subhead
     sub
@@ -482,6 +486,9 @@ DO_TAIL_ELEMENTS = set(
     table
     ref
     remark
+    q
+    num
+    den
     special
     subhead
     sub
@@ -492,6 +499,8 @@ DO_TAIL_ELEMENTS = set(
 
 DOWN_REF_RE = re.compile(r"""\[=([^\]]*)\]""")
 
+weblink = None
+
 
 def linkIfEmpty(cv, node):
     if not cv.linked(node):
@@ -499,10 +508,20 @@ def linkIfEmpty(cv, node):
         cv.feature(emptySlot, trans="", punc="")
 
 
+def addSpaceBefore(cv, cur):
+    if WORD in cur:
+        lastPunc = cv.get("punc", cur["word"])
+        if not lastPunc.endswith(" "):
+            lastPunc += " "
+            cv.feature(cur["word"], punc=lastPunc)
+
+
 def walkNode(cv, doc, node, cur):
     """Handle all elements in the XML file.
 
     """
+
+    global weblink
 
     tag = node.tag
     atts = node.attrib
@@ -519,7 +538,10 @@ def walkNode(cv, doc, node, cur):
             cur["line"] = cv.node("line")
             cur["ln"] += 1
             cv.feature(cur["line"], n=cur["ln"])
-    elif tag in BREAKS:
+            if weblink is not None:
+                cv.feature(cur["line"], weblink=weblink)
+
+    if tag in BREAKS:
         curLine = cur.get("line", None)
         if curLine:
             linkIfEmpty(cv, curLine)
@@ -530,13 +552,17 @@ def walkNode(cv, doc, node, cur):
                 linkIfEmpty(cv, curPage)
                 cv.terminate(curPage)
             cur["page"] = cv.node("page")
-            cv.feature(cur["page"], **featsFromAtts(atts))
+            featAtts = featsFromAtts(atts)
+            cv.feature(cur["page"], **featAtts)
+            weblink = featAtts.get("weblink", None)
             cur["pg"] = f"{cur['vol']:>02}:p{atts['n']:>04}"
             cur["ln"] = 1
         elif tag == "lb":
             cur["ln"] += 1
         cur["line"] = cv.node("line")
         cv.feature(cur["line"], n=cur["ln"])
+        if weblink is not None:
+            cv.feature(cur["line"], weblink=weblink)
 
     elif tag in NODE_ELEMENTS:
         curNode = cv.node(tag)
@@ -567,6 +593,9 @@ def walkNode(cv, doc, node, cur):
         errors[f"unrecognized: {tag}"].add(doc)
 
     if tag in DO_TEXT_ELEMENTS:
+        if tag in SURROUND_SPACE:
+            addSpaceBefore(cv, cur)
+
         addText(cv, node.text, cur)
 
     for child in node:
@@ -588,6 +617,8 @@ def walkNode(cv, doc, node, cur):
         cur[f"is_{tag}"] = None
 
     elif tag in TEXT_ATTRIBUTES:
+        if tag in SURROUND_SPACE:
+            addSpaceBefore(cv, cur)
         cur[tag] = None
 
     if tag in ADD_LB_ELEMENTS:
@@ -598,6 +629,8 @@ def walkNode(cv, doc, node, cur):
         cur["ln"] += 1
         cur["line"] = cv.node("line")
         cv.feature(cur["line"], n=cur["ln"])
+        if weblink is not None:
+            cv.feature(cur["line"], weblink=weblink)
 
     if tag in DO_TAIL_ELEMENTS:
         addText(cv, node.tail, cur)
@@ -618,7 +651,7 @@ def collectMeta(cv, node, cur):
 
 def featsFromAtts(atts):
     return {
-        feat: int(value.lstrip("0")) if feat in intFeatures else value
+        feat: int(value.lstrip("0") or 0) if feat in intFeatures else value
         for (feat, value) in atts.items()
         if value is not None
     }
@@ -639,6 +672,8 @@ WORD_PARTS_RE = re.compile(
     re.S | re.I | re.X,
 )
 
+PUNC_DELIM_BEFORE = r"\[{(«<"
+PUNC_DELIM_AFTER = r",.;:!\]})»>"
 NON_WORD_CHAR = r",./\\<>;:'\"\[\]{}()!@#$%^&*+=_«» \t\n-"
 WORD_CHAR = f"^{NON_WORD_CHAR}"
 WORD_RE = re.compile(
@@ -656,6 +691,9 @@ PUNC_RE = re.compile(
     """,
     re.S | re.X,
 )
+PUNC_DELIM_BEFORE_RE = re.compile(fr"""^[{PUNC_DELIM_BEFORE}]""")
+PUNC_DELIM_AFTER_RE = re.compile(fr"""[{PUNC_DELIM_AFTER}]$""")
+WORD = "word"
 
 
 def addText(cv, text, cur):
@@ -667,20 +705,37 @@ def addText(cv, text, cur):
             punc = match.group(1)
             punc = WHITE_RE.sub(" ", punc)
             punc = punc.replace("\n", " ")
-            curWord = cv.slot()
-            cur["word"] = curWord
-            cv.feature(curWord, trans="", punc=punc)
+            if PUNC_DELIM_BEFORE_RE.search(punc):
+                punc = f" {punc}"
+            if PUNC_DELIM_AFTER_RE.search(punc):
+                punc += " "
+            if punc and WORD in cur:
+                lastPunc = cv.get("punc", cur["word"])
+                lastPunc += punc
+                cv.feature(cur["word"], punc=lastPunc.replace("  ", " "))
             return
+
+        # if the text starts with white space, strip it and add it to the current word
+
+        bareText = text.lstrip()
+        if bareText != text:
+            addSpaceBefore(cv, cur)
+            text = bareText
 
         # if there is a mixture between word characters and the rest
         # group them in pieces consisting of word characters with trailing
         # punctuation and white space
+
         for match in WORD_RE.finditer(text):
             (trans, punc) = match.group(1, 2)
             trans = trans.strip("«»")
             if punc:
                 punc = WHITE_RE.sub(" ", punc)
                 punc = punc.replace("\n", " ")
+                if PUNC_DELIM_BEFORE_RE.search(punc):
+                    punc = f" {punc}"
+                if PUNC_DELIM_AFTER_RE.search(punc):
+                    punc += " "
             curWord = cv.slot()
             cur["word"] = curWord
             cv.feature(curWord, trans=trans, punc=punc)
@@ -715,10 +770,10 @@ def loadTf():
     api = TF.load(loadableFeatures, silent=False)
     if api:
         print(f"max node = {api.F.otype.maxNode}")
-        print("Frequency of author")
-        print(api.F.author.freqList()[0:20])
-        print("Frequency of words")
-        print(api.F.trans.freqList()[0:20])
+        # print("Frequency of author")
+        # print(api.F.author.freqList()[0:20])
+        # print("Frequency of words")
+        # print(api.F.trans.freqList()[0:20])
 
 
 # MAIN

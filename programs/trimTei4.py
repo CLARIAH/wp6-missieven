@@ -23,6 +23,10 @@ FNOTE_MARKS_RE = re.compile(r"""<fref ref="([^"]+)"/>""", re.S)
 
 FOLIO_RE = re.compile(r"""</?folio>""")
 
+SUPER_Q_RE = re.compile(r"""<super>(\s*[^ </][^/]*)/(\s*[^ <][^<]*)</super>""", re.S)
+
+PB_RE = re.compile(r'''\b(?:facs|tpl)="[^"]*"''', re.S)
+
 
 fNotes = {}
 
@@ -47,4 +51,6 @@ def trimPage(text, info, *args, **kwargs):
     fNotes.clear()
     text = FNOTE_BODIES_RE.sub(getBodies, text)
     text = FNOTE_MARKS_RE.sub(hoistBody, text)
+    text = SUPER_Q_RE.sub(r"""<q><num>\1</num>/<den>\2</den></q>""", text)
+    text = PB_RE.sub("", text)
     return text

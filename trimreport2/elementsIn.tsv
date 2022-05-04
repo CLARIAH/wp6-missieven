@@ -24,15 +24,11 @@ note.place=inline	25065
 note.resp=editor	25105
 note.type=editorial-summary	25065
 p..	18277
-pb.facs=n_nnn_nnnn	5865
-pb.facs=nnn_nnn	3194
-pb.facs=nnn_nnnn	1090
 pb.n=n	111
 pb.n=nn	1163
 pb.n=nnn	8784
 pb.n=nnnn	91
-pb.tpl=n	10149
-pb.vol=nn	10149
+pb.vol=nn	17
 row..	4550
 sub..	102
 subhead..	1343

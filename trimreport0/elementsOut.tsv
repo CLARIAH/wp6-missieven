@@ -5368,9 +5368,6 @@
  p.rend=text-decoration: underline; margin-right: 1200; line-height: 11.1pt; text-align: right; font-size: 10	1
 body..	569
 cell..	20872
-fw.facs=#zone.nnnnn	222
-fw.facs=#zone.nnnnnn	2335
-fw.facs=#zone.nnnnnnn	12791
 fw.place=top	15348
 fw.type=bottom-page-number	4729
 fw.type=head	10836
@@ -5393,15 +5390,11 @@ note.resp=editor	25039
 note.type=editorial-summary	25039
 p..	5
 p.resp=int_paragraph_joining	13094
-pb.facs=n_nnn_nnnn	6310
-pb.facs=nnn_nnn	3516
-pb.facs=nnn_nnnn	1162
 pb.n=n	116
 pb.n=nn	1165
 pb.n=nnn	9535
 pb.n=nnnn	172
-pb.tpl=n	10988
-pb.vol=nn	10988
+pb.vol=nn	9
 row..	4616
 table..	328
 teiTrim..	569

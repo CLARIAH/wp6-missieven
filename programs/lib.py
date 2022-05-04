@@ -26,11 +26,11 @@ REPO = "wp6-missieven"
 
 REPO_DIR = f"{BASE}/{ORG}/{REPO}"
 SOURCE_DIR = f"{REPO_DIR}/_local"
-PDF_VERSION = "2022-03-09"
-PDF_DIR = f"{SOURCE_DIR}/{PDF_VERSION}"
-PDF_REPORT_DIR = f"{REPO_DIR}/pdfreport/{PDF_VERSION}"
+VERSION_PDF = "2022-03-09"
+PDF_DIR = f"{SOURCE_DIR}/{VERSION_PDF}"
+PDF_REPORT_DIR = f"{REPO_DIR}/pdfreport/{VERSION_PDF}"
 TEST_DIR = f"{SOURCE_DIR}/test"
-TEXT_DIR = f"{SOURCE_DIR}/text/{PDF_VERSION}"
+TEXT_DIR = f"{SOURCE_DIR}/text/{VERSION_PDF}"
 TEXT_FILE = f"{PDF_REPORT_DIR}/text.txt"
 FMT_FILE = f"{PDF_REPORT_DIR}/format.txt"
 STRUCT_FILE = f"{PDF_REPORT_DIR}/struct.txt"
@@ -60,6 +60,9 @@ LAST_STAGE = 4
 
 TF_DIR = f"{REPO_DIR}/tf"
 OUT_DIR = f"{TF_DIR}/{VERSION_TF}"
+PDF_VOL = "14"
+BAND_OFFSET = {"1": 13, "2": -527}
+RESUME_TABLE = 244
 
 CELL_RE = re.compile(r"""<cell>(.*?)</cell>""", re.S)
 
@@ -535,18 +538,7 @@ def checkPb(text):
 
 
 X_RE = re.compile(r"""\s*xml:?[a-z]+=['"][^'"]*['"]""", re.S)
-FACS_REF1_RE = re.compile(
-    r"""facs=['"]http://resources.huygens.knaw.nl/"""
-    r"""retroapp/service_generalemissiven/gm_(.+?)/"""
-    r"""images/gm_(.+?).tif['"]""",
-    re.S,
-)
-FACS_REF2_RE = re.compile(
-    r"""facs=['"]http://resources.huygens.knaw.nl/"""
-    r"""retroapp/service_generalemissiven/gm_(.+?)/"""
-    r"""images/generale_missiven_gs(.+?).tif['"]""",
-    re.S,
-)
+PB_FACS_TPL_RE = re.compile(r'''\b(?:facs|tpl)="[^"]*"''', re.S)
 PAGE_NUM_RE = re.compile(r"""<pb[^>]*?\bn=['"]([0-9]+)['"]""", re.S)
 
 NL_B_RE = re.compile(r"""\n*<(p|para|note|fw|table|row)\b([^>]*)>""", re.S)
@@ -587,8 +579,7 @@ def trimBody(stage, text, trimPage, info, processPage, *args, **kwargs):
         first = False
         if stage == 0:
             page = X_RE.sub("", page)
-            page = FACS_REF1_RE.sub(r'''tpl="1" vol="\1" facs="\2"''', page)
-            page = FACS_REF2_RE.sub(r'''tpl="2" vol="\1" facs="\2"''', page)
+            page = PB_FACS_TPL_RE.sub("", page)
         if processPage is None:
             page = trimPage(page, info, *args, **kwargs)
             page = LB_RE.sub(r"""<lb/>\n""", page)

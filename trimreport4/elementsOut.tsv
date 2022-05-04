@@ -7,6 +7,7 @@ cell.n=nn	4711
 cell.n=nnn	15569
 cell.row=n	11321
 cell.row=nn	9235
+den..	85
 emph..	4141
 folio..	2551
 head..	589
@@ -28,16 +29,14 @@ meta.key=year	589
 meta.value=x	7069
 note.mark=n	11816
 note.mark=nn	474
+num..	85
 para..	33881
-pb.facs=n_nnn_nnnn	5865
-pb.facs=nnn_nnn	3194
-pb.facs=nnn_nnnn	1090
 pb.n=n	111
 pb.n=nn	1163
 pb.n=nnn	8784
 pb.n=nnnn	91
-pb.tpl=n	10149
-pb.vol=nn	10149
+pb.vol=nn	17
+q..	85
 ref..	4050
 remark..	22922
 row..	16
@@ -49,7 +48,7 @@ row.row=nn	1966
 special..	965
 sub..	101
 subhead..	1360
-super..	988
+super..	903
 table..	1
 table.n=n	9
 table.n=nn	90

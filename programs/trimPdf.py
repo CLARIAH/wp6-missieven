@@ -19,6 +19,10 @@ from lib import (
     FN_BODY_FILE,
     FN_MARK_FILE,
     TIT_FILE,
+    XML_DIR,
+    PDF_VOL,
+    BAND_OFFSET,
+    RESUME_TABLE,
     initTree,
     ucFirst,
 )
@@ -87,9 +91,72 @@ YS = dict(
     offset=11,
 )
 
+CODES = set(
+    """
+    ==
+    TI
+    HD
+    PE
+    PO
+    LE
+    LO
+    SE
+    SO
+    FM
+    FB
+""".strip().split()
+)
+
+CODES_TABLE = set(
+    """
+    TB
+    TE
+    RB
+    RE
+""".strip().split()
+)
+
+CODES_SKIP = set(
+    """
+    ==
+    FB
+    """.strip().split()
+)
+
+CODES_NO_FMT = set(
+    """
+    ==
+    TI
+    HD
+    FM
+    FB
+""".strip().split()
+)
+
+CODES_SPAN = set(
+    """
+    SE
+    SO
+""".strip().split()
+)
+
+CODES_OUT_TABLE = set(
+    """
+    TI
+    HD
+    FB
+    PE
+    LE
+    SE
+""".strip().split()
+)
+
 CORRECTIONS = {
     "Bengaaij4": dict(text="Bengaaij\n  4 \n", fmt=(None, dict(st="fn"), None)),
     "[fol. 208)": dict(text="[fol. 208]", fmt=(None,)),
+    "8e>": dict(text="83", fmt=(None,)),
+    "<r>": dict(text="", fmt=(None,)),
+    "</>": dict(text=" ", fmt=(None,)),
 }
 CORRECTIONS_APPLIED = collections.defaultdict(list)
 
@@ -273,25 +340,25 @@ def dataFromPdf(export=False):
 
                             for (span, fmt) in zip(lineText, lineFmt):
                                 corrected = False
+                                newSpan = span
                                 for (pattern, replacement) in CORRECTIONS.items():
-                                    pos = span.find(pattern)
+                                    pos = newSpan.find(pattern)
                                     if pos >= 0:
                                         replText = replacement["text"]
-                                        newSpan = span.replace(pattern, replText, 1)
-                                        for s in newSpan.split("\n"):
-                                            newLineText.append(s)
-
+                                        newSpan = newSpan.replace(pattern, replText, 1)
                                         replFmt = replacement.get("fmt", [fmt])
-                                        for f in replFmt:
-                                            newLineFmt.append(fmt if f is None else f)
 
                                         CORRECTIONS_APPLIED[pattern].append(
-                                            (pageNum, span)
+                                            (replText, pageNum, newSpan)
                                         )
                                         corrected = True
-                                        break
 
-                                if not corrected:
+                                if corrected:
+                                    for s in newSpan.split("\n"):
+                                        newLineText.append(s)
+                                    for f in replFmt:
+                                        newLineFmt.append(fmt if f is None else f)
+                                else:
                                     newLineText.append(span)
                                     newLineFmt.append(fmt)
 
@@ -503,10 +570,16 @@ def dataFromPdf(export=False):
         else:
             applications = CORRECTIONS_APPLIED[pattern]
             nApps = len(applications)
-            for (pageNum, span) in applications:
-                print(f"CORRECTION APPLIED: `{pattern}` to `{span}` on page {pageNum}")
+            for (repl, pageNum, span) in applications:
+                print(
+                    f"CORRECTION APPLIED: `{pattern}` => "
+                    f"`{repl}` to `{span}` on page {pageNum}"
+                )
             if nApps > 1:
-                print(f"CORRECTION APPLIED MULTIPLE TIMES: `{pattern}` {nApps}x")
+                print(
+                    f"CORRECTION APPLIED MULTIPLE TIMES: `{pattern}` => "
+                    f"`{repl}` {nApps}x"
+                )
 
     for (pageNum, kindInfo) in PAGE_CORRECTIONS.items():
         for (kind, commands) in kindInfo.items():
@@ -532,6 +605,9 @@ def getStructure():
     with open(FMT_FILE) as fh:
         fmtLines = list(fh)
 
+    blankLines = []
+    bracketLines = []
+    dashLines = []
     fnBodyIndex = {}
     fnMarkIndex = {}
     fnBodies = []
@@ -558,10 +634,28 @@ def getStructure():
             (?:\(Kol\.\s*Arch\.\s*[0-9]+\)\s*))?
             ,\s*
         )?
-        [Ff]ol\.\s*
-        [0-9]+[A-Z]?[rv]?
+        [Ff]ol\.
+        \s*
         (?:
-            -[0-9]*[A-Z]?[rv]?
+            [0-9]+(?:bis|[AaBb])?
+            |
+            \(ongenummerd\)
+            |
+            ongepagineerd
+            |
+        )
+        \s*
+        [rv]?
+        \s*
+        (?:
+            -
+            (?:
+                fol\.
+                \s*
+            )?
+            [0-9]*(?:bis|[AaBb])?
+            \s*
+            [rv]?
         )?
         \.?
         \s*
@@ -631,12 +725,43 @@ def getStructure():
         curGap = None
         fnStart = -1
 
+    def doNewLine(data, currentTextKind, force=False):
+        fmtChanged = False
+        textKind = currentTextKind
+        if not force and st:
+            textKind = "E" if st == "i" else "O"
+            fmtChanged = True
+            if "st" in data:
+                del data["st"]
+        unusualIndent = 0 < int(data.get("x", "0")) <= 50
+        sameLine = data.get("y", None) == "0"
+        if (textKind == "E" or not sameLine) and (ind == ">" or unusualIndent):
+            lineKind = "P"
+            if "in" in data:
+                del data["in"]
+                fmtChanged = True
+            if "x" in data:
+                del data["x"]
+                fmtChanged = True
+            if "y" in data:
+                del data["y"]
+                fmtChanged = True
+        else:
+            lineKind = "L"
+        return (lineKind, textKind, fmtChanged)
+
+    textKind = None
+    inFnBody = False
+    connect = False
+    uncatchedFolios = []
+
     for (i, textLine) in enumerate(textLines):
         textLine = textLine.rstrip("\n")
 
         if textLine.startswith("=="):
             if fnStart >= 0:
                 finishFn()
+            inFnBody = False
             (pageNum, band, filePageNum) = textLine.split()
             pageNum = pageNum.lstrip("=")
             band = band.split("=")[1]
@@ -646,8 +771,9 @@ def getStructure():
         if textLine == "":
             continue
 
-        isNewLine = textLine[0] == ">"
+        maybeNewLine = textLine[0] == ">"
         textLine = textLine[2:]
+
         fmtLine = fmtLines[i][2:].rstrip("\n")
 
         match = titleRe.match(textLine)
@@ -676,8 +802,14 @@ def getStructure():
 
         match = folioLineRe.match(textLine)
         if match:
-            structLines.append(["LE", "", f"<fr>{textLine}</fr>"])
+            structLines.append(["LE", "", f"<folio>{textLine}</folio>"])
             continue
+
+        if (
+            textLine.lower().startswith("fol.")
+            and "is bij nummering overgeslagen" not in textLine
+        ):
+            uncatchedFolios.append((i, textLine))
 
         data = dict(item.split("=") for item in fmtLine.split(",") if item)
 
@@ -701,15 +833,27 @@ def getStructure():
                     prevFnum = curFnNum
                     structLines.append(["FB", curFnNum, curFnText])
                     prevS = s
+                    inFnBody = True
                     continue
             else:
                 if fnStart >= 0:
                     curFnText += textLine
                     structLines.append(["FB", curFnNum, textLine])
                     prevS = s
+                    inFnBody = True
                     continue
 
         st = data.get("st", "")
+
+        if inFnBody:
+            if st == "i":
+                thisText = f"<ref>{textLine}</ref>"
+            else:
+                thisText = textLine
+            curFnText += thisText
+            structLines.append(["FB", curFnNum, thisText])
+            prevS = s
+            continue
 
         if st in {"fn", "sup"}:
             fnNum = textLine.strip()
@@ -720,33 +864,100 @@ def getStructure():
                 prevS = s
                 continue
 
-        ind = data.get("in", "")
         fmtChanged = False
+        forceTextKind = False
+        textLineStripped = textLine.strip()
 
-        if isNewLine:
-            textKind = "E" if st == "i" else "O"
-            if ind == ">":
-                lineKind = "P"
-                del data["in"]
-                fmtChanged = True
-            else:
-                lineKind = "L"
-            if st == "i":
-                textKind = "E"
+        if textLineStripped == "(":
+            textKind = "E"
+            forceTextKind = True
+
+            if st != "i":
+                bracketLines.append(i + 1)
+
+            if "st" in data:
                 del data["st"]
                 fmtChanged = True
-            else:
-                textKind = "O"
+            if "x" in data:
+                del data["x"]
+                fmtChanged = True
+
+        elif textLineStripped == "---":
+            textKind = "O"
+            forceTextKind = True
+
+            if st != "n":
+                dashLines.append(i + 1)
+
+            if "st" in data:
+                del data["st"]
+                fmtChanged = True
+            if "x" in data:
+                del data["x"]
+                fmtChanged = True
+
+        elif textLineStripped in {".", ","}:
+            connect = True
+            if "st" in data:
+                del data["st"]
+                fmtChanged = True
+            if "x" in data:
+                del data["x"]
+                fmtChanged = True
+
+        ind = data.get("in", "")
+
+        sameLine = data.get("y", None) == "0"
+        # if sameLine:
+        #    del data["y"]
+
+        isNewLine = maybeNewLine and not sameLine
+        if isNewLine:
+            (lineKind, textKind, thisFmtChanged) = doNewLine(
+                data, textKind, force=forceTextKind
+            )
         else:
             lineKind = "S"
-            if textKind == "E" and st == "i":
-                del data["st"]
-                fmtChanged = True
+            thisFmtChanged = False
+            blankLine = False
+            if structLines:
+                prevStructLine = structLines[-1]
+                prevLabel = prevStructLine[0]
+                prevLineKind = prevLabel[0]
+                if prevLineKind in {"S", "L", "P"}:
+                    prevTextLine = prevStructLine[-1]
+                    prevLineStripped = prevTextLine.strip()
+                    prevFmt = prevStructLine[1]
+                    if prevLineStripped == "" and "y=0" not in prevFmt:
+                        structLines.pop()
+                        blankLines.append(i + 1)
+                        blankLine = True
+                        (lineKind, textKind, thisFmtChanged) = doNewLine(
+                            data, textKind, force=forceTextKind
+                        )
+                    elif prevLineStripped in {"(", "---", ".", ","}:
+                        prevStructLine[-1] += textLine
+                        prevS = s
+                        continue
+                    elif connect:
+                        prevStructLine[-1] += textLine
+                        prevS = s
+                        continue
+            if not blankLine:
+                if "st" in data and (
+                    textKind == "E" and st == "i" or textKind == "O" and st == "n"
+                ):
+                    del data["st"]
+                    thisFmtChanged = True
         label = f"{lineKind}{textKind}"
+        if thisFmtChanged:
+            fmtChanged = True
+
         if fmtChanged:
             fmtLine = ",".join(f"{k}={v}" for (k, v) in data.items())
         structLines.append([label, fmtLine, textLine])
         prevS = s
+        connect = False
 
     if fnStart >= 0:
         finishFn()
@@ -846,12 +1057,23 @@ def getStructure():
                 ok = False
     if ok:
         print("\tCONSISTENT")
+    print(f"BLANK LINES: {len(blankLines)} x")
+    if blankLines:
+        print(", ".join(str(b) for b in blankLines[0:5]))
+    print(f"BRACKET LINES: {len(bracketLines)} x")
+    if bracketLines:
+        print(", ".join(str(b) for b in bracketLines))
+    print(f"DASHED LINES: {len(dashLines)} x")
+    if dashLines:
+        print(", ".join(str(b) for b in dashLines))
+    print(f"FOLIO REFS (uncatched): {len(uncatchedFolios)}")
+    for (i, text) in uncatchedFolios:
+        print(f"{i:>5} `{text}`")
 
 
 def sections(sourceLines):
     nStruct = len(sourceLines)
     newSourceLines = []
-    skipCodes = {"==", "FB"}
     nSections = collections.Counter()
 
     for (i, item) in enumerate(sourceLines[0:-1]):
@@ -860,19 +1082,19 @@ def sections(sourceLines):
             fmtStr = data[0]
             fmt = dict(item.split("=") for item in fmtStr.split(",") if item)
             y = fmt.get("y", None)
-            if (y is not None and int(y) >= 22):
+            if y is not None and int(y) >= 22:
                 j = i + 1
                 nextItem = sourceLines[j]
                 (nextCode, *nextData) = nextItem
-                while j < nStruct and nextCode in skipCodes:
+                while j < nStruct and nextCode in CODES_SKIP:
                     j += 1
                     nextItem = sourceLines[j]
                     (nextCode, *nextData) = nextItem
 
-                if nextCode[0] == "P":
-                    newCode = "SH"
+                if nextCode[0] == "P" or "<folio>" in nextData[-1]:
+                    newCode = "HD"
                     del fmt["y"]
-                    newFmt = ",".join(f"{k}={v}" for (k, v) in fmt.items())
+                    newFmt = ",".join(f"{k}={v}" for (k, v) in fmt.items() if k != "st")
                     section = ucFirst(data[-1])
                     nSections[section] += 1
                     data[-1] = section
@@ -883,9 +1105,50 @@ def sections(sourceLines):
 
     sourceLines.clear()
     sourceLines.extend(newSourceLines)
+
+    # We may have failed to detect sections: looking for isolated LO-s.
+
+    newSourceLines = []
+
+    prevKind = None
+    probableHeadings = []
+
+    for (i, item) in enumerate(sourceLines[0:-1]):
+        (code, *data) = item
+        inEditorial = prevKind == "E"
+        curKind = code[1]
+        if curKind != prevKind and curKind in {"E", "O"}:
+            prevKind = curKind
+
+        if inEditorial and code == "LO":
+            j = i + 1
+            nextItem = sourceLines[j]
+            (nextCode, *nextData) = nextItem
+            while j < nStruct and nextCode in CODES_SKIP:
+                j += 1
+                nextItem = sourceLines[j]
+                (nextCode, *nextData) = nextItem
+
+            nextKind = nextCode[1]
+            if nextKind == "E":
+                section = ucFirst(data[-1])
+                nSections[section] += 1
+                probableHeadings.append((i, section))
+                newSourceLines.append(["HD", "", section])
+                continue
+
+        newSourceLines.append(item)
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
     print("SECTIONS:")
     for (section, amount) in sorted(nSections.items(), key=lambda x: (-x[1], x[0])):
         print(f"{amount:>3}x {section}")
+
+    print(f"CORRECTED MISSED SECTIONS: {len(probableHeadings)}x")
+    for (i, text) in probableHeadings:
+        print(f"{i:>5} `{text}`")
 
 
 def glue(sourceLines):
@@ -917,8 +1180,7 @@ def glue(sourceLines):
 
     nStruct = len(sourceLines)
     newSourceLines = []
-    passCodes = {"==", "FM", "SH"}
-    skipCodes = {"==", "FB"}
+    passCodes = {"==", "FM", "HD"}
 
     for (i, item) in enumerate(sourceLines[0:-1]):
         (code, *data) = item
@@ -929,7 +1191,7 @@ def glue(sourceLines):
         j = i + 1
         nextItem = sourceLines[j]
         (nextCode, *nextData) = nextItem
-        while j < nStruct and nextCode in skipCodes:
+        while j < nStruct and nextCode in CODES_SKIP:
             j += 1
             nextItem = sourceLines[j]
             (nextCode, *nextData) = nextItem
@@ -978,6 +1240,7 @@ def folios(sourceLines):
                 [fF]ol\.
                 \s*
                 [0-9]+[rv]?
+                \s*
                 (?:
                     -[0-9]*[rv]?
                 )?
@@ -1002,7 +1265,7 @@ def folios(sourceLines):
 
         if code != "==":
             text = fields[-1]
-            (newText, n) = folioInlineRe.subn(r"<fr>\1</fr>", text)
+            (newText, n) = folioInlineRe.subn(r"<folio>\1</folio>", text)
             if n:
                 newSourceLines.append([code, *fields[0:-1], newText])
                 nFolios += n
@@ -1011,7 +1274,6 @@ def folios(sourceLines):
         newSourceLines.append(item)
 
     print(f"FOLIO REFS (inline): {nFolios}x")
-
     sourceLines.clear()
     sourceLines.extend(newSourceLines)
 
@@ -1036,6 +1298,9 @@ def parseFrac(frac):
     if not num.isdigit() or not den.isdigit():
         return None
 
+    if len(num) == 4 and num.startswith("17"):
+        return None
+
     while len(num) > 1 and den[0] == "0" or int(num) > int(den):
         den = num[-1] + den
         num = num[0:-1]
@@ -1053,10 +1318,33 @@ def getSymSups(sourceLines):
         ([0-9]+)
         /
         ([0-9]+)
+        ([.,;:]?\s*)
         $
     """,
         re.X | re.M,
     )
+    fracInRe = re.compile(
+        r"""
+        [0-9]+
+        /
+        [0-9]+
+    """,
+        re.X | re.M,
+    )
+
+    remFracs = {}
+
+    def fracInRepl(match):
+
+        fracStr = match.group(0)
+        result = parseFrac(fracStr)
+        if result is None:
+            return fracStr
+        else:
+            (num, den) = result
+            remFracs[fracStr] = f"{num}/{den}"
+            return f"<q><num>{num}</num>/<den>{den}</den></q>"
+
     KNOWN_SYMS = {"'"}
     KNOWN_SUPS = {"e", "rm", "de", "sten", "ra", "t", "a", "s"}
     IGNORED_SUPS = {"}", "in een kas"}
@@ -1086,6 +1374,7 @@ def getSymSups(sourceLines):
         doubleFrac=("DOUBLE FRAC", collections.Counter()),
         pureFrac=("PURE FRAC", collections.Counter()),
         computedFrac=("COMPUTED FRAC", collections.Counter()),
+        remainingFrac=("REMAINING FRAC", collections.Counter()),
     )
 
     newSourceLines = []
@@ -1110,7 +1399,7 @@ def getSymSups(sourceLines):
                             item.split("=") for item in nextFmtStr.split(",") if item
                         )
                         nextY = nextFmt.get("y", None)
-                        if nextY == "0":
+                        if nextY in {"0", None}:
                             x = fmt.get("x", None)
                             nextX = nextFmt.get("x", None)
                             if x is not None and nextX is not None and x == nextX:
@@ -1121,7 +1410,9 @@ def getSymSups(sourceLines):
                                     den = nextText.strip()
                                     if den.isdigit():
                                         prevItem = sourceLines[i - 1]
-                                        prevItem[-1] += f"<q>{num}/{den}</q>"
+                                        prevItem[
+                                            -1
+                                        ] += f"<q><num>{num}</num>/<den>{den}</den></q>"
                                         skipNext = True
                                         stats["totalFrac"][1][text] += 1
                                         stats["doubleFrac"][1][
@@ -1171,7 +1462,9 @@ def getSymSups(sourceLines):
                         stats["totalSup"][1][bareSup] += 1
                         stats["knownSup"][1][bareSup] += 1
                         attachItem = newSourceLines[-1]
-                        attachText = f"{spaceBefore}<sup>{bareSup}</sup>{spaceAfter}"
+                        attachText = (
+                            f"{spaceBefore}<super>{bareSup}</super>{spaceAfter}"
+                        )
                         ok = True
                     elif bareSup in IGNORED_SUPS:
                         stats["totalSup"][1][text] += 1
@@ -1193,12 +1486,12 @@ def getSymSups(sourceLines):
                     else:
                         fracOk = False
                         match = fracRe.match(bareSign)
-
                         if match:
                             stats["pureFrac"][1][text] += 1
-                            (numerator, denominator) = match.group(1, 2)
+                            (numerator, denominator, rest) = match.group(1, 2, 3)
                             fracOk = True
                         else:
+                            rest = ""
                             result = parseFrac(bareSign)
                             if result is not None:
                                 (numerator, denominator) = result
@@ -1216,7 +1509,10 @@ def getSymSups(sourceLines):
                         if fracOk:
                             stats["totalFrac"][1][text] += 1
                             attachItem = newSourceLines[-1]
-                            attachText = f"<q>{numerator}/{denominator}</q>{markup}"
+                            attachText = (
+                                f"<q><num>{numerator}</num>/"
+                                f"<den>{denominator}</den></q>{markup}{rest}"
+                            )
                             ok = True
                         else:
                             stats["totalSym"][1][text] += 1
@@ -1226,6 +1522,7 @@ def getSymSups(sourceLines):
                     if code[0] == "S":
                         attachItem[-1] += attachText
                     else:
+                        item[-1] = attachText
                         fmtStr = item[1]
                         fmt = dict(
                             item.split("=") for item in fmtStr.split(",") if item
@@ -1255,6 +1552,25 @@ def getSymSups(sourceLines):
     sourceLines.clear()
     sourceLines.extend(newSourceLines)
 
+    newSourceLines = []
+
+    for (i, item) in enumerate(sourceLines):
+        (code, *fields) = item
+
+        if code != "==":
+            text = fields[-1]
+            remFracs.clear()
+            # newText = fracInRe.sub(fracInRepl, text)
+            if len(remFracs):
+                for (fracStr, repl) in remFracs.items():
+                    stats["remainingFrac"][1][f"{fracStr} => {repl}"] += 1
+                # item[-1] = newText
+
+        newSourceLines.append(item)
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
     print("SUPS, SYMBOLS, FRACTIONS")
     for key in stats:
         (label, diags) = stats[key]
@@ -1278,40 +1594,497 @@ def getSymSups(sourceLines):
         )
 
 
+def refs(sourceLines):
+    newSourceLines = []
+
+    nTweaks = 0
+    nEmphasis = 0
+
+    doEmph = False
+    makeE = False
+
+    for (i, item) in enumerate(sourceLines[0:-2]):
+        (code, *fields) = item
+
+        if code == "SE":
+            nextItem = sourceLines[i + 1]
+            (nextCode, *nextFields) = nextItem
+            if nextCode == "LO":
+                nnextItem = sourceLines[i + 2]
+                (nnextCode, *nnextFields) = nnextItem
+                if nnextCode == "SO":
+                    doEmph = True
+                    nTweaks += 1
+                    continue
+
+        if doEmph:
+            newSourceLines.append(["LE", "", f"<ref>{fields[-1]}</ref>"])
+            makeE = True
+            doEmph = False
+            continue
+
+        if makeE:
+            newSourceLines.append(["LE", "", fields[-1]])
+            makeE = False
+            continue
+
+        textKind = code[-1]
+        fmt = fields[0]
+        if textKind == "E" and "st=n" in fmt or textKind == "O" and "st=i" in fmt:
+            newSourceLines.append([code, "", f"<ref>{fields[-1]}</ref>"])
+            nEmphasis += 1
+            continue
+
+        newSourceLines.append(item)
+
+    print(f"TWEAKS (SE-LO-SO): {nTweaks}x")
+    print(f"EMPHASIS: {nEmphasis}x")
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
+
+def xyCleanup(sourceLines):
+    if False:
+        newSourceLines = []
+
+        nTweaks = 0
+
+        for item in sourceLines:
+            (code, *fields) = item
+            if code not in CODES_NO_FMT:
+                fmtStr = fields[0]
+                fmt = dict(f.split("=") for f in fmtStr.split(",") if f)
+
+                # remove superfluous x= and in= keys
+                # superfluous is now: if not used for table columns
+                # and the criterion is: y=0 is not present
+
+                if code == "SE" or (
+                    "y=0" not in fmtStr and ("x" in fmtStr or "in" in fmtStr)
+                ):
+                    prevLine = newSourceLines[-1]
+                    prevCode = prevLine[0]
+                    if prevCode not in CODES_SKIP:
+                        newSourceLines[-1][-1] += f" {fields[-1]}"
+                        nTweaks += 1
+                        continue
+
+            newSourceLines.append(item)
+
+        print(f"TWEAKS (remove x=): {nTweaks}x")
+
+        sourceLines.clear()
+        sourceLines.extend(newSourceLines)
+
+    newSourceLines = []
+    indentValue = 0
+
+    for item in sourceLines:
+
+        # change back ln= values to x= values
+
+        (code, *fields) = item
+        if code == "==":
+            pageNum = int(fields[0].lstrip("0"))
+            xInfo = XS[pageNum % 2]
+            xStart = xInfo["start"]
+            xIndent = xInfo["indent"]
+            indentValue = xIndent - xStart
+
+        if code not in CODES_NO_FMT:
+            fmtStr = fields[0]
+            fmt = dict(f.split("=") for f in fmtStr.split(",") if f)
+
+            fmtChanged = False
+
+            key = "in"
+            if key in fmt:
+                fmt["x"] = indentValue
+                del fmt[key]
+                fmtChanged = True
+
+            # remove all y= keys from the format
+            key = "y"
+            if key in fmt:
+                del fmt[key]
+                fmtChanged = True
+
+            if fmtChanged:
+                fmtStr = ",".join(f"{k}={v}" for (k, v) in fmt.items())
+                item = [code, fmtStr, *fields[1:]]
+
+        newSourceLines.append(item)
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
+    newSourceLines = []
+
+    prevCode = False
+    prevText = None
+
+    nTweaks = []
+
+    for item in sourceLines:
+        (code, *fields) = item
+
+        # remove x=... in list items
+
+        if code[0] in {"L", "P"}:
+            prevCode = True
+            prevText = fields[-1]
+        elif code in {"==", "TI", "HD"}:
+            prevCode = False
+            prevText = None
+
+        if code[0] == "S":
+            if prevCode:
+                prevText = prevText.strip()
+                fmtStr = fields[0]
+                if (
+                    fmtStr == ""
+                    or "x=" in fmtStr
+                    and prevText.endswith(".")
+                    and prevText[0:-1].rstrip().isdigit()
+                ):
+                    text = f" {fields[-1]}"
+                    newSourceLines[-1][-1] += text
+                    nTweaks.append(
+                        (len(newSourceLines), f"{prevCode} {prevText}{text}")
+                    )
+                    continue
+
+        newSourceLines.append(item)
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
+    print(f"TWEAKED LIST ITEMS: {len(nTweaks)}x")
+    for (i, text) in nTweaks[0:10]:
+        print(f"{i:>5} {text}")
+
+    newSourceLines = []
+
+    noXbefore = 0
+
+    nTweaks = []
+
+    for (i, item) in enumerate(sourceLines[0:-4]):
+        (code, *fields) = item
+
+        # remove isolated x=...
+        # i.e. those that have at least 2 non x= lines before and 4 such lines after
+        # and whose x value is less than 70.
+
+        fmtStr = fields[0]
+        currentNoXbefore = noXbefore
+        hasX = "x=" in fmtStr
+        if hasX:
+            noXbefore = 0
+        else:
+            noXbefore += 1
+
+        if hasX and code[0] in {"L", "S"}:
+            x = int(fmtStr[2:])
+            if (x < 70 or x == 180 or x > 300) and currentNoXbefore >= 2:
+                if all("x=" not in sourceLines[i + 1 + j][1] for j in range(4)):
+                    text = fields[-1]
+                    if code[0] == "L":
+                        newSourceLines.append([code, "", text])
+                    else:
+                        newSourceLines[-1][-1] += f" {text}"
+                    nTweaks.append((len(newSourceLines), f"{x=} {code} {text}"))
+                    continue
+
+        newSourceLines.append(item)
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
+    print(f"REMOVED ISOLATED X=: {len(nTweaks)}x")
+    for (i, text) in nTweaks[0:10]:
+        print(f"{i:>5} {text}")
+
+
+def tables(sourceLines):
+    MAX_X_LESS = 6
+
+    newSourceLines = []
+
+    tableInfo = []
+
+    lastX = -MAX_X_LESS - 1
+
+    nLines = len(sourceLines)
+
+    curTable = None
+
+    workTable = []
+
+    def mapStops(tabStops):
+        positions = []
+        positionMap = {}
+
+        for (r, row) in enumerate(tabStops):
+            for stop in row:
+                mapped = False
+                p = -1
+                for (p, pos) in enumerate(positions):
+                    if pos < stop:
+                        continue
+                    if pos == stop:
+                        positionMap[(r, stop)] = stop
+                        mapped = True
+                        break
+                    positions[p:p] = [stop]
+                    positionMap[(r, stop)] = stop
+                    mapped = True
+                    break
+                if not mapped:
+                    positions.append(stop)
+                    positionMap[(r, stop)] = stop
+
+        positionRank = {pos: p + 1 for (p, pos) in enumerate(positions)}
+        columnMap = {
+            (r, stop): positionRank[pos] for ((r, stop), pos) in positionMap.items()
+        }
+
+        return (positions, columnMap)
+
+    def computeTable(i):
+        tabStops = []
+
+        for item in workTable:
+            (code, *fields) = item
+            if code in CODES_SKIP or code == "RE":
+                continue
+            if code == "RB":
+                tabStops.append([])
+            else:
+                x = fields[0]
+                tabStops[-1].append(x)
+
+        (positions, columnMap) = mapStops(tabStops)
+
+        r = -1
+        for item in workTable:
+            (code, *fields) = item
+            if code in CODES_SKIP or code == "RE":
+                continue
+            if code == "RB":
+                r += 1
+                item[-1] = ", ".join(f"{columnMap[(r, x)]}:{x}" for x in tabStops[r])
+            else:
+                x = fields[0]
+                item[1] = f"c={columnMap[(r, x)]},x={x}"
+        return (positions, tabStops)
+
+    def processRow(r, material):
+        workTable.append(["RB", f"r={r}", ""])
+
+        for item in material:
+            workTable.append(item)
+
+        workTable.append(["RE", f"r={r}", ""])
+
+    def processTable(i, material):
+        tableInfo.append(material)
+        workTable.clear()
+
+        curRow = []
+        r = 0
+
+        for item in material:
+            (code, *fields) = item
+            if code in CODES_SKIP:
+                curRow.append(item)
+            else:
+                mayHaveX = code not in CODES_NO_FMT
+                fmtStr = fields[0]
+                x = int(fmtStr[2:]) if mayHaveX and "x=" in fmtStr else 0
+                newItem = [code, x, fields[-1]]
+
+                newItem[0] = "TC"
+                if code[0] == "S":
+                    curRow.append(newItem)
+                else:
+                    if len(curRow):
+                        processRow(r, curRow)
+                    r += 1
+                    curRow = [newItem]
+        if len(curRow):
+            processRow(r, curRow)
+
+        (positions, tabStops) = computeTable(i)
+        nTables = len(tableInfo) + RESUME_TABLE
+        nRows = len(tabStops)
+        nCols = len(positions)
+
+        newSourceLines.append(["TB", f"t={nTables}", f"rows={nRows},cols={nCols}"])
+        newSourceLines.extend(workTable)
+        newSourceLines.append(["TE", f"t={nTables}", ""])
+
+    def doTable(i):
+        nTail = i - 1 - lastX
+        nReal = None if nTail == 0 else -nTail
+        nRest = len(curTable) - nTail
+        realTable = curTable[0:nReal]
+        restTable = curTable[nRest:]
+        if len(realTable) + len(restTable) != len(curTable) or len(realTable) == 0:
+            print(
+                "TABLE ERROR: "
+                f"{len(curTable)=} {nTail=} {len(realTable)=} {len(restTable)=}"
+            )
+        processTable(i, realTable)
+        newSourceLines.extend(restTable)
+
+    for (i, item) in enumerate(sourceLines):
+        (code, *fields) = item
+        allowedInTable = code not in CODES_OUT_TABLE
+        mayHaveX = code not in CODES_NO_FMT
+        fmtStr = fields[0]
+        x = int(fmtStr[2:]) if mayHaveX and "x=" in fmtStr else None
+        if x is not None:
+            lastX = i
+
+        nextX = None
+
+        j = i + 1
+        if j < nLines:
+            nextItem = sourceLines[j]
+            (nextCode, *nextFields) = nextItem
+            while j < nLines and nextCode in CODES_SKIP:
+                j += 1
+                nextItem = sourceLines[j]
+                (nextCode, *nextFields) = nextItem
+            nextMayHaveX = nextCode not in CODES_NO_FMT
+            nextFmtStr = nextFields[0]
+            nextX = int(nextFmtStr[2:]) if nextMayHaveX and "x=" in nextFmtStr else None
+
+        inTable = allowedInTable and (
+            x is not None
+            or nextX is not None
+            or (curTable is not None and i - lastX < MAX_X_LESS)
+        )
+
+        if inTable:
+            if curTable is None:
+                curTable = [item]
+            else:
+                curTable.append(item)
+            continue
+        else:
+            if curTable is not None:
+                doTable(i)
+                curTable = None
+
+        newSourceLines.append(item)
+
+    if curTable is not None:
+        doTable(i + 1)
+        curTable = None
+
+    print(f"TABLES: {len(tableInfo)}x")
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
+
+def footnotes(sourceLines):
+    pageNum = None
+    footnoteBodies = collections.defaultdict(
+        lambda: collections.defaultdict(lambda: "")
+    )
+
+    for (i, item) in enumerate(sourceLines[0:-2]):
+        (code, *fields) = item
+        if code == "==":
+            pageNum = int(fields[0].lstrip("0"))
+
+        elif code == "FB":
+            fNum = fields[0]
+            text = fields[-1]
+            footnoteBodies[pageNum][fNum] += text
+
+    newSourceLines = []
+    pageNum = None
+
+    footnoteRefs = collections.defaultdict(set)
+
+    FOOTNOTE_RE = re.compile(r"<note>([0-9]+)</note>")
+
+    def footnoteRepl(match):
+        fNum = match.group(1)
+        if fNum in footnoteRefs[pageNum]:
+            print(f"ERROR: duplicate footnote {fNum} on page {pageNum}")
+        else:
+            footnoteRefs[pageNum].add(fNum)
+        if fNum not in footnoteBodies[pageNum]:
+            print(f"ERROR: no footnote body for {fNum} on page {pageNum}")
+            fText = ""
+        else:
+            fText = footnoteBodies[pageNum][fNum]
+        return f"""<note mark="{fNum}">{fText}</note>"""
+
+    for (i, item) in enumerate(sourceLines[0:-2]):
+        (code, *fields) = item
+
+        if code == "==":
+            pageNum = int(fields[0].lstrip("0"))
+
+        if code == "FB":
+            continue
+
+        text = fields[-1]
+        (newText, n) = FOOTNOTE_RE.subn(footnoteRepl, text)
+        if n:
+            item[-1] = newText
+            newSourceLines.append(item)
+            continue
+
+        newSourceLines.append(item)
+
+    print(
+        f"FOOTNOTEBODIES: {sum(len(perPage) for perPage in footnoteBodies.values())}x"
+    )
+    print(f"FOOTNOTEREFS:   {sum(len(perPage) for perPage in footnoteRefs.values())}x")
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
+
+def cleanSpans(sourceLines):
+    newSourceLines = []
+
+    nCleans = 0
+
+    for item in sourceLines:
+        (code, *fields) = item
+        if code == "SE":
+            newSourceLines[-1][-1] += f" {fields[-1]}"
+            nCleans += 1
+            continue
+
+        fmtStr = fields[0]
+        text = fields[-1]
+
+        if code == "LE":
+            textBare = text.lstrip()
+            if "x=" in fmtStr or textBare.startswith("("):
+                item[0] = "PE"
+                item[1] = ""
+                item[-1] = textBare
+
+        newSourceLines.append(item)
+
+    print(f"CLEANED SPANS: {nCleans}x")
+
+    sourceLines.clear()
+    sourceLines.extend(newSourceLines)
+
+
 def getFineStructure():
-    CODES = set(
-        """
-        ==
-        TI
-        SH
-        PE
-        PO
-        LE
-        LO
-        SE
-        SO
-        FM
-        FB
-    """.strip().split()
-    )
-
-    CODES_NO_FMT = set(
-        """
-        ==
-        TI
-        SH
-        FM
-        FB
-    """.strip().split()
-    )
-
-    CODES_SPAN = set(
-        """
-        SE
-        SO
-    """.strip().split()
-    )
-
     fineLines = []
     wrongCodes = collections.Counter()
 
@@ -1323,6 +2096,7 @@ def getFineStructure():
             (code, *fields) = line.rstrip("\n").split("\t")
 
             if seenFm:
+                seenFm = False
                 if code not in CODES_NO_FMT:
                     if code in CODES_SPAN:
                         prev = fineLines[-1]
@@ -1336,7 +2110,6 @@ def getFineStructure():
                         if "x" in fmt:
                             del fmt["x"]
                         fields[0] = ",".join(f"{k}={v}" for (k, v) in fmt.items())
-                seenFm = False
 
             if code not in CODES:
                 fineLines.append(["XX", *fields])
@@ -1344,7 +2117,7 @@ def getFineStructure():
                 continue
 
             if code == "FM":
-                numRep = f"<fn>{fields[0]}</fn>"
+                numRep = f"<note>{fields[0]}</note>"
                 prev = fineLines[-1]
                 prev[-1] += numRep
                 seenFm = True
@@ -1360,15 +2133,297 @@ def getFineStructure():
     else:
         print("All codes correct")
 
-    sections(fineLines)
     glue(fineLines)
     chars(fineLines)
     folios(fineLines)
+    sections(fineLines)
     getSymSups(fineLines)
+    refs(fineLines)
+    xyCleanup(fineLines)
+    tables(fineLines)
+    footnotes(fineLines)
+    cleanSpans(fineLines)
 
     with open(FINE_FILE, "w") as fh:
         for row in fineLines:
             fh.write(("\t".join(str(c) for c in row)) + "\n")
+
+
+def getXml():
+    with open(FINE_FILE) as fh:
+        fineLines = list(fh)
+
+    footnoteRe = re.compile(r"""<note.*?</note>""")
+
+    targetDir = f"{XML_DIR}/{PDF_VOL}"
+    initTree(targetDir, fresh=True)
+    inTitle = False
+    title = []
+    meta = []
+    body = []
+    pageNum = None
+    letterPageNum = None
+    seq = None
+    pendingPageBreak = None
+    inRemark = False
+    inParaO = False
+    nTable = None
+    nRow = None
+
+    metadata = dict(
+        author=collections.Counter(),
+        place=collections.Counter(),
+        date=collections.Counter(),
+    )
+
+    def finishLetter():
+        nonlocal inRemark
+
+        if len(meta):
+            fh = open(f"{targetDir}/{letterPageNum}.xml", "w")
+            fh.write("".join(meta))
+            if inRemark:
+                body.append("</remark>\n")
+                inRemark = False
+            if inParaO:
+                body.append("</para>\n")
+            body.append("</body>\n</teiTrim>\n")
+            fh.write("".join(body))
+            fh.close()
+
+    def startLetter():
+        title.clear()
+        meta.clear()
+        meta.append("""<teiTrim>\n<header>\n""")
+        body.clear()
+        body.append("""<body>\n""")
+
+    noName = set(
+        """
+        van
+        der
+        de
+    """.strip().split()
+    )
+
+    months = """
+        januari
+        februari
+        maart
+        april
+        mei
+        juni
+        juli
+        augustus
+        september
+        oktober
+        november
+        december
+    """.strip().split()
+
+    monthIndex = {month: i + 1 for (i, month) in enumerate(months)}
+
+    def capName(name, first, short):
+        return (
+            name
+            if name in noName and not (short and first)
+            else (name[0].upper() + name[1:])
+        )
+
+    def formatAuthor(authorStr, short=False):
+        names = [auth.lower() for auth in authorStr.split()]
+        if short:
+            inter = [nm for nm in names if nm in noName]
+            inter.append(names[-1])
+            names = inter
+        return " ".join(
+            capName(name.lower(), i == 0, short) for (i, name) in enumerate(names)
+        )
+
+    def distill():
+
+        titleStr = "".join(title).replace("\n", " ").strip()
+        (authorStr, placeDate) = titleStr.rsplit(",", 1)
+        authors = authorStr.split(",")
+        if " EN " in authors[-1]:
+            lastAuthors = authors[-1].split(" EN ")
+        authors[-1:] = lastAuthors
+
+        for auth in authors:
+            metadata["author"][formatAuthor(auth)] += 1
+
+        author = ", ".join(formatAuthor(auth, short=True) for auth in authors)
+        authorFull = ", ".join(formatAuthor(auth) for auth in authors)
+
+        placeDate = placeDate.strip().rstrip(".").rstrip()
+        (place, rawdate) = placeDate.split(" ", 1)
+
+        place = place[0].upper() + place[1:].lower()
+        metadata["place"][place] += 1
+        rawdate = rawdate.lower()
+        metadata["date"][rawdate] += 1
+        (day, month, year) = rawdate.split(" ")
+        month = monthIndex[month]
+
+        meta.append(f"""<meta key="page" value="{letterPageNum}"/>\n""")
+        meta.append(f"""<meta key="title" value="{author}; {place}, {rawdate}"/>\n""")
+        meta.append(f"""<meta key="rawdate" value="{rawdate}"/>\n""")
+        meta.append(f"""<meta key="seq" value="{seq}"/>\n""")
+        meta.append(f"""<meta key="place" value="{place}"/>\n""")
+        meta.append(f"""<meta key="year" value="{year}"/>\n""")
+        meta.append(f"""<meta key="month" value="{month}"/>\n""")
+        meta.append(f"""<meta key="day" value="{day}"/>\n""")
+        meta.append(f"""<meta key="author" value="{author}"/>\n""")
+        meta.append("""<meta key="pid" value=""/>\n""")
+        meta.append("""<meta key="status" value=""/>\n""")
+        meta.append(f"""<meta key="authorFull" value="{authorFull}"/>\n""")
+        meta.append("""</header>\n""")
+
+    for (i, line) in enumerate(fineLines):
+        (code, *fields) = line.rstrip("\n").split("\t")
+        if code == "==":
+            pageNum = fields[0]
+            band = fields[1]
+            bandRep = "1" if band == "i" else "2"
+            weblink = (
+                f"""/#page={int(pageNum) + BAND_OFFSET[bandRep]}"""
+                f"""&amp;source={PDF_VOL}_{bandRep}"""
+            )
+            pendingPageBreak = (
+                f"""<pb n="{pageNum}" vol="{PDF_VOL}" weblink="{weblink}"/>\n"""
+            )
+
+        else:
+            fmtStr = fields[0]
+            text = fields[-1].replace("&", "&amp;")
+            # body.append(f"XX {inRemark=}\n")
+
+            if code == "TI":
+                if not inTitle:
+                    finishLetter()
+                    startLetter()
+                    if pendingPageBreak is not None:
+                        body.append(pendingPageBreak)
+                        pendingPageBreak = None
+                    letterPageNum = pageNum
+                    seq = fmtStr
+                    inTitle = True
+                title.append(text)
+            else:
+                if pendingPageBreak is not None:
+                    body.append(pendingPageBreak)
+                    pendingPageBreak = None
+
+                if inTitle:
+                    distill()
+                    inTitle = False
+                    body.append("""<head>""")
+                    for tit in title:
+                        body.append(f"""{tit}<lb/>\n""")
+                    body.append("""</head>\n""")
+
+                if (code == "HD" or code not in {"PE", "LE"}) and inRemark:
+                    body.append("</remark>\n")
+                    inRemark = False
+
+                if code in {"TI", "PE", "LE", "HD"} and inParaO:
+                    body.append("</para>\n")
+                    inParaO = False
+
+                textBare = text.strip()
+                if textBare.startswith("<folio>"):
+                    textTest = footnoteRe.sub("", textBare).strip(".,:;!?").strip()
+                    if textTest.endswith("</folio>"):
+                        body.append(f"{textBare}\n")
+                    else:
+                        if not inRemark:
+                            body.append("<remark>")
+                            inRemark = True
+                            inParaO = False
+                        body.append(f"{text}<lb/>\n")
+                    continue
+
+                if code == "PE":
+                    body.append(f"<remark>{text}<lb/>\n")
+                    inRemark = True
+                    continue
+
+                if code == "LE":
+                    if not inRemark:
+                        print(f"WARNING: line {i + 1} {code} outside <remark>: {text}")
+                        body.append("<remark>")
+                        inRemark = True
+                        inParaO = False
+                    body.append(f"{text}<lb/>\n")
+                    continue
+
+                if code == "HD":
+                    body.append(f"<subhead>{text}</subhead>\n")
+                    continue
+
+                if code == "PO":
+                    if inParaO:
+                        body.append("</para>\n")
+                    body.append(f"<para>{text}<lb/>\n")
+                    inParaO = True
+                    continue
+
+                if code == "LO":
+                    if not inParaO:
+                        body.append("<para>")
+                        inParaO = True
+                    body.append(f"{text}<lb/>\n")
+                    continue
+
+                if code == "TB":
+                    if inRemark:
+                        body.append("</remark>\n")
+                        inRemark = False
+                    if inParaO:
+                        body.append("</para>\n")
+                        inParaO = False
+                    nTable = fmtStr[2:]
+                    body.append(f"""<table n="{nTable}">\n""")
+                    continue
+
+                if code == "TE":
+                    body.append("</table>\n")
+                    nTable = None
+                    continue
+
+                if code == "RB":
+                    nRow = fmtStr[2:]
+                    body.append(f"""<row n="{nTable}" row="{nRow}">\n""")
+                    continue
+
+                if code == "RE":
+                    body.append("</row>\n")
+                    nRow = None
+                    continue
+
+                if code == "TC":
+                    atts = fmtStr.split(",")
+                    nCol = "1"
+                    x = "0"
+                    for att in atts:
+                        if att.startswith("c"):
+                            nCol = att[2:]
+                        elif att.startswith("x"):
+                            x = att[2:]
+                    body.append(
+                        f"""<cell n="{nTable}" row="{nRow}" col="{nCol}" x="{x}">"""
+                        f"""{text}</cell>\n"""
+                    )
+                    continue
+
+                body.append(line)
+
+    finishLetter()
+
+    for (mKey, mData) in metadata.items():
+        print(f"{mKey}:")
+        for (ent, freq) in sorted(mData.items()):
+            print(f"\t{freq:>2}x {ent}")
 
 
 commands = set(sys.argv[1:])
@@ -1381,3 +2436,5 @@ if "struct" in commands:
     getStructure()
 if "fine" in commands:
     getFineStructure()
+if "xml" in commands:
+    getXml()

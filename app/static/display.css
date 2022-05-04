@@ -28,6 +28,21 @@
 .und {
   text-decoration: underline;
 }
+.q {
+  color: #777777;
+  font-weight: bold;
+}
+.num {
+  font-size: small;
+  vertical-align: super;
+}
+.den {
+  font-size: small;
+  vertical-align: sub;
+}
+.sub {
+  vertical-align: sub;
+}
 .super {
   vertical-align: super;
 }

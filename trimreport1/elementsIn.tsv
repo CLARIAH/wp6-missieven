@@ -1,8 +1,5 @@
 body..	602
 cell..	20872
-fw.facs=#zone.nnnnn	222
-fw.facs=#zone.nnnnnn	2334
-fw.facs=#zone.nnnnnnn	12764
 fw.place=top	15320
 fw.type=bottom-page-number	4728
 fw.type=head	10808
@@ -26,15 +23,11 @@ note.resp=editor	25105
 note.type=editorial-summary	25072
 p..	10
 p.resp=int_paragraph_joining	13094
-pb.facs=n_nnn_nnnn	6318
-pb.facs=nnn_nnn	3516
-pb.facs=nnn_nnnn	1162
 pb.n=n	117
 pb.n=nn	1170
 pb.n=nnn	9537
 pb.n=nnnn	172
-pb.tpl=n	10996
-pb.vol=nn	10996
+pb.vol=nn	17
 row..	4616
 subhead..	3
 table..	328

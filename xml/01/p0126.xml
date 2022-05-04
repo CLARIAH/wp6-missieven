@@ -18,7 +18,7 @@
 
 </header>
 <body>
-<pb n="126" tpl="1" vol="01" facs="1_104_0126"/>
+<pb n="126" />
 <head>II. PIETER DE CARPENTIER EN RADEN, BATAVIA 24 februari 1623.</head>
 <folio>Ongetekende copie, 991fol. 59-60.</folio>
 <remark>«Aankomst van schepen , inhoud van brieven van Suratte ontvangen; zie
@@ -84,7 +84,7 @@ Oomp.ie ten overvloede, niettegenstaende tselve tevooren genochsaem gedaen<lb/>
 was, restitutie van den Dragon aengeboden, maer hebben hem gerefuseert t’aenvaerden.<lb/>
 Voorts, alsoo wij tegenwoordich eenige schepen van defentie te reede<lb/>
 hadden, deden haer van gelijcken versoecken, dat eenige derselver tot besettinge<lb/>
-<pb n="127" tpl="1" vol="01" facs="1_104_0127"/>
+<pb n="127" />
 van Bantam tournieren wilden, alsoo de Nederlantse Comp.le tselve nu zoo langen<lb/>
 tijt alleen tot haeren groote oosten, beswaringe ende verlet in haer perticuliere<lb/>
 affairen ten gemeenen beste waergenomen ende bewaert hadden. Conden hier<lb/>
@@ -142,7 +142,7 @@ Van der Dussen van ’t arest wederom ontslagen was.
 Tsedert hebben verstaen, hoe de commis van de France Comp.ie van Malo,<lb/>
 met namen André Jochet de Liminoye, nadat hij voorz. zijnne bercque ontrent<lb/>
 6 maenden na d’ontlastinge van ’t arest vredelijck ende liber beseten, daermede<lb/>
-<pb n="128" tpl="1" vol="01" facs="1_104_0128"/>
+<pb n="128" />
 van d’eene plaets op d’ander verseylt ende d’ingeladen cargasoen na zijn believen<lb/>
 gebeneficeert hadde, deselve gants leek, vergaen ende innavigabel zijnde, in de<lb/>
 rivier e van Jambij aen de wal geleyt ende onder protest aen den opper coopman,<lb/>
@@ -193,7 +193,7 @@ In realen van 8en, Japans silver ende gout, ongeveer . . . 241/4 tonne gouts<lb/
 In coopmanschappen . 15 d°<lb/>
 In uuttstaende schulden . 5 d°<lb/>
 In desperate schulden .
-<super>1/4</super> d°<lb/>
+<q><num>1</num>/<den>4</den></q> d°<lb/>
 In provisie ontrent . 8 d°
 </para>
 </body>

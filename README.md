@@ -14,6 +14,9 @@
 
 # Status
 
+*   2022-05-04 version 1.0: Additional volumes: Volume 14, bands (i) and (ii) have been added.
+    The earlier corrections by Sophie have not been reapplied, but the conversion has been improved 
+    so that they are not needed anymore.
 *   2022-04-11 Additional volumes: Volume 14, bands (i) and (ii) are in the process of being converted from
     textual pdf to Text-Fabric. Most structure has been recognized, but no TF has been generated yet.
 *   2021-07-22 Additional data corrections: letters that have no page break elements were
@@ -75,33 +78,9 @@
 
 # Corpus
 
-This repo contains a structurally clean version of the data of the *General Missives*.
+This repo contains a structurally clean version of the data of the *General Missives*, volumes 1-14.
 
-The *Generale Missiven* is a collection of letters from governors of the
-VOC (Dutch East Indian Company) to
-the *Heren 17*, the council of the governors of the 17 provinces of the Netherlands,
-which was the effective
-government of the Low Countries at the time of the 17th and 18th century.
-
-The letters comprise 13 volumes and date from 1610 to 1761.
-
-The Huygens-ING institute publishes this material:
-[General Missives Website](http://resources.huygens.knaw.nl/retroboeken/generalemissiven/#page=0&accessor=toc&view=homePane),
-see also
-[General Missives Project](http://resources.huygens.knaw.nl/vocgeneralemissiven);
-both websites are in Dutch.
-
-The CLARIAH project uses a TEI version of this corpus in its Work Package 6 which deals with
-new infrastructure for academic text processing:
-[WP6-Text](https://www.clariah.nl/en/work-packages/focus-areas/text?layout=blog).
-That work is conducted and carried out by
-
-* [Lodewijk Petram](https://www.lodewijkpetram.nl) (HuygensING)
-* [Jesse de Does](https://www.researchgate.net/profile/Jesse_De_Does) (INT)
-* [Sophie Arnoult](http://www.illc.uva.nl/People/person/3601/Ir-Sophie-Arnoult)
-
-This repo does not publish the source/intermediate data as developed in CLARIAH-WP6;
-they will publish their materials in due course.
+Read more in [about](dos/about.md)
 
 # Rationale for this representation of the corpus
 
@@ -137,7 +116,7 @@ and is particularly suited to Jupyter notebooks and lab.
 We have generated a search interface for the missieven from the Text-Fabric data.
 
 Just click
-[missieven-search](https://CLARIAH.github.io/wp6-gm-search/)
+[missieven-search](https://CLARIAH.github.io/wp6-missieven-search/)
 and off you go.
 
 It is experimental.
@@ -163,52 +142,6 @@ You can export search results as tab-separated files.
 
 More info in the [manual](https://annotation.github.io/text-fabric/tf/about/clientmanual.html).
 
-# Conversion steps
-
-The CLARIAH WP6 people kindly provided me with a TEI version of the corpus.
-
-However, this TEI version contains many inaccuracies.
-There are many instances of miscategorized material:
-page headers and footers end up in body text and vice versa;
-editorial notes and footnotes are not always properly detected; dozens of letters have not been separated;
-metadata is often incorrect.
-
-In order to produce a quality dataset, I needed to do something about it: checks and corrections.
-
-1. all metadata has been freshly distilled from the letter headings, an in case of doubt the
-   online images of the missives have been inspected.
-2. all footnote marks are linked to all footnote bodies.
-   It is still possible that there are missed footnotes and missed footnote marks,
-   but chances are slim because footnote marks and footnote bodies are detected
-   independently.
-
-Yet, most OCR errors within words and numbers are mostly untouched.
-The main concern was to get a correct separation between the kinds of text:
-
-* original letter
-* editorial text
-* footnotes
-* page headers and footers
-
-[trimTei.py](https://github.com/CLARIAH/wp6-missieven/blob/master/programs/trimTei.py)
-consists of a battery of 4 conversions to clean the incoming TEI ,
-leaving out all bits that do not end up in the final dataset,
-and reorganizing some material to facilitate the conversion to TF.
-
-The first result of the laundry is a set of XML files, which contain a clean, simplified TEI-like
-encoding of the material, with all non-essential parts stripped, such as page headers and footers,
-title pages, etc.
-There is also an exact correspondence between files and letters.
-
-Then I used the
-[walker module from TF](https://annotation.github.io/text-fabric/tf/convert/walker.html)
-to turn the simple XML into Text-Fabric.
-See
-[tfFromTrim.py](https://github.com/CLAARIAH/wp6-missieven/blob/master/programs/tfFromTrim.py).
-
-For details about the features of the end result, see 
-[transcription](docs/transcription.md)
-
 # Using this corpus data
 
 At the moment the data delivered is available
@@ -221,13 +154,13 @@ a command:
 
 * have Python installed (at least 3.6)
 * `pip3 install text-fabric`
-* `text-fabric missieven:latest --checkout=latest`
+* `text-fabric clariah/wp6-missieven`
 
 This will download the corpus and fire up a local webserver and your webbrowser pointing to a in interface
 for this corpus.
 
 Another version of the data (less cleaned) is visible online in a
-[Blacklab interface ](http://corpora.ato.ivdnt.org/corpus-frontend/Missiven/search/)
+[Blacklab interface ](http://corpora.ato.ivdnt.org/corpus-frontend/Missiven/search)
 
 The next step is to make the data of this repository available in a Blacklab interface.
 In this repo we show how to set up a local Blacklab server and front-end and how to get the

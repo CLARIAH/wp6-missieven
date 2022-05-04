@@ -1,0 +1,48 @@
+@node
+@creator=Dirk Roorda
+@dateWritten=2022-05-04T14:15:22Z
+@description=identifier of a named entity
+@upgraded=‼️ from version 0.4 to 1.0
+@valueType=str
+@writtenBy=Text-Fabric
+@writtenBy=Text-Fabric
+@dateWritten=2022-05-04T14:17:20Z
+
+1242	T11
+1252	T11
+1351	T12
+1353	T1
+1357	T13
+1398	T11
+1427	T15
+1434	T16
+1545	T17
+1550	T2
+1554	T3
+T3
+T4
+1559	T5
+T5
+1566	T6
+1568	T2
+T2
+1584	T7
+1593	T8
+T8
+1653	T9
+1669	T10
+6018894	T11
+T11
+6018904	T13
+6018906	T13
+T11
+6018909	T15
+T16
+6018915	T16
+6018921	T17
+T2
+T2
+T8
+6018928	T9
+T9
+T10

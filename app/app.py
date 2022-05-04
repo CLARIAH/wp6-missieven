@@ -2,7 +2,9 @@ import types
 from tf.advanced.app import App
 
 
-MODIFIERS = "remark folio note ref emph und super special".strip().split()
+MODIFIERS = """
+    remark folio note ref emph und super special q num den
+""".strip().split()
 
 
 def fmt_layoutFull(app, n, **kwargs):
