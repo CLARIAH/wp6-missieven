@@ -1560,11 +1560,11 @@ def getSymSups(sourceLines):
         if code != "==":
             text = fields[-1]
             remFracs.clear()
-            # newText = fracInRe.sub(fracInRepl, text)
+            newText = fracInRe.sub(fracInRepl, text)
             if len(remFracs):
                 for (fracStr, repl) in remFracs.items():
                     stats["remainingFrac"][1][f"{fracStr} => {repl}"] += 1
-                # item[-1] = newText
+                item[-1] = newText
 
         newSourceLines.append(item)
 
@@ -2429,12 +2429,17 @@ def getXml():
 commands = set(sys.argv[1:])
 
 if "pdf" in commands:
+    print("PDF-processing: READ PDFs")
     dataFromPdf(export=False)
 if "pdfe" in commands:
+    print("PDF-processing: READ PDFs")
     dataFromPdf(export=True)
 if "struct" in commands:
+    print("PDF-processing: Interpret Structure")
     getStructure()
 if "fine" in commands:
+    print("PDF-processing: Interpret Fine Points")
     getFineStructure()
 if "xml" in commands:
+    print("PDF-processing: Produce XML")
     getXml()
