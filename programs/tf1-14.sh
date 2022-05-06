@@ -16,8 +16,10 @@ python3 trimPdf.py xml
 python3 tfFromTrim.py
 python3 tfFromTrim.py loadonly
 
+# do not forget to run the notebook map.ipynb
+
 # to generate static search interface and run it locally:
-text-fabric-make clariah/wp6-missieven serve
+# text-fabric-make clariah/wp6-missieven serve
 
 # in order to publish on gh-pages:
 # text-fabric-make clariah/wp6-missieven ship

@@ -30,7 +30,8 @@ You can run (almost) all conversions and preparations in one go:
 
 The only things that are not done are
 *   the optional part in the Jupyter Notebook
-*   publishing the generated search interface to GitHub Pages
+*   building the generated search interface and serving it locally
+    or publishing it to GitHub Pages
 
 Below we take you through all the steps one by one.
 
