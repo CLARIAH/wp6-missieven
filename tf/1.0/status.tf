@@ -15,24 +15,24 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:12Z
+@dateWritten=2022-05-06T12:52:05Z
 
-6018476	copie
-6018503	geheim
-6018594	geheim
-6018600	geheim
-6018606	secreet
-6018614	secreet
-6018621	secreet
-6018625	secreet
-6018629	geheim
-6018646	secreet
-6018649	geheim
-6018654	kopie
+6018486	copie
+6018513	geheim
+6018604	geheim
+6018610	geheim
+6018616	secreet
+6018624	secreet
+6018631	secreet
+6018635	secreet
+6018639	geheim
+6018656	secreet
+6018659	geheim
+6018664	kopie
 kopie geheim
-6018674	geheim
-6018686	geheim
-6018692	geheim
+6018684	geheim
 6018696	geheim
-6018714	geheim
-6018716	geheim
+6018702	geheim
+6018706	geheim
+6018724	geheim
+6018726	geheim

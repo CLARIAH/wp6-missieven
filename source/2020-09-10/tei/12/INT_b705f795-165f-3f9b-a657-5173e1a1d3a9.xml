@@ -1,0 +1,50 @@
+<TEI xml:id="INT_b705f795-165f-3f9b-a657-5173e1a1d3a9" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Mossel, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar en Loten, 8 april 1751, geheim</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>8 april 1751</date>
+            <idno type="sourceID">missiven:vol12</idno>
+            <idno type="pid">INT_b705f795-165f-3f9b-a657-5173e1a1d3a9</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>88</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Mossel, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar en Loten, 8 april 1751, geheim</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>8 april 1751</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>12</interp></interpGrp>
+        <interpGrp type="n"><interp>V</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1751</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1751</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>4</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>4</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>8</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Mossel</interp><interp>Cluysenaar</interp><interp>Overbeek</interp><interp>Van Broyel</interp><interp>Van der Waeyen</interp><interp>Van der Parra</interp><interp>Van der Spar</interp><interp>Loten</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_b705f795-165f-3f9b-a657-5173e1a1d3a9</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_b705f795-165f-3f9b-a657-5173e1a1d3a9.TEI.1.text.1">
+                  <body xml:id="INT_b705f795-165f-3f9b-a657-5173e1a1d3a9.TEI.1.text.1.body.1">
+                    <div xml:id="INT_b705f795-165f-3f9b-a657-5173e1a1d3a9.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_b705f795-165f-3f9b-a657-5173e1a1d3a9.TEI.1.text.1.body.1.div.1.pb.1" n="88" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_12/images/generale_missiven_gs257_088.tif"/><fw xml:id="INT_b705f795-165f-3f9b-a657-5173e1a1d3a9.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.1856977" xmlns="http://www.tei-c.org/ns/1.0">V. JACOB MOSSEL, JOHANNES MATTHEUS CLUYSENAAR, DANIËL OVER-BEEK, AREND VAN BROYEL, JACOB VAN DER WAEYEN, PETRUS ALBERTUSVAN DER PARRA, JURGEN VAN DER SPAR en JOAN GIDEON LOTEN, BATAVIA8 april 1751, geheim.Kol. Arch. 2645, VOC 2753, fol. 970-974.</fw><note xml:id="INT_b705f795-165f-3f9b-a657-5173e1a1d3a9.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-size: 11; font-style: italic; line-height: 12.2pt; margin-left: 1600" xmlns="http://www.tei-c.org/ns/1.0">(Volgt De Jonge <hi rend="font-size:11; font-family:Liberation Serif" xml:lang="nl">, Opkomst</hi> X, p. 183 r. 7 - p. 184 r. 33.)<lb/></note><fw xml:id="INT_b705f795-165f-3f9b-a657-5173e1a1d3a9.TEI.1.text.1.body.1.div.1.fw.2" type="bottom-page-number">88</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

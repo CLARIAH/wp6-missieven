@@ -1,0 +1,50 @@
+<TEI xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Pijl, Van Swoll, Douglas, De Vos, Van Rijn, Van der Stel, Zwaardecroon, Chasteleyn, De Roo en De Haan, 24 aug. 1705</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>24 aug. 1705</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_d10263f5-120a-3f9e-8202-098702fb8ec3</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>345</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Pijl, Van Swoll, Douglas, De Vos, Van Rijn, Van der Stel, Zwaardecroon, Chasteleyn, De Roo en De Haan, 24 aug. 1705</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>24 aug. 1705</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>VIII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1705</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1705</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>24</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>24</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Pijl</interp><interp>Van Swoll</interp><interp>Douglas</interp><interp>De Vos</interp><interp>Van Rijn</interp><interp>Van der Stel</interp><interp>Zwaardecroon</interp><interp>Chasteleyn</interp><interp>De Roo</interp><interp>De Haan</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_d10263f5-120a-3f9e-8202-098702fb8ec3</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1">
+                  <body xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1">
+                    <div xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.pb.1" n="345" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0345.tif"/><fw xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5140504" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Pijl, Van Swoll, Douglas, enz. VIII, 24 augustus 1705</fw><fw xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.5140520" xmlns="http://www.tei-c.org/ns/1.0">345</fw><head xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">VIII. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, LAURENS PIJL,<lb/> CHRISTOFFEL VAN SWOLL, ABRAHAM DOUGLAS, PIETER DE VOS,<lb/> ADAM VAN RIJN, ADRIAAN VAN DER STEL, HENDRIK ZW AARDECROON,<lb/> CORNELIS CHASTELEYN, WILLEM DE ROO EN MATTHEUS<lb/> DE HAAN, BATAVIA 24 augustus 1705.<lb/></head><p xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1588, copie fol. 403-409.<lb/></p><note xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 23.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">( Het origineel werd met de Engelse Seafort verzonden, die 24 juni van Bandjarmasin<lb/> kwam; directeur Pieter de Vos kwam met alle V.O.G. personeel tussen 7 en 20<lb/> juli van Suratte met 10 vaartuigen , 2 gearresteerde Moorse bodems te Cochin latend;<lb/> 14 juli werd besloten )<lb/></note><p xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 23.0pt" xmlns="http://www.tei-c.org/ns/1.0">- den commandeur Meyndert de Boer nevens den oppercoopman Willem<lb/> Zix1) over Persia wederom na Zouratta te expedieeren met de schepen de<lb/> Lieffde, d’Ellemeet, Rijgersdael, Vosmaar, Coning Carel de Derde en de jagtjes<lb/> de Hartloop en ’t Huys te Haan.<lb/></p><note xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 23.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(In Perzië volgt Frans Castelijn Wichelman als directeur op; De Vos arresteerde<lb/> goederen van Abdul Gafur, vele tonnen gouds waard, meest in Mexicaanse realen;<lb/> de Geyn, Carthago en Beverwijck zijn bestemd tot retourschepen van Ceylon, het eerste<lb/> vertrok 22 aug. derwaarts, Pelgrom moet er nog een schip uit Bengalen bijvoegen; de<lb/> Nieuwburg vertrok 29 april via Siam naar Japan, de IJssél, Drie Croonen en Berckel<lb/> later Tiaar Siam met den opperkoopman J oan van V eisen, als gezaghebber van Bantam<lb/> opgevolgd door Bitter van Reede; De Wilde bood zich aan als veldoverste op Java en<lb/> vertrok 4 juli naar Semarang met den majoor der artillerie Christoffel W els en vele<lb/> soldaten; uit patria kwamen tussen 14 mei en 20 aug. de Gent, Bon, Neptunus,<lb/> Hoedekenskerke, Oosterstein, Slooten, Generale Vrede, Donker vliet, Lam en door<lb/> Straat Bali de Huis te Hemert met brieven van 24 juli tot 29 december; op last van<lb/> daar traden Cops en Bornezee 27 juli af, Cops verscheen reeds lang niet meer ter vergadering;<lb/> Douglas en De Vos werden raad-ordinair , Hendrik Zwaardecroon en Cornejis<lb/> Chasteleyn raad-extraordinair , de daartoe ook benoemde Tant was 29 mei reeds<lb/> overleden, Becker is op weg van Ceylon en Phoonsen nog in Coromandel, De Roo<lb/> kwam 13 juni van Makassar en werd in Rade geassumeerd; Jan Grootenhuys werd<lb/> visitateur -generaal, Anthony Valckenier volgt hem op als secunde te Malakka; wegens<lb/> de onderlinge twisten in Bengalen zijn van daar opgeroepen Pelgrom en de opperkoop <hi rend="font-size:5.5; font-family:Liberation Serif" xml:lang="nl">-</hi><lb/>lieden Wilree en Urwijn, De Roo wordt er directeur; Coyet mag als gouverneur van<lb/> Amboina aftreden en wordt opgevolgd door Adriaan van der Stel).<lb/></note><note xml:id="INT_d10263f5-120a-3f9e-8202-098702fb8ec3.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.6pt; text-indent: 23.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) Willem Six kwam in 1692 uit als onderkoopman, in 1693 te Suratte, 1701 koopman<lb/> en secunde aldaar, 1705 opperkoopman en secunde bij de commissie derwaarts, aug. 1706<lb/> visitateur-generaal, nov. 1709 gouverneur van Malakka, juli 1711 naar Batavia opgeroepen en<lb/> buiten dienst gesteld, 1712 weer in dienst gesteld te Batavia, juli 1716 weer buiten dienst<lb/> wegens zijn weigering als directeur naar Perzië te gaan, maart 1716 raad extra-ordinair van<lb/> Indië, sept. 1718 gestorven.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

@@ -15,26 +15,26 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:17Z
+@dateWritten=2022-05-06T12:52:11Z
 
-6558167	1
-6558180	1
-6558184	1
-6558191	1
-6558254	1
+6558177	1
+6558190	1
+6558194	1
+6558201	1
+6558264	1
 1
-6558275	1
-6558398	1
-6564506	9
-6564919	9
+6558285	1
+6558408	1
+6564516	9
+6564929	9
 9
 9
 9
-6564968	9
+6564978	9
 9
 9
-6567747	13
-6568316	14
+6567757	13
+6568326	14
 14
 14
 14

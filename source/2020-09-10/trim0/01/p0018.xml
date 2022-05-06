@@ -1,0 +1,24 @@
+<teiTrim>
+<header>
+<meta key="page" value="18"/>
+<meta key="title" value="Ongedateerd en zonder plaats"/>
+<meta key="rawdate" value="Ongedateerd en zonder plaats"/>
+<meta key="seq" value="X"/>
+<meta key="author" value=""/>
+<meta key="pid" value="INT_cf76ae08-e798-39e2-8745-891dc6f7cd6a"/>
+</header>
+
+<body>
+<pb n="18" />
+<fw place="top" type="page-number" >18
+</fw>
+<fw place="top" type="head" >Both X
+</fw>
+<head rend="font-size: 10; line-height: 12.9pt">X. PIETER BOTH, ZONDER PLAATS EN DATUM.<lb/>
+</head>
+<p rend="font-size: 8; line-height: 12.9pt">961, 2 folio’s.<lb/>
+</p>
+<note place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; margin-right: 300; line-height: 12.9pt; text-align: center; font-size: 9.5">(Over particuliere handel van Jacques VHermite) .<lb/>
+</note>
+</body>
+</teiTrim>

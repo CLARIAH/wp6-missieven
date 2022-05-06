@@ -1,0 +1,50 @@
+<TEI xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam en Van Swoll, 22 dec. 1700</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>22 dec. 1700</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>143</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam en Van Swoll, 22 dec. 1700</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>22 dec. 1700</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXX</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1700</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1700</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>22</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>22</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Outhoorn</interp><interp>Van Hoorn</interp><interp>Pijl</interp><interp>De Haas</interp><interp>Van Riebeeck</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Van Rhee</interp><interp>Van Dam</interp><interp>Van Swoll</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1">
+                  <body xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1.body.1">
+                    <div xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1.body.1.div.1.pb.1" n="143" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0143.tif"/><fw xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.2892877" xmlns="http://www.tei-c.org/ns/1.0">Van Outhoom, Van Hoorn, Pijl, De Haas, Van Riebeeck, enz. XXX, 22 december 1700 143</fw><head xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XXX. WILLEM VAN OUTHOORN, JOAN VAN HOORN, LAURENS PIJL,<lb/> DIRK DE HAAS, ABRAHAM VAN RIEBEECK, JOANNES COPS, MANUEL<lb/> BORNEZEE, THOMAS VAN RHEE, JACOB VAN DAM EN CHRISTOFFEL<lb/> VAN SWOLL, BATAVIA 22 december 1700 *).<lb/></head><p xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1622, fol. 1124-1129 copie.<lb/></p><note xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 23.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(De Vosmeer vertrok 20 dec ., nu volgt de Reygersdaal; Pieter de Vos kwam<lb/> 14 dec. met de Donkervliet uit Japan; 8 dec. kwam de Generale Vrede uit patria,<lb/> 6 dec. de Theeboom van Padang, 12 dec. de Peter en Paul uit Malakka met Govert van<lb/> Hoorn, die zijn ambt aan Bemard Phoonsen overdroeg; 15 dec. kwam de Koning van<lb/> Bantam, zeer lek, met tin en de lading van de verongelukte Goudesteyn, van Ligor; de<lb/> Theeboom zal met thee naar Amsterdam vertrekken , de Donkervliet Tiaar Delft en<lb/> Rotterdam, de Haak naar Hoorn en Enkhuizen; de Reygersdaal heeft lading van<lb/> f. 405021; verschillende dranken uit patria waren slecht gestuwd, zodat er grote<lb/> „leccage” ivas; het tekort van wijlen Jeronimus Brons, administrateur van Japara,<lb/> van 1279 rsd. wordt slechts gedekt door f. 1186 hem toekomende gage).<lb/></note><note xml:id="INT_db7f900d-bfe1-3f2f-9419-3082de6b3e40.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.3pt; text-indent: 23.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) Eigenlijk is dit slechts een „geleibriefje” voor de Kamer Amsterdam, maar in nr.<lb/> XXXI wordt er naar verwezen als ware het de voorafgaande Generale Missive.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

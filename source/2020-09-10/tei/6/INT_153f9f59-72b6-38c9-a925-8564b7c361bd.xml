@@ -1,0 +1,54 @@
+<TEI xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker en Chastelein, 5 aug. 1706</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>5 aug. 1706</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_153f9f59-72b6-38c9-a925-8564b7c361bd</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>414</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker en Chastelein, 5 aug. 1706</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>5 aug. 1706</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XV</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1706</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1706</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>5</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Van Swoll</interp><interp>De Wilde</interp><interp>Douglas</interp><interp>De Vos</interp><interp>Phoonsen</interp><interp>Van Rijn</interp><interp>Zwaardecroon</interp><interp>Becker</interp><interp>Chastelein</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_153f9f59-72b6-38c9-a925-8564b7c361bd</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1">
+                  <body xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1">
+                    <div xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.pb.1" n="414" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0414.tif"/><fw xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.5318420" xmlns="http://www.tei-c.org/ns/1.0">414</fw><fw xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5318431" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, enz. XV, 5 augustus 1706</fw><head xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XV. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, CHRISTOFFEL<lb/> VAN SWOLL, HERMAN DE WILDE, ABRAHAM DOUGLAS, PIETER DE<lb/> VOS, BERNARD PHOONSEN, ADAM VAN RIJN, HENDRIK ZWAARDECROON,<lb/> HENRICK BECKER EN CORNELIS CHASTELEIN, BATAVIA<lb/> 5 augustus 1706 <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">J).</hi><lb/></head><p xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1608, fol. 9-10.<lb/></p><note xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 10.5pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met het Engelse schip <hi rend="font-size:6.5; font-family:Liberation Serif; letter-spacing:1.0pt" xml:lang="nl">,,</hi> Feterstori <hi rend="font-size:6.5; font-family:Liberation Serif; letter-spacing:1.0pt" xml:lang="nl">’</hi> en ontvangen 27 juni 1707,)<lb/></note><p xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.p.2" resp="int_paragraph_joining" rend="">
+              - waarin ©ede ook overvaart den bekenden capitain William Dampier<lb xmlns="http://www.tei-c.org/ns/1.0"/>van sijn verloore reyse nevens stux <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl" xmlns="http://www.tei-c.org/ns/1.0">1 2)</hi> van sijn volk en twee door hem gevangen<lb xmlns="http://www.tei-c.org/ns/1.0"/> genomen Spanjaarden, soodanig hij met deselve den 30e december des voorleeden<lb xmlns="http://www.tei-c.org/ns/1.0"/> jaars eyndelijk in Ternaten verschenen en vervolgens op den 26e julij jongstleden<lb xmlns="http://www.tei-c.org/ns/1.0"/> met den verlosten Ternaatsen gouverneur Pieter Roselaar per ’t schip den Eenhoorn<lb xmlns="http://www.tei-c.org/ns/1.0"/> hier aangekomen is, staande nog agt van sijn resteerend volk op hun instantie<lb xmlns="http://www.tei-c.org/ns/1.0"/> met onse retourscheepen te volgen, alsoo die met hem, Dampier, niet hebben<lb xmlns="http://www.tei-c.org/ns/1.0"/> willen vaaren.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Uit patria kwamen 17 juni de Herstelde Leeuw, 28 juli de Limburg, 30 juli de<lb/> Grimmestein; Meyndert de Boer kwam 10 juni mei zijn vloot via Cochin terug,)<lb/></note><p xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.p.3" resp="int_paragraph_joining" rend="">
+              - dog met een vrugteloose verrigtinge, alsoo de onsen bij den nieuwen<lb xmlns="http://www.tei-c.org/ns/1.0"/>Souratsen gouverneur Amanetchan tot geen gehoor ofte eenige satisfactie hadden<lb xmlns="http://www.tei-c.org/ns/1.0"/> konnen komen en alsoo met veel sieken den 20e maart dese jaars uyt die<lb xmlns="http://www.tei-c.org/ns/1.0"/> Souratse bestelling onverrigter saaken hadden moeten opbreeken.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">( Een nieuwe expeditie onder den visitaleur -generaal J oan Grootenhuys en Pieter<lb/> Bemard van Breen als secunde is in voorbereiding; uit Bengalen kwamen aan Jacob<lb/> Pelgrom en de opperkooplieden Dirk Wilree en Alexander Urwijn met de Schoonewal,<lb/> Slooten en Bekestein, uit Amboina 6 juni gouverneur Coyet, uit Ternate 26 juli gouverneur<lb/> Pieter Rooselaar; 5 schepen, waarvan de Belvliet via Siam, vertrokken met het<lb/> opperhoofd Ferdinand de Groot naar Japan; Cleur werd mei de Sion naar Siam<lb/> gezonden om na te gaan, of men daar tot rustiger handel zou kunnen komen; brieven<lb/> uit patria van 22 aug. tot 28 oct. werden ontvangen).<lb/></note><note xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.6pt; text-indent: 23.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) Comans was door Heren XVII ontslagen, De Haan was slechts geassumeerd in Rade<lb/> van Indië en werd door de Heren niet als raad extra-ordinair benoemd, hij maakte dus geen<lb/> deel meer uit van de Hoge Regering.<lb/></note><note xml:id="INT_153f9f59-72b6-38c9-a925-8564b7c361bd.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.6pt; margin-left: 2300" xmlns="http://www.tei-c.org/ns/1.0">2) Niet ingevuld.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

@@ -1,0 +1,50 @@
+<TEI xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers, 23 jan. 1643</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>23 jan. 1643</date>
+            <idno type="sourceID">missiven:vol2</idno>
+            <idno type="pid">INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>194</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers, 23 jan. 1643</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>23 jan. 1643</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>2</interp></interpGrp>
+        <interpGrp type="n"><interp>XXI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1643</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1643</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>23</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>23</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Diemen</interp><interp>Van der Lijn</interp><interp>Maetsuycker</interp><interp>Schouten</interp><interp>Sweers</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1">
+                  <body xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1">
+                    <div xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1.pb.1" n="194" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_02/images/gm_2_112_0194.tif"/><fw xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5944396" xmlns="http://www.tei-c.org/ns/1.0">194 Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers XXI, 23 januari 1643</fw><head xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XXI. ANTONIO VAN DIEMEN, CORNELIS VAN DER LIJN, JOAN<lb/> MAETSUYCKER, JUSTUS SCHOUTEN EN SALOMON SWEERS, BATAVIA<lb/> 23 januari 1643.<lb/></head><p xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8.5; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">1050, ongefolieerd, (na fol. 383), copie fol. 384-389.<lb/></p><note xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 12.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Brief verzanden met de Engelse Ulysses ; samenvatting der 3 voorafgaande<lb/> brieven).<lb/></note><p xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Om wat motiven den e. Johan van Twist uyt het Malacx gouvemo verlost<lb/> hebben, sullen U Ed. uyt ons bovengemelte schrijven <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">x)</hi> als de pampieren ende<lb/> schriften, daernevens gesonden, connen sien. Naer connen vermercken, laet sich<lb/> noch voorstaen grotelijcx verongelijckt te wesen. ’t Schijnt, de verwaende laetdunckentheyt<lb/> de menschen niet toelaet haer eygen fauten te kennen, immers niet<lb/> te bekennen; uyt welcke reeden wij, niet twijffelende, off soude U Ed. trachten<lb/> met veele onwaerheden te abuseren ende wel stout, gelijck hem alhier sulcx niet<lb/> ontsien heeft het generael gouverno met calomniën ende sinistre lasteringen te<lb/> betichten, hebben ten dienste van de Generale Comp.e in Rade van India goetgevonden<lb/> ende ordre gegeven sijne brieven, met ’t schip N.-Rotterdam bestelt,<lb/> te openen ende, daer yets merckelijx aen gelegen mocht sijn, terugge te brengen,<lb/> opdat ons nader mochte blij eken, van wat geest desen man gedreven wort, gelijck<lb/> geschiet sij ende is onder anderen een gevonden aen d’Heere 17e, waerinne besij den<lb/> veele andere blamen ende valscheden sich niet ontsien heeft met ronde woorden<lb/> te schrijven, dat met ’t schip Wassenaer van den Malaxsen buyt herwaerts gesonden<lb/> soude hebben ettelijeke tonnen gouts aen goederen ende coopmanschappen,<lb/> daer den geheelen buyt, soo per Wassenaer als drie andere schepen becomen, door<lb/> expresse gecommitteerdens (onder welcke den oppercoopman Nicolaes Overschie,<lb/> met ’t schip ’s-Hartogenbosch overcomende, een geweest is) ontfangen sijnde, niet<lb/> hooger getaxeert sijn geworden als tot f 144 000, waermede ons niet alleen van<lb/> fraude ende ontrouwe te insimuleer en schijnt, maer oock wel oorseacke soude sijn,<lb/> de pretentie der lantoverheyt grooter gemaeckt soude worden, als het veroverde<lb/> binnen Malacca toerijeken magh. Soo seght oock met uytgedruckte woorden in<lb/> voorsz. missive, dat aldaer, spreeckende van fortificatiën ofte gemeene gebouwen,<lb/> voor 20 000 guldens wiste te doen maecken, dat alhier wel 50 a 60 000 realen te<lb/> costen comt, als meer diergelijeke vuylicheden, die voorgenomen hebben hem<lb/> nevens de voorige saken voor den Raet van Justitie te laten verantwoorden.<lb/> Voorsz. missive souden U Ed. nevens desen wel laeten toecomen, doch alsoo niet<lb/> sonders ten dienste van de Comp.e contineert, hebben geraetsamer geacht de<lb/> voorsz. vuylicheden, streckende tot cleynachtinge ende disrespect van U Ed.<lb/> gouverno, geen vreemde handen te vertrouwen, niet twijffelende, off U Ed. sullen<lb/> tselve voor aengenaem houden.<lb/></p><p xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Op gisteren comt hier ter rheede een joneke, uyt China geseylt in 23 daegen,<lb/> gelaeden met grove ende fijne waeren, ophebbende 500 menschen; is in compagnie<lb/> van vier andere, herwaerts tenderende, uytgeloopen, die daegelijx staen te<lb/> paresseren, mitsgaders veel leven ende proffijt Batavia sullen toebrengen.<lb/></p><note xml:id="INT_72d78d3c-f775-3afd-b9d4-cb78ac6abaf6.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" rend="font-size: 8.5; text-align: justify; line-height: 9.4pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) Brief XX.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

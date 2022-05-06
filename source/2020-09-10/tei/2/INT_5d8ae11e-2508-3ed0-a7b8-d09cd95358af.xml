@@ -1,0 +1,50 @@
+<TEI xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers, 9 jan. 1644</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>9 jan. 1644</date>
+            <idno type="sourceID">missiven:vol2</idno>
+            <idno type="pid">INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>230</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers, 9 jan. 1644</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>9 jan. 1644</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>2</interp></interpGrp>
+        <interpGrp type="n"><interp>XXVI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1644</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1644</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>9</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>9</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Diemen</interp><interp>Van der Lijn</interp><interp>Maetsuycker</interp><interp>Schouten</interp><interp>Sweers</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1">
+                  <body xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1">
+                    <div xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.pb.1" n="230" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_02/images/gm_2_112_0230.tif"/><fw xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.6043935" xmlns="http://www.tei-c.org/ns/1.0">230 Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers XXVI, 9 januari 1644</fw><head xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.4pt" xmlns="http://www.tei-c.org/ns/1.0">XXVI. ANTONIO VAX DIEMEN, CORNELIS VAN DER LIJN, JOAN<lb/> MAETSUYCKER, JUSTUS SCHOUTEN EN SALOMON SWEERS, RATAVIA<lb/> 9 januari 1644.<lb/></head><p xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">1051, fol. 96-100.<lb/></p><note xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 10.5pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Van Sumatra’s Westkust is in het afgelopen seizoen 808 last peper ontvangen ).<lb/></note><p xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">De Suratse cleeden geven tot Ticco ende Priaman sobere proffijten en wort<lb/> veroorsaeckt door den grooten toevoer der Mooren van Dabul, Suratte als elders in<lb/> Atchin, twelck oock niet te beteren staet, totdat wij off den Portugees de Mooren<lb/> ’t frequenteren der zee verhinderen, twelck van ons sonder groot misnoegen der<lb/> Atchinse Coninghinne niet wel wil vallen ende, sooveel ons aengaet, tselve voor een<lb/> tijt dienen te gedoogen. De Portugesen met ons in vreede sijnde, sullen daer haest<lb/> ordre op stellen ende uyt der Mooren middelen trachten capitael te maecken.<lb/></p><p xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Des Coninghinnes gerechtigheyt van de genegotieerde peper in Ticco als<lb/> Priaman ende ’t weynige, tot Indrapoura boven het tolvrij schip aldaer ingenomen,<lb/> comen tsamen te bedragen ƒ 25 643.11.5, dat alle tegen des Coninghinnes debet<lb/> (procederende over coop van juweelen a.° 1642) gerescontreert ende op ’t comptoir<lb/> Atchin affgesz. blijft ende onse realen in spetie off rijxdaelders doet strecken. Wij<lb/> maken staet, dat van Ticco, Celida, Indrapoura, Lamajuta <hi rend="font-size:6; font-family:Liberation Serif; font-style:italic; font-weight:bold; vertical-align:super; letter-spacing:0.5pt" xml:lang="nl">1),</hi> Cillebar, Bancoele<lb/> ende Manacq2) noch ontrent 150 lasten peper in Batavia gebracht sal werden,<lb/> item groote quantité van Palimbangh, Jamby, Patany ende Benjarmassingh, sulx<lb/> de j oneken uyt China te comen hun competentie van peper staen t’ erlangen ende<lb/> ’t ons omme Tayouan, Parsia als Mocha te versien aen die spetie tegen mey tot<lb/> augusti niet manqueren sal, onaengesien ruym 600 lasten daertoe noodigh sullen<lb/> wesen. Present sijn onse magasijnen niet alleen van peper maer alle coopmansz.,<lb/> voor Europa dienstigh, ledigh, dat in veele jaren niet gebeurt is.<lb/></p><note xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.4pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">( Schip uit Siam verwacht; een schip van daar , bestemd naar Malakka, te Batavia<lb/> aangekomen).<lb/></note><p xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.p.4" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Een jonekjen met 46 lasten rijs is mede van Siam verschenen, een ander<lb/> Conings joneke met 110 lasten d.° omtrent de n[oort]h[oeck] van Banca verongeluckt,<lb/> ’t volck gesalveert ende hier seer armelijck met hun boot off champan<lb/> aengelant. Noch een joneke stont te volgen ende seyt ons den oppercoopman Van<lb/> Tzum3) toe desen jare dit mousson van daer te bestellen 800 lasten.<lb/></p><note xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">( De thans naar patria vertrekkende Leeuwarden heeft een last <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">,</hi> waard fl 257747.<lb/> 8.14; het Indische fonds blijft fl 9762041.3.15; het retour over 1643 is in totaal waard<lb/> fl 207066610.5, w.v. aan peper fl 677280.12.13, aan kruidnagelen fl 236374.4.-, aan<lb/> indigo Biana fl 270677.8-, aan poedersuiker fl 158852.5-, aan diamanten 100708).<lb/></note><note xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 8; line-height: 9.6pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) Lamanjuta, Mandjuta, plaats aan de gelijknamige rivier in het noorden van de residentie<lb/> Benkulen op 2£° Z.B. Thans van geen belang, doch destijds uitvoerplaats van peper.<lb/></note><note xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt; margin-left: 2100" xmlns="http://www.tei-c.org/ns/1.0">2) Manacq, Manna of Manak, kustplaats in Benkulen op 4£° Z.B.<lb/></note><note xml:id="INT_5d8ae11e-2508-3ed0-a7b8-d09cd95358af.TEI.1.text.1.body.1.div.1.note.6" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">3) Reynier van Tzum kwam 1629 als assistent uit en werd al spoedig in Siam geplaatst;<lb/> 1637 onderkoopman, later koopman, van 1641 tot 1643 als opperkoopman opperhoofd aldaar.<lb/> In 1644 maakte hij als commissaris nogmaals een reis van Batavia derwaarts; 1645-1646<lb/> opperhoofd in Japan, waarna hij repatrieerde als vice-commandeur van de retourvloot.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

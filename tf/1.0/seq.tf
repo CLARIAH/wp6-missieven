@@ -15,9 +15,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:12Z
+@dateWritten=2022-05-06T12:52:05Z
 
-6018166	I
+6018176	I
 II
 III
 IV
@@ -605,7 +605,7 @@ XXXIX
 XL
 XLI
 XLII
-6018755	I
+6018765	I
 II
 III
 IV

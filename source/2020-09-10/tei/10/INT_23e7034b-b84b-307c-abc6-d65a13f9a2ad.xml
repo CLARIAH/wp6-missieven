@@ -1,0 +1,52 @@
+<TEI xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Valckenier, Schaghen, Thedens, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius, Van Aerden en Lakeman, 31 oktober 1740</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>31 oktober 1740</date>
+            <idno type="sourceID">missiven:vol10</idno>
+            <idno type="pid">INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>494</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Valckenier, Schaghen, Thedens, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius, Van Aerden en Lakeman, 31 oktober 1740</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>31 oktober 1740</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>10</interp></interpGrp>
+        <interpGrp type="n"><interp>X</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1740</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1740</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>31</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>31</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Valckenier</interp><interp>Schaghen</interp><interp>Thedens</interp><interp>Van Imhoff</interp><interp>De Haeze</interp><interp>Van Schinne</interp><interp>Van Suchtelen</interp><interp>Pasques de Chavonnes</interp><interp>Duquesne</interp><interp>Guillot</interp><interp>Van Berendregt</interp><interp>Crul</interp><interp>Macaré</interp><interp>Nolthenius</interp><interp>Van Aerden</interp><interp>Lakeman</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1">
+                  <body xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1">
+                    <div xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1.div.1.pb.1" n="494" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_10/images/generale_missiven_gs250_0494.tif"/><head xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 12; text-align: justify; line-height: 14.4pt" xmlns="http://www.tei-c.org/ns/1.0">X. ADRIAAN VALCKENIER, JOAN PAUL SCHAGHEN, JOHANNES THEDENS,<lb/> GUSTAAF WILLEM VAN IMHOFF, ELIAS DE HAEZE, ISAAC VAN<lb/> SCHINNE, HERMAN VAN SUCHTELEN, PIETER ROCHUS PASQUES DE<lb/> CHAVONNES, PIETER DUQUESNE, ELIAS GUILLOT, NICOLAAS VAN<lb/> BERENDREGT, NICOLAAS CRUL, JOHANNES MACARE, DANIËL NOLTHENIUS,<lb/> MAURITS VAN AERDEN en JACOB LAKEMAN, BATAVIA 31 oktober<lb/> 1740.<lb/></head><p xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 10.5; text-align: justify; line-height: 14.4pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 2371, VOC 2479, fol. 13-57.<lb/></p><note xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 14.4pt; text-indent: 30.0pt; text-align: justify; font-size: 11" xmlns="http://www.tei-c.org/ns/1.0">(Van de tien retourschepen, Beukestijn, Goidschalxoord, Nieuw Walcheren en<lb/> Hilversbeek voor de Kamer Amsterdam, de Everswaart en Sara Jacoba voor Zeeland,<lb/> de Vreeland voor Delft, Hofwegen voor Rotterdam, Rijnhuizen voor Hoorn en Ouwerkerk<lb/> voor Enkhuizen, zijn er zes wegens ‘een extraordinair en fataal geval deser dagen tegens<lb/> verwagting van alle en een iegelijk in dese colonie g’ ex teert’. Slechts de Beukestijn,<lb/> Goidschalxoord, Everswaart, Vreeland en Ouwerkerk zijn vertrokken. De oorzaak was)<lb/></note><p xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1.div.1.p.2" resp="int_paragraph_joining" rend="">
+              - een ongehoorde rebellie en stoutmoedige ondememinge der Chineesen tegens<lb xmlns="http://www.tei-c.org/ns/1.0"/>de Compagnie.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 14.4pt; text-indent: 30.0pt; text-align: justify; font-size: 11" xmlns="http://www.tei-c.org/ns/1.0">(Zie De Jonge, <hi rend="font-size:12; font-family:Liberation Serif" xml:lang="nl">Opkomst</hi> IX, p. 295-312.)<lb/></note><fw xml:id="INT_23e7034b-b84b-307c-abc6-d65a13f9a2ad.TEI.1.text.1.body.1.div.1.fw.1" type="bottom-page-number">494</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

@@ -1,0 +1,50 @@
+<TEI xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Diemen, Philips Lucasz., Gijsels en Van der Burch, 2 febr. 1636</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>2 febr. 1636</date>
+            <idno type="sourceID">missiven:vol1</idno>
+            <idno type="pid">INT_87f3172c-8b71-3871-8aee-3b11dbc536ee</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>553</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Diemen, Philips Lucasz., Gijsels en Van der Burch, 2 febr. 1636</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>2 febr. 1636</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>1</interp></interpGrp>
+        <interpGrp type="n"><interp>I</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1636</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1636</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>2</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Diemen</interp><interp>Philips Lucasz.</interp><interp>Gijsels</interp><interp>Van der Burch</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_87f3172c-8b71-3871-8aee-3b11dbc536ee</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1">
+                  <body xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1">
+                    <div xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.pb.1" n="553" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_01/images/gm_1_104_0553.tif"/><fw xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.1443829" xmlns="http://www.tei-c.org/ns/1.0">Van Diemen, Lucasz., Gijsels en Van der Burch I, 2 februari 1636</fw><fw xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.1443844" xmlns="http://www.tei-c.org/ns/1.0">553</fw><head xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">I. ANTONIO VAN DIEMEN, PHILIPS LUCASZ., ARTUS GIJSELS EN<lb/> JAN VAN DER BURCH, BATAVIA 2 februari 1636.<lb/></head><p xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">1029, fol. 693-697.<lb/></p><note xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Vertrek van de vloot van Brouwer , vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregisters,</hi> 5 januari 1636, p. 1;<lb/> berichten over het vaarwater van Malakka , vgl. ibid. 8 januari, p. 2-4).<lb/></note><p xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Tsedert is ons gemelde tijdinge* <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">1)</hi> geconfir meert door drie verscheyde jonckgiens,<lb/> uyt Palumbangh alhier aengecomen, dat niet alleen hondert, maer omtrent<lb/> twee hondert Javaense vaertuygen aldaer waeren ingecomen met ongeveer 2 a<lb/> drie hondert lasten rijs, d’ reste suyckeren, loocq, ajuyn etc., dat oock meest alle<lb/> weder naer Java gekeert waeren ende op haer affscheyt boven 50 stuex niet<lb/> bleven resteren, die mede op hun vertrecq stonden. Alle dit vaertuych verstaen<lb/> wij, uyt des Mattarams landt in de maenden augustij ende september 1635 nae<lb/> Mallacca sijn gevaeren, maer door de goede vigilantie van den commandeur<lb/> Cooper ende onse scherpe besettingh beleth haere reyse te voltrecken ende, geen<lb/> doorcompste vindende, sijn alsoo naer Palumbangh gekeert tot hun ende die van<lb/> Malacca’s groot ongerief f. Het derven van dese noot lij ckheden heeft in Malacca<lb/> groote dierte ende schaersiteyt veroorsaeckt. Soo moet Java dit jaer oock missen<lb/> ’t gerief f, dat gewoon sijn van daer te trecken, twelck alreede soodanigen af f treek<lb/> alhier in de Javaense soortering cleeden heeft veroorsaeckt, dat ons magasijn<lb/> geheel van deselve ontbloot is ende blijven oock daeromme mede te genegener<lb/> onse macht voor Malacca te continueeren omme Batavia’s progres daerdoor te<lb/> voorderen, schoon d’Engelsen ons den buyt off Portugeese goederen ontvoeren.<lb/></p><p xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">De Coninginne van Patanij heeft gesanten in Palumbangh gesonden; hun<lb/> versoeck is geweest omme partij e rijs van daer uyt te voeren, twelck men verstaet<lb/> den gesant geconsenteert te sijn, daerentegen d’ coopluyden, die naer Batavia<lb/> tendeeren, ’t uytvoeren des rijs stryetelijek verbooden.<lb/></p><p xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.p.4" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Soo was oock van Quinam sonder onse passé aldaer aengecomen een joneke<lb/> met Chineese waeren, die de Javaenen tegen haeren rijs gereuylt ende gecocht<lb/> hebben, dat almede voor de traffieque in Batavia naedeelich is, oversulex oock<lb/> geresolveert blijven tegen halff off ultimo meert aenstaende soo op die van Patany<lb/> als de Quinamse joneke buyten de Palumbanse revier te doen cruycen ende, die<lb/> becomende, voor goede buyt aen te slaen <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">2).</hi><lb/></p><note xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Zending van een schip naar de Molukken , vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregisters,</hi> 20 jan. 1636,<lb/> p. 10 en naar Amboina, ibid. 24 jan., p. 10-12; opdracht aan Pool tot ontdekking<lb/> van het Zuidland, ibid., 20 febr. p. 28).<lb/></note><p xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.p.5" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">De ondecking door ’t canael bij Maba in de Zuydtzee omme dan voorts te<lb/> comen bij noorden Mooro, Clebes ende Borneo tot Batavia sullen door gebreck van<lb/> bequaeme jachten tot naerder ende beter gelegentheyt moeten uytstellen.<lb/></p><note xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Zending van schepen naar Coromandel, vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregisters,</hi> 14 febr. p. 25-26;<lb/> aankomst van de Wassenaar uit Japan, ibid. 30 jan. p. 13-15, vanaf p. 14 r. 8<lb/> letterlijk gelijk).<lb/></note><note xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 7.5; text-align: right; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">1) NI. van de aanwezigheid van wel honderd Javaanse vaartuigen nabij Palembang.<lb/></note><note xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 7.5; text-align: right; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">1) Dit voornemen werd op 22 maart 1636 uitgevoerd; vgl. <hi rend="font-size:7.5; font-family:Liberation Serif; font-style:italic" xml:lang="nl">Daghregisters</hi> op die datum,<lb/></note><note xml:id="INT_87f3172c-8b71-3871-8aee-3b11dbc536ee.TEI.1.text.1.body.1.div.1.note.6" xml:lang="nl" rend="font-size: 7.5; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">p. 45.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

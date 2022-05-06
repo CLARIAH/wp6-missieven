@@ -1,0 +1,50 @@
+<TEI xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Maetsuyker, Hartsinck, Verburech, Steur en Thijsz., 29 jan. 1663</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>29 jan. 1663</date>
+            <idno type="sourceID">missiven:vol3</idno>
+            <idno type="pid">INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>452</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Maetsuyker, Hartsinck, Verburech, Steur en Thijsz., 29 jan. 1663</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>29 jan. 1663</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>3</interp></interpGrp>
+        <interpGrp type="n"><interp>XXVIII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1663</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1663</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>29</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>29</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Maetsuyker</interp><interp>Hartsinck</interp><interp>Verburech</interp><interp>Steur</interp><interp>Thijsz.</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1">
+                  <body xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1">
+                    <div xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.pb.1" n="452" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_03/images/gm_3_125_0452.tif"/><fw xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.5200230" xmlns="http://www.tei-c.org/ns/1.0">452</fw><fw xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5200234" xmlns="http://www.tei-c.org/ns/1.0">Maetsuyker, Hartsinclc, Verburch, Steur en Joan Thijsz. XXVIII, 29 januari 1663</fw><head xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">XXVIII. JOAN MAETSUYKER, CAREL HARTS1NCK, NICOLAES VERBURCH,<lb/> DIRCK JANSZ. STEUR EN JOAN THIJSZ., BATAVIA 29 januari<lb/> 1663.<lb/></head><p xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8.5; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">K.A. 1129, fol. 1565-1684.<lb/></p><note xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">( De inhoud komt grotendeels overeen mei die van <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregisters</hi> 1-29 jan. 1663 ,<lb/> p. 1-25; verder valt te vermelden: de voorafgaande retourschepen vertrokken laat door<lb/> de late aankomst van schepen uit allerlei delen van Azië te Batavia; door tegenwind is<lb/> de vloot pas 15 jan. Straat Sunda gepasseerd; er is groter bemanning dan is toegestaan,<lb/> omdat vele uitgedienden moesten worden teruggezonden; tegen verwachting kwam<lb/> geen schip uit Banda met muskaatnoten; er is geen rijst naar de Molukken gezonden,<lb/> daar er nog voor twee jaar voorraad is).<lb/></note><p xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">In cas de oorlogh tegen de Portugesen te cesseren comt . . . ., soo meenen wij,<lb/> dat de negotie daer vooreerst noch wel met sal waergenomen connen worden <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">1),</hi><lb/>alsoo ’t getal groot is ende gissingh maecken, dat, dewijl Coxin doot ende sijn regeringe<lb/> genoegsaem gedissolveert is, tot het besleghten van de saecken om de noort<lb/> soo grooten getal swaere scheepen voortaen niet sal van noode wesen, als daer<lb/> present is militerende, die dan in plaetse van dien tot den handel sullen connen<lb/> worden gebruyckt.<lb/></p><note xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 10.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">( Het aantal te Batavia voor pairia aangevraagde wissels neemt af, .. . .)<lb/></note><p xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0"><hi rend="font-size:10; font-family:Liberation Serif; letter-spacing:4.5pt" xml:lang="nl">....</hi> omdat de luyden meer ende meer sullen practiseren op middelen om te<lb/> ontgaen het groot verlies, dat sij lijden op de penningen, die se hier aen de<lb/> Compagnie tellen om haer in ’t vaderlandt weder uytgekeert te worden ende waermet<lb/> de Engelsen tot Bantam ende andere plaetsen treffelijcke voordelen sullen<lb/> weten te doen. Waerom wij niet connen naelaeten U Ed. andermael op het eerbiedigste<lb/> in bedeneken te geven, off niet alsoo dienstigh voor de Compag.e en sal<lb/> sijn, dat in ’t stuck van de voorsz. wissels wat moderatie werde gebruyckt; wij<lb/> meenen jae.<lb/></p><note xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">( Op 31 dec. 1662 bedroeg het Compagnieskapitaal in het Oosten in reële effecten<lb/> f. 9956715.7.10; na 26 dec. is nog voor 7404 rsd. aan wissels op patria getrokken).<lb/></note><note xml:id="INT_d59ff6fc-63d4-308c-967d-7c2ba97f32e4.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 8; line-height: 8.9pt; margin-left: 2300" xmlns="http://www.tei-c.org/ns/1.0">1) NI. met de op dat ogenblik aanwezige schepen.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

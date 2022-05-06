@@ -1,0 +1,50 @@
+<TEI xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon en De Haan, 29 aug. 1704</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>29 aug. 1704</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_bf41057a-f79b-3db0-b7b8-304f64d103bd</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>289</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon en De Haan, 29 aug. 1704</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>29 aug. 1704</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>I</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1704</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1704</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>29</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>29</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Pijl</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Van Swoll</interp><interp>De Wilde</interp><interp>Douglas</interp><interp>Van Rijn</interp><interp>Van der Stel</interp><interp>Zwaardecroon</interp><interp>De Haan</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_bf41057a-f79b-3db0-b7b8-304f64d103bd</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1">
+                  <body xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1">
+                    <div xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.pb.1" n="289" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0289.tif"/><fw xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.3315009" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, enz. I, 29 augustus 1704</fw><fw xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.3315024" xmlns="http://www.tei-c.org/ns/1.0">289</fw><head xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">I. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, LAURENS PIJL,<lb/> JOANNES COPS, MANUEL BORNEZEE, CHRISTOFFEL VAN SWOLL,<lb/> HERMAN DE WILDE, ABRAHAM DOUGLAS, ADAM VAN RIJN, ADRIAAN<lb/> VAN DER STEL, HENDRICK ZWAARDECROON EN MATTHEUS<lb/> DE HAAN, BATAVIA 29 augustus 1704.<lb/></head><p xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1663, fol. 2180-2183, copie 1673, fol. 497-601 *)•<lb/></p><note xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(Uit patrio, kwamen aan op 19 maart de Huis ter Boede, 26 mei de Huis ter<lb/> Haan , 7 juli de St. Jan, 20 juli de Hazelnoot en de Theeboom, 30 juli de Bogaert,<lb/> 10 augustus de Reigersdaal, Prins Eugenius en Huis te Duinen , 9 aug. de Horstendaal<lb/> en de Schonewal, 22 aug. de Grimmestein, met brieven van 4 juli tot 29 dee.; de<lb/> Horstendaal kon door kwaad weer de Kaap niet aandoen en kwam met vele zieken in<lb/> Straat Sunda; men antwoordt nu met de Edivard en Dudley over Engeland).<lb/></note><p xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Op Java’s Oostcust is met het afsterven van den Sousouhounang Amancourat<lb/> Senapatty Ingalaga den 3e november verleden jaers het rijk tot nog in ontroerten<lb/> gebleven, want desselfs eenigste soon, vrij wreet en tyrannycq van aerd, sigh in<lb/> zijn vaders plaets doen uytroepen hebbende, is des o verledens broeder, den Pange -<lb/> rang Poegar, die de contracten met de Cie.ao. 1677 ten tijde van den heer admirael<lb/> Speelman in de Mattaram mede getekent heeft1 <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">2)</hi> en ook bij U Ho. Ed.Gestr. schrijvens<lb/> aan deze Regering van den 23en january 1681 af vermaend wert om desselfs<lb/> moortdadige handen te ontgaen, op den raed en door behulp van veele rijxgrooten<lb/> in de maend maert dezes jaers met zijn familie en ongevaer 500 menschen van<lb/> Cartazoura na Semarang gevlugt en aldaer op sijn ernstigh versoek eerst in Cies.<lb/> bescherminge aengenomen en zedert door veele voorname strantgroten en -volkeren<lb/> voor haren wettigen Vorst en Sousouhounangh in stede van zijn overleden<lb/> broeder verklaert en waermede wij ons van Cie. wegen bij resolutie van den 19de<lb/> juny jongstleden ook hebben geconformeerd, waertegen nu des o verledens zoon,<lb/> den Pangerang Depatty <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">3),</hi> sig schijnt in postuur tot Cartazoura te stellen en sooveel<lb/> hij kan zijn gezagh te maintineren, hoewel er tot nog, onzes wetens, geen<lb/> vijandelijke actiën wederzijds zijn voorgevallen, maer egter nogal wat tijt en moeyte<lb/> zal bij brengen, eer gem. Pougar in zijn broeders kroon en zetel zal bevestigd<lb/> werden.<lb/></p><note xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(Van Hoorn was na de ontvangst van de brief van Heren XVII van 3 nov. 1703<lb/> bereid het Gouverneurs -Generaals -ambt te aanvaarden, nl. op 15 aug. ; Willem de Roo,<lb/> van Makassar opgeroepen, Hendrick Zwaardecroon en Mattheus de Haan zijn in<lb/> Rade van Indi'è geassumeerd; Jacobus Hoogcamer werd provisioneel vice-pres. van de<lb/> Raad van Justitie , het lid van die Raad Boudaen stierf aan de Kaap).<lb/></note><note xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.3pt; margin-left: 2200" xmlns="http://www.tei-c.org/ns/1.0">1) Gebruik is gemaakt van de beter leesbare copie.<lb/></note><note xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.3pt; margin-left: 2100" xmlns="http://www.tei-c.org/ns/1.0">2) Zie bijv. <hi rend="font-size:7.5; font-family:Liberation Serif; font-style:italic" xml:lang="nl">Corpus</hi> III, nr. CCLXXIX.<lb/></note><note xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.3pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">3) Pangéran Adipati Anom kwam in nov. 1703 op de troon met de naam Mangku-Rat<lb/> III, maar werd door de V.O.C. niet erkend, zijn oom Pangóran Puger kreeg met haar hulp de<lb/> overhand, waarop hij zioh op 28 juli 1708 aan de V.O.C. overgaf; hij werd naar Ceylon verbannen,<lb/> waar hij in 1737 stierf.<lb/></note><fw xml:id="INT_bf41057a-f79b-3db0-b7b8-304f64d103bd.TEI.1.text.1.body.1.div.1.fw.3" type="bottom-page-number">19</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

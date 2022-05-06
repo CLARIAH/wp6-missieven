@@ -1,0 +1,40 @@
+<TEI xml:id="INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Indices</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date></date>
+            <idno type="sourceID">missiven:vol2</idno>
+            <idno type="pid">INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl>
+        <interpGrp type="page"><interp>827</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>0</interp></interpGrp>
+        <interpGrp type="volume"><interp>2</interp></interpGrp>
+        <interpGrp type="n"><interp></interp></interpGrp>
+        <interpGrp type="pid"><interp>INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a</interp></interpGrp>
+        <interpGrp type="titleLevel1"><interp>Indices</interp></interpGrp>
+      </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a.TEI.1.text.1">
+                  <body xml:id="INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a.TEI.1.text.1.body.1">
+                    <div xml:id="INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a.TEI.1.text.1.body.1.div.1.pb.1" n="827" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_02/images/gm_2_112_0827.tif"/><head xml:id="INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 15; letter-spacing: 2.0pt; line-height: 16.6pt" xmlns="http://www.tei-c.org/ns/1.0">INDICES<lb/></head><fw xml:id="INT_b7e138d9-e9eb-3e12-b22f-6307b4c8d83a.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.4263504" xmlns="http://www.tei-c.org/ns/1.0"></fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

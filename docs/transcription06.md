@@ -8,14 +8,14 @@ The version number of the TEI set is used in the
 conversion.
 
 We have created several TF data versions out of a single source version.
-The TF-App `missieven` states the TEI source version and TF version used in its metadata
+The TF-app `clariah/wp6-missieven` states the TEI source version and TF version used in its metadata
 in its
-[config.yaml](https://github.com/annotation/app-missieven/blob/master/code/config.yaml)
+[config.yaml](https://github.com/clariah/wp6-missieven/blob/master/app/config.yaml)
 
 The TEI source has been cleaned and the result is captured in a set of simplified, TEI-like XML files,
 in this repo.
 For an overview of the element usage in those files, see
-[elementsOut.tsv](https://github.com/Dans-labs/clariah-gm/blob/master/trimreport3/elementsOut.tsv).
+[elementsOut.tsv](https://github.com/clariah/wp6-missieven/blob/master/trimreport3/elementsOut.tsv).
 
 Here is a short explanation
 

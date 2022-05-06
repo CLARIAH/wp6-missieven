@@ -1,0 +1,50 @@
+<TEI xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker en Chastelein, 16 dec. 1706</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>16 dec. 1706</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_fe910bc1-c9e2-320a-9088-9a7b41511dca</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>463</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker en Chastelein, 16 dec. 1706</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>16 dec. 1706</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XVII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1706</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1706</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>16</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>16</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Van Swoll</interp><interp>De Wilde</interp><interp>Douglas</interp><interp>De Vos</interp><interp>Phoonsen</interp><interp>Van Rijn</interp><interp>Zwaardecroon</interp><interp>Becker</interp><interp>Chastelein</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_fe910bc1-c9e2-320a-9088-9a7b41511dca</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1">
+                  <body xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1">
+                    <div xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1.pb.1" n="463" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0463.tif"/><fw xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5452893" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, enz. XVII, 16 december 1706 463</fw><head xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XVII. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, CHRISTOFFEL<lb/> VAN SWOLL, HERMAN DE WILDE, ABRAHAM DOUGLAS, PIETER DE<lb/> VOS, BERNARD PHOONSEN, ADAM VAN RIJN, HENDRIK ZWAARDECROON,<lb/> HENRICK BECKER EN CORNELIS CHASTELEIN, BATAVIA<lb/> 16 dec. 1706.<lb/></head><p xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1610, fol. 1353-1368.<lb/></p><note xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met de Berg, die cargasoen van f. 355282 voor de Kamer Amsterdam<lb/> heeft ; de Drie Kronen kwam 2 dec. van Masulipatam met cargasoen van f. 127742 <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">,</hi><lb/>vnl. 240 pak textiel, ze moest 3 oct. van daar wegens stormen vertrekken; van Padang<lb/> kwamen 4 en 5 dec. de Feyslahey en de Keulen met een brief van 20 nov., o.a. meldend,<lb/> dat de mensen van Bajang de V .0 .C .goudmijn teruggaven; het is rustig ter Westkust;<lb/> uit patria kwamen 2 dec. de Naters met 72 koppen en geen doden en de Kiefhoeck met<lb/> 191 koppen en 17 doden en brieven van 9 inaart tot 12 april; men eiste in patria nog<lb/> 25000 'vè foelie, die nu meegaat).<lb/></note><p xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Wij hebben dees dagen te deser steede ontdeckt en in arrest doen nemen<lb/> seeckere vijff Roomse geestelijcke, als 3 Jesuïten en 2 Franciscaners, den 4e november<lb/> mettet Engelse schip Charliton uyt Engeland hier overgekomen en die na ’t<lb/> vertreck van dien bodem op den 12en daaraan na Banjer vervolgens clandestin bij<lb/> eenige onser borgers zig opgehouden hebben en voorgeven na China gedestineert<lb/> te zijn.<lb/></p><p xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.4pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Twee derselver, met namen Michiel Pernet uyt Bourgogne en Jacob de Premille<lb/> van Poictou, altans per desen bodem overgaan.<lb/></p><note xml:id="INT_fe910bc1-c9e2-320a-9088-9a7b41511dca.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(10 dec. kwamen uit Bengalen de Huis ter Boede, Bon, Rijnenburg en Flora <hi rend="font-size:9.5; font-family:Liberation Serif" xml:lang="nl">,</hi><lb/>samen met cargasoen van f. 137259, vnl. 657 last rijst, 50 id. tarwe, 100 id. katjang<lb/> en maar 45 pak textiel, 1500 zak salpeter en 140 kisten amfioen en brieven van 9 en 13<lb/> oct. ; eind oct. zouden de Sandhorst en de Ham van daar naar Ceylon vertrekken en de<lb/> Schoonewal naar Perzië ; er waren aan boord vele zieken en 85 sterfgevallen; het jaar<lb/> 1704-1705 gaf f. 3092040 verlies en het kapitaal bedroeg nog f. 30306408; de schipper<lb/> van de Berg Arij Timmerman gedroeg zich goed bij de ontmoeting met de Franse<lb/> schepen; het door Coyett in beslag genomen journaal van Morgan wordt naar patria<lb/> gezonden ) .<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

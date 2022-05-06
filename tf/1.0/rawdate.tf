@@ -15,9 +15,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:12Z
+@dateWritten=2022-05-06T12:52:05Z
 
-6018166	25 februari 1610
+6018176	25 februari 1610
 6 augustus 1610
 14 oktober 1610
 18 juli 1611
@@ -26,10 +26,10 @@
 26 juli 1612
 26 juli 1612
 26 juli 1612
-6018176	26 juli 1612
+6018186	26 juli 1612
 26 juli 1612
 26 juli 1612
-6018180	1 januari 1614
+6018190	1 januari 1614
 1 januari 1614
 1 januari 1614
 10 november 1614
@@ -458,7 +458,7 @@
 30 september 1729
 7 november 1729
 30 november 1729
-6018610	31 januari 1730
+6018620	31 januari 1730
 27 februari 1730
 23 maart 1730
 17 oktober 1730

@@ -15,9 +15,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:12Z
+@dateWritten=2022-05-06T12:52:05Z
 
-6018166	Both; aan boord van het Wapen van Amsterdam voor Ile de Mayo, 25 februari 1610
+6018176	Both; aan boord van het Wapen van Amsterdam voor Ile de Mayo, 25 februari 1610
 Both; aan boord van het Wapen van Amsterdam liggende in de Tafelbaai, 6 augustus 1610
 Both; aan boord van het Wapen van Amsterdam ter Rede van Mauritius, 14 oktober 1610
 Both; Kasteel Nassau op Banda-Neira, 18 juli 1611

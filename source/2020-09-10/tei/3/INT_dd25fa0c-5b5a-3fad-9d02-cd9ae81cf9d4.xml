@@ -1,0 +1,50 @@
+<TEI xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Maetsuyker, Hartzinck, De Vlaming van Oudtshoorn, Verburch en Steur, 17 jan. 1658</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>17 jan. 1658</date>
+            <idno type="sourceID">missiven:vol3</idno>
+            <idno type="pid">INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>209</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Maetsuyker, Hartzinck, De Vlaming van Oudtshoorn, Verburch en Steur, 17 jan. 1658</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>17 jan. 1658</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>3</interp></interpGrp>
+        <interpGrp type="n"><interp>XVI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1658</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1658</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>17</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>17</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Maetsuyker</interp><interp>Hartzinck</interp><interp>De Vlaming van Oudtshoorn</interp><interp>Verburch</interp><interp>Steur</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1">
+                  <body xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1">
+                    <div xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1.div.1.pb.1" n="209" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_03/images/gm_3_125_0209.tif"/><fw xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.4769862" xmlns="http://www.tei-c.org/ns/1.0">Maofcsuyker, Iïarfczinck, Van Oudtshoom, Verburch en Steur XVI, 17 januari 1658</fw><fw xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.4769876" xmlns="http://www.tei-c.org/ns/1.0">209</fw><head xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">XVI. JOAN MAETSUYKER, CAREL HARTZINCK, ARNOLD DE VLAMING<lb/> VAN OUDTSHOORN, NICOLAES VERBURCH EN DIRCK JANSZ.<lb/> STEUR, BATAVIA 17 januari 1658.<lb/></head><p xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">K.A. 1111, fol. 83.<lb/></p><note xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; margin-left: 1400; line-height: 10.0pt; text-align: center; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(De Patiëntie komt 17 jan. uit Bengalen mei cargasoen van <hi rend="font-size:8; font-family:Liberation Serif; font-weight:bold; letter-spacing:0.5pt" xml:lang="nl">/.</hi> 128644).<lb/></note><fw xml:id="INT_dd25fa0c-5b5a-3fad-9d02-cd9ae81cf9d4.TEI.1.text.1.body.1.div.1.fw.3" type="bottom-page-number">14</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

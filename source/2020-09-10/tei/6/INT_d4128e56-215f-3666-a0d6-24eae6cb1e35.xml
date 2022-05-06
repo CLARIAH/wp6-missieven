@@ -1,0 +1,50 @@
+<TEI xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam en Van Swoll, 10 nov. 1700</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>10 nov. 1700</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_d4128e56-215f-3666-a0d6-24eae6cb1e35</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>115</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam en Van Swoll, 10 nov. 1700</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>10 nov. 1700</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXVIII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1700</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1700</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>11</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>11</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>10</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Outhoorn</interp><interp>Van Hoorn</interp><interp>Pijl</interp><interp>De Haas</interp><interp>Van Riebeeck</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Van Rhee</interp><interp>Van Dam</interp><interp>Van Swoll</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_d4128e56-215f-3666-a0d6-24eae6cb1e35</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35.TEI.1.text.1">
+                  <body xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35.TEI.1.text.1.body.1">
+                    <div xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35.TEI.1.text.1.body.1.div.1.pb.1" n="115" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0115.tif"/><fw xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.2818186" xmlns="http://www.tei-c.org/ns/1.0">Van Outhoom, Van Hoorn, Pijl, De Haas, Van Riebeeck, enz. XXVIII, 10 november 1700 1 15</fw><head xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 9.5; font-weight: bold; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XXVIII. WILLEM VAN OUTHOORN, JOAN VAN HOORN, LAURENS<lb/> PIJL, DIRK DE HAAS, ABRAHAM VAN RIEBEECK, JOANNES COPS,<lb/> MANUEL BORNEZEE, THOMAS VAN RHEE, JACOB VAN DAM EN CHRISTOFFEL<lb/> VAN SWOLL, BATAVIA 10 november 1700.<lb/></head><p xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1520, fol. 125-133.<lb/></p><note xml:id="INT_d4128e56-215f-3666-a0d6-24eae6cb1e35.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 23.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met de Domburg, Peperboom, Jerusalem en Huys te Bijweg; wissels<lb/> op patria werden getrokken voor 22922 rsd., waarvan 16874 van den chirurgijn<lb/> Andries Blokland; de Domburg brengt naar Middelburg cargasoen van <hi rend="font-size:8; font-family:Liberation Serif" xml:lang="nl">ƒ.</hi> 319566 ,<lb/> Jerusalem naar Rotterdam <hi rend="font-size:8; font-family:Liberation Serif" xml:lang="nl">ƒ.</hi> 305820, Huis te Bijweg naar Amsterdam <hi rend="font-size:8; font-family:Liberation Serif" xml:lang="nl">ƒ.</hi> 158721 ,<lb/> Peperboom naar Middelburg <hi rend="font-size:8; font-family:Liberation Serif" xml:lang="nl">ƒ.</hi> 153126; de Vosmeer komt zojuist uit patria, de vorige<lb/> schepen kwamen goed aan de Kaap aan).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

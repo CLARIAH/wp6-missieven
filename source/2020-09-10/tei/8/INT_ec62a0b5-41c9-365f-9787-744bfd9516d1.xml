@@ -1,0 +1,50 @@
+<TEI xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>XIVa. De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte van Schooten en Van Heyningen, 8 december 1728, geheim</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>8 december 1728</date>
+            <idno type="sourceID">missiven:vol8</idno>
+            <idno type="pid">INT_ec62a0b5-41c9-365f-9787-744bfd9516d1</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>224</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>XIVa. De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte van Schooten en Van Heyningen, 8 december 1728, geheim</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>8 december 1728</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>8</interp></interpGrp>
+        <interpGrp type="n"><interp>XIVa</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1728</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1728</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>8</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>De Haan</interp><interp>Huysman</interp><interp>Hasselaar</interp><interp>Blom</interp><interp>Durven</interp><interp>Van der Schuer</interp><interp>Versluys</interp><interp>Westpalm</interp><interp>Van Baerle</interp><interp>De Witte van Schooten</interp><interp>Van Heyningen</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_ec62a0b5-41c9-365f-9787-744bfd9516d1</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1">
+                  <body xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1.body.1">
+                    <div xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1.body.1.div.1.pb.1" n="224" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_08/images/generale_missiven_gs193_224.tif"/><fw xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.805904" xmlns="http://www.tei-c.org/ns/1.0">224</fw><head xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 12; text-align: justify; line-height: 14.7pt" xmlns="http://www.tei-c.org/ns/1.0">XlVa. MATTHEUS DE HAAN, ANTHONY HUYSMAN, CORNELIS HASSELAAR,<lb/> WIJBRANT BLOM, DIDERIK DURVEN, JOAN EVERARD VAN DER<lb/> SCHUER, STEPHANUS VERSLUYS, MICHIEL WESTPALM, HENDRIK VAN<lb/> BAERLE, JOAN FRAN£OIS DE WITTE VAN SCHOOTEN, ROGIER THOMAS<lb/> VAN HEYNINGEN EN HERMAN VAN BA YEN, BATAVIA 8 dec. 1728, geheim.<lb/><hi rend="font-size:10.5; font-family:Liberation Serif" xml:lang="nl">Kol. Arch. 1975, folio 1072-1079.</hi><lb/></head><note xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 14.7pt; text-indent: 26.0pt; text-align: justify; font-size: 12" xmlns="http://www.tei-c.org/ns/1.0">(Eind 1727 werden op de noordkust van Halmaheira uitgeroeid 178 vruchtdragende<lb/> notebomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> 5389 vruchtdragende en 12. 786 telbare nagelbomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> op Taffuri en<lb/> Meau 4 vruchtdragende en 104 telbare nagelbomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> op Sula-Mangoli 16 en 361 <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> in<lb/> Maba, waar een V.O.C. merkteken werd geplaatst in maart 1728 2593 vruchtdragende<lb/> en 30 telbare notebomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> in Weda en Patani was extirpatie door de vijandelijke<lb/> houding der bevolking niet mogelijk <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> op de Obi-eilanden in april 15.588 vruchtdragende<lb/> notebomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> 4 vruchtdragende en 103 telbare nagelbomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> enkele noten daarvan<lb/> gaan ter keuring naar patria, in aug. werden er in 18 dagen nog 8020 vruchtdragende<lb/> notebomen omgehakt <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> blijkbaar heeft men vroeger niet zorgvuldig genoeg gezocht).<lb/><lb/></note><p xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 12; text-align: justify; line-height: 14.7pt; text-indent: 26.0pt" xmlns="http://www.tei-c.org/ns/1.0">Een totale extirpatie der specerijeboomen mits de wijd uytgebreyde landen en<lb/> bijna ontoegankelijke gebergtens en vallijen, mitsgrs. den weeldrigen aangroey dier<lb/> bomen haast onmogelijk is.<lb/></p><note xml:id="INT_ec62a0b5-41c9-365f-9787-744bfd9516d1.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 14.7pt; text-indent: 26.0pt; text-align: justify; font-size: 12" xmlns="http://www.tei-c.org/ns/1.0">(Hulp der inwoners is onontbeerlijk <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> zodat een klein geschenk aan hen op zijn<lb/> plaats is; volgens een sengadji zouden enige specerijbomen op Sulabesi verborgen gehouden<lb/> worden <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> wat het personeel te Ternate niet gelooft <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> daar de Koning van Ternate<lb/> te vertrouwen is).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

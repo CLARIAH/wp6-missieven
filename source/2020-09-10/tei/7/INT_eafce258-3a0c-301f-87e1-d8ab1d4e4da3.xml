@@ -1,0 +1,50 @@
+<TEI xml:id="INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck en Blom, 15 okt. 1723</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>15 okt. 1723</date>
+            <idno type="sourceID">missiven:vol7</idno>
+            <idno type="pid">INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>660</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck en Blom, 15 okt. 1723</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>15 okt. 1723</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>7</interp></interpGrp>
+        <interpGrp type="n"><interp>XXI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1723</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1723</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>15</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>15</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Zwaardecroon</interp><interp>De Haan</interp><interp>Huysman</interp><interp>Hasselaar</interp><interp>Crudop</interp><interp>Tolling</interp><interp>Bergman</interp><interp>Durven</interp><interp>Van Dishoeck</interp><interp>Blom</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3.TEI.1.text.1">
+                  <body xml:id="INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3.TEI.1.text.1.body.1">
+                    <div xml:id="INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3.TEI.1.text.1.body.1.div.1.pb.1" n="660" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_07/images/gm_7_164_0660.tif"/><head xml:id="INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 9.5; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">XXL HENDRIK ZWAARDECROON, MATTHEUS DE HAAN, ANTHONY HUYSMAN,<lb/> CORNELIS HASSELAAR, JOAN ADRIAAN CRUDOP, LAURENS TOLLING,<lb/> HANS FREDERIK BERGMAN, DIDERIK DURVEN, EWOUT VAN DISHOECK EN<lb/> WIJBRANT BLOM, BATAVIA 15 october 1723.<lb/></head><p xml:id="INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1877, fol. 376-384, copie 1878, fol. 815-822.<lb/></p><note xml:id="INT_eafce258-3a0c-301f-87e1-d8ab1d4e4da3.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 20.0pt; text-align: justify; font-size: 8.5" xmlns="http://www.tei-c.org/ns/1.0">(1 oct. kwam uit patria de Kasteel van Woerden van Kamer Delft met een brief van Heren<lb/> XVII van 2 maart 1723; volgt over Java s Oostkust het afgedrukte in <hi rend="font-size:9.5; font-family:Liberation Serif" xml:lang="nl">Opkomst</hi> IX, p. 83, vervolg<lb/> van de noot van p. 82; de Susuhunan vraagt om opzending van zijn zoons Mangkunagara en<lb/> Raden Lindu, de vrouwen van Pangéran Purbaya moeten van Semarang naar Batavia worden<lb/> gezonden, Dipanagara is met de Herstelling naar de Kaap gezonden; Balambangan steunt de<lb/> Balische rebellen niet; volgt over Bantam ibid. p. 84, alinea éen van het vervolg van de noot van<lb/> p. 83; de Nederhoven, al 5 juli van de Kaap vertrokken, kwam nog niet te Batavia, evenmin<lb/> de Hoedekenskerke, Hof-niet-altijd-Zomer en Patmos, die aan de Kaap kwamen; men ontving<lb/> daar onaangename tijdingen van de Delagoabaai; via Malakka vertrekken naar Bengalen 5<lb/> schepen met cargasoen van f 1478000 in zilver en markrealen; de Geert ruid vertrekt naar Kamer<lb/> Amsterdam met cargasoen van f 226904, vnl. 401178 <hi rend="font-size:9.5; font-family:Liberation Serif" xml:lang="nl">ffi</hi> koffie, waarvan 2 186 in Amboina,<lb/> 35000 in Cheribon, de rest te Batavia verzameld en waard f 208003; 14 oct. arriveerde het fregat<lb/> Schoteroog van de Kaap).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

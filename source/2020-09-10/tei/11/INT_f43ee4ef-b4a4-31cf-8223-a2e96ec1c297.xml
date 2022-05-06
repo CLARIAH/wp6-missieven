@@ -1,0 +1,50 @@
+<TEI xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Imhoff, Crul, Nolthenius, Van Aerden, Overbeek, Van den Bosch, Schuylenburg, Mossel en Van Broyel,15 maart 1746, geheim</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>15 maart 1746</date>
+            <idno type="sourceID">missiven:vol11</idno>
+            <idno type="pid">INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>349</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Imhoff, Crul, Nolthenius, Van Aerden, Overbeek, Van den Bosch, Schuylenburg, Mossel en Van Broyel,15 maart 1746, geheim</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>15 maart 1746</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>11</interp></interpGrp>
+        <interpGrp type="n"><interp>XVI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1746</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1746</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>15</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>15</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Imhoff</interp><interp>Crul</interp><interp>Nolthenius</interp><interp>Van Aerden</interp><interp>Overbeek</interp><interp>Van den Bosch</interp><interp>Schuylenburg</interp><interp>Mossel</interp><interp>Van Broyel</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297.TEI.1.text.1">
+                  <body xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297.TEI.1.text.1.body.1">
+                    <div xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297.TEI.1.text.1.body.1.div.1.pb.1" n="349" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_11/images/generale_missiven_gs232_349.tif"/><head xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 12; text-align: justify; line-height: 14.7pt" xmlns="http://www.tei-c.org/ns/1.0">XVI. GUSTAAF WILLEM VAN IMHOFF, NICOLAAS CRUL, DANIËL NOLTHENIUS,<lb/> MAURITS VAN AERDEN, DANIËL OVERBEEK, JACOB VAN DEN<lb/> BOSCH, GIJSBERTUS SCHUYLENBURG, JACOB MOSSEL en AREND VAN<lb/> BROYEL, BATAVIA 15 maart 1746, geheim.<lb/></head><p xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 11; text-align: justify; line-height: 14.7pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 2530, VOC 2638, fol. 1409-1410.<lb/></p><note xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 14.4pt; text-indent: 31.0pt; text-align: justify; font-size: 11" xmlns="http://www.tei-c.org/ns/1.0">(Deze geheime missive wordt met de Klevers kerke verstuurd. Batavia heeft de geheime<lb/> missive van Heren XVII d.d 5 september 1 744 over de particuliere handel ontvangen. Men<lb/> is verheugd dat de beslissing hierover aan de Hoge Regering wordt overgelaten. Door het vele<lb/> werk en de ziekte van Van Imhoffis nog geen beslissing genomen. Wel hebben inmiddels<lb/> alle betrokken personen een kopie ontvangen en daarop schriftelijk geantwoord. )<lb/></note><fw xml:id="INT_f43ee4ef-b4a4-31cf-8223-a2e96ec1c297.TEI.1.text.1.body.1.div.1.fw.1" type="bottom-page-number">349</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

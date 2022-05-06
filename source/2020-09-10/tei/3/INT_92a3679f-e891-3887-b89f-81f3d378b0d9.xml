@@ -1,0 +1,50 @@
+<TEI xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Maetsuyker, Verburch, Pit, Overtwater, Speelman, Van Hoorn en Volger, 27 aug. 1672</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>27 aug. 1672</date>
+            <idno type="sourceID">missiven:vol3</idno>
+            <idno type="pid">INT_92a3679f-e891-3887-b89f-81f3d378b0d9</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>821</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Maetsuyker, Verburch, Pit, Overtwater, Speelman, Van Hoorn en Volger, 27 aug. 1672</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>27 aug. 1672</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>3</interp></interpGrp>
+        <interpGrp type="n"><interp>LXI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1672</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1672</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>27</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>27</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Maetsuyker</interp><interp>Verburch</interp><interp>Pit</interp><interp>Overtwater</interp><interp>Speelman</interp><interp>Van Hoorn</interp><interp>Volger</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_92a3679f-e891-3887-b89f-81f3d378b0d9</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1">
+                  <body xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1">
+                    <div xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1.pb.1" n="821" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_03/images/gm_3_125_0821.tif"/><fw xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.6187546" xmlns="http://www.tei-c.org/ns/1.0">Maetsuyker, Verburch, Pit, Overtwater, Speelman, enz. LXI, 27 augustus 1672</fw><fw xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.6187559" xmlns="http://www.tei-c.org/ns/1.0">821</fw><head xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">LXI. JOAN MAETSUYKER, NICOLAES VERBURCH, LAURENS PIT,<lb/> PIETER OVERTWATER, CORNELIS SPEELMAN, PIETER VAN HOORN<lb/> EN WILLEM VOLGER, BATAVIA 27 aug. 1672.<lb/></head><p xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">117ö, fol. 85-87. (Copie, ondertekend door Jan van Riebeeck).<lb/></p><note xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(Origineel verzonden met hei Engelse schip Suratte, vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregisters</hi> 1672,<lb/> p. 212-227; vier Portugese scheepjes van Goa passeren 27 juni MalaJcka op iveg naar<lb/> Macao met den gouverneur, dom Anthonio Barbosa ; Francx <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">. . .</hi> .)<lb/></note><p xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0"><hi rend="font-size:10; font-family:Liberation Serif; letter-spacing:5.0pt" xml:lang="nl">....</hi> had enpassant het eylant Oubij besocht, daer geen Europase volcken op<lb/> ofte omtrent hetselve gevonden, dat temeer gerusth. geeft. Echter was het voornemen<lb/> daer om ongemacken voor te comen eerstdaegs met een propere besettingh<lb/> possessie van te nemen, off iemant daer het oogh op mochte hebben.<lb/></p><note xml:id="INT_92a3679f-e891-3887-b89f-81f3d378b0d9.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 10.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">( Nog vele zieken in de Molukken; een loodsboot, de Ganges, is op Onrust gebouwd ) .<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

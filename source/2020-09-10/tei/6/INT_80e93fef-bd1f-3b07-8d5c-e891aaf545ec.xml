@@ -1,0 +1,40 @@
+<TEI xml:id="INT_80e93fef-bd1f-3b07-8d5c-e891aaf545ec" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Indices</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date></date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_80e93fef-bd1f-3b07-8d5c-e891aaf545ec</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl>
+        <interpGrp type="page"><interp>925</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>0</interp></interpGrp>
+        <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp></interp></interpGrp>
+        <interpGrp type="pid"><interp>INT_80e93fef-bd1f-3b07-8d5c-e891aaf545ec</interp></interpGrp>
+        <interpGrp type="titleLevel1"><interp>Indices</interp></interpGrp>
+      </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_80e93fef-bd1f-3b07-8d5c-e891aaf545ec.TEI.1.text.1">
+                  <body xml:id="INT_80e93fef-bd1f-3b07-8d5c-e891aaf545ec.TEI.1.text.1.body.1">
+                    <div xml:id="INT_80e93fef-bd1f-3b07-8d5c-e891aaf545ec.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_80e93fef-bd1f-3b07-8d5c-e891aaf545ec.TEI.1.text.1.body.1.div.1.pb.1" n="925" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0925.tif"/><head xml:id="INT_80e93fef-bd1f-3b07-8d5c-e891aaf545ec.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 20; letter-spacing: 1.5pt; line-height: 22.1pt" xmlns="http://www.tei-c.org/ns/1.0">INDICES<lb/></head>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

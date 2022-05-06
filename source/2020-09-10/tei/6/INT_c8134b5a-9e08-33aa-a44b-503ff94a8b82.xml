@@ -1,0 +1,50 @@
+<TEI xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Van Swoll, Van Rijn, Phoonsen en Zwaardecroon, 18 dec. 1707</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>18 dec. 1707</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>513</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Van Swoll, Van Rijn, Phoonsen en Zwaardecroon, 18 dec. 1707</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>18 dec. 1707</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1707</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1707</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>18</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>18</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Van Swoll</interp><interp>Van Rijn</interp><interp>Phoonsen</interp><interp>Zwaardecroon</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1">
+                  <body xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1">
+                    <div xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1.div.1.pb.1" n="513" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0513.tif"/><fw xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5588297" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Van Swoll, Van Rijn, enz. XXII, 18 december 1707</fw><fw xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.5588313" xmlns="http://www.tei-c.org/ns/1.0">513</fw><head xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XXII. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, CHRISTOFFEL<lb/> VAN SWOLL, ADAM VAN RIJN, BERNARD PHOONSEN EN HENDRICK<lb/> ZWAARDECROON, BATAVIA 18 december 1707.<lb/></head><p xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8.5; text-align: justify; line-height: 9.4pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1627, fol. 998-1005.<lb/></p><note xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 23.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met de Hoedekenskerke en de Donkervliet , sukkelde eerst de Gein<lb/> wat, op de lle kwamen het eerst genoemde schip en de Theeboom terug, die elkaar bij<lb/> storm in Straat Sunda aan boord raakten en schade beliepen, het eerste is nu weer in<lb/> staat te vertrekken; 4, 8 en 9 febr. kwamen van Coromandel de Concordia, Donau,<lb/> Peter en Paul en de Bogaard met carg. van f. 760324, vrd. 1940 pak textiel en met<lb/> brieven van 7 en 11 oct.; de handel neemt er nog niet toe; in 1708 zal een bezending aan<lb/> den nieuwen Groot- Mogol Sjah Alam worden gedaan; 8 dec. kwam van Mokka de<lb/> Herstelde Leeuw met 55790 Spaanse realen, ze leverde te Gale maar 79880 <hi rend="font-size:9.5; font-family:Liberation Serif" xml:lang="nl">®</hi> koffie af;<lb/> er werd in de handel te Mokka slechts f. 114810 gewonnen; 8 dec. kwam uit Japan de<lb/> Zuyderburg met het opperhoofd De Groot, de handel verliep er wat beter, er werd mede<lb/> door de verkoop der zijde van 1706 64% of f. 457853 gewonnen; 9 dec. kwam de<lb/> Flora van Bengalen, carg. f. 174921, de 13e van Djambi en Palembang de Peperthuyn<lb/> met 158185 <hi rend="font-size:9.5; font-family:Liberation Serif" xml:lang="nl">®</hi> peper en brieven van 30 oct. tot 29 nov.; men vindt er nu Pangéran<lb/> Pringabaja een betere Vorst dan Kjahi Gedé; brieven uit Macao voor den Koning<lb/> van Portugal worden meegezonden; de Duivenvoorde kwam na een moeilijke reis uit<lb/> patria met 162 man; 11 dec. kwam uit Perzië de Schoonewal, die lang en vergeefs op<lb/> den ambassadeur Mirza Mohammed Resa moest wachten, men kon er nog vrij handelen;<lb/> grote sterfte te Gamron, o.a. van den steunde Larix; Becker kwam 30 sept. te<lb/> Gale met de af gekeurde Brandenburg, de Huis te Loo gaat van daar naar patria;<lb/> Diodati passeerde er op weg <hi rend="font-size:9; font-family:Liberation Serif; font-style:italic" xml:lang="nl">Tiaar</hi> Suratte).<lb/></note><fw xml:id="INT_c8134b5a-9e08-33aa-a44b-503ff94a8b82.TEI.1.text.1.body.1.div.1.fw.3" type="bottom-page-number">33</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

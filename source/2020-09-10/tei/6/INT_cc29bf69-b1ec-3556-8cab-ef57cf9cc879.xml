@@ -1,0 +1,50 @@
+<TEI xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam en Van Swoll, 26 oct. 1700</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>26 oct. 1700</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>114</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam en Van Swoll, 26 oct. 1700</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>26 oct. 1700</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXVII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1700</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1700</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>26</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>26</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Outhoorn</interp><interp>Van Hoorn</interp><interp>Pijl</interp><interp>De Haas</interp><interp>Van Riebeeck</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Van Rhee</interp><interp>Van Dam</interp><interp>Van Swoll</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879.TEI.1.text.1">
+                  <body xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879.TEI.1.text.1.body.1">
+                    <div xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879.TEI.1.text.1.body.1.div.1.pb.1" n="114" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0114.tif"/><fw xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.2814474" xmlns="http://www.tei-c.org/ns/1.0">1 14 Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, enz. XXVII, 26 october 1700</fw><head xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XXVII. WILLEM VAN OUTHOORN, JOAN VAN HOORN, LAURENS<lb/> PIJL, DIRK DE HAAS, ABRAHAM VAN RIEBEECK, JOANNES COPS,<lb/> MANUEL BORNEZEE, THOMAS VAN RHEE, JACOB VAN DAM EN<lb/> CHRISTOFFEL VAN SWOLL, BATAVIA 26 october 1700.<lb/></head><p xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1520, fol. 4-15.<lb/></p><note xml:id="INT_cc29bf69-b1ec-3556-8cab-ef57cf9cc879.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">( De voorgaande schepen verschenen aan de Kaap, de Lek brengt de lading van de<lb/> Waalstroom van daar naar patria; uit patria kwamen 25 mei de Matroos met 68<lb/> koppen, 10 juni Oestgeest 201, 5 juli Unie 272, Oostersteyn 284, Zoeten 184, 12 juli<lb/> Nieuwburgh 108, 14 juli Theeboom 90, 14 augustus Carthago 225, Flora 81, 27 aug.<lb/> Domburg 223, 28 aug. Schoondijcke 196, 8 sept. Ellemeet 232, 10 sept. Schellak 70,<lb/> in totaal met slechts 40 doden, met een brief van 30 oct. ; nu vertrekken de Drie Kronen,<lb/> Oostersteyn en V enhuysen, de eerste twee vooral met zijdestoffen, te Batavia van jonken<lb/> ingekocht; van de 13 Engelse schepen, in 1700 te Batavia gekomen, hadden er zes als<lb/> bestemming China; de slecht bezeilde V enhuysen kwam al in juli uit Coromandel,<lb/> waarom. ze eventueel in afwachting van latere schepen aan de Kaap mag blijven<lb/> wachten, meer schepen zijn nog niet beschibaar, deels omdat ze op Onrust gerepareerd<lb/> worden; men verwacht in totaal voor 40 d 45 ton aan lading naar patria te zullen<lb/> verzenden; Van SwoU bedankt voor zijn promotie tot raad-extraordinair , de ook benoemde<lb/> Van Thije stierf 6 of 7 juni en werd 8 juni als gouverneur van Makassar door<lb/> den visitateur -generaal Cornelis Beernink vervangen, werwaarts hij 8 juli vertrok, hij<lb/> kwam er 12 aug. aan ; 31 aug. stierf Laurens Pit en 10 oct. te Japara de gezaghebber<lb/> Pieter Durant; wissels op patria werden getrokken voor 31766 rsd .; de Drie Kronen<lb/> voor Amsterdam heeft carg. van f. 528396, Oostersteyn voor Middelburg f. 545998 en<lb/> V enhuysen voor Enkhuizen f. 320669).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

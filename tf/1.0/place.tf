@@ -14,9 +14,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:07Z
+@dateWritten=2022-05-06T12:51:58Z
 
-6018166	aan boord van het Wapen van Amsterdam voor Ile de Mayo
+6018176	aan boord van het Wapen van Amsterdam voor Ile de Mayo
 aan boord van het Wapen van Amsterdam liggende in de Tafelbaai
 aan boord van het Wapen van Amsterdam ter Rede van Mauritius
 Kasteel Nassau op Banda-Neira
@@ -25,10 +25,10 @@ Fort Mauritius nabij Ngofakiaha op het eiland Makéan
 Fort Mauritius nabij Ngofakiaha op het eiland Makéan
 Fort Mauritius nabij Ngofakiaha op het eiland Makéan
 Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-6018176	Fort Mauritius nabij Ngofakiaha op het eiland Makéan
+6018186	Fort Mauritius nabij Ngofakiaha op het eiland Makéan
 Fort Mauritius nabij Ngofakiaha op het eiland Makéan
 Fort Mauritius nabij Ngofakiaha op het eiland Makéan
-6018180	Bantam
+6018190	Bantam
 Bantam
 Bantam
 Bantam

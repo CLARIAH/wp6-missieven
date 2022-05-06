@@ -1,0 +1,52 @@
+<TEI xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Goens, Speelman, Van Outhoorn, Camphuys, Pits en Nobel, 8 mei 1678</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>8 mei 1678</date>
+            <idno type="sourceID">missiven:vol4</idno>
+            <idno type="pid">INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>238</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Goens, Speelman, Van Outhoorn, Camphuys, Pits en Nobel, 8 mei 1678</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>8 mei 1678</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>4</interp></interpGrp>
+        <interpGrp type="n"><interp>III</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1678</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1678</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>8</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Goens</interp><interp>Speelman</interp><interp>Van Outhoorn</interp><interp>Camphuys</interp><interp>Pits</interp><interp>Nobel</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1">
+                  <body xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1">
+                    <div xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.pb.1" n="238" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_04/images/gm_4_134_0238.tif"/><fw xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.3777825" xmlns="http://www.tei-c.org/ns/1.0">238</fw><fw xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.3777829" xmlns="http://www.tei-c.org/ns/1.0">Van Goens, Speelman, Van Outhoom, Camphuys, Pits en Nobel III, 8 mei 1678</fw><head xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">III. RYCKLOFF VAN GOENS, CORNELIS SPEELMAN, WILLEM VAN<lb/> OUTHOORN, JOANNES CAMPHUYS, JACOB PITS EN CONSTANT! JN<lb/> NOBEL, BATAVIA 8 mei 1678 *).<lb/></head><p xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">1212, fol. 707-710, copie 1220, fol. 110-117.<lb/></p><note xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregisters</hi> 1678, p. 65-189; in Tonkin is een kapitaal van <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">ƒ.</hi> 183271.9.8;<lb/> vrees, dal, evenals in Japan, in China de ivaren tegen taxatie aan de gouverneurs zullen<lb/> moeien worden verkocht).<lb/></note><p xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">U Ed.e ordre ontrent het licentieeren van d’oude heeren Pit, Overtwater, Van<lb/> Hoorn ende Pavillioen met eerbiedige gehoorsaamhevt, doch niet zonder onse<lb/> innerlijcke beweegingh, volbracht <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">1 2).</hi><lb/></p><note xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">( De Koning van Arakan is verheugd over het weer oprichten van een Compagniesvestiging,<lb/> er is jaarlijks 7 a 900 last rijst a f. 20 verkrijgbaar; gegevens Java, verwerkt<lb/> in <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Opkomst</hi> VII, p. LIV-LVII en CXX-CXXVII, vgl. ook <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Priangan</hi> I, p. 39*-43 <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">*,</hi><lb/>II, p. 42-79; hoop, jaarlijks 1500 last of 30000 picol peper in Palembang te verwerven;<lb/> wij <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">-</hi> )<lb/></note><p xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.p.3" resp="int_paragraph_joining" rend="">
+              - hebben met consenante <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl" xmlns="http://www.tei-c.org/ns/1.0">3)</hi> ad vijsen geresol veert alle perticuliere<lb xmlns="http://www.tei-c.org/ns/1.0"/>vaarth van daar te weeren, niet alleen van vreemde, maar ook van de Bataviase<lb xmlns="http://www.tei-c.org/ns/1.0"/> ende Malaxe burgeryen, die doch Compagnijs handel alom niet alleen schadelijck<lb xmlns="http://www.tei-c.org/ns/1.0"/> z\jn, maar bederven.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Plakaatboek</hi> III, p. 4; overwogen alle handelaren-vrijburgers van Malakka<lb/> te doen vertrekken; achteruitgang van de peperhandel in Djarhbi ; Volger is vaak ziek;<lb/> inspectie van Coromandel is noodzakelijk; dank aan Heren XVII voor de toezending<lb/> van 22 ton aan contanten).<lb/></note><note xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt; margin-left: 2200" xmlns="http://www.tei-c.org/ns/1.0">1) Verzonden met het Engelse schip Janet uit Bantam.<lb/></note><note xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">2) Bij missive van 18 oct. 1677 gelastten Heren XVII de genoemde raden af te treden,<lb/> terwijl de laatste vier personen, in hoofde vermeld, raden-extraordinair werden; in de vergadering<lb/> van de Raad op 12 april 1678 werd deze last uitgevoerd.<lb/></note><note xml:id="INT_9e1c9d6f-f640-3058-8923-383b2e87cbc3.TEI.1.text.1.body.1.div.1.note.6" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt; margin-left: 2200" xmlns="http://www.tei-c.org/ns/1.0">3) Consonant, samenstemmend, hier: eenstemmig.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

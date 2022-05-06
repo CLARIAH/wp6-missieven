@@ -1,0 +1,40 @@
+<TEI xml:id="INT_a8fb8e51-e008-3e97-ab12-02445582e732" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Generale Missiven 1725-1727</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date></date>
+            <idno type="sourceID">missiven:vol8</idno>
+            <idno type="pid">INT_a8fb8e51-e008-3e97-ab12-02445582e732</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl>
+        <interpGrp type="page"><interp>1</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>0</interp></interpGrp>
+        <interpGrp type="volume"><interp>8</interp></interpGrp>
+        <interpGrp type="n"><interp></interp></interpGrp>
+        <interpGrp type="pid"><interp>INT_a8fb8e51-e008-3e97-ab12-02445582e732</interp></interpGrp>
+        <interpGrp type="titleLevel1"><interp>Generale Missiven 1725-1727</interp></interpGrp>
+      </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_a8fb8e51-e008-3e97-ab12-02445582e732.TEI.1.text.1">
+                  <body xml:id="INT_a8fb8e51-e008-3e97-ab12-02445582e732.TEI.1.text.1.body.1">
+                    <div xml:id="INT_a8fb8e51-e008-3e97-ab12-02445582e732.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_a8fb8e51-e008-3e97-ab12-02445582e732.TEI.1.text.1.body.1.div.1.pb.1" n="1" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_08/images/generale_missiven_gs193_001.tif"/><head xml:id="INT_a8fb8e51-e008-3e97-ab12-02445582e732.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 23; letter-spacing: 1.5pt; line-height: 25.5pt" xmlns="http://www.tei-c.org/ns/1.0">MATTEUS DE HAAN<lb/></head><pb xml:id="INT_a8fb8e51-e008-3e97-ab12-02445582e732.TEI.1.text.1.body.1.div.1.pb.2" n="2" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_08/images/generale_missiven_gs193_002.tif"/><fw xml:id="INT_a8fb8e51-e008-3e97-ab12-02445582e732.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.741942" xmlns="http://www.tei-c.org/ns/1.0"></fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

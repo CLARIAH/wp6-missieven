@@ -1,0 +1,50 @@
+<TEI xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam en Van Swoll, 4 aug. 1702</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>4 aug. 1702</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_f5ed0442-0589-3dc8-86b8-0dc752b884df</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>188</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam en Van Swoll, 4 aug. 1702</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>4 aug. 1702</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXXVI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1702</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1702</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>8</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>4</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>4</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Outhoorn</interp><interp>Van Hoorn</interp><interp>Pijl</interp><interp>Van Riebeeck</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Van Dam</interp><interp>Van Swoll</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_f5ed0442-0589-3dc8-86b8-0dc752b884df</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1">
+                  <body xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1">
+                    <div xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.pb.1" n="188" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0188.tif"/><fw xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.3011290" xmlns="http://www.tei-c.org/ns/1.0">188</fw><fw xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.3011294" xmlns="http://www.tei-c.org/ns/1.0">Van Outhoom, Van Hoorn, Pijl, Van Riebeeck, Cops, enz. XXXVI, 4 augustus 1702</fw><head xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.1pt" xmlns="http://www.tei-c.org/ns/1.0">XXXVI. WILLEM VAN OUTHOORN, JOAN VAN HOORN, LAURENS PIJL,<lb/> ABRAHAM VAN RIEBEECK, JOANNES COPS, MANUEL BORNEZEE, JACOB<lb/> VAN DAM EN CHRISTOFFEL VAN SWOLL, BATAVIA 4 augustus 1702.<lb/><hi rend="font-size:8; font-family:Liberation Serif" xml:lang="nl">Kol. Arch. 1543, fol. 1-2 en copie fol. 299-300.</hi><lb/></head><note xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; margin-left: 2200; line-height: 10.5pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Uit patria werden brieven van 23 juli en 20 sept. ontvangen met)<lb/></note><p xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; margin-left: 2200" xmlns="http://www.tei-c.org/ns/1.0">- U Ed. Ho. Achtb.r dispositie over het Gouverneur- en Directeur-<lb/></p><p xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">Generaalsamt - . Om ’twelk werkstellig te maken, wanneer wij ons appli-<lb/></p><p xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">cerden, so hebben sodanige hindernissen daarontrent hun opgedaan, dat voor den<lb/> dienst van d’E. Comp.e geraden is gevonden tot nader dispositie van U Ed. Ho.<lb/> Achtb.n in geen van beyde eenige verandering te laten geschieden, maar de Regeringe<lb/> in sijn vorigen staat te laten continueren.<lb/></p><note xml:id="INT_f5ed0442-0589-3dc8-86b8-0dc752b884df.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; margin-left: 2200; line-height: 10.5pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Deze brie} werd met het Engelse schip Bomeo verzonden).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

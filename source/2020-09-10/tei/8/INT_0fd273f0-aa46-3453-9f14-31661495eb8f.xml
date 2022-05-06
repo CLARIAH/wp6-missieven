@@ -1,0 +1,52 @@
+<TEI xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>IXa. De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte van Schooten en Van Heyningen, 27 oktober 1727, geheim</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>27 oktober 1727</date>
+            <idno type="sourceID">missiven:vol8</idno>
+            <idno type="pid">INT_0fd273f0-aa46-3453-9f14-31661495eb8f</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>127</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>IXa. De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte van Schooten en Van Heyningen, 27 oktober 1727, geheim</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>27 oktober 1727</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>8</interp></interpGrp>
+        <interpGrp type="n"><interp>IXa</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1727</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1727</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>27</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>27</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>De Haan</interp><interp>Huysman</interp><interp>Hasselaar</interp><interp>Blom</interp><interp>Durven</interp><interp>Gabry</interp><interp>Dubbeldekop</interp><interp>Van der Schuer</interp><interp>Versluys</interp><interp>Westpalm</interp><interp>Van Baerle</interp><interp>De Witte van Schooten</interp><interp>Van Heyningen</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_0fd273f0-aa46-3453-9f14-31661495eb8f</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1">
+                  <body xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1">
+                    <div xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1.div.1.pb.1" n="127" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_08/images/generale_missiven_gs193_127.tif"/><fw xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.550449" xmlns="http://www.tei-c.org/ns/1.0">127</fw><head xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 12; text-align: justify; line-height: 14.7pt" xmlns="http://www.tei-c.org/ns/1.0">IXa, geheim. MATTHEUS DE HAAN, ANTHONY HUYSMAN, CORNELIS<lb/> HASSELAAR, W1JBRANT BLOM, D1DERIK DURVEN, PIETER GABRY, JACOB<lb/> WILLEM DUBBELDEKOP, JOAN EVERARD VAN DER SCHUER, STEPHANUS<lb/> VERSLUYS, MICHIEL WESTPALM, HENDRIK VAN BAERLE, JOAN<lb/> FRAN^OIS DE WITTE VAN SCHOOTEN EN ROGIER THOMAS VAN<lb/> HEYNINGEN, BATAVIA 27 october 1727.<lb/></head><p xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 10.5; font-weight: bold; text-align: justify; line-height: 14.7pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1949, folio 103-106, copie 1951, fol. 1396-1398.<lb/></p><note xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 14.4pt; text-indent: 25.0pt; text-align: justify; font-size: 12" xmlns="http://www.tei-c.org/ns/1.0">(Sergeant Warnar van Stade en helpers extirpeerden in 1726 op Tidore 13.189<lb/> vruchtdragende en 4914 „telbare” notebomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> tussen 8 juli en 27 aug. op Makéan<lb/> en Moti 2456 specerijbomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> vendrig Constant extirpeerde op Halmaheira 6528 specerijbomen<lb/> <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> waaronder maar 11 notebomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> sergeant Abraham van Roon op de Obieilanden<lb/> 8874 notebomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> 20 vruchtgevende en 86 telbare nagelbomen <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> in Bat jan<lb/> 4469 nagelbomen ; het)<lb/></note><p xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1.div.1.p.2" resp="int_paragraph_joining" rend="">
+              - op Maba, Weda en Patany - had moeten uytgesteld blijven, doordien den<lb xmlns="http://www.tei-c.org/ns/1.0"/>Koning van Tidor om de wille van de nog continueerende rebellije dier bewoonders<lb xmlns="http://www.tei-c.org/ns/1.0"/> zig bedugt getoond hadde tot de contributie van het vereyschte getal sijner onderdanen<lb xmlns="http://www.tei-c.org/ns/1.0"/> ten employ op die togten.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_0fd273f0-aa46-3453-9f14-31661495eb8f.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 14.4pt; text-indent: 25.0pt; text-align: justify; font-size: 12" xmlns="http://www.tei-c.org/ns/1.0">(Sergeant Jacob Engels werd 29 aug. voor dgl. werk naar Meau en Taf ure gezonden<lb/> <hi rend="font-size:10; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> hij is nog niet terug).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

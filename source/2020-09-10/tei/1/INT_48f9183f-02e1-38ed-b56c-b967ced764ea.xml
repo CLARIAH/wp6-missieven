@@ -1,0 +1,50 @@
+<TEI xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Jakatra, 6 jan. 1618</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>6 jan. 1618</date>
+            <idno type="sourceID">missiven:vol1</idno>
+            <idno type="pid">INT_48f9183f-02e1-38ed-b56c-b967ced764ea</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>81</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Jakatra, 6 jan. 1618</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>6 jan. 1618</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>1</interp></interpGrp>
+        <interpGrp type="n"><interp>VIII</interp></interpGrp>
+      <interpGrp type="localization_placeLevel1"><interp>Jakatra</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_from"><interp>1618</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1618</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>6</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>6</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp></interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_48f9183f-02e1-38ed-b56c-b967ced764ea</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1">
+                  <body xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1">
+                    <div xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.pb.1" n="81" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_01/images/gm_1_104_0081.tif"/><fw xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5611706" xmlns="http://www.tei-c.org/ns/1.0">Reael VIII, 6 januari 1618</fw><fw xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.5611714" xmlns="http://www.tei-c.org/ns/1.0">81</fw><p xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 10; line-height: 11.1pt" xmlns="http://www.tei-c.org/ns/1.0">VIII. LAURENS REAEL, JAKATRA 6 januari 1618.<lb/></p><p xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 8; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">Copie, 978, fol. 1-4, tezamen met VII.<lb/></p><note xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">( Gevolgen van de nederlaag van Lam in de baai van Manilla <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">,</hi> Franse schepen<lb/> voor Bantam. Vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Coen</hi> 1 , 270 <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">,</hi> 293, 322 , VII, 243).<lb/></note><p xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Het ware te wenschen, dat de groote contanten, met de Goede Fortune ende<lb/> Zirckze gesonden <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">1),</hi> ter handt gecomen waren ; bij avonture souden mette Chinesen<lb/> yets verricht cunnen wordden, want wij staen in vrese, ingevalle de Chinesen, die<lb/> wij, in de Manillos sijnde, naer ons comptoiren wijsen, van dit jaer ons met eenich<lb/> goet overcomen, dat wij wederomme varen sullen als voor desen ende per faulte<lb/> van contant haer niet en sullen cunnen aenhouden. Soo U E. dese goede occasie<lb/> niet willen laten verbijgaen, soo moet er voor eerst geit zijn, daermede men vele<lb/> meer sal uytrechten als met alle de machten, die wij gebruycken omme haer tot ons<lb/> te diverteren <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">2).</hi><lb/></p><note xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.1pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Slot).<lb/></note><note xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" rend="font-size: 8; line-height: 9.6pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">1 ) Deze beide schepen kwamen, na „wonder aevontuur gehadt” te hebben, ver over tijd,<lb/> 8 januari 1618 te Bantam aan.<lb/></note><note xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">2) Door het systematisch leeghalen van de Chinese jonken, die van de kust van China<lb/> naar Manilla voeren en het welkom heten van de Chinezen bij hun komst te Bantam, hoopte<lb/> men hierheen de Chinese scheepvaart te verleggen.<lb/></note><fw xml:id="INT_48f9183f-02e1-38ed-b56c-b967ced764ea.TEI.1.text.1.body.1.div.1.fw.3" type="bottom-page-number">6</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

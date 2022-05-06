@@ -1,0 +1,40 @@
+<TEI xml:id="INT_344427a6-e8c8-3b28-a2ba-8900085069e9" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Indices</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date></date>
+            <idno type="sourceID">missiven:vol8</idno>
+            <idno type="pid">INT_344427a6-e8c8-3b28-a2ba-8900085069e9</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl>
+        <interpGrp type="page"><interp>243</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>0</interp></interpGrp>
+        <interpGrp type="volume"><interp>8</interp></interpGrp>
+        <interpGrp type="n"><interp></interp></interpGrp>
+        <interpGrp type="pid"><interp>INT_344427a6-e8c8-3b28-a2ba-8900085069e9</interp></interpGrp>
+        <interpGrp type="titleLevel1"><interp>Indices</interp></interpGrp>
+      </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_344427a6-e8c8-3b28-a2ba-8900085069e9.TEI.1.text.1">
+                  <body xml:id="INT_344427a6-e8c8-3b28-a2ba-8900085069e9.TEI.1.text.1.body.1">
+                    <div xml:id="INT_344427a6-e8c8-3b28-a2ba-8900085069e9.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_344427a6-e8c8-3b28-a2ba-8900085069e9.TEI.1.text.1.body.1.div.1.pb.1" n="243" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_08/images/generale_missiven_gs193_243.tif"/><head xml:id="INT_344427a6-e8c8-3b28-a2ba-8900085069e9.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 26; line-height: 28.8pt" xmlns="http://www.tei-c.org/ns/1.0">INDICES<lb/></head>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

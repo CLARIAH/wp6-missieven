@@ -1,0 +1,50 @@
+<TEI xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers, 13 jan. 1644</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>13 jan. 1644</date>
+            <idno type="sourceID">missiven:vol2</idno>
+            <idno type="pid">INT_cad645fc-c3db-3111-bbbf-2a1198a048d7</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>231</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers, 13 jan. 1644</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>13 jan. 1644</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>2</interp></interpGrp>
+        <interpGrp type="n"><interp>XXVII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1644</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1644</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>1</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>13</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>13</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Diemen</interp><interp>Van der Lijn</interp><interp>Maetsuycker</interp><interp>Schouten</interp><interp>Sweers</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_cad645fc-c3db-3111-bbbf-2a1198a048d7</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1">
+                  <body xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1">
+                    <div xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1.div.1.pb.1" n="231" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_02/images/gm_2_112_0231.tif"/><fw xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.6045701" xmlns="http://www.tei-c.org/ns/1.0">Van Diemen, Van der Lijn, Maetsuycker, Schouten en Sweers XXVII, 13 januari 1644 231</fw><head xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XXVII. ANTONIO VAN DIEMEN, CORNELIS VAN DER LIJN, JOAN<lb/> MAETSUY CKER, JUSTUS SCHOUTEN EN SALOMON SWEERS, BATAVIA<lb/> 13 jan. 1644.<lb/></head><p xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8.5; text-align: justify; line-height: 9.4pt" xmlns="http://www.tei-c.org/ns/1.0">1051, fol. 101-102.<lb/></p><note xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-size: 9; font-style: italic; line-height: 10.0pt; margin-left: 1700" xmlns="http://www.tei-c.org/ns/1.0">(Het schip Broeckoord komt 10 jan. uit Djanibi).<lb/></note><p xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">d’Advijsen communiceren ons egeene veranderingh, eenlijck door onderlinge<lb/> questie tusschen de Jambynesen ende de Manicabers, mitsgaders nieuwen thol van<lb/> 6 per cento, die den Pangoran op den van boven comende peper hadde gestelt, den<lb/> peper opgehouden wirt, ingevolge seer sober afquam, apparent na Andrigiry ende<lb/> Palimbangh vervoert te werden.<lb/></p><note xml:id="INT_cad645fc-c3db-3111-bbbf-2a1198a048d7.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 21.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">( Aanhouding van Portugese jachten te Malakka, met een lading van 4 ton <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">,</hi> vgl.<lb/><hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Zeemogendheid</hi> II p. 228; nadere berichten over de aanhouding van de Bon Espér ance,<lb/> ibid. p. 227; 421 picol tin van Perak, Kedah en Malakka naar Suratte gezonden ) .<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

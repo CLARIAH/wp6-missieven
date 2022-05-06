@@ -1,0 +1,50 @@
+<TEI xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee en Van Dam, 20 april 1699</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>20 april 1699</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>65</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee en Van Dam, 20 april 1699</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>20 april 1699</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1699</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1699</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>4</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>4</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>20</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>20</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Outhoorn</interp><interp>Van Hoorn</interp><interp>Pijl</interp><interp>De Haas</interp><interp>Van Riebeeck</interp><interp>Valckenier</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Lycochthon</interp><interp>Van Rhee</interp><interp>Van Dam</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1">
+                  <body xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1">
+                    <div xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.pb.1" n="65" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0065.tif"/><fw xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5928940" xmlns="http://www.tei-c.org/ns/1.0">Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, enz. XXH, 20 april 1699</fw><fw xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.5928957" xmlns="http://www.tei-c.org/ns/1.0">65</fw><head xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XXII. WILLEM VAN OUTHOORN, JOAN VAN HOORN, LAURENS PIJL,<lb/> DIRK DE HAAS, ABRAHAM VAN RIEBEECK, WOUTER VALCKENIER,<lb/> JOANNES COPS, MANUEL BORNEZEE, WYBRAND LYCOCHTHON EN<lb/> THOMAS VAN RHEE, BATAVIA 20 april 1699.<lb/></head><p xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8.5; text-align: justify; line-height: 9.4pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1491, fol. 1823-1826.<lb/></p><note xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Deze brief wordt verzonden mei het Engelse schip „Rijsende Arend <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">”,</hi> dat de 8e<lb/> uit China kwam ; 4 maart kwam de Hobré uit Siam; de Goudestein , 20 dagen voor<lb/> haar vertrokken <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">,</hi> moest na zwaar weer lek derwaarts terugvaren, maar vertrok daarna<lb/> nogmaals, men vreest, dat ze evenals de Spaame is vergaan; het opperhoofd aldaar,<lb/> Reinier Boom, stierf).<lb/></note><p xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Den Francen gesant Père Tachard ter oorsake van eenige ontstane contestatiën<lb/> over het ceremonieel ter audiëntie nog niet geadmitteerd was, hoewel van<lb/> sijne eerste hoge pretentiën aff stand gedaen en sig de dispositie des Coninx verclaert<lb/> hadde te zullen onderwerpen.<lb/></p><note xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Van Ceylon kwamen 13 en 22 maart de Hardloper en de Haas met een brief van<lb/> De Heer van llfebr.; 6 febr. vertrokken van daar de 5 retourschepen Waalstroom,<lb/> Bambeek, Sirjansland, Spierdijk en Nieuwland met cargasoen van <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">ƒ.</hi> 1964594; de<lb/> convooischepen -naar Mokka waren 22 nov. nog niet te Suratte terug, ofschoon ze daar<lb/> al begin october hadden moeten zijn en een Engelse convooier met enige Moorse schepen<lb/> wel aankwam; de zeerovers)<lb/></note><p xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">- een der suffisanste Moorse schepen, dat, sig op eygen defentie vertrouwende,<lb/> van het convoy was aff gelopen, van een groot contant capitael beroofd<lb/> hebben.<lb/></p><note xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">( Men vreest voor moeilijkheden hierover; de uit patria 22 sept. vertrokken Stad<lb/> Keulen had 28 doden en véle zieken; gegevens over van daar verwachte schepen).<lb/></note><fw xml:id="INT_3f5d8bde-5c2a-3cad-9874-e2ed0ce698fd.TEI.1.text.1.body.1.div.1.fw.3" type="bottom-page-number">5</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

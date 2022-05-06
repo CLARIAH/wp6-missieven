@@ -1,0 +1,50 @@
+<TEI xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Diemen, Deventer, nabij de Zuidpunt van Afrika, 5 juni 1631</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>5 juni 1631</date>
+            <idno type="sourceID">missiven:vol1</idno>
+            <idno type="pid">INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>302</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Diemen, Deventer, nabij de Zuidpunt van Afrika, 5 juni 1631</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>5 juni 1631</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>1</interp></interpGrp>
+        <interpGrp type="n"><interp>III</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1631</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1631</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>6</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>6</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>5</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Diemen</interp><interp>Deventer</interp><interp>nabij de Zuidpunt van Afrika</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1">
+                  <body xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1">
+                    <div xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1.div.1.pb.1" n="302" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_01/images/gm_1_104_0302.tif"/><fw xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.700980" xmlns="http://www.tei-c.org/ns/1.0">302</fw><fw xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.700984" xmlns="http://www.tei-c.org/ns/1.0">Van Diemen III, 5 juni 1631</fw><head xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10.5; text-align: justify; line-height: 11.4pt" xmlns="http://www.tei-c.org/ns/1.0">III. ANTONIO VAN DIEMEN, IN HET SCHIP DEVENTER NABIJ DE<lb/> ZUIDPUNT VAN AFRIKA 5 juni 1631 *).<lb/></head><p xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">1011, fol. 1-64.<lb/></p><p xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-style: italic; line-height: 11.6pt; text-indent: 22.0pt; text-align: justify; font-size: 10.5" xmlns="http://www.tei-c.org/ns/1.0">(Af gedrukt <hi rend="font-size:10.5; font-family:Liberation Serif" xml:lang="nl">Indisch Verslag^.</hi><lb/></p><p xml:id="INT_0ca18bf8-8884-3a20-93ff-55c46b62ccbf.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.3pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) Daar de retourvloot begin maart 1631 diende te vertrekken en Specx zijn generale<lb/> missive niet gereed had, sloot hij het begin (ons nr. II) op 7 maart af, terwijl hij aan Van Diemen<lb/> opdroeg de brief gedurende de reis naar patria af te maken, waartoe hem de nodige stukken<lb/> werden meegegeven. Van Diemen’s brief van 5 juni 1631 dient dus als een generale missive<lb/> beschouwd te worden.<lb/></p>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

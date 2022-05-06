@@ -1,0 +1,52 @@
+<TEI xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Zwaardecroon, Chastelein en De Haan, 31 dec. 1708</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>31 dec. 1708</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_2566b56a-d639-30a8-9238-8398075c6b51</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>574</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Zwaardecroon, Chastelein en De Haan, 31 dec. 1708</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>31 dec. 1708</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXVII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1708</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1708</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>31</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>31</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Van Swoll</interp><interp>Douglas</interp><interp>De Vos</interp><interp>Van Rijn</interp><interp>Zwaardecroon</interp><interp>Chastelein</interp><interp>De Haan</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_2566b56a-d639-30a8-9238-8398075c6b51</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51.TEI.1.text.1">
+                  <body xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51.TEI.1.text.1.body.1">
+                    <div xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51.TEI.1.text.1.body.1.div.1.pb.1" n="574" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0574.tif"/><fw xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5745570" xmlns="http://www.tei-c.org/ns/1.0">574 Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, enz. XXVII, 31 december 1708</fw><fw xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5745588" xmlns="http://www.tei-c.org/ns/1.0">XXVII. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, CHRISTOFFELVAN SWOLL, ABRAHAM DOUGLAS, PIETER DE VOS, ADAM VAN RIJN,HENDRICK ZWAARDECROON, CORNELIS CHASTELEIN EN MATTHEUSDE HAAN, BATAVIA 31 december 1708.Kol. Arch. 1642, fol. 834-839, copie ibid. fol. 946-949.(De Westhoven vertrok eerst 29 nov.; de reis der retourschepen verliep voor¬spoedig )</fw><p xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51.TEI.1.text.1.body.1.div.1.p.1" resp="int_paragraph_joining" rend="">
+              - tot den 8e deser, wanneer deselve door veranderinge van de wind en<lb xmlns="http://www.tei-c.org/ns/1.0"/>door opgekomen hard weer niet alleen weder straatwaarts in wierden gedreven en<lb xmlns="http://www.tei-c.org/ns/1.0"/> van den anderen verstrooyt, maar raekten Beverwijck en ’t Huys te Hemelt door<lb xmlns="http://www.tei-c.org/ns/1.0"/> de donckerheyt en swaare regen als het breeken van de fockebras van dien eersten<lb xmlns="http://www.tei-c.org/ns/1.0"/> bodem sodanig aan den anderen, dat se beyde genoodsaekt wierden weder herwaarts<lb xmlns="http://www.tei-c.org/ns/1.0"/> te keeren.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_2566b56a-d639-30a8-9238-8398075c6b51.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(Op 19 dec. kwamen 7 retourschepen weer in volle zee; de Huis te Hemert<lb/> vertrok 27 dec. weer , de Beverwijck 31 dec. met deze brief; uit patria kwamen resp. 2,<lb/> 18, 21 en 22 dec. de Vrijburg, Kievit, Wateringen en Grimmesteyn, 9 dec. uit Bengalen<lb/> de Overnes en Suikermolen met carg. van f. 486928, 10 dec. de Zoelen en Hoek uit<lb/> Japan met het opperhoofd Hermanus Mensink en car gasoen van f. 770085; de<lb/> Monster kwam niet in Japan aan; 27 dec. kwam uit Siam de Beyeren met een brief<lb/> van 30 nov. en carg. van f. 68990, vnl. 460350 sapanhout en 87710 tin; de<lb/> boekhouder -generaal Comelis Besuyen is benoemd tot directeur in Suratte, hij vertrok<lb/> 20 dec. met de fluit Haringtuin; volgens berichten van de Engelsen in Bengalen vertrokken<lb/> in 1708 maar 2 Franse schepen uit Cadix, in maart, naar Malabar; brieven<lb/> uit patria van 21 juli 1707 en 2 maart 1708 werden ontvangen; Van Hoorn bedankt<lb/> voor het hem op zijn verzoek „op de honorabelste en meest reputatieuste wijse <hi rend="font-size:4; font-family:Liberation Serif" xml:lang="nl">”</hi> gegeven<lb/> ontslag, hij zal met de retourvloot van 1709 vertrekken, Van Riebeeck bedankt voor zijn<lb/> benoeming tot Gouv.-Gen., Abraham Douglas wordt Directeur -Generaal en Mattheus<lb/> de Haan raad-extraordinair ) .<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

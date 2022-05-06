@@ -1,0 +1,52 @@
+<TEI xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Reniers, Maetsuycker, Demmer, Hartzinck, De Vlaming van Oudtshoorn, Caesar en Versteghen, 5 febr. 1652</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>5 febr. 1652</date>
+            <idno type="sourceID">missiven:vol2</idno>
+            <idno type="pid">INT_0aff566f-8c02-332d-971d-eb572c33f86b</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>583</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Reniers, Maetsuycker, Demmer, Hartzinck, De Vlaming van Oudtshoorn, Caesar en Versteghen, 5 febr. 1652</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>5 febr. 1652</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>2</interp></interpGrp>
+        <interpGrp type="n"><interp>VI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1652</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1652</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>5</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Reniers</interp><interp>Maetsuycker</interp><interp>Demmer</interp><interp>Hartzinck</interp><interp>De Vlaming van Oudtshoorn</interp><interp>Caesar</interp><interp>Versteghen</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_0aff566f-8c02-332d-971d-eb572c33f86b</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1">
+                  <body xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1">
+                    <div xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.pb.1" n="583" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_02/images/gm_2_112_0583.tif"/><fw xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" xml:lang="nl" rend="text-align:justify; line-height:11.1pt" facs="#zone.3581589" xmlns="http://www.tei-c.org/ns/1.0">Reniers, Maetsuyker, Demmer, Hartzinck, Van Oudtshoorn, enz. VI, 5 februari 1652 583</fw><head xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">VI. CAREL RENIERS, JOAN MAETSUYKER, GERARD DEMMER,<lb/> CAREL HARTZINCK, AERNOUT DE VLAMING VAN OUDTSHOORN,<lb/> CORNELIS CAESAR EN WILLEM VERSTEGHEN, BATAVIA 5 febr. 1652.<lb/></head><p xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">1079, fol. 167-172.<lb/></p><note xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Afsluiting contract met den Koning van Ternate, af gedrukt <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Corpus</hi> II, nr.<lb/> CGIV; zending van 3 fluitschepen met cargasoen van f. 73809.15.5 naar Makassar;<lb/> f. 76608.2- voor Amboina en f. 34007.6.10 voor Banda en 266 soldaten; De Vlaming<lb/> en de Koning van Ternate zullen volgen met 11 schepen en jachten; Wesel en Lisch<lb/> zijn aan de wal gelegd; door onstuimig weer is het vertrek van bedoelde vloot en van de<lb/> 5 resterende retourschepen nog niet mogelijk; 340 soldaten en 50 Kampang er s gaan<lb/> nog naar Amboina; ds. Daniël Brouwerius gaat naar Banda, ds. Philippus Joannes<lb/> naar Amboina; het cargasoen voor Amboina is f. 245000, w.o. 55000 realen, voor<lb/> Banda f. 72000, w.o. 12000 realen, voor de Molukken f. 240000, w.o. 40000 realen;<lb/> de door Verstegen in Quinam gelaten Nederlanders komen 2 febr. met een jonk te<lb/> Batavia; zij hebben bijna het leven verloren, vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Quinam,</hi> p. 113-114).<lb/></note><p xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.p.2" resp="int_paragraph_joining" rend="">
+              Daer wort gepresumeert ende heeft groote waerschijnelijcheyt, dat den<lb xmlns="http://www.tei-c.org/ns/1.0"/> Coningh voorgehat heeft het jacht1) af te loopen ende het volck doot te slaen,<lb xmlns="http://www.tei-c.org/ns/1.0"/> sich meester maeckende van hetselve ende d’ingelade goederen, hetwelck, als hem<lb xmlns="http://www.tei-c.org/ns/1.0"/> ontstaen was, sijnde d’h.r Verstegen vroeger, so het schijnt, als hij gegist had,<lb xmlns="http://www.tei-c.org/ns/1.0"/> vertrocken, so heeft hij, met een groten spijt ingenomen sijnde, hetselve op de verblevene<lb xmlns="http://www.tei-c.org/ns/1.0"/> ministers willen verhalen ende het voorverhaelde schandelijcke stuck<lb xmlns="http://www.tei-c.org/ns/1.0"/> willen in ’t werck stellen, hebbende d’onse naderhant tot haer vertreck buytendien<lb xmlns="http://www.tei-c.org/ns/1.0"/> vele versmaetheden, overlast ende injurie moeten lijden, sonderdat sij daerjegen<lb xmlns="http://www.tei-c.org/ns/1.0"/> dorsten kicken, maer mosten alles geduldich verdragen ende de boose menschen<lb xmlns="http://www.tei-c.org/ns/1.0"/> noch geschencken toegeven om in geen meerder swaricheyt te vervallen en heeft de<lb xmlns="http://www.tei-c.org/ns/1.0"/> Coninck de laeckenen ende perpetuanen, bij den e. Verstegen aldaer gelaten, na<lb xmlns="http://www.tei-c.org/ns/1.0"/> hem genomen, deselve priserende <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl" xmlns="http://www.tei-c.org/ns/1.0">2)</hi> ende betalende na sijn welgevallen, daer oock<lb xmlns="http://www.tei-c.org/ns/1.0"/> geen reden tegen mochten helpen, waeruyt de groote brutaliteyt ende onbeschaemtheyt<lb xmlns="http://www.tei-c.org/ns/1.0"/> van die natie af te meten is ; tot justificatie van haer doen niet anders<lb xmlns="http://www.tei-c.org/ns/1.0"/> inbrengende, als dat sij met andere natiën mede op die wijse plegen te handelen.<lb xmlns="http://www.tei-c.org/ns/1.0"/> Desalniettegenstaende heeft de Coningh d’onse op hun vertreck noch 500 tail<lb xmlns="http://www.tei-c.org/ns/1.0"/> silver toegesonden om hier op Batavia eenige laeckenen, perpetuanen ende andere<lb xmlns="http://www.tei-c.org/ns/1.0"/> dingen, die hem mochten aengenaem sijn, voor hem te copen, niet eens gissingh<lb xmlns="http://www.tei-c.org/ns/1.0"/> maeckende, so het schijnt, dat wij ons het bovenverhaelde sullen aentrecken ofte te<lb xmlns="http://www.tei-c.org/ns/1.0"/> laten blij eken ons hetselve leet te sijn, twelck onses oordeels ten hoochsten nodich<lb xmlns="http://www.tei-c.org/ns/1.0"/> is, bijaldien Comp.8 respect aen die cant niet t’enemael sal onder de voet geraecken,<lb xmlns="http://www.tei-c.org/ns/1.0"/> sijnde al meer dan te veel daermede vercleynt, dat wij sonder eenige satisfactie<lb xmlns="http://www.tei-c.org/ns/1.0"/> van de vorige injurie ende affronten becomen te hebben haer de vrede weder<lb xmlns="http://www.tei-c.org/ns/1.0"/> aen geboden ende veraccordeert hebben, sodat dit stuck nootsaeckelijck sal dienen<lb xmlns="http://www.tei-c.org/ns/1.0"/> gerevengieert, of hebben wij in Toncquin wellicht hetselve tractament te verwachten,<lb xmlns="http://www.tei-c.org/ns/1.0"/> al meest één natie sijnde ende mede cleyne discretie gebruyckende, daer<lb xmlns="http://www.tei-c.org/ns/1.0"/> te sijner tijt bij ruymte van schepen ende volck op gelet wort, also wij met U Ed.<lb xmlns="http://www.tei-c.org/ns/1.0"/> van gevoelen sijn beter te sijn stilgeseten als ijts bij der hand te nemen, dat met geen<lb xmlns="http://www.tei-c.org/ns/1.0"/> respect connen uytvoeren, gelijck daer voor desen is geschiet, daer sij apparent noch<lb xmlns="http://www.tei-c.org/ns/1.0"/><note xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.p.2.note.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt; margin-left: 2200" xmlns="http://www.tei-c.org/ns/1.0">1) NI. dat van Verstegen.<lb/></note><note xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.p.2.note.2" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt; margin-left: 2100" xmlns="http://www.tei-c.org/ns/1.0">2) Priserende, schattende, de waarde bepalende.<lb/></note><pb xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.p.2.pb.1" n="584" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_02/images/gm_2_112_0584.tif"/><fw xml:id="INT_0aff566f-8c02-332d-971d-eb572c33f86b.TEI.1.text.1.body.1.div.1.p.2.fw.1" place="top" type="head" facs="#zone.3583029" xmlns="http://www.tei-c.org/ns/1.0">584 Reniers, Maetsuyker, Demmer, Hartzinck, Van Oudtshoorn, snz. VI, 5 februari 1652al moedich ende stout op sijn. De mestice barbier 1)J aldaer voor desen gevangen,is daer alsnu weder verbleven, niet afgecomen sijnde, als d’andere vertrocken, diewij dan vresen, beswaerlijck uyt hare handen sal geraecken, te meer dewijl wij deQuinammers alhier, die op de getroffen vrede rede waren vrijgelaten, weder inslavernij e hebben doen nemen.( Verwachting , dat de schepen 7 of 8 febr. naar Amboina kunnen vertrekken) .</fw>1) Geheten Jacob Discordt.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            
+      
+            </p></div>
+                  </body>
+                </text>
+              </TEI>

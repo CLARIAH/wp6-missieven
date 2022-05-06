@@ -1,0 +1,52 @@
+<TEI xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee en Van Dam, 2 maart 1699</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>2 maart 1699</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_b11e6038-9757-31ce-a3cf-0adf81373f65</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>64</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee en Van Dam, 2 maart 1699</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>2 maart 1699</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1699</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1699</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>2</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Outhoorn</interp><interp>Van Hoorn</interp><interp>Pijl</interp><interp>De Haas</interp><interp>Van Riebeeck</interp><interp>Valckenier</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Lycochthon</interp><interp>Van Rhee</interp><interp>Van Dam</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_b11e6038-9757-31ce-a3cf-0adf81373f65</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1">
+                  <body xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1">
+                    <div xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.pb.1" n="64" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0064.tif"/><fw xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.5903472" xmlns="http://www.tei-c.org/ns/1.0">64</fw><fw xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5903476" xmlns="http://www.tei-c.org/ns/1.0">Van Oüthoom, Van Hoorn, Pijl, Do Haas, Van Riebeeck, enz. XXI, 2 maart 1699</fw><head xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XXI. WILLEM VAN OUTHOORN, JOAN VAN HOORN, LAURENS PIJL,<lb/> DIRK DE HAAS, ABRAHAM VAN RIEBEECK, WOUTER VALCKENIER,<lb/> JOANNES COPS, MANUEL BORNEZEE, WYBRAND LYCOCHTHON,<lb/> THOMAS VAN RHEE EN JACOB VAN DAM, BATAVIA 2 maart 1699.<lb/></head><p xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1490, fol. 1177-1179, 2e exemplaar 1491, fol. 1827-1829.<lb/></p><note xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(De Bekestein vertrok met de Swaag 11 febr. en passeerde de 13e Bantam ;<lb/> Valckenier en Lycochthon vroegen in november te mogen repatriëren , zo ook Van<lb/> Hoorn , eventueel een jaar later <hi rend="font-size:5; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> dan wel om te Batavia in ruste te mogen blijven, nu<lb/> vroeg ook Pijl ontslag ; allen werd verzocht nog enige jaren door te dienen, maar men<lb/> kan hen niet dwingen aan te blijven; van de Spaarne is niets meer vernomen; de<lb/> Vrijburg meldde 3 febr.,)<lb/></note><p xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.p.2" resp="int_paragraph_joining" rend="">
+              - dat dien bodem aan de zuydzijde van dit eylant in de bay van<lb xmlns="http://www.tei-c.org/ns/1.0"/>Mauritius <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl" xmlns="http://www.tei-c.org/ns/1.0">x)</hi> is vervallen, genoegsaam ten eynde van alle handprovisiën, dog dat op<lb xmlns="http://www.tei-c.org/ns/1.0"/> de geheele reyse niet meer dan 6 man overleden en nog 251 zielen sterk waren. Wij<lb xmlns="http://www.tei-c.org/ns/1.0"/> hebben na Sirrebon geordonneert te besorgen, dat dien bodem door den inlander<lb xmlns="http://www.tei-c.org/ns/1.0"/> voor betaling van het nodige wert voorsien en sullen deselve ook van hier eenige<lb xmlns="http://www.tei-c.org/ns/1.0"/> behoeften bestellen, indien men op ons aanschrijven deselve nodig agten en vorderen<lb xmlns="http://www.tei-c.org/ns/1.0"/> sal, staet makend, dat wij dien bodem niet voor het kenteren van ’t mousson<lb xmlns="http://www.tei-c.org/ns/1.0"/> in ’t begin van april aanstaande alhier sullen konnen hebben.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 10.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(Deze brief wordt verzonden met het Engelse schip Toscany-Gaüey).<lb/></note><note xml:id="INT_b11e6038-9757-31ce-a3cf-0adf81373f65.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) De Mauritsbaai aan de zuidkust van Java op ongeveer 108°42' O.L.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

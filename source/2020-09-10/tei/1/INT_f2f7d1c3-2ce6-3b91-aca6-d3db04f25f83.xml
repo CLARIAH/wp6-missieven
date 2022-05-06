@@ -1,0 +1,52 @@
+<TEI xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Bantam, 10 nov. 1614</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>10 nov. 1614</date>
+            <idno type="sourceID">missiven:vol1</idno>
+            <idno type="pid">INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>28</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Bantam, 10 nov. 1614</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>10 nov. 1614</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>1</interp></interpGrp>
+        <interpGrp type="n"><interp>XVIII</interp></interpGrp>
+      <interpGrp type="localization_placeLevel1"><interp>Bantam</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_from"><interp>1614</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1614</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>11</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>11</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>10</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp></interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1">
+                  <body xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1">
+                    <div xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1.div.1.pb.1" n="28" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_01/images/gm_1_104_0028.tif"/><fw xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.633003" xmlns="http://www.tei-c.org/ns/1.0">28</fw><fw xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.633007" xmlns="http://www.tei-c.org/ns/1.0">Both XVIII, 10 november 1614</fw><p xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.1pt" xmlns="http://www.tei-c.org/ns/1.0">XVIII. PIETER BOTH. BANTAM 10 november 1614.<lb/></p><p xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 8.5; text-align: justify; line-height: 9.4pt" xmlns="http://www.tei-c.org/ns/1.0">969, fol. 13-19.<lb/></p><p xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1.div.1.p.3" resp="int_paragraph_joining" rend="">
+              Mijn héeren. Ick en can mij niet genouchsaem verwonderen, dat U Ed. (die<lb xmlns="http://www.tei-c.org/ns/1.0"/> alhier hebt te dirigeren een saeck van staet ende royaell.) soo weynich acht (onder<lb xmlns="http://www.tei-c.org/ns/1.0"/> correctie) sijt nemende in ’t aennemen van dengenen, die herwerts werden gesonden.<lb xmlns="http://www.tei-c.org/ns/1.0"/> Sommige van dien sijn banekerottiers, andere die ’t door quade menage niet<lb xmlns="http://www.tei-c.org/ns/1.0"/> langer aen de wal en connen houden, alsmede capiteyns, die van den vijandt zijn<lb xmlns="http://www.tei-c.org/ns/1.0"/> overgecomen ende meer bedreven sijn omme den coopman in den buyll te rijden<lb xmlns="http://www.tei-c.org/ns/1.0"/> als anders. Het schijnt dat het landt van ervaren landtsaten gepri veert is ende<lb xmlns="http://www.tei-c.org/ns/1.0"/> alsoo gaet het met alle de reste. Men brenght er in de schepen sommige met de<lb xmlns="http://www.tei-c.org/ns/1.0"/> boeyen aen de benen om herwerts te comen; van andere wert de schippers belast<lb xmlns="http://www.tei-c.org/ns/1.0"/> haer aen landt niet meer te laten keren ; eenige geheel van haer verstandt gepriveert<lb xmlns="http://www.tei-c.org/ns/1.0"/>ende alsoo onbequaem tot eenigen dienst -<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_f2f7d1c3-2ce6-3b91-aca6-d3db04f25f83.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 12.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">( De rest van deze brief, handelende over de slechte kwaliteit van het 'personeel en<lb/> over uitreding van schepen, is niet van groot belang).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

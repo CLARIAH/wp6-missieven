@@ -1,0 +1,40 @@
+<TEI xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Toelichting bij de Indices</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date></date>
+            <idno type="sourceID">missiven:vol7</idno>
+            <idno type="pid">INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl>
+        <interpGrp type="page"><interp>764</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>0</interp></interpGrp>
+        <interpGrp type="volume"><interp>7</interp></interpGrp>
+        <interpGrp type="n"><interp></interp></interpGrp>
+        <interpGrp type="pid"><interp>INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8</interp></interpGrp>
+        <interpGrp type="titleLevel1"><interp>Toelichting bij de Indices</interp></interpGrp>
+      </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1">
+                  <body xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1">
+                    <div xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.pb.1" n="764" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_07/images/gm_7_164_0764.tif"/><fw xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.225652" xmlns="http://www.tei-c.org/ns/1.0">TOELICHTING BIJ DE INDICES.</fw><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0"><hi rend="font-size:8; font-family:Liberation Serif; font-style:italic" xml:lang="nl">Cursief</hi> gedrukt zijn de bladzijden, waar een woord is toegelicht.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">Woorden als Chinees en Engelsman zoeke men onder China en Engeland in de Index van Geografische<lb/> Namen, vlak daarop volgt: China (Keizer van) en Engeland (Koning van). Groot-Mogol, Sjogoen<lb/> enz. zoeke men echter in de Index van Andere Termen.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">De schrijvers der Gen. Miss. hebben eigennamen van mensen, plaatsen, schepen enz. zonder enig systeem<lb/> en zonder consequent aan één schrijfwijze vast te houden gespeld, wat vooral bij niet-Europese<lb/> termen tot verwarring kan leiden. Waar de kans daarop groot is, zijn verschillende schrijfwijzen in de<lb/> indices opgenomen met verwijzing naar degene, waarbij de bladzijden zijn aangegeven. Geografische<lb/> namen en scheepsnamen zijn waar mogelijk in moderne schrijfwijze opgenomen. Bij scheepsnamen<lb/> is niet altijd getracht te onderscheiden tussen gelijknamige schepen.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.4" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">De volgende letters zoeke men zo nodig ook op de volgende wijze:<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.5" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">C bij K en S.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.6" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">Ch bij G, Ts en Tsj.<lb/> Dj bij J.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.7" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">F bij V en Ph.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.8" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">K bij C en Q.<lb/> Q bij K.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.9" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.6pt" xmlns="http://www.tei-c.org/ns/1.0">S bij C en Z.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.10" xml:lang="nl" rend="font-size: 8; line-height: 9.9pt; margin-right: 12500; margin-left: 6600" xmlns="http://www.tei-c.org/ns/1.0">G bij Ch<lb/> J bij Dj.<lb/></p><p xml:id="INT_61ec0a87-6723-30f1-9d88-7ab73092a9f8.TEI.1.text.1.body.1.div.1.p.11" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 9.9pt" xmlns="http://www.tei-c.org/ns/1.0">V bij F.<lb/> Z bij S.<lb/></p>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

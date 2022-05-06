@@ -1,0 +1,50 @@
+<TEI xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Bantam, 10 nov. 1617</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>10 nov. 1617</date>
+            <idno type="sourceID">missiven:vol1</idno>
+            <idno type="pid">INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>76</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Bantam, 10 nov. 1617</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>10 nov. 1617</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>1</interp></interpGrp>
+        <interpGrp type="n"><interp>V</interp></interpGrp>
+      <interpGrp type="localization_placeLevel1"><interp>Bantam</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_from"><interp>1617</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1617</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>11</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>11</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>10</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp></interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1">
+                  <body xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1.body.1">
+                    <div xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1.body.1.div.1.pb.1" n="76" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_01/images/gm_1_104_0076.tif"/><fw xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.5553788" xmlns="http://www.tei-c.org/ns/1.0">76</fw><fw xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5553792" xmlns="http://www.tei-c.org/ns/1.0">Reael V, 10 november 1617</fw><p xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 10; line-height: 11.1pt" xmlns="http://www.tei-c.org/ns/1.0">V. LAURENS REAEL, BANTAM 10 november 1617.<lb/></p><p xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 8.5; line-height: 9.4pt" xmlns="http://www.tei-c.org/ns/1.0">copie 978, fol 180-187 tezamen met VI en VII.<lb/></p><p xml:id="INT_66bcf78b-a06a-3b3a-a28c-2a5ea5669a4b.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">Ick sien wel, dat aen alle canten fraye caritaten werdden gedaen van deghene,<lb/> die onse zaken van achteren cunnen sien ende gelegentheyt hebben omme daerover<lb/> uytte uyteompste te commentariëren, derhalven ick geluckich achte soodanige,<lb/> die onder de oogen haerer meesters haeren dienst mogen volvoeren ende<lb/> elcken oogenblick hare actie door hare presentie beschermen ende verdedigen;<lb/> derhalven, mij belangende, ick wensche de ure te sien, dat ick mijn meer dan<lb/> zesjarige administratie oock eens mach verantwoorden. Biddende U E. hierop<lb/> serieuselick te willen letten, dat onse verlossing, ingevalle tselve tot noch toe niet<lb/> geschiet en is, metten eersten versorcht mach werdden ende mij sal vrundtschap<lb/> geschieden.<lb/></p>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

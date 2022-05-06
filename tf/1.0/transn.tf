@@ -14,7 +14,7 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:14Z
+@dateWritten=2022-05-06T12:52:08Z
 
 15	De
 eerste
@@ -208817,7 +208817,7 @@ de
 bevolking
 of
 bevolkingsgoud
-5276789	Deze
+5276790	Deze
 berekening
 is
 onduidelijk
@@ -208831,7 +208831,7 @@ op
 37
 515
 uitkomt
-5280470	In
+5280471	In
 een
 andere
 hand
@@ -208843,7 +208843,7 @@ tot
 049
 038
 lb
-5280504	In
+5280505	In
 de
 marge
 staat
@@ -208857,7 +208857,7 @@ optelling
 3
 123
 663
-5282918	De
+5282919	De
 luang
 krai
 is
@@ -208868,7 +208868,7 @@ het
 hof
 van
 Siam
-5283083	De
+5283084	De
 okluang
 choduk
 is
@@ -208879,7 +208879,7 @@ het
 hof
 van
 Siam
-5285765	Zie
+5285766	Zie
 voor
 dit
 verdrag
@@ -208888,7 +208888,7 @@ Corpus
 p
 215
 218
-5303025	Semien
+5303026	Semien
 semianna
 een
 aan
@@ -208911,12 +208911,12 @@ in
 zo
 n
 tent
-5306350	Arduine
+5306351	Arduine
 neuten
 blokken
 van
 arduinsteen
-5320159	Colinjas
+5320160	Colinjas
 cordiaal
 kalanjus
 is
@@ -208933,7 +208933,7 @@ Dr
 Mark
 de
 Lannoy
-5320923	Muttu
+5320924	Muttu
 en
 Kunu
 zijn
@@ -208942,20 +208942,20 @@ eilanden
 even
 bezuiden
 Cranganur
-5320958	Het
+5320959	Het
 Onamfeest
 valt
 jaarlijks
 in
 februari
 maart
-5321070	Pappinivattam
+5321071	Pappinivattam
 in
 de
 tekst
 Paponetty
 genoemd
-5326066	Kwart
+5326067	Kwart
 invorderaar
 persoon
 die
@@ -208965,20 +208965,20 @@ van
 een
 kwart
 int
-5335097	Folionummering
+5335098	Folionummering
 springt
 van
 988
 over
 naar
 990
-5346110	Prinseneiland
+5346111	Prinseneiland
 wordt
 ook
 Nieuwe
 Eiland
 genoemd
-5361479	Boven
+5361480	Boven
 de
 namen
 van
@@ -208990,7 +208990,7 @@ geplaatst
 in
 totaal
 9
-5373437	De
+5373438	De
 oorspronkelijke
 tekst
 mindere
@@ -209022,7 +209022,7 @@ bij
 de
 oorspronkelijke
 tekst
-5378590	Het
+5378591	Het
 origineel
 heeft
 Calawaut
@@ -209038,7 +209038,7 @@ ook
 Kalao
 kunnen
 zijn
-5379221	Onzeker
+5379222	Onzeker
 wat
 is
 bedoeld
@@ -209049,27 +209049,27 @@ Kalao
 dan
 wel
 Kalaotoa
-5379545	Ten
+5379546	Ten
 rechte
 ƒ
 6
 656
 16
 8
-5379600	Ten
+5379601	Ten
 rechte
 ƒ
 18
 068
 16
-5381623	In
+5381624	In
 margine
 aangegane
-5384972	Linge
+5384973	Linge
 bedoeld
 lijkt
 Lingga
-5389710	Deze
+5389711	Deze
 datum
 is
 niet
@@ -209083,15 +209083,15 @@ augustus
 nog
 schepen
 aankwamen
-5395635	Hiermee
+5395636	Hiermee
 wordt
 de
 rivier
 de
 Hugli
 aangeduid
-5398096	Baljuw
-5408839	Dit
+5398097	Baljuw
+5408840	Dit
 bedrag
 van
 ƒ
@@ -209107,7 +209107,7 @@ van
 ƒ
 300
 772
-5411976	Pandanie
+5411977	Pandanie
 een
 pandy
 is
@@ -209116,13 +209116,13 @@ sipoy
 van
 hoge
 kaste
-5412329	Ten
+5412330	Ten
 rechte
 146
 430
 cotti
 meer
-5431427	Dit
+5431428	Dit
 is
 onbegrijpelijk
 het
@@ -209132,12 +209132,12 @@ verschrijving
 voor
 is
 vermeerderd
-5432671	De
+5432672	De
 maand
 is
 niet
 genoemd
-5434544	De
+5434545	De
 jaren
 waarover
 de
@@ -209156,7 +209156,7 @@ en
 t
 m
 1754
-5446463	Singo
+5446464	Singo
 Sari
 bedoeld
 lijkt
@@ -209164,7 +209164,7 @@ de
 rebel
 Pangerang
 Singasari
-5451224	Er
+5451225	Er
 is
 in
 de
@@ -209173,22 +209173,22 @@ verschil
 tussen
 de
 bedragen
-5451531	In
+5451532	In
 de
 marge
 staat
 hier
 1e
-5451697	In
+5451698	In
 de
 marge
 staat
 hier
 2e
-5456962	Een
+5456963	Een
 ongenummerde
 folio
-5462614	Dit
+5462615	Dit
 is
 onduidelijk
 wellicht
@@ -209203,7 +209203,7 @@ maar
 000
 lb
 bedoeld
-5467922	Camsaayba
+5467923	Camsaayba
 waarschijnlijk
 een
 verbastering
@@ -209247,29 +209247,29 @@ vancore
 p
 144
 145
-5472684	Er
+5472685	Er
 zijn
 twee
 folio
 s
 144
-5472751	Deze
+5472752	Deze
 tegenspraak
 is
 onduidelijk
-5476420	Bij
+5476421	Bij
 deze
 laatste
 brief
 is
 toegevoegd
 deficit
-5482562	Ten
+5482563	Ten
 rechte
 ƒ
 17
 251
-5483807	Eiland
+5483808	Eiland
 met
 deze
 naam
@@ -209281,13 +209281,13 @@ zuidelijk
 in
 Straat
 Sape
-5485868	Moerbalken
+5485869	Moerbalken
 stevige
 doorlopende
 en
 dragende
 balken
-5486328	Dit
+5486330	Dit
 zou
 betekenen
 dat
@@ -209316,14 +209316,14 @@ de
 vier
 onzeker
 is
-5490505	De
+5490507	De
 mond
 van
 de
 rivier
 naar
 Palembang
-5494004	Ten
+5494006	Ten
 rechte
 ƒ
 6449
@@ -209334,7 +209334,7 @@ op
 ƒ
 179
 brengt
-5496000	Schanskleed
+5496002	Schanskleed
 een
 kleed
 gespannen
@@ -209343,19 +209343,19 @@ de
 verschansing
 of
 reling
-5505626	De
+5505628	De
 naam
 van
 deze
 persoon
 ontbreekt
-5510697	Twee
+5510699	Twee
 folio
 s
 zijn
 genummerd
 1659
-5513261	Mier
+5513263	Mier
 Mirem
 bedoeld
 kan
@@ -209380,7 +209380,7 @@ transcriptie
 tjutto
 is
 onzeker
-5515911	Minuutstuk
+5515913	Minuutstuk
 klein
 kanon
 waarmee
@@ -209393,7 +209393,7 @@ of
 saluutschoten
 afgevuurd
 worden
-5517716	Poenjang
+5517718	Poenjang
 punjum
 bundel
 van
@@ -209404,17 +209404,17 @@ draden
 voor
 de
 schering
-5518010	Calleawaschoe
+5518012	Calleawaschoe
 Callewaphu
-5522356	Deze
+5522358	Deze
 berekening
 is
 onduidelijk
-5522751	Klopperij
+5522753	Klopperij
 plaats
 voor
 textielbewerking
-5529734	Volgens
+5529736	Volgens
 deze
 cijfers
 zou
@@ -209424,35 +209424,35 @@ totaal
 11
 332
 zijn
-5531905	Een
+5531907	Een
 gewichtseenheid
 ontbreekt
-5534534	Met
+5534536	Met
 Malabars
 wordt
 Tamil
 aangeduid
-5543816	Pondgoederen
+5543818	Pondgoederen
 goederen
 die
 per
 gewicht
 verhandeld
 worden
-5547646	Zwervens
+5547648	Zwervens
 bedoeld
 lijkt
 zwervers
-5547720	Het
+5547722	Het
 aantal
 wordt
 niet
 vermeld
-5548619	Jongsten
+5548621	Jongsten
 bedoeld
 lijkt
 jonken
-5548934	Dit
+5548936	Dit
 getal
 is
 onduidelijk
@@ -209464,7 +209464,7 @@ onduidelijk
 2
 676
 375
-5550492	Hoewel
+5550494	Hoewel
 het
 niet
 expliciet
@@ -209481,7 +209481,7 @@ Raad
 van
 Justitie
 zijn
-5552236	Verbodsdag
+5552238	Verbodsdag
 dag
 voor
 de
@@ -209492,14 +209492,14 @@ werk
 mag
 worden
 verricht
-5552621	Informator
+5552623	Informator
 leraar
 instructeur
-5552836	Tontine
+5552838	Tontine
 kapitaal
 of
 kapitaalverzekering
-5561353	De
+5561355	De
 schrijfwijze
 in
 het
@@ -209511,9 +209511,9 @@ gehandhaafd
 afkortingen
 zijn
 opgelost
-5576232	Afpakker
+5576234	Afpakker
 inpakker
-5582161	Dit
+5582163	Dit
 bedrag
 strookt
 niet
@@ -209524,7 +209524,7 @@ van
 ƒ
 12
 038
-5583225	Kermisschip
+5583227	Kermisschip
 schip
 vertrokken
 uit
@@ -209533,7 +209533,7 @@ in
 september
 de
 kermismaand
-5586907	Bolkvanger
+5586909	Bolkvanger
 overkleed
 om
 vocht
@@ -209545,7 +209545,7 @@ een
 overjas
 van
 pressenning
-5592490	In
+5592492	In
 tekst
 conterschepen
 waarschijnlijk
@@ -209556,7 +209556,7 @@ in
 de
 Aziatische
 contreien
-5593097	Haydar
+5593099	Haydar
 Ali
 was
 sultan
@@ -209573,9 +209573,9 @@ Hij
 had
 Canara
 overd
-5593604	Reukeloosheyt
+5593606	Reukeloosheyt
 roekeloosheid
-5596323	Turkse
+5596325	Turkse
 pas
 bewijs
 dat
@@ -209592,7 +209592,7 @@ Barbarijse
 zeerovers
 had
 afgekocht
-5597742	Karldoek
+5597744	Karldoek
 doek
 van
 fijn
@@ -209602,18 +209602,18 @@ of
 van
 gesponnen
 garen
-5599638	In
+5599640	In
 de
 marge
 is
 toegevoegd
 abusivelijk
-5600787	De
+5600789	De
 hoeveelheid
 is
 niet
 ingevuld
-5604787	In
+5604789	In
 de
 brief
 van
@@ -209631,11 +209631,11 @@ Revenge
 John
 Watson
 genoemd
-5618671	Deze
+5618673	Deze
 berekening
 is
 onduidelijk
-5623922	In
+5623924	In
 de
 tekst
 is
@@ -209643,17 +209643,17 @@ slaaf
 veranderd
 in
 slaavin
-5627299	Dit
+5627301	Dit
 is
 niet
 geheel
 duidelijk
-5644364	Dit
+5644366	Dit
 aantal
 is
 niet
 duidelijk
-5650645	Hiermee
+5650648	Hiermee
 wordt
 waarschijnlijk
 op
@@ -209665,14 +209665,14 @@ Shuja
 ud
 daula
 gedoeld
-5650902	Golah
+5650905	Golah
 opslagplaats
 meestal
 voor
 graan
 of
 zout
-5653481	Ramenade
+5653484	Ramenade
 Waramsen
 onbekend
 Ramenade
@@ -209682,7 +209682,7 @@ rijkje
 Ramnad
 kunnen
 zijn
-5654585	Drie
+5654588	Drie
 beeldjespagode
 een
 pagode
@@ -209693,12 +209693,12 @@ afbeelding
 van
 een
 hindoegodheid
-5655564	Arne
+5655567	Arne
 is
 onduidelijk
 wellicht
 orne
-5656171	In
+5656174	In
 het
 origineel
 staat
@@ -209710,14 +209710,14 @@ verschrijving
 lijkt
 te
 zijn
-5656772	Gewardeerde
+5656776	Gewardeerde
 soorten
 niet
 duidelijk
 wellicht
 inferieure
 soorten
-5659274	In
+5659278	In
 de
 tekst
 staat
@@ -209728,20 +209728,20 @@ kennelijk
 een
 vergissing
 is
-5664491	Alia
+5664495	Alia
 ongetande
 mannetjesolifant
-5667517	Deze
+5667521	Deze
 volgorde
 is
 onduidelijk
-5671815	Schaftbaas
+5671819	Schaftbaas
 persoon
 die
 eten
 verschaft
 hofmeester
-5673783	Deze
+5673787	Deze
 berekening
 is
 onduidelijk
@@ -209753,11 +209753,11 @@ meegerekend
 dan
 klopt
 45
-5677201	Dit
+5677205	Dit
 bedrag
 is
 onduidelijk
-5680210	Tenrechte
+5680214	Tenrechte
 lb
 1
 052
@@ -209767,7 +209767,7 @@ of
 4
 5
 kandijl
-5686398	Dit
+5686403	Dit
 bedrag
 is
 onduidelijk
@@ -209777,32 +209777,32 @@ zou
 4343
 moeten
 zijn
-5688061	Ten
+5688066	Ten
 rechte
 13
 400
-5688841	Dit
+5688846	Dit
 bedrag
 is
 onduidelijk
-5711893	Zwaardveger
+5711898	Zwaardveger
 onderhoudt
 wapens
 ook
 wapensmid
-5721757	De
+5721762	De
 datum
 is
 niet
 ingevuld
-5729278	Deze
+5729283	Deze
 schepen
 waren
 waarschijnlijk
 verongelukt
 zie
 boven
-5732431	Bengaaij
+5732436	Bengaaij
 Banggai
 oostpunt
 van
@@ -209815,7 +209815,7 @@ eilanden
 ten
 zuidoosten
 van
-5733421	Datu
+5733426	Datu
 Jerewe
 waarschijnlijk
 Aqa
@@ -209832,7 +209832,7 @@ Truhart
 II
 p
 1710
-5733443	Taliwang
+5733448	Taliwang
 waarschijnlijk
 Muhammad
 Galal
@@ -209850,7 +209850,7 @@ Truhart
 II
 p
 1710
-5735504	Waarschijnlijk
+5735509	Waarschijnlijk
 Mir
 Phulwari
 Nagm
@@ -209865,25 +209865,25 @@ Truhart
 II
 p
 1367
-5735597	Rotaarger
+5735602	Rotaarger
 waarschijnlijk
 Ramgarh
 tegenover
 Benares
-5741520	Statutaire
+5741525	Statutaire
 wetten
 de
 Statuten
 van
 Batavia
-5741613	Bedoeld
+5741618	Bedoeld
 lijkt
 Paulus
 Godefridus
 van
 der
 Voort
-5743888	Druif
+5743893	Druif
 een
 ronde
 ijzeren
@@ -209905,20 +209905,20 @@ zeildoek
 en
 een
 bindtouw
-5752589	Ten
+5752594	Ten
 onrechte
 genummerd
 1078
-5752717	Ten
+5752722	Ten
 onrechte
 genummerd
 1079
-5753285	In
+5753290	In
 de
 tekst
 kippen
 lond
-5755415	Zeilsteen
+5755420	Zeilsteen
 magnetisch
 ijzererts
 o
@@ -209930,54 +209930,54 @@ van
 zand
 te
 reinigen
-5755786	Ten
+5755791	Ten
 rechte
 20
 oktober
 1765
-5756256	Lampong
+5756261	Lampong
 lijkt
 een
 verschrijving
 voor
 Kampung
-5757311	Bedoeld
+5757316	Bedoeld
 lijkt
 8
 mei
 1765
-5762018	Deze
+5762023	Deze
 datum
 is
 onduidelijk
-5762475	Waarschijnlijk
+5762480	Waarschijnlijk
 3
 december
 1765
-5764004	Bedoeld
+5764009	Bedoeld
 lijkt
 Tavoy
-5774060	Bedoeld
+5774065	Bedoeld
 lijkt
 mede
-5776288	Bedoeld
+5776293	Bedoeld
 lijkt
 pakken
 textiel
-5786821	Nummering
+5786826	Nummering
 springt
 over
 van
 1413
 op
 1415
-5788628	Dit
+5788633	Dit
 jaartal
 is
 niet
 goed
 leesbaar
-5788709	Dit
+5788714	Dit
 is
 onduidelijk
 bedoeld
@@ -209993,27 +209993,27 @@ van
 20
 oktober
 1765
-5789099	Dit
+5789104	Dit
 folio
 is
 ongenummerd
-5797532	In
+5797537	In
 de
 nummering
 is
 1483
 overgeslagen
-5799144	Twee
+5799149	Twee
 folio
 s
 zijn
 als
 1496
 genummerd
-5801323	Boskoppen
+5801328	Boskoppen
 bootskoppen
 bootslieden
-5804098	Schrijflade
+5804103	Schrijflade
 langwerpig
 kistje
 of
@@ -210022,7 +210022,7 @@ ter
 bewaring
 van
 schrijfbehoeften
-5805595	Judas
+5805600	Judas
 Iskariot
 de
 discipel
@@ -210031,12 +210031,12 @@ Jezus
 voor
 geld
 aangaf
-5806171	Paai
+5806176	Paai
 van
 Frans
 payer
 betalen
-5807099	Hulfsdorp
+5807104	Hulfsdorp
 een
 buurt
 even
@@ -210070,7 +210070,7 @@ Parra
 11
 fol
 1921
-5807850	Attours
+5807855	Attours
 everdoek
 attours
 onduidelijk
@@ -210078,11 +210078,11 @@ everdoek
 soort
 licht
 zeildoek
-5810721	Nummering
+5810726	Nummering
 slaat
 1588
 over
-5811578	Voor
+5811583	Voor
 fol
 1596
 zijn
@@ -210091,20 +210091,20 @@ folio
 s
 aldus
 genummerd
-5814026	Fol
+5814031	Fol
 1614
 is
 bij
 nummering
 overgeslagen
-5817647	Twee
+5817652	Twee
 folio
 s
 zijn
 als
 1641
 genummerd
-5822961	Seerbatty
+5822966	Seerbatty
 zijde
 zijde
 gebruikt
@@ -210112,7 +210112,7 @@ voor
 tulbanden
 of
 seerbetties
-5827186	Sultanas
+5827191	Sultanas
 is
 in
 de
@@ -210120,7 +210120,7 @@ tekst
 gecorrigeerd
 tot
 santanas
-5834395	Zie
+5834400	Zie
 Grote
 Atlas
 van
@@ -210134,10 +210134,10 @@ p
 46
 47
 onder
-5835197	Aantal
+5835202	Aantal
 niet
 ingevuld
-5835597	De
+5835604	De
 som
 van
 de
@@ -210145,7 +210145,7 @@ genoemde
 getallen
 is
 1079
-5838429	Deze
+5838436	Deze
 schepen
 waren
 via
@@ -210165,7 +210165,7 @@ IV
 p
 117
 119
-5843453	Bang
+5843460	Bang
 Pla
 Soi
 het
@@ -210178,7 +210178,7 @@ ten
 oosten
 van
 Bangkok
-5843609	De
+5843616	De
 prins
 die
 naar
@@ -210235,7 +210235,7 @@ na
 Pombejra
 te
 Bangkok
-5873927	Dit
+5873934	Dit
 bedrag
 lijkt
 onjuist
@@ -210245,13 +210245,13 @@ rechte
 28
 000
 ?
-5894952	Benoehmen
+5894959	Benoehmen
 doden
 vermoorden
-5897566	Spargement
+5897573	Spargement
 uitstrooiing
 gerucht
-5898489	Pantchina
+5898496	Pantchina
 s
 bewoners
 van
@@ -210274,7 +210274,7 @@ de
 VOC
 logie
 lag
-5898709	Contract
+5898716	Contract
 met
 Djambi
 21
@@ -210325,21 +210325,21 @@ Diplomaticum
 VI
 p
 236
-5902402	Longies
+5902409	Longies
 bedoeld
 lijkt
 Linggi
-5904551	In
+5904558	In
 originele
 tekst
 is
 weggelaten
-5909121	Niet
+5909128	Niet
 ingevuld
 in
 de
 tekst
-5910944	Charchannis
+5910951	Charchannis
 karcanna
 betekent
 werkplaats
@@ -210349,7 +210349,7 @@ een
 product
 daaraan
 gelijkgesteld
-5915002	In
+5915009	In
 GM
 XIII
 wordt
@@ -210357,14 +210357,14 @@ hij
 Tissot
 Grenus
 genoemd
-5915452	Surkij
+5915459	Surkij
 sirky
 matten
 van
 riet
 surkunda
 gemaakt
-5916027	ƒ
+5916034	ƒ
 35
 857
 in
@@ -210380,7 +210380,7 @@ in
 is
 ƒ
 3752
-5919248	Het
+5919255	Het
 lijkt
 hier
 dat
@@ -210392,10 +210392,10 @@ Grenus
 Francois
 Leonard
 Pierre
-5922811	Geverfde
+5922818	Geverfde
 gekleurde
 textiel
-5925295	Junireren
+5925302	Junireren
 deze
 lezing
 is
@@ -210422,19 +210422,19 @@ afwachten
 om
 te
 vertrekken?
-5926867	De
+5926874	De
 prijs
 is
 niet
 ingevuld
-5932338	De
+5932345	De
 samenhang
 tussen
 deze
 cijfers
 is
 onduidelijk
-5935157	Het
+5935164	Het
 is
 onduidelijk
 waarom
@@ -210445,7 +210445,7 @@ van
 personen
 wordt
 genoemd
-5938283	Baxos
+5938290	Baxos
 klippen
 voor
 de
@@ -210456,7 +210456,7 @@ ten
 oosten
 van
 Matara
-5940678	Attoers
+5940685	Attoers
 atepattu
 is
 een
@@ -210482,13 +210482,13 @@ werkkleding
 voor
 een
 atepattu
-5957126	Bedoeld
+5957133	Bedoeld
 lijkt
 tontine
 of
 onderlinge
 levensverzekering
-5959796	Johannis
+5959803	Johannis
 of
 dubloen
 een
@@ -210498,7 +210498,7 @@ zogenaamde
 Johannis
 van
 Portugal
-5962209	Ploeserscagie
+5962216	Ploeserscagie
 modern
 ploeserskagie
 plaats
@@ -210512,7 +210512,7 @@ rek
 gie
 worden
 opgeslagen
-5962579	Op
+5962586	Op
 Malabarse
 wijze
 duidt
@@ -210520,7 +210520,7 @@ hier
 op
 Maduraise
 wijze
-5962880	Zie
+5962887	Zie
 Van
 der
 Chijs
@@ -210530,13 +210530,13 @@ plakaatboek
 8
 p
 171
-5970949	Dit
+5970956	Dit
 getal
 is
 niet
 goed
 leesbaar
-5975704	L
+5975711	L
 Aventure
 dit
 Engelse

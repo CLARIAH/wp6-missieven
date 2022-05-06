@@ -1,0 +1,52 @@
+<TEI xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Goens, Speelman, Bort, Van Outhoorn en Camphuys, 26 nov. 1678</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>26 nov. 1678</date>
+            <idno type="sourceID">missiven:vol4</idno>
+            <idno type="pid">INT_521f1595-a543-3854-9a37-8cab722b8c7c</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>241</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Goens, Speelman, Bort, Van Outhoorn en Camphuys, 26 nov. 1678</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>26 nov. 1678</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>4</interp></interpGrp>
+        <interpGrp type="n"><interp>V</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1678</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1678</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>11</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>11</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>26</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>26</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Goens</interp><interp>Speelman</interp><interp>Bort</interp><interp>Van Outhoorn</interp><interp>Camphuys</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_521f1595-a543-3854-9a37-8cab722b8c7c</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1">
+                  <body xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1">
+                    <div xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.pb.1" n="241" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_04/images/gm_4_134_0241.tif"/><fw xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.3784292" xmlns="http://www.tei-c.org/ns/1.0">Van (loens, Speelman, Bort, Van Outhoorn en Camphuys V, 26 november 1678</fw><fw xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.3784307" xmlns="http://www.tei-c.org/ns/1.0">241</fw><head xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">V. RYCKLOFF VAN GOENS, CORNELIS SPEELMAN, BALTHASAR<lb/> BORT, WILLEM VAN OUTHOORN EN JOANNES CAMPHUYS, BATAVIA<lb/> 28 november 1678 <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">1).</hi><lb/></head><p xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">1220, fol. 118-119.<lb/></p><note xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 12.9pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregisters</hi> 1678, p. 421-690; het schip Willem Hendrick, vgl. ibid.<lb/> P <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">.</hi> 654, <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">- ;</hi><lb/></note><p xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">- sijnde al in de maent julij op de Sumatrase Westcust vervallen geweest,<lb/> doch door tegenwint en stroomen niet konnende opkomen ende het volck,<lb/> door dagh en nacht te pompen afgemat ende voor grooter quaet vreesende, hebben<lb/> ’t de overheyt wijselijck ende met goeden raed den len aug.° voor de wint opgeduwt<lb/> ende weder door de linie equinoctiael ende vervolgens nae Colombo overgesteecken,<lb/> alwaer ’t voors. schip den 28en augustij aengekomen is.<lb/></p><note xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">( Het werd te Ponnekail voorlopig hersteld, verdere reparatie zal bij Onrust geschieden;<lb/> uit Bengalen is geen salpeter aangebracht, daardoor kan de retourvloot pas in<lb/> zijn geheel eind jan. verzonden worden; hoop, dat twee miljoen gulden uit China en<lb/> Japan voor Coromandel beschikbaar zal zijn, terwijl ook Bengalen zal kunnen toekomen;<lb/> vernomen, dat <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">-</hi> )<lb/></note><p xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.p.3" resp="int_paragraph_joining" rend="">
+              - door de heer extraordinarye raed Sijbrant Abbema - de reecq.n®<lb xmlns="http://www.tei-c.org/ns/1.0"/>met den hertogh Amynchan, soon van den ouden mirsamula off Chanchan was<lb xmlns="http://www.tei-c.org/ns/1.0"/> vereffent ende soude in Golconda werden uytgekeert 29000 oude en 13996 nieuwe<lb xmlns="http://www.tei-c.org/ns/1.0"/> pagooden, makende, met 9J p.r c.t0 opgeit op de oude pagooden ende 105 stuyvers<lb xmlns="http://www.tei-c.org/ns/1.0"/> de pagoode gerekent, uyt ontrent 232000 gulden ruym ende waermede de oude<lb xmlns="http://www.tei-c.org/ns/1.0"/> schuit eenmael sal uyt de boecken wesen tot gerustheyt. De questie met den serlesker<lb xmlns="http://www.tei-c.org/ns/1.0"/> was tot Comp.8 reputatie vereffent ende was op ’t reglement van onse geordonneerde<lb xmlns="http://www.tei-c.org/ns/1.0"/> menagie op de Masulipatnamse comptoiren 15000 gulden ’s jaers uytgewonnen.<lb xmlns="http://www.tei-c.org/ns/1.0"/><lb xmlns="http://www.tei-c.org/ns/1.0"/><note xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.p.3.note.1" xml:lang="nl" rend="font-size: 7.5; line-height: 8.3pt; margin-left: 2300" xmlns="http://www.tei-c.org/ns/1.0">1) Verzonden met de Engelse Berkeley Castle uit Bantam.<lb/></note><fw xml:id="INT_521f1595-a543-3854-9a37-8cab722b8c7c.TEI.1.text.1.body.1.div.1.p.3.fw.1" type="bottom-page-number">16</fw>
+            
+      
+            </p></div>
+                  </body>
+                </text>
+              </TEI>

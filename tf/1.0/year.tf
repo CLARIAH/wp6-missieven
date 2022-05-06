@@ -15,9 +15,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:17Z
+@dateWritten=2022-05-06T12:52:11Z
 
-6018166	1610
+6018176	1610
 1610
 1610
 1611
@@ -26,10 +26,10 @@
 1612
 1612
 1612
-6018176	1612
+6018186	1612
 1612
 1612
-6018180	1614
+6018190	1614
 1614
 1614
 1614
@@ -458,7 +458,7 @@
 1729
 1729
 1729
-6018610	1730
+6018620	1730
 1730
 1730
 1730

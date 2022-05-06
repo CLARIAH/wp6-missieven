@@ -1,0 +1,50 @@
+<TEI xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Bantam, 17 dec. 1617</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>17 dec. 1617</date>
+            <idno type="sourceID">missiven:vol1</idno>
+            <idno type="pid">INT_11a312fb-5d53-388b-bf93-d1ddab97fd81</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>80</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Bantam, 17 dec. 1617</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>17 dec. 1617</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>1</interp></interpGrp>
+        <interpGrp type="n"><interp>VII</interp></interpGrp>
+      <interpGrp type="localization_placeLevel1"><interp>Bantam</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_from"><interp>1617</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1617</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>12</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>17</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>17</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp></interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_11a312fb-5d53-388b-bf93-d1ddab97fd81</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1">
+                  <body xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1">
+                    <div xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.pb.1" n="80" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_01/images/gm_1_104_0080.tif"/><fw xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.5610682" xmlns="http://www.tei-c.org/ns/1.0">80</fw><fw xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5610686" xmlns="http://www.tei-c.org/ns/1.0">Reael VII, 17 december 1617</fw><p xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 10; line-height: 11.1pt" xmlns="http://www.tei-c.org/ns/1.0">VII. LAURENS REAEL, BANTAM 17 december 1617.<lb/></p><p xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 7.5; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">978, fol. 180-187, tezamen met V en VII. Copie, 978, fol. 1-4 tezamen met VIII.<lb/></p><p xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">Mijn Heeren. Zedert ons jongste scrijvens, waervan dit voorgaende copye es <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">x)</hi><lb/>en is alhier geen besondere veranderinge voorgevallen, als dat wij van Jambe<lb/> ’t schip ’t Wapen van Zeelandt met een goede quantiteyt peper hebben becomen,<lb/> doch verstaen, dat de vlote, onder Sr Cornelis Comans <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">1 2)</hi> uijtgestuert, ontrent<lb/> Malacca geen besondere effecten en heeft gedaen. Sr Comans is selver metten<lb/> Arent ende de Valck naer Achin toe omme den handel aldaer op nieuws te versoecken,<lb/> die mijns bedunckens voor desen al te lichtveerdich es geabandonneert<lb/> geweest <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">3).</hi><lb/></p><p xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.p.4" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">De Bergerboot, ’t jacht Cleen Vlissingen ende een roeyjacht liggen noch voor<lb/> Jambe soo omme de ladinge, die tot Jambe es, inne te nemen als omme verscheyden<lb/> joncken van Jortan, Gresse ende andere plaetsen, daer wij nu gheen handel<lb/> en hebben, aen te haelen ende den peper haer martganghs te betalen <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">4).</hi><lb/></p><note xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-size: 10; font-style: italic; line-height: 12.0pt; text-indent: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">(Japara, vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Coen</hi> I, p. 255; aankomst van schepen. Gevechten met de Engélsen te<lb/> Jakatra <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">,</hi> zie <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Coen</hi> I <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">,</hi> p. 301-303).<lb/></note><p xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.p.5" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">De Pangeran alhier alsmede die van Jacatra werdt seer gedreycht van den<lb/> Coninck van Mattaram ende schijnt hem over den hals te ■willen comen, waerover<lb/> hij met zijne grooten een becommerde bitcharinge <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">5)</hi> heeft, doch en heeft alsnoch<lb/> sich tegens ons niet geopenbaert, hoewel hij schijnt wel yets te seggen te hebben.<lb/> Hij begint zijn stucken op zijn bolwercken, dye hij al voor desen gemaeckt heeft,<lb/> te halen, doch hij weet seer wel, dat hij sonder hulpe van ons weynich zal cunnen<lb/> bestaen ende met onse hulp hem niemant sal cunnen deeren, derhalven eerlange<lb/> een bitcharinge van hen verwachten. Hoe het zij, wij moeten sien met d’eene ofte<lb/> metten anderen ons prouffijt te doen ende in troubel water tot onsen voordeel sien<lb/> te visschen, waertoe de tijdt d’eene off d’ander middel sal voortbrengen.<lb/></p><note xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.1pt; text-indent: 21.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Slot).<lb/></note><note xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.6pt; margin-left: 2200" xmlns="http://www.tei-c.org/ns/1.0">1) NI. de brieven V en VI.<lb/></note><note xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.6pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">2) Cornelis Co(o)mans kwam 1610 als koopman met Both in Indië. Sinds okt. 1616 werd<lb/> hij enige malen naar Atjeh gezonden om daar toestemming te verwerven voor de peperhandel<lb/> ter Westkust van Sumatra. Onderweg moest hij de Portugezen van Malakka bestoken.<lb/></note><note xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.6pt; margin-left: 2200" xmlns="http://www.tei-c.org/ns/1.0">3) Het Compagnieskantoor in Atjeh was in 1615 opgeheven.<lb/></note><note xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.note.6" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.6pt; text-indent: 21.0pt" xmlns="http://www.tei-c.org/ns/1.0">4) Het was in die tijd gewoonte van jonken van Aziaten, die te Djambi peper ingekocht<lb/> hadden, de lading aan te halen tegen betaling van de marktwaarde. Men deed dit o. a. omdat<lb/> de concurrerende Engelsen de peper van Chinese schepen, naar de Nederlanders meenden<lb/> zonder iets te betalen, weg namen.<lb/></note><note xml:id="INT_11a312fb-5d53-388b-bf93-d1ddab97fd81.TEI.1.text.1.body.1.div.1.note.7" xml:lang="nl" rend="font-size: 7.5; line-height: 9.6pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">5) Bitcharinge, bespreking, vergadering. Het woord is afgeleid van het Maleise bitjara,<lb/> overleggen, vergaderen, bespreken.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

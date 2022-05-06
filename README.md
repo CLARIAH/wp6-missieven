@@ -10,78 +10,14 @@
 
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/Nino-cunei/oldassyrian/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/Dans-labs/clariah-gm)
 [![DOI](https://zenodo.org/badge/292204502.svg)](https://zenodo.org/badge/latestdoi/292204502)
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-
-# Status
-
-*   2022-05-04 version 1.0: Additional volumes: Volume 14, bands (i) and (ii) have been added.
-    The earlier corrections by Sophie have not been reapplied, but the conversion has been improved 
-    so that they are not needed anymore.
-*   2022-04-11 Additional volumes: Volume 14, bands (i) and (ii) are in the process of being converted from
-    textual pdf to Text-Fabric. Most structure has been recognized, but no TF has been generated yet.
-*   2021-07-22 Additional data corrections: letters that have no page break elements were
-    not part of a page. That has been remedied (0.9), with the earlier corrections by Sophie on top of it (0.9.1).
-*   2021-06-17 Data corrections by Sophie Arnoult have been applied (0.8.1)
-*   2021-05-20 A new TF version (0.8) has been delivered.
-    When multiple letters occur on one page, the words of the first line
-    of some letters are not contained in line nodes.
-    This has been corrected.
-*   2021-01-30 A new TF version (0.7) has been delivered.
-    This  version as a major encoding difference: whereas in version 0.6 footnote material ended
-    up in the values of a feature, now footnotes are treated like text material.
-    That means: the words in footnotes occupy slots, the footnotes themselves are nodes.
-    As a consequence, footnotes and the words in it can be annotated, e.g. with named entities.
-    This is a reuqirement for the kind of processing that Sophie Arnoult is currently devising.
-*   2020-12-07 A new TF version (0.6) has been delivered.
-    Fixed some folio references.
-    Also: a simple data export has been made: a csv file with all the words, and for each
-    word whether it is editorial or original, and if a word has a footnote, the footnote is
-    also given. See the
-    [export notebook](https://nbviewer.jupyter.org/github/Dans-labs/clariah-gm/tree/master/usage/SimpleData.ipynb).
-    The
-    [exported data](https://github.com/Dans-labs/clariah-gm/releases/download/v0.6/words.tsv.gz)
-    is attached to this release.
-*   2020-11-24 Experimenting with a [Blacklab](http://inl.github.io/BlackLab/index.html) interface.
-*   2020-11-17 A new TF version (0.5) has been delivered
-    Fixed the generation of spurious newlines in footnote bodies.
-*   2020-11-16 A new TF version (0.4) has been delivered
-    Footnote bodies and marks have been checked and corrected, all encoded footnote marks
-    have been linked to all encoded footnote bodies.
-    Docs have been updated, and tutorials have been written.
-*   2020-10-13 A new TF version (0.3) has been delivered
-    Footnote bodies are almost all checked and corrected (12247 in total),
-    footnote marks have been checked
-    en corrected for volumes 1-4, there remain at least (300) pages with unlinked footnotes
-    out of the 5270 pages that have footnotes.
-    Editorial text is now in the main text, on equal footing with the original letter content,
-    but separable from it in a number of ways.
-*   2020-10-13 A new TF version (0.2) has been delivered, and there is now a TF-app
-    [missieven](https://github.com/annotation/app-missieven) for this corpus.
-    That means that functions like the Text-Fabric browser and easy downloading of data are supported.
-    There is still cleaning work to do, especially in linking the footnotes to the proper
-    footnote references.
-    There are also a few mis-encoded tables (from landscape format), that need manual adjustment,
-    and some pages that are altoghether missing.
-    See [trimTei0.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei0.py) where some of those
-    pages have already been added.
-*   2020-10-07 Many checks have been performed, many structural corrections
-    w.r.t the TEI source have been performed,
-    the metadata of all metadata has been thoroughly checked and corrected.
-    See the reports in
-    [trimreport2](trimreport2).
-*   2020-09-16 First TF dataset created, but incomplete (notes are left out, checks needed)
-    See 
-    [last trimTei run](log-trimTei.txt)
-    and
-    [last tfFromTrim run](log-tfFromTrim.txt)
-*   2020-09-02 Repository created, no content yet, start of conversion coding.
 
 # Corpus
 
 This repo contains a structurally clean version of the data of the *General Missives*, volumes 1-14.
 
-Read more in [about](dos/about.md)
+Read more in [about](docs/about.md).
 
 # Rationale for this representation of the corpus
 
@@ -96,74 +32,133 @@ provides a
 [data model](https://annotation.github.io/text-fabric/tf/about/datamodel.html)
 that captures the data at the end of the cleaning process just
 before it goes into other tools.
-It also support the integration of subsequent enrichment with the original data.
+It also support the integration of subsequent annotations with the original data.
 
-The Missieven corpus is an example how that works.
+The Missiven corpus is an example how that works.
 
 # Getting started
 
-Start with the
-[tutorial](https://nbviewer.jupyter.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb).
+## Search interface to-go
 
-See
-[other corpora](https://annotation.github.io/text-fabric/tf/about/corpora.html)
-for more experiences with Text-Fabric as a corpus pre-processing tool.
-
-Text-Fabric operates in the ecosystem of Python and its libraries
-and is particularly suited to Jupyter notebooks and lab.
-
-# Search interface to-go
-
-We have generated a search interface for the missieven from the Text-Fabric data.
-
-Just click
+For a first impression, start with
 [missieven-search](https://CLARIAH.github.io/wp6-missieven-search/)
-and off you go.
+This is a static website that sends the whole corpus to your browser.
+After a few seconds you can start searching.
 
-It is experimental.
-You can do full text search via regular expressions, not only in the full-text,
-but also in attributes of the text.
+You can do full text search via regular expressions, not only in the text,
+but also in some of its attributes. For example, you can search for a word
+in original letter texts or in editorial remarks.
+
+More info in the
+[manual](https://annotation.github.io/text-fabric/tf/about/clientmanual.html).
 
 An example search is in [example.json](example.json).
 Download the file, then import it in your search interface, and you see it happening.
 
-![ls](ls.png)
+You can save search results to excel files.
 
-The interface works completely inside your browser without consulting any server,
-apart from first traveling from GitHub to your browser.
+## Text-fabric browser
 
-It is written in pure, modern Javascript.
-The corpus is stored in a few javascript variables.
+You get more power when you download Text-Fabric.
+Text-Fabric operates in the ecosystem of Python and its libraries.
 
-If you want to search completely of line, you can press a button to
-download the complete package as a zipfile from within the app.
+But you do not have to program in order to browse and search the corpus.
+After installing Python and
 
-You can import and export search jobs as json files.
-You can export search results as tab-separated files.
+```
+pip3 install text-fabric
+```
 
-More info in the [manual](https://annotation.github.io/text-fabric/tf/about/clientmanual.html).
+on the command line, say
 
-# Using this corpus data
+```
+text-fabric clariah/wp6-missieven
+```
 
-At the moment the data delivered is available
+and a webserver on your computer is started which serves you a search-and-browse
+interface on the Generale Missiven corpus.
+You can search more precisely here than in the search interface-to-go above.
+
+You can save search results to excel files.
+
+## Jupyter notebooks
+
+Text-Fabric is particularly suited to Jupyter notebooks.
+There is a
+[handy way to install](https://annotation.github.io/text-fabric/tf/about/install.html)
+Python, JupyterLab in one go and Text-Fabric from there.
+
+The next step is to consult the 
+[tutorial](https://nbviewer.jupyter.org/github/CLARIAH/wp6-missiven/blob/master/tutorial/start.ipynb).
+This is a series of notebooks that guides you to the computing facilities of Text-Fabric.
+Text-Fabric is just a library that you import in your own Python programs,
+which means that you can invoke the whole of Python and its libraries to do your job.
+The only thing Text-Fabric does is to offer you a handy computing interface to the
+textual data and their annotations.
+
+See
+[other corpora](https://annotation.github.io/text-fabric/tf/about/corpora.html)
+for experiences with Text-Fabric as a pre-processing tool in other corpora.
+
+
+# Getting the corpus data
+
+The data of the corpus is in the `wp6-missieven` repo on GitHub:
 
 * as simple, TEI-like XML (see the xml directory in this repo)
 * as plain text-fabric files (see the tf directory in this repo)
 
-You can fire up a Text-Fabric browser and Query tool for this data by installing text-fabric and running
-a command:
+If you use any method of working with the corpus indicated above, you do not have to
+do anything special to download the data.
+If you tell Text-Fabric it is in `clariah/wp6-missieven`,
+it can find it and download it when needed. Automatically.
 
-* have Python installed (at least 3.6)
-* `pip3 install text-fabric`
-* `text-fabric clariah/wp6-missieven`
 
-This will download the corpus and fire up a local webserver and your webbrowser pointing to a in interface
-for this corpus.
+# Authors
 
+This repo is by
+
+*   [Dirk Roorda](https://github.com/dirkroorda) at
+    [KNAW/HuC](https://huc.knaw.nl/di/text/)
+
+## Acknowledgements
+
+* Jesse de Does provided TEI-XML files for volumes 1-13.
+* Lodewijk Petram provided textual PDFs for volume 14, bands (i) and (ii).
+* Sophie Arnoult used the Text-Fabric data to perform Named Entity Recognition.
+
+# Long term preservation and reproducibility
+
+This repo has been archived in two independent places:
+
+* at [Zenodo](https://zenodo.org)
+* at [Software Heritage](https://archive.softwareheritage.org)
+
+Click the respective badges above to be taken to the archives.
+There you find ways to cite this work.
+
+You can rerun the conversion programs on the source data and
+regenerate the simple XML and Text-Fabric versions of the data.
+See the
+[reproduce](https://github.com/CLARIAH/wp6-missieven/blob/master/docs/reproduce.md).
+guide.
+
+# Status
+
+*   2022-05-04 version 1.0: Additional volumes: Volume 14, bands (i) and (ii) have been added.
+    The earlier corrections by Sophie have not been re-applied, but the conversion has been improved 
+    so that they are not needed anymore.
+*   2022-04-11 Additional volumes: Volume 14, bands (i) and (ii) are in the process of being converted from
+    textual pdf to Text-Fabric. Most structure has been recognized, but no TF has been generated yet.
+
+[older ...](docs/history.md)
+
+
+# More interfaces
 Another version of the data (less cleaned) is visible online in a
 [Blacklab interface ](http://corpora.ato.ivdnt.org/corpus-frontend/Missiven/search)
 
-The next step is to make the data of this repository available in a Blacklab interface.
+A latent wish is to make the data of this repository available in a Blacklab interface.
 In this repo we show how to set up a local Blacklab server and front-end and how to get the
 present data into Blacklab.
 
@@ -172,20 +167,3 @@ present data into Blacklab.
 
 Thanks to Jesse de Does (key user of Blacklab, INT) and
 Jan Niestadt (main author of Blacklab, INT) for helping out with setting up and using Blacklab.
-
-# Authors
-
-This repo is by
-
-*   [Dirk Roorda](https://github.com/dirkroorda) at
-    [DANS](https://www.dans.knaw.nl)
-
-with the help of the people mentioned above.
-
-**N.B.:** Releases of this repo have been archived:
-
-* at [Zenodo](https://zenodo.org)
-* at [Software Heritage](https://archive.softwareheritage.org)
-
-Click the respective badges above to be taken to the archives.
-There you find ways to cite this work.

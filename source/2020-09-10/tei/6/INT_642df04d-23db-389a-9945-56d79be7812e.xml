@@ -1,0 +1,50 @@
+<TEI xml:id="INT_642df04d-23db-389a-9945-56d79be7812e" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Pit, Van Rhee en Van Dam, 19 febr. 1700</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>19 febr. 1700</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_642df04d-23db-389a-9945-56d79be7812e</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>113</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Pit, Van Rhee en Van Dam, 19 febr. 1700</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>19 febr. 1700</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXVI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1700</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1700</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>19</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>19</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Outhoorn</interp><interp>Van Hoorn</interp><interp>Pijl</interp><interp>De Haas</interp><interp>Van Riebeeck</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Pit</interp><interp>Van Rhee</interp><interp>Van Dam</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_642df04d-23db-389a-9945-56d79be7812e</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_642df04d-23db-389a-9945-56d79be7812e.TEI.1.text.1">
+                  <body xml:id="INT_642df04d-23db-389a-9945-56d79be7812e.TEI.1.text.1.body.1">
+                    <div xml:id="INT_642df04d-23db-389a-9945-56d79be7812e.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_642df04d-23db-389a-9945-56d79be7812e.TEI.1.text.1.body.1.div.1.pb.1" n="113" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0113.tif"/><fw xml:id="INT_642df04d-23db-389a-9945-56d79be7812e.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.2813046" xmlns="http://www.tei-c.org/ns/1.0">Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, enz. XXVI, 19 februari 1700 1 13</fw><fw xml:id="INT_642df04d-23db-389a-9945-56d79be7812e.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.2813065" xmlns="http://www.tei-c.org/ns/1.0">XXVI. WILLEM VAN OUTHOORN, JOAN VAN HOORN, LAURENS PIJL,DIRK DE HAAS, ABRAHAM VAN RIEBEECK, JOANNES COPS, MANUELBORNEZEE, LAURENS PIT, THOMAS VAN RHEE EN JACOB VAN DAM,BATAVIA 19 februari 1700.Copie. Kol. Arch. 1520, fol. 82-83.(Op arrest van de Raad van Justitie wordt verzocht een wissel van 2250 rsd., doorValckenier getrokken ter uitbetaling aan George Munnik o} mr. Dirk van Bleyswijck ,niet uit te betalen).</fw><fw xml:id="INT_642df04d-23db-389a-9945-56d79be7812e.TEI.1.text.1.body.1.div.1.fw.3" type="bottom-page-number">8</fw>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

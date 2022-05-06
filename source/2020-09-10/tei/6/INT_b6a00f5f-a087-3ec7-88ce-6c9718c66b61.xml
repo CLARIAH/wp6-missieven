@@ -1,0 +1,54 @@
+<TEI xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn en raden, 31 maart 1706</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>31 maart 1706</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>406</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn en raden, 31 maart 1706</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>31 maart 1706</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XIII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1706</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1706</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>31</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>31</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>raden</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1">
+                  <body xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1">
+                    <div xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.pb.1" n="406" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0406.tif"/><fw xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.5298983" xmlns="http://www.tei-c.org/ns/1.0">406</fw><fw xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5298987" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn en Raden van Indië, XIII, 31 maart 1706</fw><head xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 12.3pt" xmlns="http://www.tei-c.org/ns/1.0">XIII. JOAN VAN HOORN EN RADEN VAN INDIË, BATAVIA 31 maart<lb/> 1706 <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">J).</hi><lb/></head><p xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1608, folio 516-570 (copie).<lb/></p><note xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met het galjoot Haze[l]noot ; uit patria kwamen 13febr. de Rijnenburg<lb/> met 137 koppen, 16 febr. Driebergen, 119, en 24 febr. Belvliet, 131, 28 dec. kwam de<lb/> Brandenburg bij Ceylon; 2 maart voer de Spierdijck naar Makassar, 12 en 22 maart<lb/> de Vuur en de Overrijp, de laatste om rijst te halen, daar Java door oorlog en grote<lb/> droogte weinig leverde en Siam niets; de Buis en de Voorschoten kwamen uit Palembang<lb/> met 41237 <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">®</hi> witte en 390945 <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">‘ffi</hi> zwarte peper, waard f. 53845 en brieven van<lb/> 6 jan. en 15 febr.; de Koning schreef,)<lb/></note><p xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.p.2" resp="int_paragraph_joining" rend="">
+              - dat sijne onderdanen te groten hazart en perijckel liepen om door de<lb xmlns="http://www.tei-c.org/ns/1.0"/>Johoorse zeeschuymers genoomen en van hun leven en goederen berooft te werden,<lb xmlns="http://www.tei-c.org/ns/1.0"/> dat de levensmiddelen in sijn rijck begonden duur te werden, omdat er geen rijstvaartuygen<lb xmlns="http://www.tei-c.org/ns/1.0"/> van Java quamen, dat hij om sulx voor te komen en voor sijn onderdanen<lb xmlns="http://www.tei-c.org/ns/1.0"/> sorg te dragen van meyninge en ook genoodsaackt was een goed gedeelte<lb xmlns="http://www.tei-c.org/ns/1.0"/> van sijn land met pady te laten beplanten en dat hij daartoe veel volks van nooden<lb xmlns="http://www.tei-c.org/ns/1.0"/>had, -<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(zodat het vervoer van peper naar Batavia door zijn onderdanen niet mogelijk<lb/> was, hem werden passen verleend om rijst van Java' s Oostkust te laten halen; slechts<lb/> 5 inlandse vaartuigen met 98959 <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">ffi</hi> peper kwamen van Palembang ) .<lb/></note><p xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.p.3" resp="int_paragraph_joining" rend="">
+              - Den Sousouhounang <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl" xmlns="http://www.tei-c.org/ns/1.0">1 2)</hi> (die gesegt werd den ouderdom van 123 jaeren<lb xmlns="http://www.tei-c.org/ns/1.0"/>gepasseert te sijn) nog een volmaackte gesondheyd beleefde.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Uit Siam kwam 17 maait Jan van V eisen met de Drie Croonen, de IJssel 20<lb/> maart, maar de Berkel met het opperhoofd Aernoud Cleur bleef nog uit; men ontving<lb/> uit Siam een brief van 31 dec., de vriendelijke brieven aan den Koning en den berkelang<lb/> werden niet beantwoord; Van V eisen werd)<lb/></note><p xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.p.4" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">- niet ter audiëntie g’admitteert en veel affronten aangedaan, mitsgaders<lb/> den handel verboden, de scheepen opgehouden, de uytvoer der rijst belet en<lb/> gevolgelijck d’onse naar becomen consent van het hoff genoodsaackt geweest in ’t<lb/> geheel van daar op te breken, nadat alvorens de schuld des Conings op de wijse, als<lb/> men die had gecontracteerd, volcomen was geliquideert.<lb/></p><note xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Er bleven nog 1400874 sapanhout en 6045 buffelhuiden, welke laatste door de<lb/> Belvliet naar Japan zullen worden gebracht; men is niet tevreden over het optreden van<lb/> het personeel, in het bijzonder van Van V eisen; 55 balen kaneel werden er d 1 <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">§</hi> kati<lb/> zilver of 86% rsd. verkocht, de rest, 45 balen, teruggebracht; uit Malakka kwamen<lb/> brieven van 31 jan. en 27 febr.; men kon daar 19732 Mexicaanse realen verwerven en<lb/> zond die naar Palembang ; over 1704-1705 gaf men er f. 163221 uit tegen <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">ƒ.</hi> 81222<lb/></note><note xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt; margin-left: 2300" xmlns="http://www.tei-c.org/ns/1.0">1) De copie is niet ondertekend en de namen der raden worden niet vermeld.<lb/></note><note xml:id="INT_b6a00f5f-a087-3ec7-88ce-6c9718c66b61.TEI.1.text.1.body.1.div.1.note.6" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt; margin-left: 2300" xmlns="http://www.tei-c.org/ns/1.0">2) Bedoeld is de deze titel voerende oude Koning van Palembang.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

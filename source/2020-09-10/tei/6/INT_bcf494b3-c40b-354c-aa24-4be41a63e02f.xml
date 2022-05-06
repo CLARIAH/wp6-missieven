@@ -1,0 +1,54 @@
+<TEI xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon en De Haan, 10 mei 1705</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>10 mei 1705</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_bcf494b3-c40b-354c-aa24-4be41a63e02f</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>343</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon en De Haan, 10 mei 1705</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>10 mei 1705</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>VII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1705</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1705</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>10</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>10</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Pijl</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Van Swoll</interp><interp>De Wilde</interp><interp>Douglas</interp><interp>Van Rijn</interp><interp>Van der Stel</interp><interp>Zwaardecroon</interp><interp>De Haan</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_bcf494b3-c40b-354c-aa24-4be41a63e02f</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1">
+                  <body xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1">
+                    <div xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.pb.1" n="343" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0343.tif"/><fw xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5138085" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, enz. VII, 10 mei 1705</fw><fw xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.5138100" xmlns="http://www.tei-c.org/ns/1.0">343</fw><head xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">VII. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, LAURENS PIJL,<lb/> JOANNES COPS, MANUEL BORNEZEE, CHRISTOFFEL VAN SWOLL,<lb/> HERMAN DE WILDE, ABRAHAM DOUGLAS, ADAM VAN RIJN, ADRIAAN<lb/> VAN DER STEL, HENDRIK ZWAARDECROON EN MATTHEUS DE<lb/> HAAN, BATAVIA 10 mei 1705.<lb/></head><p xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8.5; text-align: justify; line-height: 9.4pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1588, fol. 396-402.<lb/></p><note xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met het Engelse schip Mary Fregat, dat 12 april van Bandjarmasin<lb/> kwam ; 14 maart kwamen van Malakka de Nederland, Ittershem en Blauwenberg met<lb/> de 3 in beslag genomen schepen van Abdul Oafur Feyslahey, Basra Merchant en<lb/> Feydressan, lang resp. 120 , 115 en 119 voeten; 4, 5, 6 en 19 april kwamen - met veel<lb/> doden - uit patria de Huis te Bijweg, Vosmaar, Coning Carel en Bredehoff, 5 april<lb/> de Sion uit Siam, waar men door het optreden van het hof steeds meer schade lijdt;<lb/> 10 april kwam van Padang de Bogaart met Wan Abdul Bagus en brieven van 30<lb/> maart tot 12 april, met zijn hulp zijn de onderlinge twisten tussen de Maleiers er<lb/> beëindigd; 29 april werd uit Malakka vernomen,)<lb/></note><p xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.p.2" resp="int_paragraph_joining" rend="">
+              - dat met [een] vaartuygh van Poulo Candoor door elff gevlugte Engel-<lb xmlns="http://www.tei-c.org/ns/1.0"/>sen aldaar was tijdinge gebragt, hoe hunnen gouverneur Benjamin Catspole en<lb xmlns="http://www.tei-c.org/ns/1.0"/> verdere Engelsen, tot ongevaar 22 coppen, op den 3e maart oude stijl in de nagt<lb xmlns="http://www.tei-c.org/ns/1.0"/> door 14 bij haar in dienst zijnde Bouginesen en Macassaren na voorgaande brandstigtinge<lb xmlns="http://www.tei-c.org/ns/1.0"/> alle waren vermoord.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.4pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Mogelijk zal die vestiging hiermee verdwijnen; uit Palembang werd het meeste<lb/> van de verwachte 15000 pikol peper ontvangen, het personeel vraagt weer om Mexicaanse<lb/> realen en er gewild textiel.)<lb/></note><p xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Alle de zeestranden van Tagal tot Zourabaya toe zijn bereeds onder<lb/> de gehoorsaamheyt van [den] nieuwen Sousouhounang door Comp.8 adsistentie<lb/> gesubjugeerd, daartoe ook veel contribueerd den goeden ijver van den ouden<lb/> Pangeran van Sampan of Madura Sjaccraningrat, een man van ongevaar 80<lb/> jaren, maar in ’t Mataramse land en volk van veel credit en respect, soodat<lb/> om een kort en goed eynde aldaar te erlangen en den Sousouhounang in zijn<lb/> broeders throon tot Cartasoura te bevestigen wij alleen verlangen na een goed<lb/> ontset van schepen en volk uyt het vaderland en een gewenschten uytslag van<lb/> saken in Zouratta.<lb/></p><note xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.4pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Uit China kwamen 6 kleine jonken, vnl. met zijde; zij verklaren met peper en<lb/> lood weinig winst gemaakt te hebben; het cargasoen van de Taxisboom van <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">ƒ.</hi> 2071<lb/> groter dan werd opgegeven; Pijl is niet meer in staat tot het opmaken van beschrijvingen;<lb/> 6 mei kwam van Ceylon de Matroos met o.a. 250 balen kaneel en brieven van<lb/> 11 maart; Phoonsen)<lb/></note><p xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.p.4" resp="int_paragraph_joining" rend="">
+              - met alle Comp.8 dienaren en het scheepsvolk van [de] Phenix door de<lb xmlns="http://www.tei-c.org/ns/1.0"/>Francen ontslagen en den 10e februarij op Nagapatnam aangekomen was, onder<lb xmlns="http://www.tei-c.org/ns/1.0"/> sodanigen accoord niet van randsoeneringe, maar van een ongewettigde en onge-<lb xmlns="http://www.tei-c.org/ns/1.0"/><pb xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.p.4.pb.1" n="344" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0344.tif"/><fw xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.p.4.fw.1" place="top" type="page-number" facs="#zone.5139139" xmlns="http://www.tei-c.org/ns/1.0">344</fw><fw xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.p.4.fw.2" place="top" type="head" facs="#zone.5139156" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Pijl, Cops, Bomezee, enz. VII, 10 mei 170ö</fw>qualificeerde wapenschorsinge tusschen ons en de Francen langs Chormandel ofte<lb xmlns="http://www.tei-c.org/ns/1.0"/> van Nagapatnam af tot Punto Palameras toe <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl" xmlns="http://www.tei-c.org/ns/1.0">1).</hi><lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 12.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(De Hoge Regering is het daar allerminst mee eens; op komst is de Gent uit<lb/> patria na 11 maanden varen en met 76 doden <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">,</hi> slechts 175 koppen aanbrengend).<lb/></note><note xml:id="INT_bcf494b3-c40b-354c-aa24-4be41a63e02f.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 8; line-height: 8.9pt; margin-left: 2400" xmlns="http://www.tei-c.org/ns/1.0">1) Vgl. <hi rend="font-size:8; font-family:Liberation Serif; font-style:italic" xml:lang="nl">Corpus</hi> IV, nr. DCXXX.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

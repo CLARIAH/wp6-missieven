@@ -1,0 +1,50 @@
+<TEI xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Maetsuyker, Verburch, Pit, Overtwater, Speelman en Van Hoorn, 5 febr. 1672</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>5 febr. 1672</date>
+            <idno type="sourceID">missiven:vol3</idno>
+            <idno type="pid">INT_a748e679-b710-3ce8-89de-2e71de865878</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>813</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Maetsuyker, Verburch, Pit, Overtwater, Speelman en Van Hoorn, 5 febr. 1672</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>5 febr. 1672</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>3</interp></interpGrp>
+        <interpGrp type="n"><interp>LVIII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1672</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1672</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>2</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>5</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Maetsuyker</interp><interp>Verburch</interp><interp>Pit</interp><interp>Overtwater</interp><interp>Speelman</interp><interp>Van Hoorn</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_a748e679-b710-3ce8-89de-2e71de865878</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1">
+                  <body xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1">
+                    <div xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.pb.1" n="813" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_03/images/gm_3_125_0813.tif"/><fw xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" xml:lang="nl" rend="text-align:justify; line-height:11.1pt" facs="#zone.6170620" xmlns="http://www.tei-c.org/ns/1.0">Maetsuyker, Verburch, Pit, Overtwater, Speelman en Van Hoorn LVTII, 5 febr. 1672 813</fw><head xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">LVIII. JOAN MAETSUYKER, NICOLAES VERBURCH, LAURENS PIT,<lb/> PIETER OVERTWATER, CORNELIS SPEELMAN EN PIETER VAN<lb/> HOORN, BATAVIA 5 febr. 1672.<lb/></head><p xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">J 169, fol. 414-416.<lb/></p><note xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Te vergelijken mei <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregisters</hi> 1672 , p. 28-33; bericht uit Japan over<lb/> onvoldoendheid der geschenken aan den Sjogoen en de moedwil der tolken <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">,</hi> vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Be-</hi><lb/><hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">schrijvinge</hi> II, I, p. 445 onder en 447 boven; Camphuys bericht verder, <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">. . .</hi> .)<lb/></note><p xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0"><hi rend="font-size:10; font-family:Liberation Serif; letter-spacing:5.0pt" xml:lang="nl">....</hi> dat se veelmalen gevraagt hadden naar de gelegentheyt der thollcn en<lb/> inkomens ontrent den boom op Batavia, dat haar wel beantwoort was, maar<lb/> sijluyden duyden die saack anders.<lb/></p><p xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.p.3" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Of we niet gesint waaren Formosa weder in te nemen met behulp van andere<lb/> Europische natiën, alsoo sulcke maniere van doen tegen de Turck wel gepractiseert<lb/> was.<lb/></p><p xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.p.4" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Ons opperhooft was van gevoelen, dat de zijde aanstaande jaar dier soude<lb/> wesen, maar niet soo dier als ’t verleden jaar. Op ’t eylant <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">x)</hi> stont een laboratorium<lb/> gemaakt te worden ten dienste en koste van den Keyser, daar onse apotheeker<lb/> in werken soude, dan soude noch wel eenige glaase retorten van nooden<lb/> bebben, die uyt Hollant mosten komen.<lb/></p><p xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.p.5" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Het was de Com.Pa toegestaan noch een nieuw packhuys op ’t eylant te timmeren,<lb/> hetwelck kosten soude of aanbesteet was tot 3700 teylen of 12950 Indise<lb/> guldens.<lb/></p><p xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.p.6" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Daar stonden 2 joncken uyt Japan naa Tonquin te gaan, die ’t koopergelt<lb/> ontrent 20 ten hondert dierder in Japan hadden ingekoght als de Comp.e en<lb/> daarom wilden de burgermeesters van Nangasackij die gemelten handel bij<lb/> octroy of previlegie van den Keyser alleen drijven, ons desel ve het 1000 niet een<lb/> condrijn of grootien <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl">1 2)</hi> minder geven, maar op die wijse kond’er in Tonquin geen<lb/> of bijna geen voordeel op behaalt worden, dat met silver dan weynigh verschilt.<lb/> Daar wierde bij d’onse gints gelooft, dat de Japanders in dien handel herideerden.<lb/></p><p xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.p.7" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">De coopluyden van Japan hadden groote verliesen gehadt, bijsonderdegeene<lb/> die de verdroncken en weder gedroogde lijnwaten gekoght hadden.<lb/></p><note xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.1pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">(Nadere bijzonderheden over de handel in Japan).<lb/></note><p xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.p.8" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">d’Onse wierden noch al gequelt met onredelijke betalinge der goederen, die<lb/> se daar inkoghten, eetwaeren namentlijk, moetende bijkans dubbelt betalen van<lb/> ’tgeene de goederen in de stadt gekogt wierden.<lb/></p><note xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 10" xmlns="http://www.tei-c.org/ns/1.0">( De dokter van het kasteel Batavia acht voor Japan nog nodig enige instrumenten<lb/> &gt;oor het distilleren van spiritus <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">,</hi> kolven, retorten, enz.).<lb/></note><note xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt; margin-left: 2300" xmlns="http://www.tei-c.org/ns/1.0">1) Bedoeld: Desjima.<lb/></note><note xml:id="INT_a748e679-b710-3ce8-89de-2e71de865878.TEI.1.text.1.body.1.div.1.note.5" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt; margin-left: 2300" xmlns="http://www.tei-c.org/ns/1.0">2) Groot, halve stuiver, 2£ centstuk.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

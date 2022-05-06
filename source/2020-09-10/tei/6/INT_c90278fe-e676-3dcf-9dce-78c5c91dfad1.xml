@@ -1,0 +1,50 @@
+<TEI xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Phoonsen en Zwaardecroon, 17 maart 1708</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>17 maart 1708</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>530</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Phoonsen en Zwaardecroon, 17 maart 1708</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>17 maart 1708</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XXV</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1708</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1708</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>17</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>17</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Van Swoll</interp><interp>Douglas</interp><interp>De Vos</interp><interp>Van Rijn</interp><interp>Phoonsen</interp><interp>Zwaardecroon</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1">
+                  <body xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1">
+                    <div xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1.div.1.pb.1" n="530" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0530.tif"/><fw xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.5629572" xmlns="http://www.tei-c.org/ns/1.0">530</fw><fw xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5629576" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, enz. XXV, 17 maart 1708</fw><head xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">XXV. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, CHRISTOFFEL<lb/> VAN SWOLL, ABRAHAM DOUGLAS, PIETER DE VOS, ADAM VAN RIJN,<lb/> BERNARD PHOONSEN, HENDRICK ZWAARDECROON EN *), BATAVIA<lb/><hi rend="font-size:9.5; font-family:Liberation Serif" xml:lang="nl">17 maart 1708.</hi><lb/></head><p xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Copie Kol. Arch. 1641, fol. 396-398.<lb/></p><note xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 23.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Uit Engeland kwam de Anne <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">,</hi> waarmee Cuningham naar Bandjarmasin vertrekt,<lb/> hij zendt de Blenheim Tiaar Engeland, waarmee deze brief gaat; 29 febr. kwam de<lb/> Zuydorp uit Zeeland met een brief van 21 febr. 1707, ze vertrok 9 dec. met de Westhoven<lb/> van de Kaap, waar toen de in mei uit patria onder van Assenburgh vertrokken schepen<lb/> nog niet waren aangekomen ; 18 febr. kwamen uit Bengalen 6 schepen; men zal er de<lb/> kantoren Kasimbazar en Patna weer herstellen; de schepen uit Siam en van de Westkust<lb/> bleven nog uit; 27 febr. kwam van Malakka via Palembang de Zoden).<lb/></note><note xml:id="INT_c90278fe-e676-3dcf-9dce-78c5c91dfad1.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 9.9pt; text-indent: 23.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) Hier is ruimte opengelaten voor nog een naam, alleen die van Comelis Chastelein<lb/> komt in aanmerking, hij kwam blijkbaar niet tijdig opdagen.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

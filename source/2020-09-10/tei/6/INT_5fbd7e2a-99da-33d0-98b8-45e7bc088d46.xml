@@ -1,0 +1,50 @@
+<TEI xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Outhoorn, Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn en Van der Stel, 14 maart 1704</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>14 maart 1704</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>286</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Outhoorn, Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn en Van der Stel, 14 maart 1704</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>14 maart 1704</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XLIII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1704</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1704</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>14</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>14</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Outhoorn</interp><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Pijl</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Van Swoll</interp><interp>De Wilde</interp><interp>Douglas</interp><interp>Van Rijn</interp><interp>Van der Stel</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1">
+                  <body xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1">
+                    <div xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1"><div xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1" type="subdivision_for_sake_of_validation">
+        
+              <pb xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.pb.1" n="286" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0286.tif"/><fw xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.fw.1" place="top" type="page-number" facs="#zone.3312084" xmlns="http://www.tei-c.org/ns/1.0">286</fw><fw xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.fw.2" place="top" type="head" facs="#zone.3312088" xmlns="http://www.tei-c.org/ns/1.0">Van Outhoom, Van Hoorn, Van Riebeeck, Pijl, Cops, enz. XLHI, 14 maart 1704</fw><head xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 12.0pt" xmlns="http://www.tei-c.org/ns/1.0">XLIH. WILLEM VAN OUTHOORN, JOAN VAN HOORN, ABRAHAM VAN<lb/> RIEBEECK, LAURENS PIJL, JOANNES COPS, MANUEL BORNEZEE,<lb/> CHRISTOFFEL VAN SWOLL, HERMAN DE WILDE, ABRAHAM DOUGLAS,<lb/> ADAM VAN RIJN EN ADRIAAN VAN DER STEL, BATAVIA 14<lb/> maart 1704.<lb/></head><p xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1563, fol. 2180-2183, copie 1573, fol. 493-496 <hi rend="font-size:6; font-family:Liberation Serif; font-style:italic; letter-spacing:1.0pt" xml:lang="nl">').</hi><lb/></p><note xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 12.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met de Engelse Gloucester en Union; de Noordgouw kwam 6 maart<lb/> om de hoek van Bantam; de Nederland kwam uit Perzië met een brief van 20 aug.;<lb/> 5 retourschepen vertrokken 25 dec. van Galle).<lb/></note><p xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.p.2" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">Men wel soude mogen prognosticeren, de zoon van den Pangeran Poegar met<lb/> sijn opstand tegen den nieuwen Soesoehoenang sijn intentie beswaarlijk sal bereiken,<lb/> de wij le hij reets met sijn bij hebbende macht na het district van Ceribon soude<lb/> sijn geweken, tenware dat die van Bagaleen en Madion aan de andere kant, over<lb/> het reets aangedaan quaad tractement aan de hare misnoegt en de laatste reets op<lb/> de been geraakt zijnde, hem incommodeerden en de handen vol werk geven.<lb/></p><note xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 12.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Jacob van Dam overleed 9 maart <hi rend="font-size:8.5; font-family:Liberation Serif" xml:lang="nl">,</hi> Adam van Rijn volgt hem voorlopig op als<lb/> president van de Raad van Justitie; De Wilde is de jongste raad-ordinaris ; de Kattendijk<lb/> kwam 29 febr. van de Kaap).<lb/></note><note xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.note.3" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt; text-indent: 22.0pt" xmlns="http://www.tei-c.org/ns/1.0">1) Gebruik is gemaakt van de beter leesbare copie.<lb/></note><pb xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.1.pb.2" n="287" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0287.tif"/></div><div xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.2" type="subdivision_for_sake_of_validation"><head xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.2.head.1" xml:lang="nl" rend="font-size: 18; letter-spacing: 2.0pt; line-height: 19.9pt; margin-left: 1100" xmlns="http://www.tei-c.org/ns/1.0">JOAN VAN HOORN<lb/></head><p xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.2.p.1" xml:lang="nl" rend="font-size: 10; line-height: 11.1pt" xmlns="http://www.tei-c.org/ns/1.0">15 AUGUSTUS 1704 — 30 OCTOBER 1709<lb/></p><pb xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.2.pb.1" n="288" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0288.tif"/><fw xml:id="INT_5fbd7e2a-99da-33d0-98b8-45e7bc088d46.TEI.1.text.1.body.1.div.1.div.2.fw.1" place="top" type="page-number" facs="#zone.3312361" xmlns="http://www.tei-c.org/ns/1.0"></fw>
+            
+      </div></div>
+                  </body>
+                </text>
+              </TEI>

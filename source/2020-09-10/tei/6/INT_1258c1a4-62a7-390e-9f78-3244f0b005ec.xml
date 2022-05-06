@@ -1,0 +1,52 @@
+<TEI xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon en De Haan, 6 maart 1705</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>6 maart 1705</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_1258c1a4-62a7-390e-9f78-3244f0b005ec</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>342</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon en De Haan, 6 maart 1705</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>6 maart 1705</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>VI</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1705</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1705</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>3</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>6</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>6</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Pijl</interp><interp>Cops</interp><interp>Bornezee</interp><interp>Van Swoll</interp><interp>De Wilde</interp><interp>Douglas</interp><interp>Van Rijn</interp><interp>Van der Stel</interp><interp>Zwaardecroon</interp><interp>De Haan</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_1258c1a4-62a7-390e-9f78-3244f0b005ec</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1">
+                  <body xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1">
+                    <div xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.pb.1" n="342" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0342.tif"/><fw xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.5135731" xmlns="http://www.tei-c.org/ns/1.0">342</fw><fw xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.5135735" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Pijl, Cops, Bomezee, enz. VI, 6 maart 1705</fw><head xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">VI. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, LAURENS PIJL,<lb/> JOANNES COPS, MANUEL BORNEZEE, CHRISTOFFEL VAN SWOLL,<lb/> HERMAN DE WILDE, ABRAHAM DOUGLAS, ADAM VAN RIJN, ADRIAAN<lb/> VAN DER STEL, HENDRIK ZWAARDECROON EN MATTHEUS DE<lb/> HAAN, BATAVIA 6 maart 1705.<lb/></head><p xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1576, fol. 2266-2281, copie 1688, fol. 382-395 *).<lb/></p><note xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 23.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met de Taxisboom; de residenten in Golconda Frangois Knobbaart en<lb/> Zacheus van Heussen worden opgeroepen, omdat ze zich waarschijnlijk 3000 pagoden<lb/> uit de V.O.C. kas toeeigenden; daar Phoonsen gevangen is, moet Goomans het ambt van<lb/> gouverneur van Coromandel direct aan Joannes van Steelandt overdragen, en met den<lb/> fiskaal Becker en den secretaris Dubbeldaard naar Batavia komen om hun geschillen<lb/> voor de Raad van Justitie te brengen; Jacob de Roy heeft aan zijn met Simons gemaakt<lb/> accoord „sinisterlijk en quaadaardigh,y willen ontkomen; de commandeur Nicolaas<lb/> Welter dient tot doordienen op Ceylon geanimeerd te worden; tegen Guerreiro's optreden<lb/> op Timor is geprotesteerd en de opperkoopman Gerrit Uuygelbosch is voor nader<lb/> onderzoek derwaarts gezonden; uit Ningpo kwam een jonk, uit Amoy kwamen er 3, de<lb/> laatste slechts klein; er worden er van elke plaats nog 2 of 3 verwacht, <hi rend="font-size:9.5; font-family:Liberation Serif" xml:lang="nl">-</hi> )<lb/></note><p xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.p.2" resp="int_paragraph_joining" rend="">
+              - dogh alle seer kleen en maar wanckans, omdat er op ’t voorstel van<lb xmlns="http://www.tei-c.org/ns/1.0"/>den Tartarischen veldheer over de provintien van Chetchian en Fockien <hi rend="font-size:10; font-family:Liberation Serif; vertical-align:super" xml:lang="nl" xmlns="http://www.tei-c.org/ns/1.0">1 2)</hi> door<lb xmlns="http://www.tei-c.org/ns/1.0"/> expres verbod des Keysers geen grooter vaartuygen als van 18 voeten wijd en 70<lb xmlns="http://www.tei-c.org/ns/1.0"/> voeten lang mogen buytenslands varen en ook niet hooger als met 30 <hi rend="font-size:9.5; font-family:Liberation Serif; font-style:italic" xml:lang="nl" xmlns="http://www.tei-c.org/ns/1.0">k</hi> 40 koppen<lb xmlns="http://www.tei-c.org/ns/1.0"/> bemand, voor dewelcke dan ginder op hun vertrek ook nogh borge moet werden<lb xmlns="http://www.tei-c.org/ns/1.0"/> gesteld en dat, soo men gerugt, om de eyge onderlinge rooverijen der Chineesen ter<lb xmlns="http://www.tei-c.org/ns/1.0"/> zee daardoor te eer te dempen.<lb xmlns="http://www.tei-c.org/ns/1.0"/>
+            </p><note xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.note.2" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 23.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Het hof van Siam belette het tijdig af varen van de Sion; 6 febr. vertrok de Vecht<lb/> naar Amboina, 1 1 febr. de Eenhoorn mei gouverneur Erberveld naar Makassar, 6 en 24<lb/> febr. en 1 maart de Peperboom, Handboog en Leervis Tiaar Ternate, 6 maart de<lb/> Schulp naar Banda; van half januari tot 1 maart bleef het weer ongehoord onstuimig;<lb/> de Taxisboom heeft carg. voor Amsterdam van f. 116056, behalve de thee, die ook voor<lb/> de andere Kamers is; in totaal werd van Batavia en Ceylon in dit seizoen carg. van<lb/> f. 4578498 naar pair ia gezonden; het bedrijf in Azië gaf weer verlies; de Raad van<lb/> Justitie veroordeelde Joannes Hackaart, oud-fiskaal te Makassar, wegens diverse misdrijven,<lb/> o.a. tot 5 jaar verbanning; de zaak tegen wijlen den schipper Barthólomeus<lb/> Laf er, die dranken uitpairia meebracht, die bij justitiële verkoop 5727 rsd. opbrachten,<lb/> liep uit op een inbeslagneming van het meeste daarvan; de voortvluchtige mr. Amold<lb/> van Alsem, oud-fiskaal te Malakka, is wegens o.a. diefstal veroordeeld tot o.a. verbanning<lb/> buiten het V.O.C. territorium; andere rechtszaken konden nog niet worden afgedaan;<lb/> enige Engelse scheepjes deden Batavia aan; de weesmeesters trokken een wissel<lb/> op Middelburg van 3895 rsd.).<lb/></note><note xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.note.3" xml:lang="nl" rend="font-size: 7.5; text-align: justify; line-height: 8.3pt; margin-left: 2600" xmlns="http://www.tei-c.org/ns/1.0">1) Gebruik is gemaakt van de beter leesbare copie.<lb/></note><note xml:id="INT_1258c1a4-62a7-390e-9f78-3244f0b005ec.TEI.1.text.1.body.1.div.1.note.4" xml:lang="nl" rend="font-size: 7.5; line-height: 9.9pt; text-indent: 26.0pt" xmlns="http://www.tei-c.org/ns/1.0">2) Fukiën, Chinese provincie, aan zee grenzend en naar het westen tot ongeveer 116°<lb/> O.L., naar het noorden tot 28£° en naar het zuiden tot 23£° N.B. lopend.<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

@@ -1,0 +1,50 @@
+<TEI xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Maetsuyker, Verburch, Pit, Overtwater, Speelman en Van Hoorn, 22 sept. 1672</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>22 sept. 1672</date>
+            <idno type="sourceID">missiven:vol3</idno>
+            <idno type="pid">INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>822</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Maetsuyker, Verburch, Pit, Overtwater, Speelman en Van Hoorn, 22 sept. 1672</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>22 sept. 1672</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>3</interp></interpGrp>
+        <interpGrp type="n"><interp>LXII</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1672</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1672</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>9</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>9</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>22</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>22</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Maetsuyker</interp><interp>Verburch</interp><interp>Pit</interp><interp>Overtwater</interp><interp>Speelman</interp><interp>Van Hoorn</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1">
+                  <body xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1.body.1">
+                    <div xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1.body.1.div.1.pb.1" n="822" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_03/images/gm_3_125_0822.tif"/><fw xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="page-number" facs="#zone.6188222" xmlns="http://www.tei-c.org/ns/1.0">822</fw><fw xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="head" facs="#zone.6188239" xmlns="http://www.tei-c.org/ns/1.0">Maetsuyker, Verburch, Pit, Overtwater, Speelman, enz. LXII, 22 september 1672</fw><head xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">LXII. JOAN MAETSUYKER, NICOLAES VERBURCH, LAURENS PIT,<lb/> PIETER OVERTWATER, CORNELIS SPEELMAN EN PIETER VAN<lb/> HOORN, BATAVIA 22 sept. 1672.<lb/></head><p xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">1175, fol. 88-89. (Copie, ondertekend door Jan van Riebeeck).<lb/></p><note xml:id="INT_6987a2c8-5fdd-38eb-a7d3-7330e1f7a959.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 12.0pt; text-indent: 22.0pt; text-align: justify; font-size: 9.5" xmlns="http://www.tei-c.org/ns/1.0">(Het origineel is verzonden met de Engelse Suratte, vgl. <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">Daghregister</hi> 1672, p.<lb/> 227-250 ; het f luitje Waterhoen strandde door <hi rend="font-size:10; font-family:Liberation Serif" xml:lang="nl">„&lt;</hi> ongemaniertheyt' * op Manipa).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

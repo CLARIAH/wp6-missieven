@@ -1311,7 +1311,7 @@ niet hoger in te koopen en in rekening te brengen, dan tegens 11<q><num>1</num>/
 goud alsdan 21 caraat komt te essayeren wanneer het marcq fijn nog geen ƒ 390,- kost.<lb/>
 </para>
 <para>Onder het voormelde goud mede geweest zijnde 48 realen, soo genaamt doussons <lb/>
-goud<note mark="4">Dousson zou dusun, dorp, platteland kunnen betekenen; wellicht is bedoeld goud uit een dorp, dus geproduceerd door de bevolking, of bevolkingsgoud.</note>, de reaal tegen 10 Spaans aangerekent en met 21/2 percento provisie beswaard, is <lb/>
+goud<note mark="4">Dousson zou dusun, dorp, platteland kunnen betekenen; wellicht is bedoeld goud uit een dorp, dus geproduceerd door de bevolking, of bevolkingsgoud.</note>, de reaal tegen 10 Spaans aangerekent en met 2<q><num>1</num>/<den>2</den></q> percento provisie beswaard, is <lb/>
 hetzelve alhier bevonden maar te essayeeren 13 caraat en 7 greyn, waardoor het marcq <lb/>
 fijn wel op ƒ 535,8,8 te staan komt. 'Twelk wij voor dese keer voor de Compagnie tegen <lb/>
 de aangerekende prijs hebben geaccepteerd, omdat hetzelve ter preuve door den resident <lb/>
@@ -4684,10 +4684,11 @@ goederen aan)<lb/>
 </row>
 <row n="261" row="60">
 <cell n="261" row="60" col="1" x="0">1516 </cell>
-<cell n="261" row="60" col="2" x="30">pees arduine neuten<note mark="12">Arduine neuten, blokken van arduinsteen.</note>ƒ 2.257, 17, 8</cell>
+<cell n="261" row="60" col="2" x="30">pees arduine neuten<note mark="12">Arduine neuten, blokken van arduinsteen.</note>ƒ </cell>
+<cell n="261" row="60" col="14" x="292">2.257, 17, 8</cell>
 </row>
 <row n="261" row="61">
-<cell n="261" row="61" col="1" x="0">wapengoederen </cell>
+<cell n="261" row="61" col="3" x="51">wapengoederen </cell>
 <cell n="261" row="61" col="9" x="272">ƒ </cell>
 <cell n="261" row="61" col="20" x="302">65, 16, 8</cell>
 </row>

@@ -15,9 +15,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:04Z
+@dateWritten=2022-05-06T12:51:54Z
 
-6018166	Both
+6018176	Both
 Both
 Both
 Both
@@ -605,7 +605,7 @@ Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hoorema
 Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk, Van Mijlendonk
 Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hooreman, Van Riemsdijk, De Klerk, Van Mijlendonk
 Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hooreman, Van Riemsdijk, De Klerk, Van Mijlendonk
-6018755	Van der Parra, Van der Spar, Van Bazel, Hooreman, Van Riemsdijk, De Klerk, Van Mijlendonk, Romp
+6018765	Van der Parra, Van der Spar, Van Bazel, Hooreman, Van Riemsdijk, De Klerk, Van Mijlendonk, Romp
 Van der Parra, Hooreman, Van der Spar, Van Riemsdijk, Van Bazel, De Klerk, Van Ossenberg, Van Mijlendonk, Romp
 Van der Parra, Hooreman, Van Riemsdijk, Van Bazel, Schreuder, De Klerk, Van Ossenberg, Romp
 Van der Parra, Hooreman, Van der Spar, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Romp, Hilgers

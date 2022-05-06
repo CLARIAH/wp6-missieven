@@ -1,0 +1,50 @@
+<TEI xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416" xmlns="http://www.tei-c.org/ns/1.0">
+                <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Comans, Phoonsen, Zwaardecroon, Chastelein en De Haan, 16 mei 1706</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>
+            <date>16 mei 1706</date>
+            <idno type="sourceID">missiven:vol6</idno>
+            <idno type="pid">INT_d62e680b-0979-365d-b59c-ddbaaa31d416</idno>
+          </p>
+        </publicationStmt>
+        <notesStmt>
+          <note/>
+        </notesStmt>
+        <sourceDesc>
+          <listBibl xml:id="inlMetadata">
+            <bibl type="missive">
+        <interpGrp type="page"><interp>413</interp></interpGrp>
+        
+      <interpGrp type="titleLevel1"><interp>Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Comans, Phoonsen, Zwaardecroon, Chastelein en De Haan, 16 mei 1706</interp></interpGrp>
+      <interpGrp type="dateLevel1"><interp>16 mei 1706</interp></interpGrp>
+        <interpGrp type="tocLevel"><interp>1</interp></interpGrp>
+      <interpGrp type="volume"><interp>6</interp></interpGrp>
+        <interpGrp type="n"><interp>XIV</interp></interpGrp>
+      
+      <interpGrp type="witnessYearLevel1_from"><interp>1706</interp></interpGrp>
+      <interpGrp type="witnessYearLevel1_to"><interp>1706</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_to"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessMonthLevel1_from"><interp>5</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_to"><interp>16</interp></interpGrp>
+      <interpGrp type="witnessDayLevel1_from"><interp>16</interp></interpGrp>
+      <interpGrp type="authorLevel1"><interp>Van Hoorn</interp><interp>Van Riebeeck</interp><interp>Van Swoll</interp><interp>De Wilde</interp><interp>Douglas</interp><interp>De Vos</interp><interp>Comans</interp><interp>Phoonsen</interp><interp>Zwaardecroon</interp><interp>Chastelein</interp><interp>De Haan</interp></interpGrp>
+      <interpGrp type="pid"><interp>INT_d62e680b-0979-365d-b59c-ddbaaa31d416</interp></interpGrp>
+    </bibl>
+          </listBibl>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+                <text xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1">
+                  <body xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1.body.1">
+                    <div xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1.body.1.div.1">
+        
+              <pb xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1.body.1.div.1.pb.1" n="413" facs="http://resources.huygens.knaw.nl/retroapp/service_generalemissiven/gm_06/images/gm_6_159_0413.tif"/><fw xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1.body.1.div.1.fw.1" place="top" type="head" facs="#zone.5316833" xmlns="http://www.tei-c.org/ns/1.0">Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, enz. XIV, 16 mei 1706</fw><fw xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1.body.1.div.1.fw.2" place="top" type="page-number" facs="#zone.5316857" xmlns="http://www.tei-c.org/ns/1.0">413</fw><head xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1.body.1.div.1.head.1" xml:lang="nl" rend="font-size: 10; text-align: justify; line-height: 11.7pt" xmlns="http://www.tei-c.org/ns/1.0">XIV. JOAN VAN HOORN, ABRAHAM VAN RIEBEECK, CHRISTOFFEL<lb/> VAN SWOLL, HERMAN DE WILDE, ABRAHAM DOUGLAS, PIETER DE<lb/> VOS, DIRK COMANS, BERNARD PHOONSEN, HENDRIK ZWAARDECROON,<lb/> CORNELIS CHASTELEIN EN MATTHEUS DE HAAN, BATAVIA<lb/><hi rend="font-size:9.5; font-family:Liberation Serif" xml:lang="nl">16 mei 1706.</hi><lb/></head><p xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1.body.1.div.1.p.1" xml:lang="nl" rend="font-size: 8; text-align: justify; line-height: 8.9pt" xmlns="http://www.tei-c.org/ns/1.0">Kol. Arch. 1608, fol. 1-3.<lb/></p><note xml:id="INT_d62e680b-0979-365d-b59c-ddbaaa31d416.TEI.1.text.1.body.1.div.1.note.1" xml:lang="nl" place="inline" type="editorial-summary" resp="editor" rend="font-style: italic; line-height: 11.7pt; text-indent: 22.0pt; text-align: justify; font-size: 9" xmlns="http://www.tei-c.org/ns/1.0">(Verzonden met het Engelse schip Cesar en volgens aantekening in de marge<lb/> 23 jan. 1707 ontvangen; er kwamen geen schepen uit patria met o.a. het voor de<lb/> handel met Japan en de Chinezen gewenste textiel; alleen kwamen 22 en 29 april de<lb/> Waerde, de Brandenburg <hi rend="font-size:5.5; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> en de Zeehaen uit Ceylon, die alle drie op Onrust worden<lb/> vertimmerd <hi rend="font-size:5.5; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi> ook uit het oosten werd niets vernomen; hoop in dit jaar het rijk van den<lb/> Susuhunan tot rust te brengen; er komsn geregeld Engelse schepen uit Bengkulen <hi rend="font-size:5.5; font-family:Liberation Serif; font-weight:bold" xml:lang="nl">,</hi><lb/>Coromandel, Bandjarmasin en China te Batavia).<lb/></note>
+            
+      </div>
+                  </body>
+                </text>
+              </TEI>

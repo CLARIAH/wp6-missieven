@@ -15,9 +15,9 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T12:42:04Z
+@dateWritten=2022-05-06T12:51:54Z
 
-6018166	Pieter Both
+6018176	Pieter Both
 Pieter Both
 Pieter Both
 Pieter Both
@@ -605,7 +605,7 @@ Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van de
 Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Joan Andreas van Hohendorf, Jeremias van Riemsdijk, Reynier de Klerk, Jan Elias van Mijlendonk
 Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Jeremias van Riemsdijk, Reynier de Klerk, Jan Elias van Mijlendonk
 Jacob Mossel, Jacob van der Waeyen, Petrus Albertus van der Parra, Jurgen van der Spar, Adriaan de Nijs, Huijbert Willem van Bazel, Librecht Hooreman, Jeremias van Riemsdijk, Reynier de Klerk, Jan Elias van Mijlendonk
-6018755	Petrus Albertus van der Parra, Jurgen van der Spar, Huijbert Willem van Bazel, Librecht Hooreman, Jeremias van Riemsdijk, Reynier de Klerk, Jan Elias van Mijlendonk, Michiel Romp
+6018765	Petrus Albertus van der Parra, Jurgen van der Spar, Huijbert Willem van Bazel, Librecht Hooreman, Jeremias van Riemsdijk, Reynier de Klerk, Jan Elias van Mijlendonk, Michiel Romp
 Petrus Albertus van der Parra, Librecht Hooreman, Jurgen van der Spar, Jeremias van Riemsdijk, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Jan Elias van Mijlendonk, Michiel Romp
 Petrus Albertus van der Parra, Librecht Hooreman, Jeremias van Riemsdijk, Huijbert Willem van Bazel, Jan Schreuder, Reynier de Klerk, Willem Hendrik van Ossenberg, Michiel Romp
 Petrus Albertus van der Parra, Librecht Hooreman, Jurgen van der Spar, Jeremias van Riemsdijk, Jan Schreuder, Huijbert Willem van Bazel, Reynier de Klerk, Willem Hendrik van Ossenberg, Michiel Romp, Maurits Theodorus Hilgers
