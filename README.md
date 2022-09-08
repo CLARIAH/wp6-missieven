@@ -125,7 +125,8 @@ This repo is by
 
 * Jesse de Does provided TEI-XML files for volumes 1-13.
 * Lodewijk Petram provided textual PDFs for volume 14, bands (i) and (ii).
-* Sophie Arnoult used the Text-Fabric data to perform Named Entity Recognition.
+* Sophie Arnoult used the Text-Fabric data to perform Named Entity Recognition
+  and delivered the results back.
 
 # Long term preservation and reproducibility
 
@@ -145,6 +146,8 @@ guide.
 
 # Status
 
+*   2022-09-08 a tutorial notebook is added to show how to use the named entities
+    detected by the algorithm of Sophie.
 *   2022-05-04 version 1.0: Additional volumes: Volume 14, bands (i) and (ii) have been added.
     The earlier corrections by Sophie have not been re-applied, but the conversion has been improved 
     so that they are not needed anymore.
