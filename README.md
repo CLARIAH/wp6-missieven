@@ -89,7 +89,7 @@ There is a
 Python, JupyterLab in one go and Text-Fabric from there.
 
 The next step is to consult the 
-[tutorial](https://nbviewer.jupyter.org/github/CLARIAH/wp6-missiven/blob/master/tutorial/start.ipynb).
+[tutorial](https://nbviewer.jupyter.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb).
 This is a series of notebooks that guides you to the computing facilities of Text-Fabric.
 Text-Fabric is just a library that you import in your own Python programs,
 which means that you can invoke the whole of Python and its libraries to do your job.
