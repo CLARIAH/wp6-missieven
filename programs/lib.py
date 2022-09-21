@@ -56,6 +56,13 @@ TRIM_DIR = f"{LOCAL_DIR}/{VERSION_SRC}/trim"
 CHANGE_DIR = f"{REPO_DIR}/change"
 REPORT_DIR = f"{REPO_DIR}/trimreport"
 XML_DIR = f"{REPO_DIR}/xml"
+XMLOUT_DIR = f"{REPO_DIR}/xmlout"
+
+E_ORG = "cltl"
+E_REPO = "voc-missives"
+E_RELATIVE = "export/tf"
+ENTITY_TF = f"{BASE}/{E_ORG}/{E_REPO}/{E_RELATIVE}"
+ENTITY_MOD = f"{E_ORG}/{E_REPO}/{E_RELATIVE}"
 
 LAST_STAGE = 4
 
