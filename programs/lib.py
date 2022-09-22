@@ -60,7 +60,7 @@ XMLOUT_DIR = f"{REPO_DIR}/xmlout"
 
 E_ORG = "cltl"
 E_REPO = "voc-missives"
-E_RELATIVE = "export/tf"
+E_RELATIVE = "data/tf_export/export"
 ENTITY_TF = f"{BASE}/{E_ORG}/{E_REPO}/{E_RELATIVE}"
 ENTITY_MOD = f"{E_ORG}/{E_REPO}/{E_RELATIVE}"
 

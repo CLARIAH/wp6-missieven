@@ -48,15 +48,21 @@ HEADER_FEATURES = """
     authorFull
 """.strip().split()
 
-ATTS = dict(
+ATTS_PROTO = dict(
     page=["n"],
+    note=[("mark", "n")],
 )
+ATTS = {
+    elem: [(att, att) if type(att) is str else att for att in atts]
+    for (elem, atts) in ATTS_PROTO.items()
+}
 
 RENAME = dict(
     page="pb",
     line="lb",
     para="p",
     note="mark",
+    head="opener",
 )
 
 NO_NEWLINE_BEFORE = set(
@@ -74,6 +80,15 @@ NO_NEWLINE_AFTER = set(
 
 
 def convertLetter(A, letter):
+    """Convert individual letter to XML.
+
+    Note on entities.
+    Every word that is part of an entity will be wrapped in `<e>` elements
+    separately. This is because we cannot guarantees that entities respect
+    boundaries of other elements.
+    The `eid` attribute can be used to string entity words that belong to the
+    same entity together.
+    """
     N = A.api.N
     L = A.api.L
     F = A.api.F
@@ -81,78 +96,9 @@ def convertLetter(A, letter):
     header = []
     for feat in HEADER_FEATURES:
         value = htmlEsc(Fs(feat).v(letter))
-        header.append(f"""<meta key="{feat}" value="{value}"/>""")
+        header.append(f"""<interp type="{feat}">{value}</interp>""")
 
     header = "\n".join(header)
-
-    # walk through the nodes and insert entity start and end events
-    # to the relevant slots.
-    # in this pass, the entity nodes will not be tightly wrapped
-    # around slots, because it is only at the next slot that we know
-    # that a current entity has stopped at the previous slot.
-    # Between that previous slot and the current slot,
-    # other node events may have occurred.
-
-    curEnt = []
-    spicedNodes = []
-
-    def startEntity():
-        curSlot.extend([False, entityId, entityKind])
-        curEnt.append(curSlot, curSlot)
-
-    def getEntity():
-        thisSlot = curEnt[-1]
-
-    def continueEntity():
-        curEnt[-1] = curSlot
-
-    def endEntity():
-        lastSlot = curEnt[-1]
-        lastSlot.extend([True])
-        curEnt.clear()
-
-    for (node, boundary) in N.walk(nodes=L.d(letter), events=True):
-        if boundary is None:
-            # dealing with slots
-            curSlot = [node, boundary]
-            entityId = F.entityId.v(node)
-            entityKind = F.entityKind.v(node)
-
-            if curEnt:
-                if entityId is None and entityKind is None:
-                    endEntity()
-                else:
-                    (curEntId, curEntKind) = curEnt
-                    if entityId == curEntId and entityKind == curEntKind:
-                        pass
-                    else:
-                        endEntity()
-                        startEntity(entityId, entityKind)
-            else:
-                if entityId is None and entityKind is None:
-                    pass
-                else:
-                    startEntity(entityId, entityKind)
-
-            spicedNodes.append([node, boundary, trans, punc])
-
-        else:
-            # dealing with non-slot nodes
-            elem = F.otype.v(node)
-            elemRep = RENAME.get(elem, elem)
-            attStr = ""
-            for attName in ATTS.get(elem, []):
-                attValue = Fs(attName).v(node)
-                attStr += f''' {attName}="{attValue}"'''
-            if boundary:
-                newLine = "" if elem in NO_NEWLINE_AFTER else "\n"
-                body.append(f"</{elemRep}>{newLine}")
-            else:
-                newLine = "" if elem in NO_NEWLINE_BEFORE else "\n"
-                body.append(f"{newLine}<{elemRep}{attStr}>")
-
-        if curEnt:
-            endEntity()
 
     body = []
 
@@ -161,48 +107,38 @@ def convertLetter(A, letter):
         punc = F.punc.v(node) or ""
 
         if boundary is None:
-            entityId = F.entityId.v(node)
-            entityKind = F.entityKind.v(node)
-            if curEnt:
-                if entityId is None and entityKind is None:
-                    addEntity()
-                else:
-                    (curEntId, curEntKind, curEntMaterial) = curEnt
-                    if entityId == curEntId and entityKind == curEntKind:
-                        curEntMaterial.append((trans, punc))
-                    else:
-                        addEntity()
-                        curEnt.extend([entityId, entityKind, [trans, punc]])
+            entityId = F.entityId.v(node) or ""
+            entityKind = F.entityKind.v(node) or ""
+            if entityId or entityKind:
+                eBefore = f"""<name key="{entityId}" type="{entityKind}">"""
+                eAfter = """</name>"""
             else:
-                if entityId is None and entityKind is None:
-                    body.append(f"{trans}{punc}")
-                else:
-                    curEnt.extend([entityId, entityKind, [trans, punc]])
+                eBefore = ""
+                eAfter = ""
+            body.append(f"{eBefore}{trans}{eAfter}{punc}")
         else:
             elem = F.otype.v(node)
-            elemRep = RENAME.get(elem, elem)
+            elemOut = RENAME.get(elem, elem)
             attStr = ""
-            for attName in ATTS.get(elem, []):
+            for (attName, attNameOut) in ATTS.get(elem, []):
                 attValue = Fs(attName).v(node)
-                attStr += f''' {attName}="{attValue}"'''
+                attStr += f''' {attNameOut}="{attValue}"'''
             if boundary:
                 newLine = "" if elem in NO_NEWLINE_AFTER else "\n"
-                body.append(f"</{elemRep}>{newLine}")
+                body.append(f"</{elemOut}>{newLine}")
             else:
                 newLine = "" if elem in NO_NEWLINE_BEFORE else "\n"
-                body.append(f"{newLine}<{elemRep}{attStr}>")
+                body.append(f"{newLine}<{elemOut}{attStr}>")
     body = "".join(body)
 
     return dedent(
         """\
-    <letter>
-    <header>
+    <text>
     {}
-    </header>
     <body>
     {}
     </body>
-    </letter>
+    </text>
     """
     ).format(header, body)
 
@@ -216,11 +152,14 @@ def convertVolume(A, v, title):
     letterText = "\n\n".join(convertLetter(A, letter) for letter in letters)
     return dedent(
         """\
-    <teiTrim>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+    <fileDesc><titleStmt>Generale Missieven, volume {}</titleStmt></fileDesc>
+    </teiHeader>
     {}
-    </teiTrim>
+    </TEI>
     """
-    ).format(letterText)
+    ).format(title, letterText)
 
 
 def convertWork(A):
