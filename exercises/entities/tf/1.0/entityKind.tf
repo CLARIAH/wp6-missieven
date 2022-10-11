@@ -1,12 +1,12 @@
 @node
 @creator=Dirk Roorda
-@dateWritten=2022-05-04T14:52:04Z
+@dateWritten=2022-10-11T14:53:22Z
 @description=kind of a named entity
 @upgraded=‼️ from version 0.4 to 1.0
 @valueType=str
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T14:52:35Z
+@dateWritten=2022-10-11T14:53:37Z
 
 1242	Person
 1252	Person
@@ -31,18 +31,18 @@ GPE
 Organization
 1653	GPE
 1669	GPE
-6018894	Person
-Person
 6018904	Person
-6018906	Person
 Person
-6018909	GPE
+6018914	Person
+6018916	Person
 Person
-6018915	Person
-6018921	GPE
+6018919	GPE
+Person
+6018925	Person
+6018931	GPE
 GPE
 GPE
 Organization
-6018928	GPE
+6018938	GPE
 GPE
 GPE

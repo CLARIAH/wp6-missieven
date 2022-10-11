@@ -3,7 +3,7 @@
 @description=kind of a named entity
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2022-05-04T14:52:04Z
+@dateWritten=2022-10-11T14:53:22Z
 
 1048	Person
 Person

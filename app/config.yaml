@@ -23,7 +23,7 @@ interfaceDefaults: {}
 provenanceSpec:
   corpus: 'General Missives Dutch East India Company 1600-1800'
   doi: 10.5281/zenodo.4011801
-  version: 1.0
+  version: "1.0"
   webBase: http://resources.huygens.knaw.nl/retroboeken/generalemissiven
   webHint: Show this document on Huygens
   webFeature: weblink
