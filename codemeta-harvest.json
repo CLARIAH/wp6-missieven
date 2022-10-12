@@ -1,0 +1,75 @@
+{
+    "softwareHelp": [
+            {
+                "@id": "https://github.com/CLARIAH/wp6-missieven/blob/master/docs/about.md",
+                "@type": "WebSite",
+                "name": "About the Generale Missieven Corpus",
+                "url": "https://github.com/CLARIAH/wp6-missieven/blob/master/docs/about.md"
+            },
+            {
+                "@id": "https://nbviewer.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb",
+                "@type": "WebSite",
+                "name": "Jupyter Notebook: how to work with the Generale Missieven Corpus",
+                "url": "https://nbviewer.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb"
+            }
+    ],
+    "@type": "SoftwareSourceCode",
+    "name": "Generale Missieven in Text-Fabric",
+    "description": "Conversion of Generale Missieven to Text-Fabric and tutorial how to work with the result",
+    "producer": {
+        "@type": "Organization",
+        "name": "KNAW/Humanities Cluster",
+        "url": "https://huc.knaw.nl"
+    },
+    "operatingSystem": [ "Linux", "Windows", "macOS" ],
+    "runtimePlatform": "Python >= 3.9",
+    "softwareRequirements": [
+        { 
+            "@type": "SoftwareLibrary",
+            "name": "Text-Fabric",
+            "producer": {
+                "@type": "Organization",
+                "name": "KNAW/Humanities Cluster"
+            },
+            "version": ">= 10.2.7"
+        },
+        { 
+            "@type": "SoftwareLibrary",
+            "name": "Jupyter",
+            "version": ">= 3.0"
+        }
+    ],
+    "targetProduct": [
+        {
+            "@type": "CommandLineApplication",
+            "name": "converter and tutorial notebooks",
+            "executableName": "various scripts in programs subdirectory"
+        }
+    ],
+    "referencePublication": [
+        {
+            "@type": "Dataset",
+            "name": "Missieven",
+            "text": "Collection of letters from governors of the VOC (Dutch East Indian Company) to the Heren 17, the council of the governors of the 17 provinces of the Netherland",
+            "temporal": "1600-1800",
+            "spatial": "Indonesia",
+            "encodingFormat": "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/",
+            "author": ["Jesse de Does", "Sophie Arnoult", "Lodewijk Petram", "Dirk Roorda"],
+            "datePublished": "2020-12-07",
+            "@id": "https://doi.org/10.5281/zenodo.4011801",
+            "url": "https://github.com/CLARIAH/wp6-missieven"
+        }
+    ],
+    "funding": [
+        {
+            "@type": "Grant",
+            "name": "CLARIAH-PLUS (NWO grant 184.034.023), WP6",
+            "funder": {
+                "@type": "Organization",
+                "name": "NWO", 
+                "url": "https://www.nwo.nl"
+            }
+        }
+    ]
+}
+
