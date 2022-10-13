@@ -366,7 +366,7 @@ def main():
         return True
 
     CV = Convert(version)
-    CV.work()
+    CV.doWork()
 
 
 if __name__ == "__main__":

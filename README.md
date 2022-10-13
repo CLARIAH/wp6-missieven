@@ -128,6 +128,21 @@ This repo is by
 * Sophie Arnoult used the Text-Fabric data to perform Named Entity Recognition
   and delivered the results back.
 
+# Status
+
+*   2022-10-13 updates in Sophie's named entities, improved tutorials, source texts plus entities
+    delivered as valid TEI-XML (see the [convert](https://nbviewer.org/github/CLARIAH/wp6-missieven/blob/master/programs/convert.ipynb) notebook)
+*   2022-09-08 a tutorial notebook is added to show how to use the named entities
+    detected by the algorithm of Sophie.
+*   2022-05-04 version 1.0: Additional volumes: Volume 14, bands (i) and (ii) have been added.
+    The earlier corrections by Sophie have not been re-applied, but the conversion has been improved 
+    so that they are not needed anymore.
+*   2022-04-11 Additional volumes: Volume 14, bands (i) and (ii) are in the process of being converted from
+    textual pdf to Text-Fabric. Most structure has been recognized, but no TF has been generated yet.
+
+[older ...](docs/history.md)
+
+
 # Long term preservation and reproducibility
 
 This repo has been archived in two independent places:
@@ -143,19 +158,6 @@ regenerate the simple XML and Text-Fabric versions of the data.
 See the
 [reproduce](https://github.com/CLARIAH/wp6-missieven/blob/master/docs/reproduce.md).
 guide.
-
-# Status
-
-*   2022-09-08 a tutorial notebook is added to show how to use the named entities
-    detected by the algorithm of Sophie.
-*   2022-05-04 version 1.0: Additional volumes: Volume 14, bands (i) and (ii) have been added.
-    The earlier corrections by Sophie have not been re-applied, but the conversion has been improved 
-    so that they are not needed anymore.
-*   2022-04-11 Additional volumes: Volume 14, bands (i) and (ii) are in the process of being converted from
-    textual pdf to Text-Fabric. Most structure has been recognized, but no TF has been generated yet.
-
-[older ...](docs/history.md)
-
 
 # More interfaces
 Another version of the data (less cleaned) is visible online in a
