@@ -10,10 +10,10 @@
     up in the values of a feature, now footnotes are treated like text material.
     That means: the words in footnotes occupy slots, the footnotes themselves are nodes.
     As a consequence, footnotes and the words in it can be annotated, e.g. with named entities.
-    This is a reuqirement for the kind of processing that Sophie Arnoult is currently devising.
+    This is a requirement for the kind of processing that Sophie Arnoult is currently devising.
 *   2020-12-07 A new TF version (0.6) has been delivered.
     Fixed some folio references.
-    Also: a simple data export has been made: a csv file with all the words, and for each
+    Also: a simple data export has been made: a CSV file with all the words, and for each
     word whether it is editorial or original, and if a word has a footnote, the footnote is
     also given. See the
     [export notebook](https://nbviewer.jupyter.org/github/Dans-labs/clariah-gm/tree/master/usage/SimpleData.ipynb).
@@ -40,7 +40,7 @@
     There is still cleaning work to do, especially in linking the footnotes to the proper
     footnote references.
     There are also a few mis-encoded tables (from landscape format), that need manual adjustment,
-    and some pages that are altoghether missing.
+    and some pages that are altogether missing.
     See [trimTei0.py](https://github.com/Dans-labs/clariah-gm/blob/master/programs/trimTei0.py) where some of those
     pages have already been added.
 *   2020-10-07 Many checks have been performed, many structural corrections
@@ -50,9 +50,9 @@
     [trimreport2](trimreport2).
 *   2020-09-16 First TF dataset created, but incomplete (notes are left out, checks needed)
     See 
-    [last trimTei run](log-trimTei.txt)
+    [last `trimTei` run](log-trimTei.txt)
     and
-    [last tfFromTrim run](log-tfFromTrim.txt)
+    [last `tfFromTrim` run](log-tfFromTrim.txt)
 *   2020-09-02 Repository created, no content yet, start of conversion coding.
 
 

@@ -1,4 +1,4 @@
-# Generale Missiven Corpus
+# Generale Missives Corpus
 
 This repo contains a structurally clean version of the data of the *General Missives*, volumes 1-14.
 
@@ -81,14 +81,14 @@ encoding of the material, with all non-essential parts stripped, such as page he
 title pages, etc.
 There is also an exact correspondence between files and letters.
 
-Concerning volume 14: the pdf is the result of a much better OCR process.
-We have used all typographical clues given in the pdf to infer structure.
+Concerning volume 14: the PDF is the result of a much better OCR process.
+We have used all typographical clues given in the PDF to infer structure.
 There was quite a bit of nitty-gritty involved in this, especially for detecting table layout.
 I do not claim that all table structure has been perfectly detected.
 Another issue was to detect numbers and fractions properly.
 Eventually, the script
 [trimPdf.py](https://github.com/CLARIAH/wp6-missieven/blob/master/programs/trimPdf.py)
-transforms the pdf in a sequence of stages to the same kind of XML as the trimTei.py script produced
+transforms the PDF in a sequence of stages to the same kind of XML as the trimTei.py script produced
 for the volumes 1-13.
 
 Then I used the

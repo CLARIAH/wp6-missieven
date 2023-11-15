@@ -1,6 +1,6 @@
 # About
 
-This document describes how to install a working Blacklab server and client
+This document describes how to install a working BlackLab server and client
 on a standalone machine running
 macos.
 
@@ -13,7 +13,7 @@ macos.
     * Run Tomcat
     * Manage TomCat
       * Set up managers
-* Blacklab
+* BlackLab
   * File organization
     * Explanation
   * Server
@@ -28,7 +28,7 @@ macos.
 ## Requirements:
 
 * macos 10.15.7 or higher (Catalina), earlier probably works as good
-* Commandline tools installed (part of XCode)
+* Command line tools installed (part of XCode)
   `xcode-select --install`
 * [HomeBrew](https://brew.sh) (a macos package manager) 
 
@@ -80,8 +80,8 @@ macos version 10.15, also named `Catalina`.
 OK, it appears that
 
 `CATALINA_HOME` is `/usr/local/Cellar/tomcat/9.0.40/libexec`
-although there is no CATALINA_HOME visible to the shell.
-You can either set such a variable and use it in the ocmmands below, or spell
+although there is no `CATALINA_HOME` visible to the shell.
+You can either set such a variable and use it in the commands below, or spell
 the value out.
 
 It seems that it is not needed to set this variable for TomCat to work.
@@ -180,12 +180,12 @@ and add the lines
 
 where you can replace `dirk` and `dirk` by whatever you like.
 
-# Blacklab
+# BlackLab
 
-To see what Blacklab is, see
-[blacklab intro](http://inl.github.io/BlackLab/index.html).
+To see what BlackLab is, see
+[BlackLab intro](http://inl.github.io/BlackLab/index.html).
 
-A working blacklab installation consists of a server, a client, and corpus data.
+A working BlackLab installation consists of a server, a client, and corpus data.
 
 ## File organization
 
@@ -211,28 +211,30 @@ a subdirectory `blacklab`.
 
 The `data` directory will receive corpus data.
 
-The `incoming` subdir receives downloaded data, the `indexes` subdir is the destination
-of the blacklab indexer.
+The `incoming` subdirectory receives downloaded data, the `indexes`
+subdirectory is the destination of the BlackLab indexer.
 
 The `installation` directory receives the downloaded `blacklab-server-2.1.0` war file.
 
-This file is attached to a release of the Blacklab repo.
+This file is attached to a release of the BlackLab repo.
 The releases are listed
 [here](https://github.com/INL/BlackLab/releases/)
 and we pick release 2.1.0. 
 You see a file
-[blacklab-server-2.1.0.war](https://github.com/INL/BlackLab/releases/download/v2.1.0/blacklab-server-2.1.0.war)
+[`blacklab-server-2.1.0.war`](https://github.com/INL/BlackLab/releases/download/v2.1.0/blacklab-server-2.1.0.war)
 there, download it and place it in the `installation` directory.
 
-We will unzip it in place, and copy its `WEB-INF/lib` directory to the `program` directory.
+We will unzip it in place, and copy its `WEB-INF/lib` directory to the
+`program` directory.
 
-Over there, we move the `blacklab-2.1.0.jar` file one level up, so that it is directly beneath
-the `program` dir.
+Over there, we move the `blacklab-2.1.0.jar` file one level up, so that it is
+directly beneath the `program` dir.
 
-When we `cd` to the program dir, we can easily run the java program in the blacklab jar file,
-supported by the libraries in the jar files under the `lib` subdirectory.
+When we `cd` to the program dir, we can easily run the java program in the
+BlackLab jar file, supported by the libraries in the jar files under the `lib`
+subdirectory.
 
-We'll need the blacklab program soon: for indexing the first corpus.
+We'll need the BlackLab program soon: for indexing the first corpus.
 
 We also need to download a front-end, a.k.a. client.
 This is in the 
@@ -246,15 +248,15 @@ there, download it and place it in the `installation` directory.
 
 ## Server
 See 
-[blacklab-server overview](http://inl.github.io/BlackLab/blacklab-server-overview.html)
+[BlackLab server overview](http://inl.github.io/BlackLab/blacklab-server-overview.html)
 
 ### Configure
 
-Set an environment variable to point to the blacklab server config, do
+Set an environment variable to point to the BlackLab server config, do
 this in your `.zshrc` file.
 
 Note that `~` will not work properly, so spell out the complete path
-from the root of your system to the directory where your blacklab config dir is:
+from the root of your system to the directory where your BlackLab config dir is:
 
 ```
 BLACKLAB_CONFIG_DIR="/Users/dirk/local/blacklab"
@@ -283,7 +285,8 @@ indexLocations:
 **N.B.** 
 Note that in this config file you can not use the `~` abbreviation.
 
-Deploying the blacklab war now leads to a friendly message from blacklab that there are no indexes.
+Deploying the BlackLab war now leads to a friendly message from BlackLab that
+there are no indexes.
 So, before we deploy, we create the indexes for an example corpus and put it in place.
 
 ### Example data
@@ -292,7 +295,7 @@ We download the
 [Brown corpus](https://github.com/INL/BlackLab/wiki/brownCorpus.lemmatized.xml.zip),
 a single XML file of 66 MB when unzipped, to be put in `data/incoming`.
 
-Run the blacklab index tool by running the blacklab jar:
+Run the BlackLab index tool by running the BlackLab jar:
 
 ```
 cd ~/local/blacklab/program/
@@ -319,7 +322,7 @@ http://localhost:8080
 Click the manage app and login with `dirk`, `dirk` (which is what have have put in the
 TomCat config file for users, above).
 
-In the list of applications, click the blacklab-server-2.1.0 entry.
+In the list of applications, click the `blacklab-server-2.1.0 entry`.
 
 You should see something like:
 
@@ -383,5 +386,5 @@ dirk:~/local/blacklab/program >
 
 ## Client
 
-The main front-end for Blacklab is in a separate
+The main front-end for BlackLab is in a separate
 [GitHub repo](https://github.com/INL/corpus-frontend/)

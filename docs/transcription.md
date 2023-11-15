@@ -18,34 +18,34 @@ Here is a short explanation
 
 element | description
 --- | ---
-teiTrim | top-level element
-header | container of meta elements and meta elements only
-meta | a key-value pair of meta data (empty, attribute key names the key, value in attribute value)
-head | the heading of a letter, 1 heading per letter
-subhead | headings within a letter
-remark | container of editorial content (the italic bits between brackets)
-lb | line break element (empty, no attributes)
-pb | page break element (empty, with attributes for volume number, page number, facsimile references)
-para | paragraph
-table, row, cell | tabular structure of text
-ref | something that looks like a reference to other literature
-emph | italic text
-und | underlined text
-sub | subscript text
-super | superscript text
-q | fractional number with numerator and denominator
-num | numerator in a fraction (see q-element)
-den | denominator in a fraction (see q-element)
-special | text with special typography for whatever reason
-note | footnote bodies, moved into the main text, with `mark` attribute containing the footnote number
-folio | reference to original folio
+`teiTrim` | top-level element
+`header` | container of meta elements and meta elements only
+`meta` | a key-value pair of meta data (empty, attribute key names the key, value in attribute value)
+`head` | the heading of a letter, 1 heading per letter
+`subhead` | headings within a letter
+`remark` | container of editorial content (the italic bits between brackets)
+`lb` | line break element (empty, no attributes)
+`pb` | page break element (empty, with attributes for volume number, page number, facsimile references)
+`para` | paragraph
+`table`, `row`, `cell` | tabular structure of text
+`ref` | something that looks like a reference to other literature
+`emph` | italic text
+`und` | underlined text
+`sub` | subscript text
+`super` | superscript text
+`q` | fractional number with numerator and denominator
+`num` | numerator in a fraction (see `q`-element)
+`den` | denominator in a fraction (see `q`-element)
+`special` | text with special typography for whatever reason
+`note` | footnote bodies, moved into the main text, with `mark` attribute containing the footnote number
+`folio` | reference to original folio
 
 This XML has been converted rather straightforwardly into Text-Fabric,
 which is a graph of annotated nodes.
 
 ## Metadata
 
-We have compared the given metadata with metadata we distill from
+We have compared the given metadata with metadata we distil from
 the letter heads and resolved all disagreements.
 
 A complete account is in 
@@ -71,7 +71,7 @@ There are two kind of footnotes:
 1. original footnotes, marked by `a`, `b`. 
 2. editorial footnotes, marked by `1`, `2`, ...
 
-There are very few original footnotes, less than a hand ful.
+There are very few original footnotes, less than a handful.
 There are over 12,000 editorial footnotes.
 
 This dataset does not make the distinction between original footnotes and editorial footnotes.
@@ -101,10 +101,10 @@ However, this does not occur in this corpus.
 The basic node type (*slot* type) is the word.
 
 There are also node types for other entities, such as volume, letter, page, line,
-as listed in the *otype* feature and documented below.
+as listed in the `otype` feature and documented below.
 
 All non-slot nodes have a type and are linked to a subset of slots.
-The linkage is stored in the *oslots* feature, which is an edge feature: it specifies an edge between
+The linkage is stored in the `oslots` feature, which is an edge feature: it specifies an edge between
 each non-slot nodes and the slots that belong to them.
 This feature is hardly ever used directly, because the Text-Fabric API has functions to
 move from containers to containees, the so-called
@@ -137,7 +137,7 @@ The text, without punctuation is stored word by word on slots, in the feature `t
 All punctuation, including spaces, is stored on the slot of the preceding word,
 in the feature `punc`.
 
-Whitespace will be normalized to single spaces or newlines.
+White-space will be normalized to single spaces or newlines.
 The original letter contents and the editorial remarks and the footnotes are stored word by word.
 
 Next to the `trans` and `punc` features, there are the `transo`, `punco` and `transr`, `puncr` 
@@ -146,7 +146,7 @@ They contain the same information as `trans` and `punc`, but only for those word
 that are original text resp. editorial text, resp. footnote text,
 and they are empty outside their textual scope.
 
-The dataset defines text formats (in the *otext* feature) that make use of these features:
+The dataset defines text formats (in the `otext` feature) that make use of these features:
 
 ```
 @fmt:text-orig-full={trans}{punc}
@@ -175,27 +175,27 @@ All **word** features:
 
 feature | type | description
 --- | --- | ---
-isden | 1 or absent | whether the word is in the denominator of a fraction
-isemph | 1 or absent | whether the word is set in emphatic typography
-isfolio | 1 or absent | whether the word is part of a folio reference
-isnote | 1 or absent | whether the word is part of a footnote
-isnum | 1 or absent | whether the word is in the numerator of a fraction
-isorig | 1 or absent | whether the word is part of a the original text of the letters
-isref | 1 or absent | whether the word belongs to a reference
-isremark | 1 or absent | whether the word belongs to editorial content
-isq | 1 or absent | whether the word is in a fraction, either as numerator or as denominator
-issub | 1 or absent | whether the word is in subscript
-issuper | 1 or absent | whether the word is in superscript
-isspecial | 1 or absent | whether the word has special typography or a strange value (possibly OCR effects)
-isund | 1 or absent | whether the word is underlined, possibly the total amount in a calculation
-punc | string | punctuation and or white space after the word
-punco | string | as `punc`, but only for original letter content
-puncr | string | as `punc`, but only for editorial content
-puncn | string | as `punc`, but only for footnote content
-trans | string | the value of the word
-transo | string | as `trans`, but only for original letter content
-transr | string | as `trans`, but only for editorial content
-transn | string | as `trans`, but only for footnote content
+`isden` | 1 or absent | whether the word is in the denominator of a fraction
+`isemph` | 1 or absent | whether the word is set in emphatic typography
+`isfolio` | 1 or absent | whether the word is part of a folio reference
+`isnote` | 1 or absent | whether the word is part of a footnote
+`isnum` | 1 or absent | whether the word is in the numerator of a fraction
+`isorig` | 1 or absent | whether the word is part of a the original text of the letters
+`isref` | 1 or absent | whether the word belongs to a reference
+`isremark` | 1 or absent | whether the word belongs to editorial content
+`isq` | 1 or absent | whether the word is in a fraction, either as numerator or as denominator
+`issub` | 1 or absent | whether the word is in subscript
+`issuper` | 1 or absent | whether the word is in superscript
+`isspecial` | 1 or absent | whether the word has special typography or a strange value (possibly OCR effects)
+`isund` | 1 or absent | whether the word is underlined, possibly the total amount in a calculation
+`punc` | string | punctuation and or white space after the word
+`punco` | string | as `punc`, but only for original letter content
+`puncr` | string | as `punc`, but only for editorial content
+`puncn` | string | as `punc`, but only for footnote content
+`trans` | string | the value of the word
+`transo` | string | as `trans`, but only for original letter content
+`transr` | string | as `trans`, but only for editorial content
+`transn` | string | as `trans`, but only for footnote content
 
 ### node type `note`
 
@@ -208,8 +208,8 @@ All words in a `note` have `isnote=1`, i.e. the word feature `isfolio` has value
 
 feature | type | description
 --- | --- | ---
-mark | int | the footnote mark
-note | edge feature | from a slot node that corresponds with the position preceding a footnote mark to a footnote node
+`mark` | int | the footnote mark
+`note` | edge feature | from a slot node that corresponds with the position preceding a footnote mark to a footnote node
 
 ### node type `volume`
 
@@ -219,7 +219,7 @@ This is a *structure* of level 1 and a *section* of level 1.
 
 feature | type | description
 --- | --- | ---
-n | integer | the number of the volume
+`n` | integer | the number of the volume
 
 
 ### node type `letter`
@@ -230,16 +230,16 @@ This is a *structure* of level 2.
 
 feature | type | description | remarks
 --- | --- | --- | ---
-author | string | e.g. `De Carpentier, De Houtman, ` | comma separated list of surnames
-authorFull | string | e.g. `Pieter de Carpentier, Frederick de Houtman, ` | comma separated list of surnames
-day | integer | day part of a date, e.g. `25` |
-month | integer | month part of a date e.g. `11` |
-page | integer | e.g. `234` | page number within the volume
-place | string | e.g. `Kasteel Mauritius nabij Ngofakiaha op Makéan` |
-rawdate | string | full date with Dutch month names, e.g. `8 maart 1621` |
-title | string | e.g. `De Carpentier, Dedel, Cornelisz. Reyersz. en Van Uffelen, Kasteel Jakatra, 9 juli 1621` |
-seq | string | e.g. `XIII` | roman numeral, sequence number of letters of one set of authors in a volume
-year | integer | year part of a date, e.g. `1626` |
+`author` | string | e.g. `De Carpentier, De Houtman, ` | comma separated list of surnames
+`authorFull` | string | e.g. `Pieter de Carpentier, Frederick de Houtman, ` | comma separated list of surnames
+`day` | integer | day part of a date, e.g. `25` |
+`month` | integer | month part of a date e.g. `11` |
+`page` | integer | e.g. `234` | page number within the volume
+`place` | string | e.g. `Kasteel Mauritius nabij Ngofakiaha op Makéan` |
+`rawdate` | string | full date with Dutch month names, e.g. `8 maart 1621` |
+`title` | string | e.g. `De Carpentier, Dedel, Cornelisz. Reyersz. en Van Uffelen, Kasteel Jakatra, 9 juli 1621` |
+`seq` | string | e.g. `XIII` | roman numeral, sequence number of letters of one set of authors in a volume
+`year` | integer | year part of a date, e.g. `1626` |
 
 
 ### node type `para`
@@ -250,7 +250,7 @@ This is a *structure* of level 3.
 
 feature | type | description
 --- | --- | ---
-n | integer | the number of the paragraph within the letter
+`n` | integer | the number of the paragraph within the letter
 
 
 ### node type `page`
@@ -261,10 +261,10 @@ This is a *section* of level 2.
 
 feature | type | description
 --- | --- | ---
-facs | string | variable part of a url to the online version of the facsimile of this page
-n | integer | the number of the page within the volume
-tpl | 1 or 2 | refers to which url template must be used to get the facsimile url 
-vol | integer | the number of the volume that includes this page
+`facs` | string | variable part of a URL to the online version of the facsimile of this page
+`n` | integer | the number of the page within the volume
+`tpl` | 1 or 2 | refers to which URL template must be used to get the facsimile URL 
+`vol` | integer | the number of the volume that includes this page
 
 There are two templates:
 
@@ -280,7 +280,7 @@ This is a *section* of level 3.
 
 feature | type | description
 --- | --- | ---
-n | integer | the number of the line within the page
+`n` | integer | the number of the line within the page
 
 
 ### node type `remark`
@@ -313,7 +313,7 @@ These are pieces of text in table layout.
 
 feature | type | description
 --- | --- | ---
-n | integer | the number of the table within the whole corpus
+`n` | integer | the number of the table within the whole corpus
 
 
 ### node type `row`
@@ -322,8 +322,8 @@ These are the rows of tables
 
 feature | type | description
 --- | --- | ---
-n | integer | the number of the table within the whole corpus
-row | integer | the number of the row within the table
+`n` | integer | the number of the table within the whole corpus
+`row` | integer | the number of the row within the table
 
 
 ### node type `cell`
@@ -332,10 +332,10 @@ These are the cells in the rows of tables
 
 feature | type | description
 --- | --- | ---
-col | integer | the number of the column within the row
-n | integer | the number of the table within the whole corpus
-row | integer | the number of the row within the table
-x | integer | the x-offset where the column starts in the original layout of the page
+`col` | integer | the number of the column within the row
+`n` | integer | the number of the table within the whole corpus
+`row` | integer | the number of the row within the table
+`x` | integer | the x-offset where the column starts in the original layout of the page
 
 
 ### node type `head`

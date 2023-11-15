@@ -185,7 +185,7 @@ def docSummary(docs):
 
 
 def clearTree(path):
-    """Remove all files from a directory, recursively, but leave subdirs.
+    """Remove all files from a directory, recursively, but leave subdirectories.
 
     Reason: we want to inspect output in an editor.
     But if we remove the directories, the editor looses its current directory

@@ -34,7 +34,7 @@ that captures the data at the end of the cleaning process just
 before it goes into other tools.
 It also support the integration of subsequent annotations with the original data.
 
-The Missiven corpus is an example how that works.
+The Missives corpus is an example how that works.
 
 # Getting started
 
@@ -75,8 +75,8 @@ on the command line, say
 text-fabric clariah/wp6-missieven
 ```
 
-and a webserver on your computer is started which serves you a search-and-browse
-interface on the Generale Missiven corpus.
+and a web server on your computer is started which serves you a search-and-browse
+interface on the Generale Missives corpus.
 You can search more precisely here than in the search interface-to-go above.
 
 You can save search results to excel files.
@@ -105,8 +105,8 @@ for experiences with Text-Fabric as a pre-processing tool in other corpora.
 
 The data of the corpus is in the `wp6-missieven` repo on GitHub:
 
-* as simple, TEI-like XML (see the xml directory in this repo)
-* as plain text-fabric files (see the tf directory in this repo)
+* as simple, TEI-like XML (see the `xml` directory in this repo)
+* as plain text-fabric files (see the `tf` directory in this repo)
 
 If you use any method of working with the corpus indicated above, you do not have to
 do anything special to download the data.
@@ -138,7 +138,7 @@ This repo is by
     The earlier corrections by Sophie have not been re-applied, but the conversion has been improved 
     so that they are not needed anymore.
 *   2022-04-11 Additional volumes: Volume 14, bands (i) and (ii) are in the process of being converted from
-    textual pdf to Text-Fabric. Most structure has been recognized, but no TF has been generated yet.
+    textual PDF to Text-Fabric. Most structure has been recognized, but no TF has been generated yet.
 
 [older ...](docs/history.md)
 
@@ -161,14 +161,14 @@ guide.
 
 # More interfaces
 Another version of the data (less cleaned) is visible online in a
-[Blacklab interface ](http://corpora.ato.ivdnt.org/corpus-frontend/Missiven/search)
+[BlackLab interface ](http://corpora.ato.ivdnt.org/corpus-frontend/Missiven/search)
 
-A latent wish is to make the data of this repository available in a Blacklab interface.
-In this repo we show how to set up a local Blacklab server and front-end and how to get the
-present data into Blacklab.
+A latent wish is to make the data of this repository available in a BlackLab interface.
+In this repo we show how to set up a local BlackLab server and front-end and how to get the
+present data into BlackLab.
 
 **This is work in progress**, at this point follow the
-[blacklab install guide for macos](https://github.com/CLARIAH/wp6-missieven/blob/master/blacklab/install.md).
+[BlackLab install guide for macos](https://github.com/CLARIAH/wp6-missieven/blob/master/blacklab/install.md).
 
-Thanks to Jesse de Does (key user of Blacklab, INT) and
-Jan Niestadt (main author of Blacklab, INT) for helping out with setting up and using Blacklab.
+Thanks to Jesse de Does (key user of BlackLab, INT) and
+Jan Niestadt (main author of BlackLab, INT) for helping out with setting up and using BlackLab.

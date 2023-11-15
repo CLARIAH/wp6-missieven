@@ -66,7 +66,7 @@ If you want to see the diagnostic messages from the conversion, consult the file
 
 ## Generate TF
 
-Text-Fabric data is generated from the xml files by running
+Text-Fabric data is generated from the XML files by running
 
 ```
 python3 tfFromTrim.py
@@ -77,10 +77,10 @@ version of the data.
 The version is specified in `lib.py`.
 
 When Text-Fabric uses the files in the `tf` directory, it will do
-a one-time precomputation step, which generates a `.tf` directory
+a one-time pre-computation step, which generates a `.tf` directory
 within the `tf` directory.
 
-We can trigger the precomputation in advance by doing
+We can trigger the pre-computation in advance by doing
 
 ```
 python3 tfFromTrim.py loadonly
@@ -88,7 +88,7 @@ python3 tfFromTrim.py loadonly
 
 ## Optional: Link version 0.4 to version 1.0
 
-In order to be able to port annotations made on an earliers version of the data
+In order to be able to port annotations made on an earlier version of the data
 to the newest version of the data,
 we link the nodes of an earlier version to the nodes of the latest version.
 
@@ -124,7 +124,7 @@ Both steps will generate the `site` directory in the `text-fabric-search` repo.
 
 Most of the machinery to generate this data is in Text-Fabric itself,
 but there is also a corpus dependent piece of Python code involved,
-together with some configuration in yaml files.
+together with some configuration in YAML files.
 
 That is all in `https://github.com/clariah/wp6-missieven-search/blob/master/layeredsearch`.
 
