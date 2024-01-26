@@ -72,7 +72,7 @@ pip3 install text-fabric
 on the command line, say
 
 ```
-text-fabric clariah/wp6-missieven
+tf clariah/wp6-missieven
 ```
 
 and a web server on your computer is started which serves you a search-and-browse

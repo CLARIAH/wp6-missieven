@@ -1,0 +1,19 @@
+entityType: ent
+entitySet: "{entityType}-nodes"
+
+bucketType: line
+
+strFeature: trans
+afterFeature: punc
+
+features:
+  - eid
+  - kind
+
+keywordFeatures:
+  - entityKind
+
+defaultValues:
+  kind: PER
+
+spaceEscaped: false
