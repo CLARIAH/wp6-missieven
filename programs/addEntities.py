@@ -1,3 +1,4 @@
+from itertools import chain
 from tf.app import use
 from tf.core.helpers import console
 from tf.dataset import modify
@@ -90,19 +91,36 @@ class AddEntities:
         slotLink = {}
         kindFeature = {}
         eidFeature = {}
+        occEdge = {}
+        entities = {}
 
-        for i, streak in enumerate(streaks):
-            n = i + 1
+        n = 0
+
+        for streak in streaks:
+            n += 1
             refS = streak[0]
             slotLink[n] = streak
-            kindFeature[n] = kindv(refS)
+            ekind = kindv(refS)
+            kindFeature[n] = ekind
             eid = toId(T.text(streak))
+            eidFeature[n] = eid
+            entities.setdefault((eid, ekind), []).append(n)
+
+        nStreaks = len(streaks)
+
+        for ((eid, ekind), ms) in entities.items():
+            n += 1
+            occEdge[n] = set(ms)
+            slotLink[n] = tuple(chain.from_iterable(slotLink[m] for m in ms))
+            kindFeature[n] = ekind
             eidFeature[n] = eid
 
         console(f"{len(streaks):>5} entity nodes")
         console(f"{len(set(eidFeature.values())):>5} distinct eids")
+        console(f"{len(entities):>5} distinct entities")
 
-        features = dict(kind=kindFeature, eid=eidFeature)
+        nodeFeatures = dict(kind=kindFeature, eid=eidFeature)
+        edgeFeatures = dict(eoccs=occEdge)
 
         featureMeta = dict(
             eid=dict(
@@ -113,17 +131,30 @@ class AddEntities:
                 valueType="str",
                 description="entity kind",
             ),
+            eoccs=dict(
+                valueType="str",
+                description="entity occurrences",
+            )
         )
 
         self.addTypes = dict(
             ent=dict(
                 nodeFrom=1,
-                nodeTo=len(streaks),
+                nodeTo=nStreaks,
                 nodeSlots=slotLink,
-                nodeFeatures=features,
+                nodeFeatures=nodeFeatures,
+            ),
+            entity=dict(
+                nodeFrom=nStreaks + 1,
+                nodeTo=nStreaks + len(entities),
+                nodeSlots=slotLink,
+                nodeFeatures=nodeFeatures,
+                edgeFeatures=edgeFeatures,
             ),
         )
         self.featureMeta = featureMeta
+
+        return True
 
     def modify(self):
         A = self.A
@@ -143,7 +174,7 @@ class AddEntities:
             f for f in TF.features if f.startswith("omap@")
         ]
 
-        modify(
+        return modify(
             origTf,
             newTf,
             targetVersion=newVersion,
@@ -157,7 +188,7 @@ class AddEntities:
 
         config = f"{A.repoLocation}/app/config.yaml"
         oldVersion = A.version
-        newVersion = f"{oldVersion}e"
+        newVersion = f"{oldVersion}ent"
 
         with open(config) as fh:
             text = fh.read()
@@ -180,7 +211,11 @@ class AddEntities:
         if not self.checkStreaks():
             return
 
-        self.prepareData()
-        self.modify()
+        if not self.prepareData():
+            return
+
+        if not self.modify():
+            return
+
         self.tweakApp()
         self.loadNew()

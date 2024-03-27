@@ -18,7 +18,7 @@
 @version=1.0e
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2024-01-26T13:57:37Z
+@dateWritten=2024-03-26T21:07:20Z
 
 6018176	Both; aan boord van het Wapen van Amsterdam voor Ile de Mayo, 25 februari 1610
 Both; aan boord van het Wapen van Amsterdam liggende in de Tafelbaai, 6 augustus 1610

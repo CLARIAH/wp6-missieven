@@ -22,5 +22,5 @@
 @title=Generale Missieven van Gouverneurs-Generaal en Raden aan Heren XVII der Verenigde Oostindische Compagnie
 @writtenBy=Text-Fabric
 @writtenBy=Text-Fabric
-@dateWritten=2024-01-26T13:57:43Z
+@dateWritten=2024-03-26T21:07:28Z
 
