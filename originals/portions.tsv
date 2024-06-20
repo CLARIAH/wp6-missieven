@@ -1,0 +1,608 @@
+start	end	volume	author	date	letter
+0	90	1	Both	1610-2-25	I
+92	190	1	Both	1610-8-6	II
+192	289	1	Both	1610-10-14	III
+291	7995	1	Both	1611-7-18	IV
+7997	8966	1	Both	1612-3-31	V
+8968	28268	1	Both	1612-7-26	VI
+28270	28355	1	Both	1612-7-26	VII
+28357	28443	1	Both	1612-7-26	VIII
+28445	28990	1	Both	1612-7-26	IX
+28992	29032	1	Both	None-None-None	X
+29034	30151	1	Both	1612-7-26	XI
+30153	30238	1	Both	1612-7-26	XII
+30240	30326	1	Both	1612-7-26	XIII
+30328	30368	1	Both	None-None-None	XIV
+30370	42938	1	Both	1614-1-1	XV
+42940	42981	1	Both	1614-1-1	XVI
+42983	43025	1	Both	1614-1-1	XVII
+43027	43909	1	Both	1614-11-10	XVIII
+43911	49972	1	Both	1614-11-10	XIX
+49974	58527	1	Both	1614-11-10	XX
+58529	60226	1	Both	1614-11-10	XXI
+60228	62638	1	Both	1614-11-10	XXII
+62640	68120	1	Reynst	1614-11-11	I
+68122	91287	1	Reynst	1615-10-26	II
+91289	104424	1	Reynst	1615-10-26	II
+104426	116520	1	Reael	1616-7-18	I
+116522	121222	1	Reael	1616-9-22	II
+121224	132871	1	Reael	1617-5-10	III
+132873	136192	1	Reael	1617-7-2	IV
+136194	136949	1	Reael	1617-11-10	V
+136951	142781	1	Reael	1617-12-17	VI
+142783	144463	1	Reael	1617-12-17	VII
+144465	145162	1	Reael	1618-1-6	VIII
+145164	150227	1	Reael	1618-5-7	IX
+150229	155553	1	Reael	1618-7-11	X
+155555	178940	1	Reael	1618-8-20	XI
+178942	178998	1	Coen	1619-8-5	I
+179000	179056	1	Coen	1619-10-7	II
+179058	179116	1	Coen	1619-10-15	III
+179118	179247	1	Coen, De Carpentier, Dedel, De Houtman, Jansz	1620-1-22	IV
+179249	179320	1	Coen, Dedel	1620-1-29	V
+179322	179427	1	Coen, De Carpentier, Jansz, Dedel	1620-5-11	VI
+179429	179521	1	Coen, De Carpentier, Dedel	1620-5-12	VII
+179523	179636	1	Coen, De Carpentier, Dedel, Sonck	1620-7-31	VIII
+179638	179762	1	Coen, De Houtman, De Carpentier, Sonck	1620-10-26	IX
+179764	179898	1	Coen, De Houtman, De Carpentier, Dedel, Sonck	1621-1-8	X
+179900	196720	1	De Carpentier, Dedel	1621-3-8	XI
+196722	196859	1	Coen, Sonck	1621-5-6	XII
+196861	230176	1	De Carpentier, Dedel, Reyersz, Van Uffelen	1621-7-9	XIII
+230178	230290	1	Coen, De Carpentier, Lam, Van Antzen	1621-11-16	XIV
+230292	230385	1	Coen, De Carpentier, Van Antzen	1621-12-20	XV
+230387	230480	1	Coen, De Carpentier, Van Antzen	1622-1-21	XVI
+230482	230574	1	Coen, De Carpentier, Van Antzen	1622-3-14	XVII
+230576	230685	1	Coen, De Carpentier, Van Antzen, Specx	1622-9-6	XIX
+230687	230780	1	Coen, De Carpentier, Van Antzen	1622-3-26	XVIII
+230782	243055	1	De Carpentier, Jansz, Specx	1623-2-1	I
+243057	250831	1	De Carpentier, Raden	1623-2-24	II
+250833	253351	1	De Carpentier, De Houtman, Dedel, Sonck, Specx	1623-12-25	III
+253353	296675	1	De Carpentier, De Houtman, Dedel, Sonck, Specx, Van Gorcom	1624-1-3	IV
+296677	307962	1	De Carpentier, Dedel, Sonck, Specx, Van Gorcom	1624-3-4	V
+307964	360502	1	De Carpentier, Specx, Vlack, Van Diemen	1625-1-27	VI
+360504	361699	1	De Carpentier, Raden	1625-8-13	VII
+361701	363107	1	De Carpentier, Raden	1625-9-13	VIIa
+363109	390095	1	De Carpentier, Specx, Vlack, Van Diemen	1625-10-27	VIII
+390097	439730	1	De Carpentier, Specx, Vlack, Van Diemen	1626-2-3	IX
+439732	439792	1	De Carpentier, Raden	1626-2-15	X
+439794	528163	1	De Carpentier, Specx, Vlack, Van Diemen	1626-12-13	XI
+528165	529433	1	De Carpentier, Specx, Vlack, Van Diemen, Schram	1626-12-15	XII
+529435	540506	1	De Carpentier, Schram, Specx, Vlack, Van Diemen	1626-12-26	XIII
+540508	540568	1	De Carpentier, Raden	1627-2-2	XIV
+540570	547637	1	De Carpentier	1627-7-29	XV
+547639	547786	1	Coen, De Carpentier, Specx, Van Duynen, Van Diemen, De Meester	1627-11-9	I
+547788	547898	1	Coen, Van Duynen, Van Diemen, De Meester	1628-1-6	II
+547900	548012	1	Coen, Van Duynen, Van Diemen, De Meester	1628-1-13	III
+548014	548125	1	Coen, Van Duynen, Van Diemen, De Meester	1628-1-24	IV
+548127	548289	1	Coen, Jansz, Lefebvre, Van Gorcom, Vlack, Van Diemen, Blocq Martensz	1628-11-3	V
+548291	548381	1	Coen, Vlack, Van Diemen	1628-11-17	VI
+548383	548474	1	Coen, Vlack, Van Diemen	1629-2-10	VII
+548476	548565	1	Coen, Vlack, Van Diemen	1629-3-18	VIII
+548567	634378	1	Specx, Vlack, Van Diemen, Nuyts, Van Raemburch	1629-12-15	I
+634380	694044	1	Specx, Vlack, Van Diemen, Van der Burch	1631-3-7	II
+694046	694164	1	Van Diemen	1631-6-5	III
+694166	766464	1	Specx, Vlack, Van der Burch, Gardenijs	1632-1-6	IV
+766466	865155	1	Brouwer, Vlack, Van der Burch	1632-12-1	I
+865157	872758	1	Brouwer, Vlack, Ysbrantsz, Van der Burch	1633-2-7	II
+872760	881160	1	Brouwer, Vlack, Ysbrantsz, Van der Burch	1633-2-8	III
+881162	936188	1	Brouwer, Van Diemen, Vlack, Lucasz, Van der Burch	1633-8-15	IV
+936190	1050414	1	Brouwer, Van Diemen, Vlack, Van der Burch, Van den Heuvel	1633-12-15	V
+1050416	1054039	1	Brouwer	1633-12-25	VI
+1054041	1059136	1	Brouwer, Van Diemen, Vlack, Van der Burch	1634-2-20	VII
+1059138	1059268	1	Brouwer, Van Diemen, Vlack, Van der Burch	1634-3-5	VIII
+1059270	1103414	1	Brouwer, Van Diemen, Vlack, Van der Burch	1634-8-15	IX
+1103416	1182427	1	Brouwer, Van Diemen, Van der Burch, Van Broeckum	1634-12-27	X
+1182429	1206136	1	Brouwer	1635-1-8	XI
+1206138	1256329	1	Brouwer, Van Diemen, Van der Burch	1635-12-31	XII
+1256331	1384137	1	Brouwer, Van Diemen, Lucasz, Ysbrantsz, Gijsels, Van der Burch	1636-1-4	XIII
+1384139	1386509	1	Van Diemen, Lucasz, Gijsels, Van der Burch	1636-2-2	I
+1386511	1498941	1	Van Diemen, Lucasz, Gijsels, Putmans, Caen, Ottens	1636-12-28	II
+1498943	1654865	1	Van Diemen, Lucasz, Gijsels, Caen	1637-12-9	III
+1654867	1666490	1	Van Diemen, Lucasz, Caen	1637-12-26	IV
+1666492	1872721	1	Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn	1638-12-22	V
+1872723	1901718	1	Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn	1638-12-30	VI
+1901720	1914186	2	Van Diemen, Lucasz, Reniers, Welsing, Van der Lijn	1639-1-12	VII
+1914188	2147980	2	Van Diemen, Caen, Van der Lijn	1639-12-18	VIII
+2147982	2169076	2	Van Diemen, Caen, Van der Lijn	1640-1-8	IX
+2169078	2172247	2	Van Diemen, Caen, Van der Lijn	1640-1-31	X
+2172249	2194263	2	Van Diemen, Van der Lijn	1640-9-9	XI
+2194265	2244416	2	Van Diemen, Van der Lijn, Van Twist	1640-11-30	XII
+2244418	2263653	2	Van Diemen, Van der Lijn	1641-1-8	XIII
+2263655	2267956	2	Van Diemen, Van der Lijn	1641-1-31	XIV
+2267958	2268085	2	Van Diemen, Van der Lijn, Maetsuycker, Caron, Schouten	1641-9-14	XV
+2268087	2269667	2	Van Diemen, Van der Lijn, Maetsuycker, Caron, Schouten, Sweers	1641-11-16	XVI
+2269669	2311541	2	Van Diemen, Van der Lijn, Maetsuycker, Caron, Schouten, Sweers	1641-12-12	XVII
+2311543	2393043	2	Van Diemen, Caen, Van der Lijn, Maetsuycker, Schouten, Sweers, Witsen	1642-12-12	XVIII
+2393045	2401956	2	Van Diemen, Caen, Van der Lijn, Maetsuycker, Schouten, Sweers, Witsen	1642-12-23	XIX
+2401958	2411071	2	Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers	1643-1-13	XX
+2411073	2413967	2	Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers	1643-1-23	XXI
+2413969	2421778	2	Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers	1643-3-7	XXII
+2421780	2422247	2	Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers	1643-3-18	XXIII
+2422249	2481150	2	Van Diemen, Caen, Van der Lijn, Maetsuycker, Schouten, Sweers	1643-12-22	XXIV
+2481152	2495376	2	Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers	1644-1-4	XXV
+2495378	2497452	2	Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers	1644-1-9	XXVI
+2497454	2497924	2	Van Diemen, Van der Lijn, Maetsuycker, Schouten, Sweers	1644-1-13	XXVII
+2497926	2556232	2	Van Diemen, Van der Lijn, Sweers, Croocq, Van Alphen	1644-12-23	XXVIII
+2556234	2569253	2	Van Diemen, Van der Lijn, Sweers, Van Alphen	1645-1-20	XXIX
+2569255	2574411	2	Van Diemen, Van der Lijn, Sweers, Van Alphen	1645-2-6	XXX
+2574413	2588699	2	Van der Lijn, Maetsuycker, Van Alphen	1645-7-9	I
+2588701	2596476	2	Van der Lijn, Maetsuycker, Reniers, Van Alphen	1645-12-17	II
+2596478	2607810	2	Van der Lijn, Maetsuycker, Reniers, Van Alphen	1645-12-31	III
+2607812	2638878	2	Van der Lijn, Caron, Reniers, Caen	1646-12-21	IV
+2638880	2663067	2	Van der Lijn, Caron, Reniers, Caen, Van Dutecum	1647-1-15	V
+2663069	2672331	2	Van der Lijn, Caron, Reniers, Caen, Van Dutecum	1647-4-14	VI
+2672333	2726364	2	Van der Lijn, Caron, Reniers, Caen, Van Dutecum, Demmer, Geleynsz de Jongh	1647-12-31	VII
+2726366	2809689	2	Van der Lijn, Caron, Reniers, Van Dutecum, Demmer	1649-1-18	VIII
+2809691	2821562	2	Van der Lijn, Caron, Reniers, Van Dutecum, Demmer	1649-1-26	IX
+2821564	2898537	2	Van der Lijn, Caron, Reniers, Demmer, Barendsz	1649-12-31	X
+2898539	2900023	2	Van der Lijn, Caron, Reniers, Demmer	1650-1-18	XI
+2900025	3010538	2	Reniers, Maetsuycker, Demmer, Cunaeus, De Vlaming van Oudtshoorn, Heussen, Van der Beecken	1650-12-10	I
+3010540	3097449	2	Reniers, Maetsuycker, Demmer, Cunaeus, Versteghen, De With, Steur	1651-1-20	II
+3097451	3108221	2	Reniers, Maetsuycker, Demmer, Cunaeus, Versteghen, De With, Steur	1651-2-10	III
+3108223	3329703	2	Reniers, Maetsuycker, Demmer, Hartsinck, De Vlaming van Oudtshoorn, Van Teylingen, Caesar	1651-12-19	IV
+3329705	3408716	2	Reniers, Maetsuycker, Demmer, Hartsinck, De Vlaming van Oudtshoorn, Caesar, Versteghen	1652-1-24	V
+3408718	3411642	2	Reniers, Maetsuycker, Demmer, Hartsinck, De Vlaming van Oudtshoorn, Caesar, Versteghen	1652-2-5	VI
+3411644	3552860	2	Reniers, Maetsuycker, Hartsinck, Cunaeus, Caesar, Steur	1652-12-24	VII
+3552862	3627319	2	Reniers, Maetsuycker, Hartsinck, Cunaeus, Caesar, Steur	1653-1-31	VIII
+3627321	3631349	2	Maetsuycker, Hartsinck, Cunaeus, Caesar, Steur	1653-1-31	IX
+3631351	3797455	2	Maetsuycker, Hartsinck, Verburch, Steur, Van den Bogaerde	1654-1-19	I
+3797457	3811084	2	Maetsuycker, Hartsinck, Cunaeus, Verburch, Steur, Van den Bogaerde	1654-2-6	II
+3811086	3861672	2	Maetsuycker, Hulft, Hartsinck, Cunaeus, De Vlaming van Oudtshoorn, Verburch, Steur	1654-11-7	III
+3861674	3979373	2	Maetsuycker, Hulft, Hartsinck, Cunaeus, Verburch, Steur, Van der Beecken	1655-1-26	IV
+3979375	3979497	2	Maetsuycker, Hulft, Hartsinck, Cunaeus, Verburch, Steur	1655-2-4	V
+3979499	3989356	2	Maetsuycker, Hulft, Hartsinck, Cunaeus, Verburch, Steur, Van der Beecken	1655-4-1	VI
+3989358	3993963	3	Maetsuycker, Hulft, Hartsinck, Cunaeus, Verburch, Steur, Van den Bogaerde	1655-7-12	VII
+3993965	4107841	3	Maetsuycker, Hartsinck, Cunaeus, Verburch, Steur, Van den Bogaerde, Sarcerius	1655-12-24	VIII
+4107843	4187309	3	Maetsuycker, Hartsinck, Cunaeus, Verburch, Steur	1656-2-1	IX
+4187311	4195931	3	Maetsuycker, Hartsinck, Cunaeus, Verburch, Steur	1656-7-18	X
+4195933	4199525	3	Maetsuycker, Hartsinck, Cunaeus, Verburch, Steur	1656-7-31	XI
+4199527	4254303	3	Maetsuycker, Hartsinck, Cunaeus, De Vlaming van Oudtshoorn, Verburch, Steur	1656-12-4	XII
+4254305	4350662	3	Maetsuycker, Hartsinck, Cunaeus, De Vlaming van Oudtshoorn, Verburch, Steur, Caesar	1657-1-31	XIII
+4350664	4468435	3	Maetsuycker, Hartsinck, Cunaeus, De Vlaming van Oudtshoorn, Verburch, Steur	1657-12-17	XIV
+4468437	4503315	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur	1658-1-6	XV
+4503317	4503456	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur	1658-1-17	XVI
+4503458	4580563	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur, Sterthemius	1658-12-14	XVII
+4580565	4680661	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur, Sterthemius	1659-12-16	XVIII
+4680663	4728748	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur	1660-1-16	XIX
+4728750	4811731	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur	1660-12-16	XX
+4811733	4846200	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur	1661-1-26	XXI
+4846202	4846336	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur	1661-1-28	XXII
+4846338	4850280	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur	1661-7-29	XXIII
+4850282	4862777	3	Maetsuycker, Hartsinck, De Vlaming van Oudtshoorn, Verburch, Steur	1661-12-22	XXIV
+4862779	4885351	3	Maetsuycker, Hartsinck, Verburch, Steur	1662-1-30	XXV
+4885353	4907243	3	Maetsuycker, Hartsinck, Verburch, Steur	1662-4-22	XXVI
+4907245	5008192	3	Maetsuycker, Hartsinck, Verburch, Steur, Thijsz	1662-12-26	XXVII
+5008194	5009364	3	Maetsuycker, Hartsinck, Verburch, Steur, Thijsz	1663-1-29	XXVIII
+5009366	5025683	3	Maetsuycker, Hartsinck, Verburch, Steur, Pit, Overtwater, Thijsz, Van der Meyde, Van Hoorn	1663-12-21	XXIX
+5025685	5032184	3	Maetsuycker, Hartsinck, Verburch, Pit, Overtwater, Thijsz, Van Hoorn, Cops	1664-1-27	XXX
+5032186	5034923	3	Maetsuycker, Hartsinck, Verburch, Van Goens, Pit, Overtwater, Van den Brouck, Thijsz, Van Hoorn, Cops	1664-8-4	XXXI
+5034925	5045068	3	Maetsuycker, Hartsinck, Verburch, Pit, Overtwater, Van den Brouck, Thijsz, Hustaert, Van Hoorn	1664-12-23	XXXII
+5045070	5065554	3	Maetsuycker, Hartsinck, Verburch, Pit, Overtwater, Van den Brouck, Thijsz, Hustaert, Van Hoorn	1665-1-30	XXXIII
+5065556	5066151	3	Maetsuycker, Hartsinck, Verburch, Pit, Overtwater, Van den Brouck, Thijsz, Hustaert, Van Hoorn	1665-2-26	XXXIV
+5066153	5149744	3	Maetsuycker, Hartsinck, Verburch, Pit, Overtwater, Van den Brouck, Thijsz, Van Dam, Van Hoorn	1666-1-30	XXXV
+5149746	5265444	3	Maetsuycker, Hartsinck, Verburch, Pit, Overtwater, Van den Brouck, Thijsz, Van Dam	1667-1-25	XXXVI
+5265446	5304895	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Thijsz	1667-10-5	XXXVII
+5304897	5325263	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Thijsz	1667-12-6	XXXVIII
+5325265	5330716	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Thijsz	1667-12-23	XXXIX
+5330718	5332294	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Thijsz	1667-12-31	XL
+5332296	5380967	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Thijsz, Van Hoorn	1668-10-18	XLI
+5380969	5404528	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Thijsz, Van Hoorn	1668-12-1	XLII
+5404530	5407773	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Van Hoorn, Ranst	1668-12-13	XLIII
+5407775	5426738	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Van Hoorn, Ranst	1668-12-19	XLIV
+5426740	5438005	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Van Hoorn, Ranst	1669-1-31	XLV
+5438007	5444570	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Van Hoorn, Ranst	1669-2-16	XLVI
+5444572	5444731	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Van Hoorn, Ranst	1669-2-18	XLVII
+5444733	5444892	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Van Hoorn, Ranst	1669-2-28	XLVIII
+5444894	5510732	3	Maetsuycker, Verburch, Pit, Overtwater, Van den Brouck, Van Hoorn	1669-11-17	XLIX
+5510734	5511016	3	Maetsuycker, Verburch, Pit, Overtwater, Van Hoorn	1669-11-30	L
+5511018	5534583	3	Maetsuycker, Verburch, Pit, Overtwater, Van Hoorn	1669-12-15	LI
+5534585	5563286	3	Maetsuycker, Verburch, Pit, Overtwater, Van Hoorn	1670-1-31	LII
+5563288	5563767	3	Maetsuycker, Verburch, Pit, Overtwater, Van Hoorn	1670-2-11	LIII
+5563769	5578607	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1671-9-2	LIV
+5578609	5581196	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1671-11-16	LV
+5581198	5629180	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1671-12-19	LVI
+5629182	5691069	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1672-1-31	LVII
+5691071	5692932	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1672-2-5	LVIII
+5692934	5693070	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1672-2-20	LIX
+5693072	5701590	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn, Cops, Volger	1672-7-31	LX
+5701592	5702034	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn, Volger	1672-8-27	LXI
+5702036	5702172	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1672-9-22	LXII
+5702174	5721298	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1672-12-11	LXIII
+5721300	5721939	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1672-12-13	LXIV
+5721941	5788779	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1673-1-31	LXV
+5788781	5819744	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1673-11-13	LXVI
+5819746	5820375	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1673-12-23	LXVII
+5820377	5858981	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1674-1-31	LXVIII
+5858983	5859268	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn	1674-2-22	LXIX
+5859270	5868489	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn, Abbema	1674-10-8	LXX
+5868491	5916153	3	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn, Abbema	1674-11-17	LXXI
+5916155	5949180	4	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn, Abbema	1675-1-31	LXXII
+5949182	5993150	4	Maetsuycker, Verburch, Pit, Overtwater, Speelman, Van Hoorn, Abbema	1675-2-28	LXXIII
+5993152	6000030	4	Maetsuycker, Verburch, Van Goens, Pit, Overtwater, Speelman, Ranst, Van Hoorn, Abbema	1675-8-29	LXXIV
+6000032	6000221	4	Maetsuycker, Verburch, Van Goens, Pit, Overtwater, Speelman, Ranst, Van Hoorn, Abbema	1675-9-25	LXXV
+6000223	6079360	4	Maetsuycker, Verburch, Van Goens, Pit, Overtwater, Speelman, Ranst, Van Hoorn, Abbema	1675-11-23	LXXVI
+6079362	6106659	4	Maetsuycker, Van Goens, Pit, Overtwater, Speelman, Ranst, Van Hoorn, Abbema	1676-2-7	LXXVII
+6106661	6107792	4	Maetsuycker, Van Goens, Pit, Overtwater, Speelman, Ranst, Van Hoorn, Abbema	1676-2-15	LXXVIII
+6107794	6158766	4	Maetsuycker, Van Goens, Pit, Overtwater, Speelman, Ranst, Van Hoorn	1676-9-30	LXXIX
+6158768	6216363	4	Maetsuycker, Van Goens, Pit, Overtwater, Speelman, Ranst, Van Hoorn, Paviljoen	1676-11-28	LXXX
+6216365	6239037	4	Maetsuycker, Van Goens, Pit, Overtwater, Ranst, Van Hoorn, Paviljoen	1677-2-13	LXXXI
+6239039	6261635	4	Maetsuycker, Van Goens, Pit, Overtwater, Ranst, Van Hoorn, Paviljoen, Volger, Van Reede	1677-7-5	LXXXII
+6261637	6309340	4	Maetsuycker, Van Goens, Pit, Overtwater, Ranst, Van Hoorn, Paviljoen, Van Reede	1677-11-24	LXXXIII
+6309342	6310665	4	Van Goens, Pit, Overtwater, Van Hoorn, Paviljoen	1678-1-16	I
+6310667	6348044	4	Van Goens, Pit, Overtwater, Van Hoorn, Paviljoen	1678-2-15	II
+6348046	6348613	4	Van Goens, Speelman, Van Outhoorn, Camphuys, Pits, Nobel	1678-5-8	III
+6348615	6350444	4	Van Goens, Speelman, Van Outhoorn, Camphuys, Pits	1678-8-3	IV
+6350446	6351703	4	Van Goens, Speelman, Bort, Van Outhoorn, Camphuys	1678-11-28	V
+6351705	6385454	4	Van Goens, Speelman, Bort, Van Outhoorn, Camphuys	1678-12-21	VI
+6385456	6468213	4	Van Goens, Speelman, Bort, Van Outhoorn, Camphuys	1679-2-13	VII
+6468215	6471078	4	Van Goens, Speelman, Bort, Van Outhoorn, Camphuys	1679-2-23	VIII
+6471080	6473145	4	Van Goens, Speelman, Bort, Hurdt, Blom, Van Outhoorn, Camphuys	1679-8-1	IX
+6473147	6480993	4	Van Goens, Speelman, Bort, Hurdt, Blom, Van Outhoorn, Camphuys	1679-10-10	X
+6480995	6588170	4	Van Goens, Speelman, Bort, Hurdt, Blom, Van Outhoorn, Camphuys	1679-12-11	XI
+6588172	6588306	4	Van Goens, Speelman, Bort, Hurdt, Blom, Camphuys	1679-12-14	XII
+6588308	6635477	4	Van Goens, Speelman, Bort, Hurdt, Blom, Van Outhoorn, Camphuys	1680-3-13	XIII
+6635479	6650429	4	Van Goens, Speelman, Bort, Hurdt, Blom, Van Outhoorn, Camphuys, Bent	1680-10-13	XIV
+6650431	6658571	4	Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1680-11-29	XV
+6658573	6661721	4	Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1680-12-31	XVI
+6661723	6664819	4	Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1681-2-13	XVII
+6664821	6735439	4	Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1681-4-29	XVIII
+6735441	6738372	4	Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1681-7-25	XIX
+6738374	6738884	4	Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Bent	1681-8-30	XX
+6738886	6739843	4	Van Goens, Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1681-11-4	XXI
+6739845	6742649	4	Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1681-11-29	I
+6742651	6748447	4	Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1681-12-28	II
+6748449	6748587	4	Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1681-12-31	III
+6748589	6749048	4	Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Bent	1682-1-8	IV
+6749050	6751857	4	Speelman, Bort, Hurdt, Van Outhoorn, Van Hoorn	1682-10-5	V
+6751859	6752156	4	Gouverneur-generaal, Raden	1682-11-12	VI
+6752158	6753399	4	Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Schaghen, Van Hoorn	1683-3-1	VII
+6753401	6914904	4	Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Schaghen, Van Hoorn	1683-3-19	VIII
+6914906	6917088	4	Hurdt, Camphuys, Pit, Schaghen, Van Hoorn	1683-12-24	VIIIa
+6917090	6987406	4	Speelman, Bort, Hurdt, Van Outhoorn, Camphuys, Pit, Schaghen, Van Hoorn	1683-12-31	IX
+6987408	6988124	4	Hurdt, Camphuys, Pit, Schaghen, Van Hoorn	1684-1-3	IXa
+6988126	7023959	4	Camphuys, Hurdt, Van Outhoorn, Pit, Schaghen, Van Hoorn	1684-2-19	I
+7023961	7026481	4	Camphuys, Hurdt, Van Outhoorn, Pit, Schaghen, Van Hoorn	1684-2-19	II
+7026483	7068077	4	Camphuys, Hurdt, Van Outhoorn, Pit, Schaghen, Van Hoorn	1684-5-31	III
+7068079	7131813	4	Camphuys, Hurdt, Van Outhoorn, Pit, Van Hoorn	1684-11-30	IV
+7131815	7174781	4	Camphuys, Hurdt, Van Outhoorn, Pit, Van Quaelbergh, Van Hoorn	1685-2-12	V
+7174783	7178686	4	Camphuys, Hurdt, Van Outhoorn, Pit, Van Quaelbergh	1685-2-19	VI
+7178688	7195409	4	Camphuys, Hurdt, Van Outhoorn, Pit, Van Quaelbergh, Van Hoorn	1685-3-18	VII
+7195411	7271452	4	Camphuys, Hurdt, Van Outhoorn, Van Goens, Pit, Van Quaelbergh, Van Hoorn, De Saint-martin	1685-12-11	VIII
+7271454	7278524	5	Camphuys, Hurdt, Van Outhoorn, Van Goens, Pit, Van Quaelbergh, Van Hoorn, De Saint-martin, Slicher	1686-1-8	IX
+7278526	7307008	5	Camphuys, Hurdt, Van Outhoorn, Van Goens, Pit, Van Quaelbergh, Van Hoorn, De Saint-martin, Slicher	1686-3-8	X
+7307010	7393238	5	Camphuys, Hurdt, Van Outhoorn, Pit, Van Hoorn, Van Quaelbergh, De Saint-martin, De Beveren	1686-12-13	XI
+7393240	7431657	5	Camphuys, Hurdt, Van Outhoorn, Pit, Van Hoorn, Schaghen, De Saint-martin, De Beveren	1687-2-28	XII
+7431659	7536314	5	Camphuys, Hurdt, Van Outhoorn, Pit, Pits, Van Hoorn, Schaghen, De Saint-martin, De Beveren, Padtbrugge	1687-12-23	XIII
+7536316	7540372	5	Camphuys, Hurdt, Van Outhoorn, Pit, Pits, Van Hoorn, Schaghen, De Saint-martin, De Beveren, Padtbrugge	1688-1-10	XIV
+7540374	7601355	5	Camphuys, Hurdt, Van Outhoorn, Pit, Pits, Van Hoorn, Schaghen, De Saint-martin, Padtbrugge	1688-3-13	XV
+7601357	7712856	5	Camphuys, Van Outhoorn, Pit, Pits, Van Hoorn, De Saint-martin, De Beveren	1688-12-27	XVI
+7712858	7754910	5	Camphuys, Van Outhoorn, Pit, Van Hoorn, De Saint-martin, De Beveren	1689-2-27	XVII
+7754912	7775079	5	Camphuys, Van Outhoorn, Pit, Van Hoorn, De Saint-martin, De Beveren	1689-3-31	XVIII
+7775081	7775407	5	Camphuys, Van Outhoorn, Pit, Van Hoorn, De Saint-martin, De Beveren, Valckenier	1689-11-30	XIX
+7775409	7861847	5	Camphuys, Van Outhoorn, Pit, Van Hoorn, De Saint-martin, De Beveren, Valckenier	1689-12-30	XX
+7861849	7903297	5	Camphuys, Van Outhoorn, Pit, Van Hoorn, De Saint-martin, De Beveren, Valckenier	1690-3-14	XXI
+7903299	7925146	5	Camphuys, Van Outhoorn, Van Hoorn, De Saint-martin, Valckenier, Van Riebeeck, Bornezee	1690-12-10	XXII
+7925148	8000766	5	Camphuys, Van Outhoorn, Van Hoorn, Valckenier, Van Riebeeck, Bornezee	1691-3-26	XXIII
+8000768	8003100	5	Camphuys, Van Outhoorn, Van Hoorn, Valckenier, Van Riebeeck, Bornezee	1691-4-17	XXIV
+8003102	8097019	5	Van Outhoorn, Van Hoorn, De Saint-martin, De Haas, Valckenier, Van Riebeeck, Bornezee, Lycochthon	1692-1-31	I
+8097021	8118984	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Valckenier, Van Riebeeck, Bornezee, Lycochthon	1692-3-24	II
+8118986	8119161	5	Van Outhoorn, Van Hoorn, Pijl, De Haas, Valckenier, Van Riebeeck, Bornezee, Lycochthon	1692-3-26	III
+8119163	8231793	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Leene, Valckenier, Van Riebeeck, Bornezee, Lycochthon	1692-12-11	IV
+8231795	8296530	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Leene, Valckenier, Van Riebeeck, Bornezee, Lycochthon	1693-2-9	V
+8296532	8305400	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Riebeeck, Van Leene, Valckenier, Bornezee, Lycochthon, Nieustadt	1693-3-14	VI
+8305402	8375897	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Riebeeck, Valckenier, Van Leene, Bornezee, Lycochthon, Van Wijngaerden	1693-12-8	VII
+8375899	8403306	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Riebeeck, Valckenier, Bornezee, Lycochthon, Nieustadt, Van Wijngaerden	1694-2-6	VIII
+8403308	8472206	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Nieustadt, Van Wijngaerden	1694-11-30	IX
+8472208	8512157	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Nieustadt, Van Wijngaerden	1695-2-4	X
+8512159	8526195	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Nieustadt, Van Wijngaerden	1695-11-3	XI
+8526197	8571509	5	Van Outhoorn, Van Hoorn, Pijl, De Saint-martin, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Nieustadt	1696-2-8	XII
+8571511	8632900	5	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Wijngaerden	1697-1-19	XIII
+8632902	8653515	5	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Wijngaerden	1697-2-19	XIV
+8653517	8695321	5	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee	1697-11-30	XV
+8695323	8709191	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee	1698-2-2	XVI
+8709193	8716720	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee	1698-2-21	XVII
+8716722	8761918	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee, Van Dam	1698-12-6	XVIII
+8761920	8766775	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee, Van Dam	1699-1-20	XIX
+8766777	8785910	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee, Van Dam	1699-2-10	XX
+8785912	8786735	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee, Van Dam	1699-3-2	XXI
+8786737	8787367	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee	1699-4-20	XXII
+8787369	8828431	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Valckenier, Cops, Bornezee, Lycochthon, Van Rhee, Van Dam	1699-11-23	XXIII
+8828433	8842233	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Pit, Van Rhee, Van Dam	1700-1-20	XXIV
+8842235	8854366	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Pit, Van Rhee, Van Dam	1700-2-16	XXV
+8854368	8854571	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Pit, Van Rhee, Van Dam	1700-2-19	XXVI
+8854573	8854780	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam, Van Swoll	1700-10-26	XXVII
+8854782	8854991	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam, Van Swoll	1700-11-10	XXVIII
+8854993	8894380	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam, Van Swoll	1700-12-1	XXIX
+8894382	8894587	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam, Van Swoll	1700-12-22	XXX
+8894589	8900816	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam, Van Swoll	1701-1-28	XXXI
+8900818	8903505	6	Van Outhoorn, Van Hoorn, Pijl, De Haas, Van Riebeeck, Cops, Bornezee, Van Rhee, Van Dam, Van Swoll	1701-2-17	XXXII
+8903507	8911722	6	Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam, Van Swoll	1701-11-26	XXXIII
+8911724	8933462	6	Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam, Van Swoll	1701-12-31	XXXIV
+8933464	8951323	6	Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam, Van Swoll	1702-1-31	XXXV
+8951325	8951928	6	Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam, Van Swoll	1702-8-4	XXXVI
+8951930	8990517	6	Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam, Van Swoll	1702-11-30	XXXVII
+8990519	9004510	6	Van Outhoorn, Van Hoorn, Pijl, Van Riebeeck, Cops, Bornezee, Van Dam, Van Swoll, Douglas	1703-2-25	XXXVIII
+9004512	9010728	6	Van Outhoorn, Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Dam, Van Swoll, Douglas, Winkelman, Van Rijn	1703-9-4	XXXIX
+9010730	9049806	6	Van Outhoorn, Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Dam, Van Swoll, Douglas, Van Rijn	1703-12-1	XL
+9049808	9061649	6	Van Outhoorn, Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Dam, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel	1704-2-1	XLI
+9061651	9081466	6	Van Outhoorn, Van Hoorn, Van Riebeeck, Pijl, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel	1704-2-26	XLII
+9081468	9082168	6	Van Outhoorn, Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel	1704-3-14	XLIII
+9082170	9083859	6	Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, De Haan	1704-8-29	I
+9083861	9143618	6	Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, De Haan	1704-11-30	II
+9143620	9146198	6	Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, De Haan	1704-12-18	III
+9146200	9161245	6	Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, De Haan	1705-1-31	IV
+9161247	9163144	6	Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, De Haan	1705-2-17	V
+9163146	9163881	6	Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, De Haan	1705-3-6	VI
+9163883	9165417	6	Van Hoorn, Van Riebeeck, Pijl, Cops, Bornezee, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, De Haan	1705-5-10	VII
+9165419	9165918	6	Van Hoorn, Van Riebeeck, Pijl, Van Swoll, Douglas, De Vos, Van Rijn, Van der Stel, Zwaardecroon, Chasteleyn, De Roo, De Haan	1705-8-24	VIII
+9165920	9217892	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, Chasteleyn, De Haan	1705-11-30	IX
+9217894	9230280	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, Van Rijn, Van der Stel, Zwaardecroon, Chasteleyn, De Haan	1705-11-30	IXa
+9230282	9241004	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Comans, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn, De Haan	1706-1-25	X
+9241006	9241269	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Comans, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn, De Haan	1706-1-25	XI
+9241271	9250573	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Comans, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn, De Haan	1706-2-12	XII
+9250575	9258357	6	Van Hoorn, Raden van Indië	1706-3-31	XIII
+9258359	9258589	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Comans, Phoonsen, Zwaardecroon, Chasteleyn, De Haan	1706-5-16	XIV
+9258591	9259657	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn	1706-8-5	XV
+9259659	9330753	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn	1706-11-30	XVI
+9330755	9331510	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn	1706-12-16	XVII
+9331512	9334406	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn	1707-1-15	XVIII
+9334408	9345044	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Phoonsen, Van Rijn, Zwaardecroon, Becker, Chasteleyn	1707-2-15	XIX
+9345046	9348191	6	Van Hoorn, Van Riebeeck, Van Swoll, De Wilde, Douglas, De Vos, Van Rijn, Phoonsen, Zwaardecroon, Chasteleyn	1707-11-9	XX
+9348193	9409532	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Phoonsen, Zwaardecroon, Chasteleyn	1707-11-30	XXI
+9409534	9409685	6	Van Hoorn, Van Riebeeck, Van Swoll, Van Rijn, Phoonsen, Zwaardecroon	1707-12-18	XXII
+9409687	9425921	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Phoonsen, Zwaardecroon, Chasteleyn	1708-1-15	XXIII
+9425923	9431960	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Phoonsen, Zwaardecroon, Chasteleyn	1708-2-10	XXIV
+9431962	9432148	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Phoonsen, Zwaardecroon	1708-3-17	XXV
+9432150	9502611	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Zwaardecroon, Chasteleyn	1708-11-25	XXVI
+9502613	9503213	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Zwaardecroon, Chasteleyn, De Haan	1708-12-31	XXVII
+9503215	9526955	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Zwaardecroon, Chasteleyn, De Haan	1709-1-15	XXVIII
+9526957	9539805	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Zwaardecroon, Chasteleyn, De Haan	1709-2-18	XXIX
+9539807	9541197	6	Van Hoorn, Van Riebeeck, Van Swoll, Douglas, De Vos, Van Rijn, Chasteleyn, Zwaardecroon, De Haan, De Haeze, Tolling, Castelyn	1709-10-29	XXX
+9541199	9601236	6	Van Riebeeck, Douglas, Van Swoll, De Vos, Chasteleyn, Zwaardecroon, De Haan, De Haeze, Tolling, Castelyn	1709-11-30	I
+9601238	9629495	6	Van Riebeeck, Douglas, Van Swoll, De Vos, Chasteleyn, Zwaardecroon, Rooselaar, De Haan, De Haeze, Tolling, Castelyn	1710-1-15	II
+9629497	9635136	6	Van Riebeeck, Douglas, Van Swoll, De Vos, Chasteleyn, Zwaardecroon, Rooselaar, De Haan, De Haeze, Tolling, Castelyn	1710-2-19	III
+9635138	9712584	6	Van Riebeeck, Douglas, Van Swoll, De Vos, Chasteleyn, De Haan, Tolling, Zwaardecroon, Rooselaar, De Haeze, Castelyn, Van Steelant, Timmerman, Faes, d'Ableing	1710-11-29	IV
+9712586	9744186	6	Van Riebeeck, Douglas, Van Swoll, Chasteleyn, De Haan, Tolling, Zwaardecroon, Rooselaar, De Haeze, Castelyn, Van Steelant, Timmerman, Faes, d'Ableing	1711-1-15	V
+9744188	9777725	6	Van Riebeeck, Douglas, Van Swoll, Chasteleyn, De Haan, Tolling, Zwaardecroon, De Haeze, Castelyn, Van Steelant, Timmerman, Faes, d'Ableing	1711-2-18	VI
+9777727	9867861	6	Van Riebeeck, Douglas, Van Swoll, Chasteleyn, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1711-11-30	VII
+9867863	9916785	6	Van Riebeeck, Douglas, Van Swoll, Chasteleyn, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Van Steelant, Timmerman, Faes, d'Ableing	1712-1-15	VIII
+9916787	9929954	6	Van Riebeeck, Douglas, Van Swoll, Chasteleyn, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Van Steelant, Timmerman, Faes, d'Ableing	1712-2-12	IX
+9929956	10011545	6	Van Riebeeck, Douglas, Van Swoll, Chasteleyn, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1712-11-25	X
+10011547	10043143	6	Van Riebeeck, Douglas, Van Swoll, Chasteleyn, De Haan, Castelyn, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1713-1-13	XI
+10043145	10056974	6	Van Riebeeck, Douglas, Van Swoll, Chasteleyn, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1713-2-11	XII
+10056976	10113763	7	Van Swoll, Douglas, Chasteleyn, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1713-11-20	I
+10113765	10145306	7	Van Swoll, Douglas, Chasteleyn, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1714-1-11	II
+10145308	10169693	7	Van Swoll, Douglas, Chasteleyn, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1714-2-26	III
+10169695	10279264	7	Van Swoll, Douglas, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1714-11-26	IV
+10279266	10308960	7	Van Swoll, Douglas, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1715-1-14	V
+10308962	10324946	7	Van Swoll, Douglas, De Haan, Castelyn, Tolling, Zwaardecroon, Rooselaar, De Haeze, Timmerman, Faes, d'Ableing	1715-2-18	VI
+10324948	10330219	7	Van Swoll, Douglas, De Haan, Castelyn, Zwaardecroon, De Haeze, Tolling, Rooselaar, Timmerman, Faes, d'Ableing, De Groot	1715-9-13	VII
+10330221	10374460	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Tolling, Rooselaar, Timmerman, Faes, d'Ableing, De Groot	1715-11-28	VIII
+10374462	10400308	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Tolling, Rooselaar, Timmerman, Faes, d'Ableing, De Groot	1716-1-15	IX
+10400310	10412585	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Tolling, Timmerman, Faes, d'Ableing, De Groot	1716-2-19	X
+10412587	10415002	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot, Six	1716-9-18	XI
+10415004	10478254	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot, Six	1716-11-30	XII
+10478256	10499618	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot, Six	1717-1-15	XIII
+10499620	10518280	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot, Six	1717-3-23	XIV
+10518282	10558836	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, Timmerman, De Haeze, Faes, Tolling, d'Ableing, De Groot, Six, Hasselaar	1717-11-30	XV
+10558838	10576340	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot, Six, Hasselaar	1718-1-15	XVI
+10576342	10598349	7	Van Swoll, Castelyn, De Haan, Zwaardecroon, De Haeze, Timmerman, Faes, Tolling, d'Ableing, De Groot, Six, Hasselaar	1718-3-20	XVII
+10598351	10629250	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, Tolling, d'Ableing, De Groot, Backer, Hasselaar, Huysman	1718-12-6	I
+10629252	10644704	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, Tolling, d'Ableing, De Groot, Backer, Hasselaar, Huysman	1719-1-15	II
+10644706	10674810	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, Tolling, d'Ableing, De Groot, Backer, Hasselaar, Huysman	1719-3-28	III
+10674812	10730609	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, Tolling, d'Ableing, Backer, Hasselaar, Huysman	1719-11-30	IV
+10730611	10743593	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, Tolling, d'Ableing, Hasselaar, Huysman	1720-1-15	V
+10743595	10756066	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, Tolling, d'Ableing, Huysman	1720-3-26	VI
+10756068	10765442	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Crudop, Durven	1720-10-29	VII
+10765444	10806611	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop, Durven	1720-11-30	VIII
+10806613	10834747	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop, Durven	1721-1-15	IX
+10834749	10837160	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop, Durven, Blom	1721-2-4	X
+10837162	10855005	7	Zwaardecroon, Castelyn, De Haan, Timmerman, Faes, d'Ableing, Huysman, Tolling, Hasselaar, Crudop, Durven, Blom	1721-3-31	XI
+10855007	10862125	7	Zwaardecroon, Castelyn, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Durven, Blom, Vuyst	1721-9-19	XII
+10862127	10903749	7	Zwaardecroon, Castelyn, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Durven, Blom, Vuyst	1721-11-30	XIII
+10903751	10924796	7	Zwaardecroon, Castelyn, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Blom, Vuyst	1722-1-20	XIV
+10924798	10943074	7	Zwaardecroon, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Blom, Vuyst	1722-3-31	XV
+10943076	10946583	7	Zwaardecroon, De Haan, Faes, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Blom	1722-9-25	XVI
+10946585	10984368	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Blom	1722-11-30	XVII
+10984370	11003341	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck, Blom	1723-1-19	XVIII
+11003343	11012654	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck, Blom	1723-3-19	XIX
+11012656	11016807	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck, Blom	1723-9-21	XX
+11016809	11017030	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Bergman, Durven, Van Dishoeck, Blom	1723-10-15	XXII
+11017032	11042246	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Durven, Van Dishoeck, Blom	1723-12-3	XXII
+11042248	11054644	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Durven, Van Dishoeck, Blom	1724-1-19	XXIII
+11054646	11072430	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Crudop, Tolling, Durven, Van Dishoeck, Blom	1724-3-28	XXIV
+11072432	11072977	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Van Dishoeck, Blom	1724-4-2	XXV
+11072979	11077112	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Van Dishoeck, Blom, Sipman	1724-9-26	XXVI
+11077114	11125649	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Van Dishoeck, Blom, Sipman	1724-11-30	XXVII
+11125651	11127034	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Blom, Sipman	1724-12-4	XXVIII
+11127036	11127659	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Blom, Sipman	1724-12-14	XXIX
+11127661	11138403	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Tolling, Durven, Blom, Vuyst, Sipman	1725-1-30	XXX
+11138405	11154636	7	Zwaardecroon, De Haan, Huysman, Hasselaar, Durven, Blom, Vuyst	1725-3-26	XXXI
+11154638	11162215	8	De Haan, Huysman, Hasselaar, Blom, Durven, Vuyst, Gabry, Dubbeldekop, Van der Schuer	1725-10-22	I
+11162217	11189331	8	De Haan, Huysman, Hasselaar, Blom, Durven, Vuyst, Gabry, Dubbeldekop, Van der Schuer	1725-11-30	II
+11189333	11210483	8	De Haan, Huysman, Hasselaar, Blom, Durven, Vuyst, Gabry, Dubbeldekop, Van der Schuer	1726-1-26	III
+11210485	11232815	8	De Haan, Huysman, Hasselaar, Blom, Durven, Vuyst, Gabry, Dubbeldekop, Van der Schuer	1726-3-27	IV
+11232817	11243553	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Westpalm, Van Baerle	1726-10-21	V
+11243555	11286185	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Westpalm, Van Baerle	1726-12-5	VI
+11286187	11300599	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Westpalm, Van Baerle	1727-1-31	VII
+11300601	11315168	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Westpalm, Van Baerle	1727-3-31	VIII
+11315170	11320808	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen	1727-10-27	IX
+11320810	11321394	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen	1727-10-27	IXa
+11321396	11352882	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen	1727-11-30	X
+11352884	11377834	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Dubbeldekop, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen	1728-1-31	XI
+11377836	11389707	8	De Haan, Huysman, Hasselaar, Blom, Durven, Gabry, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen	1728-3-31	XII
+11389709	11403911	8	De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen	1728-10-31	XIII
+11403913	11454150	8	De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen	1728-12-8	XIV
+11454152	11454636	8	De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen	1728-12-8	XIVa
+11454638	11467580	8	De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen	1729-1-31	XV
+11467582	11468613	8	De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen	1729-2-25	XVI
+11468615	11478012	8	De Haan, Huysman, Hasselaar, Blom, Durven, Van der Schuer, Versluys, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen	1729-3-29	XVII
+11478014	11489485	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	1729-7-18	I
+11489487	11495171	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	1729-9-30	II
+11495173	11497949	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	1729-9-30	III
+11497951	11498317	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	1729-11-7	IV
+11498319	11621583	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	1729-11-30	V
+11621585	11621865	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	None-None-None	VI
+11621867	11671583	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	1730-1-31	VII
+11671585	11672824	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	1730-2-27	VIII
+11672826	11711374	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt	1730-3-23	IX
+11711376	11742708	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt, Valckenier, Van Cloon, Hendrix	1730-10-17	X
+11742710	11743860	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt, Valckenier, Van Cloon, Hendrix	1730-10-17	XI
+11743862	11925383	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Oostwalt, Valckenier, Van Cloon, Hendrix	1730-11-30	XII
+11925385	11954935	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Oostwalt, Valckenier, Van Cloon, Hendrix	1731-2-2	XIII
+11954937	11959000	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Heyningen, Van Bayen, Valckenier, Van Cloon, Hendrix	1731-3-31	XIV
+11959002	11997172	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Bayen, Valckenier, Van Cloon, Pielat, Schaghen	1731-10-12	XV
+11997174	12052295	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Van Cloon, Pielat, Schaghen	1731-12-28	XVI
+12052297	12120474	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Van Cloon, Pielat, Schaghen	1732-2-14	XVII
+12120476	12124296	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Van Cloon, Pielat, Schaghen	1732-2-14	XVIII
+12124298	12158143	9	Durven, Hasselaar, Blom, Van der Schuer, Westpalm, Van Baerle, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Van Cloon, Pielat, Schaghen, Van der Maas	1732-3-25	XIX
+12158145	12191472	9	Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens	1732-10-25	I
+12191474	12310842	9	Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens, Coyett	1732-12-8	II
+12310844	12311134	9	Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens, Coyett	1732-12-8	III
+12311136	12314736	9	Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens, Coyett	1732-12-8	IV
+12314738	12419853	9	Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Schaghen, Patras, Thedens, Coyett	1733-2-10	V
+12419855	12450538	9	Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Schaghen, Patras, Thedens, Coyett	1733-3-31	VI
+12450540	12452723	9	Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens, Coyett	1733-3-31	VII
+12452725	12525375	9	Van Cloon, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens, Van Imhoff, Van Arrewijne	1733-10-31	VIII
+12525377	12568733	9	Van Cloon, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens, Coyett, Van Imhoff, Van Arrewijne, Bernard	1733-12-22	IX
+12568735	12597244	9	Van Cloon, Blom, Van der Schuer, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Pielat, Schaghen, Patras, Thedens, Coyett, Van Imhoff, Van Arrewijne	1734-3-7	X
+12597246	12636036	9	Van Cloon, Blom, Westpalm, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Pielat, Schaghen, Patras, Thedens, Coyett, Van Imhoff	1734-3-31	XI
+12636038	12643343	9	Van Cloon, Blom, De Witte, Van Schooten, Van Bayen, Oostwalt, Valckenier, Pielat, Schaghen, Patras, Thedens, Coyett, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen	1734-10-6	XII
+12643345	12687859	9	Van Cloon, Blom, Van Bayen, Oostwalt, Valckenier, Schaghen, Patras, Thedens, Coyett, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen	1734-11-30	XIII
+12687861	12688124	9	Van Cloon, Blom, Van Bayen, Valckenier, Schaghen, Patras, Thedens, Coyett, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen	1735-1-1	XIV
+12688126	12727265	9	Patras, Blom, Van Bayen, Valckenier, Schaghen, Thedens, Coyett, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen	1735-3-31	I
+12727267	12756018	9	Patras, Blom, Van Bayen, Valckenier, Schaghen, Thedens, Coyett, Van Imhoff, Bernard, De Haeze, Van Schinne, Van Suchtelen	1735-10-12	II
+12756020	12795447	9	Patras, Blom, Van Bayen, Valckenier, Schaghen, Thedens, Coyett, Van Imhoff, Bernard, De Haeze, Van Schinne, Van Suchtelen	1735-12-16	III
+12795449	12811756	9	Patras, Blom, Van Bayen, Valckenier, Schaghen, Thedens, Coyett, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen	1736-1-23	IV
+12811758	12942732	9	Patras, Blom, Van Bayen, Valckenier, Schaghen, Thedens, Coyett, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes	1736-4-6	V
+12942734	12992708	9	Patras, Blom, Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne	1736-10-24	VI
+12992710	13032507	9	Patras, Blom, Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne	1736-12-31	VII
+13032509	13032741	9	Patras, Blom, Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne	1737-2-5	VIII
+13032743	13076628	9	Patras, Blom, Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne	1737-4-2	IX
+13076630	13077802	9	Patras, Blom, Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne	1737-4-2	X
+13077804	13217534	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Wouters, Sautijn	1737-11-28	I
+13217536	13297131	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Wouters, Sautijn	1738-1-25	II
+13297133	13318049	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Wouters, Sautijn	1738-1-25	IIa
+13318051	13374363	10	Valckenier, Schaghen, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Wouters	1738-3-31	III
+13374365	13548357	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Wouters, Guillot	1738-11-10	IV
+13548359	13794602	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot	1739-1-31	V
+13794604	13912229	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot	1739-4-5	VI
+13912231	14220042	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius	1739-12-12	VII
+14220044	14261204	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius	1739-12-12	VIIa
+14261206	14388896	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Crul, Macaré, Nolthenius	1740-1-12	VIII
+14388898	14454663	10	Valckenier, Schaghen, Thedens, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Crul, Macaré, Nolthenius, Van Berendregt	1740-3-31	IX
+14454665	14455104	10	Valckenier, Schaghen, Thedens, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius, Van Aerden, Lakeman	1740-10-31	X
+14455106	14456791	10	Valckenier, Schaghen, Thedens, Van Imhoff, De Haeze, Van Schinne, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius, Van Aerden	1740-12-1	XI
+14456793	14714546	10	Valckenier, Schaghen, Thedens, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius, Van Aerden	1741-1-10	XII
+14714548	14789254	10	Valckenier, Schaghen, Thedens, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius, Van Aerden	1741-3-25	XIII
+14789256	15152139	10	Valckenier, Schaghen, Thedens, Van Suchtelen, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius, Van Aerden	1741-11-6	XIV
+15152141	15212838	10	Thedens, Schaghen, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Macaré, Nolthenius, Van Aerden	1741-12-6	I
+15212840	15305923	10	Thedens, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Nolthenius, Van Aerden	1742-1-14	II
+15305925	15334000	10	Thedens, Van Suchtelen, Pasques de Chavonnes, Duquesne, Guillot, Van Berendregt, Crul, Nolthenius, Van Aerden	1742-2-10	III
+15334002	15459566	10	Thedens, Van Suchtelen, Pasques de Chavonnes, Guillot, Van Berendregt, Crul, Nolthenius, Van Aerden	1742-4-5	IV
+15459568	15915553	10	Thedens, Pasques de Chavonnes, Guillot, Van Berendregt, Crul, Nolthenius, Van Aerden, Lakeman, Van Spreekens, Cluysenaar	1742-12-5	V
+15915555	15925833	10	Thedens, Nolthenius, Pasques de Chavonnes, Lakeman, Guillot, Van Spreekens, Van Berendregt, Cluysenaar, Van Aerden, Crul	1742-12-17	VI
+15925835	15976037	10	Thedens, Nolthenius, Pasques de Chavonnes, Lakeman, Guillot, Van Spreekens, Van Berendregt, Cluysenaar, Van Aerden, Crul	1743-1-11	VII
+15976039	16216663	10	Thedens, Pasques de Chavonnes, Nolthenius, Van Berendregt, Lakeman, Van Spreekens, Cluysenaar, Crul	1743-4-5	VIII
+16216665	16230470	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar	1743-7-3	I
+16230472	16254515	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar	1743-10-15	II
+16254517	16255595	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar	1743-11-5	III
+16255597	16256248	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman	1743-11-5	IV
+16256250	16388543	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar	1743-12-31	V
+16388545	16389333	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar, Overbeek, Van den Bosch, Sichterman, Schuylenburg, Mossel	1744-10-8	VI
+16389335	16402014	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar, Overbeek, Van den Bosch, Sichterman, Schuylenburg, Mossel	1744-10-26	VII
+16402016	16402288	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar, Overbeek, Van den Bosch, Schuylenburg, Mossel	1744-11-3	VIII
+16402290	16503655	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar, Overbeek, Van den Bosch, Schuylenburg, Mossel	1744-12-31	IX
+16503657	16514523	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Lakeman, Cluysenaar, Overbeek, Schuylenburg, Mossel	1745-3-10	X
+16514525	16518728	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Cluysenaar, Overbeek, Van den Bosch, Schuylenburg, Mossel	1745-10-20	XI
+16518730	16520252	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Cluysenaar, Overbeek, Van den Bosch, Schuylenburg, Mossel, Van Broyel	1745-11-12	XII
+16520254	16734881	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Cluysenaar, Overbeek, Van den Bosch, Schuylenburg, Mossel, Van Broyel	1745-12-31	XIII
+16734883	16735798	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Cluysenaar, Overbeek, Van den Bosch, Schuylenburg, Mossel, Van Broyel	1746-1-28	XIV
+16735800	16764361	11	Van Imhoff, Crul, Nolthenius, Van Aerden, Cluysenaar, Overbeek, Van den Bosch, Schuylenburg, Mossel, Van Broyel	1746-3-15	XV
+16764363	16764577	11	Van Imhoff, Crul, Nolthenius, Van Aerden, Overbeek, Van den Bosch, Schuylenburg, Mossel, Van Broyel	1746-3-15	XVI
+16764579	16768656	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Van Aerden, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Theling	1746-10-12	XVII
+16768658	16770497	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Theling	1746-11-25	XVIII
+16770499	16791810	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Theling	1746-11-25	XIX
+16791812	17007718	11	Van Imhoff, Pasques de Chavonnes, Crul, Nolthenius, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Theling	1746-12-31	XX
+17007720	17014038	11	Van Imhoff, Crul, Nolthenius, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Theling	1747-3-31	XXI
+17014040	17016585	11	Van Imhoff, Crul, Nolthenius, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Theling	1747-3-31	XXII
+17016587	17069510	11	Van Imhoff, Nolthenius, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Theling	1747-9-29	XXIII
+17069512	17072448	11	Van Imhoff, Nolthenius, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Theling	1747-10-20	XXIV
+17072450	17296106	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel	1747-12-31	XXV
+17296108	17303969	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel	1748-1-13	XXVI
+17303971	17309192	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel	1748-1-23	XXVII
+17309194	17322480	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Van Broyel, Verijssel	1748-3-30	XXVIII
+17322482	17324497	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel	1748-5-25	XXIX
+17324499	17381992	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Van der Waeyen, Van der Parra	1748-10-31	XXX
+17381994	17618420	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Van der Waeyen, Van der Parra, Mersen	1748-12-31	XXXI
+17618422	17657496	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Van der Waeyen, Van der Parra, Mersen	1749-4-30	XXXII
+17657498	17662385	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Van der Waeyen, Van der Parra, Mersen	1749-9-22	XXXIII
+17662387	17689240	11	Van Imhoff, Cluysenaar, Overbeek, Van den Bosch, Mossel, Van Broyel, Verijssel, Van der Waeyen, Van der Parra, Mersen	1749-10-17	XXXIV
+17689242	17695083	11	Van Imhoff, Cluysenaar, Overbeek, Mossel, Van Broyel, Verijssel, Van der Waeyen, Van der Parra, Mersen, Van der Spar	1749-11-14	XXXV
+17695085	17902004	11	Van Imhoff, Cluysenaar, Overbeek, Mossel, Van Broyel, Verijssel, Van der Waeyen, Van der Parra	1749-12-31	XXXVI
+17902006	17921725	11	Van Imhoff, Cluysenaar, Overbeek, Mossel, Van Broyel, Verijssel, Van der Waeyen, Van der Parra, Van der Spar	1750-3-5	XXXVII
+17921727	17932289	11	Van Imhoff, Cluysenaar, Overbeek, Mossel, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar	1750-4-14	XXXVIII
+17932291	17938111	11	Van Imhoff, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Huyghens	1750-9-4	XXXIX
+17938113	17948193	11	Van Imhoff, Cluysenaar, Overbeek, Mossel, Van Broyel, Van der Waeyen, Van der Spar, Huyghens	1750-9-29	XL
+17948195	17970246	11	Van Imhoff, Cluysenaar, Overbeek, Mossel, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Huyghens	1750-9-29	XLI
+17970248	17972297	12	Mossel, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Huyghens, Loten	1750-12-1	I
+17972299	18214438	12	Mossel, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Huyghens, Loten	1750-12-31	II
+18214440	18214665	12	Mossel, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Huyghens, Loten	1751-1-21	III
+18214667	18226898	12	Mossel, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Loten	1751-4-8	IV
+18226900	18227106	12	Mossel, Cluysenaar, Overbeek, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Loten	1751-4-8	V
+18227108	18243544	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Loten, Van Gollenesse	1751-9-24	VI
+18243546	18493001	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Loten, Van Gollenesse, Van de Velde	1751-12-31	VII
+18493003	18493251	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Loten, Van Gollenesse, Van de Velde	1751-12-31	VIII
+18493253	18496844	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Loten, Van Gollenesse, Van de Velde	1752-1-18	IX
+18496846	18505836	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde	1752-3-31	X
+18505838	18514047	12	Mossel, Cluysenaar, Van der Waeyen, Van der Parra, Van der Spar, Loten, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel	1752-6-6	XI
+18514049	18538262	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel	1752-10-5	XII
+18538264	18542171	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel	1752-10-10	XIII
+18542173	18772361	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel	1752-12-30	XIV
+18772363	18776227	12	Mossel, Cluysenaar, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel	1752-12-31	XV
+18776229	18781471	12	Mossel, Van Broyel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel	1753-8-13	XVI
+18781473	18804111	12	Mossel, Van Broyel, Van der Waeyen, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel	1753-10-1	XVII
+18804113	19107250	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman	1753-12-31	XVIII
+19107252	19111146	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman	1753-12-31	XIX
+19111148	19136587	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van Gollenesse, Van de Velde, Van Rheede, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk	1754-10-15	XX
+19136589	19428282	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk	1754-12-31	XXL
+19428284	19430842	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk	1754-12-31	XXII
+19430844	19431091	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Riemsdijk	1755-1-15	XXIII
+19431093	19456117	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, Schreuder, De Klerk	1755-10-15	XXIV
+19456119	19456571	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, Schreuder, De Klerk	1755-12-31	XXV
+19456573	19794487	12	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, Schreuder, De Klerk	1755-12-31	XXVI
+19794489	19805934	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, Schreuder, De Klerk	1756-4-13	XXVII
+19805936	19819877	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk	1756-10-15	XXVIII
+19819879	20015723	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk	1756-12-31	XXIX
+20015725	20020762	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk, Loten	1757-4-25	XXX
+20020764	20027952	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk, Loten	1757-10-15	XXXI
+20027954	20158571	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk	1757-12-31	XXXII
+20158573	20163101	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Nijs, De Klerk	1758-4-25	XXXIII
+20163103	20178657	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk	1758-10-15	XXXIV
+20178659	20313791	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Riemsdijk, De Klerk	1758-12-31	XXXV
+20313793	20321390	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk	1759-4-30	XXXVI
+20321392	20338303	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, Van de Velde, Van Rheede, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk	1759-10-15	XXXVII
+20338305	20450216	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk, Van Mijlendonk	1759-12-31	XXXVIII
+20450218	20457305	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk, Van Mijlendonk	1760-4-25	XXXIX
+20457307	20474671	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hooreman, Van Hohendorf, Van Riemsdijk, De Klerk, Van Mijlendonk	1760-10-15	XL
+20474673	20595243	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hooreman, Van Riemsdijk, De Klerk, Van Mijlendonk	1760-12-31	XLI
+20595245	20602724	13	Mossel, Van der Waeyen, Van der Parra, Van der Spar, De Nijs, Van Bazel, Hooreman, Van Riemsdijk, De Klerk, Van Mijlendonk	1761-4-29	XLII
+20602726	20613716	13	None	1761-4-25	None
+20613718	20640724	14	Van der Parra, Van der Spar, Van Bazel, Hooreman, Van Riemsdijk, De Klerk, Van Mijlendonk, Romp	1761-10-17	I
+20640726	20736278	14	Van der Parra, Hooreman, Van der Spar, Van Riemsdijk, Van Bazel, De Klerk, Van Ossenberg, Van Mijlendonk, Romp	1761-12-31	II
+20736280	20745539	14	Van der Parra, Hooreman, Van Riemsdijk, Van Bazel, Schreuder, De Klerk, Van Ossenberg, Romp	1762-5-4	III
+20745541	20761618	14	Van der Parra, Hooreman, Van der Spar, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Romp, Hilgers	1762-10-18	IV
+20761620	20829108	14	Van der Parra, Hooreman, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Romp, Hilgers	1762-12-31	V
+20829110	20843723	14	Van der Parra, Hooreman, Van der Spar, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Romp, Hilgers	1763-5-10	VI
+20843725	20862587	14	Van der Parra, Hooreman, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Romp, Hilgers, Haksteen, Alting	1763-10-18	VII
+20862589	20950511	14	Van der Parra, Hooreman, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Romp, Hilgers, Haksteen, Alting	1763-12-31	VIII
+20950513	20958276	14	Van der Parra, Hooreman, Van der Spar, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Taillefert, Romp, Hilgers, Haksteen, Alting	1764-5-8	IX
+20958278	20979845	14	Van der Parra, Hooreman, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Taillefert, Romp, Hilgers, Haksteen, Alting	1764-10-20	X
+20979847	21053630	14	Van der Parra, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Taillefert, Romp, Hilgers, Haksteen, Alting	1764-12-31	XI
+21053632	21061282	14	Van der Parra, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Van Ossenberg, Taillefert, Romp, Hilgers, Alting	1765-5-8	XII
+21061284	21086403	14	Van der Parra, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Harting, Taillefert, Romp, Van Ossenberg, Hilgers, Alting	1765-10-20	XIII
+21086405	21168863	14	Van der Parra, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Harting, Taillefert, Romp, Van Ossenberg, Hilgers, Alting, Hasselaar	1765-12-31	XIV
+21168865	21172624	14	Van der Parra, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Harting, Taillefert, Romp, Van Ossenberg, Hilgers, Alting, Hasselaar	1766-4-8	XV
+21172626	21201776	14	Van der Parra, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Harting, Taillefert, Romp, Van Ossenberg, Hilgers, Alting, Hasselaar	1766-10-21	XVI
+21201778	21266901	14	Van der Parra, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Romp, Van Ossenberg, Hilgers, Alting, Hasselaar	1766-12-31	XVII
+21266903	21273824	14	Van der Parra, Van Riemsdijk, Schreuder, Van Bazel, De Klerk, Romp, Van Ossenberg, Hilgers, Alting, Hasselaar	1767-5-15	XVIII

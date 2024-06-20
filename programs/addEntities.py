@@ -133,7 +133,7 @@ class AddEntities:
             ),
             eoccs=dict(
                 valueType="str",
-                description="entity occurrences",
+                description="from entity nodes to their occurrence nodes",
             )
         )
 
