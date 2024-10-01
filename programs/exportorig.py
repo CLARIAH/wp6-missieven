@@ -2,7 +2,7 @@ from tf.core.files import initTree
 
 
 class Portion:
-    def __init__(self, F, up, nodes, vl, lt):
+    def __init__(self, F, up_para, nodes, vl, lt):
         texts = []
         pos = 0
         folioRefs = {}
@@ -10,6 +10,7 @@ class Portion:
         pos = 0
 
         para = None
+        page = None
 
         for (tp, n) in nodes:
             tx = f"{F.trans.v(n)}{F.punc.v(n)}"
@@ -18,7 +19,7 @@ class Portion:
                 folioRefs.setdefault(pos, "")
                 folioRefs[pos] += tx
             elif tp == "orig":
-                thisPara = up(n)
+                thisPara = up_para(n)
 
                 if thisPara != para:
                     if para is not None:
@@ -34,7 +35,7 @@ class Portion:
         self.pos = len(self.texts)
         self.annotations = dict(folio=folioRefs)
         date = f"{F.year.v(lt)}-{F.month.v(lt)}-{F.day.v(lt)}"
-        self.meta = (F.n.v(vl), F.author.v(lt), date, F.seq.v(lt))
+        self.meta = (F.n.v(vl), F.page.v(lt), F.author.v(lt), date, F.seq.v(lt))
 
 
 class Text:
@@ -84,7 +85,7 @@ class Text:
             fh.write("".join(self.texts))
 
         with open(f"{destDir}/portions.tsv", "w") as fh:
-            fh.write("start\tend\tvolume\tauthor\tdate\tletter\n")
+            fh.write("start\tend\tvolume\tstartpage\tauthor\tdate\tletter\n")
 
             for itemData in self.itemList:
                 fh.write("\t".join(str(x) for x in itemData) + "\n")
@@ -111,7 +112,7 @@ class Export:
         info = app.info
         indent = app.indent
 
-        def up(n):
+        def up_para(n):
             paras = L.u(n, otype="para")
             return paras[0] if len(paras) else 0
 
@@ -138,7 +139,7 @@ class Export:
                     if tp is not None:
                         nodes.append((tp, wd))
 
-                P = Portion(F, up, nodes, vl, lt)
+                P = Portion(F, up_para, nodes, vl, lt)
                 Tx.add(P)
 
         info("done")
